@@ -29,6 +29,15 @@ import Article8 from "./pages/blog/Article8";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
 
+// Update document title and meta tags
+if (typeof document !== 'undefined') {
+  document.title = 'Psicólogo Jorge Dias - Psicoterapia Clínica Online';
+  const metaDescription = document.querySelector('meta[name="description"]');
+  if (metaDescription) {
+    metaDescription.setAttribute('content', 'Psicoterapia clínica com Jorge Dias (CRP 08/31462). Especializado em crise existencial, autossabotagem e relacionamentos. Atendimento online Brasil e presencial em Presidente Epitácio - SP.');
+  }
+}
+
 function Router() {
   return (
     <Switch>

@@ -9,7 +9,7 @@ export default function Home() {
       <section className="bg-background py-16 md:py-24">
         <div className="container max-w-4xl mx-auto px-4 text-center">
           <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
-            Psicoterapia Clínica para Quem Busca Autoconhecimento Profundo
+            Psicólogo Jorge Dias - Psicoterapia Clínica para Autoconhecimento Profundo
           </h1>
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto">
             Investigação filosófica e clínica rigorosa para quem se sente perdido, sem propósito ou preso em ciclos repetitivos. Atendimento online para todo o mundo e presencial em Presidente Epitácio - SP.

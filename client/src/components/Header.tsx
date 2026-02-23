@@ -11,7 +11,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/">
           <a className="font-display text-2xl font-bold text-primary hover:text-accent transition-colors">
-            Psicoterapia Clínica
+            Psicólogo Jorge Dias
           </a>
         </Link>
 

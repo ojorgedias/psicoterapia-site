@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* About */}
           <div>
-            <h3 className="font-display text-lg font-semibold mb-2">Psicoterapia Clínica</h3>
+            <h3 className="font-display text-lg font-semibold mb-2">Psicólogo Jorge Dias</h3>
             <p className="text-xs text-sidebar-foreground/80 font-semibold mb-3">
               {PSYCHOLOGIST.name} - CRP {PSYCHOLOGIST.crp}
             </p>
