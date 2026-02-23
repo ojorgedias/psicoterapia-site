@@ -26,9 +26,9 @@ export default function Header() {
           <Link href="/blog">
             <a className="text-foreground hover:text-primary transition-colors">Blog</a>
           </Link>
-          <Link href="/contato">
-            <a className="cta-button">Agendar Consulta</a>
-          </Link>
+          <a href="/contato" className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity duration-200">
+            Agendar Consulta
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -54,9 +54,9 @@ export default function Header() {
             <Link href="/blog">
               <a className="text-foreground hover:text-primary transition-colors">Blog</a>
             </Link>
-            <Link href="/contato">
-              <a className="cta-button block text-center">Agendar Consulta</a>
-            </Link>
+            <a href="/contato" className="block text-center inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity duration-200">
+              Agendar Consulta
+            </a>
           </div>
         </div>
       )}
