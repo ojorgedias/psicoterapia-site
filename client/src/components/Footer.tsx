@@ -1,4 +1,5 @@
 import { Link } from "wouter";
+import { PSYCHOLOGIST } from "@/../../shared/const";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -6,13 +7,38 @@ export default function Footer() {
   return (
     <footer className="bg-sidebar text-sidebar-foreground mt-16">
       <div className="container max-w-6xl mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* About */}
           <div>
-            <h3 className="font-display text-lg font-semibold mb-4">Psicoterapia Clínica</h3>
+            <h3 className="font-display text-lg font-semibold mb-2">Psicoterapia Clínica</h3>
+            <p className="text-xs text-sidebar-foreground/80 font-semibold mb-3">
+              {PSYCHOLOGIST.name} - CRP {PSYCHOLOGIST.crp}
+            </p>
             <p className="text-sm text-sidebar-foreground/80">
               Atendimento psicológico online focado em autoconhecimento profundo, filosofia e pensamento integrativo.
             </p>
+          </div>
+
+          {/* Services */}
+          <div>
+            <h3 className="font-display text-lg font-semibold mb-4">Serviços</h3>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link href="/terapia/adultos/crise-existencial">
+                  <a className="hover:text-sidebar-accent transition-colors">Terapia para Adultos</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/terapia/casais/conflitos-casal">
+                  <a className="hover:text-sidebar-accent transition-colors">Terapia de Casal</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/autoridade/psicologia-espiritualidade">
+                  <a className="hover:text-sidebar-accent transition-colors">Psicologia e Espiritualidade</a>
+                </Link>
+              </li>
+            </ul>
           </div>
 
           {/* Quick Links */}
@@ -20,13 +46,13 @@ export default function Footer() {
             <h3 className="font-display text-lg font-semibold mb-4">Navegação</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/">
-                  <a className="hover:text-sidebar-accent transition-colors">Home</a>
+                <Link href="/sobre">
+                  <a className="hover:text-sidebar-accent transition-colors">Sobre</a>
                 </Link>
               </li>
               <li>
-                <Link href="/sobre">
-                  <a className="hover:text-sidebar-accent transition-colors">Sobre</a>
+                <Link href="/como-funciona">
+                  <a className="hover:text-sidebar-accent transition-colors">Como Funciona</a>
                 </Link>
               </li>
               <li>
@@ -42,20 +68,52 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
+          {/* Contact Info */}
           <div>
             <h3 className="font-display text-lg font-semibold mb-4">Contato</h3>
-            <p className="text-sm text-sidebar-foreground/80 mb-2">
-              Presidente Epitácio - SP
-            </p>
-            <p className="text-sm text-sidebar-foreground/80">
-              Atendimento online para todo o Brasil e exterior
-            </p>
+            <ul className="space-y-3 text-sm">
+              <li>
+                <a
+                  href={`mailto:${PSYCHOLOGIST.email}`}
+                  className="text-sidebar-foreground/80 hover:text-sidebar-accent transition-colors break-all"
+                >
+                  {PSYCHOLOGIST.email}
+                </a>
+              </li>
+              <li>
+                <a
+                  href={PSYCHOLOGIST.whatsappLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sidebar-foreground/80 hover:text-sidebar-accent transition-colors font-semibold"
+                >
+                  WhatsApp: (41) 98515-5583
+                </a>
+              </li>
+              <li className="text-sidebar-foreground/80 text-xs">
+                Online: Brasil e Exterior
+              </li>
+              <li className="text-sidebar-foreground/80 text-xs">
+                Presencial: {PSYCHOLOGIST.location}
+              </li>
+            </ul>
           </div>
         </div>
 
-        <div className="border-t border-sidebar-border pt-8 text-center text-sm text-sidebar-foreground/60">
-          <p>&copy; {currentYear} Psicoterapia Clínica. Todos os direitos reservados.</p>
+        <div className="border-t border-sidebar-border pt-8">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-4 text-xs">
+            <Link href="/politica-privacidade">
+              <a className="hover:text-sidebar-accent transition-colors">Política de Privacidade</a>
+            </Link>
+            <span className="hidden md:inline">|</span>
+            <Link href="/termos-uso">
+              <a className="hover:text-sidebar-accent transition-colors">Termos de Uso</a>
+            </Link>
+          </div>
+          <p className="text-center text-xs text-sidebar-foreground/60">
+            &copy; {currentYear} Psicoterapia Clínica - {PSYCHOLOGIST.name} (CRP {PSYCHOLOGIST.crp}). Todos os direitos
+            reservados.
+          </p>
         </div>
       </div>
     </footer>

@@ -26,6 +26,8 @@ import Article5 from "./pages/blog/Article5";
 import Article6 from "./pages/blog/Article6";
 import Article7 from "./pages/blog/Article7";
 import Article8 from "./pages/blog/Article8";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfUse from "./pages/TermsOfUse";
 
 function Router() {
   return (
@@ -56,6 +58,9 @@ function Router() {
       <Route path={"/blog/guerra-sexos"} component={Article6} />
       <Route path={"/blog/despertar-espiritual"} component={Article7} />
       <Route path={"/blog/sindrome-impostor"} component={Article8} />
+      {/* Legal Pages */}
+      <Route path={"/politica-privacidade"} component={PrivacyPolicy} />
+      <Route path={"/termos-uso"} component={TermsOfUse} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

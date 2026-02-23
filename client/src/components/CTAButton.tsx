@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { ReactNode } from "react";
+import { PSYCHOLOGIST } from "@/../../shared/const";
 
 interface CTAButtonProps {
   href?: string;
@@ -7,6 +8,8 @@ interface CTAButtonProps {
   children: ReactNode;
   variant?: "primary" | "secondary";
   className?: string;
+  whatsapp?: boolean;
+  external?: boolean;
 }
 
 export default function CTAButton({
@@ -15,6 +18,8 @@ export default function CTAButton({
   children,
   variant = "primary",
   className = "",
+  whatsapp = false,
+  external = false,
 }: CTAButtonProps) {
   const baseClass = "inline-block px-6 py-3 rounded-lg font-semibold transition-opacity duration-200";
   const variantClass =
@@ -30,8 +35,18 @@ export default function CTAButton({
     );
   }
 
+  const finalHref = whatsapp ? PSYCHOLOGIST.whatsappLink : href;
+
+  if (external || whatsapp) {
+    return (
+      <a href={finalHref} target="_blank" rel="noopener noreferrer" className={`${baseClass} ${variantClass} ${className}`}>
+        {children}
+      </a>
+    );
+  }
+
   return (
-    <Link href={href}>
+    <Link href={finalHref}>
       <a className={`${baseClass} ${variantClass} ${className}`}>{children}</a>
     </Link>
   );
