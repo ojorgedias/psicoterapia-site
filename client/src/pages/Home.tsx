@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import Layout from "@/components/Layout";
 import CTAButton from "@/components/CTAButton";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -24,6 +25,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Testimonials Section */}
+      <Testimonials />
 
       {/* Services Overview */}
       <section className="bg-secondary py-16 md:py-24">
