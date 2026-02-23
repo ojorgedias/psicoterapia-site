@@ -6,7 +6,6 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import HowItWorks from "./pages/HowItWorks";
 import Contact from "./pages/Contact";
 import BlogList from "./pages/BlogList";
 import CrisisExistential from "./pages/services/CrisisExistential";
@@ -45,7 +44,6 @@ function Router() {
       <Route path={"/"} component={Home} />
       <Route path={"/servicos"} component={Services} />
       <Route path={"/sobre"} component={About} />
-      <Route path={"/como-funciona"} component={HowItWorks} />
       <Route path={"/contato"} component={Contact} />
       <Route path={"/blog"} component={BlogList} />
       {/* Cluster 1: Terapia para Adultos */}
