@@ -36,7 +36,7 @@ export default function About() {
           {/* SECTION 2: Como Funciona */}
           <h2>Como Funciona o Atendimento</h2>
 
-          <h3>Primeira Consulta</h3>
+          <h3>Primeira Sessão</h3>
           <p>
             A primeira sessão é uma conversa aberta onde você compartilha o que o trouxe até aqui. Não há julgamentos, apenas escuta qualificada. Neste encontro, compreendo sua história, seus desafios e seus objetivos com a terapia.
           </p>
@@ -81,7 +81,7 @@ export default function About() {
               Pronto para iniciar sua investigação?
             </p>
             <div className="flex justify-center">
-              <CTAButton href="/contato">Agendar Consulta</CTAButton>
+              <CTAButton href="/contato">Agendar Sessão</CTAButton>
             </div>
           </div>
         </article>

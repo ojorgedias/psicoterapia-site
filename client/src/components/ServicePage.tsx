@@ -19,7 +19,7 @@ export default function ServicePage({
   breadcrumbs,
   children,
   relatedArticles = [],
-  ctaText = "Agendar Consulta",
+  ctaText = "Agendar Sessão",
 }: ServicePageProps) {
   return (
     <Layout>

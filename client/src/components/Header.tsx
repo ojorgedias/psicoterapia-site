@@ -26,7 +26,7 @@ export default function Header() {
             <a className="text-foreground hover:text-primary transition-colors">Blog</a>
           </Link>
           <a href="/contato" className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity duration-200">
-            Agendar Consulta
+            Agendar Sessão
           </a>
         </div>
 
@@ -54,7 +54,7 @@ export default function Header() {
               <a className="text-foreground hover:text-primary transition-colors">Blog</a>
             </Link>
             <a href="/contato" className="block text-center inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity duration-200">
-              Agendar Consulta
+              Agendar Sessão
             </a>
           </div>
         </div>

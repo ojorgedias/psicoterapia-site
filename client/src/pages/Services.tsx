@@ -145,7 +145,7 @@ export default function Services() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <CTAButton href="/contato" variant="primary">
-              Agendar Consulta
+              Agendar Sessão
             </CTAButton>
             <a
               href="https://wa.me/5541985155583?text=Olá%20Jorge%2C%20gostaria%20de%20agendar%20uma%20consulta%20de%20psicoterapia."
