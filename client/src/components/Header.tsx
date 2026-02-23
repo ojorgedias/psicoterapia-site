@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "wouter";
 import { Menu, X } from "lucide-react";
+import ServicesDropdown from "./ServicesDropdown";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,6 +18,7 @@ export default function Header() {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
+          <ServicesDropdown />
           <Link href="/sobre">
             <a className="text-foreground hover:text-primary transition-colors">Sobre</a>
           </Link>
@@ -45,6 +47,9 @@ export default function Header() {
       {isOpen && (
         <div className="md:hidden border-t border-border bg-background">
           <div className="container max-w-6xl mx-auto px-4 py-4 flex flex-col gap-4">
+            <Link href="/servicos">
+              <a className="text-foreground hover:text-primary transition-colors font-semibold">Serviços</a>
+            </Link>
             <Link href="/sobre">
               <a className="text-foreground hover:text-primary transition-colors">Sobre</a>
             </Link>

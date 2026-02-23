@@ -28,6 +28,7 @@ import Article7 from "./pages/blog/Article7";
 import Article8 from "./pages/blog/Article8";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
+import Services from "./pages/Services";
 
 // Update document title and meta tags
 if (typeof document !== 'undefined') {
@@ -42,6 +43,7 @@ function Router() {
   return (
     <Switch>
       <Route path={"/"} component={Home} />
+      <Route path={"/servicos"} component={Services} />
       <Route path={"/sobre"} component={About} />
       <Route path={"/como-funciona"} component={HowItWorks} />
       <Route path={"/contato"} component={Contact} />
