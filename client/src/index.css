@@ -1,6 +1,9 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -40,85 +43,109 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
 }
 
 :root {
-  --primary: var(--color-blue-700);
-  --primary-foreground: var(--color-blue-50);
-  --sidebar-primary: var(--color-blue-600);
-  --sidebar-primary-foreground: var(--color-blue-50);
-  --chart-1: var(--color-blue-300);
-  --chart-2: var(--color-blue-500);
-  --chart-3: var(--color-blue-600);
-  --chart-4: var(--color-blue-700);
-  --chart-5: var(--color-blue-800);
-  --radius: 0.65rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.235 0.015 65);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.235 0.015 65);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.235 0.015 65);
-  --secondary: oklch(0.98 0.001 286.375);
-  --secondary-foreground: oklch(0.4 0.015 65);
-  --muted: oklch(0.967 0.001 286.375);
-  --muted-foreground: oklch(0.552 0.016 285.938);
-  --accent: oklch(0.967 0.001 286.375);
-  --accent-foreground: oklch(0.141 0.005 285.823);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(0.92 0.004 286.32);
-  --input: oklch(0.92 0.004 286.32);
-  --ring: oklch(0.623 0.214 259.815);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.235 0.015 65);
-  --sidebar-accent: oklch(0.967 0.001 286.375);
-  --sidebar-accent-foreground: oklch(0.141 0.005 285.823);
-  --sidebar-border: oklch(0.92 0.004 286.32);
-  --sidebar-ring: oklch(0.623 0.214 259.815);
+  /* Clinical Elegance Color Palette */
+  --primary: #2C4A52;
+  --primary-foreground: #FAFAFA;
+  --accent: #6B4C3A;
+  --accent-foreground: #FAFAFA;
+  --sidebar-primary: #2C4A52;
+  --sidebar-primary-foreground: #FAFAFA;
+  --chart-1: #2C4A52;
+  --chart-2: #6B4C3A;
+  --chart-3: #8B6F47;
+  --chart-4: #A0826D;
+  --chart-5: #B39A8A;
+  --radius: 0.5rem;
+  --background: #FAFAFA;
+  --foreground: #333333;
+  --card: #FFFFFF;
+  --card-foreground: #333333;
+  --popover: #FFFFFF;
+  --popover-foreground: #333333;
+  --secondary: #F5F5F5;
+  --secondary-foreground: #666666;
+  --muted: #E0E0E0;
+  --muted-foreground: #999999;
+  --destructive: #D32F2F;
+  --destructive-foreground: #FFFFFF;
+  --border: #E0E0E0;
+  --input: #FFFFFF;
+  --ring: #2C4A52;
+  --sidebar: #1C1F26;
+  --sidebar-foreground: #FAFAFA;
+  --sidebar-accent: #2C4A52;
+  --sidebar-accent-foreground: #FAFAFA;
+  --sidebar-border: #333333;
+  --sidebar-ring: #6B4C3A;
 }
 
 .dark {
-  --primary: var(--color-blue-700);
-  --primary-foreground: var(--color-blue-50);
-  --sidebar-primary: var(--color-blue-500);
-  --sidebar-primary-foreground: var(--color-blue-50);
-  --background: oklch(0.141 0.005 285.823);
-  --foreground: oklch(0.85 0.005 65);
-  --card: oklch(0.21 0.006 285.885);
-  --card-foreground: oklch(0.85 0.005 65);
-  --popover: oklch(0.21 0.006 285.885);
-  --popover-foreground: oklch(0.85 0.005 65);
-  --secondary: oklch(0.24 0.006 286.033);
-  --secondary-foreground: oklch(0.7 0.005 65);
-  --muted: oklch(0.274 0.006 286.033);
-  --muted-foreground: oklch(0.705 0.015 286.067);
-  --accent: oklch(0.274 0.006 286.033);
-  --accent-foreground:  oklch(0.92 0.005 65);
-  --destructive: oklch(0.704 0.191 22.216);
-  --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.488 0.243 264.376);
-  --chart-1: var(--color-blue-300);
-  --chart-2: var(--color-blue-500);
-  --chart-3: var(--color-blue-600);
-  --chart-4: var(--color-blue-700);
-  --chart-5: var(--color-blue-800);
-  --sidebar: oklch(0.21 0.006 285.885);
-  --sidebar-foreground: oklch(0.85 0.005 65);
-  --sidebar-accent: oklch(0.274 0.006 286.033);
-  --sidebar-accent-foreground:  oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.488 0.243 264.376);
+  /* Dark mode not used for this project - clinical elegance requires light theme */
+  --primary: #2C4A52;
+  --primary-foreground: #FAFAFA;
+  --background: #FAFAFA;
+  --foreground: #333333;
+  --card: #FFFFFF;
+  --card-foreground: #333333;
+  --popover: #FFFFFF;
+  --popover-foreground: #333333;
+  --secondary: #F5F5F5;
+  --secondary-foreground: #666666;
+  --muted: #E0E0E0;
+  --muted-foreground: #999999;
+  --accent: #6B4C3A;
+  --accent-foreground: #FAFAFA;
+  --destructive: #D32F2F;
+  --destructive-foreground: #FFFFFF;
+  --border: #E0E0E0;
+  --input: #FFFFFF;
+  --ring: #2C4A52;
+  --sidebar: #1C1F26;
+  --sidebar-foreground: #FAFAFA;
+  --sidebar-accent: #2C4A52;
+  --sidebar-accent-foreground: #FAFAFA;
+  --sidebar-border: #333333;
+  --sidebar-ring: #6B4C3A;
 }
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-body;
+    font-size: 18px;
+    line-height: 1.12;
+    letter-spacing: 0.5px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-semibold;
+  }
+  h1 {
+    @apply text-4xl md:text-5xl leading-tight mb-6;
+  }
+  h2 {
+    @apply text-3xl md:text-4xl leading-tight mb-4 mt-8;
+  }
+  h3 {
+    @apply text-2xl md:text-3xl leading-tight mb-3 mt-6;
+  }
+  p {
+    @apply mb-4 leading-relaxed;
+  }
+  a {
+    @apply text-primary hover:text-accent transition-colors duration-200;
+  }
+  strong {
+    @apply font-semibold;
   }
   button:not(:disabled),
   [role="button"]:not([aria-disabled="true"]),
@@ -158,6 +185,75 @@
   .flex {
     min-height: 0;
     min-width: 0;
+  }
+
+  /* Clinical Elegance Components */
+  .prose-clinical {
+    @apply max-w-2xl mx-auto px-4 py-8;
+  }
+
+  .divider-subtle {
+    @apply border-t border-border my-8;
+  }
+
+  .link-internal {
+    @apply text-primary hover:text-accent underline decoration-primary hover:decoration-accent transition-all duration-200;
+  }
+
+  .cta-button {
+    @apply inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity duration-200;
+  }
+
+  .breadcrumb {
+    @apply text-sm text-muted-foreground mb-4;
+  }
+
+  .breadcrumb a {
+    @apply text-primary hover:text-accent;
+  }
+
+  .reading-time {
+    @apply text-sm text-muted-foreground italic mb-4;
+  }
+
+  .toc-container {
+    @apply bg-secondary rounded-lg p-6 mb-8 border border-border;
+  }
+
+  .toc-container h3 {
+    @apply text-lg mb-4 mt-0;
+  }
+
+  .toc-container ul {
+    @apply list-none pl-0 space-y-2;
+  }
+
+  .toc-container li {
+    @apply text-sm;
+  }
+
+  .toc-container a {
+    @apply text-primary hover:text-accent;
+  }
+
+  .related-articles {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 pt-8 border-t border-border;
+  }
+
+  .article-card {
+    @apply bg-card text-card-foreground rounded-lg shadow-sm p-6 border border-border;
+  }
+
+  .article-card h3 {
+    @apply text-xl mb-2 mt-0;
+  }
+
+  .article-card p {
+    @apply text-sm text-muted-foreground mb-3;
+  }
+
+  .article-card a {
+    @apply text-primary hover:text-accent font-semibold;
   }
 
   @media (min-width: 640px) {
