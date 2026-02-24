@@ -20,7 +20,7 @@ export default function Home() {
           <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
             Psicólogo Jorge Dias - Psicoterapia Clínica para Autoconhecimento Profundo
           </h1>
-          <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto" style={{color: '#413e3e'}}>
             Investigação filosófica e clínica rigorosa para quem se sente perdido, sem propósito ou preso em ciclos repetitivos. Atendimento online para todo o mundo e presencial em Presidente Epitácio - SP.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
