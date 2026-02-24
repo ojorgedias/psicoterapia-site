@@ -51,8 +51,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/como-funciona">
-                  <a className="hover:text-sidebar-accent transition-colors">Como Funciona</a>
+                <Link href="/faq">
+                  <a className="hover:text-sidebar-accent transition-colors">FAQ</a>
                 </Link>
               </li>
               <li>
