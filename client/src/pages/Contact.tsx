@@ -10,10 +10,19 @@ export default function Contact() {
         <Breadcrumbs items={[{ label: "Início", href: "/" }, { label: "Contato" }]} />
 
         <article className="prose-clinical">
+          {/* Hero Section with Online Session Photo */}
+          <div className="mb-12 -mx-4 md:mx-0">
+            <img
+              src="https://private-us-east-1.manuscdn.com/sessionFile/UWXOi3Z0CqaqcQpJtcE94W/sandbox/GhJZXVlJHqBcCDPdJsKCWu-img-1_1771894657000_na1fn_am9yZ2Utb25saW5lLXNlc3Npb24td2hpdGUtYmc.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvVVdYT2kzWjBDcWFxY1FwSnRjRTk0Vy9zYW5kYm94L0doSlpYVlVKSHFCY0NEUGRKc0tDV3UtaW1nLTFfMTc3MTg5NDY1NzAwMF9uYTFmbl9hbTl5WjJVdG9ubGluZS1zZXNzaW9uLXdoaXRlLWJnLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=VjY2ZO89GYL1uUsmQygHPeHtA94UfOpP67qqOrVLaFQ4wFjg2i4~E4awOPboTXZ8bQO-3kYcCGSNs5b9seVvrvCtLP-IDLEbmf0NH6FyOjEl~Yvu4IQk2qI0c2E0F-nvXDk~16BdXlCghKOP1uKppYa7lpOM07nNTb~5LkHomjj5C2YQcOxAylxrTkk8oQe2wyp1sXVaK-14x-jBB6X5SJgTyvo5ZKZ9DJgxOgjAGW33BTVvNrf5LORjOqhpuc3j9f0Pxcl2YCKvB8vrKqQFVkGOH6nNaE4t3W~4yfsnlNDjMYH7JkGo92MaNyXX7qUQ7ukqBXqaoRT5oOztXNVImA__"
+              alt="Atendimento Online - Psicólogo Jorge Dias"
+              className="w-full max-w-sm mx-auto h-auto rounded-lg shadow-lg mb-6"
+            />
+          </div>
+
           <h1>Agende Sua Sessão</h1>
           <p>
             Escolha a forma mais conveniente para você. Estou disponível para atendimento online em todo o Brasil e exterior, 
-            além de sessões presenciais em Presidente Epitácio - SP.
+            além de sessões presenciais em Presidente Epitácio - SP.
           </p>
 
           {/* Two Main CTA Options */}
