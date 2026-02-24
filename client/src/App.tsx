@@ -5,6 +5,16 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
+import FAQ from "./pages/FAQ";
+import AutossabotagemInconsciente from "./pages/blog/AutossabotagemInconsciente";
+import PadroesFamiliaresRelacionamentos from "./pages/blog/PadroesFamiliaresRelacionamentos";
+import NarcisismoEncoberto from "./pages/blog/NarcisismoEncoberto";
+import MaeNarcisista from "./pages/blog/MaeNarcisista";
+import MedoDeSerFeliz from "./pages/blog/MedoDeSer Feliz";
+import BurnoutDigital from "./pages/blog/BurnoutDigital";
+import SindromeImpostorTerapeutas from "./pages/blog/SindromeImpostorTerapeutas";
+import SpiritualBypass from "./pages/blog/SpiritualBypass";
+import IntegracaoPsicologiaEspiritualidade from "./pages/blog/IntegracaoPsicologiaEspiritualidade";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import BlogList from "./pages/BlogList";
@@ -46,32 +56,50 @@ function Router() {
       <Route path={"/sobre"} component={About} />
       <Route path={"/contato"} component={Contact} />
       <Route path={"/blog"} component={BlogList} />
+      <Route path={"/faq"} component={FAQ} />
+      
       {/* Cluster 1: Terapia para Adultos */}
       <Route path={"/terapia/adultos/crise-existencial"} component={CrisisExistential} />
       <Route path={"/terapia/adultos/autossabotagem"} component={SelfSabotage} />
       <Route path={"/terapia/adultos/regulacao-emocional"} component={EmotionalRegulation} />
       <Route path={"/terapia/adultos/autonomia-identidade"} component={AutonomyIdentity} />
+      
       {/* Cluster 2: Terapia para Casais */}
       <Route path={"/terapia/casais/padroes-familiares"} component={FamilyPatterns} />
       <Route path={"/terapia/casais/conflitos-casal"} component={CoupleConflicts} />
       <Route path={"/terapia/casais/padroes-relacionamento"} component={RelationshipPatterns} />
+      
       {/* Cluster 4: Autoridade */}
       <Route path={"/autoridade/psicologia-espiritualidade"} component={PsychologySpirituality} />
       <Route path={"/autoridade/filosofia-integrativa"} component={IntegrativePhilosophy} />
-      {/* Blog Articles */}
+      
+      {/* Original Blog Articles */}
       <Route path={"/blog/ansiedade-ou-intuicao"} component={Article1} />
       <Route path={"/blog/sombra-relacionamentos"} component={Article2} />
       <Route path={"/blog/fobia-social"} component={Article3} />
       <Route path={"/blog/narcisismo-era-digital"} component={Article4} />
-      <Route path={"/blog/burnout-digital"} component={Article5} />
+      <Route path={"/blog/burnout-digital-original"} component={Article5} />
       <Route path={"/blog/guerra-sexos"} component={Article6} />
       <Route path={"/blog/despertar-espiritual"} component={Article7} />
-      <Route path={"/blog/sindrome-impostor"} component={Article8} />
+      <Route path={"/blog/sindrome-impostor-original"} component={Article8} />
+      
+      {/* New SEO-Optimized Blog Articles */}
+      <Route path={"/blog/autossabotagem-inconsciente"} component={AutossabotagemInconsciente} />
+      <Route path={"/blog/padroes-familiares-relacionamentos"} component={PadroesFamiliaresRelacionamentos} />
+      <Route path={"/blog/narcisismo-encoberto"} component={NarcisismoEncoberto} />
+      <Route path={"/blog/mae-narcisista-impacto-adulto"} component={MaeNarcisista} />
+      <Route path={"/blog/medo-de-ser-feliz"} component={MedoDeSerFeliz} />
+      <Route path={"/blog/burnout-digital"} component={BurnoutDigital} />
+      <Route path={"/blog/sindrome-impostor-terapeutas"} component={SindromeImpostorTerapeutas} />
+      <Route path={"/blog/spiritual-bypass"} component={SpiritualBypass} />
+      <Route path={"/blog/integracao-psicologia-espiritualidade"} component={IntegracaoPsicologiaEspiritualidade} />
+      
       {/* Legal Pages */}
       <Route path={"/politica-privacidade"} component={PrivacyPolicy} />
       <Route path={"/termos-uso"} component={TermsOfUse} />
+      
+      {/* 404 Page */}
       <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
       <Route component={NotFound} />
     </Switch>
   );

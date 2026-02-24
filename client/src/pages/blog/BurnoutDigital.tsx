@@ -1,0 +1,94 @@
+import { Link } from 'wouter';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import CTAButton from '@/components/CTAButton';
+import { Clock, ArrowRight } from 'lucide-react';
+
+export default function BurnoutDigital() {
+  const readingTime = 12;
+
+  return (
+    <div className="min-h-screen bg-background">
+      <Breadcrumbs items={[{ label: 'Blog', href: '/blog' }, { label: 'Burnout Digital' }]} />
+
+      <article className="container max-w-3xl py-12 md:py-20">
+        <div className="mb-8">
+          <h1 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-4">
+            Burnout Digital: Autenticidade vs Performance na Era Virtual
+          </h1>
+          <div className="flex items-center gap-4 text-muted-foreground">
+            <div className="flex items-center gap-2">
+              <Clock size={18} />
+              <span>{readingTime} min de leitura</span>
+            </div>
+            <span>23 de fevereiro de 2026</span>
+          </div>
+        </div>
+
+        <div className="prose prose-invert max-w-none text-foreground space-y-6">
+          <p className="text-lg leading-relaxed">
+            Burnout digital não é apenas cansaço. É o esgotamento emocional de estar constantemente 
+            conectado, constantemente performando, constantemente consumindo. É a morte lenta da autenticidade.
+          </p>
+
+          <h2 className="text-2xl font-display font-bold text-foreground mt-8">
+            O Paradoxo Digital
+          </h2>
+          <p>
+            Redes sociais prometem conexão, mas entregam isolamento. Prometem liberdade, mas entregam 
+            conformidade. Você está constantemente se comparando, se julgando, se otimizando para algoritmos.
+          </p>
+
+          <h2 className="text-2xl font-display font-bold text-foreground mt-8">
+            Pressão Social Amplificada
+          </h2>
+          <p>
+            Seu "Mamute Interior" está em overdrive. Você é julgado por milhões. Seus erros são 
+            permanentes. Sua vida é uma performance contínua.
+          </p>
+
+          <h2 className="text-2xl font-display font-bold text-foreground mt-8">
+            Pensamento Pré-Fabricado
+          </h2>
+          <p>
+            Algoritmos determinam o que você pensa. Você está em uma bolha intelectual. Sua opinião é 
+            formada por influenciadores, não por pensamento genuíno.
+          </p>
+
+          <h2 className="text-2xl font-display font-bold text-foreground mt-8">
+            Recuperação
+          </h2>
+          <p>
+            Desconexão não é luxo. É necessidade. É um ato de liberdade. É você dizendo: "Minha 
+            autenticidade importa mais que likes."
+          </p>
+
+          <div className="bg-primary/5 border border-primary/20 rounded-lg p-6 mt-8">
+            <h3 className="text-xl font-semibold text-foreground mb-3">Recuperação de Burnout</h3>
+            <p className="text-foreground mb-4">
+              Ofereço atendimento especializado em burnout digital e desenvolvimento de autenticidade.
+            </p>
+            <CTAButton whatsapp>Agendar Sessão</CTAButton>
+          </div>
+        </div>
+
+        <div className="mt-16 pt-8 border-t border-border">
+          <h3 className="text-2xl font-display font-bold text-foreground mb-6">Leitura Relacionada</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <Link href="/terapia/adultos/regulacao-emocional">
+              <a className="p-4 bg-card border border-border rounded-lg hover:border-primary transition-colors group">
+                <h4 className="font-semibold text-foreground group-hover:text-primary transition-colors mb-2">
+                  Regulação Emocional
+                </h4>
+                <p className="text-sm text-muted-foreground">Recuperação emocional</p>
+                <div className="flex items-center gap-2 text-primary mt-2 text-sm">
+                  <span>Saiba mais</span>
+                  <ArrowRight size={16} />
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+      </article>
+    </div>
+  );
+}
