@@ -1,6 +1,7 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { ChevronDown } from 'lucide-react';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import { updatePageMeta } from '@/lib/seoMetadata';
 
 interface Concept {
   id: string;
@@ -306,6 +307,10 @@ const concepts: Concept[] = [
 
 export default function ConceptosFundamentais() {
   const [expandedId, setExpandedId] = useState<string | null>(null);
+  
+  useEffect(() => {
+    updatePageMeta('conceitos');
+  }, []);
 
   return (
     <div className="min-h-screen bg-background">

@@ -1,9 +1,15 @@
 import { Link } from "wouter";
+import { useEffect } from 'react';
 import Layout from "@/components/Layout";
 import CTAButton from "@/components/CTAButton";
 import Testimonials from "@/components/Testimonials";
+import { updatePageMeta } from "@/lib/seoMetadata";
 
 export default function Home() {
+  useEffect(() => {
+    updatePageMeta('home');
+  }, []);
+  
   return (
     <Layout>
       {/* Hero Section */}
@@ -20,7 +26,7 @@ export default function Home() {
           <img
             src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png"
             alt="Psicólogo Jorge Dias"
-            className="w-24 h-24 rounded-full object-cover mx-auto mb-6 shadow-lg border-4 border-background"
+            className="w-40 h-40 md:w-56 md:h-56 rounded-full object-cover mx-auto mb-8 shadow-xl border-4 border-background"
           />
           <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
             Psicólogo Jorge Dias - Psicoterapia Clínica para Autoconhecimento Profundo

@@ -1,8 +1,14 @@
 import Layout from "@/components/Layout";
+import { useEffect } from 'react';
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CTAButton from "@/components/CTAButton";
+import { updatePageMeta } from "@/lib/seoMetadata";
 
 export default function About() {
+  useEffect(() => {
+    updatePageMeta('about');
+  }, []);
+  
   return (
     <Layout>
       <div className="container max-w-2xl mx-auto px-4 py-12">

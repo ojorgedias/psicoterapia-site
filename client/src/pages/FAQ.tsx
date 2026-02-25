@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
+import { useEffect } from 'react';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import { useFAQSchema } from '@/components/SEOSchema';
 
 interface FAQItem {
   category: string;
@@ -108,6 +110,22 @@ const faqItems: FAQItem[] = [
 
 export default function FAQ() {
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
+  
+  // Add FAQ schema for SEO
+  const faqSchema = faqItems.map(item => ({
+    question: item.question,
+    answer: item.answer,
+  }));
+  useFAQSchema(faqSchema);
+  
+  // Update page meta tags
+  useEffect(() => {
+    document.title = 'FAQ - Psicólogo Jorge Dias | Perguntas Frequentes';
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Perguntas frequentes sobre psicoterapia clínica, autossabotagem, padrões familiares, crise existencial e desenvolvimento pessoal.');
+    }
+  }, []);
 
   const groupedByCategory = faqItems.reduce((acc, item) => {
     if (!acc[item.category]) {
