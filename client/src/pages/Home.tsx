@@ -17,6 +17,11 @@ export default function Home() {
           <div className="absolute inset-0 bg-background/60"></div>
         </div>
         <div className="container max-w-4xl mx-auto px-4 text-center relative z-10">
+          <img
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png"
+            alt="Psicólogo Jorge Dias"
+            className="w-24 h-24 rounded-full object-cover mx-auto mb-6 shadow-lg border-4 border-background"
+          />
           <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
             Psicólogo Jorge Dias - Psicoterapia Clínica para Autoconhecimento Profundo
           </h1>
@@ -27,7 +32,7 @@ export default function Home() {
             <CTAButton href="/contato">Agendar Sessão</CTAButton>
             <Link href="/sobre">
               <a className="inline-block px-6 py-3 rounded-lg font-semibold border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors">
-                Conheça a Abordagem
+                Minha Abordagem
               </a>
             </Link>
           </div>

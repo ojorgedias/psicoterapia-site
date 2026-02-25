@@ -6,7 +6,7 @@ export default function About() {
   return (
     <Layout>
       <div className="container max-w-2xl mx-auto px-4 py-12">
-        <Breadcrumbs items={[{ label: "Início", href: "/" }, { label: "Sobre" }]} />
+        <Breadcrumbs items={[{ label: "Início", href: "/" }, { label: "Minha Abordagem" }]} />
 
         <article className="prose-clinical">
           {/* Hero Section with Jorge's Photo */}
@@ -22,7 +22,7 @@ export default function About() {
             </p>
           </div>
 
-          <h1>Sobre a Abordagem e o Atendimento</h1>
+          <h1>Minha Abordagem Clínica</h1>
 
           {/* SECTION 1: Abordagem Clínica */}
           <h2>Investigação Filosófica e Clínica Rigorosa</h2>

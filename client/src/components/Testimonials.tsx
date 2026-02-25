@@ -23,6 +23,11 @@ export default function Testimonials({
       <div className="container max-w-6xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-12">
+          <img
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png"
+            alt="Psicólogo Jorge Dias"
+            className="w-16 h-16 rounded-full object-cover mx-auto mb-4 shadow-md"
+          />
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
             {title}
           </h2>

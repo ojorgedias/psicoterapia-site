@@ -20,7 +20,7 @@ export default function Header() {
         <div className="hidden md:flex items-center gap-8">
           <ServicesDropdown />
           <Link href="/sobre">
-            <a className="text-foreground hover:text-primary transition-colors">Sobre</a>
+            <a className="text-foreground hover:text-primary transition-colors">Minha Abordagem</a>
           </Link>
           <Link href="/blog">
             <a className="text-foreground hover:text-primary transition-colors">Blog</a>
@@ -48,7 +48,7 @@ export default function Header() {
               <a className="text-foreground hover:text-primary transition-colors font-semibold">Serviços</a>
             </Link>
             <Link href="/sobre">
-              <a className="text-foreground hover:text-primary transition-colors">Sobre</a>
+              <a className="text-foreground hover:text-primary transition-colors">Minha Abordagem</a>
             </Link>
             <Link href="/blog">
               <a className="text-foreground hover:text-primary transition-colors">Blog</a>

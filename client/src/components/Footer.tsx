@@ -8,8 +8,13 @@ export default function Footer() {
     <footer className="bg-sidebar text-sidebar-foreground mt-16">
       <div className="container max-w-6xl mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-          {/* About */}
+          {/* About with Photo */}
           <div>
+            <img
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png"
+              alt="Psicólogo Jorge Dias"
+              className="w-20 h-20 rounded-full object-cover mb-3 shadow-md"
+            />
             <h3 className="font-display text-lg font-semibold mb-2">Psicólogo Jorge Dias</h3>
             <p className="text-xs text-sidebar-foreground/80 font-semibold mb-3">
               {PSYCHOLOGIST.name} - CRP {PSYCHOLOGIST.crp}
@@ -47,7 +52,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/sobre">
-                  <a className="hover:text-sidebar-accent transition-colors">Sobre</a>
+                  <a className="hover:text-sidebar-accent transition-colors">Minha Abordagem</a>
                 </Link>
               </li>
               <li>
