@@ -39,6 +39,7 @@ import Article8 from "./pages/blog/Article8";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
 import Services from "./pages/Services";
+import FloatingWhatsApp from "./components/FloatingWhatsApp";
 
 // Update document title and meta tags
 if (typeof document !== 'undefined') {
@@ -119,6 +120,7 @@ function App() {
         <TooltipProvider>
           <Toaster />
           <Router />
+          <FloatingWhatsApp />
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
