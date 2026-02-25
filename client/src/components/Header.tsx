@@ -28,6 +28,9 @@ export default function Header() {
           <Link href="/faq">
             <a className="text-foreground hover:text-primary transition-colors">FAQ</a>
           </Link>
+          <Link href="/conceitos-fundamentais">
+            <a className="text-foreground hover:text-primary transition-colors">Conceitos</a>
+          </Link>
           <a href="/contato" className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity duration-200">
             Agendar Sessão
           </a>
@@ -58,6 +61,9 @@ export default function Header() {
             </Link>
             <Link href="/faq">
               <a className="text-foreground hover:text-primary transition-colors">FAQ</a>
+            </Link>
+            <Link href="/conceitos-fundamentais">
+              <a className="text-foreground hover:text-primary transition-colors">Conceitos</a>
             </Link>
             <a href="/contato" className="block text-center inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity duration-200">
               Agendar Sessão

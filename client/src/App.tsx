@@ -40,6 +40,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
 import Services from "./pages/Services";
 import FloatingWhatsApp from "./components/FloatingWhatsApp";
+import ConceptosFundamentais from "./pages/ConceptosFundamentais";
 
 // Update document title and meta tags
 if (typeof document !== 'undefined') {
@@ -65,6 +66,7 @@ function Router() {
       <Route path={"/contato"} component={Contact} />
       <Route path={"/blog"} component={BlogList} />
       <Route path={"/faq"} component={FAQ} />
+      <Route path={"/conceitos-fundamentais"} component={ConceptosFundamentais} />
       
       {/* Cluster 1: Terapia para Adultos */}
       <Route path={"/terapia/adultos/crise-existencial"} component={CrisisExistential} />
