@@ -18,7 +18,7 @@ export default function SelfSabotage() {
     >
       <h2>A obediência cega a regras invisíveis</h2>
       <p>
-        Você já se viu preso em um ciclo onde, não importa o quanto tente agir diferente, acaba repetindo os mesmos erros, escolhendo relacionamentos frustrantes ou minando as próprias conquistas? Quando isso acontece, o senso comum costuma culpar uma suposta "falta de força de vontade". Contudo, na análise clínica profunda, compreendemos que esses ciclos não são defeitos de caráter. Eles são atos de obediência estrita a regras invisíveis que governam o seu comportamento sem que você perceba.
+        Você já se viu preso em um ciclo onde, não importa o quanto tente agir diferente, acaba repetindo os mesmos erros, escolhendo relacionamentos frustrantes ou minando as próprias conquistas? Quando isso acontece, o senso comum costuma culpar uma suposta fraqueza de caráter. Contudo, na análise clínica profunda, compreendemos que esses ciclos não são defeitos morais. Eles são atos de obediência estrita a regras invisíveis que governam o seu comportamento sem que você perceba.
       </p>
 
       <p>

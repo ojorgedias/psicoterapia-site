@@ -18,7 +18,7 @@ export default function Article8() {
     >
       <h2>O peso de sentir-se uma fraude</h2>
       <p>
-        A "síndrome do impostor" é um dos males mais silenciosos e destrutivos do ambiente profissional e acadêmico de hoje. É aquele sentimento persistente de que você não é tão bom quanto as pessoas pensam, de que as suas conquistas foram pura sorte e de que, a qualquer momento, alguém vai descobrir que você é uma fraude. A internet está cheia de dicas que ensinam a repetir afirmações de autoconfiança no espelho ou a "fingir até conseguir". Mas a psicologia profunda nos revela que a síndrome do impostor não é uma simples falta de autoestima; é o sintoma de uma relação doentia com a vulnerabilidade e com a imagem que tentamos vender ao mundo.
+        A "síndrome do impostor" é um dos males mais silenciosos e destrutivos do ambiente profissional e acadêmico de hoje. É aquele sentimento persistente de que você não é tão bom quanto as pessoas pensam, de que as suas conquistas foram pura sorte e de que, a qualquer momento, alguém vai descobrir que você é uma fraude. A internet está cheia de dicas que ensinam a repetir afirmações no espelho ou a "fingir até conseguir". Mas a psicologia profunda nos revela que a síndrome do impostor não é uma simples questão de confiança pessoal; é o sintoma de uma relação doentia com a vulnerabilidade e com a imagem que tentamos vender ao mundo.
       </p>
 
       <h2>A pressão da performance e o medo do erro</h2>
@@ -39,9 +39,9 @@ export default function Article8() {
         Vestir o manto da ignorância é o ato corajoso de dizer "eu não sei" e se libertar da obrigação de ser o especialista inquestionável. Paradoxalmente, reconhecer a própria ignorância é o maior sinal de sabedoria e maturidade intelectual que existe. Quando você tem a coragem intelectual de suspender as certezas absolutas, você mata o "impostor" de fome. Afinal, ninguém pode desmascarar uma pessoa que já tirou a própria máscara voluntariamente.
       </p>
 
-      <h2>O resgate da verdadeira autoconfiança</h2>
+      <h2>O resgate da verdadeira autenticidade</h2>
       <p>
-        A autoconfiança real não é a ausência de dúvidas. É a tranquilidade de saber que você não precisa ter todas as respostas para ter valor. Ao abandonar o personagem impecável, você ganha espaço mental para aprender de verdade, fortalecendo o <InternalLink href="/terapia/adultos/autonomia-identidade">desenvolvimento de uma autonomia e identidade inabaláveis</InternalLink>.
+        A autenticidade genuína não é a ausência de dúvidas. É a tranquilidade de saber que você não precisa ter todas as respostas para ter valor. Ao abandonar o personagem impecável, você ganha espaço mental para aprender de verdade, fortalecendo o <InternalLink href="/terapia/adultos/autonomia-identidade">desenvolvimento de uma autonomia e identidade inabaláveis</InternalLink>.
       </p>
 
       <p>

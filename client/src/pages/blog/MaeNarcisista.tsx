@@ -27,8 +27,7 @@ export default function MaeNarcisista() {
         <div className="prose prose-invert max-w-none text-foreground space-y-6">
           <p className="text-lg leading-relaxed">
             Crescer com uma mãe narcisista deixa cicatrizes profundas. Não é abuso óbvio - é mais sutil. 
-            É a destruição lenta da sua autoestima, autonomia e senso de identidade. É ser criado para 
-            servir as necessidades emocionais de um adulto.
+            É a fragmentação da sua identidade, a erosion da sua autonomia e o condicionamento para servir as necessidades emocionais de um adulto. É uma forma de abuso que opera nas sombras.
           </p>
 
           <h2 className="text-2xl font-display font-bold text-foreground mt-8">
@@ -44,10 +43,10 @@ export default function MaeNarcisista() {
             10 Efeitos Psicológicos na Vida Adulta
           </h2>
 
-          <h3 className="text-xl font-semibold text-primary mt-6">1. Baixa Autoestima Crônica</h3>
+          <h3 className="text-xl font-semibold text-primary mt-6">1. Fragmentação da Identidade e Senso de Valor</h3>
           <p>
             Você cresceu recebendo a mensagem: "Você não é suficiente. Você é responsável pelos meus 
-            sentimentos. Sua existência é um fardo." Essa crença está profundamente enraizada.
+            sentimentos. Sua existência é um fardo." Essas mensagens se tornaram estruturas profundas em como você se relaciona consigo mesmo.
           </p>
 
           <h3 className="text-xl font-semibold text-primary mt-6">2. Dificuldade em Estabelecer Limites</h3>

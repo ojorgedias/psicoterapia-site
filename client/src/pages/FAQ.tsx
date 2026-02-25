@@ -17,75 +17,92 @@ const faqItems: FAQItem[] = [
   {
     id: 'o-que-psicoterapia',
     category: 'Fundamentos',
-    question: 'O que é psicoterapia clínica e como funciona?',
-    answer: `A psicoterapia clínica é um processo de investigação profunda sobre você mesmo, suas motivações, padrões de comportamento e as histórias que construiu sobre sua vida. Diferente de um simples aconselhamento, ela funciona através de uma relação terapêutica onde você explora, com rigor filosófico e clínico, os fundamentos do seu sofrimento e as possibilidades de transformação.
+    question: 'O que é psicoterapia clínica?',
+    answer: `Psicoterapia clínica é um processo de investigação rigorosa sobre os pressupostos que fundamentam sua vida. Não é aconselhamento, não é coaching, e não oferece fórmulas prontas.
 
-Meu trabalho integra investigação filosófica com prática clínica rigorosa. Isso significa que não apenas tratamos sintomas, mas questionamos radicalmente as crenças limitantes que sustentam seus padrões repetitivos. A terapia funciona em um ritmo que respeita sua segurança emocional, mas que também desafia você a crescer autenticamente.
+Funciona assim: você traz o que está presente - uma situação, um padrão que se repete, uma confusão existencial. Juntos, exploramos as camadas por baixo. Não apenas "como você se sente", mas "por que você se sente assim" e "que crenças invisíveis sustentam esse sentimento".
 
-Na psicoterapia clínica, você não recebe fórmulas prontas. Você recebe um espaço seguro e desafiador onde suas contradições são exploradas, seus mecanismos de defesa são compreendidos, e você desenvolve uma relação de confiança que permite transformação genuína.`,
+A diferença crucial é que a terapia clínica integra investigação filosófica com rigor psicológico. Isso significa que questionamos radicalmente os pressupostos que você nem percebe que está operando. Você não recebe respostas prontas; você desenvolve a capacidade de questionar conscientemente as próprias crenças e fazer escolhas autênticas.
+
+É um espaço seguro, mas também desafiador. Porque crescimento genuíno requer coragem.`,
     relatedService: { title: 'Minha Abordagem', url: '/minha-abordagem' }
   },
   {
     id: 'psicoterapia-vs-autoajuda',
     category: 'Fundamentos',
-    question: 'Por que a psicoterapia é diferente de ler livros de autoajuda ou fazer coaching?',
-    answer: `Livros de autoajuda e coaching oferecem generalizações baseadas em histórias de outras pessoas. Eles não consideram sua história única, seus traumas específicos, ou os padrões inconscientes que você nem percebe que está repetindo. Além disso, faltam a relação terapêutica e a responsabilidade mútua que caracterizam o trabalho profundo.
+    question: 'Por que psicoterapia é diferente de autoajuda ou coaching?',
+    answer: `Autoajuda oferece técnicas genéricas baseadas em histórias de outras pessoas. Coaching oferece estratégias para objetivos específicos. Ambas têm valor em seus contextos, mas não fazem o que a terapia faz.
 
-Na psicoterapia clínica, você não recebe fórmulas prontas. Você recebe um espaço seguro e desafiador onde suas contradições são exploradas, seus mecanismos de defesa são compreendidos, e você desenvolve uma relação de confiança que permite transformação genuína. É um processo que exige coragem e autenticidade de ambos os lados.
+A terapia clínica questiona os pressupostos subjacentes. Enquanto autoajuda diz "faça isso", terapia pergunta "por que você acredita que precisa fazer isso?". Enquanto coaching diz "aqui está a estratégia para seu objetivo", terapia pergunta "qual é a origem desse objetivo? É genuinamente seu?".
 
-A diferença crucial: autoajuda oferece técnicas; terapia oferece compreensão profunda. Autoajuda diz "faça isso"; terapia pergunta "por que você faz isso?".`,
+Além disso, a terapia oferece uma relação - não uma transação. Há responsabilidade mútua, vulnerabilidade autêntica, e um espaço onde suas contradições não são "resolvidas", mas exploradas. Isso é particularmente importante para questões existenciais, padrões familiares profundos, e integração psicológica genuína.
+
+A relação terapêutica em si é transformadora. Você experimenta ser completamente ouvido e questionado simultaneamente - algo raro na vida.`,
     relatedService: { title: 'Minha Abordagem', url: '/minha-abordagem' }
   },
   {
     id: 'investigacao-filosofica',
     category: 'Minha Abordagem',
     question: 'O que significa "investigação filosófica e clínica rigorosa"?',
-    answer: `Significa que não apenas diagnosticamos e tratamos sintomas (aspecto clínico), mas também questionamos radicalmente as premissas sobre as quais você construiu sua vida (aspecto filosófico). Por exemplo: Por que você acredita que precisa ser perfeito? Quem disse que você é responsável pela felicidade dos outros? Essas crenças vêm de onde?
+    answer: `Significa que não apenas diagnosticamos e tratamos sintomas (aspecto clínico), mas também questionamos radicalmente as premissas sobre as quais você construiu sua vida (aspecto filosófico).
 
-A investigação filosófica nos permite ir além do "como" (como você se sente) para o "por quê" (por que você se sente assim) e o "para quê" (para que você continua repetindo esse padrão). Isso cria uma compreensão profunda que leva a mudanças duradouras, não apenas alívio temporário de sintomas.
+Exemplos de perguntas filosóficas: Por que você acredita que precisa ser perfeito? Quem definiu o que é "sucesso" para você? De onde vem a crença de que você é responsável pela felicidade dos outros? Essas crenças são suas, ou foram herdadas?
 
-Essa abordagem é particularmente poderosa para quem está em crise existencial, questionando valores, ou buscando autenticidade genuína em vez de conformidade social.`,
+A investigação filosófica nos permite ir além do "como" (como você se sente) para o "por quê" (por que você se sente assim) e o "para quê" (para que você continua repetindo esse padrão). Isso cria uma compreensão profunda que leva a mudanças duradouras.
+
+Isso é particularmente poderoso para quem está em crise existencial, questionando valores, ou buscando autenticidade genuína em vez de conformidade social.`,
     relatedService: { title: 'Crise Existencial', url: '/terapia/adultos/crise-existencial' }
   },
   {
     id: 'espiritualidade-sem-bypassing',
     category: 'Minha Abordagem',
     question: 'Como você integra espiritualidade e psicologia sem "spiritual bypassing"?',
-    answer: `"Spiritual bypassing" é quando alguém usa espiritualidade para evitar lidar com problemas psicológicos reais. Por exemplo: "Tudo é energia, então meu trauma não importa" ou "Devo apenas aceitar e deixar ir". Isso é uma ilusão que perpetua o sofrimento.
+    answer: `"Spiritual bypassing" é quando alguém usa espiritualidade para evitar lidar com realidades psicológicas. "Tudo é energia, então meu trauma não importa" ou "Devo apenas aceitar e deixar ir". Isso perpetua o sofrimento, não o resolve.
 
-Minha abordagem integra espiritualidade e psicologia de forma pragmática: reconhecemos que você é um ser multidimensional (corpo, mente, espírito), mas isso não significa ignorar o trabalho psicológico necessário. Você precisa processar seu trauma, compreender seus padrões familiares, e desenvolver regulação emocional. Apenas então, a espiritualidade se torna um caminho genuíno de crescimento, não uma fuga.
+Minha abordagem reconhece que você é multidimensional - corpo, mente, psique, espírito. Mas isso não significa ignorar o trabalho psicológico necessário. Você precisa processar trauma, compreender padrões familiares, desenvolver regulação emocional. Apenas então, a espiritualidade se torna um caminho genuíno de crescimento, não uma fuga.
 
-O pensamento dialético é fundamental aqui: você é responsável por suas escolhas E seu trauma influenciou você profundamente. Ambas as verdades coexistem. A síntese é a liberdade autêntica.`,
+O pensamento dialético é fundamental aqui: você é responsável por suas escolhas E seu trauma influenciou você profundamente. Ambas as verdades coexistem. A síntese é a liberdade autêntica - não negação de uma parte de si mesmo, mas integração consciente.
+
+Isso significa que questões aparentemente "espirituais" frequentemente têm raízes psicológicas. E questões psicológicas frequentemente se beneficiam de perspectivas que transcendem o paradigma puramente materialista.`,
     relatedService: { title: 'Integração Psicologia-Espiritualidade', url: '/terapia/adultos/integracao-espiritualidade' }
   },
   {
     id: 'crise-existencial-1',
     category: 'Questões Comuns',
     question: 'Como saber se estou em crise existencial?',
-    answer: `Uma crise existencial é mais que tristeza ou depressão - é um questionamento profundo sobre o sentido da vida, seus valores e sua direção. Você pode estar em crise existencial se:
+    answer: `Uma crise existencial é mais que tristeza ou depressão. É um questionamento profundo sobre o sentido da vida, seus valores, e sua direção. Você pode estar em crise existencial se:
 
 • Questiona constantemente o propósito da vida
-• Sente vazio ou desconexão mesmo com conquistas
+• Sente vazio mesmo com conquistas materiais
 • Questiona valores que sempre considerou verdadeiros
 • Sente ansiedade sobre "estar no caminho certo"
 • Experimenta insatisfação generalizada sem motivo aparente
 • Questiona quem você realmente é além dos papéis sociais
+• Sente desconexão com as pessoas ao seu redor
 
-A diferença crucial: uma crise existencial é uma oportunidade de transformação, não uma patologia. É seu psiquismo pedindo para você questionar pressupostos não examinados e desenvolver valores autênticos.
+A diferença crucial: uma crise existencial não é patologia. É seu psiquismo pedindo para você questionar pressupostos não examinados. É um convite para desenvolver valores autênticos em vez de viver segundo "réguas prontas" herdadas.
 
-Uma crise existencial é, na verdade, um convite para crescimento. É seu ser autêntico pedindo para ser ouvido. A psicoterapia oferece um espaço seguro para explorar essas questões profundas e emergir com maior clareza e autenticidade.`,
+Uma crise existencial é, na verdade, um sinal de desenvolvimento. É seu ser autêntico pedindo para ser ouvido. A psicoterapia oferece um espaço seguro para explorar essas questões profundas e emergir com maior clareza e autenticidade.`,
     relatedBlogPost: 'crise-existencial-transformacao',
     relatedService: { title: 'Crise Existencial', url: '/terapia/adultos/crise-existencial' }
   },
   {
     id: 'autossabotagem-1',
     category: 'Questões Comuns',
-    question: 'O que é autossabotagem e por que faço isso?',
-    answer: `Autossabotagem é quando você inconscientemente sabota seu próprio sucesso, relacionamentos ou bem-estar. Exemplos: procrastinar em projetos importantes, iniciar conflitos quando as coisas estão indo bem, sabotando relacionamentos promissores, ou sabotando sua saúde.
+    question: 'Por que saboto meu próprio sucesso e bem-estar?',
+    answer: `Autossabotagem não é fraqueza. É um sistema de proteção psicológica que está funcionando exatamente como foi programado.
 
-Você faz isso porque, em algum nível profundo, acredita que não merece sucesso, que será rejeitado se for bem-sucedido, ou que o sucesso trará consequências perigosas. Essas crenças geralmente vêm de padrões familiares, traumas, ou mensagens internalizadas na infância.
+Você sabota seu sucesso porque em algum nível profundo, aprendeu que sucesso é perigoso. Talvez porque:
 
-A boa notícia: uma vez que você compreende o "por quê" por trás da autossabotagem, pode escolher diferente. A terapia ajuda a identificar esses padrões inconscientes, compreender sua origem, e desenvolver novas estratégias que permitem você prosperar sem culpa ou medo.`,
+• Padrões familiares: você aprendeu que sucesso é desloyal à família, ou que pessoas bem-sucedidas são rejeitadas
+• Lealdades invisíveis: sacrificar seu sucesso mantém você "fiel" à dinâmica familiar
+• Trauma: sucesso anterior foi seguido de punição ou perda
+• Identidade limitada: você se vê como "alguém que falha"
+• Medo do julgamento: sucesso o expõe ao escrutínio social
+
+O paradoxo: sua autossabotagem está tentando protegê-lo. Mas de quê? Frequentemente de ameaças que não são mais reais.
+
+A solução não é "lutar contra si mesmo", mas compreender o que essa sabotagem está protegendo e questionar se essa proteção ainda é necessária. Isso requer exploração profunda de padrões familiares e desenvolvimento consciente de novos valores.`,
     relatedBlogPost: 'autossabotagem-inconsciente',
     relatedService: { title: 'Autossabotagem', url: '/terapia/adultos/autossabotagem' }
   },
@@ -93,22 +110,34 @@ A boa notícia: uma vez que você compreende o "por quê" por trás da autossabo
     id: 'padroes-familiares',
     category: 'Questões Comuns',
     question: 'Como padrões familiares afetam minha vida adulta?',
-    answer: `Sua família é seu primeiro sistema de aprendizado. Você aprendeu como se relacionar, como lidar com emoções, qual é seu valor, e quais são as "regras" da vida. Se cresceu em um ambiente onde havia negligência emocional, crítica constante, ou dinâmicas de controle, você internalizou essas mensagens como verdades sobre si mesmo.
+    answer: `Sua família é seu primeiro sistema de aprendizado. Você aprendeu como se relacionar, como lidar com emoções, qual é seu valor, e quais são as "regras invisíveis" da vida.
+
+Se cresceu em um ambiente com negligência emocional, crítica constante, ou dinâmicas de controle, você internalizou essas mensagens como verdades sobre si mesmo. Essas "réguas" - padrões de como a vida "deve" ser - se tornaram automáticas. Você as segue sem questionar.
 
 Esses padrões se repetem em seus relacionamentos atuais, suas escolhas profissionais, e sua relação consigo mesmo. Você pode estar atraindo parceiros que replicam dinâmicas familiares prejudiciais, ou sabotando relacionamentos saudáveis porque "não parecem certos" (porque não são familiares).
 
-A terapia permite que você compreenda essas dinâmicas, perdoe seus pais (e a si mesmo), e escolha conscientemente quais padrões manter e quais transformar. Você não está preso ao seu passado; você pode criar uma vida diferente.`,
+A terapia permite que você compreenda essas dinâmicas conscientemente. Não para culpar seus pais, mas para reconhecer que você internalizou padrões que não são necessariamente seus. Você pode questionar essas "réguas prontas" e escolher conscientemente quais manter e quais transformar.
+
+Você não está preso ao seu passado. Você pode criar uma vida diferente através de escolha consciente.`,
     relatedService: { title: 'Padrões Familiares', url: '/terapia/adultos/padroes-familiares' }
   },
   {
     id: 'pais-narcisistas',
     category: 'Questões Comuns',
-    question: 'Como lidar com mãe narcisista, pai narcisista ou pais narcisistas?',
-    answer: `Ter um pai ou mãe narcisista significa crescer em um ambiente onde suas necessidades emocionais não eram prioritárias. O pai/mãe narcisista precisava que você validasse seu ego, que você fosse um reflexo de seu sucesso, ou que você cuidasse de suas emoções. Isso deixa sequelas: dificuldade em estabelecer limites, culpa ao colocar suas necessidades em primeiro lugar, e uma tendência a se relacionar com pessoas narcisistas.
+    question: 'Como lidar com dinâmicas narcisistas na família?',
+    answer: `Crescer em uma dinâmica narcisista significa crescer em um sistema onde suas necessidades emocionais não eram prioritárias. Você aprendeu que seu valor dependia de validar o ego do outro, de ser um reflexo de seu sucesso, ou de cuidar de suas emoções.
 
-Lidar com isso envolve: 1) Compreender que o comportamento narcisista não era sobre você, mas sobre as limitações emocionais do seu pai/mãe; 2) Estabelecer limites saudáveis (mesmo que isso signifique distância); 3) Curar a ferida de não ter recebido validação genuína; 4) Aprender a validar a si mesmo e a reconhecer seu próprio valor independentemente da aprovação deles.
+Isso deixa marcas: dificuldade em estabelecer limites, culpa ao colocar suas necessidades em primeiro lugar, e uma tendência a se relacionar com pessoas que replicam essa dinâmica.
 
-Este é um trabalho profundo, mas transformador. Muitos de meus clientes que cresceram com pais narcisistas desenvolvem uma compreensão compassiva de seus pais enquanto simultaneamente se libertam das dinâmicas prejudiciais.`,
+Lidar com isso envolve:
+
+1) Compreender que o comportamento narcisista não era sobre você, mas sobre as limitações emocionais da outra pessoa
+2) Questionar conscientemente os padrões que você internalizou (como você merecia ser tratado?)
+3) Estabelecer limites saudáveis (mesmo que isso signifique distância)
+4) Curar a ferida de não ter recebido validação genuína
+5) Aprender a validar a si mesmo e reconhecer seu próprio valor independentemente da aprovação
+
+Este é um trabalho profundo. Requer que você questione pressupostos fundamentais sobre relacionamento, valor, e lealdade. Mas é transformador. Muitos de meus clientes que cresceram em dinâmicas narcisistas desenvolvem uma compreensão compassiva de seus pais enquanto simultaneamente se libertam das dinâmicas prejudiciais.`,
     relatedService: { title: 'Padrões Familiares', url: '/terapia/adultos/padroes-familiares' }
   },
   {
@@ -122,28 +151,47 @@ Este é um trabalho profundo, mas transformador. Muitos de meus clientes que cre
 • Não vem acompanhada de pensamentos catastróficos
 • Oferece orientação sem urgência
 • Você sente confiança mesmo sem lógica aparente
-• É como um "saber" silencioso
+• É como um "saber" silencioso que persiste
 
 **Ansiedade:**
 • Vem acompanhada de tensão física
-• Gera pensamentos catastróficos e "e se..."
+• Gera pensamentos "e se..." catastróficos
 • Cria urgência e desespero
 • Pede controle e previsão do futuro
-• É barulhenta e agitada
+• É barulhenta, agitada, exigente
 
-Uma ferramenta prática: use a analogia do Carro, Motorista e GPS. O Carro é seu corpo (impulsos), o Motorista é sua mente racional, e o GPS é sua intuição. A ansiedade é o Motorista em pânico tentando controlar tudo. A intuição é o GPS oferecendo orientação.
+Uma ferramenta prática: use a analogia do Carro, Motorista e GPS. O Carro é seu corpo e impulsos (instintos). O Motorista é sua mente racional (análise). O GPS é sua intuição (sabedoria interior). A ansiedade é o Motorista em pânico tentando controlar tudo. A intuição é o GPS oferecendo orientação.
 
-Para aprender a discernir com profundidade, confira nosso artigo completo sobre ansiedade vs intuição, onde oferecemos exercícios práticos.`,
+O discernimento entre os dois é uma habilidade que se desenvolve com prática e autoobservação. Requer que você questione conscientemente: "De onde vem esse sentimento? É um aviso genuíno ou é medo?"`,
     relatedBlogPost: 'ansiedade-vs-intuicao',
     relatedService: { title: 'Regulação Emocional', url: '/terapia/adultos/regulacao-emocional' }
+  },
+  {
+    id: 'regras-invisíveis',
+    category: 'Questões Comuns',
+    question: 'O que são "regras invisíveis" e como elas me limitam?',
+    answer: `Regras invisíveis são normas, expectativas e padrões comportamentais que você segue automaticamente sem consciência explícita. Você as internalizou através do condicionamento social ao longo de sua vida.
+
+Exemplos: "Mulheres não devem ser agressivas", "Homens não devem chorar", "Você deve ser sempre agradável", "Sucesso significa ter muito dinheiro", "Questionar autoridade é desrespeitoso".
+
+Essas regras são raramente verbalizadas. Operam principalmente no nível inconsciente. Geram desconforto emocional e físico quando você as viola. E frequentemente carecem de justificativa racional quando examinadas.
+
+O problema: você segue essas regras sem questionar se elas servem você. Você as segue porque "sempre foi assim" ou porque "todo mundo faz assim". Isso limita sua liberdade e sua autenticidade.
+
+A solução: desenvolver a capacidade de questionar conscientemente essas regras. Pergunte-se: "Por que faço isso? De onde veio essa crença? Ela ainda serve a mim? Escolho mantê-la ou abandoná-la?"
+
+Isso é o que chamamos de "arqueologia pessoal de pressupostos" - escavar as camadas de condicionamento para descobrir as crenças invisíveis que moldam seu comportamento. Quando você questiona conscientemente essas regras, recupera sua liberdade.`,
+    relatedService: { title: 'Minha Abordagem', url: '/minha-abordagem' }
   },
   {
     id: 'como-funciona-sessao',
     category: 'Prática',
     question: 'Como funciona uma sessão comigo?',
-    answer: `Cada sessão é única, mas há uma estrutura geral: começamos com o que está presente para você naquele momento. Pode ser uma situação específica que aconteceu, um padrão que você notou, ou simplesmente como você está se sentindo.
+    answer: `Cada sessão é única, mas há uma estrutura geral: começamos com o que está presente para você naquele momento. Pode ser uma situação específica, um padrão que você notou, ou simplesmente como você está se sentindo.
 
-De lá, exploramos juntos. Eu faço perguntas que ajudam você a ir mais fundo, a conectar pontos que talvez não tenha visto antes. Não ofereço soluções prontas; em vez disso, ajudo você a descobrir suas próprias respostas através de investigação rigorosa e compassiva.
+De lá, exploramos juntos. Faço perguntas que ajudam você a ir mais fundo, a conectar pontos que talvez não tenha visto antes. Não ofereço soluções prontas; em vez disso, ajudo você a descobrir suas próprias respostas através de investigação rigorosa e compassiva.
+
+O processo é dialógico. Você fala, eu escuto e questiono. Você questiona suas próprias crenças. Juntos, exploramos as camadas por baixo do que está acontecendo.
 
 Sessões duram 50 minutos. Você pode fazer online (via Zoom) ou presencialmente em Presidente Epitácio - SP. O ritmo é semanal, quinzenal, ou conforme sua necessidade. Confidencialidade total é garantida, com exceções legais (risco de morte, abuso de menores, etc.).`,
     relatedService: { title: 'Agendar Sessão', url: '/contato' }
@@ -152,20 +200,26 @@ Sessões duram 50 minutos. Você pode fazer online (via Zoom) ou presencialmente
     id: 'quanto-tempo-resultados',
     category: 'Prática',
     question: 'Quanto tempo leva para ver resultados?',
-    answer: `Isso varia muito. Algumas pessoas começam a se sentir melhor após a primeira sessão, simplesmente porque finalmente estão sendo ouvidas e compreendidas. Outras levam semanas ou meses para notar mudanças significativas.
+    answer: `Isso depende do que você quer dizer com "resultados".
 
-O que importa é que a terapia não é sobre alívio rápido; é sobre transformação profunda. Se você está buscando uma "solução rápida", talvez coaching ou medicação sejam mais apropriados. Mas se você quer compreender realmente por que repete certos padrões e quer criar mudanças duradouras, a terapia é o caminho.
+Se você quer alívio imediato de sintomas, existem outras abordagens (medicação, técnicas rápidas). Mas se você quer compreensão profunda que leva a mudanças duradouras, isso requer tempo.
 
-Geralmente, você começa a notar mudanças significativas entre 3 a 6 meses de trabalho consistente. Mas cada pessoa é diferente. O importante é manter o compromisso com o processo e confiar que a mudança está acontecendo, mesmo que não seja sempre visível.`,
+Geralmente, você começa a notar mudanças significativas entre 3 a 6 meses de trabalho consistente. Mas não são mudanças "mágicas". São mudanças na forma como você pensa, nas escolhas que faz, na forma como você se relaciona com seus padrões.
+
+O que importa é que você está desenvolvendo a capacidade de questionar conscientemente seus pressupostos. Isso é um processo. Não é linear. Haverá momentos de clareza e momentos de confusão. Ambos são parte do processo.
+
+O importante é manter o compromisso com a investigação e confiar que a mudança está acontecendo, mesmo que não seja sempre visível. A transformação genuína é lenta e profunda, não rápida e superficial.`,
     relatedService: { title: 'Agendar Sessão', url: '/contato' }
   },
   {
     id: 'investimento-sessao',
     category: 'Prática',
     question: 'Qual é o investimento de uma sessão?',
-    answer: `O investimento em uma sessão de 50 minutos é de **R$ 200**. Este é um investimento em sua saúde mental, em sua compreensão de si mesmo, e em sua capacidade de viver uma vida mais autêntica e satisfatória.
+    answer: `O investimento em uma sessão de 50 minutos é de **R$ 200**. 
 
-Considere: você investe em roupas, em viagens, em educação. Seu bem-estar emocional merece o mesmo investimento. Muitas pessoas descobrem que ao resolver padrões que as mantinham presas, economizam dinheiro (menos comportamentos autodestrutivos), ganham mais (melhor desempenho no trabalho), e têm relacionamentos mais satisfatórios.
+Considere: você investe em educação, em viagens, em coisas materiais. Seu bem-estar emocional e sua compreensão de si mesmo merecem o mesmo investimento. Talvez mais.
+
+Muitas pessoas descobrem que ao compreender e transformar padrões que as mantinham presas, elas economizam dinheiro (menos comportamentos autodestrutivos), ganham mais (melhor desempenho no trabalho), e têm relacionamentos mais satisfatórios. O retorno é significativo.
 
 Se você tem dificuldades financeiras, podemos conversar sobre possibilidades. Meu compromisso é trabalhar com quem realmente quer fazer o trabalho.`,
     relatedService: { title: 'Agendar Sessão', url: '/contato' }
@@ -229,28 +283,6 @@ Mas a verdade é: você só saberá se pode confiar em mim experimentando. A pri
     relatedService: { title: 'Minha Abordagem', url: '/minha-abordagem' }
   },
   {
-    id: 'autossabotagem-1',
-    category: 'Autossabotagem',
-    question: 'Por que saboto meu próprio sucesso?',
-    answer: `A autossabotagem não é fraqueza ou falta de vontade - é um sistema de proteção psicológica. Você sabota seu sucesso porque:
-
-**Raízes Psicológicas:**
-• Padrões familiares: você aprendeu que sucesso é perigoso ou desloyal
-• Lealdades invisíveis: sacrificar seu sucesso mantém você "fiel" à família
-• Trauma: sucesso anterior foi seguido de punição ou perda
-• Identidade limitada: você se vê como "alguém que falha"
-• Medo do julgamento: sucesso o expõe ao escrutínio social
-
-**O Paradoxo:**
-Sua autossabotagem está tentando protegê-lo. Mas de quê? Frequentemente de coisas que não são mais ameaças reais.
-
-A solução não é "lutar contra si mesmo", mas compreender o que essa sabotagem está protegendo. Isso requer exploração profunda de padrões familiares e desenvolvimento de novos valores.
-
-Leia nosso artigo aprofundado sobre autossabotagem para entender as raízes e o processo de libertação. Você também pode explorar nossa página de serviço sobre autossabotagem para entender como a terapia pode ajudar.`,
-    relatedBlogPost: 'autossabotagem-inconsciente',
-    relatedService: { title: 'Autossabotagem', url: '/terapia/adultos/autossabotagem' }
-  },
-  {
     id: 'quando-procurar-psicólogo',
     category: 'Quando Procurar',
     question: 'Quando devo procurar um psicólogo?',
@@ -259,17 +291,18 @@ Leia nosso artigo aprofundado sobre autossabotagem para entender as raízes e o 
 **Procure um psicólogo se:**
 • Está vivenciando uma crise existencial e não sabe como processar
 • Padrões de relacionamento se repetem dolorosamente
-• Autossabotagem está bloqueando seus objetivos
-• Traumas passados estão afetando sua vida presente
+• Você está sabotando seus próprios objetivos e não compreende por quê
+• Traumas passados estão afetando suas escolhas presentes
 • Você questiona seus valores e não sabe como forjar os seus próprios
 • Ansiedade ou medo estão limitando suas escolhas
 • Você busca integração psicológica e espiritual genuína
 • Está em transição de vida significativa
+• Você quer compreender as "regras invisíveis" que governam seu comportamento
 
 **Importante:**
 Procurar ajuda profissional não é fraqueza - é auto-responsabilidade. É você assumindo agência sobre seu próprio desenvolvimento. A terapia é um espaço seguro para questionar pressupostos, explorar padrões e desenvolver autenticidade.
 
-Oferecemos atendimento online para todo o país e presencial em Presidente Epitácio - SP. Clique abaixo para agendar uma sessão inicial.`,
+Oferecemos atendimento online para todo o país e presencial em Presidente Epitácio - SP.`,
     relatedService: { title: 'Agendar Sessão', url: '/contato' }
   }
 ];
