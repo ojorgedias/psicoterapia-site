@@ -22,13 +22,13 @@ export default function Article3() {
         Seja no ambiente de trabalho, em uma roda de amigos ou ao pensar em publicar algo na internet, o medo do julgamento costuma paralisar pessoas brilhantes. Quando a fobia social ataca, é comum que o indivíduo se culpe, acreditando que é fraco ou inseguro demais. No entanto, a psicologia profunda nos mostra que o medo da rejeição não é uma falha de caráter. Na verdade, ele é um dos mecanismos de sobrevivência mais antigos e poderosos que o nosso cérebro possui. Entender a biologia por trás dessa necessidade de aprovação é o primeiro passo para deixar de ser refém dela.
       </p>
 
-      <h2>O "<Link href="/ansiedade"><a className="text-primary hover:underline">Mamute Interior</a></Link>" e a nossa herança evolutiva</h2>
+      <h2>O "<Link href="/ansiedade" className="text-primary hover:underline">Mamute Interior</Link>" e a nossa herança evolutiva</h2>
       <p>
         Para compreender a fobia social, precisamos olhar para os nossos ancestrais. O cérebro humano foi forjado em um contexto tribal, onde pertencer ao grupo era a única garantia de sobrevivência. Se você fosse rejeitado ou expulso da sua tribo, as suas chances de sobreviver sozinho ao inverno ou a um predador eram nulas. A rejeição social significava, literalmente, a morte.
       </p>
 
       <p>
-        Esse mecanismo biológico continua operando na nossa mente hoje. Eu costumo chamar esse medo primitivo de "<Link href="/ansiedade"><a className="text-primary hover:underline">Mamute Interior</a></Link>". Quando você pensa em dar uma opinião que contraria o seu grupo, o seu cérebro não interpreta isso apenas como um "deslize social". O alarme biológico soa como se a sua vida estivesse em perigo. O suor frio, a taquicardia e a <Link href="/ansiedade"><a className="text-primary hover:underline">ansiedade</a></Link> paralisante são o seu corpo se preparando para uma ameaça de morte que, na vida moderna, simplesmente não existe mais.
+        Esse mecanismo biológico continua operando na nossa mente hoje. Eu costumo chamar esse medo primitivo de "<Link href="/ansiedade" className="text-primary hover:underline">Mamute Interior</Link>". Quando você pensa em dar uma opinião que contraria o seu grupo, o seu cérebro não interpreta isso apenas como um "deslize social". O alarme biológico soa como se a sua vida estivesse em perigo. O suor frio, a taquicardia e a <Link href="/ansiedade" className="text-primary hover:underline">ansiedade</Link> paralisante são o seu corpo se preparando para uma ameaça de morte que, na vida moderna, simplesmente não existe mais.
       </p>
 
       <h2>Quando o instinto de sobrevivência vira fobia social</h2>
@@ -37,7 +37,7 @@ export default function Article3() {
       </p>
 
       <p>
-        Ao tentar se proteger do julgamento, o indivíduo acaba sofrendo com graves problemas na <InternalLink href="/terapia/adultos/regulacao-emocional">regulação emocional e controle da <Link href="/ansiedade"><a className="text-primary hover:underline">ansiedade</a></Link></InternalLink>. O esforço para não desagradar ninguém é tão exaustivo que não sobra energia para construir uma vida autêntica.
+        Ao tentar se proteger do julgamento, o indivíduo acaba sofrendo com graves problemas na <InternalLink href="/terapia/adultos/regulacao-emocional">regulação emocional e controle da <Link href="/ansiedade" className="text-primary hover:underline">ansiedade</Link></InternalLink>. O esforço para não desagradar ninguém é tão exaustivo que não sobra energia para construir uma vida autêntica.
       </p>
 
       <h2>Atualizando o seu sistema mental</h2>

@@ -38,7 +38,7 @@ Resolver uma crise de identidade profissional exige que você recupere a sua aut
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Artigos Relacionados</h3>
               <ul className="space-y-3">
                 <li><a href="//autossabotagem" className="text-blue-600 hover:underline">Autossabotagem: Além do Conceito</a></li>
-                <li><a href="/padroes-familiares" className="text-blue-600 hover:underline"><Link href="/padroes-familiares"><a className="text-primary hover:underline">Padrões Familiares</a></Link>: Libertação e Integração</a></li>
+                <li><Link href="/padroes-familiares" className="text-primary hover:underline">Padrões Familiares</Link></li>
                 <li><a href="/crise-existencial" className="text-blue-600 hover:underline">Crise Existencial: Expansão de Consciência</a></li>
               </ul>
             </div>

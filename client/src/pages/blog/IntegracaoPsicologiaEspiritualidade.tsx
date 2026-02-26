@@ -61,8 +61,8 @@ export default function IntegracaoPsicologiaEspiritualidade() {
           </h2>
           <p>
             Porque muitos problemas "espirituais" têm raízes psicológicas. Um bloqueio espiritual pode ser 
-            trauma não processado. Uma dificuldade em práticas espirituais pode ser <Link href="/autossabotagem"><a className="text-primary hover:underline">autossabotagem</a></Link>. Uma 
-            "noite escura da alma" pode ser <Link href="/depressao-vs-crise-existencial"><a className="text-primary hover:underline">depressão</a></Link>.
+            trauma não processado. Uma dificuldade em práticas espirituais pode ser <Link href="/autossabotagem" className="text-primary hover:underline">autossabotagem</Link>. Uma 
+            "noite escura da alma" pode ser <Link href="/depressao-vs-crise-existencial" className="text-primary hover:underline">depressão</Link>.
           </p>
 
           <h2 className="text-2xl font-display font-bold text-foreground mt-8">
@@ -93,11 +93,11 @@ export default function IntegracaoPsicologiaEspiritualidade() {
           <h3 className="text-xl font-semibold text-primary mt-6">Práticas Espirituais</h3>
           <p>
             Podem ser transformadoras. Mas também podem ser usadas para evitar crescimento psicológico 
-            (<Link href="/blog/spiritual-bypass"><a className="text-primary hover:underline">spiritual bypass</a></Link>).
+            (<Link href="/blog/spiritual-bypass" className="text-primary hover:underline">spiritual bypass</Link>).
           </p>
 
           <h2 className="text-2xl font-display font-bold text-foreground mt-8">
-            <Link href="/autossabotagem"><a className="text-primary hover:underline">Autossabotagem</a></Link> em Práticas Espirituais
+            <Link href="/autossabotagem" className="text-primary hover:underline">Autossabotagem</Link> em Práticas Espirituais
           </h2>
           <p>
             Você medita mas não consegue manter a prática? Você estuda esoterismo mas não consegue 
@@ -125,7 +125,7 @@ export default function IntegracaoPsicologiaEspiritualidade() {
             <h3 className="text-xl font-semibold text-foreground mb-3">Integração Genuína</h3>
             <p className="text-foreground mb-4">
               Ofereço atendimento especializado em integração psicologia-espiritualidade pragmática, 
-              com foco em crescimento genuíno sem <Link href="/blog/spiritual-bypass"><a className="text-primary hover:underline">spiritual bypass</a></Link>.
+              com foco em crescimento genuíno sem <Link href="/blog/spiritual-bypass" className="text-primary hover:underline">spiritual bypass</Link>.
             </p>
             <CTAButton whatsapp>Agendar Sessão</CTAButton>
           </div>
@@ -137,7 +137,7 @@ export default function IntegracaoPsicologiaEspiritualidade() {
             <Link href="/blog/spiritual-bypass">
               <a className="p-4 bg-card border border-border rounded-lg hover:border-primary transition-colors group">
                 <h4 className="font-semibold text-foreground group-hover:text-primary transition-colors mb-2">
-                  <Link href="/blog/spiritual-bypass"><a className="text-primary hover:underline">Spiritual Bypass</a></Link>
+                  <Link href="/blog/spiritual-bypass" className="text-primary hover:underline">Spiritual Bypass</Link>
                 </h4>
                 <p className="text-sm text-muted-foreground">Quando espiritualidade evita crescimento</p>
                 <div className="flex items-center gap-2 text-primary mt-2 text-sm">
