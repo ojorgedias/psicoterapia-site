@@ -42,7 +42,10 @@ export default function Home() {
           </h1>
           <p className="text-lg text-muted-foreground mb-6 font-semibold">CRP 08/31462</p>
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto" style={{color: '#413e3e'}}>
-            Especializado em <strong>crise existencial</strong>, <strong>autossabotagem</strong> e <strong>padrões familiares</strong>. Investigação filosófica e clínica rigorosa. Atendimento online Brasil e presencial em Presidente Epitácio - SP.
+            Você se sente perdido, preso em ciclos que se repetem, ou vivendo uma vida que não é realmente sua? Trabalho com pessoas que chegam ao consultório buscando mais que respostas prontas. Meu trabalho é investigação profunda: desvendar as regras invisíveis que governam você, sem dogmas ou receitas.
+          </p>
+          <p className="text-lg text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto" style={{color: '#413e3e'}}>
+            Especializado em <strong>crise existencial</strong>, <strong>autossabotagem</strong> e <strong>padrões familiares</strong>. Atendimento online Brasil e presencial em Presidente Epitácio - SP.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <CTAButton href="/contato">Agendar Sessão</CTAButton>

@@ -15,12 +15,12 @@ const faqItems: FAQItem[] = [
   {
     category: 'Fundamentos da Abordagem',
     question: 'O que diferencia sua abordagem de outras terapias?',
-    answer: 'Trabalho na intersecção entre psicologia clínica, filosofia e antropologia. Enquanto muitas abordagens tentam "transformar" ou "corrigir" você através de técnicas de controle, minha prática se baseia na mediação e compreensão. Não busco silenciar sua voz interior ou impor uma "régua pronta" de como você deveria ser. Em vez disso, investigamos juntos as estruturas invisíveis que governam seu comportamento, compreendemos sua origem e função, e você desenvolve discernimento para fazer escolhas genuinamente autênticas. É um processo de arqueologia pessoal, não de transformação mágica.'
+    answer: 'Eu trabalho na interseção entre psicologia clínica, filosofia e antropologia. Enquanto muitas abordagens tentam "transformar" ou "corrigir" você através de técnicas de controle, minha prática se baseia na mediação e compreensão.. Não busco silenciar sua voz interior ou impor uma "régua pronta" de como você deveria ser. Em vez disso, investigamos juntos as estruturas invisíveis que governam seu comportamento, compreendemos sua origem e função, e você desenvolve discernimento para fazer escolhas genuinamente autênticas. É um processo de arqueologia pessoal, não de transformação mágica.'
   },
   {
     category: 'Fundamentos da Abordagem',
     question: 'Você trabalha com espiritualidade? Como isso se integra com psicologia?',
-    answer: 'Sim, mas de forma pragmática e rigorosa. Não há separação real entre desenvolvimento psicológico e espiritual—eles caminham juntos. A questão é que muitas práticas espirituais fracassam porque não levam em conta as dinâmicas psicológicas não resolvidas. Por exemplo, uma pessoa pode tentar práticas meditativas, mas se há trauma ou padrões inconscientes de auto-sabotagem operando, a prática fica bloqueada. Minha abordagem usa a psicologia clínica (Jung, trauma, etc.) como ferramenta para compreender o que está impedindo o desenvolvimento espiritual genuíno. Isso não é "espiritualidade light"—é integração real.'
+    answer: 'Sim, mas de forma pragmática e rigorosa. Na minha prática, não há separação real entre desenvolvimento psicológico e espiritual—eles caminham juntos. A questão é que muitas práticas espirituais fracassam porque não levam em conta as dinâmicas psicológicas não resolvidas. Por exemplo, uma pessoa pode tentar práticas meditativas, mas se há trauma ou padrões inconscientes de auto-sabotagem operando, a prática fica bloqueada. Minha abordagem usa a psicologia clínica (Jung, trauma, etc.) como ferramenta para compreender o que está impedindo o desenvolvimento espiritual genuíno. Isso não é "espiritualidade light"—é integração real.'
   },
   {
     category: 'Fundamentos da Abordagem',
@@ -35,12 +35,12 @@ const faqItems: FAQItem[] = [
   {
     category: 'Sobre Autossabotagem',
     question: 'Como você trabalha com autossabotagem na terapia?',
-    answer: 'Não tentamos "vencer" ou "dominar" essa parte de você. Isso geralmente leva a infantilização psicológica—você continua tropeçando nos mesmos erros, mas agora com dinheiro. Em vez disso, investigamos: o que essa voz está sinalizando? Que mudança, compreensão ou assimilação está faltando? Muitas vezes, quando você se sabota, é porque algo dentro de você considera que você "não está pronto" para aquilo. Não no sentido de uma crença limitante, mas no sentido real—há integração que precisa acontecer, há compreensão que precisa ser desenvolvida. A terapia oferece o espaço para essa integração ocorrer, não para você ignorar os sinais de alerta que seu inconsciente está enviando.'
+    answer: 'Eu não tento "vencer" ou "dominar" essa parte de você. Isso geralmente leva a infantilização psicológica—você continua tropeçando nos mesmos erros, mas agora com dinheiro. Em vez disso, investigamos: o que essa voz está sinalizando? Que mudança, compreensão ou assimilação está faltando? Muitas vezes, quando você se sabota, é porque algo dentro de você considera que você "não está pronto" para aquilo. Não no sentido de uma crença limitante, mas no sentido real—há integração que precisa acontecer, há compreensão que precisa ser desenvolvida. A terapia oferece o espaço para essa integração ocorrer, não para você ignorar os sinais de alerta que seu inconsciente está enviando.'
   },
   {
     category: 'Sobre Padrões Familiares',
     question: 'Como padrões familiares me afetam agora, como adulto?',
-    answer: 'Padrões familiares não são apenas "crenças" que você absorveu—são estruturas profundas que se entrelaçam com o social, criando dinâmicas próprias. Você internalizou modelos de relacionamento, de como lidar com conflito, de como expressar (ou não) emoções, de qual é seu lugar no sistema. Esses padrões foram adaptações inteligentes para sobreviver no seu contexto familiar específico. O problema é que muitas vezes continuam operando automaticamente na vida adulta, mesmo quando não servem mais. Você pode estar repetindo dinâmicas de relacionamento, escolhendo parceiros que replicam padrões antigos, ou reproduzindo a mesma forma de comunicação que seus pais usavam. A questão não é rejeitar sua herança familiar, mas compreendê-la pragmaticamente e decidir conscientemente quais padrões manter e quais transformar.'
+    answer: 'Na minha experiência clínica, padrões familiares não são apenas "crenças" que você absorveu—são estruturas profundas que se entrelaçam com o social, criando dinâmicas próprias. Você internalizou modelos de relacionamento, de como lidar com conflito, de como expressar (ou não) emoções, de qual é seu lugar no sistema. Esses padrões foram adaptações inteligentes para sobreviver no seu contexto familiar específico. O problema é que muitas vezes continuam operando automaticamente na vida adulta, mesmo quando não servem mais. Você pode estar repetindo dinâmicas de relacionamento, escolhendo parceiros que replicam padrões antigos, ou reproduzindo a mesma forma de comunicação que seus pais usavam. A questão não é rejeitar sua herança familiar, mas compreendê-la pragmaticamente e decidir conscientemente quais padrões manter e quais transformar.'
   },
   {
     category: 'Sobre Padrões Familiares',
@@ -55,7 +55,7 @@ const faqItems: FAQItem[] = [
   {
     category: 'Sobre Crise Existencial',
     question: 'Como você trabalha com crise existencial?',
-    answer: 'A terapia oferece um espaço seguro para você navegar essa transição sem tentar "voltar ao normal" ou encontrar uma solução rápida. Não tentamos restaurar a estrutura antiga—ela se tornou insuportável por uma razão. Em vez disso, ajudamos você a compreender o que está morrendo e o que está nascendo. Investigamos quais pressupostos já não servem, quais valores genuinamente importam para você, e como construir uma nova estrutura que seja mais alinhada com quem você realmente é. Esse é um processo de síntese dialética—você não rejeita tudo do passado, mas integra o que aprendeu de forma mais consciente e autêntica.'
+    answer: 'Eu ofereço um espaço seguro para você navegar essa transição sem tentar "voltar ao normal" ou encontrar uma solução rápida. Não tentamos restaurar a estrutura antiga—ela se tornou insuportável por uma razão. Em vez disso, ajudamos você a compreender o que está morrendo e o que está nascendo. Investigamos quais pressupostos já não servem, quais valores genuinamente importam para você, e como construir uma nova estrutura que seja mais alinhada com quem você realmente é. Esse é um processo de síntese dialética—você não rejeita tudo do passado, mas integra o que aprendeu de forma mais consciente e autêntica.'
   },
   {
     category: 'Sobre Regras Invisíveis',
@@ -90,7 +90,7 @@ const faqItems: FAQItem[] = [
   {
     category: 'Prática Terapêutica',
     question: 'Como funciona uma sessão de terapia com você?',
-    answer: 'Cada sessão é um espaço de investigação colaborativa. Não estou aqui para "consertar" você ou impor interpretações. Em vez disso, fazemos perguntas que ajudam você a escavar suas próprias estruturas invisíveis. Usamos técnicas como a arqueologia pessoal de pressupostos, análise de padrões, exploração de dinâmicas inconscientes, e integração de aspectos contraditórios de si mesmo. O trabalho é tanto clínico quanto filosófico—usamos rigor psicológico combinado com questionamento profundo sobre pressupostos e valores. A sessão é um espaço onde você pode ser vulnerável, explorar dúvidas, questionar crenças, e desenvolver compreensão mais profunda de si mesmo. Não há "técnicas rápidas" ou soluções mágicas—há investigação genuína.'
+    answer: 'Cada sessão é um espaço de investigação colaborativa. Eu não estou aqui para "consertar" você ou impor interpretações. Em vez disso, fazemos perguntas que ajudam você a escavar suas próprias estruturas invisíveis. Usamos técnicas como a arqueologia pessoal de pressupostos, análise de padrões, exploração de dinâmicas inconscientes, e integração de aspectos contraditórios de si mesmo. O trabalho é tanto clínico quanto filosófico—usamos rigor psicológico combinado com questionamento profundo sobre pressupostos e valores. A sessão é um espaço onde você pode ser vulnerável, explorar dúvidas, questionar crenças, e desenvolver compreensão mais profunda de si mesmo. Não há "técnicas rápidas" ou soluções mágicas—há investigação genuína.'
   },
   {
     category: 'Prática Terapêutica',

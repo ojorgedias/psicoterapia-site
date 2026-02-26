@@ -38,26 +38,36 @@ export default function About() {
 
           <h1>Minha Abordagem Clínica</h1>
 
+          <p className="text-lg leading-relaxed mb-6 italic text-slate-700">
+            "Eu não trabalho para devolver você à engrenagem que o adoeceu. Trabalho para você compreender a lógica interna do seu sofrimento."
+          </p>
+
           {/* SECTION 1: Abordagem Clínica */}
           <h2>Investigação Filosófica e Clínica Rigorosa</h2>
           <p>
-            A psicoterapia que realizo não segue protocolos genéricos ou manuais de autoajuda. É uma investigação singular, artesanal e profundamente filosófica. O objetivo não é oferecer respostas rápidas, mas criar um espaço seguro onde você possa desmontar as narrativas impostas e descobrir quem você realmente é.
+            Quando alguém chega ao meu consultório, geralmente já tentou de tudo. Leu livros de autoajuda, foi a outros terapeutas, talvez tenha tomado medicação. Mas ainda se sente preso. E isso é porque a maioria das abordagens trata o sintoma, não a raiz.
+          </p>
+          <p>
+            Meu trabalho é diferente. Não é rápido, não é fácil, mas é genuinamente transformador. Criamos um espaço onde você pode desmontar as narrativas impostas — aquelas que você herdou da família, da cultura, da sociedade — e descobrir quem você realmente é por baixo de tudo isso.
           </p>
 
           <h2>Fundamentos da Prática</h2>
           <p>
-            Trabalho com uma abordagem integrativa que combina:
+            Minha forma de trabalhar integra várias perspectivas, mas sempre com rigor e sem dogmatismo:
           </p>
           <ul className="list-disc pl-6 mb-4">
-            <li>Psicanálise e Psicologia Profunda</li>
-            <li>Filosofia Existencial e Pensamento Integrativo</li>
-            <li>Compreensão Neurofisiológica dos Processos Emocionais</li>
-            <li>Investigação Rigorosa de Padrões Comportamentais</li>
+            <li><strong>Psicanálise e Psicologia Profunda:</strong> Entender o inconsciente, as defesas, a sombra que você não quer ver</li>
+            <li><strong>Filosofia Existencial:</strong> Questionar pressupostos, reconhecer sua liberdade e responsabilidade genuína</li>
+            <li><strong>Compreensão Neurofisiológica:</strong> Saber como o corpo e o sistema nervoso reagem ao estresse e ao trauma</li>
+            <li><strong>Investigação de Padrões:</strong> Desvendar as regras invisíveis que governam seu comportamento</li>
           </ul>
 
           <h2>O Trabalho Clínico</h2>
           <p>
-            Não procuro "consertar" você ou encaixá-lo de volta na engrenagem social que o adoeceu. Procuro compreender a lógica interna do seu sofrimento. Quando você entende por que faz o que faz, quando consegue ver a anatomia da sua própria insatisfação, o automatismo perde o poder de coerção.
+            Você já parou para pensar que a maioria das pessoas vive segundo "regras" que nunca escolheu? Regras sobre como deve ser feliz, o que deve valorizar, qual carreira deve seguir. Essas regras vêm da família, da cultura, do que "se espera de você". E quando você tenta viver diferente, sente culpa, ansiedade, medo.
+          </p>
+          <p>
+            Meu trabalho é ajudar você a ver essas regras invisíveis. Quando você consegue enxergá-las, elas perdem o poder. Você recupera a capacidade de escolher genuinamente.
           </p>
 
           {/* SECTION 2: Como Funciona */}
