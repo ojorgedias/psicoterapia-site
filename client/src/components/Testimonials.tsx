@@ -31,7 +31,7 @@ export default function Testimonials({
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
             {title}
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto" style={{fontSize: '16px'}}>
             {subtitle}
           </p>
           <div className="flex items-center justify-center gap-2 mt-4">
