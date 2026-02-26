@@ -1,16 +1,16 @@
 import React, { useEffect } from 'react';
 import Layout from '@/components/Layout';
 
-export default function MaeNarcisista() {
+export default function QuebrarCiclosFamiliares() {
   useEffect(() => {
-    document.title = 'Como lidar com mãe narcisista na vida adulta: A quebra da lealdade invisível | Jorge Dias';
+    document.title = 'Como quebrar ciclos familiares tóxicos na fase adulta: O preço da autonomia | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {
       descMeta = document.createElement('meta');
       descMeta.setAttribute('name', 'description');
       document.head.appendChild(descMeta);
     }
-    descMeta.setAttribute('content', 'Explore como quebrar lealdades invisíveis e construir autonomia emocional.');
+    descMeta.setAttribute('content', 'Explore como desativar lealdades invisíveis e construir novos padrões.');
   }, []);
 
   return (
@@ -18,7 +18,7 @@ export default function MaeNarcisista() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         <section className="pt-20 pb-12 px-4 max-w-4xl mx-auto">
           <h1 className="text-5xl font-bold text-slate-900 mb-6 leading-tight">
-            Como lidar com mãe narcisista na vida adulta: A quebra da lealdade invisível
+            Como quebrar ciclos familiares tóxicos na fase adulta: O preço da autonomia
           </h1>
         </section>
 

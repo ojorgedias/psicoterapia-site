@@ -46,6 +46,26 @@ import PadroesFamiliaresPilar from "./pages/content/PadroesFamiliaresPilar";
 import CriseExistencialPilar from "./pages/content/CriseExistencialPilar";
 import AnsiedadePilar from "./pages/content/AnsiedadePilar";
 import NarcisismoPilar from "./pages/content/NarcisismoPilar";
+import SabotagemRelacionamento from "./pages/blog/SabotagemRelacionamento";
+import PorQueDesistoTudo from "./pages/blog/PorQueDesistoTudo";
+import SintomasAutossabotagem from "./pages/blog/SintomasAutossabotagem";
+import PreguicaVsAutossabotagem from "./pages/blog/PreguicaVsAutossabotagem";
+import FobiaSocial from "./pages/blog/FobiaSocial";
+import NarcisismoEraDigital from "./pages/blog/NarcisismoEraDigital";
+import CriseExistencial30 from "./pages/blog/CriseExistencial30";
+import DepressionVsCrise from "./pages/blog/DepressionVsCrise";
+import VidaPerdeSentido from "./pages/blog/VidaPerdeSentido";
+import CriseIdentidadeProfissional from "./pages/blog/CriseIdentidadeProfissional";
+import AtaquePanico from "./pages/blog/AtaquePanico";
+import TerapiaOnlineAnsiedade from "./pages/blog/TerapiaOnlineAnsiedade";
+import AnsiedadeDomingoNoite from "./pages/blog/AnsiedadeDomingoNoite";
+import ParceiroComNarcisismo from "./pages/blog/ParceiroComNarcisismo";
+import RecuperarAutoestima from "./pages/blog/RecuperarAutoestima";
+import EgoísmoVsNarcisismo from "./pages/blog/EgoísmoVsNarcisismo";
+import QuebrarCiclosFamiliares from "./pages/blog/QuebrarCiclosFamiliares";
+import CulpaAfastarFamilia from "./pages/blog/CulpaAfastarFamilia";
+import RepeticaoPadroesFamiliares from "./pages/blog/RepeticaoPadroesFamiliares";
+import MaesImaturas from "./pages/blog/MaesImaturas";
 
 // Update document title and meta tags
 if (typeof document !== 'undefined') {
@@ -115,6 +135,36 @@ function Router() {
       <Route path={"/blog/sindrome-impostor-terapeutas"} component={SindromeImpostorTerapeutas} />
       <Route path={"/blog/spiritual-bypass"} component={SpiritualBypass} />
       <Route path={"/blog/integracao-psicologia-espiritualidade"} component={IntegracaoPsicologiaEspiritualidade} />
+      
+      {/* Long-Tail SEO Articles - Autossabotagem Cluster */}
+      <Route path="/sabotagem-relacionamento" component={SabotagemRelacionamento} />
+      <Route path="/por-que-desisto-tudo" component={PorQueDesistoTudo} />
+      <Route path="/sintomas-autossabotagem-trabalho" component={SintomasAutossabotagem} />
+      <Route path="/preguica-vs-autossabotagem" component={PreguicaVsAutossabotagem} />
+      
+      {/* Long-Tail SEO Articles - Ansiedade Cluster */}
+      <Route path="/fobia-social" component={FobiaSocial} />
+      <Route path="/ataque-panico" component={AtaquePanico} />
+      <Route path="/terapia-online-ansiedade" component={TerapiaOnlineAnsiedade} />
+      <Route path="/ansiedade-domingo-noite" component={AnsiedadeDomingoNoite} />
+      
+      {/* Long-Tail SEO Articles - Crise Existencial Cluster */}
+      <Route path="/crise-existencial-30-anos" component={CriseExistencial30} />
+      <Route path="/depressao-vs-crise-existencial" component={DepressionVsCrise} />
+      <Route path="/vida-perde-sentido" component={VidaPerdeSentido} />
+      <Route path="/crise-identidade-profissional" component={CriseIdentidadeProfissional} />
+      
+      {/* Long-Tail SEO Articles - Narcisismo Cluster */}
+      <Route path="/narcisismo-era-digital" component={NarcisismoEraDigital} />
+      <Route path="/parceiro-narcisismo-oculto" component={ParceiroComNarcisismo} />
+      <Route path="/recuperar-autoestima-narcisista" component={RecuperarAutoestima} />
+      <Route path="/egoismo-vs-narcisismo" component={EgoísmoVsNarcisismo} />
+      
+      {/* Long-Tail SEO Articles - Padrões Familiares Cluster */}
+      <Route path="/quebrar-ciclos-familiares" component={QuebrarCiclosFamiliares} />
+      <Route path="/culpa-afastar-familia" component={CulpaAfastarFamilia} />
+      <Route path="/repeticao-padroes-familiares" component={RepeticaoPadroesFamiliares} />
+      <Route path="/maes-imaturas" component={MaesImaturas} />
       
       {/* Legal Pages */}
       <Route path={"/politica-privacidade"} component={PrivacyPolicy} />

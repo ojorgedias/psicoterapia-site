@@ -1,16 +1,16 @@
 import React, { useEffect } from 'react';
 import Layout from '@/components/Layout';
 
-export default function MaeNarcisista() {
+export default function AtaquePanico() {
   useEffect(() => {
-    document.title = 'Como lidar com mãe narcisista na vida adulta: A quebra da lealdade invisível | Jorge Dias';
+    document.title = 'Como acalmar uma crise de ansiedade forte sozinho: O limite entre o alívio e o tratamento | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {
       descMeta = document.createElement('meta');
       descMeta.setAttribute('name', 'description');
       document.head.appendChild(descMeta);
     }
-    descMeta.setAttribute('content', 'Explore como quebrar lealdades invisíveis e construir autonomia emocional.');
+    descMeta.setAttribute('content', 'Aprenda técnicas imediatas e o trabalho profundo necessário para resolver crises.');
   }, []);
 
   return (
@@ -18,7 +18,7 @@ export default function MaeNarcisista() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         <section className="pt-20 pb-12 px-4 max-w-4xl mx-auto">
           <h1 className="text-5xl font-bold text-slate-900 mb-6 leading-tight">
-            Como lidar com mãe narcisista na vida adulta: A quebra da lealdade invisível
+            Como acalmar uma crise de ansiedade forte sozinho: O limite entre o alívio e o tratamento
           </h1>
         </section>
 
@@ -31,7 +31,7 @@ export default function MaeNarcisista() {
             <div className="mt-12 p-8 bg-slate-100 rounded-lg">
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Artigos Relacionados</h3>
               <ul className="space-y-3">
-                <li><a href="/padroes-familiares" className="text-blue-600 hover:underline">Voltar ao cluster temático</a></li>
+                <li><a href="/ansiedade" className="text-blue-600 hover:underline">Voltar ao cluster temático</a></li>
               </ul>
             </div>
           </div>

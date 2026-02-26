@@ -1,16 +1,16 @@
 import React, { useEffect } from 'react';
 import Layout from '@/components/Layout';
 
-export default function MaeNarcisista() {
+export default function MaesImaturas() {
   useEffect(() => {
-    document.title = 'Como lidar com mãe narcisista na vida adulta: A quebra da lealdade invisível | Jorge Dias';
+    document.title = 'Como identificar mães emocionalmente imaturas: O impacto do vazio afetivo na vida adulta | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {
       descMeta = document.createElement('meta');
       descMeta.setAttribute('name', 'description');
       document.head.appendChild(descMeta);
     }
-    descMeta.setAttribute('content', 'Explore como quebrar lealdades invisíveis e construir autonomia emocional.');
+    descMeta.setAttribute('content', 'Reconheça sinais de mães imaturas e como isso afeta sua vida adulta.');
   }, []);
 
   return (
@@ -18,7 +18,7 @@ export default function MaeNarcisista() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         <section className="pt-20 pb-12 px-4 max-w-4xl mx-auto">
           <h1 className="text-5xl font-bold text-slate-900 mb-6 leading-tight">
-            Como lidar com mãe narcisista na vida adulta: A quebra da lealdade invisível
+            Como identificar mães emocionalmente imaturas: O impacto do vazio afetivo na vida adulta
           </h1>
         </section>
 
