@@ -11,6 +11,7 @@ export default function Home() {
     pageType: 'home',
     title: 'Psicólogo Jorge Dias - Psicoterapia Clínica para Autoconhecimento Profundo',
     description: 'Investigação filosófica e clínica rigorosa para quem se sente perdido, sem propósito ou preso em ciclos repetitivos.',
+    keywords: 'psicólogo, psicoterapia, crise existencial, autossabotagem, padrões familiares, terapia online, Presidente Epitácio',
     url: 'https://psicoterapia-site.com'
   });
   useLocalBusinessSchema();

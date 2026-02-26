@@ -71,6 +71,15 @@ export function updatePageMeta(page: keyof typeof seoMetadata) {
   }
   descMeta.setAttribute('content', meta.description);
   
+  // Update meta keywords
+  let keywordsMeta = document.querySelector('meta[name="keywords"]');
+  if (!keywordsMeta) {
+    keywordsMeta = document.createElement('meta');
+    keywordsMeta.setAttribute('name', 'keywords');
+    document.head.appendChild(keywordsMeta);
+  }
+  keywordsMeta.setAttribute('content', meta.keywords);
+  
   // Update OG tags
   let ogTitle = document.querySelector('meta[property="og:title"]');
   if (!ogTitle) {

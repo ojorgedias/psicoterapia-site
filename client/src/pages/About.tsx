@@ -11,6 +11,7 @@ export default function About() {
     pageType: 'about',
     title: 'Minha Abordagem Clínica - Psicólogo Jorge Dias',
     description: 'Investigação filosófica e clínica rigorosa. Abordagem integrativa que combina psicanálise, filosofia existencial e compreensão neurofisiológica.',
+    keywords: 'sobre psicólogo, abordagem terapêutica, psicologia integrativa, investigação profunda, Jorge Dias',
     url: 'https://psicoterapia-site.com/sobre'
   });
   
