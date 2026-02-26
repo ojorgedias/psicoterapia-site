@@ -38,11 +38,11 @@ export default function Home() {
             className="w-40 h-40 md:w-56 md:h-56 rounded-full object-cover mx-auto mb-8 shadow-xl border-4 border-background"
           />
           <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-2 leading-tight">
-            Psicólogo Jorge Dias
+            Psicólogo Jorge Dias - Psicoterapia Clínica
           </h1>
           <p className="text-lg text-muted-foreground mb-6 font-semibold">CRP 08/31462</p>
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto" style={{color: '#413e3e'}}>
-            Investigação filosófica e clínica rigorosa para quem se sente perdido, sem propósito ou preso em ciclos repetitivos. Atendimento online para todo o mundo e presencial em Presidente Epitácio - SP.
+            Especializado em <strong>crise existencial</strong>, <strong>autossabotagem</strong> e <strong>padrões familiares</strong>. Investigação filosófica e clínica rigorosa. Atendimento online Brasil e presencial em Presidente Epitácio - SP.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <CTAButton href="/contato">Agendar Sessão</CTAButton>

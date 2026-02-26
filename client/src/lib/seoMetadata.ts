@@ -1,8 +1,8 @@
 export const seoMetadata = {
   home: {
-    title: 'Psicólogo Jorge Dias - Psicoterapia Clínica Online | Autoconhecimento Profundo',
-    description: 'Psicoterapia clínica com Jorge Dias (CRP 08/31462). Especializado em crise existencial, autossabotagem, padrões familiares e integração psicologia-espiritualidade. Atendimento online Brasil e presencial em Presidente Epitácio - SP.',
-    keywords: 'psicólogo, psicoterapia, crise existencial, autossabotagem, padrões familiares, terapia online',
+    title: 'Psicólogo Jorge Dias | Psicoterapia Clínica',
+    description: 'Psicoterapia clínica especializada em crise existencial, autossabotagem e padrões familiares. Atendimento online e presencial em Presidente Epitácio.',
+    keywords: 'psicólogo, psicoterapia, crise existencial, autossabotagem, padrões familiares',
   },
   about: {
     title: 'Minha Abordagem - Psicólogo Jorge Dias | Psicoterapia Clínica',
