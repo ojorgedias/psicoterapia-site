@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 
 interface EEATSchemaProps {
+  keywords?: string;
   pageType: 'home' | 'about' | 'service' | 'blog' | 'faq' | 'concept';
   title: string;
   description: string;
