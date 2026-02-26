@@ -1,10 +1,18 @@
-import Layout from "@/components/Layout";
 import { useEffect } from 'react';
+import Layout from "@/components/Layout";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CTAButton from "@/components/CTAButton";
 import { updatePageMeta } from "@/lib/seoMetadata";
+import { useEEATSchema } from "@/components/EEATSchema";
 
 export default function About() {
+  useEEATSchema({
+    pageType: 'about',
+    title: 'Minha Abordagem Clínica - Psicólogo Jorge Dias',
+    description: 'Investigação filosófica e clínica rigorosa. Abordagem integrativa que combina psicanálise, filosofia existencial e compreensão neurofisiológica.',
+    url: 'https://psicoterapia-site.com/sobre'
+  });
+  
   useEffect(() => {
     updatePageMeta('about');
   }, []);

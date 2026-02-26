@@ -6,10 +6,20 @@ import CTAButton from '@/components/CTAButton';
 import { Clock, ArrowRight } from 'lucide-react';
 import { useBlogPostingSchema } from '@/components/SEOSchema';
 import { getBlogPostMetadata } from '@/lib/blogPostingSchema';
+import { useEEATSchema } from '@/components/EEATSchema';
 
 export default function AutossabotagemInconsciente() {
   const readingTime = 15;
   const metadata = getBlogPostMetadata('autossabotagem-inconsciente');
+  
+  useEEATSchema({
+    pageType: 'blog',
+    title: 'Autossabotagem Inconsciente: A Manifestacao da Sombra',
+    description: 'Compreenda as raizes profundas da autossabotagem: lealdades invisiveis e dinamicas de poder.',
+    url: 'https://psicoterapia-site.com/blog/autossabotagem-inconsciente',
+    datePublished: '2026-02-23',
+    dateModified: '2026-02-25'
+  });
   
   if (metadata) {
     useBlogPostingSchema({
