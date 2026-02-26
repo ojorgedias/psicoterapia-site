@@ -49,7 +49,7 @@ export default function AutossabotagemInconsciente() {
         {/* Header */}
         <div className="mb-8">
           <h1 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-4">
-            Autossabotagem Inconsciente: A Manifestação da Sombra e as Dinâmicas de Poder
+            Autossabotagem Inconsciente: A Manifestação da <Link href="/blog/sombra-relacionamentos"><a className="text-primary hover:underline">Sombra</a></Link> e as Dinâmicas de Poder
           </h1>
           <div className="flex items-center gap-4 text-muted-foreground">
             <div className="flex items-center gap-2">
@@ -71,7 +71,7 @@ export default function AutossabotagemInconsciente() {
           </h2>
           
           <p>
-            A autossabotagem não é um mecanismo de proteção simples. É mais complexa. Ela é a manifestação de partes de si mesmo que você rejeita (a sombra) combinada com uma dinâmica onde você se sente simultaneamente onipotente (capaz de tudo) e impotente (incapaz de nada). Quando você se aproxima do sucesso, essa dinâmica se ativa e você cria obstáculos.
+            A autossabotagem não é um mecanismo de proteção simples. É mais complexa. Ela é a manifestação de partes de si mesmo que você rejeita (a <Link href="/blog/sombra-relacionamentos"><a className="text-primary hover:underline">sombra</a></Link>) combinada com uma dinâmica onde você se sente simultaneamente onipotente (capaz de tudo) e impotente (incapaz de nada). Quando você se aproxima do sucesso, essa dinâmica se ativa e você cria obstáculos.
           </p>
 
           <p>
@@ -79,7 +79,7 @@ export default function AutossabotagemInconsciente() {
           </p>
 
           <h2 className="text-2xl font-display font-bold text-foreground mt-8">
-            Lealdades Invisíveis: O Entrelaçamento Familiar
+            <Link href="/terapia/casais/padroes-familiares"><a className="text-primary hover:underline">Lealdades Invisíveis</a></Link>: O Entrelaçamento Familiar
           </h2>
           
           <p>
@@ -124,7 +124,7 @@ export default function AutossabotagemInconsciente() {
           </p>
 
           <h2 className="text-2xl font-display font-bold text-foreground mt-8">
-            A Sombra: O Que Você Rejeita em Si Mesmo
+            A <Link href="/blog/sombra-relacionamentos"><a className="text-primary hover:underline">Sombra</a></Link>: O Que Você Rejeita em Si Mesmo
           </h2>
 
           <p>
@@ -133,16 +133,16 @@ export default function AutossabotagemInconsciente() {
 
           <h3 className="text-xl font-semibold text-primary mt-6">Exemplo: A Agressividade</h3>
           <p>
-            Você foi criado para ser "gentil" e "educado". Sua agressividade é sombra. Você a rejeita. Mas sucesso muitas vezes exige agressividade—estabelecer limites, dizer não, defender seus interesses. Quando você se aproxima do sucesso, seu inconsciente percebe que você precisaria acessar essa agressividade rejeitada. Então você sabota para evitar ter que integrar essa parte de si mesmo.
+            Você foi criado para ser "gentil" e "educado". Sua agressividade é <Link href="/blog/sombra-relacionamentos"><a className="text-primary hover:underline">sombra</a></Link>. Você a rejeita. Mas sucesso muitas vezes exige agressividade—estabelecer limites, dizer não, defender seus interesses. Quando você se aproxima do sucesso, seu inconsciente percebe que você precisaria acessar essa agressividade rejeitada. Então você sabota para evitar ter que integrar essa parte de si mesmo.
           </p>
 
           <h3 className="text-xl font-semibold text-primary mt-6">Exemplo: A Ambição</h3>
           <p>
-            Você foi criado em um ambiente onde ambição era vista como "ganância" ou "egoísmo". Sua ambição é sombra. Você a rejeita. Mas sucesso exige ambição. Quando você se aproxima do sucesso, você sente que está se tornando a pessoa que você sempre desprezou. Então você sabota para manter sua autoimagem de pessoa "humilde" e "desapegada".
+            Você foi criado em um ambiente onde ambição era vista como "ganância" ou "egoísmo". Sua ambição é <Link href="/blog/sombra-relacionamentos"><a className="text-primary hover:underline">sombra</a></Link>. Você a rejeita. Mas sucesso exige ambição. Quando você se aproxima do sucesso, você sente que está se tornando a pessoa que você sempre desprezou. Então você sabota para manter sua autoimagem de pessoa "humilde" e "desapegada".
           </p>
 
           <h2 className="text-2xl font-display font-bold text-foreground mt-8">
-            Autossabotagem vs Spiritual Bypass
+            Autossabotagem vs <Link href="/blog/spiritual-bypass"><a className="text-primary hover:underline">Spiritual Bypass</a></Link>
           </h2>
           
           <p>
@@ -150,7 +150,7 @@ export default function AutossabotagemInconsciente() {
           </p>
 
           <p>
-            A verdadeira espiritualidade não rejeita o mundo material ou o sucesso. Ela integra. Você pode ser bem-sucedido E espiritual. Você pode ter dinheiro E valores autênticos. Quando você usa espiritualidade para justificar fracasso, você está fazendo spiritual bypass, não desenvolvimento genuíno.
+            A verdadeira espiritualidade não rejeita o mundo material ou o sucesso. Ela integra. Você pode ser bem-sucedido E espiritual. Você pode ter dinheiro E valores autênticos. Quando você usa espiritualidade para justificar fracasso, você está fazendo <Link href="/blog/spiritual-bypass"><a className="text-primary hover:underline">spiritual bypass</a></Link>, não desenvolvimento genuíno.
           </p>
 
           <h2 className="text-2xl font-display font-bold text-foreground mt-8">
@@ -196,7 +196,7 @@ export default function AutossabotagemInconsciente() {
           <div className="bg-primary/5 border border-primary/20 rounded-lg p-6 mt-8">
             <h3 className="text-xl font-semibold text-foreground mb-3">Pronto para Investigar Suas Raízes?</h3>
             <p className="text-foreground mb-4">
-              A psicoterapia oferece um espaço seguro para fazer essa investigação de forma rigorosa e compassiva. Ofereço atendimento especializado em autossabotagem, padrões familiares e integração da sombra. Atendimento online para todo o país e presencial em Presidente Epitácio - SP.
+              A psicoterapia oferece um espaço seguro para fazer essa investigação de forma rigorosa e compassiva. Ofereço atendimento especializado em autossabotagem, <Link href="/padroes-familiares"><a className="text-primary hover:underline">padrões familiares</a></Link> e integração da <Link href="/blog/sombra-relacionamentos"><a className="text-primary hover:underline">sombra</a></Link>. Atendimento online para todo o país e presencial em Presidente Epitácio - SP.
             </p>
             <CTAButton whatsapp>Agendar Sessão Inicial</CTAButton>
           </div>
@@ -223,7 +223,7 @@ export default function AutossabotagemInconsciente() {
                 <h4 className="font-semibold text-foreground group-hover:text-primary transition-colors mb-2">
                   Conceitos Fundamentais
                 </h4>
-                <p className="text-sm text-muted-foreground">Entenda a sombra, lealdades invisíveis e mais</p>
+                <p className="text-sm text-muted-foreground">Entenda a <Link href="/blog/sombra-relacionamentos"><a className="text-primary hover:underline">sombra</a></Link>, <Link href="/terapia/casais/padroes-familiares"><a className="text-primary hover:underline">lealdades invisíveis</a></Link> e mais</p>
                 <div className="flex items-center gap-2 text-primary mt-2 text-sm">
                   <span>Explorar</span>
                   <ArrowRight size={16} />

@@ -22,9 +22,9 @@ export default function CrisisExistential() {
       </p>
 
       <p>
-        A crise existencial frequentemente se mascara sob sintomas físicos e emocionais intensos. A tentativa de silenciar esse chamado através da distração inevitavelmente resulta em estados de exaustão ou problemas na{" "}
+        A <Link href="/crise-existencial"><a className="text-primary hover:underline">crise existencial</a></Link> frequentemente se mascara sob sintomas físicos e emocionais intensos. A tentativa de silenciar esse chamado através da distração inevitavelmente resulta em estados de exaustão ou problemas na{" "}
         <InternalLink href="/terapia/adultos/regulacao-emocional">
-          regulação emocional e controle da ansiedade
+          regulação emocional e controle da <Link href="/ansiedade"><a className="text-primary hover:underline">ansiedade</a></Link>
         </InternalLink>
         . O corpo e a mente tentam comunicar que a rota atual é insustentável. Nossa psique opera em um contínuo, e quando a mente racional insiste em ignorar as necessidades fundamentais do seu próprio ser, o sistema entra em colapso para forçar uma mudança.
       </p>
@@ -33,17 +33,17 @@ export default function CrisisExistential() {
       <p>
         Desde que nascemos, absorvemos o que chamo de "Réguas Prontas". São os valores, as expectativas de sucesso, as morais e as regras de como viver que herdamos da nossa cultura e do nosso núcleo de origem. Essa dinâmica de aceitação cega está profundamente atrelada à forma como absorvemos{" "}
         <InternalLink href="/terapia/casais/padroes-familiares">
-          padrões familiares e lealdades invisíveis
+          <Link href="/padroes-familiares"><a className="text-primary hover:underline">padrões familiares</a></Link> e <Link href="/terapia/casais/padroes-familiares"><a className="text-primary hover:underline">lealdades invisíveis</a></Link>
         </InternalLink>
         , aceitando as visões de mundo dos nossos pais como verdades absolutas. Em termos filosóficos, vivemos em um estado de Tese: aceitamos passivamente o mundo como ele nos foi apresentado.
       </p>
 
       <p>
-        Porém, chega um momento na vida adulta em que essa régua externa se torna insuportável. O sucesso que prometia segurança não traz paz, ou o caminho seguro de repente parece um confinamento. Essa angústia e essa perda de sentido marcam a chegada da Antítese. A crise existencial nada mais é do que o choque violento entre a vida que foi projetada para você e as necessidades reais da sua individualidade.
+        Porém, chega um momento na vida adulta em que essa régua externa se torna insuportável. O sucesso que prometia segurança não traz paz, ou o caminho seguro de repente parece um confinamento. Essa angústia e essa perda de sentido marcam a chegada da Antítese. A <Link href="/crise-existencial"><a className="text-primary hover:underline">crise existencial</a></Link> nada mais é do que o choque violento entre a vida que foi projetada para você e as necessidades reais da sua individualidade.
       </p>
 
       <p>
-        Entrar nessa fase exige uma coragem intelectual imensa. Na clínica, convido o paciente a adotar conscientemente o que chamo de "manto da ignorância". Isso significa que, para descobrir quem você realmente é, precisamos primeiro suspender temporariamente todas as certezas de quem você achava que deveria ser. É admitir o não-saber como ferramenta de exploração de si mesmo.
+        Entrar nessa fase exige uma coragem intelectual imensa. Na clínica, convido o paciente a adotar conscientemente o que chamo de "<Link href="/conceitos-fundamentais"><a className="text-primary hover:underline">manto da ignorância</a></Link>". Isso significa que, para descobrir quem você realmente é, precisamos primeiro suspender temporariamente todas as certezas de quem você achava que deveria ser. É admitir o não-saber como ferramenta de exploração de si mesmo.
       </p>
 
       <h2>Um trabalho filosófico e artesanal</h2>

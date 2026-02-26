@@ -33,7 +33,7 @@ export default function SindromeImpostorTerapeutas() {
   return (
     <Layout>
     <div className="bg-background">
-      <Breadcrumbs items={[{ label: 'Blog', href: '/blog' }, { label: 'Síndrome do Impostor em Terapeutas' }]} />
+      <Breadcrumbs items={[{ label: 'Blog', href: '/blog' }, { label: '<Link href="/blog/sindrome-impostor"><a className="text-primary hover:underline">Síndrome do Impostor</a></Link> em Terapeutas' }]} />
 
       <article className="container max-w-3xl py-12 md:py-20">
         <div className="mb-8">
@@ -57,10 +57,10 @@ export default function SindromeImpostorTerapeutas() {
           </p>
 
           <h2 className="text-2xl font-display font-bold text-foreground mt-8">
-            Por Que Terapeutas Têm Síndrome do Impostor?
+            Por Que Terapeutas Têm <Link href="/blog/sindrome-impostor"><a className="text-primary hover:underline">Síndrome do Impostor</a></Link>?
           </h2>
 
-          <h3 className="text-xl font-semibold text-primary mt-6">Autossabotagem Profissional</h3>
+          <h3 className="text-xl font-semibold text-primary mt-6"><Link href="/autossabotagem"><a className="text-primary hover:underline">Autossabotagem</a></Link> Profissional</h3>
           <p>
             Você aprendeu que ser competente era perigoso. Talvez seus pais se sentissem ameaçados por 
             seu sucesso. Agora, você sabota sua própria credibilidade.
@@ -75,7 +75,7 @@ export default function SindromeImpostorTerapeutas() {
           <h3 className="text-xl font-semibold text-primary mt-6">Medo do Julgamento</h3>
           <p>
             Seus clientes o julgam. Seus colegas o julgam. Você está constantemente sendo avaliado. 
-            Seu Mamute Interior está em alerta máximo.
+            Seu <Link href="/ansiedade"><a className="text-primary hover:underline">Mamute Interior</a></Link> está em alerta máximo.
           </p>
 
           <h2 className="text-2xl font-display font-bold text-foreground mt-8">
@@ -98,7 +98,7 @@ export default function SindromeImpostorTerapeutas() {
             <h3 className="text-xl font-semibold text-foreground mb-3">Para Profissionais de Saúde Mental</h3>
             <p className="text-foreground mb-4">
               Ofereço atendimento especializado para terapeutas e psicólogos que lidam com síndrome do 
-              impostor e autossabotagem profissional.
+              impostor e <Link href="/autossabotagem"><a className="text-primary hover:underline">autossabotagem</a></Link> profissional.
             </p>
             <CTAButton whatsapp>Agendar Sessão</CTAButton>
           </div>

@@ -30,13 +30,13 @@ export default function Article8() {
         Esse medo irracional do julgamento ativa o que chamo de <InternalLink href="/blog/fobia-social">fobia social e necessidade de aprovação</InternalLink>. O esgotamento não vem do seu trabalho, mas do esforço gigantesco que o seu cérebro faz para esconder dos outros que você, como qualquer ser humano, tem lacunas e inseguranças.
       </p>
 
-      <h2>A Técnica do Manto da Ignorância</h2>
+      <h2>A Técnica do <Link href="/conceitos-fundamentais"><a className="text-primary hover:underline">Manto da Ignorância</a></Link></h2>
       <p>
-        O antídoto clínico para a síndrome do impostor é radical e contraintuitivo: a cura não está em tentar saber mais para provar o seu valor, mas em assumir conscientemente a sua ignorância. No consultório, trabalhamos o que conceituo como a "Técnica do Manto da Ignorância".
+        O antídoto clínico para a <Link href="/blog/sindrome-impostor"><a className="text-primary hover:underline">síndrome do impostor</a></Link> é radical e contraintuitivo: a cura não está em tentar saber mais para provar o seu valor, mas em assumir conscientemente a sua ignorância. No consultório, trabalhamos o que conceituo como a "Técnica do Manto da Ignorância".
       </p>
 
       <p>
-        Vestir o manto da ignorância é o ato corajoso de dizer "eu não sei" e se libertar da obrigação de ser o especialista inquestionável. Paradoxalmente, reconhecer a própria ignorância é o maior sinal de sabedoria e maturidade intelectual que existe. Quando você tem a coragem intelectual de suspender as certezas absolutas, você mata o "impostor" de fome. Afinal, ninguém pode desmascarar uma pessoa que já tirou a própria máscara voluntariamente.
+        Vestir o <Link href="/conceitos-fundamentais"><a className="text-primary hover:underline">manto da ignorância</a></Link> é o ato corajoso de dizer "eu não sei" e se libertar da obrigação de ser o especialista inquestionável. Paradoxalmente, reconhecer a própria ignorância é o maior sinal de sabedoria e maturidade intelectual que existe. Quando você tem a coragem intelectual de suspender as certezas absolutas, você mata o "impostor" de fome. Afinal, ninguém pode desmascarar uma pessoa que já tirou a própria máscara voluntariamente.
       </p>
 
       <h2>O resgate da verdadeira autenticidade</h2>

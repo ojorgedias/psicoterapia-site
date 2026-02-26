@@ -36,14 +36,14 @@ export default function AutossabotagemPilar() {
               O que é Autossabotagem, Realmente?
             </h2>
             <p className="text-slate-700 leading-relaxed mb-6">
-              Autossabotagem não é um comportamento isolado. É uma manifestação de regras invisíveis que você internalizou, frequentemente sem perceber. Essas regras governam o que você acredita ser "permitido" para você, qual é seu "lugar" no mundo, e o que significa ser leal aos seus.
+              Autossabotagem não é um comportamento isolado. É uma manifestação de <Link href="/conceitos-fundamentais"><a className="text-primary hover:underline">regras invisíveis</a></Link> que você internalizou, frequentemente sem perceber. Essas regras governam o que você acredita ser "permitido" para você, qual é seu "lugar" no mundo, e o que significa ser leal aos seus.
             </p>
             <p className="text-slate-700 leading-relaxed mb-6">
               Imagine que você cresceu em uma família onde o sucesso era visto como perigoso, como algo que afastaria você do grupo. Ou onde fracasso era uma forma de permanecer conectado a alguém que sofria. Essas mensagens não eram ditas explicitamente. Você as absorveu observando, sentindo, internalizando.
             </p>
 
             <h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">
-              Lealdades Invisíveis: O Coração da Autossabotagem
+              <Link href="/terapia/casais/padroes-familiares"><a className="text-primary hover:underline">Lealdades Invisíveis</a></Link>: O Coração da Autossabotagem
             </h2>
             <p className="text-slate-700 leading-relaxed mb-6">
               No fundo da autossabotagem está frequentemente uma lealdade invisível. Você sabot seu sucesso porque, em algum nível profundo, acredita que ser bem-sucedido significaria:
@@ -62,7 +62,7 @@ export default function AutossabotagemPilar() {
               Existe uma dinâmica paradoxal na autossabotagem. Por um lado, há uma crença inconsciente de que você é tão poderoso que seu sucesso destruiria alguém que você ama (onipotência). Por outro lado, há uma sensação de impotência — você não consegue controlar esses impulsos sabotadores.
             </p>
             <p className="text-slate-700 leading-relaxed mb-6">
-              Essa dinâmica cria um ciclo: você deseja sucesso, trabalha para isso, mas quando se aproxima, algo dentro de você puxa o freio. Você não consegue explicar por quê. Parece irracional. Mas não é. É perfeitamente lógico do ponto de vista das lealdades invisíveis que governam você.
+              Essa dinâmica cria um ciclo: você deseja sucesso, trabalha para isso, mas quando se aproxima, algo dentro de você puxa o freio. Você não consegue explicar por quê. Parece irracional. Mas não é. É perfeitamente lógico do ponto de vista das <Link href="/terapia/casais/padroes-familiares"><a className="text-primary hover:underline">lealdades invisíveis</a></Link> que governam você.
             </p>
 
             <h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">
@@ -95,7 +95,7 @@ export default function AutossabotagemPilar() {
               </a>
               <a href="/autossabotagem-trabalho-carreira" className="p-6 border border-slate-200 rounded-lg hover:shadow-lg transition-shadow block">
                 <h3 className="font-bold text-slate-900 mb-2">Sintomas de Autossabotagem no Trabalho</h3>
-                <p className="text-sm text-slate-600">Como regras invisíveis limitam sua ascensão profissional</p>
+                <p className="text-sm text-slate-600">Como <Link href="/conceitos-fundamentais"><a className="text-primary hover:underline">regras invisíveis</a></Link> limitam sua ascensão profissional</p>
               </a>
               <a href="/diferenca-preguica-autossabotagem" className="p-6 border border-slate-200 rounded-lg hover:shadow-lg transition-shadow block">
                 <h3 className="font-bold text-slate-900 mb-2">Diferença Entre Preguiça e Autossabotagem</h3>
@@ -110,7 +110,7 @@ export default function AutossabotagemPilar() {
               Trabalhar com autossabotagem é um processo de conscientização, não de "correção". Não se trata de eliminar o impulso sabotador, mas de compreender o que ele está tentando proteger. Quando você entende a lealdade invisível por trás do comportamento, você ganha a liberdade de escolher conscientemente.
             </p>
             <p className="text-slate-700 leading-relaxed">
-              Se você está pronto para explorar seus padrões de autossabotagem de forma mais profunda, considere agendar uma sessão de terapia. Juntos, podemos fazer uma arqueologia pessoal de seus pressupostos e descobrir as regras invisíveis que governam seu sucesso.
+              Se você está pronto para explorar seus padrões de autossabotagem de forma mais profunda, considere agendar uma sessão de terapia. Juntos, podemos fazer uma arqueologia pessoal de seus pressupostos e descobrir as <Link href="/conceitos-fundamentais"><a className="text-primary hover:underline">regras invisíveis</a></Link> que governam seu sucesso.
             </p>
           </div>
         </section>
@@ -120,7 +120,7 @@ export default function AutossabotagemPilar() {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4">Pronto para Explorar Seus Padrões?</h2>
             <p className="text-lg text-slate-300 mb-8">
-              Agende uma sessão e comece a desconstruir as regras invisíveis que governam seu sucesso.
+              Agende uma sessão e comece a desconstruir as <Link href="/conceitos-fundamentais"><a className="text-primary hover:underline">regras invisíveis</a></Link> que governam seu sucesso.
             </p>
             <a href="https://wa.me/seu-numero" className="inline-block bg-white text-slate-900 font-bold py-3 px-8 rounded-lg hover:bg-slate-100 transition-colors">
               Agendar Sessão via WhatsApp

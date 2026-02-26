@@ -80,7 +80,7 @@ export default function NarcisismoPilar() {
             </ul>
 
             <h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">
-              Lealdades Invisíveis e Narcisismo
+              <Link href="/terapia/casais/padroes-familiares"><a className="text-primary hover:underline">Lealdades Invisíveis</a></Link> e Narcisismo
             </h2>
             <p className="text-slate-700 leading-relaxed mb-6">
               Frequentemente, pessoas que se relacionam com narcisistas têm lealdades invisíveis:
@@ -131,7 +131,7 @@ export default function NarcisismoPilar() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
               <a href="/mae-narcisista-vida-adulta" className="p-6 border border-slate-200 rounded-lg hover:shadow-lg transition-shadow block">
                 <h3 className="font-bold text-slate-900 mb-2">Como Lidar com Mãe Narcisista na Vida Adulta</h3>
-                <p className="text-sm text-slate-600">Padrões familiares e lealdades invisíveis</p>
+                <p className="text-sm text-slate-600"><Link href="/padroes-familiares"><a className="text-primary hover:underline">Padrões familiares</a></Link> e <Link href="/terapia/casais/padroes-familiares"><a className="text-primary hover:underline">lealdades invisíveis</a></Link></p>
               </a>
               <a href="/sinais-parceiro-narcisismo-oculto" className="p-6 border border-slate-200 rounded-lg hover:shadow-lg transition-shadow block">
                 <h3 className="font-bold text-slate-900 mb-2">Sinais de Parceiro com Traços de Narcisismo Oculto</h3>
@@ -154,7 +154,7 @@ export default function NarcisismoPilar() {
               Trabalhar com narcisismo — seja em um relacionamento ou em si mesmo — requer compreensão profunda e compaixão. Não é sobre julgamento, mas sobre libertação genuína.
             </p>
             <p className="text-slate-700 leading-relaxed">
-              Se você está pronto para explorar suas dinâmicas narcisistas, considere agendar uma sessão. Juntos, podemos trabalhar com as lealdades invisíveis e construir relacionamentos mais autênticos.
+              Se você está pronto para explorar suas dinâmicas narcisistas, considere agendar uma sessão. Juntos, podemos trabalhar com as <Link href="/terapia/casais/padroes-familiares"><a className="text-primary hover:underline">lealdades invisíveis</a></Link> e construir relacionamentos mais autênticos.
             </p>
           </div>
         </section>
