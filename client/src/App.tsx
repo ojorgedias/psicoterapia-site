@@ -41,6 +41,11 @@ import TermsOfUse from "./pages/TermsOfUse";
 import Services from "./pages/Services";
 import FloatingWhatsApp from "./components/FloatingWhatsApp";
 import ConceptosFundamentais from "./pages/ConceptosFundamentais";
+import AutossabotagemPilar from "./pages/content/AutossabotagemPilar";
+import PadroesFamiliaresPilar from "./pages/content/PadroesFamiliaresPilar";
+import CriseExistencialPilar from "./pages/content/CriseExistencialPilar";
+import AnsiedadePilar from "./pages/content/AnsiedadePilar";
+import NarcisismoPilar from "./pages/content/NarcisismoPilar";
 
 // Update document title and meta tags
 if (typeof document !== 'undefined') {
@@ -67,6 +72,13 @@ function Router() {
       <Route path={"/blog"} component={BlogList} />
       <Route path={"/faq"} component={FAQ} />
       <Route path={"/conceitos-fundamentais"} component={ConceptosFundamentais} />
+      
+      {/* Pillar Pages for Long-Tail SEO */}
+      <Route path={"/autossabotagem"} component={AutossabotagemPilar} />
+      <Route path={"/padroes-familiares"} component={PadroesFamiliaresPilar} />
+      <Route path={"/crise-existencial"} component={CriseExistencialPilar} />
+      <Route path={"/ansiedade"} component={AnsiedadePilar} />
+      <Route path={"/narcisismo"} component={NarcisismoPilar} />
       
       {/* Cluster 1: Terapia para Adultos */}
       <Route path={"/terapia/adultos/crise-existencial"} component={CrisisExistential} />
