@@ -3,14 +3,14 @@ import Layout from '@/components/Layout';
 
 export default function RecuperarAutoestima() {
   useEffect(() => {
-    document.title = 'Como recuperar a autoestima após relacionamento narcisista: O resgate da própria identidade | Jorge Dias';
+    document.title = 'Diferença entre egoísmo e transtorno de personalidade narcis | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {
       descMeta = document.createElement('meta');
       descMeta.setAttribute('name', 'description');
       document.head.appendChild(descMeta);
     }
-    descMeta.setAttribute('content', 'Aprenda como reconstruir sua identidade após abuso narcisista.');
+    descMeta.setAttribute('content', 'Diferença entre egoísmo e transtorno de personalidade narcisista: O limite do diagnóstico');
   }, []);
 
   return (
@@ -18,20 +18,27 @@ export default function RecuperarAutoestima() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         <section className="pt-20 pb-12 px-4 max-w-4xl mx-auto">
           <h1 className="text-5xl font-bold text-slate-900 mb-6 leading-tight">
-            Como recuperar a autoestima após relacionamento narcisista: O resgate da própria identidade
+            Diferença entre egoísmo e transtorno de personalidade narcisista: O limite do diagnóstico
           </h1>
         </section>
 
         <section className="px-4 max-w-4xl mx-auto py-12">
           <div className="prose prose-lg max-w-none">
-            <p className="text-slate-700 leading-relaxed mb-6">
-              Artigo em desenvolvimento. Conteúdo completo em breve.
-            </p>
+            <p className="text-slate-700 leading-relaxed mb-6">(Copiar a partir daqui)
+
+Diariamente, atendo pacientes que chegam à sessão diagnosticando amigos, colegas de trabalho ou ex-parceiros com Transtorno de Personalidade Narcisista (TPN). A popularização da psicologia na internet trouxe luz a abusos reais, mas também criou uma histeria diagnóstica. Hoje, qualquer pessoa que priorize os próprios interesses em detrimento dos nossos é rapidamente rotulada como narcisista. Contudo, como especialista clínico, preciso ser categórico: o egoísmo é um traço humano universal e, até certo ponto, necessário para a sobrevivência; já o transtorno narcisista é uma arquitetura psíquica severa, baseada na instrumentalização total do outro.
+
+</p><h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">O egoísmo comum versus a instrumentalização
+O indivíduo egoísta toma decisões que o beneficiam, muitas vezes sendo insensível às necessidades de quem o cerca. Ele pode ser um parceiro difícil e um péssimo colega de trabalho, mas ele reconhece que as outras pessoas existem como seres separados, com vontades próprias.</h2><p className="text-slate-700 leading-relaxed mb-6">O verdadeiro narcisista clínico não opera com essa distinção. Para ele, o outro não é um ser humano autônomo; o outro é um objeto, uma extensão dele mesmo, cuja única função é servir como espelho para refletir a sua grandiosidade. Quando o outro falha em aplaudir ou decide impor um limite, o narcisista não sente apenas raiva, ele sente que uma parte do seu próprio corpo o traiu. É por isso que as reações costumam ser desproporcionais e cruéis. Entender essa diferença é fundamental para quem busca a <a href="/terapia/casais/conflitos-casal" className="text-blue-600 hover:underline">resolução de conflitos de casal</a> [Instrução para a Manus IA: Transformar o trecho "<a href="/terapia/casais/conflitos-casal" className="text-blue-600 hover:underline">resolução de conflitos de casal</a>" em um link interno hiperlinkado para a página de Terapia de Casal do Cluster 2], pois conflitos com pessoas egoístas podem ser mediados; já a relação com um narcisista clínico exige estratégias de distanciamento e proteção.</p><h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">A capacidade de reparação e a inversão de culpa
+A principal métrica clínica que utilizo para separar o egoísmo do TPN é a capacidade de reparação. Uma pessoa egoísta, quando confrontada com a dor que causou, é capaz de sentir culpa. Ela pode ter dificuldade em mudar, mas o sentimento de remorso existe.</h2><p className="text-slate-700 leading-relaxed mb-6">O narcisista, devido a uma fratura profunda na própria identidade, é estruturalmente incapaz de suportar a culpa. Assumir um erro significaria o colapso do seu ego inflado. Portanto, ele utiliza a projeção contínua: o erro é sempre do outro. Se ele o ofendeu, foi porque você "o provocou". A culpa é constantemente invertida.</p><h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">Saia do papel de diagnosticador
+Na psicoterapia, o meu papel é tirar o paciente da função de "psiquiatra do ex". Tentar fechar o diagnóstico de quem o magoou é uma forma de autossabotagem e padrões de repetição [Instrução para a Manus IA: Transformar o trecho "autossabotagem e padrões de repetição" em um link interno hiperlinkado para a página de Autossabotagem do Cluster 1], que o mantém obcecado e focado no agressor.</h2><p className="text-slate-700 leading-relaxed mb-6">A investigação clínica verdadeira foca em você: por que a sua estrutura permitiu a permanência em uma dinâmica tão predatória? Se você deseja sair do ciclo de analisar o comportamento alheio para finalmente tratar as próprias feridas, a psicoterapia de profundidade oferece esse espaço. Ofereço acompanhamento psicológico online para o Brasil e exterior, além de sessões presenciais em Presidente Epitácio - SP.</p>
 
             <div className="mt-12 p-8 bg-slate-100 rounded-lg">
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Artigos Relacionados</h3>
               <ul className="space-y-3">
-                <li><a href="/narcisismo" className="text-blue-600 hover:underline">Voltar ao cluster temático</a></li>
+                <li><a href="/autossabotagem" className="text-blue-600 hover:underline">Autossabotagem: Além do Conceito</a></li>
+                <li><a href="/padroes-familiares" className="text-blue-600 hover:underline">Padrões Familiares: Libertação e Integração</a></li>
+                <li><a href="/crise-existencial" className="text-blue-600 hover:underline">Crise Existencial: Expansão de Consciência</a></li>
               </ul>
             </div>
           </div>
