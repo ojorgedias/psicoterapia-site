@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { ChevronDown } from 'lucide-react';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import Layout from '@/components/Layout';
 import { updatePageMeta } from '@/lib/seoMetadata';
 
 interface Concept {
@@ -313,8 +314,9 @@ export default function ConceptosFundamentais() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background">
-      <Breadcrumbs items={[{ label: 'Início', href: '/' }, { label: 'Conceitos Fundamentais' }]} />
+    <Layout>
+      <div className="bg-background">
+        <Breadcrumbs items={[{ label: 'Início', href: '/' }, { label: 'Conceitos Fundamentais' }]} />
 
       <div className="container max-w-3xl py-12 md:py-20">
         <div className="mb-12">
@@ -378,6 +380,7 @@ export default function ConceptosFundamentais() {
           </a>
         </div>
       </div>
-    </div>
+      </div>
+    </Layout>
   );
 }

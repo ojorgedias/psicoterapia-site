@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
 import { useEffect } from 'react';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import Layout from '@/components/Layout';
 import { useFAQSchema } from '@/components/SEOSchema';
 
 interface FAQItem {
@@ -136,8 +137,9 @@ export default function FAQ() {
   }, {} as Record<string, FAQItem[]>);
 
   return (
-    <div className="min-h-screen bg-background">
-      <Breadcrumbs items={[{ label: 'Início', href: '/' }, { label: 'FAQ' }]} />
+    <Layout>
+      <div className="bg-background">
+        <Breadcrumbs items={[{ label: 'Início', href: '/' }, { label: 'FAQ' }]} />
 
       <div className="container max-w-3xl py-12 md:py-20">
         <div className="mb-12">
@@ -215,6 +217,7 @@ export default function FAQ() {
           </a>
         </div>
       </div>
-    </div>
+      </div>
+    </Layout>
   );
 }

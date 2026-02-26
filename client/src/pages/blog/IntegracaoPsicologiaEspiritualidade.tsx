@@ -1,13 +1,38 @@
 import { Link } from 'wouter';
+import { useEffect } from 'react';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import Layout from '@/components/Layout';
 import CTAButton from '@/components/CTAButton';
 import { Clock, ArrowRight } from 'lucide-react';
+import { useBlogPostingSchema } from '@/components/SEOSchema';
+import { getBlogPostMetadata } from '@/lib/blogPostingSchema';
 
 export default function IntegracaoPsicologiaEspiritualidade() {
   const readingTime = 14;
+  const metadata = getBlogPostMetadata('integracao-psicologia-espiritualidade');
+  
+  if (metadata) {
+    useBlogPostingSchema({
+      headline: metadata.headline,
+      description: metadata.description,
+      image: metadata.image,
+      datePublished: metadata.datePublished,
+      dateModified: metadata.dateModified,
+      author: { '@type': 'Person', name: metadata.author },
+    });
+  }
+  
+  useEffect(() => {
+    document.title = metadata?.headline + ' - Psicólogo Jorge Dias';
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription && metadata) {
+      metaDescription.setAttribute('content', metadata.description);
+    }
+  }, [metadata]);
 
   return (
-    <div className="min-h-screen bg-background">
+    <Layout>
+    <div className="bg-background">
       <Breadcrumbs items={[{ label: 'Blog', href: '/blog' }, { label: 'Integração Psicologia-Espiritualidade' }]} />
 
       <article className="container max-w-3xl py-12 md:py-20">
@@ -137,5 +162,6 @@ export default function IntegracaoPsicologiaEspiritualidade() {
         </div>
       </article>
     </div>
+    </Layout>
   );
 }
