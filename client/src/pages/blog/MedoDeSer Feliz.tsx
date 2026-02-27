@@ -10,7 +10,7 @@ import { getBlogPostMetadata } from '@/lib/blogPostingSchema';
 
 export default function MedoDeSerFeliz() {
   useEffect(() => {
-    updatePageMeta('medodeser feliz');
+    updatePageMeta('medodeserfeliz');
   }, []);
 
   const readingTime = 11;
