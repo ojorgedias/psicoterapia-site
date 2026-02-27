@@ -1,8 +1,13 @@
 import React, { useEffect } from 'react';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from '@/components/Layout';
 import { Link } from 'wouter';
 
 export default function PorQueDesistoTudo() {
+  useEffect(() => {
+    updatePageMeta('porquedesistotudo');
+  }, []);
+
   useEffect(() => {
     document.title = 'Por que eu desisto de tudo que começo? A psicologia por trás | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');

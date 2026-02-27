@@ -1,8 +1,13 @@
 import { Link } from 'wouter';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import ServicePage, { InternalLink } from "@/components/ServicePage";
 import { getRelatedArticles } from "@/lib/content";
 
 export default function CrisisExistential() {
+  useEffect(() => {
+    updatePageMeta('crisisexistential');
+  }, []);
+
   const relatedArticles = getRelatedArticles("article-1", 3);
 
   return (

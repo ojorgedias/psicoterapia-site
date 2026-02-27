@@ -1,8 +1,13 @@
 import React, { useEffect } from 'react';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from '@/components/Layout';
 import { Link } from 'wouter';
 
 export default function AtaquePanico() {
+  useEffect(() => {
+    updatePageMeta('ataquepanico');
+  }, []);
+
   useEffect(() => {
     document.title = 'Sintomas físicos de ansiedade que parecem infarto: O corpo g | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');

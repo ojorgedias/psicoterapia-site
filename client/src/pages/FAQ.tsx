@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import { ChevronDown } from 'lucide-react';
 import { useEffect } from 'react';
 import Breadcrumbs from '@/components/Breadcrumbs';
@@ -110,6 +111,10 @@ const faqItems: FAQItem[] = [
 ];
 
 export default function FAQ() {
+  useEffect(() => {
+    updatePageMeta('faq');
+  }, []);
+
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
   
   // Add FAQ schema for SEO

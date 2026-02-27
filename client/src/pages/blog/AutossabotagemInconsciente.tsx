@@ -1,4 +1,5 @@
 import { Link } from 'wouter';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import { useEffect } from 'react';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Layout from '@/components/Layout';
@@ -9,6 +10,10 @@ import { getBlogPostMetadata } from '@/lib/blogPostingSchema';
 import { useEEATSchema } from '@/components/EEATSchema';
 
 export default function AutossabotagemInconsciente() {
+  useEffect(() => {
+    updatePageMeta('autossabotageminconsciente');
+  }, []);
+
   const readingTime = 15;
   const metadata = getBlogPostMetadata('autossabotagem-inconsciente');
   

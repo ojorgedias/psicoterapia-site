@@ -1,8 +1,13 @@
 import React, { useEffect } from 'react';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from '@/components/Layout';
 import { Link } from 'wouter';
 
 export default function SintomasAutossabotagem() {
+  useEffect(() => {
+    updatePageMeta('sintomasautossabotagem');
+  }, []);
+
   useEffect(() => {
     document.title = 'Sintomas de autossabotagem no trabalho e carreira: O esgotam | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');

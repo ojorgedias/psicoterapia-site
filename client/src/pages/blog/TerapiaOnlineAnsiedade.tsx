@@ -1,8 +1,13 @@
 import React, { useEffect } from 'react';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from '@/components/Layout';
 import { Link } from 'wouter';
 
 export default function TerapiaOnlineAnsiedade() {
+  useEffect(() => {
+    updatePageMeta('terapiaonlineansiedade');
+  }, []);
+
   useEffect(() => {
     document.title = 'Ansiedade de domingo à noite: Como lidar com a angústia que  | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');

@@ -1,8 +1,13 @@
 import { Link } from 'wouter';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import ServicePage, { InternalLink } from "@/components/ServicePage";
 import { getRelatedArticles } from "@/lib/content";
 
 export default function FamilyPatterns() {
+  useEffect(() => {
+    updatePageMeta('familypatterns');
+  }, []);
+
   const relatedArticles = getRelatedArticles("article-2", 3);
 
   return (

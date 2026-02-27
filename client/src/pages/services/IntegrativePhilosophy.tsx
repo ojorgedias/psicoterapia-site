@@ -1,6 +1,11 @@
 import ServicePage from "@/components/ServicePage";
+import { updatePageMeta } from '@/lib/seoMetadata';
 
 export default function IntegrativePhilosophy() {
+  useEffect(() => {
+    updatePageMeta('integrativephilosophy');
+  }, []);
+
   return (
     <ServicePage
       title="Filosofia e Pensamento Integrativo"

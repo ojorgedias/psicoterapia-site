@@ -1,7 +1,12 @@
 import React, { useEffect } from 'react';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from '@/components/Layout';
 
 export default function MaesImaturas() {
+  useEffect(() => {
+    updatePageMeta('maesimaturas');
+  }, []);
+
   useEffect(() => {
     document.title = 'Como identificar mães emocionalmente imaturas: O impacto do vazio afetivo na vida adulta | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');

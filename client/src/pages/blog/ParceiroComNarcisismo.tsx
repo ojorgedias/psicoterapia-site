@@ -1,7 +1,12 @@
 import React, { useEffect } from 'react';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from '@/components/Layout';
 
 export default function ParceiroComNarcisismo() {
+  useEffect(() => {
+    updatePageMeta('parceirocomnarcisismo');
+  }, []);
+
   useEffect(() => {
     document.title = 'Como recuperar a autoestima após relacionamento narcisista:  | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');

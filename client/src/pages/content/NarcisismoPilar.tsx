@@ -1,8 +1,13 @@
 import React, { useEffect } from 'react';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from '@/components/Layout';
 import { Link } from 'wouter';
 
 export default function NarcisismoPilar() {
+  useEffect(() => {
+    updatePageMeta('narcisismopilar');
+  }, []);
+
   useEffect(() => {
     document.title = 'Narcisismo: Compreensão e Libertação | Psicólogo Jorge Dias';
     

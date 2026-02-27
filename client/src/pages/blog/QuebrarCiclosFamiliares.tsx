@@ -1,8 +1,13 @@
 import React, { useEffect } from 'react';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from '@/components/Layout';
 import { Link } from 'wouter';
 
 export default function QuebrarCiclosFamiliares() {
+  useEffect(() => {
+    updatePageMeta('quebrarciclosfamiliares');
+  }, []);
+
   useEffect(() => {
     document.title = 'Sentimento de culpa ao se afastar da família: Quando o limit | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');

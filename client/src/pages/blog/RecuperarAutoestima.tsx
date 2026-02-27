@@ -1,8 +1,13 @@
 import React, { useEffect } from 'react';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from '@/components/Layout';
 import { Link } from 'wouter';
 
 export default function RecuperarAutoestima() {
+  useEffect(() => {
+    updatePageMeta('recuperarautoestima');
+  }, []);
+
   useEffect(() => {
     document.title = 'Diferença entre egoísmo e transtorno de personalidade narcis | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');

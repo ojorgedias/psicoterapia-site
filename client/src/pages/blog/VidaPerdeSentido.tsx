@@ -1,8 +1,13 @@
 import React, { useEffect } from 'react';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from '@/components/Layout';
 import { Link } from 'wouter';
 
 export default function VidaPerdeSentido() {
+  useEffect(() => {
+    updatePageMeta('vidaperdesentido');
+  }, []);
+
   useEffect(() => {
     document.title = 'O que fazer quando a vida perde o sentido: A visão da psicol | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');

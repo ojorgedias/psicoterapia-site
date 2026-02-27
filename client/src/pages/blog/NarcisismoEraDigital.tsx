@@ -1,8 +1,13 @@
 import React, { useEffect } from 'react';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from '@/components/Layout';
 import { Link } from 'wouter';
 
 export default function NarcisismoEraDigital() {
+  useEffect(() => {
+    updatePageMeta('narcisismoerdigital');
+  }, []);
+
   useEffect(() => {
     document.title = 'O Narcisismo na Era Digital: Transtorno real ou adaptação cu | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');

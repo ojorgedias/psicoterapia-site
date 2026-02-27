@@ -1,9 +1,14 @@
 import { Link } from 'wouter';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import ArticlePage from "@/components/ArticlePage";
 import { InternalLink } from "@/components/ServicePage";
 import { getRelatedArticles } from "@/lib/content";
 
 export default function Article7() {
+  useEffect(() => {
+    updatePageMeta('article7');
+  }, []);
+
   const relatedArticles = getRelatedArticles("article-7", 3);
 
   return (

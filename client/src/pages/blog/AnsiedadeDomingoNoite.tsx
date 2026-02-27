@@ -1,8 +1,13 @@
 import React, { useEffect } from 'react';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from '@/components/Layout';
 import { Link } from 'wouter';
 
 export default function AnsiedadeDomingoNoite() {
+  useEffect(() => {
+    updatePageMeta('ansiedadedomingonoite');
+  }, []);
+
   useEffect(() => {
     document.title = 'Como lidar com mãe narcisista na vida adulta: A quebra da le | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');

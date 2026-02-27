@@ -1,8 +1,13 @@
 import React, { useEffect } from 'react';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from '@/components/Layout';
 import { Link } from 'wouter';
 
 export default function CriseIdentidadeProfissional() {
+  useEffect(() => {
+    updatePageMeta('criseidentidadeprofissional');
+  }, []);
+
   useEffect(() => {
     document.title = 'Crise de identidade profissional: O que fazer quando o traba | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');

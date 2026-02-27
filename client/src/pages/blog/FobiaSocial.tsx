@@ -1,7 +1,12 @@
 import React, { useEffect } from 'react';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from '@/components/Layout';
 
 export default function FobiaSocial() {
+  useEffect(() => {
+    updatePageMeta('fobiasocial');
+  }, []);
+
   useEffect(() => {
     document.title = 'Fobia Social e a Necessidade de Aprovação: A biologia do med | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');

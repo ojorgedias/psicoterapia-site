@@ -1,8 +1,13 @@
 import React, { useEffect } from 'react';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from '@/components/Layout';
 import { Link } from 'wouter';
 
 export default function AnsiedadePilar() {
+  useEffect(() => {
+    updatePageMeta('ansiedadepilar');
+  }, []);
+
   useEffect(() => {
     document.title = 'Ansiedade: Do Mamute Interior à Integração | Psicólogo Jorge Dias';
     

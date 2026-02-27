@@ -1,8 +1,13 @@
 import { Link } from 'wouter';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import React, { useEffect } from 'react';
 import Layout from '@/components/Layout';
 
 export default function PreguicaVsAutossabotagem() {
+  useEffect(() => {
+    updatePageMeta('preguicavsautossabotagem');
+  }, []);
+
   useEffect(() => {
     document.title = 'Qual a diferença entre preguiça e autossabotagem? Por que a  | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');

@@ -1,9 +1,15 @@
 import Layout from "@/components/Layout";
+import { useEffect } from 'react';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import { Link } from "wouter";
 import CTAButton from "@/components/CTAButton";
 import { ArrowRight } from "lucide-react";
 
 export default function Services() {
+  useEffect(() => {
+    updatePageMeta('services');
+  }, []);
+
   const clusters = [
     {
       title: "Terapia para Adultos",

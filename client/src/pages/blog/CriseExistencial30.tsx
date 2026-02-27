@@ -1,8 +1,13 @@
 import React, { useEffect } from 'react';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from '@/components/Layout';
 import { Link } from 'wouter';
 
 export default function CriseExistencial30() {
+  useEffect(() => {
+    updatePageMeta('criseexistencial30');
+  }, []);
+
   useEffect(() => {
     document.title = 'Sintomas de crise existencial aos 30 anos: O colapso do rote | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');

@@ -1,8 +1,13 @@
 import React, { useEffect } from 'react';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from '@/components/Layout';
 import { Link } from 'wouter';
 
 export default function CriseExistencialPilar() {
+  useEffect(() => {
+    updatePageMeta('criseexistencialpilar');
+  }, []);
+
   useEffect(() => {
     document.title = 'Crise Existencial: Expansão de Consciência | Psicólogo Jorge Dias';
     

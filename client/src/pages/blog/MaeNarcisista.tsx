@@ -1,8 +1,13 @@
 import React, { useEffect } from 'react';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from '@/components/Layout';
 import { Link } from 'wouter';
 
 export default function MaeNarcisista() {
+  useEffect(() => {
+    updatePageMeta('maenarcisista');
+  }, []);
+
   useEffect(() => {
     document.title = 'Sinais de parceiro com traços de narcisismo oculto: O abuso  | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');

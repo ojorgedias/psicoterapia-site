@@ -1,8 +1,13 @@
 import { Link } from 'wouter';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import ServicePage, { InternalLink } from "@/components/ServicePage";
 import { getRelatedArticles } from "@/lib/content";
 
 export default function EmotionalRegulation() {
+  useEffect(() => {
+    updatePageMeta('emotionalregulation');
+  }, []);
+
   const relatedArticles = getRelatedArticles("article-3", 3);
 
   return (

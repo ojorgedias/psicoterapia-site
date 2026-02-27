@@ -1,8 +1,13 @@
 import { Link } from 'wouter';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import ServicePage from "@/components/ServicePage";
 import { getRelatedArticles } from "@/lib/content";
 
 export default function AutonomyIdentity() {
+  useEffect(() => {
+    updatePageMeta('autonomyidentity');
+  }, []);
+
   const relatedArticles = getRelatedArticles("article-8", 3);
 
   return (

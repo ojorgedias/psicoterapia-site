@@ -1,8 +1,13 @@
 import React, { useEffect } from 'react';
+import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from '@/components/Layout';
 import { Link } from 'wouter';
 
 export default function DepressionVsCrise() {
+  useEffect(() => {
+    updatePageMeta('depressionvscrise');
+  }, []);
+
   useEffect(() => {
     document.title = 'Qual a diferença entre depressão e crise existencial? O peri | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');
