@@ -1,4 +1,5 @@
 import { Link } from 'wouter';
+import { useEffect } from 'react';
 import { updatePageMeta } from '@/lib/seoMetadata';
 import ArticlePage from "@/components/ArticlePage";
 import { InternalLink } from "@/components/ServicePage";
