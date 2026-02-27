@@ -23,7 +23,7 @@ export default function Article7() {
 
       <h2>O que é o "Bypassing Espiritual"?</h2>
       <p>
-        Na psicologia, damos o nome de bypassing espiritual (ou desvio espiritual) ao ato de usar ideias e práticas espirituais para evitar o confronto com feridas emocionais, traumas de infância ou responsabilidades da vida adulta. É a pessoa que responde a um conflito grave de relacionamento dizendo que "tudo é energia e precisamos apenas emanar luz", quando, na verdade, ela não desenvolveu o mínimo de ferramentas para lidar com a <InternalLink href="/terapia/adultos/regulacao-emocional">regulação emocional e controle da <Link href="/ansiedade"><a className="text-primary hover:underline">ansiedade</a></Link></InternalLink>.
+        Na psicologia, damos o nome de bypassing espiritual (ou desvio espiritual) ao ato de usar ideias e práticas espirituais para evitar o confronto com feridas emocionais, traumas de infância ou responsabilidades da vida adulta. É a pessoa que responde a um conflito grave de relacionamento dizendo que "tudo é energia e precisamos apenas emanar luz", quando, na verdade, ela não desenvolveu o mínimo de ferramentas para lidar com a <InternalLink href="/terapia/adultos/regulacao-emocional">regulação emocional e controle da <Link href="/ansiedade" className="text-primary hover:underline">ansiedade</Link></InternalLink>.
       </p>
 
       <p>

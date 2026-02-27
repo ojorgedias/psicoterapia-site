@@ -67,7 +67,7 @@ export default function BurnoutDigital() {
             Pressão Social Amplificada
           </h2>
           <p>
-            Seu "<Link href="/ansiedade"><a className="text-primary hover:underline">Mamute Interior</a></Link>" está em overdrive. Você é julgado por milhões. Seus erros são 
+            Seu "<Link href="/ansiedade" className="text-primary hover:underline">Mamute Interior</Link>" está em overdrive. Você é julgado por milhões. Seus erros são 
             permanentes. Sua vida é uma performance contínua.
           </p>
 

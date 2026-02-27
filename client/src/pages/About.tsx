@@ -57,18 +57,18 @@ export default function About() {
             Minha forma de trabalhar integra várias perspectivas, mas sempre com rigor e sem dogmatismo:
           </p>
           <ul className="list-disc pl-6 mb-4">
-            <li><strong>Psicanálise e Psicologia Profunda:</strong> Entender o inconsciente, as defesas, a <Link href="/blog/sombra-relacionamentos"><a className="text-primary hover:underline">sombra</a></Link> que você não quer ver</li>
+            <li><strong>Psicanálise e Psicologia Profunda:</strong> Entender o inconsciente, as defesas, a <Link href="/blog/sombra-relacionamentos" className="text-primary hover:underline">sombra</Link> que você não quer ver</li>
             <li><strong>Filosofia Existencial:</strong> Questionar pressupostos, reconhecer sua liberdade e responsabilidade genuína</li>
             <li><strong>Compreensão Neurofisiológica:</strong> Saber como o corpo e o sistema nervoso reagem ao estresse e ao trauma</li>
-            <li><strong>Investigação de Padrões:</strong> Desvendar as <Link href="/conceitos-fundamentais"><a className="text-primary hover:underline">regras invisíveis</a></Link> que governam seu comportamento</li>
+            <li><strong>Investigação de Padrões:</strong> Desvendar as <Link href="/conceitos-fundamentais" className="text-primary hover:underline">regras invisíveis</Link> que governam seu comportamento</li>
           </ul>
 
           <h2>O Trabalho Clínico</h2>
           <p>
-            Você já parou para pensar que a maioria das pessoas vive segundo "regras" que nunca escolheu? Regras sobre como deve ser feliz, o que deve valorizar, qual carreira deve seguir. Essas regras vêm da família, da cultura, do que "se espera de você". E quando você tenta viver diferente, sente culpa, <Link href="/ansiedade"><a className="text-primary hover:underline">ansiedade</a></Link>, medo.
+            Você já parou para pensar que a maioria das pessoas vive segundo "regras" que nunca escolheu? Regras sobre como deve ser feliz, o que deve valorizar, qual carreira deve seguir. Essas regras vêm da família, da cultura, do que "se espera de você". E quando você tenta viver diferente, sente culpa, <Link href="/ansiedade" className="text-primary hover:underline">ansiedade</Link>, medo.
           </p>
           <p>
-            Meu trabalho é ajudar você a ver essas <Link href="/conceitos-fundamentais"><a className="text-primary hover:underline">regras invisíveis</a></Link>. Quando você consegue enxergá-las, elas perdem o poder. Você recupera a capacidade de escolher genuinamente.
+            Meu trabalho é ajudar você a ver essas <Link href="/conceitos-fundamentais" className="text-primary hover:underline">regras invisíveis</Link>. Quando você consegue enxergá-las, elas perdem o poder. Você recupera a capacidade de escolher genuinamente.
           </p>
 
           {/* SECTION 2: Como Funciona */}

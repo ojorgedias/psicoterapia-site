@@ -42,18 +42,16 @@ export default function Home() {
           </h1>
           <p className="text-lg text-muted-foreground mb-6 font-semibold">CRP 08/31462</p>
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto" style={{color: '#413e3e'}}>
-            Você se sente perdido, preso em ciclos que se repetem, ou vivendo uma vida que não é realmente sua? Trabalho com pessoas que chegam ao consultório buscando mais que respostas prontas. Meu trabalho é investigação profunda: desvendar as <Link href="/conceitos-fundamentais"><a className="text-primary hover:underline">regras invisíveis</a></Link> que governam você, sem dogmas ou receitas.
+            Você se sente perdido, preso em ciclos que se repetem, ou vivendo uma vida que não é realmente sua? Trabalho com pessoas que chegam ao consultório buscando mais que respostas prontas. Meu trabalho é investigação profunda: desvendar as <Link href="/conceitos-fundamentais" className="text-primary hover:underline">regras invisíveis</Link> que governam você, sem dogmas ou receitas.
           </p>
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto" style={{color: '#413e3e'}}>
-            Especializado em <strong><Link href="/crise-existencial"><a className="text-primary hover:underline">crise existencial</a></Link></strong>, <strong><Link href="/autossabotagem"><a className="text-primary hover:underline">autossabotagem</a></Link></strong> e <strong><Link href="/padroes-familiares"><a className="text-primary hover:underline">padrões familiares</a></Link></strong>. Atendimento online Brasil e presencial em Presidente Epitácio - SP.
+            Especializado em <strong><Link href="/crise-existencial" className="text-primary hover:underline">crise existencial</Link></strong>, <strong><Link href="/autossabotagem" className="text-primary hover:underline">autossabotagem</Link></strong> e <strong><Link href="/padroes-familiares" className="text-primary hover:underline">padrões familiares</Link></strong>. Atendimento online Brasil e presencial em Presidente Epitácio - SP.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <CTAButton href="/contato">Agendar Sessão</CTAButton>
-            <Link href="/sobre">
-              <a className="inline-block px-6 py-3 rounded-lg font-semibold border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors">
+            <Link href="/sobre" className="inline-block px-6 py-3 rounded-lg font-semibold border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors">
                 Minha Abordagem
-              </a>
-            </Link>
+              </Link>
           </div>
         </div>
       </section>
@@ -79,11 +77,9 @@ export default function Home() {
                 Terapia para Adultos
               </h3>
               <p className="text-muted-foreground mb-4 text-sm">
-                Investigação clínica para <Link href="/crise-existencial"><a className="text-primary hover:underline">crise existencial</a></Link>, <Link href="/autossabotagem"><a className="text-primary hover:underline">autossabotagem</a></Link>, regulação emocional e desenvolvimento de autonomia genuína.
+                Investigação clínica para <Link href="/crise-existencial" className="text-primary hover:underline">crise existencial</Link>, <Link href="/autossabotagem" className="text-primary hover:underline">autossabotagem</Link>, regulação emocional e desenvolvimento de autonomia genuína.
               </p>
-              <Link href="/terapia/adultos/crise-existencial">
-                <a className="text-primary hover:text-accent font-semibold">Explorar →</a>
-              </Link>
+              <Link href="/terapia/adultos/crise-existencial" className="text-primary hover:text-accent font-semibold">Explorar →</Link>
             </div>
 
             {/* Cluster 2 */}
@@ -99,9 +95,7 @@ export default function Home() {
               <p className="text-muted-foreground mb-4 text-sm">
                 Resolução de conflitos, integração de polaridades e transformação de padrões relacionais destrutivos.
               </p>
-              <Link href="/terapia/casais/padroes-familiares">
-                <a className="text-primary hover:text-accent font-semibold">Explorar →</a>
-              </Link>
+              <Link href="/terapia/casais/padroes-familiares" className="text-primary hover:text-accent font-semibold">Explorar →</Link>
             </div>
 
             {/* Cluster 4 */}
@@ -117,9 +111,7 @@ export default function Home() {
               <p className="text-muted-foreground mb-4 text-sm">
                 Integração ética entre desenvolvimento psicológico e espiritual, sem bypassing ou alienação.
               </p>
-              <Link href="/autoridade/psicologia-espiritualidade">
-                <a className="text-primary hover:text-accent font-semibold">Explorar →</a>
-              </Link>
+              <Link href="/autoridade/psicologia-espiritualidade" className="text-primary hover:text-accent font-semibold">Explorar →</Link>
             </div>
           </div>
         </div>
@@ -134,34 +126,28 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             <article className="bg-card text-card-foreground rounded-lg shadow-sm p-6 border border-border">
               <h3 className="font-display text-xl font-semibold mb-2">
-                <Link href="/ansiedade"><a className="text-primary hover:underline">Ansiedade</a></Link> ou Intuição?
+                <Link href="/ansiedade" className="text-primary hover:underline">Ansiedade</Link> ou Intuição?
               </h3>
               <p className="text-sm text-muted-foreground mb-3">
                 Entendendo os sinais do corpo além do diagnóstico
               </p>
-              <Link href="/blog/ansiedade-ou-intuicao">
-                <a className="text-primary hover:text-accent font-semibold">Ler mais →</a>
-              </Link>
+              <Link href="/blog/ansiedade-ou-intuicao" className="text-primary hover:text-accent font-semibold">Ler mais →</Link>
             </article>
 
             <article className="bg-card text-card-foreground rounded-lg shadow-sm p-6 border border-border">
               <h3 className="font-display text-xl font-semibold mb-2">
-                A <Link href="/blog/sombra-relacionamentos"><a className="text-primary hover:underline">Sombra</a></Link> nos Relacionamentos
+                A <Link href="/blog/sombra-relacionamentos" className="text-primary hover:underline">Sombra</Link> nos Relacionamentos
               </h3>
               <p className="text-sm text-muted-foreground mb-3">
                 O que o comportamento do outro diz sobre você
               </p>
-              <Link href="/blog/sombra-relacionamentos">
-                <a className="text-primary hover:text-accent font-semibold">Ler mais →</a>
-              </Link>
+              <Link href="/blog/sombra-relacionamentos" className="text-primary hover:text-accent font-semibold">Ler mais →</Link>
             </article>
           </div>
           <div className="text-center">
-            <Link href="/blog">
-              <a className="text-primary hover:text-accent font-semibold text-lg">
+            <Link href="/blog" className="text-primary hover:text-accent font-semibold text-lg">
                 Ver todos os artigos →
-              </a>
-            </Link>
+              </Link>
           </div>
         </div>
       </section>

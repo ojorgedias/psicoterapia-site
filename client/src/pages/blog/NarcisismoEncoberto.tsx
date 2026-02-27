@@ -165,9 +165,7 @@ export default function NarcisismoEncoberto() {
 
           <p className="bg-primary/10 border-l-4 border-primary p-4 italic">
             <strong>Importante:</strong> Se você cresceu com um dos pais narcisista, leia nosso artigo sobre{' '}
-            <Link href="/blog/mae-narcisista-impacto-adulto">
-              <a className="text-primary hover:underline">mãe narcisista e seu impacto na vida adulta</a>
-            </Link>
+            <Link href="/blog/mae-narcisista-impacto-adulto" className="text-primary hover:underline">mãe narcisista e seu impacto na vida adulta</Link>
           </p>
 
           <h2 className="text-2xl font-display font-bold text-foreground mt-8">
