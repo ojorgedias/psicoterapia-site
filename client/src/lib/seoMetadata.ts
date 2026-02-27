@@ -327,6 +327,28 @@ export const seoMetadata = {
     keywords: 'erro 404, página não encontrada',
   },
 
+  narcisismoerdigital: {
+    title: 'Narcisismo na Era Digital - Psicólogo Jorge Dias | Psicologia Contemporânea',
+    description: 'Como a era digital amplifica traços narcisistas. Análise de narcisismo encoberto, exposição pública e identidade fragmentada.',
+    keywords: 'narcisismo, era digital, redes sociais, psicologia, autoestima, identidade',
+  },
+  porquedesistotudo: {
+    title: 'Por Que Desisto de Tudo - Psicólogo Jorge Dias | Autossabotagem',
+    description: 'Investigação clínica de por que você desiste de tudo. Raízes psicológicas da impotência aprendida e caminhos para persistência genuína.',
+    keywords: 'desistência, autossabotagem, impotência, psicologia, motivação',
+  },
+
+  narcisismoerdigital: {
+    title: 'Narcisismo na Era Digital - Psicólogo Jorge Dias | Psicologia Contemporânea',
+    description: 'Como a era digital amplifica traços narcisistas. Análise de narcisismo encoberto, exposição pública e identidade fragmentada.',
+    keywords: 'narcisismo, era digital, redes sociais, psicologia, autoestima, identidade',
+  },
+  porquedesistotudo: {
+    title: 'Por Que Desisto de Tudo - Psicólogo Jorge Dias | Autossabotagem',
+    description: 'Investigação clínica de por que você desiste de tudo. Raízes psicológicas da impotência aprendida e caminhos para persistência genuína.',
+    keywords: 'desistência, autossabotagem, impotência, psicologia, motivação',
+  },
+
 };
 
 export function updatePageMeta(page: keyof typeof seoMetadata) {
