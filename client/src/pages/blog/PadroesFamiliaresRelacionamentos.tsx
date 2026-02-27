@@ -1,5 +1,4 @@
 import { Link } from 'wouter';
-import { updatePageMeta } from '@/lib/seoMetadata';
 import { useEffect } from 'react';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Layout from '@/components/Layout';
@@ -9,10 +8,6 @@ import { useBlogPostingSchema } from '@/components/SEOSchema';
 import { getBlogPostMetadata } from '@/lib/blogPostingSchema';
 
 export default function PadroesFamiliaresRelacionamentos() {
-  useEffect(() => {
-    updatePageMeta('padroesfamiliaresrelacionamentos');
-  }, []);
-
   const readingTime = 14;
   const metadata = getBlogPostMetadata('padroes-familiares-relacionamentos');
   
@@ -38,7 +33,7 @@ export default function PadroesFamiliaresRelacionamentos() {
   return (
     <Layout>
     <div className="bg-background">
-      <Breadcrumbs items={[{ label: 'Blog', href: '/blog' }, { label: '<Link href="/padroes-familiares" className="text-primary hover:underline">Padrões Familiares</Link>' }]} />
+      <Breadcrumbs items={[{ label: 'Blog', href: '/blog' }, { label: '<Link href="/padroes-familiares"><a className="text-primary hover:underline">Padrões Familiares</a></Link>' }]} />
 
       <article className="container max-w-3xl py-12 md:py-20">
         <div className="mb-8">
@@ -62,7 +57,7 @@ export default function PadroesFamiliaresRelacionamentos() {
           </p>
 
           <h2 className="text-2xl font-display font-bold text-foreground mt-8">
-            Por Que Repetimos <Link href="/padroes-familiares" className="text-primary hover:underline">Padrões Familiares</Link>?
+            Por Que Repetimos <Link href="/padroes-familiares"><a className="text-primary hover:underline">Padrões Familiares</a></Link>?
           </h2>
           <p>
             Os padrões familiares não são escolhas conscientes. Eles são programações profundas instaladas 
@@ -70,7 +65,7 @@ export default function PadroesFamiliaresRelacionamentos() {
             através de observação silenciosa, o que era "normal" em um relacionamento.
           </p>
 
-          <h3 className="text-xl font-semibold text-primary mt-6"><Link href="/terapia/casais/padroes-familiares" className="text-primary hover:underline">Lealdades Invisíveis</Link></h3>
+          <h3 className="text-xl font-semibold text-primary mt-6"><Link href="/terapia/casais/padroes-familiares"><a className="text-primary hover:underline">Lealdades Invisíveis</a></Link></h3>
           <p>
             Existe algo chamado "lealdade invisível" - um compromisso inconsciente com sua família de origem. 
             Você pode estar repetindo padrões dolorosos porque, em algum nível profundo, acredita que é 
@@ -125,7 +120,7 @@ export default function PadroesFamiliaresRelacionamentos() {
           </p>
 
           <h2 className="text-2xl font-display font-bold text-foreground mt-8">
-            Relacionamentos com <Link href="/narcisismo" className="text-primary hover:underline">Narcisismo</Link> Familiar
+            Relacionamentos com <Link href="/narcisismo"><a className="text-primary hover:underline">Narcisismo</a></Link> Familiar
           </h2>
           <p>
             Se você cresceu com um dos pais narcisista, os padrões são ainda mais complexos. Você pode estar 
@@ -149,7 +144,7 @@ export default function PadroesFamiliaresRelacionamentos() {
           </p>
 
           <div className="bg-primary/5 border border-primary/20 rounded-lg p-6 mt-8">
-            <h3 className="text-xl font-semibold text-foreground mb-3">Especializados em <Link href="/padroes-familiares" className="text-primary hover:underline">Padrões Familiares</Link></h3>
+            <h3 className="text-xl font-semibold text-foreground mb-3">Especializados em <Link href="/padroes-familiares"><a className="text-primary hover:underline">Padrões Familiares</a></Link></h3>
             <p className="text-foreground mb-4">
               Ofereço atendimento especializado em padrões familiares, relacionamentos e libertação de 
               dinâmicas limitantes. Atendimento online para todo o país.
@@ -164,7 +159,7 @@ export default function PadroesFamiliaresRelacionamentos() {
             <Link href="/terapia/casais/padroes-familiares">
               <a className="p-4 bg-card border border-border rounded-lg hover:border-primary transition-colors group">
                 <h4 className="font-semibold text-foreground group-hover:text-primary transition-colors mb-2">
-                  Serviço: <Link href="/padroes-familiares" className="text-primary hover:underline">Padrões Familiares</Link>
+                  Serviço: <Link href="/padroes-familiares"><a className="text-primary hover:underline">Padrões Familiares</a></Link>
                 </h4>
                 <p className="text-sm text-muted-foreground">Abordagem clínica especializada</p>
                 <div className="flex items-center gap-2 text-primary mt-2 text-sm">

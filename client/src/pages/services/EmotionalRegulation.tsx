@@ -1,14 +1,7 @@
-import { Link } from 'wouter';
-import { useEffect } from 'react';
-import { updatePageMeta } from '@/lib/seoMetadata';
 import ServicePage, { InternalLink } from "@/components/ServicePage";
 import { getRelatedArticles } from "@/lib/content";
 
 export default function EmotionalRegulation() {
-  useEffect(() => {
-    updatePageMeta('emotionalregulation');
-  }, []);
-
   const relatedArticles = getRelatedArticles("article-3", 3);
 
   return (
@@ -34,7 +27,7 @@ export default function EmotionalRegulation() {
 
       <h2>O transe do exagero emocional</h2>
       <p>
-        O padrão do exagero emocional ocorre quando, perante situações de stresse ou rutura, o indivíduo abandona por completo a sua capacidade de racionalização. A pessoa é tragada por um estado de transe onde passa a viver exclusivamente em função do que está a sentir no momento. A angústia, a <Link href="/ansiedade" className="text-primary hover:underline">ansiedade</Link> ou a raiva tornam-se absolutas.
+        O padrão do exagero emocional ocorre quando, perante situações de stresse ou rutura, o indivíduo abandona por completo a sua capacidade de racionalização. A pessoa é tragada por um estado de transe onde passa a viver exclusivamente em função do que está a sentir no momento. A angústia, a <Link href="/ansiedade"><a className="text-primary hover:underline">ansiedade</a></Link> ou a raiva tornam-se absolutas.
       </p>
 
       <p>
@@ -52,7 +45,7 @@ export default function EmotionalRegulation() {
 
       <h2>Restaurar a bússola emocional</h2>
       <p>
-        O trabalho clínico consiste em restaurar a capacidade do indivíduo de estar presente com as suas emoções sem ser consumido por elas. Não se trata de eliminar a <Link href="/ansiedade" className="text-primary hover:underline">ansiedade</Link> ou a tristeza, mas de compreender a sua linguagem. Cada emoção é um mensageiro, e quando aprendemos a escutá-la, ela deixa de ser um tirano.
+        O trabalho clínico consiste em restaurar a capacidade do indivíduo de estar presente com as suas emoções sem ser consumido por elas. Não se trata de eliminar a <Link href="/ansiedade"><a className="text-primary hover:underline">ansiedade</a></Link> ou a tristeza, mas de compreender a sua linguagem. Cada emoção é um mensageiro, e quando aprendemos a escutá-la, ela deixa de ser um tirano.
       </p>
 
       <p>

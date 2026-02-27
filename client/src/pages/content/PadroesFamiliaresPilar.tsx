@@ -1,13 +1,7 @@
 import React, { useEffect } from 'react';
-import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from '@/components/Layout';
-import { Link } from 'wouter';
 
 export default function PadroesFamiliaresPilar() {
-  useEffect(() => {
-    updatePageMeta('padroesfamiliarespilar');
-  }, []);
-
   useEffect(() => {
     document.title = 'Padrões Familiares: Libertação e Integração | Psicólogo Jorge Dias';
     
@@ -25,7 +19,7 @@ export default function PadroesFamiliaresPilar() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         <section className="pt-20 pb-12 px-4 max-w-4xl mx-auto">
           <h1 className="text-5xl font-bold text-slate-900 mb-6 leading-tight">
-            <Link href="/padroes-familiares" className="text-primary hover:underline">Padrões Familiares</Link>: Libertação e Integração
+            <Link href="/padroes-familiares"><a className="text-primary hover:underline">Padrões Familiares</a></Link>: Libertação e Integração
           </h1>
           <p className="text-xl text-slate-600 mb-8 leading-relaxed">
             Você já percebeu que repete os mesmos padrões relacionais que viu na sua família? Que escolhe parceiros que replicam dinâmicas antigas? Que sente uma lealdade invisível que o prende a comportamentos que não quer mais?
@@ -35,17 +29,17 @@ export default function PadroesFamiliaresPilar() {
         <section className="px-4 max-w-4xl mx-auto py-12">
           <div className="prose prose-lg max-w-none">
             <h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">
-              O que São <Link href="/padroes-familiares" className="text-primary hover:underline">Padrões Familiares</Link>?
+              O que São <Link href="/padroes-familiares"><a className="text-primary hover:underline">Padrões Familiares</a></Link>?
             </h2>
             <p className="text-slate-700 leading-relaxed mb-6">
-              Padrões familiares não são apenas comportamentos que você observou. São estruturas entrelaçadas com o social, com <Link href="/conceitos-fundamentais" className="text-primary hover:underline">regras invisíveis</Link> que governam como você se relaciona, como você trabalha, como você ama. Eles são tão naturalizados que você frequentemente nem percebe que está vivendo dentro deles.
+              Padrões familiares não são apenas comportamentos que você observou. São estruturas entrelaçadas com o social, com <Link href="/conceitos-fundamentais"><a className="text-primary hover:underline">regras invisíveis</a></Link> que governam como você se relaciona, como você trabalha, como você ama. Eles são tão naturalizados que você frequentemente nem percebe que está vivendo dentro deles.
             </p>
             <p className="text-slate-700 leading-relaxed mb-6">
               Sua família não disse "você deve escolher parceiros que te desprezem". Mas você aprendeu, através de observação e absorção, que relacionamentos envolvem desprezo. Sua mãe não disse "você deve trabalhar até o esgotamento". Mas você absorveu que trabalho é sacrifício, que descanso é preguiça.
             </p>
 
             <h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">
-              <Link href="/terapia/casais/padroes-familiares" className="text-primary hover:underline">Lealdades Invisíveis</Link>: O Coração do Padrão
+              <Link href="/terapia/casais/padroes-familiares"><a className="text-primary hover:underline">Lealdades Invisíveis</a></Link>: O Coração do Padrão
             </h2>
             <p className="text-slate-700 leading-relaxed mb-6">
               No fundo de todo padrão familiar está uma lealdade invisível. Você repete padrões não porque "gosta" deles, mas porque em algum nível profundo, acredita que repetir é uma forma de permanecer conectado, de honrar, de ser leal.
@@ -64,7 +58,7 @@ export default function PadroesFamiliaresPilar() {
               Como os Padrões se Manifestam
             </h2>
             <p className="text-slate-700 leading-relaxed mb-6">
-              Os <Link href="/padroes-familiares" className="text-primary hover:underline">padrões familiares</Link> se manifestam em diferentes contextos da vida adulta:
+              Os <Link href="/padroes-familiares"><a className="text-primary hover:underline">padrões familiares</a></Link> se manifestam em diferentes contextos da vida adulta:
             </p>
             <ul className="list-disc list-inside text-slate-700 mb-6 space-y-3">
               <li><strong>Relacionamentos amorosos:</strong> Você escolhe parceiros que replicam dinâmicas familiares</li>
@@ -78,7 +72,7 @@ export default function PadroesFamiliaresPilar() {
               O Processo de Libertação
             </h2>
             <p className="text-slate-700 leading-relaxed mb-6">
-              Libertação de <Link href="/padroes-familiares" className="text-primary hover:underline">padrões familiares</Link> não significa rejeição. Significa conscientização, compreensão e, eventualmente, escolha genuína.
+              Libertação de <Link href="/padroes-familiares"><a className="text-primary hover:underline">padrões familiares</a></Link> não significa rejeição. Significa conscientização, compreensão e, eventualmente, escolha genuína.
             </p>
             <p className="text-slate-700 leading-relaxed mb-6">
               O processo envolve:
@@ -97,7 +91,7 @@ export default function PadroesFamiliaresPilar() {
               Explorando Seus Padrões
             </h2>
             <p className="text-slate-700 leading-relaxed mb-6">
-              Para começar a trabalhar com <Link href="/padroes-familiares" className="text-primary hover:underline">padrões familiares</Link>, faça uma arqueologia pessoal:
+              Para começar a trabalhar com <Link href="/padroes-familiares"><a className="text-primary hover:underline">padrões familiares</a></Link>, faça uma arqueologia pessoal:
             </p>
             <ul className="list-disc list-inside text-slate-700 mb-6 space-y-3">
               <li>Qual padrão você repete em relacionamentos?</li>
@@ -111,7 +105,7 @@ export default function PadroesFamiliaresPilar() {
               Artigos Relacionados Neste Cluster
             </h2>
             <p className="text-slate-700 leading-relaxed mb-6">
-              Explore aspectos específicos dos <Link href="/padroes-familiares" className="text-primary hover:underline">padrões familiares</Link>:
+              Explore aspectos específicos dos <Link href="/padroes-familiares"><a className="text-primary hover:underline">padrões familiares</a></Link>:
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
               <a href="/como-quebrar-ciclos-familiares-toxicos" className="p-6 border border-slate-200 rounded-lg hover:shadow-lg transition-shadow block">
@@ -136,10 +130,10 @@ export default function PadroesFamiliaresPilar() {
               Próximos Passos
             </h2>
             <p className="text-slate-700 leading-relaxed mb-6">
-              Trabalhar com <Link href="/padroes-familiares" className="text-primary hover:underline">padrões familiares</Link> é um processo de desconstrução e reconstrução. Não se trata de rejeitar sua família, mas de recuperar sua agência pessoal. De questionar quais padrões você quer manter e quais você quer transformar.
+              Trabalhar com <Link href="/padroes-familiares"><a className="text-primary hover:underline">padrões familiares</a></Link> é um processo de desconstrução e reconstrução. Não se trata de rejeitar sua família, mas de recuperar sua agência pessoal. De questionar quais padrões você quer manter e quais você quer transformar.
             </p>
             <p className="text-slate-700 leading-relaxed">
-              Se você está pronto para explorar seus <Link href="/padroes-familiares" className="text-primary hover:underline">padrões familiares</Link> de forma mais profunda, considere agendar uma sessão. Juntos, podemos fazer uma arqueologia pessoal de suas <Link href="/terapia/casais/padroes-familiares" className="text-primary hover:underline">lealdades invisíveis</Link> e descobrir novos caminhos.
+              Se você está pronto para explorar seus <Link href="/padroes-familiares"><a className="text-primary hover:underline">padrões familiares</a></Link> de forma mais profunda, considere agendar uma sessão. Juntos, podemos fazer uma arqueologia pessoal de suas <Link href="/terapia/casais/padroes-familiares"><a className="text-primary hover:underline">lealdades invisíveis</a></Link> e descobrir novos caminhos.
             </p>
           </div>
         </section>
@@ -148,7 +142,7 @@ export default function PadroesFamiliaresPilar() {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4">Pronto para Explorar Seus Padrões?</h2>
             <p className="text-lg text-slate-300 mb-8">
-              Agende uma sessão e comece a desconstruir as <Link href="/terapia/casais/padroes-familiares" className="text-primary hover:underline">lealdades invisíveis</Link> que governam suas escolhas.
+              Agende uma sessão e comece a desconstruir as <Link href="/terapia/casais/padroes-familiares"><a className="text-primary hover:underline">lealdades invisíveis</a></Link> que governam suas escolhas.
             </p>
             <a href="https://wa.me/seu-numero" className="inline-block bg-white text-slate-900 font-bold py-3 px-8 rounded-lg hover:bg-slate-100 transition-colors">
               Agendar Sessão via WhatsApp

@@ -1,5 +1,4 @@
 import { Link } from 'wouter';
-import { updatePageMeta } from '@/lib/seoMetadata';
 import { useEffect } from 'react';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Layout from '@/components/Layout';
@@ -9,10 +8,6 @@ import { useBlogPostingSchema } from '@/components/SEOSchema';
 import { getBlogPostMetadata } from '@/lib/blogPostingSchema';
 
 export default function NarcisismoEncoberto() {
-  useEffect(() => {
-    updatePageMeta('narcisismoencoberto');
-  }, []);
-
   const readingTime = 13;
   const metadata = getBlogPostMetadata('narcisismo-encoberto');
   

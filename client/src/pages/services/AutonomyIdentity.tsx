@@ -1,14 +1,7 @@
-import { Link } from 'wouter';
-import { useEffect } from 'react';
-import { updatePageMeta } from '@/lib/seoMetadata';
 import ServicePage from "@/components/ServicePage";
 import { getRelatedArticles } from "@/lib/content";
 
 export default function AutonomyIdentity() {
-  useEffect(() => {
-    updatePageMeta('autonomyidentity');
-  }, []);
-
   const relatedArticles = getRelatedArticles("article-8", 3);
 
   return (
@@ -28,7 +21,7 @@ export default function AutonomyIdentity() {
         Autonomia não é simplesmente a capacidade de tomar decisões independentes. É o resultado de um processo profundo de autoconhecimento, onde você deixa de ser um reflexo das expectativas alheias e passa a ser o arquiteto genuíno da sua própria vida. Uma identidade inabalável é construída sobre o alicerce de uma bússola interna clara, onde suas escolhas emanam de valores genuinamente seus, não de imposições externas.
       </p>
 
-      <h2>Libertar-se das <Link href="/terapia/casais/padroes-familiares" className="text-primary hover:underline">lealdades invisíveis</Link></h2>
+      <h2>Libertar-se das <Link href="/terapia/casais/padroes-familiares"><a className="text-primary hover:underline">lealdades invisíveis</a></Link></h2>
       <p>
         Muitas pessoas vivem prisioneiras de lealdades invisíveis — compromissos não ditos com figuras do passado, com expectativas familiares, com identidades que lhes foram atribuídas. Essas lealdades operam nas sombras, governando comportamentos e escolhas sem que a pessoa sequer perceba. O trabalho clínico consiste em trazer essas lealdades à luz, compreender sua origem e, finalmente, renegociá-las de forma consciente.
       </p>

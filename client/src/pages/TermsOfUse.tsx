@@ -1,14 +1,8 @@
 import Layout from "@/components/Layout";
-import { useEffect } from 'react';
-import { updatePageMeta } from '@/lib/seoMetadata';
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { PSYCHOLOGIST } from "@/../../shared/const";
 
 export default function TermsOfUse() {
-  useEffect(() => {
-    updatePageMeta('termsofuse');
-  }, []);
-
   return (
     <Layout>
       <div className="container max-w-2xl mx-auto px-4 py-12">

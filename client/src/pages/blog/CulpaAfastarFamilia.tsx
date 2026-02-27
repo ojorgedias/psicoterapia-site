@@ -1,12 +1,7 @@
 import React, { useEffect } from 'react';
-import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from '@/components/Layout';
 
 export default function CulpaAfastarFamilia() {
-  useEffect(() => {
-    updatePageMeta('culpaafastarfamilia');
-  }, []);
-
   useEffect(() => {
     document.title = 'Repetição de padrões familiares em relacionamentos amorosos: | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');

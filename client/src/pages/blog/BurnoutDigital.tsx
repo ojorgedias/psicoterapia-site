@@ -1,5 +1,4 @@
 import { Link } from 'wouter';
-import { updatePageMeta } from '@/lib/seoMetadata';
 import { useEffect } from 'react';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Layout from '@/components/Layout';
@@ -9,10 +8,6 @@ import { useBlogPostingSchema } from '@/components/SEOSchema';
 import { getBlogPostMetadata } from '@/lib/blogPostingSchema';
 
 export default function BurnoutDigital() {
-  useEffect(() => {
-    updatePageMeta('burnoutdigital');
-  }, []);
-
   const readingTime = 12;
   const metadata = getBlogPostMetadata('ansiedade-mamute-interior');
   
@@ -72,7 +67,7 @@ export default function BurnoutDigital() {
             Pressão Social Amplificada
           </h2>
           <p>
-            Seu "<Link href="/ansiedade" className="text-primary hover:underline">Mamute Interior</Link>" está em overdrive. Você é julgado por milhões. Seus erros são 
+            Seu "<Link href="/ansiedade"><a className="text-primary hover:underline">Mamute Interior</a></Link>" está em overdrive. Você é julgado por milhões. Seus erros são 
             permanentes. Sua vida é uma performance contínua.
           </p>
 

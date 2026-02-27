@@ -1,13 +1,7 @@
 import ServicePage from "@/components/ServicePage";
-import { updatePageMeta } from '@/lib/seoMetadata';
-import { useEffect } from 'react';
 import { getRelatedArticles } from "@/lib/content";
 
 export default function RelationshipPatterns() {
-  useEffect(() => {
-    updatePageMeta('relationshippatterns');
-  }, []);
-
   const relatedArticles = getRelatedArticles("article-2", 3);
 
   return (

@@ -1,5 +1,4 @@
 import { Link } from 'wouter';
-import { updatePageMeta } from '@/lib/seoMetadata';
 import { useEffect } from 'react';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Layout from '@/components/Layout';
@@ -9,10 +8,6 @@ import { useBlogPostingSchema } from '@/components/SEOSchema';
 import { getBlogPostMetadata } from '@/lib/blogPostingSchema';
 
 export default function MedoDeSerFeliz() {
-  useEffect(() => {
-    updatePageMeta('medodeserfeliz');
-  }, []);
-
   const readingTime = 11;
   const metadata = getBlogPostMetadata('medo-de-ser-feliz');
   
@@ -57,7 +52,7 @@ export default function MedoDeSerFeliz() {
         <div className="prose prose-invert max-w-none text-foreground space-y-6">
           <p className="text-lg leading-relaxed">
             Você já percebeu que quando as coisas começam a ficar boas, algo dentro de você sabota? 
-            Que você sente <Link href="/ansiedade" className="text-primary hover:underline">ansiedade</Link> quando deveria estar feliz? Que há uma culpa inexplicável associada 
+            Que você sente <Link href="/ansiedade"><a className="text-primary hover:underline">ansiedade</a></Link> quando deveria estar feliz? Que há uma culpa inexplicável associada 
             à alegria? Isso é querofobia - medo de ser feliz.
           </p>
 
@@ -100,7 +95,7 @@ export default function MedoDeSerFeliz() {
           <div className="bg-primary/5 border border-primary/20 rounded-lg p-6 mt-8">
             <h3 className="text-xl font-semibold text-foreground mb-3">Pronto para Explorar?</h3>
             <p className="text-foreground mb-4">
-              Ofereço atendimento especializado em trauma, <Link href="/padroes-familiares" className="text-primary hover:underline">padrões familiares</Link> e integração psicológica.
+              Ofereço atendimento especializado em trauma, <Link href="/padroes-familiares"><a className="text-primary hover:underline">padrões familiares</a></Link> e integração psicológica.
             </p>
             <CTAButton whatsapp>Agendar Sessão</CTAButton>
           </div>

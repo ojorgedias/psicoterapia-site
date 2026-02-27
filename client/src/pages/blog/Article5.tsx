@@ -1,15 +1,8 @@
-import { Link } from 'wouter';
-import { useEffect } from 'react';
-import { updatePageMeta } from '@/lib/seoMetadata';
 import ArticlePage from "@/components/ArticlePage";
 import { InternalLink } from "@/components/ServicePage";
 import { getRelatedArticles } from "@/lib/content";
 
 export default function Article5() {
-  useEffect(() => {
-    updatePageMeta('article5');
-  }, []);
-
   const relatedArticles = getRelatedArticles("article-5", 3);
 
   return (
@@ -34,7 +27,7 @@ export default function Article5() {
       </p>
 
       <p>
-        O perigo desse consumo passivo é que você começa a vestir essas ideologias pré-fabricadas como se fossem a sua própria personalidade. Você terceiriza a sua capacidade de pensar. E quando a responsabilidade pelo pensamento crítico é transferida para o algoritmo ou para o influenciador, o indivíduo perde a sua bússola moral. Esse é um atalho perigoso que frequentemente desagua em uma profunda <InternalLink href="/terapia/adultos/crise-existencial"><Link href="/crise-existencial" className="text-primary hover:underline">crise existencial</Link> e falta de propósito</InternalLink>, pois as respostas do "guru" inevitavelmente falharão em resolver a sua vida real.
+        O perigo desse consumo passivo é que você começa a vestir essas ideologias pré-fabricadas como se fossem a sua própria personalidade. Você terceiriza a sua capacidade de pensar. E quando a responsabilidade pelo pensamento crítico é transferida para o algoritmo ou para o influenciador, o indivíduo perde a sua bússola moral. Esse é um atalho perigoso que frequentemente desagua em uma profunda <InternalLink href="/terapia/adultos/crise-existencial"><Link href="/crise-existencial"><a className="text-primary hover:underline">crise existencial</a></Link> e falta de propósito</InternalLink>, pois as respostas do "guru" inevitavelmente falharão em resolver a sua vida real.
       </p>
 
       <h2>Bolhas intelectuais e a atrofia da mente</h2>
@@ -43,7 +36,7 @@ export default function Article5() {
       </p>
 
       <p>
-        O resultado disso é a atrofia da mente. Ao nunca ser confrontado com o diferente, o indivíduo perde a capacidade de lidar com a frustração. Quando ele precisa desligar a tela e lidar com um colega de trabalho ou um parceiro amoroso que pensa diferente, o sistema psíquico entra em curto-circuito, gerando graves problemas na <InternalLink href="/terapia/adultos/regulacao-emocional">regulação emocional e controle da <Link href="/ansiedade" className="text-primary hover:underline">ansiedade</Link></InternalLink>.
+        O resultado disso é a atrofia da mente. Ao nunca ser confrontado com o diferente, o indivíduo perde a capacidade de lidar com a frustração. Quando ele precisa desligar a tela e lidar com um colega de trabalho ou um parceiro amoroso que pensa diferente, o sistema psíquico entra em curto-circuito, gerando graves problemas na <InternalLink href="/terapia/adultos/regulacao-emocional">regulação emocional e controle da <Link href="/ansiedade"><a className="text-primary hover:underline">ansiedade</a></Link></InternalLink>.
       </p>
 
       <h2>Recuperando a sua autonomia</h2>

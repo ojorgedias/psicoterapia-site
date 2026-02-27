@@ -1,5 +1,4 @@
 import { Link } from 'wouter';
-import { updatePageMeta } from '@/lib/seoMetadata';
 import { useEffect } from 'react';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Layout from '@/components/Layout';
@@ -9,10 +8,6 @@ import { useBlogPostingSchema } from '@/components/SEOSchema';
 import { getBlogPostMetadata } from '@/lib/blogPostingSchema';
 
 export default function SpiritualBypass() {
-  useEffect(() => {
-    updatePageMeta('spiritualbypass');
-  }, []);
-
   const readingTime = 13;
   const metadata = getBlogPostMetadata('spiritual-bypass');
   
@@ -38,7 +33,7 @@ export default function SpiritualBypass() {
   return (
     <Layout>
     <div className="bg-background">
-      <Breadcrumbs items={[{ label: 'Blog', href: '/blog' }, { label: '<Link href="/blog/spiritual-bypass" className="text-primary hover:underline">Spiritual Bypass</Link>' }]} />
+      <Breadcrumbs items={[{ label: 'Blog', href: '/blog' }, { label: '<Link href="/blog/spiritual-bypass"><a className="text-primary hover:underline">Spiritual Bypass</a></Link>' }]} />
 
       <article className="container max-w-3xl py-12 md:py-20">
         <div className="mb-8">
@@ -62,7 +57,7 @@ export default function SpiritualBypass() {
           </p>
 
           <h2 className="text-2xl font-display font-bold text-foreground mt-8">
-            Exemplos de <Link href="/blog/spiritual-bypass" className="text-primary hover:underline">Spiritual Bypass</Link>
+            Exemplos de <Link href="/blog/spiritual-bypass"><a className="text-primary hover:underline">Spiritual Bypass</a></Link>
           </h2>
 
           <h3 className="text-xl font-semibold text-primary mt-6">Perdão Forçado</h3>
@@ -95,7 +90,7 @@ export default function SpiritualBypass() {
             <li>Você integra espiritualidade com crescimento psicológico</li>
           </ul>
 
-          <h3 className="text-xl font-semibold text-primary mt-6"><Link href="/blog/spiritual-bypass" className="text-primary hover:underline">Spiritual Bypass</Link></h3>
+          <h3 className="text-xl font-semibold text-primary mt-6"><Link href="/blog/spiritual-bypass"><a className="text-primary hover:underline">Spiritual Bypass</a></Link></h3>
           <ul className="list-disc list-inside space-y-2 text-foreground">
             <li>Você evita processar trauma</li>
             <li>Você usa espiritualidade como desculpa</li>
@@ -122,7 +117,7 @@ export default function SpiritualBypass() {
             <h3 className="text-xl font-semibold text-foreground mb-3">Integração Psicologia-Espiritualidade</h3>
             <p className="text-foreground mb-4">
               Ofereço atendimento especializado em integração genuína de psicologia e espiritualidade, 
-              com foco em evitar <Link href="/blog/spiritual-bypass" className="text-primary hover:underline">spiritual bypass</Link>.
+              com foco em evitar <Link href="/blog/spiritual-bypass"><a className="text-primary hover:underline">spiritual bypass</a></Link>.
             </p>
             <CTAButton whatsapp>Agendar Sessão</CTAButton>
           </div>

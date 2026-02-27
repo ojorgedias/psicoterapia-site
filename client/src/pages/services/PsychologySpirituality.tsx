@@ -1,13 +1,7 @@
 import ServicePage, { InternalLink } from "@/components/ServicePage";
-import { updatePageMeta } from '@/lib/seoMetadata';
-import { useEffect } from 'react';
 import { getRelatedArticles } from "@/lib/content";
 
 export default function PsychologySpirituality() {
-  useEffect(() => {
-    updatePageMeta('psychologyspirituality');
-  }, []);
-
   const relatedArticles = getRelatedArticles("article-7", 3);
 
   return (

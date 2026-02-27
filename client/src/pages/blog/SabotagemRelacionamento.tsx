@@ -1,12 +1,7 @@
 import React, { useEffect } from 'react';
-import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from '@/components/Layout';
 
 export default function SabotagemRelacionamento() {
-  useEffect(() => {
-    updatePageMeta('sabotagemrelacionamento');
-  }, []);
-
   useEffect(() => {
     document.title = 'Como parar de me sabotar no relacionamento amoroso: A raiz i | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');

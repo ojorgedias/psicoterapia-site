@@ -1,166 +1,68 @@
 export const seoMetadata = {
   home: {
     title: 'Psicólogo Jorge Dias | Psicoterapia Clínica',
-    description: 'Psicoterapia clínica especializada em crise existencial, autossabotagem e padrões familiares. Atendimento online e presencial.',
+    description: 'Psicoterapia clínica especializada em crise existencial, autossabotagem e padrões familiares. Atendimento online e presencial em Presidente Epitácio.',
     keywords: 'psicólogo, psicoterapia, crise existencial, autossabotagem, padrões familiares',
   },
   about: {
-    title: 'Sobre - Psicólogo Jorge Dias | Minha Abordagem',
-    description: 'Conheça a abordagem terapêutica de Jorge Dias: investigação profunda, filosofia, psicologia e antropologia integradas.',
-    keywords: 'sobre, abordagem terapêutica, filosofia, psicologia, investigação',
+    title: 'Minha Abordagem - Psicólogo Jorge Dias | Psicoterapia Clínica',
+    description: 'Conheça a abordagem filosófica e clínica de Jorge Dias. Integração de psicologia, filosofia e antropologia para autoconhecimento genuíno e desenvolvimento autêntico.',
+    keywords: 'psicoterapia clínica, abordagem filosófica, psicologia integrativa, desenvolvimento pessoal',
   },
   faq: {
-    title: 'FAQ - Psicólogo Jorge Dias | Perguntas Frequentes',
-    description: 'Perguntas frequentes sobre psicoterapia clínica, autossabotagem, padrões familiares, crise existencial.',
-    keywords: 'perguntas frequentes, FAQ, psicoterapia, dúvidas',
+    title: 'FAQ - Psicólogo Jorge Dias | Perguntas Frequentes sobre Psicoterapia',
+    description: 'Perguntas frequentes sobre psicoterapia clínica, autossabotagem, padrões familiares, crise existencial e desenvolvimento pessoal. Respostas profundas baseadas em filosofia, psicologia e antropologia.',
+    keywords: 'psicoterapia, perguntas frequentes, autossabotagem, padrões familiares, crise existencial',
   },
   conceitos: {
-    title: 'Conceitos Fundamentais - Psicólogo Jorge Dias',
-    description: 'Conceitos fundamentais: dialética hegeliana, mediação, arqueologia pessoal, sombra, lealdades invisíveis.',
-    keywords: 'conceitos, dialética, mediação, arqueologia pessoal, sombra, lealdades',
+    title: 'Conceitos Fundamentais - Psicólogo Jorge Dias | Dialética, Mediação e Arqueologia Pessoal',
+    description: 'Entenda os conceitos fundamentais da abordagem de Jorge Dias: dialética hegeliana, subjetivação pela mediação, arqueologia pessoal de pressupostos, sombra e lealdades invisíveis.',
+    keywords: 'dialética, mediação, arqueologia pessoal, sombra, lealdades invisíveis, psicologia',
   },
   blog: {
-    title: 'Blog - Psicólogo Jorge Dias | Artigos sobre Psicoterapia',
-    description: 'Artigos profundos sobre psicoterapia clínica, autossabotagem, padrões familiares, narcisismo, relacionamentos.',
-    keywords: 'blog, artigos, psicoterapia, psicologia, autossabotagem, relacionamentos',
+    title: 'Blog - Psicólogo Jorge Dias | Artigos sobre Psicoterapia e Desenvolvimento Pessoal',
+    description: 'Artigos profundos sobre psicoterapia clínica, autossabotagem, padrões familiares, narcisismo, relacionamentos e integração psicologia-espiritualidade.',
+    keywords: 'blog psicologia, artigos terapia, autossabotagem, narcisismo, relacionamentos',
   },
   services: {
     title: 'Serviços - Psicólogo Jorge Dias | Terapia para Adultos e Casais',
-    description: 'Serviços de psicoterapia clínica: terapia para adultos, terapia para casais, integração psicologia-espiritualidade.',
-    keywords: 'serviços, terapia, psicoterapia clínica, terapia de casal, atendimento',
+    description: 'Serviços de psicoterapia clínica: terapia para adultos (crise existencial, autossabotagem, regulação emocional), terapia para casais e integração psicologia-espiritualidade.',
+    keywords: 'terapia para adultos, terapia para casais, psicoterapia clínica, crise existencial',
   },
   contact: {
     title: 'Contato - Psicólogo Jorge Dias | Agende sua Sessão',
-    description: 'Entre em contato com o psicólogo Jorge Dias para agendar sua sessão. Atendimento online para todo o Brasil.',
-    keywords: 'contato, agendar, sessão, psicoterapia, agendamento',
-  },
-  notfound: {
-    title: 'Página Não Encontrada - Psicólogo Jorge Dias',
-    description: 'A página que você procura não foi encontrada.',
-    keywords: 'erro 404, página não encontrada',
-  },
-  article1: {
-    title: 'Ansiedade ou Intuição - Psicólogo Jorge Dias',
-    description: 'Entenda a diferença entre ansiedade e intuição.',
-    keywords: 'ansiedade, intuição, psicologia',
-  },
-  article2: {
-    title: 'Artigo 2 - Psicólogo Jorge Dias',
-    description: 'Artigo sobre psicoterapia clínica.',
-    keywords: 'psicoterapia, psicologia',
-  },
-  article3: {
-    title: 'Artigo 3 - Psicólogo Jorge Dias',
-    description: 'Artigo sobre psicoterapia clínica.',
-    keywords: 'psicoterapia, psicologia',
-  },
-  article4: {
-    title: 'Artigo 4 - Psicólogo Jorge Dias',
-    description: 'Artigo sobre psicoterapia clínica.',
-    keywords: 'psicoterapia, psicologia',
-  },
-  article5: {
-    title: 'Artigo 5 - Psicólogo Jorge Dias',
-    description: 'Artigo sobre psicoterapia clínica.',
-    keywords: 'psicoterapia, psicologia',
-  },
-  article6: {
-    title: 'Artigo 6 - Psicólogo Jorge Dias',
-    description: 'Artigo sobre psicoterapia clínica.',
-    keywords: 'psicoterapia, psicologia',
-  },
-  article7: {
-    title: 'Artigo 7 - Psicólogo Jorge Dias',
-    description: 'Artigo sobre psicoterapia clínica.',
-    keywords: 'psicoterapia, psicologia',
-  },
-  article8: {
-    title: 'Artigo 8 - Psicólogo Jorge Dias',
-    description: 'Artigo sobre psicoterapia clínica.',
-    keywords: 'psicoterapia, psicologia',
-  },
-  autossabotagemBlog: {
-    title: 'Autossabotagem Inconsciente - Psicólogo Jorge Dias',
-    description: 'Investigação clínica de autossabotagem inconsciente.',
-    keywords: 'autossabotagem, inconsciente, psicologia',
+    description: 'Entre em contato com o psicólogo Jorge Dias para agendar sua sessão. Atendimento online para todo o Brasil e presencial em Presidente Epitácio - SP.',
+    keywords: 'contato psicólogo, agendar sessão, psicoterapia online',
   },
   crisisExistential: {
-    title: 'Crise Existencial - Psicólogo Jorge Dias | Serviço',
-    description: 'Terapia para crise existencial e busca de sentido.',
-    keywords: 'crise existencial, sentido de vida, psicoterapia',
+    title: 'Crise Existencial - Psicólogo Jorge Dias | Terapia Especializada',
+    description: 'Terapia especializada em crise existencial. Quando a estrutura anterior se torna insuportável e você precisa reconstruir de forma autêntica.',
+    keywords: 'crise existencial, terapia existencial, desenvolvimento pessoal, psicoterapia',
   },
   selfSabotage: {
-    title: 'Autossabotagem - Psicólogo Jorge Dias | Serviço',
-    description: 'Terapia para autossabotagem e padrões inconscientes.',
-    keywords: 'autossabotagem, padrões inconscientes, psicoterapia',
+    title: 'Autossabotagem - Psicólogo Jorge Dias | Investigação Clínica',
+    description: 'Investigação clínica de autossabotagem: compreenda as raízes psicológicas, lealdades invisíveis e dinâmicas de onipotência/impotência.',
+    keywords: 'autossabotagem, psicologia, terapia, lealdades invisíveis, sombra',
   },
   familyPatterns: {
-    title: 'Padrões Familiares - Psicólogo Jorge Dias | Serviço',
-    description: 'Terapia para padrões familiares e lealdades invisíveis.',
-    keywords: 'padrões familiares, lealdades invisíveis, psicoterapia',
+    title: 'Padrões Familiares - Psicólogo Jorge Dias | Terapia para Casais',
+    description: 'Terapia especializada em padrões familiares e lealdades invisíveis. Como estruturas familiares continuam governando seu comportamento na vida adulta.',
+    keywords: 'padrões familiares, lealdades invisíveis, terapia casal, relacionamentos',
   },
-  autossabotagemInconsciente: {
-    title: 'Autossabotagem Inconsciente - Psicólogo Jorge Dias',
-    description: 'Investigação clínica de autossabotagem inconsciente.',
-    keywords: 'autossabotagem, inconsciente, psicologia',
-  },
-  burnoutDigital: {
-    title: 'Burnout Digital - Psicólogo Jorge Dias',
-    description: 'Síndrome do burnout na era digital.',
-    keywords: 'burnout, digital, síndrome, trabalho',
-  },
-  integracaoPsicologiaEspiritualidade: {
-    title: 'Integração Psicologia e Espiritualidade - Psicólogo Jorge Dias',
-    description: 'Integração entre psicologia e espiritualidade.',
-    keywords: 'psicologia, espiritualidade, integração',
-  },
-  medodeserfeliz: {
-    title: 'Medo de Ser Feliz - Psicólogo Jorge Dias',
-    description: 'Investigação clínica do medo de ser feliz.',
-    keywords: 'medo, felicidade, psicologia',
-  },
-  narcisismoEncoberto: {
-    title: 'Narcisismo Encoberto - Psicólogo Jorge Dias',
-    description: 'Análise do narcisismo encoberto e suas manifestações.',
-    keywords: 'narcisismo, encoberto, psicologia',
-  },
-  padroesFamiliaresRelacionamentos: {
-    title: 'Padrões Familiares em Relacionamentos - Psicólogo Jorge Dias',
-    description: 'Como padrões familiares afetam seus relacionamentos.',
-    keywords: 'padrões familiares, relacionamentos, psicologia',
-  },
-  sindromeImpostorTerapeutas: {
-    title: 'Síndrome do Impostor em Terapeutas - Psicólogo Jorge Dias',
-    description: 'Síndrome do impostor em profissionais de psicoterapia.',
-    keywords: 'síndrome do impostor, terapeutas, psicologia',
-  },
-  spiritualBypass: {
-    title: 'Spiritual Bypass - Psicólogo Jorge Dias',
-    description: 'Análise do spiritual bypass e suas armadilhas.',
-    keywords: 'spiritual bypass, espiritualidade, psicologia',
-  },
-  narcisismoerdigital: {
-    title: 'Narcisismo na Era Digital - Psicólogo Jorge Dias',
-    description: 'Como a era digital amplifica traços narcisistas.',
-    keywords: 'narcisismo, era digital, redes sociais',
-  },
-  porquedesistotudo: {
-    title: 'Por Que Desisto de Tudo - Psicólogo Jorge Dias',
-    description: 'Investigação clínica de por que você desiste de tudo.',
-    keywords: 'desistência, autossabotagem, impotência',
-  },
-  sintomasautossabotagem: {
-    title: 'Sintomas de Autossabotagem - Psicólogo Jorge Dias',
-    description: 'Reconheça os sintomas de autossabotagem em sua vida.',
-    keywords: 'sintomas, autossabotagem, inconsciente',
+  autossabotagemBlog: {
+    title: 'Autossabotagem Inconsciente - Psicólogo Jorge Dias | Blog',
+    description: 'Artigo profundo sobre autossabotagem: manifestação da sombra, dinâmicas de onipotência/impotência, lealdades invisíveis e integração psicológica.',
+    keywords: 'autossabotagem, sombra, lealdades invisíveis, psicologia, Jung',
   },
 };
 
 export function updatePageMeta(page: keyof typeof seoMetadata) {
   const meta = seoMetadata[page];
   
+  // Update title
   document.title = meta.title;
   
+  // Update meta description
   let descMeta = document.querySelector('meta[name="description"]');
   if (!descMeta) {
     descMeta = document.createElement('meta');
@@ -169,14 +71,7 @@ export function updatePageMeta(page: keyof typeof seoMetadata) {
   }
   descMeta.setAttribute('content', meta.description);
   
-  let keywordsMeta = document.querySelector('meta[name="keywords"]');
-  if (!keywordsMeta) {
-    keywordsMeta = document.createElement('meta');
-    keywordsMeta.setAttribute('name', 'keywords');
-    document.head.appendChild(keywordsMeta);
-  }
-  keywordsMeta.setAttribute('content', meta.keywords);
-  
+  // Update OG tags
   let ogTitle = document.querySelector('meta[property="og:title"]');
   if (!ogTitle) {
     ogTitle = document.createElement('meta');

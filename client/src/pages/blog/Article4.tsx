@@ -1,15 +1,8 @@
-import { Link } from 'wouter';
-import { useEffect } from 'react';
-import { updatePageMeta } from '@/lib/seoMetadata';
 import ArticlePage from "@/components/ArticlePage";
 import { InternalLink } from "@/components/ServicePage";
 import { getRelatedArticles } from "@/lib/content";
 
 export default function Article4() {
-  useEffect(() => {
-    updatePageMeta('article4');
-  }, []);
-
   const relatedArticles = getRelatedArticles("article-4", 3);
 
   return (
@@ -43,7 +36,7 @@ export default function Article4() {
       </p>
 
       <p>
-        É extremamente comum que pessoas presas nessa roda-gigante de performance cheguem ao consultório enfrentando uma severa <InternalLink href="/terapia/adultos/crise-existencial"><Link href="/crise-existencial" className="text-primary hover:underline">crise existencial</Link> e falta de propósito</InternalLink>. Elas construíram um personagem tão bem-sucedido que agora se sentem vazias, solitárias e esgotadas pela pressão de ter que mantê-lo de pé. Além disso, essa desconexão gera graves impactos na vida a dois, sendo o motor de boa parte das crises que tratamos na <InternalLink href="/terapia/casais/conflitos-casal">resolução de conflitos de casal</InternalLink>.
+        É extremamente comum que pessoas presas nessa roda-gigante de performance cheguem ao consultório enfrentando uma severa <InternalLink href="/terapia/adultos/crise-existencial"><Link href="/crise-existencial"><a className="text-primary hover:underline">crise existencial</a></Link> e falta de propósito</InternalLink>. Elas construíram um personagem tão bem-sucedido que agora se sentem vazias, solitárias e esgotadas pela pressão de ter que mantê-lo de pé. Além disso, essa desconexão gera graves impactos na vida a dois, sendo o motor de boa parte das crises que tratamos na <InternalLink href="/terapia/casais/conflitos-casal">resolução de conflitos de casal</InternalLink>.
       </p>
 
       <h2>O resgate do "eu" longe do público</h2>

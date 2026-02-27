@@ -1,16 +1,10 @@
 import { Link } from "wouter";
-import { useEffect } from 'react';
-import { updatePageMeta } from '@/lib/seoMetadata';
 import Layout from "@/components/Layout";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { blogArticles } from "@/lib/content";
 import { Clock } from "lucide-react";
 
 export default function BlogList() {
-  useEffect(() => {
-    updatePageMeta('bloglist');
-  }, []);
-
   return (
     <Layout>
       <div className="container max-w-4xl mx-auto px-4 py-12">

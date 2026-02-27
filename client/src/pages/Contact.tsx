@@ -1,15 +1,9 @@
 import Layout from "@/components/Layout";
-import { useEffect } from 'react';
-import { updatePageMeta } from '@/lib/seoMetadata';
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { PSYCHOLOGIST } from "@/../../shared/const";
 import { MessageCircle, Calendar } from "lucide-react";
 
 export default function Contact() {
-  useEffect(() => {
-    updatePageMeta('contact');
-  }, []);
-
   return (
     <Layout>
       <div className="container max-w-4xl mx-auto px-4 py-12">
