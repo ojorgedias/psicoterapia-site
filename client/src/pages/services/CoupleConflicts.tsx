@@ -1,3 +1,4 @@
+import { Link } from 'wouter';
 import ServicePage, { InternalLink } from "@/components/ServicePage";
 import { getRelatedArticles } from "@/lib/content";
 
