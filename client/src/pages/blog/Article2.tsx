@@ -54,7 +54,7 @@ export default function Article2() {
         <InternalLink href="/terapia/adultos/autonomia-identidade">
           desenvolvimento de uma autonomia e identidade inabaláveis
         </InternalLink>
-        , onde você deixa de ser uma vítima do comportamento alheio e passa a ser dono da sua própria mente. Se deseja fazer essa investigação de forma ética e orientada, o espaço clínico é o ambiente certo. Realizo atendimentos psicológicos online para o Brasil e exterior, além de sessões presenciais em Presidente Epitácio - SP.
+        , onde você deixa de ser uma vítima do comportamento alheio e passa a ser dono da sua própria mente. Se deseja fazer essa investigação de forma ética e orientada, o espaço clínico é o ambiente certo. Realizo atendimentos psicológicos online para Brasil e exterior.
       </p>
     </ArticlePage>
   );

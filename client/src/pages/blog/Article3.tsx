@@ -46,7 +46,7 @@ export default function Article3() {
       </p>
 
       <p>
-        Esse é um processo central no <InternalLink href="/terapia/adultos/autonomia-identidade">desenvolvimento de uma autonomia e identidade inabaláveis</InternalLink>. Se você deseja parar de viver em função do que os outros pensam e quer recuperar a direção da sua vida, a psicoterapia oferece as ferramentas estruturais para essa mudança. Realizo atendimentos psicológicos online para todo o mundo, além de sessões presenciais em Presidente Epitácio - SP.
+        Esse é um processo central no <InternalLink href="/terapia/adultos/autonomia-identidade">desenvolvimento de uma autonomia e identidade inabaláveis</InternalLink>. Se você deseja parar de viver em função do que os outros pensam e quer recuperar a direção da sua vida, a psicoterapia oferece as ferramentas estruturais para essa mudança. Realizo atendimentos psicológicos online para todo o mundo, .
       </p>
     </ArticlePage>
   );

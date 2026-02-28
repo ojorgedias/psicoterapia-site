@@ -38,7 +38,7 @@ export default function IntegrativePhilosophy() {
 
       <h2>Explore o pensamento integrativo</h2>
       <p>
-        Se você está interessado em explorar essas questões filosóficas de forma prática e aplicada à sua vida, a psicoterapia oferece um espaço para essa investigação. Realizo atendimentos psicológicos online para o Brasil e exterior, além de sessões presenciais em Presidente Epitácio - SP.
+        Se você está interessado em explorar essas questões filosóficas de forma prática e aplicada à sua vida, a psicoterapia oferece um espaço para essa investigação. Realizo atendimentos psicológicos online para Brasil e exterior.
       </p>
     </ServicePage>
   );

@@ -46,7 +46,7 @@ export default function Article5() {
       </p>
 
       <p>
-        Esse é o verdadeiro <InternalLink href="/terapia/adultos/autonomia-identidade">desenvolvimento de uma autonomia e identidade inabaláveis</InternalLink>. Se você está cansado de viver no piloto automático digital e deseja construir uma mente forte e independente, a terapia é o espaço para essa investigação. Realizo atendimentos psicológicos online em nível global e presenciais em Presidente Epitácio - SP.
+        Esse é o verdadeiro <InternalLink href="/terapia/adultos/autonomia-identidade">desenvolvimento de uma autonomia e identidade inabaláveis</InternalLink>. Se você está cansado de viver no piloto automático digital e deseja construir uma mente forte e independente, a terapia é o espaço para essa investigação. Realizo atendimentos psicológicos online em nível global.
       </p>
     </ArticlePage>
   );

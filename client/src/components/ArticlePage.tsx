@@ -47,7 +47,7 @@ export default function ArticlePage({
                 CRP 08/31462 | Psicoterapia Clínica Integrativa
               </p>
               <p className="text-sm text-foreground leading-relaxed">
-                Especializado em crise existencial, autossabotagem, padrões familiares e integração psicologia-espiritualidade. Atendimento online para todo o país e presencial em Presidente Epitácio - SP.
+                Especializado em crise existencial, autossabotagem, padrões familiares e integração psicologia-espiritualidade. Atendimento online para Brasil e exterior.
               </p>
             </div>
           </div>

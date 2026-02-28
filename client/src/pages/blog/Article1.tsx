@@ -54,7 +54,7 @@ export default function Article1() {
       </p>
 
       <p>
-        Se você vive em estado de alerta constante e quer aprender a decifrar a sua bússola interna de forma madura e estruturada, a psicoterapia é o espaço adequado para essa investigação. Realizo atendimentos psicológicos online para todo o mundo e sessões presenciais no meu consultório em Presidente Epitácio - SP.
+        Se você vive em estado de alerta constante e quer aprender a decifrar a sua bússola interna de forma madura e estruturada, a psicoterapia é o espaço adequado para essa investigação. Realizo atendimentos psicológicos online para todo o mundo.
       </p>
     </ArticlePage>
   );

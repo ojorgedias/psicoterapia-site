@@ -55,7 +55,7 @@ export default function EmotionalRegulation() {
 
       <h2>Transforme sua relação com as emoções</h2>
       <p>
-        Se você vive oscilando entre crises emocionais intensas e um vazio paralisante, ou se sente preso num dos extremos, a psicoterapia oferece um caminho para a libertação. Realizo atendimentos psicológicos online em nível global e presenciais em Presidente Epitácio - SP.
+        Se você vive oscilando entre crises emocionais intensas e um vazio paralisante, ou se sente preso num dos extremos, a psicoterapia oferece um caminho para a libertação. Realizo atendimentos psicológicos online em nível global.
       </p>
     </ServicePage>
   );

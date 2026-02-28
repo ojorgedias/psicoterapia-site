@@ -43,7 +43,7 @@ export default function CoupleConflicts() {
 
       <h2>Transforme seu relacionamento</h2>
       <p>
-        Se o seu relacionamento foi contaminado por essa polarização e vocês não conseguem mais conversar sem entrar em modo de defesa, a psicoterapia oferece uma zona neutra e ética para restabelecer a comunicação. Não procuramos culpados, procuramos a integração. Ofereço psicoterapia online para adultos e casais em todo o mundo, além de sessões presenciais em Presidente Epitácio - SP.
+        Se o seu relacionamento foi contaminado por essa polarização e vocês não conseguem mais conversar sem entrar em modo de defesa, a psicoterapia oferece uma zona neutra e ética para restabelecer a comunicação. Não procuramos culpados, procuramos a integração. Ofereço psicoterapia online para adultos e casais em todo o mundo, .
       </p>
     </ServicePage>
   );

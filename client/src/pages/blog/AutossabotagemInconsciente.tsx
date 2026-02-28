@@ -196,7 +196,7 @@ export default function AutossabotagemInconsciente() {
           <div className="bg-primary/5 border border-primary/20 rounded-lg p-6 mt-8">
             <h3 className="text-xl font-semibold text-foreground mb-3">Pronto para Investigar Suas Raízes?</h3>
             <p className="text-foreground mb-4">
-              A psicoterapia oferece um espaço seguro para fazer essa investigação de forma rigorosa e compassiva. Ofereço atendimento especializado em autossabotagem, <Link href="/padroes-familiares" className="text-primary hover:underline">padrões familiares</Link> e integração da <Link href="/blog/sombra-relacionamentos" className="text-primary hover:underline">sombra</Link>. Atendimento online para todo o país e presencial em Presidente Epitácio - SP.
+              A psicoterapia oferece um espaço seguro para fazer essa investigação de forma rigorosa e compassiva. Ofereço atendimento especializado em autossabotagem, <Link href="/padroes-familiares" className="text-primary hover:underline">padrões familiares</Link> e integração da <Link href="/blog/sombra-relacionamentos" className="text-primary hover:underline">sombra</Link>. Atendimento online para todo o país e .
             </p>
             <CTAButton whatsapp>Agendar Sessão Inicial</CTAButton>
           </div>

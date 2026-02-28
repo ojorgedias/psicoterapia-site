@@ -46,7 +46,7 @@ export default function Article8() {
       </p>
 
       <p>
-        Se a pressão de provar o seu valor constantemente está paralisando a sua vida, a psicoterapia oferece um espaço seguro para desarmar essa defesa. Realizo atendimentos psicológicos online para adultos no mundo todo e sessões presenciais em Presidente Epitácio - SP.
+        Se a pressão de provar o seu valor constantemente está paralisando a sua vida, a psicoterapia oferece um espaço seguro para desarmar essa defesa. Realizo atendimentos psicológicos online para adultos no mundo todo.
       </p>
     </ArticlePage>
   );

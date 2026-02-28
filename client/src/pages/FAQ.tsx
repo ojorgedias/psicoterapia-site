@@ -100,7 +100,7 @@ const faqItems: FAQItem[] = [
   {
     category: 'Questões Práticas',
     question: 'Você oferece atendimento online?',
-    answer: 'Sim, ofereço atendimento psicológico online para adultos em qualquer lugar do mundo. Também ofereço sessões presenciais em Presidente Epitácio - SP. O formato online funciona bem para a maioria das pessoas, e a qualidade do trabalho não é comprometida. O que importa é a qualidade da presença e da investigação, não a proximidade física.'
+    answer: 'Sim, ofereço atendimento psicológico online para adultos em qualquer lugar do mundo.. O formato online é meu único formato de atendimento, e a qualidade do trabalho não é comprometida. O que importa é a qualidade da presença e da investigação, não a proximidade física.'
   },
   {
     category: 'Questões Práticas',

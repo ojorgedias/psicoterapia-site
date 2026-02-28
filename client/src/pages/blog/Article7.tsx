@@ -46,7 +46,7 @@ export default function Article7() {
       </p>
 
       <p>
-        Se você leva o seu desenvolvimento interior a sério e deseja integrar a mente e o espírito de forma pragmática, sem cair em ilusões ou sectarismos, a abordagem de <InternalLink href="/autoridade/psicologia-espiritualidade">psicologia e espiritualidade de forma integrativa</InternalLink> oferece um caminho seguro. Realizo atendimentos psicológicos online para o Brasil e exterior, além de sessões presenciais em Presidente Epitácio - SP.
+        Se você leva o seu desenvolvimento interior a sério e deseja integrar a mente e o espírito de forma pragmática, sem cair em ilusões ou sectarismos, a abordagem de <InternalLink href="/autoridade/psicologia-espiritualidade">psicologia e espiritualidade de forma integrativa</InternalLink> oferece um caminho seguro. Realizo atendimentos psicológicos online para Brasil e exterior.
       </p>
     </ArticlePage>
   );

@@ -100,8 +100,8 @@ export function useLocalBusinessSchema() {
       'description': 'Psicoterapia clínica para autoconhecimento profundo. Investigação filosófica e clínica rigorosa.',
       'address': {
         '@type': 'PostalAddress',
-        'streetAddress': 'Presidente Epitácio',
-        'addressLocality': 'Presidente Epitácio',
+        'streetAddress': 'Online',
+        'addressLocality': 'Online',
         'addressRegion': 'SP',
         'postalCode': '',
         'addressCountry': 'BR'
@@ -109,7 +109,7 @@ export function useLocalBusinessSchema() {
       'areaServed': [
         {
           '@type': 'City',
-          'name': 'Presidente Epitácio'
+          'name': 'Online'
         },
         {
           '@type': 'Country',

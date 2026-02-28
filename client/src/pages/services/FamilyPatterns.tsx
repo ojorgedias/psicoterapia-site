@@ -39,7 +39,7 @@ export default function FamilyPatterns() {
 
       <h2>Transforme seus relacionamentos</h2>
       <p>
-        Quando você consegue se desembaraçar dos <Link href="/padroes-familiares" className="text-primary hover:underline">padrões familiares</Link> não resolvidos, seus relacionamentos amorosos se transformam radicalmente. Você deixa de atrair pessoas que replicam dinâmicas antigas e passa a fazer escolhas genuinamente suas. Se você sente que está repetindo ciclos familiares nos seus relacionamentos, a psicoterapia de casal oferece um espaço seguro para essa investigação. Realizo atendimentos psicológicos online em nível global e presenciais em Presidente Epitácio - SP.
+        Quando você consegue se desembaraçar dos <Link href="/padroes-familiares" className="text-primary hover:underline">padrões familiares</Link> não resolvidos, seus relacionamentos amorosos se transformam radicalmente. Você deixa de atrair pessoas que replicam dinâmicas antigas e passa a fazer escolhas genuinamente suas. Se você sente que está repetindo ciclos familiares nos seus relacionamentos, a psicoterapia de casal oferece um espaço seguro para essa investigação. Realizo atendimentos psicológicos online em nível global.
       </p>
     </ServicePage>
   );

@@ -39,7 +39,7 @@ export default function AutonomyIdentity() {
 
       <h2>Construa sua própria régua moral</h2>
       <p>
-        O objetivo final desse trabalho é que você chegue à Síntese — o ponto onde você consegue forjar a sua própria régua moral, onde sua bússola interna guia com clareza as suas escolhas. Se você está pronto para esse trabalho de profunda investigação e transformação, estou aqui para acompanhá-lo nessa jornada. Realizo atendimentos psicológicos online para todo o mundo e presenciais em Presidente Epitácio - SP.
+        O objetivo final desse trabalho é que você chegue à Síntese — o ponto onde você consegue forjar a sua própria régua moral, onde sua bússola interna guia com clareza as suas escolhas. Se você está pronto para esse trabalho de profunda investigação e transformação, estou aqui para acompanhá-lo nessa jornada. Realizo atendimentos psicológicos online para todo o mundo.
       </p>
     </ServicePage>
   );

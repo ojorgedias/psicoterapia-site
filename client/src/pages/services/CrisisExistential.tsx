@@ -70,7 +70,7 @@ export default function CrisisExistential() {
       </p>
 
       <p>
-        Se você se sente perdido, sem propósito ou no meio de uma transição dolorosa, saiba que essa travessia não precisa ser feita às cegas. Ofereço atendimento psicológico online para adultos em todo o mundo, além de sessões presenciais em Presidente Epitácio - SP.
+        Se você se sente perdido, sem propósito ou no meio de uma transição dolorosa, saiba que essa travessia não precisa ser feita às cegas. Ofereço atendimento psicológico online para adultos em todo o mundo, .
       </p>
     </ServicePage>
   );

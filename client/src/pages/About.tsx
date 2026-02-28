@@ -99,7 +99,7 @@ export default function About() {
 
             <h3 className="font-display text-lg font-semibold mb-4">Presencial</h3>
             <p>
-              Sessões presenciais no consultório em Presidente Epitácio - SP. Oferece uma experiência mais imersiva e presencial.
+              
             </p>
           </div>
 

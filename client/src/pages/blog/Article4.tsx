@@ -42,7 +42,7 @@ export default function Article4() {
 
       <h2>O resgate do "eu" longe do público</h2>
       <p>
-        Se você se sente exausto de sustentar um personagem para o mundo e deseja se reconectar com as suas vontades reais, a intervenção psicológica é o caminho ético e estruturado para essa transição. Ofereço atendimento psicológico online em nível global e presencial no meu consultório em Presidente Epitácio - SP.
+        Se você se sente exausto de sustentar um personagem para o mundo e deseja se reconectar com as suas vontades reais, a intervenção psicológica é o caminho ético e estruturado para essa transição. Ofereço atendimento psicológico online em nível global.
       </p>
     </ArticlePage>
   );
