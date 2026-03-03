@@ -5,7 +5,7 @@ export default function FloatingActionButton() {
     <>
       {/* Large Rectangular FAB - Visible only on mobile */}
       <Link href="/contato">
-        <a className="md:hidden fixed bottom-6 right-6 z-50 px-8 py-4 bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-105 active:scale-95 animate-fade-in font-semibold text-base whitespace-nowrap">
+        <a className="fixed bottom-6 right-6 z-50 px-8 py-4 bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-105 active:scale-95 animate-fade-in font-semibold text-base whitespace-nowrap">
           Agendar Sessão
         </a>
       </Link>
