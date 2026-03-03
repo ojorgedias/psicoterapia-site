@@ -4,13 +4,16 @@ import { PSYCHOLOGIST } from "@/../../shared/const";
 import { MessageCircle, Calendar } from "lucide-react";
 
 export default function Contact() {
+  const whatsappNumber = "5518999999999";
+  const whatsappDisplay = "(18) 99999-9999";
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá%20Jorge,%20gostaria%20de%20agendar%20uma%20sessão%20online.`;
+
   return (
     <Layout>
       <div className="container max-w-4xl mx-auto px-4 py-12">
         <Breadcrumbs items={[{ label: "Início", href: "/" }, { label: "Contato" }]} />
 
         <article className="prose-clinical">
-          {/* Hero Section with Online Session Photo */}
           <div className="mb-12 -mx-4 md:mx-0">
             <img
               src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/zXQQHgptkIhrUeMR.png"
@@ -21,68 +24,47 @@ export default function Contact() {
 
           <h1>Agende Sua Sessão</h1>
           <p>
-            Escolha a forma mais conveniente para você. Estou disponível para atendimento online em todo o Brasil e exterior, 
-            além de sessões presenciais em Presidente Epitácio - SP.
+            Escolha a forma mais conveniente para você. Os atendimentos são <strong>exclusivamente online</strong>, garantindo flexibilidade, discrição e segurança para pacientes em todo o Brasil e no exterior.
           </p>
 
-          {/* Two Main CTA Options */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-12">
             {/* WhatsApp */}
-            <div className="bg-card text-card-foreground rounded-lg shadow-sm p-8 border-2 border-border hover:border-primary transition-colors">
-              <div className="flex items-start gap-4 mb-6">
-                <div className="p-3 bg-primary rounded-lg">
-                  <MessageCircle className="text-primary-foreground" size={32} />
-                </div>
-                <div>
-                  <h2 className="font-display text-2xl font-bold text-foreground">WhatsApp</h2>
-                  <p className="text-sm text-muted-foreground mt-1">Conversa direta</p>
-                </div>
+            <div className="bg-card text-card-foreground border border-border p-8 rounded-lg text-center hover:border-primary transition-colors">
+              <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-primary">
+                <MessageCircle size={32} />
               </div>
-              
-              <p className="text-muted-foreground mb-6 leading-relaxed">
-                Envie uma mensagem direto pelo WhatsApp para discutir suas necessidades e agendar sua primeira sessão. 
-                Respondo rapidamente e podemos conversar sobre sua situação.
+              <h3 className="font-display text-2xl font-semibold mb-4">WhatsApp</h3>
+              <p className="text-muted-foreground mb-6">
+                A forma mais rápida de tirar dúvidas e encontrar um horário disponível.
               </p>
-
               <a
-                href={PSYCHOLOGIST.whatsappLink}
+                href={whatsappLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block w-full text-center px-6 py-4 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity duration-200"
+                className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors w-full"
               >
-                Enviar Mensagem WhatsApp
+                Falar no WhatsApp
               </a>
             </div>
 
-            {/* Calendly */}
-            <div className="bg-card text-card-foreground rounded-lg shadow-sm p-8 border-2 border-border hover:border-primary transition-colors">
-              <div className="flex items-start gap-4 mb-6">
-                <div className="p-3 bg-primary rounded-lg">
-                  <Calendar className="text-primary-foreground" size={32} />
-                </div>
-                <div>
-                  <h2 className="font-display text-2xl font-bold text-foreground">Agendar Sessão</h2>
-                  <p className="text-sm text-muted-foreground mt-1">Agendamento automático</p>
-                </div>
+            {/* Email */}
+            <div className="bg-card text-card-foreground border border-border p-8 rounded-lg text-center hover:border-primary transition-colors">
+              <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-primary">
+                <Calendar size={32} />
               </div>
-              
-              <p className="text-muted-foreground mb-6 leading-relaxed">
-                Acesse meu calendário online e escolha o horário que melhor se adequa à sua disponibilidade. 
-                Você receberá confirmação imediata e o link para a sessão.
+              <h3 className="font-display text-2xl font-semibold mb-4">E-mail</h3>
+              <p className="text-muted-foreground mb-6">
+                Prefere escrever? Mande um e-mail com a sua disponibilidade de agenda.
               </p>
-
               <a
-                href="https://calendly.com/jorgediasgama"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block w-full text-center px-6 py-4 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity duration-200"
+                href={`mailto:${PSYCHOLOGIST.email}`}
+                className="inline-block px-6 py-3 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary/5 transition-colors w-full"
               >
-                Abrir Calendário
+                Enviar E-mail
               </a>
             </div>
           </div>
 
-          {/* Info Section */}
           <div className="bg-secondary rounded-lg p-8 border border-border my-12">
             <h2>Informações Profissionais</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
@@ -103,15 +85,12 @@ export default function Contact() {
               <div>
                 <p className="mb-4">
                   <strong>WhatsApp:</strong>{" "}
-                  <a href={PSYCHOLOGIST.whatsappLink} target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent">
-                    (41) 98515-5583
+                  <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent">
+                    {whatsappDisplay}
                   </a>
                 </p>
-                <p>
-                  <strong>Localização:</strong> {PSYCHOLOGIST.location}
-                </p>
                 <p className="mt-4 text-sm text-muted-foreground">
-                  Atendimento online para todo o Brasil e exterior
+                  Atendimento psicoterápico online para todo o Brasil e exterior
                 </p>
               </div>
             </div>
