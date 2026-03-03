@@ -1,7 +1,7 @@
 export const seoMetadata = {
   home: {
     title: 'Psicólogo Jorge Dias | Psicoterapia Clínica',
-    description: 'Psicoterapia clínica especializada em crise existencial, autossabotagem e padrões familiares. Atendimento online e presencial em Presidente Epitácio.',
+    description: 'Psicoterapia clínica especializada em crise existencial, autossabotagem e padrões familiares. Atendimento 100% online.',
     keywords: 'psicólogo, psicoterapia, crise existencial, autossabotagem, padrões familiares',
   },
   about: {
@@ -31,7 +31,7 @@ export const seoMetadata = {
   },
   contact: {
     title: 'Contato - Psicólogo Jorge Dias | Agende sua Sessão',
-    description: 'Entre em contato com o psicólogo Jorge Dias para agendar sua sessão. Atendimento online para todo o Brasil e presencial em Presidente Epitácio - SP.',
+    description: 'Entre em contato com o psicólogo Jorge Dias para agendar sua sessão. Atendimento online para Brasileiros em todo o mundo.',
     keywords: 'contato psicólogo, agendar sessão, psicoterapia online',
   },
   crisisExistential: {
