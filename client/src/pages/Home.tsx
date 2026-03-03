@@ -26,7 +26,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <img
             src="https://private-us-east-1.manuscdn.com/sessionFile/UWXOi3Z0CqaqcQpJtcE94W/sandbox/ju26zNMuXhJFKpE5iHWdtf-img-1_1771894197000_na1fn_aGVyby1iYWNrZ3JvdW5k.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvVVdYT2kzWjBDcWFxY1FwSnRjRTk0Vy9zYW5kYm94L2p1MjZ6Tk11WGhKRktwRTVpSFdkdGYtaW1nLTFfMTc3MTg5NDE5NzAwMF9uYTFmbl9hR1Z5YnkxaVlXTnJaM0p2ZFc1ay5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=AKi4EKWgIZYpC15uiiz08Sl~od5d6EK-1Ov7e3E83xSZklryXKZ6bQwOcdJtdNqvDFhtOPVzVO0Kb6ZMAynmrAY3YDrhDg-HqZx053Zu~FI~7bApwLN1x1zE24jIXZawEgPw-fYsxpcUtoeOo10Pc-emqcKOprpeb7BQPXtXoJWqSvrbXtRkCAvjUwfb~p9DPPfkHTaNY~fqxJtwioyr176NqKd-OAHOicbHjDOc~UitX6rug-lBsnQDVh250s9dEuCyz~c6BVZN2xnv994yXSNqgq5hf-wixHT7oqjXQ74nMAYojbD4yfI~DzapYDjoIUMjtqN2kJ3ix5BJsGx3YQ__"
-            alt="Hero Background"
+            alt="Fundo abstrato representando autoconhecimento e psicoterapia profunda""
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-background/60"></div>
@@ -34,7 +34,7 @@ export default function Home() {
         <div className="container max-w-4xl mx-auto px-4 text-center relative z-10">
           <img
             src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png"
-            alt="Psicólogo Jorge Dias"
+            alt="Jorge Dias - Psicólogo Clínico Online com foco em Crise Existencial e Autossabotagem"
             className="w-40 h-40 md:w-56 md:h-56 rounded-full object-cover mx-auto mb-8 shadow-xl border-4 border-background"
           />
           <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-2 leading-tight">
@@ -70,7 +70,7 @@ export default function Home() {
             <div className="bg-card text-card-foreground rounded-lg shadow-md p-6 border border-border overflow-hidden hover:shadow-lg transition-shadow">
               <img
                 src="https://private-us-east-1.manuscdn.com/sessionFile/UWXOi3Z0CqaqcQpJtcE94W/sandbox/ju26zNMuXhJFKpE5iHWdtf-img-2_1771894191000_na1fn_YWR1bHRvcy1jbHVzdGVy.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvVVdYT2kzWjBDcWFxY1FwSnRjRTk0Vy9zYW5kYm94L2p1MjZ6Tk11WGhKRktwRTVpSFdkdGYtaW1nLTJfMTc3MTg5NDE5MTAwMF9uYTFmbl9ZV1IxYkhSdmN5MWpiSFZ6ZEdWeS5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=MRqK3UlqPK3r1R1n6GV534qDACYAnGM0GnioDSohU~YKD~ti9-nc2Qx-nt-atd4JVtYeOHZiELOTx1Do6PWajP3SODHM9O53TZHvLoQ-JdObBWY2oCAMWkoxN5ekcYfANCtvjKk2GG7ckUILwMhac87zMm0LPJcgXnY9jn~EOqeKm8qfbp16qp5cdUEA5B13plnuYVKsRax2nXS5aFu1WYUGV8oCDbsoWnsvTXkknlHuRbJWDfUx~pdc5DA99tZaeGQNznjHJPxh~yzzhvS6e5yWHoltSVIzKc21x2ZKi2ZzR0mvzQ0JNujp1ymnLdcYhlCNI0G2J-v80sWmVdGOVw__"
-                alt="Terapia para Adultos"
+                alt="Terapia online para adultos lidando com crise existencial e autossabotagem"
                 className="w-full h-40 object-cover rounded mb-4"
               />
               <h3 className="font-display text-xl font-semibold mb-3 text-primary">
@@ -112,7 +112,7 @@ export default function Home() {
                 Integração ética entre desenvolvimento psicológico e espiritual, sem bypassing ou alienação.
               </p>
               <Link href="/autoridade/psicologia-espiritualidade" className="text-primary hover:text-accent font-semibold">Explorar →</Link>
-  a          </div>
+             </div>
           </div>
         </div>
       </section>
