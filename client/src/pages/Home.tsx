@@ -45,7 +45,7 @@ export default function Home() {
             Você se sente perdido, preso em ciclos que se repetem, ou vivendo uma vida que não é realmente sua? Trabalho com pessoas que chegam ao consultório buscando mais que respostas prontas. Meu trabalho é investigação profunda: desvendar as <Link href="/conceitos-fundamentais" className="text-primary hover:underline">regras invisíveis</Link> que governam você, sem dogmas ou receitas.
           </p>
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto" style={{color: '#413e3e'}}>
-            Especializado em <strong><Link href="/crise-existencial" className="text-primary hover:underline">crise existencial</Link></strong>, <strong><Link href="/autossabotagem" className="text-primary hover:underline">autossabotagem</Link></strong> e <strong><Link href="/padroes-familiares" className="text-primary hover:underline">padrões familiares</Link></strong>. Atendimento online para Brasil e .
+            Especializado em <strong><Link href="/crise-existencial" className="text-primary hover:underline">crise existencial</Link></strong>, <strong><Link href="/autossabotagem" className="text-primary hover:underline">autossabotagem</Link></strong> e <strong><Link href="/padroes-familiares" className="text-primary hover:underline">padrões familiares</Link></strong>. Atendimento online para todo o Brasil e brasileiros no exterior.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <CTAButton href="/contato">Agendar Sessão</CTAButton>
@@ -112,7 +112,7 @@ export default function Home() {
                 Integração ética entre desenvolvimento psicológico e espiritual, sem bypassing ou alienação.
               </p>
               <Link href="/autoridade/psicologia-espiritualidade" className="text-primary hover:text-accent font-semibold">Explorar →</Link>
-            </div>
+  a          </div>
           </div>
         </div>
       </section>
