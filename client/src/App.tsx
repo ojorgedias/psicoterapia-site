@@ -39,7 +39,7 @@ import Article8 from "./pages/blog/Article8";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
 import Services from "./pages/Services";
-import FloatingWhatsApp from "./components/FloatingWhatsApp";
+
 import ConceptosFundamentais from "./pages/ConceptosFundamentais";
 import AutossabotagemPilar from "./pages/content/AutossabotagemPilar";
 import PadroesFamiliaresPilar from "./pages/content/PadroesFamiliaresPilar";
@@ -184,7 +184,7 @@ function App() {
         <TooltipProvider>
           <Toaster />
           <Router />
-          <FloatingWhatsApp />
+
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
