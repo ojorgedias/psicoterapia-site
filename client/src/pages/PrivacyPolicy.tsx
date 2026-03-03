@@ -11,7 +11,7 @@ export default function PrivacyPolicy() {
         <article className="prose-clinical">
           <h1>Política de Privacidade</h1>
           <p>
-            <strong>Última atualização:</strong> 23 de fevereiro de 2026
+            <strong>Última atualização:</strong> 03 de março de 2026
           </p>
 
           <h2>1. Introdução</h2>
@@ -33,24 +33,23 @@ export default function PrivacyPolicy() {
           <h2>3. Como Usamos Suas Informações</h2>
           <p>Usamos suas informações para:</p>
           <ul>
-            <li>Agendar e conduzir sessões de psicoterapia</li>
-            <li>Responder a suas consultas e mensagens</li>
+            <li>Agendar e conduzir sessões de psicoterapia exclusivamente online</li>
+            <li>Responder a suas consultas ou solicitações</li>
             <li>Melhorar nosso site e serviços</li>
-            <li>Cumprir obrigações legais e regulatórias</li>
-            <li>Enviar atualizações sobre nossos serviços (com seu consentimento)</li>
+            <li>Cumprir obrigações legais e regulatórias do CFP/CRP</li>
           </ul>
 
-          <h2>4. Confidencialidade Terapêutica</h2>
+          <h2>4. Proteção de Dados</h2>
           <p>
-            Todas as informações compartilhadas durante sessões de psicoterapia são confidenciais e protegidas por sigilo
-            profissional, conforme exigido pelo Código de Ética Profissional do Psicólogo. As exceções legais incluem
-            situações de risco iminente à vida.
+            Implementamos medidas de segurança técnicas e organizacionais adequadas para proteger suas
+            informações contra acesso não autorizado, alteração, divulgação ou destruição. Todas as sessões
+            online são realizadas através de plataformas seguras com criptografia ponta a ponta.
           </p>
 
-          <h2>5. Proteção de Dados</h2>
+          <h2>5. Retenção de Dados</h2>
           <p>
-            Implementamos medidas de segurança técnicas e organizacionais para proteger suas informações contra acesso não
-            autorizado, alteração, divulgação ou destruição.
+            Retemos suas informações pessoais pelo tempo necessário para cumprir os propósitos para os quais
+            foram coletadas, incluindo exigências legais do Conselho Federal de Psicologia (CFP).
           </p>
 
           <h2>6. Compartilhamento de Informações</h2>
@@ -78,7 +77,7 @@ export default function PrivacyPolicy() {
           <p>
             Se você tiver dúvidas sobre esta Política de Privacidade, entre em contato conosco em{" "}
             <a href={`mailto:${PSYCHOLOGIST.email}`}>{PSYCHOLOGIST.email}</a> ou pelo WhatsApp{" "}
-            <a href={PSYCHOLOGIST.whatsappLink}>(41) 98515-5583</a>.
+            <a href="https://wa.me/5518999999999" target="_blank" rel="noopener noreferrer">(18) 99999-9999</a>.
           </p>
 
           <h2>10. Alterações a Esta Política</h2>
