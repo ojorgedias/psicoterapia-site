@@ -7,7 +7,16 @@ export default function Article7() {
   const relatedArticles = getRelatedArticles("article-7", 3);
 
   return (
-    <articlepage "="" "blog",="" "despertar="" "início",="" ]}="" blog"="" breadcrumbs="{[" espiritual"="" href:="" label:="" readingtime="{8}" relatedarticles="{relatedArticles}" title="Despertar Espiritual Sem Religião: O Perigo da Fuga Através do Misticismo" {="" },="">
+    <ArticlePage
+      title="O Vazio Existencial na Era da Hiperconectividade"
+      readingTime={8}
+      breadcrumbs={[
+        { label: "Início", href: "/" },
+        { label: "Blog", href: "/blog" },
+        { label: "Vazio Existencial" },
+      ]}
+      relatedArticles={relatedArticles}
+    >
 <h2>A busca por sentido e o risco da alienação</h2>
 <p>
         As buscas por "despertar espiritual", "expansão de consciência" e "espiritualidade sem religião" crescem a cada dia. Pessoas que se sentem esgotadas pelo ritmo da sociedade moderna frequentemente procuram no misticismo, em retiros ou em práticas energéticas uma resposta para o vazio interno. Essa busca é legítima e profundamente humana. A evolução da experiência humana caminha, de fato, lado a lado com a evolução espiritual. No entanto, na prática clínica, observamos um fenômeno perigoso: muitas pessoas estão utilizando a espiritualidade não para evoluírem, mas como um esconderijo chique para não lidarem com os seus problemas reais.
@@ -33,6 +42,6 @@ export default function Article7() {
 <p>
         Se você leva o seu desenvolvimento interior a sério e deseja integrar a mente e o espírito de forma pragmática, sem cair em ilusões ou sectarismos, a abordagem de <internallink href="/autoridade/psicologia-espiritualidade">psicologia e espiritualidade de forma integrativa</internallink> oferece um caminho seguro. Realizo atendimentos psicológicos online para Brasil e exterior.
       </p>
-</articlepage>
+</ArticlePage>
   );
 }

@@ -7,7 +7,16 @@ export default function Article8() {
   const relatedArticles = getRelatedArticles("article-8", 3);
 
   return (
-    <articlepage "="" "blog",="" "início",="" "síndrome="" ]}="" blog"="" breadcrumbs="{[" do="" href:="" impostor"="" label:="" readingtime="{7}" relatedarticles="{relatedArticles}" title="Síndrome do Impostor e Insegurança: Por que assumir a ignorância é a verdadeira cura" {="" },="">
+    <ArticlePage
+      title="A Importância de Dizer Não: Limites e Saúde Mental"
+      readingTime={6}
+      breadcrumbs={[
+        { label: "Início", href: "/" },
+        { label: "Blog", href: "/blog" },
+        { label: "A Importância do Não" },
+      ]}
+      relatedArticles={relatedArticles}
+    >
 <h2>O peso de sentir-se uma fraude</h2>
 <p>
         A "síndrome do impostor" é um dos males mais silenciosos e destrutivos do ambiente profissional e acadêmico de hoje. É aquele sentimento persistente de que você não é tão bom quanto as pessoas pensam, de que as suas conquistas foram pura sorte e de que, a qualquer momento, alguém vai descobrir que você é uma fraude. A internet está cheia de dicas que ensinam a repetir afirmações no espelho ou a "fingir até conseguir". Mas a psicologia profunda nos revela que a síndrome do impostor não é uma simples questão de confiança pessoal; é o sintoma de uma relação doentia com a vulnerabilidade e com a imagem que tentamos vender ao mundo.
@@ -33,6 +42,6 @@ export default function Article8() {
 <p>
         Se a pressão de provar o seu valor constantemente está paralisando a sua vida, a psicoterapia oferece um espaço seguro para desarmar essa defesa. Realizo atendimentos psicológicos online para adultos no mundo todo.
       </p>
-</articlepage>
+</ArticlePage>
   );
 }

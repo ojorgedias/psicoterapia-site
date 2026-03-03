@@ -7,7 +7,16 @@ export default function Article1() {
   const relatedArticles = getRelatedArticles("article-1", 3);
 
   return (
-    <articlepage "="" "ansiedade="" "blog",="" "início",="" ]}="" blog"="" breadcrumbs="{[" href:="" intuição?"="" label:="" ou="" readingtime="{6}" relatedarticles="{relatedArticles}" title="Ansiedade ou Intuição? Entendendo os sinais do corpo além do diagnóstico" {="" },="">
+    <ArticlePage
+      title="Ansiedade ou Intuição? Entendendo os sinais do corpo além do diagnóstico"
+      readingTime={6}
+      breadcrumbs={[
+        { label: "Início", href: "/" },
+        { label: "Blog", href: "/blog" },
+        { label: "Ansiedade ou Intuição?" },
+      ]}
+      relatedArticles={relatedArticles}
+    >
 <h2>O perigo de calar o que o corpo tenta dizer</h2>
 <p>
         Quando a ansiedade ataca — com o coração acelerado, a falta de ar e a sensação de perda de controle —, a primeira reação de qualquer pessoa é tentar silenciar esse desconforto o mais rápido possível. Vivemos em uma sociedade que trata a ansiedade puramente como um erro de funcionamento, uma doença que deve ser medicada e erradicada. No entanto, na prática clínica profunda, aprendemos que o corpo raramente "falha" sem motivo. Muitas vezes, o que chamamos de ansiedade paralisante é, na verdade, a sua intuição gritando depois de ter sido ignorada durante anos pela sua mente racional.
@@ -40,6 +49,6 @@ export default function Article1() {
 <p>
         Se você vive em estado de alerta constante e quer aprender a decifrar a sua bússola interna de forma madura e estruturada, a psicoterapia é o espaço adequado para essa investigação. Realizo atendimentos psicológicos online para todo o mundo.
       </p>
-</articlepage>
+</ArticlePage>
   );
 }

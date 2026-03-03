@@ -7,7 +7,16 @@ export default function Article3() {
   const relatedArticles = getRelatedArticles("article-3", 3);
 
   return (
-    <articlepage "="" "blog",="" "fobia="" "início",="" ]}="" blog"="" breadcrumbs="{[" href:="" label:="" readingtime="{8}" relatedarticles="{relatedArticles}" social"="" title="Fobia Social e a Necessidade de Aprovação: A biologia do medo da rejeição" {="" },="">
+    <ArticlePage
+      title="A Tirania da Felicidade e o Direito de Estar Triste"
+      readingTime={7}
+      breadcrumbs={[
+        { label: "Início", href: "/" },
+        { label: "Blog", href: "/blog" },
+        { label: "Tirania da Felicidade" },
+      ]}
+      relatedArticles={relatedArticles}
+    >
 <h2>Por que a opinião alheia dói tanto?</h2>
 <p>
         Seja no ambiente de trabalho, em uma roda de amigos ou ao pensar em publicar algo na internet, o medo do julgamento costuma paralisar pessoas brilhantes. Quando a fobia social ataca, é comum que o indivíduo se culpe, acreditando que é fraco ou inseguro demais. No entanto, a psicologia profunda nos mostra que o medo da rejeição não é uma falha de caráter. Na verdade, ele é um dos mecanismos de sobrevivência mais antigos e poderosos que o nosso cérebro possui. Entender a biologia por trás dessa necessidade de aprovação é o primeiro passo para deixar de ser refém dela.
@@ -33,6 +42,6 @@ export default function Article3() {
 <p>
         Esse é um processo central no <internallink href="/terapia/adultos/autonomia-identidade">desenvolvimento de uma autonomia e identidade inabaláveis</internallink>. Se você deseja parar de viver em função do que os outros pensam e quer recuperar a direção da sua vida, a psicoterapia oferece as ferramentas estruturais para essa mudança. Realizo atendimentos psicológicos online para todo o mundo, .
       </p>
-</articlepage>
+</ArticlePage>
   );
 }

@@ -7,7 +7,16 @@ export default function Article2() {
   const relatedArticles = getRelatedArticles("article-2", 3);
 
   return (
-    <articlepage "="" "a="" "blog",="" "início",="" ]}="" blog"="" breadcrumbs="{[" href:="" label:="" nos="" readingtime="{7}" relacionamentos"="" relatedarticles="{relatedArticles}" sombra="" title="A Sombra nos Relacionamentos: O que o comportamento do outro diz sobre você" {="" },="">
+    <ArticlePage
+      title="O Luto Não Resolvido e as Doenças Psicossomáticas"
+      readingTime={8}
+      breadcrumbs={[
+        { label: "Início", href: "/" },
+        { label: "Blog", href: "/blog" },
+        { label: "Luto e Psicossomática" },
+      ]}
+      relatedArticles={relatedArticles}
+    >
 <h2>A armadilha de classificar todo mundo como "tóxico"</h2>
 <p>
         A internet popularizou de forma extrema o uso de palavras como "tóxico" ou "narcisista" para descrever qualquer pessoa com a qual temos dificuldade em lidar. Quando um relacionamento amoroso, familiar ou profissional se torna insuportável, é muito confortável colocar a pessoa que nos irrita na caixa de "pessoa tóxica". Isso nos absolve de qualquer culpa e nos coloca na posição de vítimas de um mundo injusto. No entanto, a psicologia de profundidade traz uma perspectiva muito mais desconfortável, mas infinitamente mais libertadora: muitas vezes, aquilo que irrita você profundamente no outro é apenas um reflexo daquilo que você recusa assumir em si mesmo.
@@ -41,6 +50,6 @@ export default function Article2() {
         </internallink>
         , onde você deixa de ser uma vítima do comportamento alheio e passa a ser dono da sua própria mente. Se deseja fazer essa investigação de forma ética e orientada, o espaço clínico é o ambiente certo. Realizo atendimentos psicológicos online para Brasil e exterior.
       </p>
-</articlepage>
+</ArticlePage>
   );
 }

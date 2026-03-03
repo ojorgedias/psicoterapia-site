@@ -7,7 +7,16 @@ export default function Article5() {
   const relatedArticles = getRelatedArticles("article-5", 3);
 
   return (
-    <articlepage "="" "blog",="" "burnout="" "início",="" ]}="" blog"="" breadcrumbs="{[" digital"="" href:="" label:="" readingtime="{8}" relatedarticles="{relatedArticles}" title="Burnout Digital e Vício em Celular: Como os algoritmos estão moldando os seus valores" {="" },="">
+    <ArticlePage
+      title="Relacionamentos Líquidos e a Busca por Conexão Real"
+      readingTime={7}
+      breadcrumbs={[
+        { label: "Início", href: "/" },
+        { label: "Blog", href: "/blog" },
+        { label: "Relacionamentos Líquidos" },
+      ]}
+      relatedArticles={relatedArticles}
+    >
 <h2>Muito além do "detox de dopamina"</h2>
 <p>
         As buscas por "como curar o vício em celular" ou "detox de dopamina" explodiram nos últimos anos. As pessoas sentem-se esgotadas, com a atenção fragmentada e incapazes de passar dez minutos em silêncio sem olhar para uma tela. O senso comum costuma tratar esse problema apenas como uma falha química do cérebro, recomendando que você simplesmente desligue o aparelho. No entanto, na psicologia profunda, observamos que o buraco é mais embaixo. O consumo compulsivo de redes sociais não está apenas sugando o seu tempo; ele está causando o que chamo de terceirização do pensamento.
@@ -33,6 +42,6 @@ export default function Article5() {
 <p>
         Esse é o verdadeiro <internallink href="/terapia/adultos/autonomia-identidade">desenvolvimento de uma autonomia e identidade inabaláveis</internallink>. Se você está cansado de viver no piloto automático digital e deseja construir uma mente forte e independente, a terapia é o espaço para essa investigação. Realizo atendimentos psicológicos online em nível global.
       </p>
-</articlepage>
+</ArticlePage>
   );
 }

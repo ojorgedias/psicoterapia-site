@@ -7,7 +7,16 @@ export default function Article4() {
   const relatedArticles = getRelatedArticles("article-4", 3);
 
   return (
-    <articlepage "="" "blog",="" "início",="" "narcisismo="" ]}="" blog"="" breadcrumbs="{[" digital"="" era="" href:="" label:="" na="" readingtime="{9}" relatedarticles="{relatedArticles}" title="O Narcisismo na Era Digital: Transtorno real ou adaptação cultural?" {="" },="">
+    <ArticlePage
+      title="O Medo do Sucesso: Por que Sabotamos Nossas Conquistas?"
+      readingTime={9}
+      breadcrumbs={[
+        { label: "Início", href: "/" },
+        { label: "Blog", href: "/blog" },
+        { label: "Medo do Sucesso" },
+      ]}
+      relatedArticles={relatedArticles}
+    >
 <h2>A banalização do diagnóstico nas redes sociais</h2>
 <p>
         Basta rolar o feed de qualquer rede social por alguns minutos para encontrar dezenas de vídeos listando os "sinais de que você namora um narcisista" ou de que o seu chefe tem transtorno de personalidade. O termo tornou-se um grande guarda-chuva usado para rotular qualquer pessoa que age com egoísmo ou falta de empatia. Mas será que estamos vivendo, de fato, uma epidemia clínica de Transtorno de Personalidade Narcisista, ou estamos apenas observando pessoas comuns tentando sobreviver em uma cultura que premia a vaidade?
@@ -30,6 +39,6 @@ export default function Article4() {
 <p>
         Se você se sente exausto de sustentar um personagem para o mundo e deseja se reconectar com as suas vontades reais, a intervenção psicológica é o caminho ético e estruturado para essa transição. Ofereço atendimento psicológico online em nível global.
       </p>
-</articlepage>
+</ArticlePage>
   );
 }
