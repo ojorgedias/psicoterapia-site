@@ -34,7 +34,7 @@ export default function Home() {
         <div className="container max-w-4xl mx-auto px-4 text-center relative z-10">
           <img
             src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png"
-            alt="Jorge Dias - Psicólogo Clínico Online com foco em Crise Existencial e Autossabotagem"
+            alt="Imagem de Jorge Dias - Psicólogo Clínico Online com foco em Crise Existencial e Autossabotagem"
             className="w-40 h-40 md:w-56 md:h-56 rounded-full object-cover mx-auto mb-8 shadow-xl border-4 border-background"
           />
           <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-2 leading-tight">
@@ -70,7 +70,7 @@ export default function Home() {
             <div className="bg-card text-card-foreground rounded-lg shadow-md p-6 border border-border overflow-hidden hover:shadow-lg transition-shadow">
               <img
                 src="https://private-us-east-1.manuscdn.com/sessionFile/UWXOi3Z0CqaqcQpJtcE94W/sandbox/ju26zNMuXhJFKpE5iHWdtf-img-2_1771894191000_na1fn_YWR1bHRvcy1jbHVzdGVy.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvVVdYT2kzWjBDcWFxY1FwSnRjRTk0Vy9zYW5kYm94L2p1MjZ6Tk11WGhKRktwRTVpSFdkdGYtaW1nLTJfMTc3MTg5NDE5MTAwMF9uYTFmbl9ZV1IxYkhSdmN5MWpiSFZ6ZEdWeS5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=MRqK3UlqPK3r1R1n6GV534qDACYAnGM0GnioDSohU~YKD~ti9-nc2Qx-nt-atd4JVtYeOHZiELOTx1Do6PWajP3SODHM9O53TZHvLoQ-JdObBWY2oCAMWkoxN5ekcYfANCtvjKk2GG7ckUILwMhac87zMm0LPJcgXnY9jn~EOqeKm8qfbp16qp5cdUEA5B13plnuYVKsRax2nXS5aFu1WYUGV8oCDbsoWnsvTXkknlHuRbJWDfUx~pdc5DA99tZaeGQNznjHJPxh~yzzhvS6e5yWHoltSVIzKc21x2ZKi2ZzR0mvzQ0JNujp1ymnLdcYhlCNI0G2J-v80sWmVdGOVw__"
-                alt="Terapia online para adultos lidando com crise existencial e autossabotagem"
+                alt="Imagem de ambiente terapeutico focado no autoconhecimento"
                 className="w-full h-40 object-cover rounded mb-4"
               />
               <h3 className="font-display text-xl font-semibold mb-3 text-primary">
@@ -86,7 +86,7 @@ export default function Home() {
             <div className="bg-card text-card-foreground rounded-lg shadow-md p-6 border border-border overflow-hidden hover:shadow-lg transition-shadow">
               <img
                 src="https://private-us-east-1.manuscdn.com/sessionFile/UWXOi3Z0CqaqcQpJtcE94W/sandbox/ju26zNMuXhJFKpE5iHWdtf-img-3_1771894194000_na1fn_Y2FzYWlzLWNsdXN0ZXI.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvVVdYT2kzWjBDcWFxY1FwSnRjRTk0Vy9zYW5kYm94L2p1MjZ6Tk11WGhKRktwRTVpSFdkdGYtaW1nLTNfMTc3MTg5NDE5NDAwMF9uYTFmbl9ZMkZ6WVdsekxXTnNkWE4wWlhJLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=czUBFrNK9wQ32kibt4IdeRkXr-WQbGzOPu8by58OLcMcY3XjHm0l3OENFXHYtax8RJAhCAHTEgOBIn5cBw4mWRPRtbYvGqXJ5p8JyRIyKILSKDPIkQCSWmwym4h9DEGgjT4va1Sjx9hYE3LnLyYv3eCStGoTC1~BfPkZ2NxzRwZvNqUEDmUo5hWpB0AcdMbatlsG74vytR5Fq27-1jMfHkrVze5j5esCYTLabU-4hAQoevPT5I2ifw79ZRHLLsVyOzGpNgEWu-iYuiU1nqWTUHyRm2JM40JOBinypZ7SK15c63x-SqpRO0kQjiGRBz0dpNu0P2VTHDEbkbzAe62pfQ__"
-                alt="Terapia para Casais"
+                alt="Imagens de Casais buscando terapia"
                 className="w-full h-40 object-cover rounded mb-4"
               />
               <h3 className="font-display text-xl font-semibold mb-3 text-primary">
@@ -102,7 +102,7 @@ export default function Home() {
             <div className="bg-card text-card-foreground rounded-lg shadow-md p-6 border border-border overflow-hidden hover:shadow-lg transition-shadow">
               <img
                 src="https://private-us-east-1.manuscdn.com/sessionFile/UWXOi3Z0CqaqcQpJtcE94W/sandbox/ju26zNMuXhJFKpE5iHWdtf-img-4_1771894200000_na1fn_ZXNwaXJpdHVhbGlkYWRlLWNsdXN0ZXI.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvVVdYT2kzWjBDcWFxY1FwSnRjRTk0Vy9zYW5kYm94L2p1MjZ6Tk11WGhKRktwRTVpSFdkdGYtaW1nLTRfMTc3MTg5NDIwMDAwMF9uYTFmbl9aWE53YVhKcGRIVmhiR2xrWVdSbExXTnNkWE4wWlhJLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=RHYBYYXqlzSU6WBAnASEVnsthaL-6f25dFyAQg7Ph4iG1BgOMkUtEyfxcrRPeU8V5zibq9e6lxKRxKtupmoRR7nug829wY3fyL-wGKCYYsPYO2YK15R65CejJB7CIyqLyqyP1XxLloAztiDJO4RJ5Ftp6jCLoXIs2tDppNFMadzYF1qiumMYB81ECrqF0Kbmnrvaq0eYb5LLv1X0LYkF8bnLcPG6xKWvjnAjiMmMYXCj90CgY2oQ~fDu0ccpZ6fKTmZqgkYR4JedHFRqizhFHTw~w-iZ~-yTsnQ9VS~g7HSZ6FLeFIFdheUDI7bbtrpcKaYuj5oN98duK6l8GeZjXQ__"
-                alt="Psicologia e Espiritualidade"
+                alt="Imagem de ambiente terapeutico focado em evolução espiritual"
                 className="w-full h-40 object-cover rounded mb-4"
               />
               <h3 className="font-display text-xl font-semibold mb-3 text-primary">
