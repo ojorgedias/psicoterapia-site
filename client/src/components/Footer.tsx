@@ -52,17 +52,17 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/sobre" className="hover:text-sidebar-accent transition-colors">
-                  Minha Abordagem
-                </Link>
-              </li>
-              <li>
-                <Link href="/faq" className="hover:text-sidebar-accent transition-colors">
-                  FAQ
+                  Sobre Mim
                 </Link>
               </li>
               <li>
                 <Link href="/blog" className="hover:text-sidebar-accent transition-colors">
                   Blog
+                </Link>
+              </li>
+              <li>
+                <Link href="/faq" className="hover:text-sidebar-accent transition-colors">
+                  FAQ
                 </Link>
               </li>
               <li>
