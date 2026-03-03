@@ -10,8 +10,8 @@ export default function CoupleConflicts() {
       title="Resolução de Conflitos de Casal e Choque de Valores"
       breadcrumbs={[
         { label: "Início", href: "/" },
-        { label: "Terapia", href: "/" },
-        { label: "Casais", href: "/" },
+        { label: "Terapia" },
+        { label: "Casais" },
         { label: "Conflitos de Casal" },
       ]}
       relatedArticles={relatedArticles}
@@ -19,10 +19,10 @@ export default function CoupleConflicts() {
     >
       <h2>Quando o diálogo morre</h2>
       <p>
-        Muitos casais chegam à terapia num estado de polarização extrema. Um parceiro se tornou excessivamente frio e racional, enquanto o outro se tornou cada vez mais caótico e emocional. Eles não conseguem mais conversar sem entrar em modo de defesa. Cada um joga a sua própria <Link href="/blog/sombra-relacionamentos" className="text-primary hover:underline">Sombra</Link> para cima do parceiro, criando um tribunal de acusações onde ninguém consegue ser ouvido.
+        Muitos casais chegam à terapia num estado de polarização extrema. Um parceiro se tornou excessivamente frio e racional, enquanto o outro se tornou cada vez mais caótico e emocional. Eles não conseguem mais conversar sem entrar em modo de defesa. Cada um joga a sua própria Sombra para cima do parceiro, criando um tribunal de acusações onde ninguém consegue ser ouvido.
       </p>
 
-      <h2>A projeção da <Link href="/blog/sombra-relacionamentos" className="text-primary hover:underline">Sombra</Link> nos relacionamentos</h2>
+      <h2>A projeção da Sombra nos relacionamentos</h2>
       <p>
         Nos relacionamentos íntimos, a projeção psicológica atinge o seu nível máximo. Tudo o que você reprimiu em si mesmo, você passa a enxergar (e a atacar) no outro. Se você é uma pessoa que se obriga a ser sempre produtiva e se proíbe de descansar, provavelmente sentirá uma irritação desproporcional ao conviver com alguém que é descontraído e lento. Você não odeia o atraso do outro; você odeia a liberdade que o outro tem de não ser perfeito, algo que você não se permite ser.
       </p>
@@ -43,7 +43,7 @@ export default function CoupleConflicts() {
 
       <h2>Transforme seu relacionamento</h2>
       <p>
-        Se o seu relacionamento foi contaminado por essa polarização e vocês não conseguem mais conversar sem entrar em modo de defesa, a psicoterapia oferece uma zona neutra e ética para restabelecer a comunicação. Não procuramos culpados, procuramos a integração. Ofereço psicoterapia online para adultos e casais em todo o mundo, .
+        Se o seu relacionamento foi contaminado por essa polarização e vocês não conseguem mais conversar sem entrar em modo de defesa, a psicoterapia oferece uma zona neutra e ética para restabelecer a comunicação. Não procuramos culpados, procuramos a integração. Ofereço psicoterapia online para adultos e casais em todo o mundo.
       </p>
     </ServicePage>
   );

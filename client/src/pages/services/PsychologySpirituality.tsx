@@ -9,13 +9,17 @@ export default function PsychologySpirituality() {
       title="Psicologia e Espiritualidade de Forma Integrativa"
       breadcrumbs={[
         { label: "Início", href: "/" },
-        { label: "Autoridade", href: "/" },
+        { label: "Autoridade" },
         { label: "Psicologia e Espiritualidade" },
       ]}
       relatedArticles={relatedArticles}
       ctaText="Agendar consulta sobre desenvolvimento integral"
     >
       <h2>Integrando psicologia e espiritualidade</h2>
+            <p className="text-slate-700 leading-relaxed mb-6">
+              Em minha prática, a integração entre psicologia e espiritualidade é guiada pelos princípios da psicologia analítica de Carl Jung, que reconhece a dimensão arquetípica e transpessoal da experiência humana. Utilizo também o rigor crítico de Michel Foucault para questionar as construções sociais da normalidade e da patologia, e me inspiro na profunda sabedoria das cosmologias indígenas originárias, que oferecem uma visão de mundo onde o ser humano é parte integrante de uma teia complexa de vida. Essa abordagem multifacetada visa a um desenvolvimento integral, que honra tanto a psique individual quanto a conexão com o sagrado, sem cair em dogmas ou superficialidades.
+            </p>
+        
       <p>
         A busca por sentido e transcendência é profundamente humana. No entanto, muitas pessoas caem na armadilha do "bypassing espiritual" — usar ideias e práticas espirituais para evitar o confronto com feridas emocionais, traumas de infância ou responsabilidades da vida adulta. A espiritualidade não deve ser uma anestesia, mas um caminho de integração.
       </p>

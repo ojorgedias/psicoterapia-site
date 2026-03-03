@@ -9,8 +9,8 @@ export default function RelationshipPatterns() {
       title="Transforme o Seu Padrão de Relacionamento"
       breadcrumbs={[
         { label: "Início", href: "/" },
-        { label: "Terapia", href: "/" },
-        { label: "Casais", href: "/" },
+        { label: "Terapia" },
+        { label: "Casais" },
         { label: "Padrões de Relacionamento" },
       ]}
       relatedArticles={relatedArticles}

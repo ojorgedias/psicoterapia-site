@@ -10,14 +10,14 @@ export default function SelfSabotage() {
       title="Tratamento Psicológico Online para Autossabotagem e Padrões de Repetição"
       breadcrumbs={[
         { label: "Início", href: "/" },
-        { label: "Terapia", href: "/" },
-        { label: "Adultos", href: "/" },
+        { label: "Terapia" },
+        { label: "Adultos" },
         { label: "Autossabotagem" },
       ]}
       relatedArticles={relatedArticles}
       ctaText="Quero agendar uma sessão e romper esses padrões"
     >
-      <h2>A obediência cega a <Link href="/conceitos-fundamentais" className="text-primary hover:underline">regras invisíveis</Link></h2>
+      <h2>A obediência cega a regras invisíveis</h2>
       <p>
         Você já se viu preso em um ciclo onde, não importa o quanto tente agir diferente, acaba repetindo os mesmos erros, escolhendo relacionamentos frustrantes ou minando as próprias conquistas? Quando isso acontece, o senso comum costuma culpar uma suposta fraqueza de caráter. Contudo, na análise clínica profunda, compreendemos que esses ciclos não são defeitos morais. Eles são atos de obediência estrita a regras invisíveis que governam o seu comportamento sem que você perceba.
       </p>
@@ -42,9 +42,9 @@ export default function SelfSabotage() {
       <p>
         O paradoxo da mudança é que o sistema psíquico frequentemente prefere a miséria conhecida à incerteza do novo. Abandonar um comportamento antigo muitas vezes provoca uma sensação de desorientação, culminando em uma sensação de{" "}
         <InternalLink href="/terapia/adultos/crise-existencial">
-          <Link href="/crise-existencial" className="text-primary hover:underline">crise existencial</Link> e vazio
+          crise existencial e vazio
         </InternalLink>
-        . Suportar o desconforto desse vazio, sem recuar imediatamente para a segurança da <Link href="/autossabotagem" className="text-primary hover:underline">autossabotagem</Link>, é uma das etapas mais delicadas da psicoterapia.
+        . Suportar o desconforto desse vazio, sem recuar imediatamente para a segurança da autossabotagem, é uma das etapas mais delicadas da psicoterapia.
       </p>
 
       <h2>A restauração da agência pessoal</h2>

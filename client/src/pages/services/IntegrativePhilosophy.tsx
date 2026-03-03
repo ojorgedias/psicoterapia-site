@@ -6,12 +6,16 @@ export default function IntegrativePhilosophy() {
       title="Filosofia e Pensamento Integrativo"
       breadcrumbs={[
         { label: "Início", href: "/" },
-        { label: "Autoridade", href: "/" },
+        { label: "Autoridade" },
         { label: "Filosofia Integrativa" },
       ]}
       ctaText="Agendar consulta sobre filosofia e pensamento"
     >
       <h2>Além da fragmentação moderna</h2>
+            <p className="text-slate-700 leading-relaxed mb-6">
+              Minha abordagem integrativa é profundamente enraizada na psicologia analítica de Carl Jung, que nos ensina a explorar as profundezas do inconsciente e a integrar as diversas facetas da psique. Complementarmente, o pensamento crítico de Michel Foucault nos permite desconstruir as narrativas de poder e as "verdades" impostas, enquanto a sabedoria ancestral das cosmologias indígenas originárias oferece uma perspectiva holística e ecológica da existência. Essa fusão de saberes garante um rigor clínico que transcende o misticismo superficial, ancorando a psicoterapia em uma base sólida e ética.
+            </p>
+        
       <p>
         A modernidade nos treinou a fragmentar a realidade em categorias isoladas: mente vs. corpo, razão vs. emoção, espírito vs. matéria, trabalho vs. vida pessoal. Essa fragmentação é a raiz de muito sofrimento contemporâneo. O pensamento integrativo propõe uma visão onde tudo está interconectado, onde a psicologia não é separada da filosofia, onde a vida não é dividida em compartimentos estanques.
       </p>
