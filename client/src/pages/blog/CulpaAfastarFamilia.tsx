@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Layout from '@/components/Layout';
 
 export default function CulpaAfastarFamilia() {
-  useEffect(() =&gt; {
+  useEffect(() => {
     document.title = 'Repetição de padrões familiares em relacionamentos amorosos: | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {

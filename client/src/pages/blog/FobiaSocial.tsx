@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Layout from '@/components/Layout';
 
 export default function FobiaSocial() {
-  useEffect(() =&gt; {
+  useEffect(() => {
     document.title = 'Fobia Social e a Necessidade de Aprovação: A biologia do med | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {

@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import Layout from '@/components/Layout';
 
 export default function SintomasAutossabotagem() {
-  useEffect(() =&gt; {
+  useEffect(() => {
     document.title = 'Sintomas de autossabotagem no trabalho e carreira: O esgotam | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {

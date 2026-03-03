@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import Layout from '@/components/Layout';
 
 export default function NarcisismoEraDigital() {
-  useEffect(() =&gt; {
+  useEffect(() => {
     document.title = 'O Narcisismo na Era Digital: Transtorno real ou adaptação cu | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {

@@ -22,7 +22,7 @@ export default function SindromeImpostorTerapeutas() {
     });
   }
   
-  useEffect(() =&gt; {
+  useEffect(() => {
     document.title = 'Síndrome do Impostor em Terapeutas - Psicólogo Jorge Dias';
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
@@ -33,7 +33,7 @@ export default function SindromeImpostorTerapeutas() {
   return (
     <layout>
 <div classname="bg-background">
-<breadcrumbs '="" '<link="" 'blog',="" blog'="" classname="text-primary hover:underline" href="/blog/sindrome-impostor" href:="" items="{[{" label:="" {="" },="">Síndrome do Impostor em Terapeutas' }]} /&gt;
+<breadcrumbs '="" '<link="" 'blog',="" blog'="" classname="text-primary hover:underline" href="/blog/sindrome-impostor" href:="" items="{[{" label:="" {="" },="">Síndrome do Impostor em Terapeutas' }]} />
 
       <article classname="container max-w-3xl py-12 md:py-20">
 <div classname="mb-8">

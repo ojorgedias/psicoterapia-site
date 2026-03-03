@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Layout from '@/components/Layout';
 
 export default function SabotagemRelacionamento() {
-  useEffect(() =&gt; {
+  useEffect(() => {
     document.title = 'Como parar de me sabotar no relacionamento amoroso: A raiz i | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {

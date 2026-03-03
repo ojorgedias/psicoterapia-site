@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import Layout from '@/components/Layout';
 
 export default function EgoísmoVsNarcisismo() {
-  useEffect(() =&gt; {
+  useEffect(() => {
     document.title = 'Como quebrar ciclos familiares tóxicos na fase adulta: O pre | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {

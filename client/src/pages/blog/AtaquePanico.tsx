@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import Layout from '@/components/Layout';
 
 export default function AtaquePanico() {
-  useEffect(() =&gt; {
+  useEffect(() => {
     document.title = 'Sintomas físicos de ansiedade que parecem infarto: O corpo g | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {

@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import Layout from '@/components/Layout';
 
 export default function PorQueDesistoTudo() {
-  useEffect(() =&gt; {
+  useEffect(() => {
     document.title = 'Por que eu desisto de tudo que começo? A psicologia por trás | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {

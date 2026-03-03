@@ -22,10 +22,10 @@ export default function IntegracaoPsicologiaEspiritualidade() {
     });
   }
   
-  useEffect(() =&gt; {
+  useEffect(() => {
     document.title = metadata?.headline + ' - Psicólogo Jorge Dias';
     const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription &amp;&amp; metadata) {
+    if (metaDescription && metadata) {
       metaDescription.setAttribute('content', metadata.description);
     }
   }, [metadata]);

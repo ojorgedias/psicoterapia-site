@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import Layout from '@/components/Layout';
 
 export default function CriseExistencial30() {
-  useEffect(() =&gt; {
+  useEffect(() => {
     document.title = 'Sintomas de crise existencial aos 30 anos: O colapso do rote | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {

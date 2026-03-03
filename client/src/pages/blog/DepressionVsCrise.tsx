@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import Layout from '@/components/Layout';
 
 export default function DepressionVsCrise() {
-  useEffect(() =&gt; {
+  useEffect(() => {
     document.title = 'Qual a diferença entre depressão e crise existencial? O peri | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {

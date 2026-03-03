@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import Layout from '@/components/Layout';
 
 export default function QuebrarCiclosFamiliares() {
-  useEffect(() =&gt; {
+  useEffect(() => {
     document.title = 'Sentimento de culpa ao se afastar da família: Quando o limit | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {

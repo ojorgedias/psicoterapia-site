@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Layout from '@/components/Layout';
 
 export default function RepeticaoPadroesFamiliares() {
-  useEffect(() =&gt; {
+  useEffect(() => {
     document.title = 'Como identificar mães emocionalmente imaturas: O impacto do  | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {

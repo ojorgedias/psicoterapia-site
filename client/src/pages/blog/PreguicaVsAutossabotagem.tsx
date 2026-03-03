@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import Layout from '@/components/Layout';
 
 export default function PreguicaVsAutossabotagem() {
-  useEffect(() =&gt; {
+  useEffect(() => {
     document.title = 'Qual a diferença entre preguiça e autossabotagem? Por que a  | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {

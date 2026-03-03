@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import Layout from '@/components/Layout';
 
 export default function CriseIdentidadeProfissional() {
-  useEffect(() =&gt; {
+  useEffect(() => {
     document.title = 'Crise de identidade profissional: O que fazer quando o traba | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {

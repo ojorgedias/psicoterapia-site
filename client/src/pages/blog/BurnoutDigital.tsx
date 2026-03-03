@@ -22,7 +22,7 @@ export default function BurnoutDigital() {
     });
   }
   
-  useEffect(() =&gt; {
+  useEffect(() => {
     document.title = 'Burnout Digital - Psicólogo Jorge Dias';
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
