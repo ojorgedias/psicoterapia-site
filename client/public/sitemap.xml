@@ -1,144 +1,348 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Institutional Pages -->
   <url>
-    <loc>https://psicoterapia-clinica.com.br/</loc>
-    <lastmod>2026-02-23</lastmod>
+    <loc>https://www.psicologojorgedias.online/</loc>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://psicoterapia-clinica.com.br/sobre</loc>
-    <lastmod>2026-02-23</lastmod>
+    <loc>https://www.psicologojorgedias.online/sobre</loc>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://psicoterapia-clinica.com.br/como-funciona</loc>
-    <lastmod>2026-02-23</lastmod>
+    <loc>https://www.psicologojorgedias.online/servicos</loc>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://psicoterapia-clinica.com.br/contato</loc>
-    <lastmod>2026-02-23</lastmod>
+    <loc>https://www.psicologojorgedias.online/contato</loc>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://psicoterapia-clinica.com.br/blog</loc>
-    <lastmod>2026-02-23</lastmod>
+    <loc>https://www.psicologojorgedias.online/faq</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/conceitos-fundamentais</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.psicologojorgedias.online/autossabotagem</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/padroes-familiares</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/crise-existencial</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/ansiedade</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/narcisismo</loc>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Cluster 1: Terapia para Adultos -->
   <url>
-    <loc>https://psicoterapia-clinica.com.br/terapia/adultos/crise-existencial</loc>
-    <lastmod>2026-02-23</lastmod>
+    <loc>https://www.psicologojorgedias.online/terapia/adultos/crise-existencial</loc>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://psicoterapia-clinica.com.br/terapia/adultos/autossabotagem</loc>
-    <lastmod>2026-02-23</lastmod>
+    <loc>https://www.psicologojorgedias.online/terapia/adultos/autossabotagem</loc>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://psicoterapia-clinica.com.br/terapia/adultos/regulacao-emocional</loc>
-    <lastmod>2026-02-23</lastmod>
+    <loc>https://www.psicologojorgedias.online/terapia/adultos/regulacao-emocional</loc>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://psicoterapia-clinica.com.br/terapia/adultos/autonomia-identidade</loc>
-    <lastmod>2026-02-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Cluster 2: Terapia para Casais -->
-  <url>
-    <loc>https://psicoterapia-clinica.com.br/terapia/casais/padroes-familiares</loc>
-    <lastmod>2026-02-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://psicoterapia-clinica.com.br/terapia/casais/conflitos-casal</loc>
-    <lastmod>2026-02-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://psicoterapia-clinica.com.br/terapia/casais/padroes-relacionamento</loc>
-    <lastmod>2026-02-23</lastmod>
+    <loc>https://www.psicologojorgedias.online/terapia/adultos/autonomia-identidade</loc>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Cluster 4: Autoridade -->
   <url>
-    <loc>https://psicoterapia-clinica.com.br/autoridade/psicologia-espiritualidade</loc>
-    <lastmod>2026-02-23</lastmod>
+    <loc>https://www.psicologojorgedias.online/terapia/casais/padroes-familiares</loc>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://psicoterapia-clinica.com.br/autoridade/filosofia-integrativa</loc>
-    <lastmod>2026-02-23</lastmod>
+    <loc>https://www.psicologojorgedias.online/terapia/casais/conflitos-casal</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/terapia/casais/padroes-relacionamento</loc>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Blog Articles -->
   <url>
-    <loc>https://psicoterapia-clinica.com.br/blog/ansiedade-ou-intuicao</loc>
-    <lastmod>2026-02-23</lastmod>
+    <loc>https://www.psicologojorgedias.online/autoridade/psicologia-espiritualidade</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/autoridade/filosofia-integrativa</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.psicologojorgedias.online/blog</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.psicologojorgedias.online/sabotagem-relacionamento</loc>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://psicoterapia-clinica.com.br/blog/sombra-relacionamentos</loc>
-    <lastmod>2026-02-23</lastmod>
+    <loc>https://www.psicologojorgedias.online/por-que-desisto-tudo</loc>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://psicoterapia-clinica.com.br/blog/fobia-social</loc>
-    <lastmod>2026-02-23</lastmod>
+    <loc>https://www.psicologojorgedias.online/sintomas-autossabotagem-trabalho</loc>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://psicoterapia-clinica.com.br/blog/narcisismo-era-digital</loc>
-    <lastmod>2026-02-23</lastmod>
+    <loc>https://www.psicologojorgedias.online/preguica-vs-autossabotagem</loc>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://psicoterapia-clinica.com.br/blog/burnout-digital</loc>
-    <lastmod>2026-02-23</lastmod>
+    <loc>https://www.psicologojorgedias.online/fobia-social</loc>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://psicoterapia-clinica.com.br/blog/guerra-sexos</loc>
-    <lastmod>2026-02-23</lastmod>
+    <loc>https://www.psicologojorgedias.online/ataque-panico</loc>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://psicoterapia-clinica.com.br/blog/despertar-espiritual</loc>
-    <lastmod>2026-02-23</lastmod>
+    <loc>https://www.psicologojorgedias.online/terapia-online-ansiedade</loc>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://psicoterapia-clinica.com.br/blog/sindrome-impostor</loc>
-    <lastmod>2026-02-23</lastmod>
+    <loc>https://www.psicologojorgedias.online/ansiedade-domingo-noite</loc>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/crise-existencial-30-anos</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/depressao-vs-crise-existencial</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/vida-perde-sentido</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/crise-identidade-profissional</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/narcisismo-era-digital</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/parceiro-narcisismo-oculto</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/recuperar-autoestima-narcisista</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/egoismo-vs-narcisismo</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/quebrar-ciclos-familiares</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/culpa-afastar-familia</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/repeticao-padroes-familiares</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/maes-imaturas</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.psicologojorgedias.online/blog/autossabotagem-inconsciente</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/blog/padroes-familiares-relacionamentos</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/blog/narcisismo-encoberto</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/blog/mae-narcisista-impacto-adulto</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/blog/medo-de-ser-feliz</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/blog/burnout-digital</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/blog/sindrome-impostor-terapeutas</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/blog/spiritual-bypass</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/blog/integracao-psicologia-espiritualidade</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.psicologojorgedias.online/blog/ansiedade-ou-intuicao</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/blog/sombra-relacionamentos</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/blog/guerra-sexos</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/blog/despertar-espiritual</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.psicologojorgedias.online/politica-privacidade</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://www.psicologojorgedias.online/termos-uso</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.1</priority>
   </url>
 </urlset>
