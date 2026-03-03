@@ -4,14 +4,14 @@ import Layout from '@/components/Layout';
 
 export default function RecuperarAutoestima() {
   useEffect(() => {
-    document.title = 'Diferença entre egoísmo e transtorno de personalidade narcis | Jorge Dias';
+    document.title = 'Recuperar a Autoestima: Um Caminho para a Autenticidade e o Bem-Estar | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {
       descMeta = document.createElement('meta');
       descMeta.setAttribute('name', 'description');
       document.head.appendChild(descMeta);
     }
-    descMeta.setAttribute('content', 'Diferença entre egoísmo e transtorno de personalidade narcisista: O limite do diagnóstico');
+    descMeta.setAttribute('content', 'Descubra como reconstruir sua autoestima, superando a autocrítica e cultivando um senso de valor próprio.');
   }, []);
 
   return (
@@ -19,27 +19,56 @@ export default function RecuperarAutoestima() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         <section className="pt-20 pb-12 px-4 max-w-4xl mx-auto">
           <h1 className="text-5xl font-bold text-slate-900 mb-6 leading-tight">
-            Diferença entre egoísmo e transtorno de personalidade narcisista: O limite do diagnóstico
+            Recuperar a Autoestima: Um Caminho para a Autenticidade e o Bem-Estar
           </h1>
         </section>
 
         <section className="px-4 max-w-4xl mx-auto py-12">
           <div className="prose prose-lg max-w-none">
-            <p className="text-slate-700 leading-relaxed mb-6">(Copiar a partir daqui)
+            <p className="text-slate-700 leading-relaxed mb-6">
+              A autoestima é a base sobre a qual construímos nossa percepção de valor pessoal, nossa capacidade de enfrentar desafios e de nos relacionarmos de forma saudável com o mundo. Quando a autoestima está abalada, sentimos um vazio, uma insegurança constante que permeia todas as áreas da vida. Recuperá-la não é um processo linear, mas uma jornada de autoconhecimento, aceitação e construção de uma relação mais gentil e autêntica consigo mesmo.
+            </p>
 
-Diariamente, atendo pacientes que chegam à sessão diagnosticando amigos, colegas de trabalho ou ex-parceiros com Transtorno de Personalidade Narcisista (TPN). A popularização da psicologia na internet trouxe luz a abusos reais, mas também criou uma histeria diagnóstica. Hoje, qualquer pessoa que priorize os próprios interesses em detrimento dos nossos é rapidamente rotulada como narcisista. Contudo, como especialista clínico, preciso ser categórico: o egoísmo é um traço humano universal e, até certo ponto, necessário para a sobrevivência; já o transtorno narcisista é uma arquitetura psíquica severa, baseada na instrumentalização total do outro.
+            <h2>O Que Abala a Autoestima?</h2>
+            <p className="text-slate-700 leading-relaxed mb-6">
+              Diversos fatores podem contribuir para a baixa autoestima. Experiências de infância, como críticas constantes, falta de validação ou negligência emocional, podem criar crenças limitantes sobre o próprio valor. Relacionamentos abusivos, fracassos percebidos, comparações sociais e a pressão por padrões de perfeição inatingíveis também corroem a autoimagem. Frequentemente, a baixa autoestima se manifesta como um crítico interno implacável, que sabota conquistas e impede o florescimento pessoal.
+            </p>
 
-</p><h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">O egoísmo comum versus a instrumentalização
-O indivíduo egoísta toma decisões que o beneficiam, muitas vezes sendo insensível às necessidades de quem o cerca. Ele pode ser um parceiro difícil e um péssimo colega de trabalho, mas ele reconhece que as outras pessoas existem como seres separados, com vontades próprias.</h2><p className="text-slate-700 leading-relaxed mb-6">O verdadeiro narcisista clínico não opera com essa distinção. Para ele, o outro não é um ser humano autônomo; o outro é um objeto, uma extensão dele mesmo, cuja única função é servir como espelho para refletir a sua grandiosidade. Quando o outro falha em aplaudir ou decide impor um limite, o narcisista não sente apenas raiva, ele sente que uma parte do seu próprio corpo o traiu. É por isso que as reações costumam ser desproporcionais e cruéis. Entender essa diferença é fundamental para quem busca a <a href="/terapia/casais/conflitos-casal" className="text-blue-600 hover:underline">resolução de conflitos de casal</a>, pois conflitos com pessoas egoístas podem ser mediados; já a relação com um narcisista clínico exige estratégias de distanciamento e proteção.</p><h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">A capacidade de reparação e a inversão de culpa
-A principal métrica clínica que utilizo para separar o egoísmo do TPN é a capacidade de reparação. Uma pessoa egoísta, quando confrontada com a dor que causou, é capaz de sentir culpa. Ela pode ter dificuldade em mudar, mas o sentimento de remorso existe.</h2><p className="text-slate-700 leading-relaxed mb-6">O narcisista, devido a uma fratura profunda na própria identidade, é estruturalmente incapaz de suportar a culpa. Assumir um erro significaria o colapso do seu ego inflado. Portanto, ele utiliza a projeção contínua: o erro é sempre do outro. Se ele o ofendeu, foi porque você "o provocou". A culpa é constantemente invertida.</p><h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">Saia do papel de diagnosticador
-Na psicoterapia, o meu papel é tirar o paciente da função de "psiquiatra do ex". Tentar fechar o diagnóstico de quem o magoou é uma forma de <Link href="/autossabotagem" className="text-primary hover:underline">autossabotagem</Link> e padrões de repetição, que o mantém obcecado e focado no agressor.</h2><p className="text-slate-700 leading-relaxed mb-6">A investigação clínica verdadeira foca em você: por que a sua estrutura permitiu a permanência em uma dinâmica tão predatória? Se você deseja sair do ciclo de analisar o comportamento alheio para finalmente tratar as próprias feridas, a psicoterapia de profundidade oferece esse espaço. Ofereço acompanhamento psicológico online para o Brasil e exterior, .</p>
+            <h2>Sinais de Baixa Autoestima:</h2>
+            <ul>
+              <li>Dificuldade em aceitar elogios e reconhecer suas qualidades.</li>
+              <li>Medo excessivo de errar e de ser julgado.</li>
+              <li>Procrastinação e dificuldade em iniciar novos projetos.</li>
+              <li>Busca constante por aprovação externa.</li>
+              <li>Comparação frequente com outras pessoas, sentindo-se inferior.</li>
+              <li>Dificuldade em estabelecer limites e dizer "não".</li>
+              <li>Sentimentos de culpa, vergonha ou inadequação.</li>
+            </ul>
+
+            <h2>O Caminho para a Recuperação da Autoestima</h2>
+            <p className="text-slate-700 leading-relaxed mb-6">
+              Recuperar a autoestima é um trabalho interno que exige paciência, autocompaixão e, muitas vezes, apoio profissional. É um processo de desconstrução de velhas crenças e construção de novas narrativas sobre quem você é e o que você merece. Algumas estratégias incluem:
+            </p>
+            <ul>
+              <li><strong>Autoconhecimento:</strong> Identificar a origem das crenças negativas e como elas afetam seu comportamento.</li>
+              <li><strong>Autocompaixão:</strong> Tratar-se com a mesma gentileza e compreensão que você ofereceria a um amigo.</li>
+              <li><strong>Estabelecimento de Limites:</strong> Aprender a proteger seu espaço emocional e físico, comunicando suas necessidades.</li>
+              <li><strong>Celebração de Pequenas Conquistas:</strong> Reconhecer e valorizar seus esforços e progressos, por menores que sejam.</li>
+              <li><strong>Desafio de Pensamentos Negativos:</strong> Questionar o crítico interno e substituí-lo por pensamentos mais realistas e positivos.</li>
+              <li><strong>Cuidado Pessoal:</strong> Priorizar atividades que promovam seu bem-estar físico e mental.</li>
+            </ul>
+
+            <h2>Quando Procurar Ajuda Profissional</h2>
+            <p className="text-slate-700 leading-relaxed mb-6">
+              Se a baixa autoestima está impactando significativamente sua qualidade de vida, seus relacionamentos ou sua capacidade de funcionar no dia a dia, a psicoterapia pode ser um recurso valioso. Um psicólogo pode ajudar a explorar as raízes profundas desses sentimentos, desenvolver estratégias eficazes de enfrentamento e construir uma autoestima sólida e duradoura. O psicólogo Jorge Dias oferece um espaço seguro e acolhedor para essa jornada de transformação, auxiliando você a redescobrir seu valor e potencial.
+            </p>
 
             <div className="mt-12 p-8 bg-slate-100 rounded-lg">
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Artigos Relacionados</h3>
               <ul className="space-y-3">
-                <li><a href="//autossabotagem" className="text-blue-600 hover:underline">Autossabotagem: Além do Conceito</a></li>
-                <li><Link href="/padroes-familiares" className="text-primary hover:underline">Padrões Familiares</Link></li>
-                <li><Link href="/crise-existencial" className="text-primary hover:underline">Crise Existencial</Link></li>
+                <li>Autossabotagem: Entendendo os Ciclos que nos Prendem</li>
+                <li>Síndrome do Impostor: Quando o Sucesso Não é Suficiente</li>
+                <li>A Arte de Dizer Não: Construindo Limites Saudáveis</li>
               </ul>
             </div>
           </div>
@@ -51,7 +80,7 @@ Na psicoterapia, o meu papel é tirar o paciente da função de "psiquiatra do e
             <p className="text-lg text-slate-300 mb-8">
               Agende uma sessão e comece a trabalhar com este tema de forma genuína.
             </p>
-            <a href="https://wa.me/seu-numero" className="inline-block bg-white text-slate-900 font-bold py-3 px-8 rounded-lg hover:bg-slate-100 transition-colors">
+            <a href="https://wa.me/5541985155583?text=Olá, estava lendo o artigo sobre Recuperar a Autoestima e gostaria de agendar uma sessão." className="inline-block bg-white text-slate-900 font-bold py-3 px-8 rounded-lg hover:bg-slate-100 transition-colors">
               Agendar Sessão via WhatsApp
             </a>
           </div>

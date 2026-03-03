@@ -4,14 +4,14 @@ import Layout from '@/components/Layout';
 
 export default function TerapiaOnlineAnsiedade() {
   useEffect(() => {
-    document.title = 'Ansiedade de domingo à noite: Como lidar com a angústia que  | Jorge Dias';
+    document.title = 'Terapia Online para Ansiedade: Acesso e Eficácia no Cuidado Moderno | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {
       descMeta = document.createElement('meta');
       descMeta.setAttribute('name', 'description');
       document.head.appendChild(descMeta);
     }
-    descMeta.setAttribute('content', 'Ansiedade de domingo à noite: Como lidar com a angústia que antecipa a semana');
+    descMeta.setAttribute('content', 'Explore a eficácia e a conveniência da terapia online como ferramenta essencial no tratamento da ansiedade.');
   }, []);
 
   return (
@@ -19,27 +19,46 @@ export default function TerapiaOnlineAnsiedade() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         <section className="pt-20 pb-12 px-4 max-w-4xl mx-auto">
           <h1 className="text-5xl font-bold text-slate-900 mb-6 leading-tight">
-            Ansiedade de domingo à noite: Como lidar com a angústia que antecipa a semana
+            Terapia Online para Ansiedade: Acesso e Eficácia no Cuidado Moderno
           </h1>
         </section>
 
         <section className="px-4 max-w-4xl mx-auto py-12">
           <div className="prose prose-lg max-w-none">
-            <p className="text-slate-700 leading-relaxed mb-6">(Copiar a partir daqui)
+            <p className="text-slate-700 leading-relaxed mb-6">
+              A ansiedade, em suas diversas manifestações, tornou-se uma das condições psicológicas mais prevalentes na sociedade contemporânea. Em meio a rotinas aceleradas e demandas crescentes, a busca por apoio terapêutico eficaz e acessível é fundamental. A terapia online emerge como uma solução promissora, oferecendo um caminho flexível e seguro para o manejo e tratamento dos transtornos de ansiedade.
+            </p>
 
-Observo sistematicamente na clínica um padrão comportamental intrigante: pacientes que relatam uma piora drástica dos quadros de angústia, irritabilidade e taquicardia no final da tarde de domingo. A internet popularizou esse fenômeno com nomes lúdicos, mas a "ansiedade de domingo à noite" é um sintoma clínico extremamente revelador. O paciente costuma culpar o cansaço do fim de semana ou a quantidade de e-mails que o aguarda na segunda-feira. Porém, a investigação profunda demonstra que a dor raramente é sobre a quantidade de trabalho. A angústia do domingo é, na verdade, o atrito psíquico gerado pela transição entre o "eu autêntico" e o "eu performático".
+            <h2>A Ascensão da Terapia Online</h2>
+            <p className="text-slate-700 leading-relaxed mb-6">
+              Nos últimos anos, a terapia online deixou de ser uma alternativa secundária para se consolidar como uma modalidade de tratamento primária e altamente eficaz. A conveniência de realizar sessões do conforto do lar, sem o deslocamento e a rigidez de horários, remove barreiras significativas que muitas vezes impedem indivíduos ansiosos de buscar ajuda. Para quem lida com ansiedade social ou ataques de pânico, a segurança do ambiente familiar pode ser um fator decisivo para iniciar e manter o tratamento.
+            </p>
 
-</p><h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">O choque entre a liberdade e a performance
-Durante o fim de semana, a maior parte das pessoas tem a permissão social para baixar a guarda. Você acorda na hora que o seu corpo pede, veste roupas confortáveis e interage com o mundo a partir dos seus próprios desejos. O fim de semana é, frequentemente, o último refúgio da autenticidade.</h2><p className="text-slate-700 leading-relaxed mb-6">No entanto, à medida que o sol se põe no domingo, o seu cérebro começa a antecipar a segunda-feira. E a segunda-feira, para a maioria dos adultos, significa vestir uma armadura. Significa ter que voltar a atuar num ambiente corporativo que exige obediência, engolir emoções diante de chefes ou clientes e encaixar-se novamente nas "Réguas Prontas" do sucesso. A ansiedade de domingo não é o medo do trabalho em si; é o luto antecipado da perda da própria liberdade. A sua psique entra em desespero ao perceber que terá que abandonar as próprias necessidades por mais cinco dias para performar um personagem.</p><h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">O sintoma de uma vida dividida
-Quando essa transição dói a ponto de paralisar o seu domingo, ela deixou de ser um "cansaço normal" e se tornou o sintoma de uma profunda <Link href="/crise-existencial" className="text-primary hover:underline">crise existencial</Link>. O seu corpo está informando que a distância entre quem você é no domingo e quem você é obrigado a ser na segunda-feira tornou-se insustentável.</h2><p className="text-slate-700 leading-relaxed mb-6">Muitas pessoas tentam anestesiar esse desconforto consumindo álcool no domingo à noite, maratonando séries ou caindo em ciclos de <Link href="/autossabotagem" className="text-primary hover:underline">autossabotagem</Link> e padrões de repetição. Mas a fuga apenas agrava a desorientação.</p><h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">A integração do sujeito
-A solução clínica para esse quadro não é aplicar dicas superficiais de organização de agenda. O trabalho terapêutico exige a integração das suas partes. Nós precisamos investigar o porquê de a sua vida profissional exigir a anulação quase total da sua identidade, e como você pode construir um cotidiano onde não precise se fragmentar para sobreviver.</h2><p className="text-slate-700 leading-relaxed mb-6">Se a angústia domina o final do seu fim de semana e você deseja construir uma vida que não exija fugas constantes, a intervenção psicoterapêutica oferece a estrutura para essa travessia. Ofereço acompanhamento online em nível global e .</p>
+            <h2>Eficácia Comprovada no Tratamento da Ansiedade</h2>
+            <p className="text-slate-700 leading-relaxed mb-6">
+              Estudos e meta-análises têm consistentemente demonstrado que a terapia online é tão eficaz quanto a terapia presencial para uma vasta gama de transtornos de ansiedade, incluindo Transtorno de Ansiedade Generalizada (TAG), Transtorno do Pânico, Fobia Social e Transtorno Obsessivo-Compulsivo (TOC). Abordagens como a Terapia Cognitivo-Comportamental (TCC), amplamente utilizada no tratamento da ansiedade, adaptam-se perfeitamente ao formato online, com ferramentas interativas e recursos digitais que potencializam o processo terapêutico.
+            </p>
+
+            <h2>Benefícios Adicionais da Terapia Online para Ansiedade</h2>
+            <ul>
+              <li><strong>Acessibilidade:</strong> Permite que pessoas em áreas remotas ou com dificuldades de mobilidade acessem especialistas.</li>
+              <li><strong>Flexibilidade:</strong> Facilita a conciliação do tratamento com compromissos profissionais e pessoais.</li>
+              <li><strong>Conforto e Segurança:</strong> O ambiente familiar reduz a ansiedade associada a novos ambientes e deslocamentos.</li>
+              <li><strong>Continuidade do Cuidado:</strong> Ideal para quem viaja frequentemente ou tem horários irregulares.</li>
+              <li><strong>Anonimato e Redução do Estigma:</strong> Para alguns, a modalidade online oferece maior privacidade, incentivando a busca por ajuda.</li>
+            </ul>
+
+            <h2>Considerações Importantes</h2>
+            <p className="text-slate-700 leading-relaxed mb-6">
+              Embora a terapia online ofereça inúmeros benefícios, é crucial escolher um profissional qualificado e com experiência na modalidade. A conexão estável com a internet e um espaço privado para as sessões são pré-requisitos para garantir a qualidade do atendimento. O psicólogo Jorge Dias oferece atendimento online especializado, combinando a profundidade da abordagem clínica com a conveniência da plataforma digital, para auxiliar no manejo e superação da ansiedade.
+            </p>
 
             <div className="mt-12 p-8 bg-slate-100 rounded-lg">
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Artigos Relacionados</h3>
               <ul className="space-y-3">
-                <li><a href="//autossabotagem" className="text-blue-600 hover:underline">Autossabotagem: Além do Conceito</a></li>
-                <li><Link href="/padroes-familiares" className="text-primary hover:underline">Padrões Familiares</Link></li>
-                <li><Link href="/crise-existencial" className="text-primary hover:underline">Crise Existencial</Link></li>
+                <li>Compreendendo a Ansiedade</li>
+                <li>Lidando com Ataques de Pânico</li>
+                <li>Superando a Fobia Social</li>
               </ul>
             </div>
           </div>
@@ -51,7 +70,7 @@ A solução clínica para esse quadro não é aplicar dicas superficiais de orga
             <p className="text-lg text-slate-300 mb-8">
               Agende uma sessão e comece a trabalhar com este tema de forma genuína.
             </p>
-            <a href="https://wa.me/seu-numero" className="inline-block bg-white text-slate-900 font-bold py-3 px-8 rounded-lg hover:bg-slate-100 transition-colors">
+            <a href="https://wa.me/5541985155583?text=Olá, estava lendo o artigo sobre Terapia Online para Ansiedade e gostaria de agendar uma sessão." className="inline-block bg-white text-slate-900 font-bold py-3 px-8 rounded-lg hover:bg-slate-100 transition-colors">
               Agendar Sessão via WhatsApp
             </a>
           </div>
