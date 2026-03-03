@@ -29,18 +29,18 @@ export default function Footer() {
             <h3 className="font-display text-lg font-semibold mb-4">Serviços</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/terapia/adultos/crise-existencial">
-                  <a className="hover:text-sidebar-accent transition-colors">Terapia para Adultos</a>
+                <Link href="/terapia/adultos/crise-existencial" className="hover:text-sidebar-accent transition-colors">
+                  Terapia para Adultos
                 </Link>
               </li>
               <li>
-                <Link href="/terapia/casais/conflitos-casal">
-                  <a className="hover:text-sidebar-accent transition-colors">Terapia de Casal</a>
+                <Link href="/terapia/casais/conflitos-casal" className="hover:text-sidebar-accent transition-colors">
+                  Terapia de Casal
                 </Link>
               </li>
               <li>
-                <Link href="/autoridade/psicologia-espiritualidade">
-                  <a className="hover:text-sidebar-accent transition-colors">Psicologia e Espiritualidade</a>
+                <Link href="/autoridade/psicologia-espiritualidade" className="hover:text-sidebar-accent transition-colors">
+                  Psicologia e Espiritualidade
                 </Link>
               </li>
             </ul>
@@ -51,23 +51,23 @@ export default function Footer() {
             <h3 className="font-display text-lg font-semibold mb-4">Navegação</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/sobre">
-                  <a className="hover:text-sidebar-accent transition-colors">Minha Abordagem</a>
+                <Link href="/sobre" className="hover:text-sidebar-accent transition-colors">
+                  Minha Abordagem
                 </Link>
               </li>
               <li>
-                <Link href="/faq">
-                  <a className="hover:text-sidebar-accent transition-colors">FAQ</a>
+                <Link href="/faq" className="hover:text-sidebar-accent transition-colors">
+                  FAQ
                 </Link>
               </li>
               <li>
-                <Link href="/blog">
-                  <a className="hover:text-sidebar-accent transition-colors">Blog</a>
+                <Link href="/blog" className="hover:text-sidebar-accent transition-colors">
+                  Blog
                 </Link>
               </li>
               <li>
-                <Link href="/contato">
-                  <a className="hover:text-sidebar-accent transition-colors">Contato</a>
+                <Link href="/contato" className="hover:text-sidebar-accent transition-colors">
+                  Contato
                 </Link>
               </li>
             </ul>
@@ -107,12 +107,12 @@ export default function Footer() {
 
         <div className="border-t border-sidebar-border pt-8">
           <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-4 text-xs">
-            <Link href="/politica-privacidade">
-              <a className="hover:text-sidebar-accent transition-colors">Política de Privacidade</a>
+            <Link href="/politica-privacidade" className="hover:text-sidebar-accent transition-colors">
+              Política de Privacidade
             </Link>
             <span className="hidden md:inline">|</span>
-            <Link href="/termos-uso">
-              <a className="hover:text-sidebar-accent transition-colors">Termos de Uso</a>
+            <Link href="/termos-uso" className="hover:text-sidebar-accent transition-colors">
+              Termos de Uso
             </Link>
           </div>
           <p className="text-center text-xs text-sidebar-foreground/60">

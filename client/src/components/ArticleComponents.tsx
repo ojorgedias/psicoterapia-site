@@ -36,8 +36,8 @@ export function RelatedArticles({ articles }: RelatedArticlesProps) {
           <p>{article.description}</p>
           <div className="flex items-center justify-between mt-4">
             <span className="text-xs text-muted-foreground">{article.readingTime} min</span>
-            <Link href={article.route}>
-              <a className="text-primary hover:text-accent font-semibold">Ler mais →</a>
+            <Link href={article.route} className="text-primary hover:text-accent font-semibold">
+              Ler mais →
             </Link>
           </div>
         </article>

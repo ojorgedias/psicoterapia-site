@@ -46,8 +46,8 @@ export default function CTAButton({
   }
 
   return (
-    <Link href={finalHref}>
-      <a className={`${baseClass} ${variantClass} ${className}`}>{children}</a>
+    <Link href={finalHref} className={`${baseClass} ${variantClass} ${className}`}>
+      {children}
     </Link>
   );
 }

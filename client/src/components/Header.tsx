@@ -10,26 +10,24 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-background border-b border-border shadow-sm">
       <nav className="container max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/">
-          <a className="font-display text-2xl font-bold text-primary hover:text-accent transition-colors">
-            Psicólogo Jorge Dias
-          </a>
+        <Link href="/" className="font-display text-2xl font-bold text-primary hover:text-accent transition-colors">
+          Psicólogo Jorge Dias
         </Link>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
           <ServicesDropdown />
-          <Link href="/sobre">
-            <a className="text-foreground hover:text-primary transition-colors">Minha Abordagem</a>
+          <Link href="/sobre" className="text-foreground hover:text-primary transition-colors">
+            Minha Abordagem
           </Link>
-          <Link href="/blog">
-            <a className="text-foreground hover:text-primary transition-colors">Blog</a>
+          <Link href="/blog" className="text-foreground hover:text-primary transition-colors">
+            Blog
           </Link>
-          <Link href="/faq">
-            <a className="text-foreground hover:text-primary transition-colors">FAQ</a>
+          <Link href="/faq" className="text-foreground hover:text-primary transition-colors">
+            FAQ
           </Link>
-          <Link href="/conceitos-fundamentais">
-            <a className="text-foreground hover:text-primary transition-colors">Conceitos</a>
+          <Link href="/conceitos-fundamentais" className="text-foreground hover:text-primary transition-colors">
+            Conceitos
           </Link>
           <a href="/contato" className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity duration-200">
             Agendar Sessão
@@ -50,20 +48,20 @@ export default function Header() {
       {isOpen && (
         <div className="md:hidden border-t border-border bg-background">
           <div className="container max-w-6xl mx-auto px-4 py-4 flex flex-col gap-4">
-            <Link href="/servicos">
-              <a className="text-foreground hover:text-primary transition-colors font-semibold">Serviços</a>
+            <Link href="/servicos" className="text-foreground hover:text-primary transition-colors font-semibold">
+              Serviços
             </Link>
-            <Link href="/sobre">
-              <a className="text-foreground hover:text-primary transition-colors">Minha Abordagem</a>
+            <Link href="/sobre" className="text-foreground hover:text-primary transition-colors">
+              Minha Abordagem
             </Link>
-            <Link href="/blog">
-              <a className="text-foreground hover:text-primary transition-colors">Blog</a>
+            <Link href="/blog" className="text-foreground hover:text-primary transition-colors">
+              Blog
             </Link>
-            <Link href="/faq">
-              <a className="text-foreground hover:text-primary transition-colors">FAQ</a>
+            <Link href="/faq" className="text-foreground hover:text-primary transition-colors">
+              FAQ
             </Link>
-            <Link href="/conceitos-fundamentais">
-              <a className="text-foreground hover:text-primary transition-colors">Conceitos</a>
+            <Link href="/conceitos-fundamentais" className="text-foreground hover:text-primary transition-colors">
+              Conceitos
             </Link>
             <a href="/contato" className="block text-center inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity duration-200">
               Agendar Sessão
