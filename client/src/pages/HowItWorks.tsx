@@ -26,16 +26,11 @@ export default function HowItWorks() {
             Sessões individuais têm 50 minutos. A frequência recomendada é semanal, mas isso pode ser ajustado conforme suas necessidades. O processo terapêutico é contínuo e não tem prazo definido — depende do seu ritmo e dos objetivos que você estabelece.
           </p>
 
-          <h2>Modalidades de Atendimento</h2>
+          <h2>Modalidade de Atendimento</h2>
           <div className="bg-secondary rounded-lg p-6 my-6 border border-border">
-            <h3 className="font-display text-lg font-semibold mb-4">Online</h3>
-            <p className="mb-4">
-              Atendimento via videochamada para qualquer lugar do Brasil e do exterior. Você escolhe um ambiente confortável e seguro em sua casa.
-            </p>
-
-            <h3 className="font-display text-lg font-semibold mb-4">Presencial</h3>
-            <p>
-              
+            <h3 className="font-display text-lg font-semibold mb-4">Atendimento Exclusivamente Online</h3>
+            <p className="mb-0">
+              Atendimento via videochamada para qualquer lugar do Brasil e do exterior. Você escolhe um ambiente confortável e seguro na sua própria casa ou espaço de preferência.
             </p>
           </div>
 
@@ -46,7 +41,7 @@ export default function HowItWorks() {
 
           <h2>Investimento</h2>
           <p>
-            O investimento em sua saúde mental é um investimento em sua vida. Os valores das sessões variam conforme a modalidade e sua situação financeira. Oferço flexibilidade para que o atendimento seja acessível.
+            O investimento em sua saúde mental é um investimento em sua vida. Os valores das sessões variam conforme a situação clínica, e ofereço flexibilidade para que o atendimento ético e profundo seja viável para você.
           </p>
 
           <div className="mt-12 pt-8 border-t border-border">
