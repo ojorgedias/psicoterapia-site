@@ -4,14 +4,14 @@ import Layout from '@/components/Layout';
 
 export default function AnsiedadeDomingoNoite() {
   useEffect(() => {
-    document.title = 'Como lidar com mãe narcisista na vida adulta: A quebra da le | Jorge Dias';
+    document.title = 'Ansiedade de domingo à noite: Como lidar com a angústia que antecipa a semana | Jorge Dias';
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {
       descMeta = document.createElement('meta');
       descMeta.setAttribute('name', 'description');
       document.head.appendChild(descMeta);
     }
-    descMeta.setAttribute('content', 'Como lidar com mãe narcisista na vida adulta: A quebra da lealdade invisível');
+    descMeta.setAttribute('content', 'Ansiedade de domingo à noite: Como lidar com a angústia que antecipa a semana');
   }, []);
 
   return (
@@ -19,27 +19,50 @@ export default function AnsiedadeDomingoNoite() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         <section className="pt-20 pb-12 px-4 max-w-4xl mx-auto">
           <h1 className="text-5xl font-bold text-slate-900 mb-6 leading-tight">
-            Como lidar com mãe narcisista na vida adulta: A quebra da lealdade invisível
+            Ansiedade de domingo à noite: Como lidar com a angústia que antecipa a semana
           </h1>
         </section>
 
         <section className="px-4 max-w-4xl mx-auto py-12">
           <div className="prose prose-lg max-w-none">
-            <p className="text-slate-700 leading-relaxed mb-6">(Copiar a partir daqui)
+            <p className="text-slate-700 leading-relaxed mb-6">
+              A transição do fim de semana para a semana de trabalho pode ser um gatilho para muitas pessoas, manifestando-se como a conhecida "ansiedade de domingo à noite". Essa sensação de angústia, apreensão e até mesmo pânico que surge no final do domingo não é apenas um cansaço pós-lazer, mas um sintoma de um desajuste mais profundo entre as expectativas e a realidade da vida cotidiana. Compreender suas raízes e desenvolver estratégias eficazes é crucial para recuperar a tranquilidade e o bem-estar.
+            </p>
 
-É uma das queixas mais dolorosas e complexas que acompanho nestes meus cinco anos de prática clínica: homens e mulheres adultos, com carreiras bem-sucedidas e vidas independentes, que regridem emocionalmente e são tomados por uma culpa paralisante após cinco minutos de conversa com as próprias mães. A internet popularizou o termo "mãe narcisista", mas lidar com essa realidade na vida adulta exige muito mais do que ler listas de sintomas nas redes sociais. Exige o enfrentamento da estrutura mais arcaica e enraizada da psique humana: a necessidade de ser amado por quem nos gerou.
+            <h2>O Fenômeno da Ansiedade de Domingo à Noite</h2>
+            <p className="text-slate-700 leading-relaxed mb-6">
+              A ansiedade de domingo à noite é caracterizada por uma série de sintomas físicos e emocionais que surgem à medida que o fim de semana se aproxima do fim. Pode incluir insônia, irritabilidade, taquicardia, dificuldade de concentração, preocupações excessivas com o trabalho ou compromissos futuros, e uma sensação geral de desânimo. Este fenômeno é um reflexo da pressão moderna por produtividade e da dificuldade em desconectar-se das demandas profissionais, mesmo durante o período de descanso.
+            </p>
 
-</p><h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">O teatro familiar e a inversão de papéis
-A dinâmica de uma mãe com traços narcisistas não se baseia apenas no egoísmo, mas no controle absoluto da narrativa familiar. Observo no consultório que a principal "Régua Pronta" imposta por essas mães é a de que o filho existe para regular as emoções dela. Ouve-se frequentemente o discurso do sacrifício ("eu abri mão de tudo por você"), que funciona como um contrato de dívida impagável.</h2><p className="text-slate-700 leading-relaxed mb-6">Nesse cenário, ocorre uma inversão de papéis. O filho torna-se o cuidador emocional da mãe. Quando esse filho cresce e tenta estabelecer qualquer limite saudável — seja sobre o seu casamento, a sua profissão ou o seu tempo livre —, a mãe interpreta a individualidade do filho como uma agressão e um abandono. A resposta imediata é a vitimização e a punição através do silêncio ou da manipulação, gerando um atrito insustentável na vida do adulto.</p><h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">A culpa como mecanismo de controle
-O paciente que chega à clínica tentando entender como lidar com essa dinâmica costuma estar esgotado. A sua mente racional sabe que a relação é abusiva, mas a sua estrutura emocional está presa ao que chamo de lealdade invisível. Para a nossa psique, romper com o mandato materno soa como uma heresia.</h2><p className="text-slate-700 leading-relaxed mb-6">Essa é a fase mais difícil do tratamento. O trabalho profundo focado na <Link href="/padroes-familiares" className="text-primary hover:underline">padrões familiares</Link> consiste em fazer o paciente suportar a culpa de não ser o "filho perfeito" que a neurose da mãe exige. A culpa, nesse contexto, não é o sinal de que você fez algo errado; é apenas o sintoma de que você finalmente começou a existir como um indivíduo separado.</p><h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">A separação necessária
-Lidar com uma mãe narcisista não significa, obrigatoriamente, cortar laços de forma definitiva, mas significa matar a ilusão de que um dia ela será a mãe acolhedora que você sempre desejou. É um processo de luto. Na psicoterapia, realizamos uma Arqueologia Pessoal para desativar os botões emocionais que a sua família ainda aperta.</h2><p className="text-slate-700 leading-relaxed mb-6">Se você se sente refém das chantagens emocionais e deseja construir o <a href="/terapia/adultos/autonomia-identidade" className="text-blue-600 hover:underline">desenvolvimento de uma autonomia e identidade inabaláveis</a> que não desmoronem a cada conflito familiar, o espaço clínico é o ambiente ético para essa desconstrução. Realizo atendimentos psicológicos online para pacientes em todo o mundo.</p>
+            <h2>Causas Subjacentes</h2>
+            <p className="text-slate-700 leading-relaxed mb-6">
+              As causas da ansiedade de domingo à noite são multifacetadas. Podem estar relacionadas a um ambiente de trabalho estressante, insatisfação profissional, sobrecarga de tarefas, ou mesmo a um desequilíbrio entre vida pessoal e profissional. Para alguns, a ansiedade pode ser um sinal de que a vida profissional exige uma "performance" que se distancia muito do "eu autêntico", gerando um atrito psíquico significativo. A antecipação de conflitos, prazos apertados ou a simples rotina monótona podem alimentar essa angústia.
+            </p>
+
+            <h2>Estratégias para Lidar com a Ansiedade de Domingo à Noite</h2>
+            <p className="text-slate-700 leading-relaxed mb-6">
+              Lidar com a ansiedade de domingo à noite exige uma abordagem consciente e proativa. Algumas estratégias eficazes incluem:
+            </p>
+            <ul>
+              <li><strong>Planejamento Antecipado:</strong> Organizar as tarefas da semana na sexta-feira pode reduzir a sensação de sobrecarga.</li>
+              <li><strong>Desconexão Digital:</strong> Estabelecer limites para o uso de dispositivos eletrônicos e e-mails de trabalho no fim de semana.</li>
+              <li><strong>Atividades Relaxantes:</strong> Dedicar o domingo a atividades que promovam relaxamento e bem-estar, como leitura, exercícios físicos leves ou hobbies.</li>
+              <li><strong>Rotina de Sono:</strong> Manter um horário de sono regular, mesmo nos fins de semana, para evitar desregulação do ciclo circadiano.</li>
+              <li><strong>Reflexão e Autoconhecimento:</strong> Questionar as causas da ansiedade e identificar padrões de pensamento negativos.</li>
+              <li><strong>Técnicas de Mindfulness e Meditação:</strong> Práticas que ajudam a focar no presente e a reduzir a ruminação mental.</li>
+            </ul>
+
+            <h2>Quando Procurar Ajuda Profissional</h2>
+            <p className="text-slate-700 leading-relaxed mb-6">
+              Se a ansiedade de domingo à noite é persistente, intensa e interfere significativamente na sua qualidade de vida, buscar apoio psicológico é fundamental. A terapia pode ajudar a identificar as raízes mais profundas da ansiedade, desenvolver mecanismos de enfrentamento saudáveis e construir uma vida mais equilibrada e satisfatória. O psicólogo Jorge Dias oferece um espaço de acolhimento e ferramentas para transformar a angústia em autoconhecimento e resiliência.
+            </p>
 
             <div className="mt-12 p-8 bg-slate-100 rounded-lg">
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Artigos Relacionados</h3>
               <ul className="space-y-3">
-                <li><a href="//autossabotagem" className="text-blue-600 hover:underline">Autossabotagem: Além do Conceito</a></li>
-                <li><Link href="/padroes-familiares" className="text-primary hover:underline">Padrões Familiares</Link></li>
-                <li><Link href="/crise-existencial" className="text-primary hover:underline">Crise Existencial</Link></li>
+                <li>Compreendendo a Ansiedade</li>
+                <li>Burnout Digital: Esgotamento na Era Conectada</li>
+                <li>Gerenciamento de Estresse: Estratégias para o Equilíbrio</li>
               </ul>
             </div>
           </div>
@@ -51,7 +74,7 @@ Lidar com uma mãe narcisista não significa, obrigatoriamente, cortar laços de
             <p className="text-lg text-slate-300 mb-8">
               Agende uma sessão e comece a trabalhar com este tema de forma genuína.
             </p>
-            <a href="https://wa.me/seu-numero" className="inline-block bg-white text-slate-900 font-bold py-3 px-8 rounded-lg hover:bg-slate-100 transition-colors">
+            <a href="https://wa.me/5541985155583?text=Olá, estava lendo o artigo sobre Ansiedade de domingo à noite e gostaria de agendar uma sessão." className="inline-block bg-white text-slate-900 font-bold py-3 px-8 rounded-lg hover:bg-slate-100 transition-colors">
               Agendar Sessão via WhatsApp
             </a>
           </div>
