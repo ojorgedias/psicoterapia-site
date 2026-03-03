@@ -21,7 +21,7 @@ export default function Article6() {
       </p>
 <h2>O espelho das próprias feridas</h2>
 <p>
-        O que esses movimentos radicais frequentemente escondem é a projeção da <link classname="text-primary hover:underline" href="/blog/sombra-relacionamentos"/>Sombra. É muito mais fácil aderir a um discurso que culpa o outro gênero por todos os problemas do que olhar para a própria <internallink href="/terapia/adultos/autossabotagem">autossabotagem e padrões de repetição</internallink>. Aquele que ataca ferozmente o outro na internet, muitas vezes, está apenas espelhando uma dor infantil não curada e o medo profundo de ser rejeitado ou abandonado.
+        O que esses movimentos radicais frequentemente escondem é a projeção da <Link className="text-primary hover:underline" href="/blog/sombra-relacionamentos">Sombra.</Link> É muito mais fácil aderir a um discurso que culpa o outro gênero por todos os problemas do que olhar para a própria <internallink href="/terapia/adultos/autossabotagem">autossabotagem e padrões de repetição</internallink>. Aquele que ataca ferozmente o outro na internet, muitas vezes, está apenas espelhando uma dor infantil não curada e o medo profundo de ser rejeitado ou abandonado.
       </p>
 <h2>A Síntese e o encontro real</h2>
 <p>
