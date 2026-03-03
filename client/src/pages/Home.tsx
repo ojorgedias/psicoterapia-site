@@ -26,7 +26,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <img
             src="https://private-us-east-1.manuscdn.com/sessionFile/UWXOi3Z0CqaqcQpJtcE94W/sandbox/ju26zNMuXhJFKpE5iHWdtf-img-1_1771894197000_na1fn_aGVyby1iYWNrZ3JvdW5k.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvVVdYT2kzWjBDcWFxY1FwSnRjRTk0Vy9zYW5kYm94L2p1MjZ6Tk11WGhKRktwRTVpSFdkdGYtaW1nLTFfMTc3MTg5NDE5NzAwMF9uYTFmbl9hR1Z5YnkxaVlXTnJaM0p2ZFc1ay5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=AKi4EKWgIZYpC15uiiz08Sl~od5d6EK-1Ov7e3E83xSZklryXKZ6bQwOcdJtdNqvDFhtOPVzVO0Kb6ZMAynmrAY3YDrhDg-HqZx053Zu~FI~7bApwLN1x1zE24jIXZawEgPw-fYsxpcUtoeOo10Pc-emqcKOprpeb7BQPXtXoJWqSvrbXtRkCAvjUwfb~p9DPPfkHTaNY~fqxJtwioyr176NqKd-OAHOicbHjDOc~UitX6rug-lBsnQDVh250s9dEuCyz~c6BVZN2xnv994yXSNqgq5hf-wixHT7oqjXQ74nMAYojbD4yfI~DzapYDjoIUMjtqN2kJ3ix5BJsGx3YQ__"
-            alt="Fundo abstrato representando autoconhecimento e psicoterapia profunda""
+            alt="Fundo abstrato representando autoconhecimento e psicoterapia profunda"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-background/60"></div>
