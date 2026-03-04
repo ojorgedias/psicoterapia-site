@@ -33,12 +33,12 @@ export default function AutossabotagemInconsciente() {
   }
   
   useEffect(() => {
-    document.title = metadata?.headline + ' - Psicólogo Jorge Dias';
+    document.title = 'Autossabotagem: Manifestação da sombra e dinâmicas de poder | Psicólogo Jorge Dias';
     const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription && metadata) {
-      metaDescription.setAttribute('content', metadata.description);
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Compreenda as raízes profundas da autossabotagem: lealdades invisíveis, dinâmicas de poder e manifestação da sombra. Análise clínica com perspectiva filosófica.');
     }
-  }, [metadata]);
+  }, []);
 
   return (
     <Layout>
@@ -48,7 +48,7 @@ export default function AutossabotagemInconsciente() {
         {/* Header */}
         <div className="mb-8">
 <h1 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-4">
-            Autossabotagem Inconsciente: A Manifestação da <Link className="text-primary hover:underline" href="/blog/sombra-relacionamentos">Sombra</Link> e as Dinâmicas de Poder
+            Autossabotagem Inconsciente: A Manifestação da Sombra e as Dinâmicas de Poder
           </h1>
 <div className="flex items-center gap-4 text-muted-foreground">
 <div className="flex items-center gap-2">

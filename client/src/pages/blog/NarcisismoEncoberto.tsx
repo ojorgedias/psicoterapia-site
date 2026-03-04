@@ -23,10 +23,10 @@ export default function NarcisismoEncoberto() {
   }
   
   useEffect(() => {
-    document.title = metadata?.headline + ' - Psicólogo Jorge Dias';
+    document.title = 'Narcisismo encoberto: Sinais sutis e recuperação | Psicólogo Jorge Dias';
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription && metadata) {
-      metaDescription.setAttribute('content', metadata.description);
+      metaDescription.setAttribute('content', 'Narcisismo encoberto: sinais sutis que ninguém vê. Dinâmicas relacionais e caminhos para recuperação clínica.');
     }
   }, [metadata]);
 

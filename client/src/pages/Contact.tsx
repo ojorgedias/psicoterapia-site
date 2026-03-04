@@ -28,7 +28,7 @@ export default function Contact() {
             Escolha a forma mais conveniente para você. Os atendimentos são <strong>exclusivamente online</strong>, garantindo flexibilidade, discrição e segurança para pacientes em todo o Brasil e no exterior.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 my-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-12">
             {/* Calendly */}
             <div className="bg-card text-card-foreground border border-border p-8 rounded-lg text-center hover:border-primary transition-colors">
               <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-primary">
@@ -64,23 +64,6 @@ export default function Contact() {
                 className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors w-full"
               >
                 Falar no WhatsApp
-              </a>
-            </div>
-
-            {/* Email */}
-            <div className="bg-card text-card-foreground border border-border p-8 rounded-lg text-center hover:border-primary transition-colors">
-              <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-primary">
-                <MessageCircle size={32} />
-              </div>
-              <h3 className="font-display text-2xl font-semibold mb-4">E-mail</h3>
-              <p className="text-muted-foreground mb-6">
-                Prefere escrever? Mande um e-mail com a sua disponibilidade de agenda.
-              </p>
-              <a
-                href={`mailto:${PSYCHOLOGIST.email}`}
-                className="inline-block px-6 py-3 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary/5 transition-colors w-full"
-              >
-                Enviar E-mail
               </a>
             </div>
           </div>

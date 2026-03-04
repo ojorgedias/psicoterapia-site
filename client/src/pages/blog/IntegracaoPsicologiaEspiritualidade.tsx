@@ -23,10 +23,10 @@ export default function IntegracaoPsicologiaEspiritualidade() {
   }
   
   useEffect(() => {
-    document.title = metadata?.headline + ' - Psicólogo Jorge Dias';
+    document.title = 'Integração psicologia e espiritualidade: Abordagem pragmática | Psicólogo Jorge Dias';
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription && metadata) {
-      metaDescription.setAttribute('content', metadata.description);
+      metaDescription.setAttribute('content', 'Integração ética de psicologia e espiritualidade. Abordagem pragmática que evita spiritual bypass.');
     }
   }, [metadata]);
 

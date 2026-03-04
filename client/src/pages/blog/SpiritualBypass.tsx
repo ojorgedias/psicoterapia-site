@@ -23,10 +23,10 @@ export default function SpiritualBypass() {
   }
   
   useEffect(() => {
-    document.title = metadata?.headline + ' - Psicólogo Jorge Dias';
+    document.title = 'Spiritual bypass: Quando espiritualidade evita crescimento | Psicólogo Jorge Dias';
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription && metadata) {
-      metaDescription.setAttribute('content', metadata.description);
+      metaDescription.setAttribute('content', 'Spiritual bypass: como a espiritualidade pode evitar crescimento psicológico real. Integração clínica e ética.');
     }
   }, [metadata]);
 

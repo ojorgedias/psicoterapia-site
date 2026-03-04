@@ -23,10 +23,10 @@ export default function MedoDeSerFeliz() {
   }
   
   useEffect(() => {
-    document.title = metadata?.headline + ' - Psicólogo Jorge Dias';
+    document.title = 'Medo de ser feliz: Raízes psicológicas e integração | Psicólogo Jorge Dias';
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription && metadata) {
-      metaDescription.setAttribute('content', metadata.description);
+      metaDescription.setAttribute('content', 'Medo de ser feliz: raízes psicológicas profundas. Como culpa e lealdades invisíveis sabotam sua prosperidade.');
     }
   }, [metadata]);
 
