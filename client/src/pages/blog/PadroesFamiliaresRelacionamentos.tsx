@@ -131,7 +131,7 @@ export default function PadroesFamiliaresRelacionamentos() {
               Ofereço atendimento especializado em padrões familiares, relacionamentos e libertação de 
               dinâmicas limitantes. Atendimento online para todo o país.
             </p>
-<CTAButton whatsapp="">Agendar Sessão</CTAButton>
+<CTAButton whatsapp={true}>Agendar Sessão</CTAButton>
 </div>
 </div>
 <div className="mt-16 pt-8 border-t border-border">

@@ -169,7 +169,7 @@ export default function NarcisismoEncoberto() {
               Se você está em ou saindo de um relacionamento com alguém narcisista, ofereço atendimento 
               especializado em recuperação emocional e desenvolvimento de limites saudáveis.
             </p>
-<CTAButton whatsapp="">Agendar Sessão</CTAButton>
+<CTAButton whatsapp={true}>Agendar Sessão</CTAButton>
 </div>
 </div>
 <div className="mt-16 pt-8 border-t border-border">

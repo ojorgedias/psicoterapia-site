@@ -26,21 +26,21 @@ export default function Article5() {
         Quando você consome vídeos curtos por horas a fio, o seu cérebro entra em um estado de passividade absoluta. Em vez de passar pelo trabalho árduo de ler, refletir, ter dúvidas e forjar a sua própria opinião, você recebe ideias mastigadas. A internet está cheia de "gurus" que oferecem respostas prontas e simplistas para dores complexas.
       </p>
 <p>
-        O perigo desse consumo passivo é que você começa a vestir essas ideologias pré-fabricadas como se fossem a sua própria personalidade. Você terceiriza a sua capacidade de pensar. E quando a responsabilidade pelo pensamento crítico é transferida para o algoritmo ou para o influenciador, o indivíduo perde a sua bússola moral. Esse é um atalho perigoso que frequentemente desagua em uma profunda <internallink href="/terapia/adultos/crise-existencial"><Link className="text-primary hover:underline" href="/crise-existencial">crise</Link> existencial e falta de propósito</internallink>, pois as respostas do "guru" inevitavelmente falharão em resolver a sua vida real.
+        O perigo desse consumo passivo é que você começa a vestir essas ideologias pré-fabricadas como se fossem a sua própria personalidade. Você terceiriza a sua capacidade de pensar. E quando a responsabilidade pelo pensamento crítico é transferida para o algoritmo ou para o influenciador, o indivíduo perde a sua bússola moral. Esse é um atalho perigoso que frequentemente desagua em uma profunda <Link href="/terapia/adultos/crise-existencial"><Link className="text-primary hover:underline" href="/crise-existencial">crise</Link> existencial e falta de propósito</Link>, pois as respostas do "guru" inevitavelmente falharão em resolver a sua vida real.
       </p>
 <h2>Bolhas intelectuais e a atrofia da mente</h2>
 <p>
         Os algoritmos são programados para um único objetivo: prender a sua atenção. Para isso, eles colocam você dentro de uma "bolha intelectual", mostrando apenas informações que confirmam as crenças que você já tem. Se você está triste ou irritado, o algoritmo entregará horas de conteúdo que validam a sua tristeza ou alimentam a sua raiva.
       </p>
 <p>
-        O resultado disso é a atrofia da mente. Ao nunca ser confrontado com o diferente, o indivíduo perde a capacidade de lidar com a frustração. Quando ele precisa desligar a tela e lidar com um colega de trabalho ou um parceiro amoroso que pensa diferente, o sistema psíquico entra em curto-circuito, gerando graves problemas na <internallink href="/terapia/adultos/regulacao-emocional">regulação emocional e controle da <Link className="text-primary hover:underline" href="/ansiedade">ansiedade</Link></internallink>.
+        O resultado disso é a atrofia da mente. Ao nunca ser confrontado com o diferente, o indivíduo perde a capacidade de lidar com a frustração. Quando ele precisa desligar a tela e lidar com um colega de trabalho ou um parceiro amoroso que pensa diferente, o sistema psíquico entra em curto-circuito, gerando graves problemas na <Link href="/terapia/adultos/regulacao-emocional">regulação emocional e controle da <Link className="text-primary hover:underline" href="/ansiedade">ansiedade</Link></Link>.
       </p>
 <h2>Recuperando a sua autonomia</h2>
 <p>
         O antídoto para o burnout digital não é jogar o celular no lixo, mas recuperar a agência sobre a própria mente. Na psicoterapia, nós trabalhamos para que você recupere a coragem de pensar por si mesmo, de tolerar a incerteza e de desenvolver um discernimento que não dependa de curtidas.
       </p>
 <p>
-        Esse é o verdadeiro <internallink href="/terapia/adultos/autonomia-identidade">desenvolvimento de uma autonomia e identidade inabaláveis</internallink>. Se você está cansado de viver no piloto automático digital e deseja construir uma mente forte e independente, a terapia é o espaço para essa investigação. Realizo atendimentos psicológicos online em nível global.
+        Esse é o verdadeiro <Link href="/terapia/adultos/autonomia-identidade">desenvolvimento de uma autonomia e identidade inabaláveis</Link>. Se você está cansado de viver no piloto automático digital e deseja construir uma mente forte e independente, a terapia é o espaço para essa investigação. Realizo atendimentos psicológicos online em nível global.
       </p>
 </ArticlePage>
   );

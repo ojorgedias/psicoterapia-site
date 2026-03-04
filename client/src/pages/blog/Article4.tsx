@@ -33,7 +33,7 @@ export default function Article4() {
         O custo de viver para essa vitrine virtual é gigantesco. Quando a identidade do sujeito fica inteiramente terceirizada para a aprovação externa, ele se desconecta das próprias emoções. Ao focar apenas em como a sua vida parece para os outros, ele perde a capacidade de saber se essa vida é boa para ele mesmo.
       </p>
 <p>
-        É extremamente comum que pessoas presas nessa roda-gigante de performance cheguem ao consultório enfrentando uma severa <internallink href="/terapia/adultos/crise-existencial"><Link className="text-primary hover:underline" href="/crise-existencial">crise</Link> existencial e falta de propósito</internallink>. Elas construíram um personagem tão bem-sucedido que agora se sentem vazias, solitárias e esgotadas pela pressão de ter que mantê-lo de pé. Além disso, essa desconexão gera graves impactos na vida a dois, sendo o motor de boa parte das crises que tratamos na <internallink href="/terapia/casais/conflitos-casal">resolução de conflitos de casal</internallink>.
+        É extremamente comum que pessoas presas nessa roda-gigante de performance cheguem ao consultório enfrentando uma severa <Link href="/terapia/adultos/crise-existencial"><Link className="text-primary hover:underline" href="/crise-existencial">crise</Link> existencial e falta de propósito</Link>. Elas construíram um personagem tão bem-sucedido que agora se sentem vazias, solitárias e esgotadas pela pressão de ter que mantê-lo de pé. Além disso, essa desconexão gera graves impactos na vida a dois, sendo o motor de boa parte das crises que tratamos na <Link href="/terapia/casais/conflitos-casal">resolução de conflitos de casal</Link>.
       </p>
 <h2>O resgate do "eu" longe do público</h2>
 <p>

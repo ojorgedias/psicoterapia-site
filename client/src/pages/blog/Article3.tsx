@@ -33,14 +33,14 @@ export default function Article3() {
         O problema é que, no mundo contemporâneo, esse alarme está desregulado. Um comentário ruim no Instagram ou um olhar torto em uma reunião de trabalho ativam o mesmo nível de pânico que antigamente seria reservado para ameaças reais. Para evitar essa dor, a pessoa com fobia social passa a viver na defensiva. Ela pratica a autocensura, adota opiniões que não são suas e tenta agradar a todos, perdendo completamente o contato com os seus próprios desejos.
       </p>
 <p>
-        Ao tentar se proteger do julgamento, o indivíduo acaba sofrendo com graves problemas na <internallink href="/terapia/adultos/regulacao-emocional">regulação emocional e controle da <Link className="text-primary hover:underline" href="/ansiedade">ansiedade</Link></internallink>. O esforço para não desagradar ninguém é tão exaustivo que não sobra energia para construir uma vida autêntica.
+        Ao tentar se proteger do julgamento, o indivíduo acaba sofrendo com graves problemas na <Link href="/terapia/adultos/regulacao-emocional">regulação emocional e controle da <Link className="text-primary hover:underline" href="/ansiedade">ansiedade</Link></Link>. O esforço para não desagradar ninguém é tão exaustivo que não sobra energia para construir uma vida autêntica.
       </p>
 <h2>Atualizando o seu sistema mental</h2>
 <p>
         O objetivo do trabalho clínico não é extirpar o medo, mas atualizar esse "software" ancestral. Na terapia, nós fazemos um trabalho rigoroso para que o paciente consiga separar os perigos reais dos perigos imaginários. É o espaço para entender que não agradar a todos não significa que você será devorado por um predador social.
       </p>
 <p>
-        Esse é um processo central no <internallink href="/terapia/adultos/autonomia-identidade">desenvolvimento de uma autonomia e identidade inabaláveis</internallink>. Se você deseja parar de viver em função do que os outros pensam e quer recuperar a direção da sua vida, a psicoterapia oferece as ferramentas estruturais para essa mudança. Realizo atendimentos psicológicos online para todo o mundo, .
+        Esse é um processo central no <Link href="/terapia/adultos/autonomia-identidade">desenvolvimento de uma autonomia e identidade inabaláveis</Link>. Se você deseja parar de viver em função do que os outros pensam e quer recuperar a direção da sua vida, a psicoterapia oferece as ferramentas estruturais para essa mudança. Realizo atendimentos psicológicos online para todo o mundo, .
       </p>
 </ArticlePage>
   );

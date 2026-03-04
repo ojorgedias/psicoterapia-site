@@ -167,7 +167,7 @@ export default function AutossabotagemInconsciente() {
 <p className="text-foreground mb-4">
               A psicoterapia oferece um espaço seguro para fazer essa investigação de forma rigorosa e compassiva. Ofereço atendimento especializado em autossabotagem, <Link className="text-primary hover:underline" href="/padroes-familiares">padrões</Link> familiares e integração da <Link className="text-primary hover:underline" href="/blog/sombra-relacionamentos">sombra.</Link> Atendimento online para todo o país e .
             </p>
-<CTAButton whatsapp="">Agendar Sessão Inicial</CTAButton>
+<CTAButton whatsapp={true}>Agendar Sessão Inicial</CTAButton>
 </div>
 </div>
 

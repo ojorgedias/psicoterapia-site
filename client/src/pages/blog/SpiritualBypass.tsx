@@ -105,7 +105,7 @@ export default function SpiritualBypass() {
               Ofereço atendimento especializado em integração genuína de psicologia e espiritualidade, 
               com foco em evitar <Link className="text-primary hover:underline" href="/blog/spiritual-bypass">spiritual</Link> bypass.
             </p>
-<CTAButton whatsapp="">Agendar Sessão</CTAButton>
+<CTAButton whatsapp={true}>Agendar Sessão</CTAButton>
 </div>
 </div>
 <div className="mt-16 pt-8 border-t border-border">

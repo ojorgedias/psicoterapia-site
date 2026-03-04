@@ -85,7 +85,7 @@ export default function BurnoutDigital() {
 <p className="text-foreground mb-4">
               Ofereço atendimento especializado em burnout digital e desenvolvimento de autenticidade.
             </p>
-<CTAButton whatsapp="">Agendar Sessão</CTAButton>
+<CTAButton whatsapp={true}>Agendar Sessão</CTAButton>
 </div>
 </div>
 <div className="mt-16 pt-8 border-t border-border">

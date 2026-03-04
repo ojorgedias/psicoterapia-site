@@ -26,11 +26,11 @@ export default function Article6() {
         A mente humana sob estresse adora respostas simples. É muito mais fácil acreditar que "todos os homens são narcisistas" ou que "todas as mulheres são interesseiras" do que assumir a complexidade de um relacionamento real. A filosofia explica isso através do conceito de Tese e Antítese: a sociedade cria uma regra extrema (a Tese) e, como reação, surge um movimento igualmente extremo e oposto (a Antítese).
       </p>
 <p>
-        Quando as pessoas levam esses discursos de internet para dentro de casa, o diálogo morre. O parceiro deixa de ser visto como um ser humano cheio de falhas e passa a ser tratado como um inimigo a ser vencido ou corrigido. Essa visão em "preto e branco" é a receita para o ressentimento crônico. Na <internallink href="/terapia/casais/conflitos-casal">resolução de conflitos de casal e choque de valores</internallink>, o primeiro passo é desarmar esse tribunal para que as pessoas voltem a se olhar sem as lentes da internet.
+        Quando as pessoas levam esses discursos de internet para dentro de casa, o diálogo morre. O parceiro deixa de ser visto como um ser humano cheio de falhas e passa a ser tratado como um inimigo a ser vencido ou corrigido. Essa visão em "preto e branco" é a receita para o ressentimento crônico. Na <Link href="/terapia/casais/conflitos-casal">resolução de conflitos de casal e choque de valores</Link>, o primeiro passo é desarmar esse tribunal para que as pessoas voltem a se olhar sem as lentes da internet.
       </p>
 <h2>O espelho das próprias feridas</h2>
 <p>
-        O que esses movimentos radicais frequentemente escondem é a projeção da <Link className="text-primary hover:underline" href="/blog/sombra-relacionamentos">Sombra.</Link> É muito mais fácil aderir a um discurso que culpa o outro gênero por todos os problemas do que olhar para a própria <internallink href="/terapia/adultos/autossabotagem">autossabotagem e padrões de repetição</internallink>. Aquele que ataca ferozmente o outro na internet, muitas vezes, está apenas espelhando uma dor infantil não curada e o medo profundo de ser rejeitado ou abandonado.
+        O que esses movimentos radicais frequentemente escondem é a projeção da <Link className="text-primary hover:underline" href="/blog/sombra-relacionamentos">Sombra.</Link> É muito mais fácil aderir a um discurso que culpa o outro gênero por todos os problemas do que olhar para a própria <Link href="/terapia/adultos/autossabotagem">autossabotagem e padrões de repetição</Link>. Aquele que ataca ferozmente o outro na internet, muitas vezes, está apenas espelhando uma dor infantil não curada e o medo profundo de ser rejeitado ou abandonado.
       </p>
 <h2>A Síntese e o encontro real</h2>
 <p>

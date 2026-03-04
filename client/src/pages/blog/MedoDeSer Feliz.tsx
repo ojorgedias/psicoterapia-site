@@ -88,7 +88,7 @@ export default function MedoDeSerFeliz() {
 <p className="text-foreground mb-4">
               Ofereço atendimento especializado em trauma, <Link className="text-primary hover:underline" href="/padroes-familiares">padrões</Link> familiares e integração psicológica.
             </p>
-<CTAButton whatsapp="">Agendar Sessão</CTAButton>
+<CTAButton whatsapp={true}>Agendar Sessão</CTAButton>
 </div>
 </div>
 <div className="mt-16 pt-8 border-t border-border">

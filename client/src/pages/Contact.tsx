@@ -4,9 +4,10 @@ import { PSYCHOLOGIST } from "@/../../shared/const";
 import { MessageCircle, Calendar } from "lucide-react";
 
 export default function Contact() {
-  const whatsappNumber = "5518999999999";
-  const whatsappDisplay = "(18) 99999-9999";
+  const whatsappNumber = "5541985155583";
+  const whatsappDisplay = "(41) 98515-5583";
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá%20Jorge,%20gostaria%20de%20agendar%20uma%20sessão%20online.`;
+  const calendlyLink = "https://calendly.com/psijorgedias";
 
   return (
     <Layout>
@@ -27,7 +28,26 @@ export default function Contact() {
             Escolha a forma mais conveniente para você. Os atendimentos são <strong>exclusivamente online</strong>, garantindo flexibilidade, discrição e segurança para pacientes em todo o Brasil e no exterior.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 my-12">
+            {/* Calendly */}
+            <div className="bg-card text-card-foreground border border-border p-8 rounded-lg text-center hover:border-primary transition-colors">
+              <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-primary">
+                <Calendar size={32} />
+              </div>
+              <h3 className="font-display text-2xl font-semibold mb-4">Calendário</h3>
+              <p className="text-muted-foreground mb-6">
+                Escolha o horário que melhor se adequa à sua agenda.
+              </p>
+              <a
+                href={calendlyLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors w-full"
+              >
+                Agendar no Calendário
+              </a>
+            </div>
+
             {/* WhatsApp */}
             <div className="bg-card text-card-foreground border border-border p-8 rounded-lg text-center hover:border-primary transition-colors">
               <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-primary">
@@ -50,7 +70,7 @@ export default function Contact() {
             {/* Email */}
             <div className="bg-card text-card-foreground border border-border p-8 rounded-lg text-center hover:border-primary transition-colors">
               <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-primary">
-                <Calendar size={32} />
+                <MessageCircle size={32} />
               </div>
               <h3 className="font-display text-2xl font-semibold mb-4">E-mail</h3>
               <p className="text-muted-foreground mb-6">

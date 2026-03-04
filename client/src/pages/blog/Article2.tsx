@@ -34,9 +34,9 @@ export default function Article2() {
       </p>
 <p>
         Eles se polarizam. Na psicoterapia voltada para a{" "}
-        <internallink href="/terapia/casais/conflitos-casal">
+        <Link href="/terapia/casais/conflitos-casal">
           resolução de conflitos de casal e choque de valores
-        </internallink>
+        </Link>
         , o trabalho consiste exatamente em parar esse tribunal de acusações. O objetivo é fazer com que cada um recolha as suas próprias projeções e admita que o "defeito" do outro é, na verdade, uma parte de si mesmo que precisa ser integrada.
       </p>
 <h2>Recolhendo as suas projeções</h2>
@@ -45,9 +45,9 @@ export default function Article2() {
       </p>
 <p>
         Esse é um trabalho profundo de{" "}
-        <internallink href="/terapia/adultos/autonomia-identidade">
+        <Link href="/terapia/adultos/autonomia-identidade">
           desenvolvimento de uma autonomia e identidade inabaláveis
-        </internallink>
+        </Link>
         , onde você deixa de ser uma vítima do comportamento alheio e passa a ser dono da sua própria mente. Se deseja fazer essa investigação de forma ética e orientada, o espaço clínico é o ambiente certo. Realizo atendimentos psicológicos online para Brasil e exterior.
       </p>
 </ArticlePage>

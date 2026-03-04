@@ -26,7 +26,7 @@ export default function Article8() {
         Nós vivemos em uma cultura que exige que você tenha certezas absolutas sobre tudo o tempo todo. Seja no trabalho ou nas redes sociais, somos condicionados a atuar como especialistas. O problema de vestir a máscara do "sabe-tudo" é que ela é extremamente pesada. Quando você constrói a sua identidade baseada na performance de ser infalível, qualquer pequeno erro ou dúvida soa como uma ameaça de morte social.
       </p>
 <p>
-        Esse medo irracional do julgamento ativa o que chamo de <internallink href="/blog/fobia-social">fobia social e necessidade de aprovação</internallink>. O esgotamento não vem do seu trabalho, mas do esforço gigantesco que o seu cérebro faz para esconder dos outros que você, como qualquer ser humano, tem lacunas e inseguranças.
+        Esse medo irracional do julgamento ativa o que chamo de <Link href="/blog/fobia-social">fobia social e necessidade de aprovação</Link>. O esgotamento não vem do seu trabalho, mas do esforço gigantesco que o seu cérebro faz para esconder dos outros que você, como qualquer ser humano, tem lacunas e inseguranças.
       </p>
 <h2>A Técnica do <Link className="text-primary hover:underline" href="/conceitos-fundamentais">Manto</Link> da Ignorância</h2>
 <p>
@@ -37,7 +37,7 @@ export default function Article8() {
       </p>
 <h2>O resgate da verdadeira autenticidade</h2>
 <p>
-        A autenticidade genuína não é a ausência de dúvidas. É a tranquilidade de saber que você não precisa ter todas as respostas para ter valor. Ao abandonar o personagem impecável, você ganha espaço mental para aprender de verdade, fortalecendo o <internallink href="/terapia/adultos/autonomia-identidade">desenvolvimento de uma autonomia e identidade inabaláveis</internallink>.
+        A autenticidade genuína não é a ausência de dúvidas. É a tranquilidade de saber que você não precisa ter todas as respostas para ter valor. Ao abandonar o personagem impecável, você ganha espaço mental para aprender de verdade, fortalecendo o <Link href="/terapia/adultos/autonomia-identidade">desenvolvimento de uma autonomia e identidade inabaláveis</Link>.
       </p>
 <p>
         Se a pressão de provar o seu valor constantemente está paralisando a sua vida, a psicoterapia oferece um espaço seguro para desarmar essa defesa. Realizo atendimentos psicológicos online para adultos no mundo todo.

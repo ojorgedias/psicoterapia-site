@@ -113,7 +113,7 @@ export default function IntegracaoPsicologiaEspiritualidade() {
               Ofereço atendimento especializado em integração psicologia-espiritualidade pragmática, 
               com foco em crescimento genuíno sem <Link className="text-primary hover:underline" href="/blog/spiritual-bypass">spiritual</Link> bypass.
             </p>
-<CTAButton whatsapp="">Agendar Sessão</CTAButton>
+<CTAButton whatsapp={true}>Agendar Sessão</CTAButton>
 </div>
 </div>
 <div className="mt-16 pt-8 border-t border-border">

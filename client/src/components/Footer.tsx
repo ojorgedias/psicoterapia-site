@@ -95,11 +95,8 @@ export default function Footer() {
                   WhatsApp: (41) 98515-5583
                 </a>
               </li>
-              <li className="text-sidebar-foreground/80 text-xs">
-                Online: Brasil e Exterior
-              </li>
-              <li className="text-sidebar-foreground/80 text-xs">
-                Presencial: {PSYCHOLOGIST.location}
+              <li className="text-sidebar-foreground/80 text-xs font-semibold">
+                100% Online - Brasil e Exterior
               </li>
             </ul>
           </div>

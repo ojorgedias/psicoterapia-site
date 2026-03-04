@@ -10,18 +10,17 @@ export const PSYCHOLOGIST = {
   email: "psijorgedias@gmail.com",
   whatsapp: "41985155583",
   whatsappLink: "https://wa.me/5541985155583?text=Olá%20Jorge%2C%20gostaria%20de%20agendar%20uma%20consulta.",
-  location: "Presidente Epitácio - SP",
+  location: "Online - Brasil e Exterior",
   services: {
-    online: "Atendimento online para todo o Brasil e exterior",
-    inPerson: "Sessões presenciais em Presidente Epitácio - SP",
+    online: "Atendimento 100% online para todo o Brasil e exterior",
   },
 };
 
 export const SITE_CONFIG = {
   title: "Psicoterapia Clínica - Jorge Dias",
   description:
-    "Psicoterapia online e presencial focada em investigação filosófica, autoconhecimento profundo e desenvolvimento integral. Atendimento para adultos, casais e questões existenciais.",
-  url: "https://psicoterapia-clinica.com.br",
+    "Psicoterapia clínica online focada em investigação filosófica, autoconhecimento profundo e desenvolvimento integral. Atendimento para adultos, casais e questões existenciais. 100% online para Brasil e exterior.",
+  url: "https://psicologojorgedias.online",
   locale: "pt-BR",
   language: "pt",
 };
@@ -35,6 +34,8 @@ export const SEO_KEYWORDS = {
     "psicologia clínica",
     "autoconhecimento",
     "desenvolvimento pessoal",
+    "terapia online brasil",
+    "psicólogo clínico",
   ],
   adults: [
     "crise existencial",
@@ -60,6 +61,30 @@ export const SEO_KEYWORDS = {
 };
 
 export const SOCIAL_LINKS = {
-  whatsapp: "https://wa.me/5541985155583?text=Olá%20Jorge%2C%20gostaria%20de%20agendar%20uma%20consulta.",
+  whatsapp: "https://wa.me/5541985155583",
   email: "mailto:psijorgedias@gmail.com",
+};
+
+/**
+ * EEAT Schema - Expertise, Authoritativeness, Trustworthiness
+ */
+export const EEAT_AUTHOR = {
+  name: "Jorge Dias",
+  title: "Psicólogo Clínico",
+  crp: "08/31462",
+  education: "Universidade Estadual de Londrina (UEL)",
+  experience: "5+ anos de prática clínica",
+  specializations: [
+    "Psicologia Analítica (Jung)",
+    "Filosofia (Foucault)",
+    "Cosmologias Indígenas",
+    "Crise Existencial",
+    "Autossabotagem",
+    "Padrões Familiares",
+  ],
+  credentials: [
+    "Graduado em Psicologia pela UEL",
+    "Registrado no CRP (Conselho Regional de Psicologia)",
+    "Especializado em Psicoterapia Clínica",
+  ],
 };

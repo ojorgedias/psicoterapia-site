@@ -37,9 +37,9 @@ export default function Article1() {
       </p>
 <p>
         Aprender a fazer essa distinção é o pilar central de um trabalho focado na{" "}
-        <internallink href="/terapia/adultos/regulacao-emocional">
+        <Link href="/terapia/adultos/regulacao-emocional">
           regulação emocional e controle da <Link className="text-primary hover:underline" href="/ansiedade">ansiedade</Link>
-        </internallink>
+        </Link>
         . É um processo de retirar a mente racional do estado de ditadura e ensiná-la a colaborar com os sinais que o seu corpo emite.
       </p>
 <h2>Pare de lutar contra o seu próprio sistema</h2>
