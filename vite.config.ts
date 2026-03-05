@@ -147,14 +147,71 @@ function vitePluginManusDebugCollector(): Plugin {
           }
         });
       });
+
+      // SPA Fallback: Redirect all non-file requests to index.html
+      return () => {
+        server.middlewares.use((req, res, next) => {
+          if (req.method !== "GET") {
+            return next();
+          }
+
+          const url = new URL(req.url || "/", "http://localhost");
+          const pathname = url.pathname;
+
+          // Skip static assets, known files, and special routes
+          if (
+            pathname.startsWith("/assets/") ||
+            pathname.startsWith("/__") ||
+            pathname.startsWith("/@") ||
+            pathname.includes(".") ||
+            pathname === "/" ||
+            pathname.endsWith(".html") ||
+            pathname.endsWith(".json") ||
+            pathname.endsWith(".xml") ||
+            pathname.endsWith(".txt")
+          ) {
+            return next();
+          }
+
+          // Fallback to index.html for SPA routes
+          req.url = "/index.html";
+          next();
+        });
+      };
     },
   };
 }
 
-const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector()];
+// =============================================================================
+// SPA Fallback Plugin for Production (Manus Hosting)
+// =============================================================================
+function vitePluginSPAFallback(): Plugin {
+  return {
+    name: "vite-plugin-spa-fallback",
+    apply: "build",
+    generateBundle() {
+      // Create a _redirects file for Netlify/Vercel compatibility
+      const redirectsContent = `/*  /index.html  200`;
+      this.emitFile({
+        type: "asset",
+        fileName: "_redirects",
+        source: redirectsContent,
+      });
+    },
+  };
+}
+
+const plugins = [
+  react(),
+  tailwindcss(),
+  jsxLocPlugin(),
+  vitePluginManusRuntime(),
+  vitePluginManusDebugCollector(),
+  vitePluginSPAFallback(),
+];
 
 export default defineConfig({
-  base: '/',
+  base: "/",
   plugins,
   resolve: {
     alias: {
@@ -168,14 +225,14 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
-    minify: 'esbuild',
+    minify: "esbuild",
     chunkSizeWarningLimit: 600,
     cssCodeSplit: true,
     sourcemap: false,
   },
   server: {
     port: 3000,
-    strictPort: false, // Will find next available port if 3000 is busy
+    strictPort: false,
     host: true,
     allowedHosts: [
       ".manuspre.computer",
