@@ -66,6 +66,8 @@ import QuebrarCiclosFamiliares from "./pages/blog/QuebrarCiclosFamiliares";
 import CulpaAfastarFamilia from "./pages/blog/CulpaAfastarFamilia";
 import RepeticaoPadroesFamiliares from "./pages/blog/RepeticaoPadroesFamiliares";
 import MaesImaturas from "./pages/blog/MaesImaturas";
+import { FAQSchema } from "./components/FAQSchema";
+import { BookingChatbot } from "./components/BookingChatbot";
 
 // Update document title and meta tags
 if (typeof document !== 'undefined') {
@@ -182,6 +184,8 @@ function App() {
     <ErrorBoundary>
       <ThemeProvider defaultTheme="light">
         <TooltipProvider>
+          <FAQSchema />
+          <BookingChatbot />
           <Toaster />
           <Router />
 
