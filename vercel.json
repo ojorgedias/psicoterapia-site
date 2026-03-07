@@ -3,5 +3,6 @@
   "outputDirectory": "dist",
   "installCommand": "pnpm install",
   "devCommand": "vite",
-  "framework": "vite"
+  "framework": "vite",
+  "cleanUrls": true
 }
