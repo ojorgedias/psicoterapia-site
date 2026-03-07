@@ -169,15 +169,25 @@ export function SEOHead({
     }
     metaDescription.setAttribute('content', description);
 
-    // Update canonical
+    // Ensure robots meta tag is set to index, follow (CRITICAL FIX)
+    let robotsMeta = document.querySelector('meta[name="robots"]');
+    if (!robotsMeta) {
+      robotsMeta = document.createElement('meta');
+      robotsMeta.setAttribute('name', 'robots');
+      document.head.appendChild(robotsMeta);
+    }
+    robotsMeta.setAttribute('content', 'index, follow');
+
+    // CRITICAL FIX: Remove all existing canonical tags first to avoid duplicates
+    const existingCanonicals = document.querySelectorAll('link[rel="canonical"]');
+    existingCanonicals.forEach(tag => tag.remove());
+    
+    // Add single canonical tag
     if (canonical) {
-      let canonicalLink = document.querySelector('link[rel="canonical"]');
-      if (!canonicalLink) {
-        canonicalLink = document.createElement('link');
-        canonicalLink.setAttribute('rel', 'canonical');
-        document.head.appendChild(canonicalLink);
-      }
+      const canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
       canonicalLink.setAttribute('href', canonical);
+      document.head.appendChild(canonicalLink);
     }
 
     // Update OG image
