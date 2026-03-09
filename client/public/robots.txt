@@ -2,21 +2,5 @@ User-agent: *
 Allow: /
 Disallow: /admin
 Disallow: /*.json$
-Disallow: /*.xml$
 
-Sitemap: https://psicoterapia-clinica.com.br/sitemap.xml
-
-# Google-specific
-User-agent: Googlebot
-Allow: /
-
-# Bing-specific
-User-agent: Bingbot
-Allow: /
-
-# Block bad bots
-User-agent: AhrefsBot
-Disallow: /
-
-User-agent: SemrushBot
-Disallow: /
+Sitemap: https://www.psicologojorgedias.online/sitemap.xml
