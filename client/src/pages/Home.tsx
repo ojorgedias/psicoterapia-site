@@ -9,7 +9,7 @@ import { useEEATSchema, useLocalBusinessSchema } from "@/components/EEATSchema";
 export default function Home() {
   useEEATSchema({
     pageType: 'home',
-    title: 'Psicólogo Jorge Dias - Psicoterapia Clínica para Autoconhecimento Profundo',
+    title: 'Jorge Dias - Psicoterapia Clínica para Autoconhecimento Profundo',
     description: 'Investigação filosófica e clínica rigorosa para quem se sente perdido, sem propósito ou preso em ciclos repetitivos.',
     url: 'https://psicoterapia-site.com'
   });
@@ -38,11 +38,11 @@ export default function Home() {
             className="w-40 h-40 md:w-56 md:h-56 rounded-full object-cover mx-auto mb-8 shadow-xl border-4 border-background"
           />
           <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-2 leading-tight">
-            Psicólogo Jorge Dias - Psicoterapia Clínica
+            Jorge Dias - Psicoterapia Clínica
           </h1>
-          <p className="text-lg text-muted-foreground mb-6 font-semibold">CRP 08/31462</p>
+          <p className="text-lg text-muted-foreground mb-6 font-semibold">Abordagem Junguiana</p>
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto" style={{color: '#413e3e'}}>
-  Com cinco anos de experiência clínica e formação pela Universidade Estadual de Londrina (UEL), meu trabalho vai além de respostas prontas. Realizo uma investigação profunda para desvendar as <Link href="/conceitos-fundamentais" className="text-primary hover:underline">regras invisíveis</Link> que governam você. Se você se sente perdido ou preso em ciclos repetitivos, nossa jornada será construir uma autonomia genuína, unindo o rigor da psicologia analítica e da filosofia integrativa.
+            "Conheça todas as teorias, domine todas as técnicas, mas ao tocar uma alma humana, seja apenas outra alma humana."
 </p>
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto" style={{color: '#413e3e'}}>
             Especializado em <strong><Link href="/crise-existencial" className="text-primary hover:underline">crise existencial</Link></strong>, <strong><Link href="/autossabotagem" className="text-primary hover:underline">autossabotagem</Link></strong> e <strong><Link href="/padroes-familiares" className="text-primary hover:underline">padrões familiares</Link></strong>. Atendimento online para todo o Brasil e brasileiros no exterior.
@@ -106,7 +106,7 @@ export default function Home() {
                 className="w-full h-40 object-cover rounded mb-4"
               />
               <h3 className="font-display text-xl font-semibold mb-3 text-primary">
-                Psicologia e Espiritualidade
+                Psicoterapia e Espiritualidade
               </h3>
               <p className="text-muted-foreground mb-4 text-sm">
                 Integração ética entre desenvolvimento psicológico e espiritual, sem bypassing ou alienação.
