@@ -34,7 +34,7 @@ export default function Home() {
         <div className="container max-w-4xl mx-auto px-4 text-center relative z-10">
           <img
             src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png"
-            alt="Imagem de Jorge Dias - Psicólogo Clínico Online com foco em Crise Existencial e Autossabotagem"
+            alt="Imagem de Jorge Dias - Psicoterapeuta Clínico Online com foco em Crise Existencial e Autossabotagem"
             className="w-40 h-40 md:w-56 md:h-56 rounded-full object-cover mx-auto mb-8 shadow-xl border-4 border-background"
           />
           <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-2 leading-tight">
