@@ -71,10 +71,10 @@ import { BookingChatbot } from "./components/BookingChatbot";
 
 // Update document title and meta tags
 if (typeof document !== 'undefined') {
-  document.title = 'Psicólogo Jorge Dias - Psicoterapia Clínica Online';
+  document.title = 'Jorge Dias - Psicoterapia Clínica Online';
   const metaDescription = document.querySelector('meta[name="description"]');
   if (metaDescription) {
-    metaDescription.setAttribute('content', 'Psicoterapia clínica com Jorge Dias (CRP 08/31462). Especializado em crise existencial, autossabotagem e relacionamentos. Atendimento online para Brasil e .');
+    metaDescription.setAttribute('content', 'Psicoterapia clínica com Jorge Dias. Especializado em crise existencial, autossabotagem e relacionamentos. Atendimento online para Brasil e .');
   }
 }
 
