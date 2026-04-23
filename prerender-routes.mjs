@@ -33,7 +33,7 @@ const ROUTES = [
   "/terapia/casais/padroes-relacionamento",
   
   // Cluster 4: Autoridade
-  "/autoridade/psicologia-espiritualidade",
+  "/autoridade/psicoterapia-espiritualidade",
   "/autoridade/filosofia-integrativa",
   
   // Original Blog Articles
@@ -55,7 +55,7 @@ const ROUTES = [
   "/blog/burnout-digital",
   "/blog/sindrome-impostor-terapeutas",
   "/blog/spiritual-bypass",
-  "/blog/integracao-psicologia-espiritualidade",
+  "/blog/integracao-psicoterapia-espiritualidade",
   
   // Long-Tail SEO Articles - Autossabotagem Cluster
   "/sabotagem-relacionamento",

@@ -60,7 +60,7 @@ export default function RecuperarAutoestima() {
 
             <h2>Quando Procurar Ajuda Profissional</h2>
             <p className="text-slate-700 leading-relaxed mb-6">
-              Se a baixa autoestima está impactando significativamente sua qualidade de vida, seus relacionamentos ou sua capacidade de funcionar no dia a dia, a psicoterapia pode ser um recurso valioso. Um psicólogo pode ajudar a explorar as raízes profundas desses sentimentos, desenvolver estratégias eficazes de enfrentamento e construir uma autoestima sólida e duradoura. O psicólogo Jorge Dias oferece um espaço seguro e acolhedor para essa jornada de transformação, auxiliando você a redescobrir seu valor e potencial.
+              Se a baixa autoestima está impactando significativamente sua qualidade de vida, seus relacionamentos ou sua capacidade de funcionar no dia a dia, a psicoterapia pode ser um recurso valioso. Um psicoterapeuta pode ajudar a explorar as raízes profundas desses sentimentos, desenvolver estratégias eficazes de enfrentamento e construir uma autoestima sólida e duradoura. O psicoterapeuta Jorge Dias oferece um espaço seguro e acolhedor para essa jornada de transformação, auxiliando você a redescobrir seu valor e potencial.
             </p>
 
             <div className="mt-12 p-8 bg-slate-100 rounded-lg">

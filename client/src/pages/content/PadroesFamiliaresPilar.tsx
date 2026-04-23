@@ -4,7 +4,7 @@ import Layout from '@/components/Layout';
 
 export default function PadroesFamiliaresPilar() {
   useEffect(() => {
-    document.title = 'Padrões Familiares: Libertação e Integração | Psicólogo Jorge Dias';
+    document.title = 'Padrões Familiares: Libertação e Integração | Psicoterapeuta Jorge Dias';
     
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {

@@ -50,7 +50,7 @@ export default function TerapiaOnlineAnsiedade() {
 
             <h2>Considerações Importantes</h2>
             <p className="text-slate-700 leading-relaxed mb-6">
-              Embora a terapia online ofereça inúmeros benefícios, é crucial escolher um profissional qualificado e com experiência na modalidade. A conexão estável com a internet e um espaço privado para as sessões são pré-requisitos para garantir a qualidade do atendimento. O psicólogo Jorge Dias oferece atendimento online especializado, combinando a profundidade da abordagem clínica com a conveniência da plataforma digital, para auxiliar no manejo e superação da ansiedade.
+              Embora a terapia online ofereça inúmeros benefícios, é crucial escolher um profissional qualificado e com experiência na modalidade. A conexão estável com a internet e um espaço privado para as sessões são pré-requisitos para garantir a qualidade do atendimento. O psicoterapeuta Jorge Dias oferece atendimento online especializado, combinando a profundidade da abordagem clínica com a conveniência da plataforma digital, para auxiliar no manejo e superação da ansiedade.
             </p>
 
             <div className="mt-12 p-8 bg-slate-100 rounded-lg">

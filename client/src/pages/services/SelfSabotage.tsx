@@ -7,7 +7,7 @@ export default function SelfSabotage() {
 
   return (
     <ServicePage
-      title="Tratamento Psicológico Online para Autossabotagem e Padrões de Repetição"
+      title="Tratamento Psicoterapêutico Online para Autossabotagem e Padrões de Repetição"
       breadcrumbs={[
         { label: "Início", href: "/" },
         { label: "Terapia" },
@@ -58,7 +58,7 @@ export default function SelfSabotage() {
 
       <h2>Rompa o ciclo de repetição</h2>
       <p>
-        Desconstruir padrões tão enraizados exige técnica clínica rigorosa, um espaço de acolhimento e a coragem intelectual para olhar além da superfície. Se você está cansado de esbarrar nos mesmos obstáculos e busca um trabalho de profunda investigação, eu posso te ajudar a escavar e transformar essas dinâmicas. Realizo atendimentos psicológicos online em nível global.
+        Desconstruir padrões tão enraizados exige técnica clínica rigorosa, um espaço de acolhimento e a coragem intelectual para olhar além da superfície. Se você está cansado de esbarrar nos mesmos obstáculos e busca um trabalho de profunda investigação, eu posso te ajudar a escavar e transformar essas dinâmicas. Realizo atendimentos psicoterapêuticos online em nível global.
       </p>
     </ServicePage>
   );

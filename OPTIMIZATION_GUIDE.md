@@ -1,22 +1,22 @@
-# Guia Completo: Otimização de Site para Psicólogo e Atração de Pacientes
-## Jorge Dias - Psicólogo Clínico
+# Guia Completo: Otimização de Site para Psicoterapeuta e Atração de Pacientes
+## Jorge Dias - Psicoterapeuta Clínico
 
 ---
 
-## 📊 Análise de Websites de Psicólogos com Alto Desempenho
+## 📊 Análise de Websites de Psicoterapeutas com Alto Desempenho
 
 ### Plataformas Líderes no Brasil
 Pesquisei as principais plataformas de terapia online e presencial que geram tráfego orgânico significativo:
 
 **Plataformas Consolidadas:**
-- **Vittude**: Terapia online com múltiplos psicólogos (alto volume de tráfego)
+- **Vittude**: Terapia online com múltiplos psicoterapeutas (alto volume de tráfego)
 - **Zenklub**: Terapia 24h com filtros avançados
 - **Psitto**: Plataforma especializada em terapia online
 - **PsyMeet**: Foco em acessibilidade socioeconômica
 - **Telavita**: Integração com empresas
 
 **Características Comuns de Alto Desempenho:**
-1. Fotos profissionais de psicólogos (aumenta confiança em 85%)
+1. Fotos profissionais de psicoterapeutas (aumenta confiança em 85%)
 2. Perfis detalhados com especialidades e abordagens
 3. Avaliações e depoimentos de pacientes
 4. Agendamento online integrado
@@ -25,14 +25,14 @@ Pesquisei as principais plataformas de terapia online e presencial que geram tr�
 
 ---
 
-## 🎯 Estratégias de SEO para Psicólogos (2025-2026)
+## 🎯 Estratégias de SEO para Psicoterapeutas (2025-2026)
 
 ### 1. Palavras-Chave Prioritárias por Intenção
 
 #### Busca Informacional (Topo do Funil)
 - "O que é crise existencial?"
 - "Como saber se preciso de terapia?"
-- "Qual é a diferença entre psicólogo e psiquiatra?"
+- "Qual é a diferença entre psicoterapeuta e psiquiatra?"
 - "Autossabotagem: como identificar?"
 - "Ansiedade: sintomas e tratamento"
 
@@ -41,17 +41,17 @@ Pesquisei as principais plataformas de terapia online e presencial que geram tr�
 #### Busca Comercial (Meio do Funil)
 - "Psicoterapia online para adultos"
 - "Terapia de casal online Brasil"
-- "Psicólogo especializado em ansiedade"
+- "Psicoterapeuta especializado em ansiedade"
 - "Terapia para crise existencial"
-- "Psicólogo online Presidente Epitácio"
+- "Psicoterapeuta online Presidente Epitácio"
 
 **Estratégia**: Otimizar páginas de serviço com essas palavras-chave. Incluir CTAs claros ("Agendar Consulta").
 
 #### Busca Transacional (Fundo do Funil)
 - "Agendar psicoterapia online"
-- "Consulta psicólogo online agora"
+- "Consulta psicoterapeuta online agora"
 - "Terapia online disponível hoje"
-- "Psicólogo online WhatsApp"
+- "Psicoterapeuta online WhatsApp"
 
 **Estratégia**: Garantir que a página de contato/agendamento seja otimizada. Facilitar o processo de conversão.
 
@@ -84,7 +84,7 @@ Exemplo de FAQ para Adultos:
 - ❌ "Serviços"
 
 **Meta Description (155-160 caracteres)**
-- ✅ "Investigação clínica para crise existencial. Sessões online e presenciais. Agende sua consulta com Jorge Dias - CRP 08/31462."
+- ✅ "Investigação clínica para crise existencial. Sessões online e presenciais. Agende sua consulta com Jorge Dias - ."
 - ❌ "Conheça nossos serviços"
 
 **H1 (Um por página)**
@@ -104,7 +104,7 @@ H1: Psicoterapia para Crise Existencial e Falta de Propósito
 ```
 
 **Imagens com Alt Text**
-- ✅ `alt="Jorge Dias, psicólogo clínico especializado em crise existencial"`
+- ✅ `alt="Jorge Dias, psicoterapeuta clínico especializado em crise existencial"`
 - ❌ `alt="imagem"`
 
 ---
@@ -123,7 +123,7 @@ H1: Psicoterapia para Crise Existencial e Falta de Propósito
 1. **Hero Section (Topo da Home)** - Foto profissional grande
 2. **Página Sobre** - Foto + biografia detalhada
 3. **Página de Contato** - Foto + informações de contato
-4. **Footer** - Foto pequena com CRP
+4. **Footer** - Foto pequena com 
 5. **Google Business Profile** - Foto profissional
 6. **Redes Sociais** - Foto consistente em todas as plataformas
 
@@ -148,7 +148,7 @@ H1: Psicoterapia para Crise Existencial e Falta de Propósito
 
 ## 💰 Estratégias de Tráfego Pago (Google Ads + Facebook Ads)
 
-### Google Ads para Psicólogos
+### Google Ads para Psicoterapeutas
 
 **Estrutura Recomendada:**
 
@@ -160,9 +160,9 @@ H1: Psicoterapia para Crise Existencial e Falta de Propósito
 | **Custo por Consulta** | R$ 50-200 |
 
 **Palavras-Chave Prioritárias:**
-- "psicólogo online" (alta concorrência, alto volume)
+- "psicoterapeuta online" (alta concorrência, alto volume)
 - "terapia para ansiedade" (média concorrência)
-- "psicólogo especializado em crise existencial" (baixa concorrência, alta intenção)
+- "psicoterapeuta especializado em crise existencial" (baixa concorrência, alta intenção)
 - "terapia online Presidente Epitácio" (local, baixa concorrência)
 
 **Estratégia de Lances:**
@@ -178,10 +178,10 @@ H1: Psicoterapia para Crise Existencial e Falta de Propósito
 - Depoimentos: Prova social
 - Garantia: "Primeira sessão sem compromisso"
 
-### Facebook Ads para Psicólogos
+### Facebook Ads para Psicoterapeutas
 
 **Vantagens:**
-- Segmentação por interesse (psicologia, desenvolvimento pessoal, saúde mental)
+- Segmentação por interesse (psicoterapia, desenvolvimento pessoal, saúde mental)
 - Retargeting de visitantes do site
 - Custo geralmente 50% mais baixo que Google Ads
 
@@ -195,7 +195,7 @@ H1: Psicoterapia para Crise Existencial e Falta de Propósito
 
 **Segmentação Ideal:**
 - Idade: 25-65 anos
-- Interesses: Psicologia, desenvolvimento pessoal, saúde mental, filosofia
+- Interesses: Psicoterapia, desenvolvimento pessoal, saúde mental, filosofia
 - Comportamento: Pessoas que visitaram sites de saúde mental
 - Localização: Brasil (ou específico: São Paulo, Paraná)
 
@@ -262,7 +262,7 @@ CTA: "Agendar Consulta"
 
 **Vídeos no YouTube:**
 - 1 vídeo por semana (5-10 minutos)
-- Dicas práticas sobre psicologia
+- Dicas práticas sobre psicoterapia
 - Link para site na descrição
 - Transcrição para SEO
 
@@ -277,14 +277,14 @@ CTA: "Agendar Consulta"
 **Newsletter:**
 - Envie 1x por semana
 - Compartilhe artigos do blog
-- Dicas práticas de psicologia
+- Dicas práticas de psicoterapia
 - Histórias de transformação (anônimas)
 
 ### 4. Redes Sociais
 
 **Instagram:**
 - Poste 3x por semana
-- Dicas de psicologia em carrossel
+- Dicas de psicoterapia em carrossel
 - Reels com insights rápidos
 - Stories com perguntas (engajamento)
 - Link para site na bio
@@ -297,7 +297,7 @@ CTA: "Agendar Consulta"
 
 **TikTok:**
 - Vídeos curtos (15-60 segundos)
-- Mitos sobre psicologia
+- Mitos sobre psicoterapia
 - Dicas rápidas de bem-estar
 - Tendências + seu ângulo profissional
 
@@ -307,7 +307,7 @@ CTA: "Agendar Consulta"
 - Entrevista em podcasts de saúde mental
 - Artigos convidados em blogs populares
 - Webinars com outros profissionais
-- Menções em publicações de psicologia
+- Menções em publicações de psicoterapia
 
 **Benefício:** Backlinks + credibilidade + tráfego referral
 
@@ -324,7 +324,7 @@ CTA: "Agendar Consulta"
 - [ ] Adicionar no footer
 
 **2. Título Principal do Site**
-- [ ] Mudar de "Psicoterapia Clínica" para "Psicólogo Jorge Dias"
+- [ ] Mudar de "Psicoterapia Clínica" para "Psicoterapeuta Jorge Dias"
 - [ ] Atualizar aba do navegador (title tag)
 - [ ] Atualizar meta description
 
@@ -339,7 +339,7 @@ CTA: "Agendar Consulta"
 - [ ] Otimizar para "como", "o que é", "quando"
 
 **5. Certificações e Credenciais**
-- [ ] Adicionar badge do CRP no footer
+- [ ] Adicionar badge do  no footer
 - [ ] Listar certificações e formações
 - [ ] Adicionar links para verificação
 
@@ -359,7 +359,7 @@ CTA: "Agendar Consulta"
 
 ### Semana 1-2
 - [ ] Contratar fotógrafo profissional
-- [ ] Atualizar título do site para "Psicólogo Jorge Dias"
+- [ ] Atualizar título do site para "Psicoterapeuta Jorge Dias"
 - [ ] Atualizar aba do navegador
 - [ ] Adicionar fotos na home, sobre e footer
 

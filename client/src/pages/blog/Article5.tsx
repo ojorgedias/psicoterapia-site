@@ -19,7 +19,7 @@ export default function Article5() {
     >
 <h2>Muito além do "detox de dopamina"</h2>
 <p>
-        As buscas por "como curar o vício em celular" ou "detox de dopamina" explodiram nos últimos anos. As pessoas sentem-se esgotadas, com a atenção fragmentada e incapazes de passar dez minutos em silêncio sem olhar para uma tela. O senso comum costuma tratar esse problema apenas como uma falha química do cérebro, recomendando que você simplesmente desligue o aparelho. No entanto, na psicologia profunda, observamos que o buraco é mais embaixo. O consumo compulsivo de redes sociais não está apenas sugando o seu tempo; ele está causando o que chamo de terceirização do pensamento.
+        As buscas por "como curar o vício em celular" ou "detox de dopamina" explodiram nos últimos anos. As pessoas sentem-se esgotadas, com a atenção fragmentada e incapazes de passar dez minutos em silêncio sem olhar para uma tela. O senso comum costuma tratar esse problema apenas como uma falha química do cérebro, recomendando que você simplesmente desligue o aparelho. No entanto, na psicoterapia profunda, observamos que o buraco é mais embaixo. O consumo compulsivo de redes sociais não está apenas sugando o seu tempo; ele está causando o que chamo de terceirização do pensamento.
       </p>
 <h2>Gurus de internet e o pensamento pré-fabricado</h2>
 <p>

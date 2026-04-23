@@ -13,7 +13,7 @@ export default function BlogList() {
         <article className="prose-clinical">
           <h1>Blog</h1>
           <p>
-            Artigos sobre psicologia clínica, filosofia, relacionamentos, desenvolvimento pessoal e pensamento integrativo.
+            Artigos sobre psicoterapia clínica, filosofia, relacionamentos, desenvolvimento pessoal e pensamento integrativo.
           </p>
 
           <div className="space-y-6 mt-12">

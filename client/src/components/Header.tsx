@@ -19,8 +19,8 @@ export default function Header() {
       description: "Padrões familiares e conflitos de relacionamento"
     },
     {
-      title: "Psicologia Integrativa",
-      route: "/autoridade/psicologia-espiritualidade",
+      title: "Psicoterapia Integrativa",
+      route: "/autoridade/psicoterapia-espiritualidade",
       description: "Filosofia integrativa e espiritualidade"
     }
   ];

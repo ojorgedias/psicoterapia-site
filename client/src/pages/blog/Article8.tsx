@@ -19,7 +19,7 @@ export default function Article8() {
     >
 <h2>O peso de sentir-se uma fraude</h2>
 <p>
-        A "síndrome do impostor" é um dos males mais silenciosos e destrutivos do ambiente profissional e acadêmico de hoje. É aquele sentimento persistente de que você não é tão bom quanto as pessoas pensam, de que as suas conquistas foram pura sorte e de que, a qualquer momento, alguém vai descobrir que você é uma fraude. A internet está cheia de dicas que ensinam a repetir afirmações no espelho ou a "fingir até conseguir". Mas a psicologia profunda nos revela que a síndrome do impostor não é uma simples questão de confiança pessoal; é o sintoma de uma relação doentia com a vulnerabilidade e com a imagem que tentamos vender ao mundo.
+        A "síndrome do impostor" é um dos males mais silenciosos e destrutivos do ambiente profissional e acadêmico de hoje. É aquele sentimento persistente de que você não é tão bom quanto as pessoas pensam, de que as suas conquistas foram pura sorte e de que, a qualquer momento, alguém vai descobrir que você é uma fraude. A internet está cheia de dicas que ensinam a repetir afirmações no espelho ou a "fingir até conseguir". Mas a psicoterapia profunda nos revela que a síndrome do impostor não é uma simples questão de confiança pessoal; é o sintoma de uma relação doentia com a vulnerabilidade e com a imagem que tentamos vender ao mundo.
       </p>
 <h2>A pressão da performance e o medo do erro</h2>
 <p>

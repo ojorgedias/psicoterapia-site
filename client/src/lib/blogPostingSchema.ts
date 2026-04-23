@@ -23,7 +23,7 @@ export const blogPostsMetadata: Record<string, BlogPostMetadata> = {
     datePublished: '2024-01-15',
     dateModified: '2026-02-25',
     author: 'Jorge Dias',
-    keywords: ['autossabotagem', 'sombra', 'lealdades invisíveis', 'psicologia', 'Jung', 'onipotência', 'impotência'],
+    keywords: ['autossabotagem', 'sombra', 'lealdades invisíveis', 'psicoterapia', 'Jung', 'onipotência', 'impotência'],
   },
   'padroes-familiares-relacionamentos': {
     slug: 'padroes-familiares-relacionamentos',
@@ -43,7 +43,7 @@ export const blogPostsMetadata: Record<string, BlogPostMetadata> = {
     datePublished: '2024-02-01',
     dateModified: '2026-02-25',
     author: 'Jorge Dias',
-    keywords: ['narcisismo', 'mãe narcisista', 'trauma', 'relacionamento materno', 'psicologia'],
+    keywords: ['narcisismo', 'mãe narcisista', 'trauma', 'relacionamento materno', 'psicoterapia'],
   },
   'medo-de-ser-feliz': {
     slug: 'medo-de-ser-feliz',
@@ -53,7 +53,7 @@ export const blogPostsMetadata: Record<string, BlogPostMetadata> = {
     datePublished: '2024-02-10',
     dateModified: '2026-02-25',
     author: 'Jorge Dias',
-    keywords: ['medo', 'felicidade', 'lealdades invisíveis', 'culpa', 'psicologia'],
+    keywords: ['medo', 'felicidade', 'lealdades invisíveis', 'culpa', 'psicoterapia'],
   },
   'narcisismo-encoberto': {
     slug: 'narcisismo-encoberto',
@@ -63,17 +63,17 @@ export const blogPostsMetadata: Record<string, BlogPostMetadata> = {
     datePublished: '2024-02-15',
     dateModified: '2026-02-25',
     author: 'Jorge Dias',
-    keywords: ['narcisismo', 'narcisismo encoberto', 'vulnerabilidade', 'máscara', 'psicologia'],
+    keywords: ['narcisismo', 'narcisismo encoberto', 'vulnerabilidade', 'máscara', 'psicoterapia'],
   },
-  'integracao-psicologia-espiritualidade': {
-    slug: 'integracao-psicologia-espiritualidade',
-    headline: 'Integração Psicologia-Espiritualidade: Além do Spiritual Bypass',
+  'integracao-psicoterapia-espiritualidade': {
+    slug: 'integracao-psicoterapia-espiritualidade',
+    headline: 'Integração Psicoterapia-Espiritualidade: Além do Spiritual Bypass',
     description: 'Como integrar desenvolvimento psicológico e espiritual de forma pragmática e rigorosa, evitando armadilhas comuns como spiritual bypass e espiritualidade como fuga.',
     image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png',
     datePublished: '2024-02-20',
     dateModified: '2026-02-25',
     author: 'Jorge Dias',
-    keywords: ['psicologia', 'espiritualidade', 'integração', 'spiritual bypass', 'desenvolvimento'],
+    keywords: ['psicoterapia', 'espiritualidade', 'integração', 'spiritual bypass', 'desenvolvimento'],
   },
   'spiritual-bypass': {
     slug: 'spiritual-bypass',
@@ -83,7 +83,7 @@ export const blogPostsMetadata: Record<string, BlogPostMetadata> = {
     datePublished: '2024-02-25',
     dateModified: '2026-02-25',
     author: 'Jorge Dias',
-    keywords: ['spiritual bypass', 'espiritualidade', 'psicologia', 'meditação', 'desenvolvimento'],
+    keywords: ['spiritual bypass', 'espiritualidade', 'psicoterapia', 'meditação', 'desenvolvimento'],
   },
   'ansiedade-mamute-interior': {
     slug: 'ansiedade-mamute-interior',
@@ -93,7 +93,7 @@ export const blogPostsMetadata: Record<string, BlogPostMetadata> = {
     datePublished: '2024-03-01',
     dateModified: '2026-02-25',
     author: 'Jorge Dias',
-    keywords: ['ansiedade', 'medo social', 'mamute interior', 'psicologia evolutiva', 'trauma'],
+    keywords: ['ansiedade', 'medo social', 'mamute interior', 'psicoterapia evolutiva', 'trauma'],
   },
 };
 

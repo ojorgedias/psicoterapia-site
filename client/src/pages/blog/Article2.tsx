@@ -19,7 +19,7 @@ export default function Article2() {
     >
 <h2>A armadilha de classificar todo mundo como "tóxico"</h2>
 <p>
-        A internet popularizou de forma extrema o uso de palavras como "tóxico" ou "narcisista" para descrever qualquer pessoa com a qual temos dificuldade em lidar. Quando um relacionamento amoroso, familiar ou profissional se torna insuportável, é muito confortável colocar a pessoa que nos irrita na caixa de "pessoa tóxica". Isso nos absolve de qualquer culpa e nos coloca na posição de vítimas de um mundo injusto. No entanto, a psicologia de profundidade traz uma perspectiva muito mais desconfortável, mas infinitamente mais libertadora: muitas vezes, aquilo que irrita você profundamente no outro é apenas um reflexo daquilo que você recusa assumir em si mesmo.
+        A internet popularizou de forma extrema o uso de palavras como "tóxico" ou "narcisista" para descrever qualquer pessoa com a qual temos dificuldade em lidar. Quando um relacionamento amoroso, familiar ou profissional se torna insuportável, é muito confortável colocar a pessoa que nos irrita na caixa de "pessoa tóxica". Isso nos absolve de qualquer culpa e nos coloca na posição de vítimas de um mundo injusto. No entanto, a psicoterapia de profundidade traz uma perspectiva muito mais desconfortável, mas infinitamente mais libertadora: muitas vezes, aquilo que irrita você profundamente no outro é apenas um reflexo daquilo que você recusa assumir em si mesmo.
       </p>
 <h2>O espelho das nossas rejeições e a <Link className="text-primary hover:underline" href="/blog/sombra-relacionamentos">Sombra</Link></h2>
 <p>

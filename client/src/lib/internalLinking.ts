@@ -26,7 +26,7 @@ export const internalLinkingStrategy = {
         { path: '/terapia/adultos/crise-existencial', anchor: 'Crise Existencial' },
         { path: '/terapia/adultos/autossabotagem', anchor: 'Autossabotagem' },
         { path: '/terapia/casais/padroes-familiares', anchor: 'Padrões Familiares' },
-        { path: '/autoridade/psicologia-espiritualidade', anchor: 'Psicologia e Espiritualidade' },
+        { path: '/autoridade/psicoterapia-espiritualidade', anchor: 'Psicoterapia e Espiritualidade' },
       ],
     },
     blog: {
@@ -71,13 +71,13 @@ export const internalLinkingStrategy = {
       keywords: ['crise existencial', 'dialética', 'desenvolvimento pessoal', 'autenticidade'],
     },
     psychologySpirituality: {
-      mainPage: '/autoridade/psicologia-espiritualidade',
+      mainPage: '/autoridade/psicoterapia-espiritualidade',
       relatedPages: [
-        '/blog/integracao-psicologia-espiritualidade',
+        '/blog/integracao-psicoterapia-espiritualidade',
         '/blog/spiritual-bypass',
         '/conceitos-fundamentais',
       ],
-      keywords: ['psicologia espiritualidade', 'integração', 'desenvolvimento espiritual', 'spiritual bypass'],
+      keywords: ['psicoterapia espiritualidade', 'integração', 'desenvolvimento espiritual', 'spiritual bypass'],
     },
   },
 
@@ -118,7 +118,7 @@ export const internalLinkingStrategy = {
 
     // When mentioning spirituality, link to:
     spirituality: [
-      { text: 'Psicologia e Espiritualidade', path: '/autoridade/psicologia-espiritualidade' },
+      { text: 'Psicoterapia e Espiritualidade', path: '/autoridade/psicoterapia-espiritualidade' },
       { text: 'Spiritual Bypass', path: '/blog/spiritual-bypass' },
       { text: 'Integração', path: '/conceitos-fundamentais' },
     ],

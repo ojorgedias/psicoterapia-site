@@ -85,7 +85,7 @@
 | AutossabotagemInconsciente.tsx | autossabotagem | Por que você se sabota? Lógica explicada | Por que você se sabota? A lógica psicológica profunda por trás da autossabotagem |
 | NarcisismoEncoberto.tsx | narcisismo encoberto | Narcisismo encoberto: Falsa humildade | Narcisismo encoberto: Como a falsa humildade sabota seus relacionamentos |
 | SindromeImpostorTerapeutas.tsx | síndrome impostor | Síndrome do impostor: Raiz genealógica | Síndrome do impostor em terapeutas: A raiz genealógica que ninguém fala |
-| IntegracaoPsicologiaEspiritualidade.tsx | psicologia espiritualidade | Psicologia + Espiritualidade: Integração real | Psicologia e espiritualidade: Como integrar sem spiritual bypass |
+| IntegracaoPsicoterapiaEspiritualidade.tsx | psicoterapia espiritualidade | Psicoterapia + Espiritualidade: Integração real | Psicoterapia e espiritualidade: Como integrar sem spiritual bypass |
 | PadroesFamiliaresRelacionamentos.tsx | padrões familiares | Padrões familiares: Por que repetimos ciclos | Por que repetimos padrões familiares? A genealogia invisível dos relacionamentos |
 | MaeNarcisista.tsx | mãe narcisista | Mãe narcisista: Impacto no adulto | Mãe narcisista: Como o impacto na infância molda o adulto |
 | MedoDeSer Feliz.tsx | medo de ser feliz | Medo de ser feliz? Culpa e prosperidade | Por que você tem medo de ser feliz? A culpa da prosperidade explicada |
@@ -126,7 +126,7 @@ useEffect(() => {
 
 ## 6. MÉTRICAS DE SUCESSO
 
-- **CTR esperado**: 4-6% (vs média de 2-3% para psicologia)
+- **CTR esperado**: 4-6% (vs média de 2-3% para psicoterapia)
 - **Dwell time**: 2+ minutos (vs 1:30 média)
 - **Bounce rate**: <40% (vs 50%+ média)
 - **Linkagem interna**: 3-5 links por post

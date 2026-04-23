@@ -57,17 +57,17 @@ Este documento contém estratégias práticas para melhorar o SEO técnico, cont
 - "como lidar com autossabotagem"
 - "regulação emocional técnicas"
 - "desenvolvimento de identidade pessoal"
-- "psicólogo online para ansiedade"
+- "psicoterapeuta online para ansiedade"
 
 #### Casais
 - "terapia de casal online"
 - "como resolver conflitos de relacionamento"
 - "padrões familiares relacionamentos"
-- "psicólogo para casais"
+- "psicoterapeuta para casais"
 - "comunicação em relacionamentos"
 
 #### Espiritualidade
-- "psicologia e espiritualidade"
+- "psicoterapia e espiritualidade"
 - "desenvolvimento integral"
 - "filosofia integrativa"
 - "bypassing espiritual"
@@ -80,7 +80,7 @@ Crie páginas FAQ para cada cluster com perguntas comuns:
 **Exemplo - FAQ Adultos:**
 - "O que é crise existencial?"
 - "Como saber se preciso de terapia?"
-- "Qual é a diferença entre psicólogo e psiquiatra?"
+- "Qual é a diferença entre psicoterapeuta e psiquiatra?"
 - "Quanto custa uma sessão de psicoterapia?"
 - "Como funciona a terapia online?"
 
@@ -123,8 +123,8 @@ Publique (com consentimento) histórias de transformação anônimas:
 ### Links Externos (Recomendado)
 
 1. **Diretórios Profissionais**
-   - Cadastre-se em diretórios de psicólogos:
-     - CRP (Conselho Regional de Psicologia)
+   - Cadastre-se em diretórios de psicoterapeutas:
+     -  (Conselho Regional de Psicoterapia)
      - Doctoranytime
      - Doctoralia
      - Zenklub
@@ -133,7 +133,7 @@ Publique (com consentimento) histórias de transformação anônimas:
 2. **Parcerias e Menções**
    - Busque menções em blogs de saúde mental
    - Colabore com outros profissionais (artigos convidados)
-   - Participe de podcasts sobre psicologia
+   - Participe de podcasts sobre psicoterapia
 
 3. **Conteúdo Linkável**
    - Crie ferramentas úteis (calculadora de bem-estar, quiz de personalidade)
@@ -152,17 +152,17 @@ Publique (com consentimento) histórias de transformação anônimas:
 ### Recomendações
 
 1. **Instagram**
-   - Publique dicas semanais sobre psicologia
+   - Publique dicas semanais sobre psicoterapia
    - Use stories com perguntas (engajamento)
    - Link para blog em bio
 
 2. **LinkedIn**
    - Artigos longos sobre desenvolvimento profissional
-   - Insights sobre psicologia corporativa
+   - Insights sobre psicoterapia corporativa
    - Engajamento com comunidade profissional
 
 3. **TikTok/YouTube Shorts**
-   - Vídeos curtos sobre mitos de psicologia
+   - Vídeos curtos sobre mitos de psicoterapia
    - Dicas de bem-estar em 60 segundos
    - Link para site na bio
 
@@ -280,7 +280,7 @@ Publique (com consentimento) histórias de transformação anônimas:
 - Mantenha site atualizado
 
 ### 5. Local SEO (Se Aplicável)
-- Otimize para "psicólogo em Presidente Epitácio"
+- Otimize para "psicoterapeuta em Presidente Epitácio"
 - Configure Google My Business
 - Obtenha avaliações locais
 
@@ -291,7 +291,7 @@ Publique (com consentimento) histórias de transformação anônimas:
 Se tiver dúvidas sobre implementação de SEO, entre em contato:
 - **Email**: psijorgedias@gmail.com
 - **WhatsApp**: (41) 98515-5583
-- **CRP**: 08/31462
+- ****: 08/31462
 
 ---
 

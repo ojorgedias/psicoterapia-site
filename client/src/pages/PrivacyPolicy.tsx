@@ -16,7 +16,7 @@ export default function PrivacyPolicy() {
 
           <h2>1. Introdução</h2>
           <p>
-            Esta Política de Privacidade descreve como {PSYCHOLOGIST.name} (CRP {PSYCHOLOGIST.crp}) coleta, usa e
+            Esta Política de Privacidade descreve como {PSYCHOLOGIST.name} coleta, usa e
             protege suas informações pessoais quando você visita este site ou contrata nossos serviços de psicoterapia.
           </p>
 
@@ -36,7 +36,7 @@ export default function PrivacyPolicy() {
             <li>Agendar e conduzir sessões de psicoterapia exclusivamente online</li>
             <li>Responder a suas consultas ou solicitações</li>
             <li>Melhorar nosso site e serviços</li>
-            <li>Cumprir obrigações legais e regulatórias do CFP/CRP</li>
+            <li>Cumprir obrigações legais e éticas</li>
           </ul>
 
           <h2>4. Proteção de Dados</h2>
@@ -49,7 +49,7 @@ export default function PrivacyPolicy() {
           <h2>5. Retenção de Dados</h2>
           <p>
             Retemos suas informações pessoais pelo tempo necessário para cumprir os propósitos para os quais
-            foram coletadas, incluindo exigências legais do Conselho Federal de Psicologia (CFP).
+            foram coletadas, incluindo exigências legais e éticas da profissão.
           </p>
 
           <h2>6. Compartilhamento de Informações</h2>

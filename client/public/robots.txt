@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin
 Disallow: /*.json$
 
-Sitemap: https://www.psicologojorgedias.online/sitemap.xml
+Sitemap: https://www.psicoterapeutajorgedias.online/sitemap.xml

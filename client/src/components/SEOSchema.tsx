@@ -46,7 +46,7 @@ export function useLocalBusinessSchema(data: LocalBusinessSchema) {
   useEffect(() => {
     const schema = {
       '@context': 'https://schema.org',
-      '@type': 'PsychologistOrTherapist',
+      '@type': 'Therapist',
       name: data.name,
       description: data.description,
       url: data.url,
@@ -68,8 +68,8 @@ export function useLocalBusinessSchema(data: LocalBusinessSchema) {
       })),
       knowsAbout: data.knowsAbout,
       sameAs: [
-        'https://www.instagram.com/jorgediaspsicologia',
-        'https://www.linkedin.com/in/jorgediaspsicologia',
+        'https://www.instagram.com/jorgediaspsicoterapia',
+        'https://www.linkedin.com/in/jorgediaspsicoterapia',
       ],
     };
 
@@ -126,7 +126,7 @@ export function useBlogPostingSchema(data: BlogPostingSchema) {
       },
       publisher: {
         '@type': 'Organization',
-        name: 'Psicólogo Jorge Dias',
+        name: 'Psicoterapeuta Jorge Dias',
         logo: {
           '@type': 'ImageObject',
           url: 'https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png',

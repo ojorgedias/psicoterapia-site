@@ -39,7 +39,7 @@ export default function FamilyPatterns() {
 
       <h2>Transforme seus relacionamentos</h2>
       <p>
-        Quando você consegue se desembaraçar dos padrões familiares não resolvidos, seus relacionamentos amorosos se transformam radicalmente. Você deixa de atrair pessoas que replicam dinâmicas antigas e passa a fazer escolhas genuinamente suas. Se você sente que está repetindo ciclos familiares nos seus relacionamentos, a psicoterapia de casal oferece um espaço seguro para essa investigação. Realizo atendimentos psicológicos online em nível global.
+        Quando você consegue se desembaraçar dos padrões familiares não resolvidos, seus relacionamentos amorosos se transformam radicalmente. Você deixa de atrair pessoas que replicam dinâmicas antigas e passa a fazer escolhas genuinamente suas. Se você sente que está repetindo ciclos familiares nos seus relacionamentos, a psicoterapia de casal oferece um espaço seguro para essa investigação. Realizo atendimentos psicoterapêuticos online em nível global.
       </p>
     </ServicePage>
   );

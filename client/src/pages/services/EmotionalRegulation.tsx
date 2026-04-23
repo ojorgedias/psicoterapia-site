@@ -19,7 +19,7 @@ export default function EmotionalRegulation() {
     >
       <h2>A ilusão do controle e os extremos da experiência humana</h2>
       <p>
-        Na cultura contemporânea, somos frequentemente levados a acreditar que o funcionamento psicológico saudável consiste num estado de equilíbrio perpétuo, uma espécie de planície emocional onde nada nos afeta profundamente. No entanto, a realidade clínica demonstra que não existe uma fórmula única para equilibrar a racionalização e a vivência das emoções. Cada indivíduo sente, processa e funciona através de uma arquitetura psíquica absolutamente singular. O sofrimento agudo, traduzido frequentemente em picos de ansiedade ou num vazio insuportável, não surge do facto de sentirmos demasiado, mas de nos tornarmos reféns de mecanismos automáticos de defesa face àquilo que sentimos.
+        Na cultura contemporânea, somos frequentemente levados a acreditar que o funcionamento psicoterapêutico saudável consiste num estado de equilíbrio perpétuo, uma espécie de planície emocional onde nada nos afeta profundamente. No entanto, a realidade clínica demonstra que não existe uma fórmula única para equilibrar a racionalização e a vivência das emoções. Cada indivíduo sente, processa e funciona através de uma arquitetura psíquica absolutamente singular. O sofrimento agudo, traduzido frequentemente em picos de ansiedade ou num vazio insuportável, não surge do facto de sentirmos demasiado, mas de nos tornarmos reféns de mecanismos automáticos de defesa face àquilo que sentimos.
       </p>
 
       <p>
@@ -55,7 +55,7 @@ export default function EmotionalRegulation() {
 
       <h2>Transforme sua relação com as emoções</h2>
       <p>
-        Se você vive oscilando entre crises emocionais intensas e um vazio paralisante, ou se sente preso num dos extremos, a psicoterapia oferece um caminho para a libertação. Realizo atendimentos psicológicos online em nível global.
+        Se você vive oscilando entre crises emocionais intensas e um vazio paralisante, ou se sente preso num dos extremos, a psicoterapia oferece um caminho para a libertação. Realizo atendimentos psicoterapêuticos online em nível global.
       </p>
     </ServicePage>
   );

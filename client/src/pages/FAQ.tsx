@@ -15,12 +15,12 @@ const faqItems: FAQItem[] = [
   {
     category: 'Fundamentos da Abordagem',
     question: 'O que diferencia sua abordagem de outras terapias?',
-    answer: 'Eu trabalho na interseção entre psicologia clínica, filosofia e antropologia. Enquanto muitas abordagens tentam "transformar" ou "corrigir" você através de técnicas de controle, minha prática se baseia na mediação e compreensão.. Não busco silenciar sua voz interior ou impor uma "régua pronta" de como você deveria ser. Em vez disso, investigamos juntos as estruturas invisíveis que governam seu comportamento, compreendemos sua origem e função, e você desenvolve discernimento para fazer escolhas genuinamente autênticas. É um processo de arqueologia pessoal, não de transformação mágica.'
+    answer: 'Eu trabalho na interseção entre psicoterapia clínica, filosofia e antropologia. Enquanto muitas abordagens tentam "transformar" ou "corrigir" você através de técnicas de controle, minha prática se baseia na mediação e compreensão.. Não busco silenciar sua voz interior ou impor uma "régua pronta" de como você deveria ser. Em vez disso, investigamos juntos as estruturas invisíveis que governam seu comportamento, compreendemos sua origem e função, e você desenvolve discernimento para fazer escolhas genuinamente autênticas. É um processo de arqueologia pessoal, não de transformação mágica.'
   },
   {
     category: 'Fundamentos da Abordagem',
-    question: 'Você trabalha com espiritualidade? Como isso se integra com psicologia?',
-    answer: 'Sim, mas de forma pragmática e rigorosa. Na minha prática, não há separação real entre desenvolvimento psicológico e espiritual—eles caminham juntos. A questão é que muitas práticas espirituais fracassam porque não levam em conta as dinâmicas psicológicas não resolvidas. Por exemplo, uma pessoa pode tentar práticas meditativas, mas se há trauma ou padrões inconscientes de auto-sabotagem operando, a prática fica bloqueada. Minha abordagem usa a psicologia clínica (Jung, trauma, etc.) como ferramenta para compreender o que está impedindo o desenvolvimento espiritual genuíno. Isso não é "espiritualidade light"—é integração real.'
+    question: 'Você trabalha com espiritualidade? Como isso se integra com psicoterapia?',
+    answer: 'Sim, mas de forma pragmática e rigorosa. Na minha prática, não há separação real entre desenvolvimento psicológico e espiritual—eles caminham juntos. A questão é que muitas práticas espirituais fracassam porque não levam em conta as dinâmicas psicológicas não resolvidas. Por exemplo, uma pessoa pode tentar práticas meditativas, mas se há trauma ou padrões inconscientes de auto-sabotagem operando, a prática fica bloqueada. Minha abordagem usa a psicoterapia clínica (Jung, trauma, etc.) como ferramenta para compreender o que está impedindo o desenvolvimento espiritual genuíno. Isso não é "espiritualidade light"—é integração real.'
   },
   {
     category: 'Fundamentos da Abordagem',
@@ -121,7 +121,7 @@ export default function FAQ() {
   
   // Update page meta tags
   useEffect(() => {
-    document.title = 'FAQ - Psicólogo Jorge Dias | Perguntas Frequentes';
+    document.title = 'FAQ - Psicoterapeuta Jorge Dias | Perguntas Frequentes';
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Perguntas frequentes sobre psicoterapia clínica, autossabotagem, padrões familiares, crise existencial e desenvolvimento pessoal.');

@@ -122,7 +122,7 @@ const concepts: Concept[] = [
         <h4 className="font-semibold text-foreground mt-6">Por Que Isso Importa na Terapia</h4>
 
         <p>
-          Muita psicologia ocidental trabalha com o modelo de governabilidade—você precisa "vencer" seus problemas, "superar" seus traumas, "dominar" suas emoções. Minha abordagem trabalha com mediação. Não tentamos dominar ou eliminar nada. Tentamos compreender, integrar e mediar. Isso cria uma relação diferente com você mesmo—menos de guerra, mais de diálogo.
+          Muita psicoterapia ocidental trabalha com o modelo de governabilidade—você precisa "vencer" seus problemas, "superar" seus traumas, "dominar" suas emoções. Minha abordagem trabalha com mediação. Não tentamos dominar ou eliminar nada. Tentamos compreender, integrar e mediar. Isso cria uma relação diferente com você mesmo—menos de guerra, mais de diálogo.
         </p>
       </div>
     )
@@ -324,7 +324,7 @@ export default function ConceptosFundamentais() {
             Conceitos Fundamentais
           </h1>
           <p className="text-lg text-muted-foreground">
-            Entenda a filosofia e a psicologia que sustentam minha abordagem terapêutica. Esses conceitos são fundamentais para compreender como funciona a investigação profunda de si mesmo.
+            Entenda a filosofia e a psicoterapia que sustentam minha abordagem terapêutica. Esses conceitos são fundamentais para compreender como funciona a investigação profunda de si mesmo.
           </p>
         </div>
 

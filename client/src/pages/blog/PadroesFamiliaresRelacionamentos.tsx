@@ -23,7 +23,7 @@ export default function PadroesFamiliaresRelacionamentos() {
   }
   
   useEffect(() => {
-    document.title = 'Padrões familiares em relacionamentos: Libertação consciente | Psicólogo Jorge Dias';
+    document.title = 'Padrões familiares em relacionamentos: Libertação consciente | Psicoterapeuta Jorge Dias';
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription && metadata) {
       metaDescription.setAttribute('content', 'Padrões familiares em relacionamentos: como dinâmicas herdadas sabotam seu amor. Caminho para libertação consciente.');

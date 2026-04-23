@@ -2,11 +2,11 @@ export const COOKIE_NAME = "app_session_id";
 export const ONE_YEAR_MS = 1000 * 60 * 60 * 24 * 365;
 
 /**
- * Psychologist Information and Contact Details
+ * Psychotherapist Information and Contact Details
  */
 export const PSYCHOLOGIST = {
   name: "Jorge Dias",
-  crp: "08/31462",
+  crp: "",
   email: "psijorgedias@gmail.com",
   whatsapp: "41985155583",
   whatsappLink: "https://wa.me/5541985155583?text=Olá%20Jorge%2C%20gostaria%20de%20agendar%20uma%20consulta.",
@@ -20,7 +20,7 @@ export const SITE_CONFIG = {
   title: "Psicoterapia Clínica - Jorge Dias",
   description:
     "Psicoterapia clínica online focada em investigação filosófica, autoconhecimento profundo e desenvolvimento integral. Atendimento para adultos, casais e questões existenciais. 100% online para Brasil e exterior.",
-  url: "https://psicologojorgedias.online",
+  url: "https://psicoterapeutajorgedias.online",
   locale: "pt-BR",
   language: "pt",
 };
@@ -28,14 +28,14 @@ export const SITE_CONFIG = {
 export const SEO_KEYWORDS = {
   general: [
     "psicoterapia online",
-    "psicólogo online",
+    "psicoterapeuta online",
     "terapia para adultos",
     "terapia de casal",
-    "psicologia clínica",
+    "psicoterapia clínica",
     "autoconhecimento",
     "desenvolvimento pessoal",
     "terapia online brasil",
-    "psicólogo clínico",
+    "psicoterapeuta clínico",
   ],
   adults: [
     "crise existencial",
@@ -53,7 +53,7 @@ export const SEO_KEYWORDS = {
     "comunicação de casal",
   ],
   spirituality: [
-    "psicologia e espiritualidade",
+    "psicoterapia e espiritualidade",
     "desenvolvimento integral",
     "filosofia",
     "pensamento integrativo",
@@ -70,8 +70,8 @@ export const SOCIAL_LINKS = {
  */
 export const EEAT_AUTHOR = {
   name: "Jorge Dias",
-  title: "Psicólogo Clínico",
-  crp: "08/31462",
+  title: "Psicoterapeuta Clínico",
+  crp: "",
   education: "Universidade Estadual de Londrina (UEL)",
   experience: "5+ anos de prática clínica",
   specializations: [
@@ -84,7 +84,6 @@ export const EEAT_AUTHOR = {
   ],
   credentials: [
     "Graduado em Psicologia pela UEL",
-    "Registrado no CRP (Conselho Regional de Psicologia)",
     "Especializado em Psicoterapia Clínica",
   ],
 };

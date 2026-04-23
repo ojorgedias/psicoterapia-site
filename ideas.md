@@ -107,7 +107,7 @@ O site transmite a sobriedade de um consultório de alto padrão, combinado com 
 - [Conteúdo a ser extraído do arquivo]
 
 **Cluster 4: Autoridade/Aprofundamento (2 páginas)**
-- Psicologia e Espiritualidade de Forma Integrativa
+- Psicoterapia e Espiritualidade de Forma Integrativa
 - Filosofia e Pensamento Integrativo
 
 ### Blog (10 artigos)
@@ -143,7 +143,7 @@ O site transmite a sobriedade de um consultório de alto padrão, combinado com 
 
 /terapia/jovens/*                     → Cluster 3
 
-/autoridade/psicologia-espiritualidade → Cluster 4.1
+/autoridade/psicoterapia-espiritualidade → Cluster 4.1
 /autoridade/filosofia-integrativa     → Cluster 4.2
 
 /blog                                 → Lista de artigos

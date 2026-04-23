@@ -1,4 +1,4 @@
-# 🎯 Guia Completo: SEO e Tráfego Orgânico para Psicólogo Jorge Dias
+# 🎯 Guia Completo: SEO e Tráfego Orgânico para Psicoterapeuta Jorge Dias
 
 ## 📊 Situação Atual
 
@@ -40,7 +40,7 @@
 #### 3. Google Business Profile
 - Acesse: https://business.google.com/
 - Crie perfil com:
-  - Nome: "Psicólogo Jorge Dias"
+  - Nome: "Psicoterapeuta Jorge Dias"
   - Endereço: Presidente Epitácio - SP
   - Telefone: (41) 98515-5583
   - Website: seu domínio
@@ -52,7 +52,7 @@
 #### 4. Schema.org Markup
 Seu site já tem alguns, mas adicione:
 - **LocalBusiness**: Endereço, telefone, horários
-- **ProfessionalService**: Credenciais (CRP)
+- **ProfessionalService**: Credenciais ()
 - **AggregateRating**: Avaliações do Zenklub (5 stars, 42 reviews)
 
 ---
@@ -76,7 +76,7 @@ Crie 3 páginas FAQ (uma por cluster):
 - "Como lidar com padrões herdados da família?"
 
 **Cluster 4 - Autoridade** (`/faq/autoridade`):
-- "Qual é a relação entre psicologia e espiritualidade?"
+- "Qual é a relação entre psicoterapia e espiritualidade?"
 - "Como integrar desenvolvimento psicológico e espiritual?"
 - "O que é bypassing espiritual?"
 
@@ -160,12 +160,12 @@ Cadastre-se em diretórios profissionais (gera backlinks + tráfego):
 #### Instagram (Prioridade 1)
 - **Frequência**: 3-4 posts/semana
 - **Conteúdo**:
-  - Dicas de psicologia (carousel posts)
+  - Dicas de psicoterapia (carousel posts)
   - Reflexões filosóficas (stories)
   - Behind-the-scenes (reels)
   - Depoimentos de clientes (com permissão)
   - Lives semanais (Q&A)
-- **Hashtags**: #psicologia #terapia #autoconhecimento #mentalhealth
+- **Hashtags**: #psicoterapia #terapia #autoconhecimento #mentalhealth
 - **CTA**: Link na bio para seu site
 
 #### TikTok (Prioridade 2)
@@ -182,7 +182,7 @@ Cadastre-se em diretórios profissionais (gera backlinks + tráfego):
 - **Frequência**: 2-3 posts/semana
 - **Conteúdo**:
   - Artigos profundos
-  - Insights sobre psicologia corporativa
+  - Insights sobre psicoterapia corporativa
   - Reflexões sobre liderança e autoconhecimento
   - Networking com outros profissionais
 
@@ -193,7 +193,7 @@ Cadastre-se em diretórios profissionais (gera backlinks + tráfego):
 #### Newsletter Semanal
 - Crie formulário de inscrição no site
 - Envie 1 email/semana com:
-  - Dica prática de psicologia
+  - Dica prática de psicoterapia
   - Artigo do blog
   - Reflexão filosófica
   - CTA: Agendar sessão
@@ -213,7 +213,7 @@ Ofereça ebook gratuito em troca de email:
 #### 1. Guest Posts
 Escreva artigos para blogs de:
 - Plataformas de bem-estar
-- Blogs de psicologia
+- Blogs de psicoterapia
 - Revistas online
 - Cada post = 1 backlink + tráfego
 
@@ -223,7 +223,7 @@ Escreva artigos para blogs de:
 - Eles linkam para você = tráfego + autoridade
 
 #### 3. Comentários em Blogs
-- Encontre blogs sobre psicologia
+- Encontre blogs sobre psicoterapia
 - Deixe comentários relevantes com seu link
 - Não spam! Contribua genuinamente
 
@@ -232,20 +232,20 @@ Escreva artigos para blogs de:
 ## 📈 Palavras-Chave Prioritárias
 
 ### Alto Volume + Baixa Concorrência (Ouro)
-- "psicólogo especializado em crise existencial"
+- "psicoterapeuta especializado em crise existencial"
 - "terapia online para autossabotagem"
 - "psicoterapia para regulação emocional"
 - "terapia de casal online"
-- "psicólogo filosofia existencial"
+- "psicoterapeuta filosofia existencial"
 
 ### Médio Volume + Média Concorrência (Prata)
-- "psicólogo online Brasil"
+- "psicoterapeuta online Brasil"
 - "terapia para ansiedade"
 - "psicoterapia clínica"
 - "consultor de relacionamentos"
 
 ### Alto Volume + Alta Concorrência (Difícil)
-- "psicólogo online"
+- "psicoterapeuta online"
 - "terapia online"
 - "psicoterapia"
 
@@ -262,13 +262,13 @@ Escreva artigos para blogs de:
 - **ROI**: Excelente (1 cliente = R$ 200+)
 
 **Palavras-chave recomendadas**:
-- "psicólogo crise existencial"
+- "psicoterapeuta crise existencial"
 - "terapia online autossabotagem"
 - "psicoterapia regulação emocional"
 
 ### Facebook Ads
 - **Budget**: R$ 300-500/mês
-- **Segmentação**: Pessoas interessadas em psicologia, bem-estar, desenvolvimento pessoal
+- **Segmentação**: Pessoas interessadas em psicoterapia, bem-estar, desenvolvimento pessoal
 - **Conversão esperada**: 3-8 clientes/mês
 
 ---
@@ -338,7 +338,7 @@ Escreva artigos para blogs de:
 
 5. **Iterar**: Se uma estratégia não funciona em 4 semanas, mude. Dados > Intuição.
 
-6. **Comunidade**: Conecte-se com outros psicólogos. Parcerias geram tráfego mútuo.
+6. **Comunidade**: Conecte-se com outros psicoterapeutas. Parcerias geram tráfego mútuo.
 
 7. **Testimonials**: Suas 42 avaliações 5 estrelas no Zenklub são ouro. Use-as no site!
 

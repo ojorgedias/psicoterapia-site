@@ -23,14 +23,14 @@ export default function Article7() {
       </p>
 <h2>O que é o "Bypassing Espiritual"?</h2>
 <p>
-        Na psicologia, damos o nome de bypassing espiritual (ou desvio espiritual) ao ato de usar ideias e práticas espirituais para evitar o confronto com feridas emocionais, traumas de infância ou responsabilidades da vida adulta. É a pessoa que responde a um conflito grave de relacionamento dizendo que "tudo é energia e precisamos apenas emanar luz", quando, na verdade, ela não desenvolveu o mínimo de ferramentas para lidar com a <Link href="/terapia/adultos/regulacao-emocional">regulação emocional e controle da <Link className="text-primary hover:underline" href="/ansiedade">ansiedade</Link></Link>.
+        Na psicoterapia, damos o nome de bypassing espiritual (ou desvio espiritual) ao ato de usar ideias e práticas espirituais para evitar o confronto com feridas emocionais, traumas de infância ou responsabilidades da vida adulta. É a pessoa que responde a um conflito grave de relacionamento dizendo que "tudo é energia e precisamos apenas emanar luz", quando, na verdade, ela não desenvolveu o mínimo de ferramentas para lidar com a <Link href="/terapia/adultos/regulacao-emocional">regulação emocional e controle da <Link className="text-primary hover:underline" href="/ansiedade">ansiedade</Link></Link>.
       </p>
 <p>
         A espiritualidade não deve ser uma anestesia. Quando tentamos transcender os nossos problemas humanos sem antes encará-los de frente, nós não nos iluminamos; apenas nos desconectamos da realidade, criando um personagem "zen" que, por dentro, continua ferido e reativo.
       </p>
 <h2>A Metáfora do Jardim Interior</h2>
 <p>
-        Para entender como a psicologia e a espiritualidade devem se integrar, gosto de usar a metáfora do Jardim Interior. Imagine a sua mente como um vasto jardim vertical. Nas raízes profundas, na terra escura, estão os seus instintos mais primitivos, os seus medos, a sua sobrevivência e os traumas do seu passado. No meio, estão as folhas e os galhos, que representam as suas emoções. E lá no topo, as copas das árvores, que alcançam o céu, representam a sua consciência superior e a sua espiritualidade.
+        Para entender como a psicoterapia e a espiritualidade devem se integrar, gosto de usar a metáfora do Jardim Interior. Imagine a sua mente como um vasto jardim vertical. Nas raízes profundas, na terra escura, estão os seus instintos mais primitivos, os seus medos, a sua sobrevivência e os traumas do seu passado. No meio, estão as folhas e os galhos, que representam as suas emoções. E lá no topo, as copas das árvores, que alcançam o céu, representam a sua consciência superior e a sua espiritualidade.
       </p>
 <p>
         O grande erro da busca espiritual moderna é querer viver apenas na copa da árvore, olhando para a luz, enquanto as raízes apodrecem por conta de uma grave <Link href="/terapia/adultos/autossabotagem">autossabotagem e padrões de repetição</Link> não resolvidos. Uma copa frondosa é completamente dependente de raízes saudáveis. Você não pode voar alto no espírito se a sua estrutura psicológica não tem estabilidade para sustentar esse voo.
@@ -40,7 +40,7 @@ export default function Article7() {
         O verdadeiro despertar exige que você desça até a terra, limpe as suas raízes e organize a sua base emocional. Isso significa olhar para as suas sombras, resolver conflitos familiares e assumir a responsabilidade pela própria vida.
       </p>
 <p>
-        Se você leva o seu desenvolvimento interior a sério e deseja integrar a mente e o espírito de forma pragmática, sem cair em ilusões ou sectarismos, a abordagem de <Link href="/autoridade/psicologia-espiritualidade">psicologia e espiritualidade de forma integrativa</Link> oferece um caminho seguro. Realizo atendimentos psicológicos online para Brasil e exterior.
+        Se você leva o seu desenvolvimento interior a sério e deseja integrar a mente e o espírito de forma pragmática, sem cair em ilusões ou sectarismos, a abordagem de <Link href="/autoridade/psicoterapia-espiritualidade">psicoterapia e espiritualidade de forma integrativa</Link> oferece um caminho seguro. Realizo atendimentos psicológicos online para Brasil e exterior.
       </p>
 </ArticlePage>
   );

@@ -44,13 +44,12 @@ export default function TermsOfUse() {
 
           <h2>5. Serviços de Psicoterapia</h2>
           <p>
-            Os serviços de psicoterapia oferecidos são fornecidos por {PSYCHOLOGIST.name}, psicólogo registrado com CRP{" "}
-            {PSYCHOLOGIST.crp}. Estes serviços:
+            Os serviços de psicoterapia oferecidos são fornecidos por {PSYCHOLOGIST.name}. Estes serviços:
           </p>
           <ul>
             <li>Não substituem atendimento médico de emergência</li>
             <li>Requerem consentimento informado antes do início do tratamento</li>
-            <li>Estão sujeitos ao Código de Ética Profissional do Psicólogo</li>
+            <li>Estão sujeitos ao sigilo profissional e ética clínica</li>
             <li>Podem ser encerrados por qualquer uma das partes com notificação apropriada</li>
           </ul>
 

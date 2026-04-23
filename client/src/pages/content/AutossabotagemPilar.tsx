@@ -5,7 +5,7 @@ import { updatePageMeta } from '@/lib/seoMetadata';
 
 export default function AutossabotagemPilar() {
   useEffect(() => {
-    document.title = 'Autossabotagem: Além do Conceito | Psicólogo Jorge Dias';
+    document.title = 'Autossabotagem: Além do Conceito | Psicoterapeuta Jorge Dias';
     
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {

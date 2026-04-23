@@ -38,7 +38,7 @@ export default function RelationshipPatterns() {
 
       <h2>Transforme sua vida amorosa</h2>
       <p>
-        Superar um rompimento doloroso e evitar a repetição de ciclos destrutivos exige um ambiente de escuta qualificada, livre de clichês e julgamentos morais. Se percebe que está preso nestes padrões, a intervenção profissional pode ajudá-lo a reescrever o seu roteiro afetivo. Ofereço atendimento psicológico online em nível global e .
+        Superar um rompimento doloroso e evitar a repetição de ciclos destrutivos exige um ambiente de escuta qualificada, livre de clichês e julgamentos morais. Se percebe que está preso nestes padrões, a intervenção profissional pode ajudá-lo a reescrever o seu roteiro afetivo. Ofereço atendimento psicoterapêutico online em nível global e .
       </p>
     </ServicePage>
   );

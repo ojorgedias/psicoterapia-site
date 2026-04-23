@@ -13,11 +13,11 @@ export default function IntegrativePhilosophy() {
     >
       <h2>Além da fragmentação moderna</h2>
             <p className="text-slate-700 leading-relaxed mb-6">
-              Minha abordagem integrativa é profundamente enraizada na psicologia analítica de Carl Jung, que nos ensina a explorar as profundezas do inconsciente e a integrar as diversas facetas da psique. Complementarmente, o pensamento crítico de Michel Foucault nos permite desconstruir as narrativas de poder e as "verdades" impostas, enquanto a sabedoria ancestral das cosmologias indígenas originárias oferece uma perspectiva holística e ecológica da existência. Essa fusão de saberes garante um rigor clínico que transcende o misticismo superficial, ancorando a psicoterapia em uma base sólida e ética.
+              Minha abordagem integrativa é profundamente enraizada na psicoterapia analítica de Carl Jung, que nos ensina a explorar as profundezas do inconsciente e a integrar as diversas facetas da psique. Complementarmente, o pensamento crítico de Michel Foucault nos permite desconstruir as narrativas de poder e as "verdades" impostas, enquanto a sabedoria ancestral das cosmologias indígenas originárias oferece uma perspectiva holística e ecológica da existência. Essa fusão de saberes garante um rigor clínico que transcende o misticismo superficial, ancorando a psicoterapia em uma base sólida e ética.
             </p>
         
       <p>
-        A modernidade nos treinou a fragmentar a realidade em categorias isoladas: mente vs. corpo, razão vs. emoção, espírito vs. matéria, trabalho vs. vida pessoal. Essa fragmentação é a raiz de muito sofrimento contemporâneo. O pensamento integrativo propõe uma visão onde tudo está interconectado, onde a psicologia não é separada da filosofia, onde a vida não é dividida em compartimentos estanques.
+        A modernidade nos treinou a fragmentar a realidade em categorias isoladas: mente vs. corpo, razão vs. emoção, espírito vs. matéria, trabalho vs. vida pessoal. Essa fragmentação é a raiz de muito sofrimento contemporâneo. O pensamento integrativo propõe uma visão onde tudo está interconectado, onde a psicoterapia não é separada da filosofia, onde a vida não é dividida em compartimentos estanques.
       </p>
 
       <h2>A dialética: Tese, Antítese e Síntese</h2>
@@ -42,7 +42,7 @@ export default function IntegrativePhilosophy() {
 
       <h2>Explore o pensamento integrativo</h2>
       <p>
-        Se você está interessado em explorar essas questões filosóficas de forma prática e aplicada à sua vida, a psicoterapia oferece um espaço para essa investigação. Realizo atendimentos psicológicos online para Brasil e exterior.
+        Se você está interessado em explorar essas questões filosóficas de forma prática e aplicada à sua vida, a psicoterapia oferece um espaço para essa investigação. Realizo atendimentos psicoterapêuticos online para Brasil e exterior.
       </p>
     </ServicePage>
   );

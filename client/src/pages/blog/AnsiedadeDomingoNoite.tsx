@@ -54,7 +54,7 @@ export default function AnsiedadeDomingoNoite() {
 
             <h2>Quando Procurar Ajuda Profissional</h2>
             <p className="text-slate-700 leading-relaxed mb-6">
-              Se a ansiedade de domingo à noite é persistente, intensa e interfere significativamente na sua qualidade de vida, buscar apoio psicológico é fundamental. A terapia pode ajudar a identificar as raízes mais profundas da ansiedade, desenvolver mecanismos de enfrentamento saudáveis e construir uma vida mais equilibrada e satisfatória. O psicólogo Jorge Dias oferece um espaço de acolhimento e ferramentas para transformar a angústia em autoconhecimento e resiliência.
+              Se a ansiedade de domingo à noite é persistente, intensa e interfere significativamente na sua qualidade de vida, buscar apoio psicológico é fundamental. A terapia pode ajudar a identificar as raízes mais profundas da ansiedade, desenvolver mecanismos de enfrentamento saudáveis e construir uma vida mais equilibrada e satisfatória. O psicoterapeuta Jorge Dias oferece um espaço de acolhimento e ferramentas para transformar a angústia em autoconhecimento e resiliência.
             </p>
 
             <div className="mt-12 p-8 bg-slate-100 rounded-lg">

@@ -62,7 +62,7 @@ export default function MaesImaturas() {
               <li><strong>Cultivar Relacionamentos Saudáveis:</strong> Atrair e manter pessoas que ofereçam reciprocidade e apoio genuíno.</li>
             </ul>
             <p className="text-slate-700 leading-relaxed mb-6">
-              Se você se identifica com esses padrões e sente o peso de um vazio afetivo, saiba que é possível reescrever sua história. A jornada para a autonomia emocional é desafiadora, mas profundamente recompensadora. O psicólogo Jorge Dias oferece suporte especializado para ajudá-lo a navegar por essas dinâmicas e construir uma vida adulta plena e autêntica.
+              Se você se identifica com esses padrões e sente o peso de um vazio afetivo, saiba que é possível reescrever sua história. A jornada para a autonomia emocional é desafiadora, mas profundamente recompensadora. O psicoterapeuta Jorge Dias oferece suporte especializado para ajudá-lo a navegar por essas dinâmicas e construir uma vida adulta plena e autêntica.
             </p>
 
             <div className="mt-12 p-8 bg-slate-100 rounded-lg">

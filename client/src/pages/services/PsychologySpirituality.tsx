@@ -6,18 +6,18 @@ export default function PsychologySpirituality() {
 
   return (
     <ServicePage
-      title="Psicologia e Espiritualidade de Forma Integrativa"
+      title="Psicoterapia e Espiritualidade de Forma Integrativa"
       breadcrumbs={[
         { label: "Início", href: "/" },
         { label: "Autoridade" },
-        { label: "Psicologia e Espiritualidade" },
+        { label: "Psicoterapia e Espiritualidade" },
       ]}
       relatedArticles={relatedArticles}
       ctaText="Agendar consulta sobre desenvolvimento integral"
     >
-      <h2>Integrando psicologia e espiritualidade</h2>
+      <h2>Integrando psicoterapia e espiritualidade</h2>
             <p className="text-slate-700 leading-relaxed mb-6">
-              Em minha prática, a integração entre psicologia e espiritualidade é guiada pelos princípios da psicologia analítica de Carl Jung, que reconhece a dimensão arquetípica e transpessoal da experiência humana. Utilizo também o rigor crítico de Michel Foucault para questionar as construções sociais da normalidade e da patologia, e me inspiro na profunda sabedoria das cosmologias indígenas originárias, que oferecem uma visão de mundo onde o ser humano é parte integrante de uma teia complexa de vida. Essa abordagem multifacetada visa a um desenvolvimento integral, que honra tanto a psique individual quanto a conexão com o sagrado, sem cair em dogmas ou superficialidades.
+              Em minha prática, a integração entre psicoterapia e espiritualidade é guiada pelos princípios da psicoterapia analítica de Carl Jung, que reconhece a dimensão arquetípica e transpessoal da experiência humana. Utilizo também o rigor crítico de Michel Foucault para questionar as construções sociais da normalidade e da patologia, e me inspiro na profunda sabedoria das cosmologias indígenas originárias, que oferecem uma visão de mundo onde o ser humano é parte integrante de uma teia complexa de vida. Essa abordagem multifacetada visa a um desenvolvimento integral, que honra tanto a psique individual quanto a conexão com o sagrado, sem cair em dogmas ou superficialidades.
             </p>
         
       <p>
@@ -26,7 +26,7 @@ export default function PsychologySpirituality() {
 
       <h2>O perigo do desvio espiritual</h2>
       <p>
-        Uma pessoa pode estar num retiro espiritual, meditando profundamente, e ainda assim estar completamente desconectada das suas emoções reais. Pode responder a um conflito grave de relacionamento dizendo que "tudo é energia e precisamos apenas emanar luz", quando na verdade não desenvolveu as ferramentas mínimas para lidar com a regulação emocional. A espiritualidade genuína não transcende a psicologia; ela a integra.
+        Uma pessoa pode estar num retiro espiritual, meditando profundamente, e ainda assim estar completamente desconectada das suas emoções reais. Pode responder a um conflito grave de relacionamento dizendo que "tudo é energia e precisamos apenas emanar luz", quando na verdade não desenvolveu as ferramentas mínimas para lidar com a regulação emocional. A espiritualidade genuína não transcende a psicoterapia; ela a integra.
       </p>
 
       <h2>A metáfora do jardim interior</h2>
@@ -45,7 +45,7 @@ export default function PsychologySpirituality() {
 
       <h2>Desenvolva-se com os pés no chão</h2>
       <p>
-        Se você leva o seu desenvolvimento interior a sério e deseja integrar a mente e o espírito de forma pragmática, sem cair em ilusões ou sectarismos, a abordagem integrativa oferece um caminho seguro. Realizo atendimentos psicológicos online para Brasil e exterior.
+        Se você leva o seu desenvolvimento interior a sério e deseja integrar a mente e o espírito de forma pragmática, sem cair em ilusões ou sectarismos, a abordagem integrativa oferece um caminho seguro. Realizo atendimentos psicoterapêuticos online para Brasil e exterior.
       </p>
     </ServicePage>
   );

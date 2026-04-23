@@ -4,7 +4,7 @@ import Layout from '@/components/Layout';
 
 export default function AnsiedadePilar() {
   useEffect(() => {
-    document.title = 'Ansiedade: Do Mamute Interior à Integração | Psicólogo Jorge Dias';
+    document.title = 'Ansiedade: Do Mamute Interior à Integração | Psicoterapeuta Jorge Dias';
     
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {

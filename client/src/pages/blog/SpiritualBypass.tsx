@@ -23,7 +23,7 @@ export default function SpiritualBypass() {
   }
   
   useEffect(() => {
-    document.title = 'Spiritual bypass: Quando espiritualidade evita crescimento | Psicólogo Jorge Dias';
+    document.title = 'Spiritual bypass: Quando espiritualidade evita crescimento | Psicoterapeuta Jorge Dias';
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription && metadata) {
       metaDescription.setAttribute('content', 'Spiritual bypass: como a espiritualidade pode evitar crescimento psicológico real. Integração clínica e ética.');
@@ -90,19 +90,19 @@ export default function SpiritualBypass() {
 </ul>
 <p className="bg-primary/10 border-l-4 border-primary p-4 italic">
 <strong>Leia também:</strong> Nossa abordagem de{' '}
-            <Link className="text-primary hover:underline" href="/autoridade/psicologia-espiritualidade">integração</Link> psicologia-espiritualidade pragmática
+            <Link className="text-primary hover:underline" href="/autoridade/psicoterapia-espiritualidade">integração</Link> psicoterapia-espiritualidade pragmática
           </p>
 <h2 className="text-2xl font-display font-bold text-foreground mt-8">
             Caminho para Integração Genuína
           </h2>
 <p>
             Integração genuína requer coragem. Requer que você enfrente o que você está evitando. 
-            Requer psicologia clínica como base.
+            Requer psicoterapia clínica como base.
           </p>
 <div className="bg-primary/5 border border-primary/20 rounded-lg p-6 mt-8">
-<h3 className="text-xl font-semibold text-foreground mb-3">Integração Psicologia-Espiritualidade</h3>
+<h3 className="text-xl font-semibold text-foreground mb-3">Integração Psicoterapia-Espiritualidade</h3>
 <p className="text-foreground mb-4">
-              Ofereço atendimento especializado em integração genuína de psicologia e espiritualidade, 
+              Ofereço atendimento especializado em integração genuína de psicoterapia e espiritualidade, 
               com foco em evitar <Link className="text-primary hover:underline" href="/blog/spiritual-bypass">spiritual</Link> bypass.
             </p>
 <CTAButton whatsapp={true}>Agendar Sessão</CTAButton>
@@ -111,10 +111,10 @@ export default function SpiritualBypass() {
 <div className="mt-16 pt-8 border-t border-border">
 <h3 className="text-2xl font-display font-bold text-foreground mb-6">Leitura Relacionada</h3>
 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-<Link href="/autoridade/psicologia-espiritualidade"></Link>
+<Link href="/autoridade/psicoterapia-espiritualidade"></Link>
 <a className="p-4 bg-card border border-border rounded-lg hover:border-primary transition-colors group">
 <h4 className="font-semibold text-foreground group-hover:text-primary transition-colors mb-2">
-                  Serviço: Psicologia e Espiritualidade
+                  Serviço: Psicoterapia e Espiritualidade
                 </h4>
 <p className="text-sm text-muted-foreground">Integração pragmática</p>
 <div className="flex items-center gap-2 text-primary mt-2 text-sm">

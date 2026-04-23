@@ -7,9 +7,9 @@ import { Clock, ArrowRight } from 'lucide-react';
 import { useBlogPostingSchema } from '@/components/SEOSchema';
 import { getBlogPostMetadata } from '@/lib/blogPostingSchema';
 
-export default function IntegracaoPsicologiaEspiritualidade() {
+export default function IntegracaoPsicoterapiaEspiritualidade() {
   const readingTime = 14;
-  const metadata = getBlogPostMetadata('integracao-psicologia-espiritualidade');
+  const metadata = getBlogPostMetadata('integracao-psicoterapia-espiritualidade');
   
   if (metadata) {
     useBlogPostingSchema({
@@ -23,21 +23,21 @@ export default function IntegracaoPsicologiaEspiritualidade() {
   }
   
   useEffect(() => {
-    document.title = 'Integração psicologia e espiritualidade: Abordagem pragmática | Psicólogo Jorge Dias';
+    document.title = 'Integração psicoterapia e espiritualidade: Abordagem pragmática | Psicoterapeuta Jorge Dias';
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription && metadata) {
-      metaDescription.setAttribute('content', 'Integração ética de psicologia e espiritualidade. Abordagem pragmática que evita spiritual bypass.');
+      metaDescription.setAttribute('content', 'Integração ética de psicoterapia e espiritualidade. Abordagem pragmática que evita spiritual bypass.');
     }
   }, [metadata]);
 
   return (
     <Layout>
 <div className="bg-background">
-<Breadcrumbs items={[{ label: "Blog", href: "/blog" }, { label: "IntegracaoPsicologiaEspiritualidade" }]} />
+<Breadcrumbs items={[{ label: "Blog", href: "/blog" }, { label: "IntegracaoPsicoterapiaEspiritualidade" }]} />
 <article className="container max-w-3xl py-12 md:py-20">
 <div className="mb-8">
 <h1 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-4">
-            Integração Psicologia e Espiritualidade: Abordagem Pragmática
+            Integração Psicoterapia e Espiritualidade: Abordagem Pragmática
           </h1>
 <div className="flex items-center gap-4 text-muted-foreground">
 <div className="flex items-center gap-2">
@@ -50,7 +50,7 @@ export default function IntegracaoPsicologiaEspiritualidade() {
 <div className="prose prose-invert max-w-none text-foreground space-y-6">
 <p className="text-lg leading-relaxed">
             A evolução da experiência humana caminha lado a lado com a evolução do que é chamado de 
-            espiritual. Mas integração genuína não significa misturar conceitos. Significa usar psicologia 
+            espiritual. Mas integração genuína não significa misturar conceitos. Significa usar psicoterapia 
             clínica como base para compreender fenômenos espirituais.
           </p>
 <h2 className="text-2xl font-display font-bold text-foreground mt-8">
@@ -62,7 +62,7 @@ export default function IntegracaoPsicologiaEspiritualidade() {
             "noite escura da alma" pode ser <Link className="text-primary hover:underline" href="/depressao-vs-crise-existencial">depressão.</Link>
           </p>
 <h2 className="text-2xl font-display font-bold text-foreground mt-8">
-            Psicologia Clínica Como Base
+            Psicoterapia Clínica Como Base
           </h2>
 <p>
             Jung, Freud, teoria do trauma - esses conceitos não são opostos à espiritualidade. Eles são 
@@ -110,7 +110,7 @@ export default function IntegracaoPsicologiaEspiritualidade() {
 <div className="bg-primary/5 border border-primary/20 rounded-lg p-6 mt-8">
 <h3 className="text-xl font-semibold text-foreground mb-3">Integração Genuína</h3>
 <p className="text-foreground mb-4">
-              Ofereço atendimento especializado em integração psicologia-espiritualidade pragmática, 
+              Ofereço atendimento especializado em integração psicoterapia-espiritualidade pragmática, 
               com foco em crescimento genuíno sem <Link className="text-primary hover:underline" href="/blog/spiritual-bypass">spiritual</Link> bypass.
             </p>
 <CTAButton whatsapp={true}>Agendar Sessão</CTAButton>

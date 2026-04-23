@@ -24,9 +24,9 @@ export default function ServicesDropdown() {
       ],
     },
     {
-      title: "Psicologia e Espiritualidade",
+      title: "Psicoterapia e Espiritualidade",
       services: [
-        { title: "Psicologia e Espiritualidade", route: "/autoridade/psicologia-espiritualidade" },
+        { title: "Psicoterapia e Espiritualidade", route: "/autoridade/psicoterapia-espiritualidade" },
         { title: "Filosofia Integrativa", route: "/autoridade/filosofia-integrativa" },
       ],
     },

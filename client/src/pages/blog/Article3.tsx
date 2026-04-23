@@ -19,7 +19,7 @@ export default function Article3() {
     >
 <h2>Por que a opinião alheia dói tanto?</h2>
 <p>
-        Seja no ambiente de trabalho, em uma roda de amigos ou ao pensar em publicar algo na internet, o medo do julgamento costuma paralisar pessoas brilhantes. Quando a fobia social ataca, é comum que o indivíduo se culpe, acreditando que é fraco ou inseguro demais. No entanto, a psicologia profunda nos mostra que o medo da rejeição não é uma falha de caráter. Na verdade, ele é um dos mecanismos de sobrevivência mais antigos e poderosos que o nosso cérebro possui. Entender a biologia por trás dessa necessidade de aprovação é o primeiro passo para deixar de ser refém dela.
+        Seja no ambiente de trabalho, em uma roda de amigos ou ao pensar em publicar algo na internet, o medo do julgamento costuma paralisar pessoas brilhantes. Quando a fobia social ataca, é comum que o indivíduo se culpe, acreditando que é fraco ou inseguro demais. No entanto, a psicoterapia profunda nos mostra que o medo da rejeição não é uma falha de caráter. Na verdade, ele é um dos mecanismos de sobrevivência mais antigos e poderosos que o nosso cérebro possui. Entender a biologia por trás dessa necessidade de aprovação é o primeiro passo para deixar de ser refém dela.
       </p>
 <h2>O "<Link className="text-primary hover:underline" href="/ansiedade">Mamute</Link> Interior" e a nossa herança evolutiva</h2>
 <p>

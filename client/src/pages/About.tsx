@@ -9,7 +9,7 @@ import { useEEATSchema } from "@/components/EEATSchema";
 export default function About() {
   useEEATSchema({
     pageType: 'about',
-    title: 'Minha Abordagem Clínica - Psicólogo Jorge Dias',
+    title: 'Minha Abordagem Clínica - Psicoterapeuta Jorge Dias',
     description: 'Investigação filosófica e clínica rigorosa. Abordagem integrativa que combina psicanálise, filosofia existencial e compreensão neurofisiológica.',
     url: 'https://psicoterapia-site.com/sobre'
   });
@@ -27,7 +27,7 @@ export default function About() {
           <div className="mb-12 -mx-4 md:mx-0">
             <img
               src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png"
-              alt="Psicólogo Jorge Dias"
+              alt="Psicoterapeuta Jorge Dias"
               className="w-full max-w-sm mx-auto h-auto rounded-lg shadow-lg mb-6"
             />
           </div>
@@ -39,7 +39,7 @@ export default function About() {
 
           <h2>Formação e Embaraçamento Teórico</h2>
           <p>
-            Sou psicólogo clínico formado pela <strong>Universidade Estadual de Londrina (UEL)</strong>. A minha forma de escutar e intervir clinicamente foge do senso comum e da psicologia superficial da internet. O meu trabalho é sustentado por uma integração profunda entre a psicologia analítica, onde os conceitos de Jung sobre a Sombra e o Inconsciente orientam a exploração das profundezas da psique, e o pensamento crítico da filosofia contemporânea, especialmente as dinâmicas de poder nas relações estudadas por Foucault.
+            Sou psicoterapeuta formado em Psicoterapia pela <strong>Universidade Estadual de Londrina (UEL)</strong>. A minha forma de escutar e intervir clinicamente foge do senso comum e da psicoterapia superficial da internet. O meu trabalho é sustentado por uma integração profunda entre a psicoterapia analítica, onde os conceitos de Jung sobre a Sombra e o Inconsciente orientam a exploração das profundezas da psique, e o pensamento crítico da filosofia contemporânea, especialmente as dinâmicas de poder nas relações estudadas por Foucault.
           </p>
           <p>
             Além disso, expando a compreensão da mente humana ao dialogar com a cosmologia de pensadores indígenas, integrando perspectivas que ampliam a nossa visão sobre o que significa estar em equilíbrio consigo mesmo e com o mundo.
@@ -60,7 +60,7 @@ export default function About() {
 
           <h2>Confidencialidade e Ética</h2>
           <p>
-            Toda comunicação é confidencial e protegida pelo rigoroso sigilo profissional exigido pelo Conselho Regional de Psicologia. Você pode compartilhar tudo sem medo de julgamentos. O espaço terapêutico é sagrado, seguro e inteiramente seu.
+            Toda comunicação é confidencial e protegida pelo rigoroso sigilo profissional exigido pelo sigilo profissional. Você pode compartilhar tudo sem medo de julgamentos. O espaço terapêutico é sagrado, seguro e inteiramente seu.
           </p>
 
           <div className="mt-12 pt-8 border-t border-border">

@@ -36,18 +36,18 @@ export default function ArticlePage({
           <div className="flex gap-4 items-start">
             <img
               src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png"
-              alt="Psicólogo Jorge Dias"
+              alt="Psicoterapeuta Jorge Dias"
               className="w-16 h-16 rounded-full object-cover flex-shrink-0 shadow-md"
             />
             <div>
               <h3 className="font-display text-lg font-semibold text-foreground mb-2">
-                Psicólogo Jorge Dias
+                Psicoterapeuta Jorge Dias
               </h3>
               <p className="text-sm text-muted-foreground mb-3">
-                CRP 08/31462 | Psicoterapia Clínica Integrativa
+                Psicoterapia Clínica Integrativa
               </p>
               <p className="text-sm text-foreground leading-relaxed">
-                Especializado em crise existencial, autossabotagem, padrões familiares e integração psicologia-espiritualidade. Atendimento online para Brasil e exterior.
+                Especializado em crise existencial, autossabotagem, padrões familiares e integração psicoterapia-espiritualidade. Atendimento online para Brasil e exterior.
               </p>
             </div>
           </div>

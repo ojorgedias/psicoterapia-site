@@ -26,7 +26,7 @@
 5. **PorQueDesistoTudo.tsx**
    - Palavra-chave: por que desisto de tudo
    - Google Title: Por que desisto de tudo que começo? Ciclo de abandono
-   - H1: Por Que Eu Desisto de Tudo Que Começo? A Psicologia Por Trás do Ciclo de Abandono
+   - H1: Por Que Eu Desisto de Tudo Que Começo? A Psicoterapia Por Trás do Ciclo de Abandono
 
 ### Cluster Ansiedade
 6. **AnsiedadeDomingoNoite.tsx**
@@ -67,8 +67,8 @@
 
 13. **VidaPerdeSentido.tsx**
     - Palavra-chave: vida perde sentido
-    - Google Title: Vida perde sentido: Visão da psicologia clínica
-    - H1: O Que Fazer Quando a Vida Perde o Sentido: A Visão da Psicologia Clínica
+    - Google Title: Vida perde sentido: Visão da psicoterapia clínica
+    - H1: O Que Fazer Quando a Vida Perde o Sentido: A Visão da Psicoterapia Clínica
 
 14. **CriseIdentidadeProfissional.tsx**
     - Palavra-chave: crise identidade profissional
@@ -138,10 +138,10 @@
     - Google Title: Spiritual bypass: Quando espiritualidade evita crescimento
     - H1: Spiritual Bypass: Quando a Espiritualidade Evita o Crescimento Psicológico
 
-27. **IntegracaoPsicologiaEspiritualidade.tsx**
-    - Palavra-chave: integração psicologia espiritualidade
-    - Google Title: Integração psicologia e espiritualidade: Abordagem pragmática
-    - H1: Integração de Psicologia e Espiritualidade: Uma Abordagem Pragmática e Clínica
+27. **IntegracaoPsicoterapiaEspiritualidade.tsx**
+    - Palavra-chave: integração psicoterapia espiritualidade
+    - Google Title: Integração psicoterapia e espiritualidade: Abordagem pragmática
+    - H1: Integração de Psicoterapia e Espiritualidade: Uma Abordagem Pragmática e Clínica
 
 ### Cluster Medo e Identidade
 28. **MedoDeSer Feliz.tsx**
@@ -177,7 +177,7 @@
     - H1: Dinâmica de Gênero em Relacionamentos: Além da Polaridade Tradicional
 
 35. **Article7.tsx** (Despertar Espiritual)
-    - Palavra-chave: despertar espiritual psicologia
+    - Palavra-chave: despertar espiritual psicoterapia
     - Google Title: Despertar espiritual: Integração psicológica e transformação
     - H1: Despertar Espiritual: Integração Psicológica e Transformação Pessoal
 
@@ -206,7 +206,7 @@ Cada arquivo deve ter:
 ```typescript
 useEffect(() => {
   // Google Title (máx 60 caracteres)
-  document.title = '[GOOGLE_TITLE] | Psicólogo Jorge Dias';
+  document.title = '[GOOGLE_TITLE] | Psicoterapeuta Jorge Dias';
   
   // Meta Description (150-160 caracteres)
   const metaDescription = document.querySelector('meta[name="description"]');

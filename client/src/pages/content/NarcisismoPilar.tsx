@@ -4,7 +4,7 @@ import Layout from '@/components/Layout';
 
 export default function NarcisismoPilar() {
   useEffect(() => {
-    document.title = 'Narcisismo: Compreensão e Libertação | Psicólogo Jorge Dias';
+    document.title = 'Narcisismo: Compreensão e Libertação | Psicoterapeuta Jorge Dias';
     
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {

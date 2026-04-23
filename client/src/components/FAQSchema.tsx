@@ -24,7 +24,7 @@ const faqData: FAQItem[] = [
   },
   {
     question: "Qual é sua formação profissional?",
-    answer: "Sou psicólogo formado pela Universidade Estadual de Londrina (UEL), com 5+ anos de experiência clínica. Minha abordagem integra psicologia analítica (Jung), filosofia (Foucault) e cosmologias indígenas."
+    answer: "Sou psicoterapeuta formado em Psicoterapia pela Universidade Estadual de Londrina (UEL), com 5+ anos de experiência clínica. Minha abordagem integra psicoterapia analítica (Jung), filosofia (Foucault) e cosmologias indígenas."
   },
   {
     question: "Como é a primeira sessão?",

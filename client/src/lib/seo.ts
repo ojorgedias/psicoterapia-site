@@ -27,25 +27,25 @@ export const pageMeta: Record<string, PageMeta> = {
   about: {
     title: "Sobre - Psicoterapia Clínica",
     description:
-      "Conheça a abordagem clínica de Jorge Dias, psicólogo especializado em investigação profunda e pensamento integrativo.",
-    keywords: ["psicólogo", "abordagem clínica", "autoconhecimento", "desenvolvimento pessoal"],
+      "Conheça a abordagem clínica de Jorge Dias, psicoterapeuta especializado em investigação profunda e pensamento integrativo.",
+    keywords: ["psicoterapeuta", "abordagem clínica", "autoconhecimento", "desenvolvimento pessoal"],
   },
   howItWorks: {
     title: "Como Funciona - Psicoterapia Clínica",
     description:
       "Entenda como funciona o processo terapêutico, modalidades de atendimento e frequência de sessões.",
-    keywords: ["psicoterapia online", "sessões terapêuticas", "atendimento psicológico"],
+    keywords: ["psicoterapia online", "sessões terapêuticas", "atendimento psicoterapêutico"],
   },
   contact: {
     title: "Contato - Agende Sua Consulta",
     description: `Entre em contato com ${PSYCHOLOGIST.name} para agendar sua primeira sessão de psicoterapia.`,
-    keywords: ["contato psicólogo", "agendar consulta", "psicoterapia"],
+    keywords: ["contato psicoterapeuta", "agendar consulta", "psicoterapia"],
   },
   blog: {
-    title: "Blog - Artigos sobre Psicologia e Desenvolvimento Pessoal",
+    title: "Blog - Artigos sobre Psicoterapia e Desenvolvimento Pessoal",
     description:
-      "Leia artigos sobre psicologia clínica, filosofia, relacionamentos, desenvolvimento pessoal e pensamento integrativo.",
-    keywords: ["blog psicologia", "artigos terapia", "desenvolvimento pessoal"],
+      "Leia artigos sobre psicoterapia clínica, filosofia, relacionamentos, desenvolvimento pessoal e pensamento integrativo.",
+    keywords: ["blog psicoterapia", "artigos terapia", "desenvolvimento pessoal"],
   },
   crisisExistential: {
     title: "Psicoterapia para Crise Existencial e Falta de Propósito",
@@ -90,7 +90,7 @@ export const pageMeta: Record<string, PageMeta> = {
     keywords: [...SEO_KEYWORDS.couples, "padrões de relacionamento", "relacionamentos saudáveis"],
   },
   psychologySpirituality: {
-    title: "Psicologia e Espiritualidade de Forma Integrativa",
+    title: "Psicoterapia e Espiritualidade de Forma Integrativa",
     description:
       "Integração ética entre desenvolvimento psicológico e espiritual, sem bypassing ou alienação.",
     keywords: [...SEO_KEYWORDS.spirituality, "integração psicológica"],
@@ -119,8 +119,8 @@ export const generateProfessionalSchema = () => {
     priceRange: "$$",
     serviceType: "Psychotherapy",
     knowsAbout: [
-      "Clinical Psychology",
-      "Existential Psychology",
+      "Clinical Psychotherapy",
+      "Existential Psychotherapy",
       "Family Therapy",
       "Couples Therapy",
       "Personal Development",

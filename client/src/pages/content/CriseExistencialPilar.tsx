@@ -4,7 +4,7 @@ import Layout from '@/components/Layout';
 
 export default function CriseExistencialPilar() {
   useEffect(() => {
-    document.title = 'Crise Existencial: Expansão de Consciência | Psicólogo Jorge Dias';
+    document.title = 'Crise Existencial: Expansão de Consciência | Psicoterapeuta Jorge Dias';
     
     let descMeta = document.querySelector('meta[name="description"]');
     if (!descMeta) {
@@ -113,7 +113,7 @@ export default function CriseExistencialPilar() {
                 <h3 className="font-bold text-slate-900 mb-2">Diferença Entre Depressão e <Link href="/crise-existencial" className="text-primary hover:underline">Crise Existencial</Link></h3>
                 <p className="text-sm text-slate-600">Contração vs. expansão de consciência</p>
               </a>
-              <a href="/vida-perde-sentido-psicologia" className="p-6 border border-slate-200 rounded-lg hover:shadow-lg transition-shadow block">
+              <a href="/vida-perde-sentido-psicoterapia" className="p-6 border border-slate-200 rounded-lg hover:shadow-lg transition-shadow block">
                 <h3 className="font-bold text-slate-900 mb-2">O Que Fazer Quando a Vida Perde o Sentido</h3>
                 <p className="text-sm text-slate-600">Crise como oportunidade de reconstrução</p>
               </a>

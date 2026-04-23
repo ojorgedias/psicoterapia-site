@@ -19,7 +19,7 @@ export default function Article6() {
     >
 <h2>Por que se relacionar parece um campo de batalha?</h2>
 <p>
-        Nos últimos anos, a internet foi tomada por debates inflamados sobre "masculinidade tóxica", "redpill", feminismo radical e regras estritas sobre o que homens e mulheres devem ou não fazer. Milhões de pessoas consomem esse conteúdo buscando entender por que os relacionamentos modernos estão tão difíceis. O problema é que esses movimentos de internet transformaram a vida amorosa em um tribunal, onde um gênero é sempre o vilão e o outro é sempre a vítima. Na psicologia clínica, vemos diariamente o estrago que essa polarização extrema causa na saúde mental e na intimidade real dos casais.
+        Nos últimos anos, a internet foi tomada por debates inflamados sobre "masculinidade tóxica", "redpill", feminismo radical e regras estritas sobre o que homens e mulheres devem ou não fazer. Milhões de pessoas consomem esse conteúdo buscando entender por que os relacionamentos modernos estão tão difíceis. O problema é que esses movimentos de internet transformaram a vida amorosa em um tribunal, onde um gênero é sempre o vilão e o outro é sempre a vítima. Na psicoterapia clínica, vemos diariamente o estrago que essa polarização extrema causa na saúde mental e na intimidade real dos casais.
       </p>
 <h2>A armadilha do pensamento binário</h2>
 <p>

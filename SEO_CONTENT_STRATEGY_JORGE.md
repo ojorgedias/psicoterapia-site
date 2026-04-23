@@ -1,4 +1,4 @@
-# Estratégia de SEO e Conteúdo - Psicólogo Jorge Dias
+# Estratégia de SEO e Conteúdo - Psicoterapeuta Jorge Dias
 ## Integração Profunda: Filosofia + Pesquisa de Mercado + Otimização Orgânica
 
 ---
@@ -7,7 +7,7 @@
 
 ### Pilares Fundamentais
 1. **Questionamento Radical**: Desafiar normas arbitrárias e pressupostos não examinados
-2. **Pensamento Integrativo**: Conectar psicologia, espiritualidade, filosofia, cultura
+2. **Pensamento Integrativo**: Conectar psicoterapia, espiritualidade, filosofia, cultura
 3. **Valores Autênticos**: Forjar própria "régua moral" em vez de adotar prontas
 4. **Autenticidade + Vulnerabilidade**: Comunicação genuína que reconhece incertezas
 5. **Auto-responsabilidade**: Agência pessoal sobre desenvolvimento e escolhas
@@ -19,7 +19,7 @@
 - **Régua Prontas vs. Forjada**: Valores herdados vs. autênticos
 
 ### Abordagem Clínica
-- Psicologia clínica como base (Jung, trauma, defesas)
+- Psicoterapia clínica como base (Jung, trauma, defesas)
 - Espiritualidade pragmática (não dogmática)
 - Reconhecimento de "spiritual bypass" e autossabotagem
 - Ética profissional e normalização de ajuda psicológica
@@ -47,7 +47,7 @@
 **Termos com resposta de baixa qualidade:**
 - "diferença entre ansiedade e intuição" - Respostas superficiais, apenas sintomas
 - "como diferenciar medo de intuição" - Falta integração psicológica
-- "intuição vs ansiedade psicologia" - Sem profundidade clínica
+- "intuição vs ansiedade psicoterapia" - Sem profundidade clínica
 - "quando confundo ansiedade com intuição" - Sem ferramentas práticas
 
 **Oportunidade**: Criar conteúdo que:
@@ -81,7 +81,7 @@
 - "transmissão transgeracional de padrões" - Acadêmico, não prático
 
 **Oportunidade**: Criar conteúdo que:
-- Integre perspectiva sistêmica com psicologia clínica
+- Integre perspectiva sistêmica com psicoterapia clínica
 - Use conceitos de arqueologia pessoal de pressupostos
 - Conecte com desenvolvimento de autonomia
 - Ofereça framework de libertação consciente
@@ -105,7 +105,7 @@
 
 ### Grupo 6: Medo de Ser Feliz (BAIXA CONCORRÊNCIA, ALTO POTENCIAL)
 **Termos com resposta de baixa qualidade:**
-- "medo de ser feliz psicologia" - Respostas superficiais
+- "medo de ser feliz psicoterapia" - Respostas superficiais
 - "por que tenho medo de ser feliz" - Falta análise de raízes
 - "querofobia e autossabotagem" - Pouco conteúdo integrado
 - "medo do sucesso e felicidade" - Genérico
@@ -120,13 +120,13 @@
 
 ### Grupo 7: Síndrome do Impostor em Terapeutas (NICHO, ALTO POTENCIAL)
 **Termos com resposta de baixa qualidade:**
-- "síndrome do impostor em psicólogos" - Muito pouco conteúdo
+- "síndrome do impostor em psicoterapeutas" - Muito pouco conteúdo
 - "por que terapeutas duvidam de si mesmos" - Praticamente inexistente
 - "síndrome do impostor em profissionais de saúde" - Genérico
 - "autossabotagem em terapeutas" - Raro
 
 **Oportunidade**: Criar conteúdo que:
-- Ofereça perspectiva insider de psicólogo para psicólogos
+- Ofereça perspectiva insider de psicoterapeuta para psicoterapeutas
 - Integre com conceitos de autenticidade e vulnerabilidade
 - Conecte com desenvolvimento de valores autênticos
 - Estabeleça autoridade em nicho específico
@@ -150,7 +150,7 @@
 
 ### Grupo 9: Regulação Emocional (ATEMPORALIDADE + TENDÊNCIA)
 **Termos com resposta de baixa qualidade:**
-- "regulação emocional psicologia" - Muito técnico ou superficial
+- "regulação emocional psicoterapia" - Muito técnico ou superficial
 - "como regular emoções intensas" - Genérico
 - "inteligência emocional vs regulação" - Confusão conceitual
 - "trauma e dificuldade de regulação" - Pouco integrado
@@ -158,17 +158,17 @@
 **Oportunidade**: Criar conteúdo que:
 - Integre com conceitos de carro, motorista e GPS
 - Conecte com padrões familiares e trauma
-- Ofereça ferramentas práticas baseadas em psicologia clínica
+- Ofereça ferramentas práticas baseadas em psicoterapia clínica
 - Conecte com desenvolvimento de sabedoria
 
 ---
 
-### Grupo 10: Espiritualidade e Psicologia (NICHO, CRESCENTE)
+### Grupo 10: Espiritualidade e Psicoterapia (NICHO, CRESCENTE)
 **Termos com resposta de baixa qualidade:**
-- "integração psicologia e espiritualidade" - Muito pouco conteúdo de qualidade
+- "integração psicoterapia e espiritualidade" - Muito pouco conteúdo de qualidade
 - "spiritual bypass sinais" - Raro, superficial
 - "desenvolvimento espiritual sem trauma" - Praticamente inexistente
-- "magia e psicologia clínica" - Muito raro
+- "magia e psicoterapia clínica" - Muito raro
 
 **Oportunidade**: Criar conteúdo que:
 - Estabeleça autoridade em integração pragmática
@@ -279,7 +279,7 @@
 
 #### Página 7: "Medo de Ser Feliz: Raízes Psicológicas e Integração"
 - **URL**: `/blog/medo-de-ser-feliz`
-- **Palavra-chave principal**: "medo de ser feliz psicologia"
+- **Palavra-chave principal**: "medo de ser feliz psicoterapia"
 - **Estrutura**:
   - Introdução: Querofobia como mecanismo de proteção
   - Seção 1: Raízes em trauma e padrões familiares
@@ -305,9 +305,9 @@
 - **Tom**: Contemporâneo, reflexivo, empoderador
 - **Comprimento**: 2.600-3.000 palavras
 
-#### Página 9: "Síndrome do Impostor em Psicólogos e Terapeutas"
+#### Página 9: "Síndrome do Impostor em Psicoterapeutas e Terapeutas"
 - **URL**: `/blog/sindrome-impostor-terapeutas`
-- **Palavra-chave principal**: "síndrome do impostor em psicólogos"
+- **Palavra-chave principal**: "síndrome do impostor em psicoterapeutas"
 - **Estrutura**:
   - Introdução: O paradoxo do terapeuta com síndrome do impostor
   - Seção 1: Raízes em autossabotagem e padrões familiares
@@ -321,29 +321,29 @@
 
 ---
 
-### Fase 4: Integração Psicologia-Espiritualidade (Semanas 7-8)
+### Fase 4: Integração Psicoterapia-Espiritualidade (Semanas 7-8)
 **Objetivo**: Estabelecer autoridade em nicho específico
 
 #### Página 10: "Spiritual Bypass: Quando a Espiritualidade Evita Crescimento Psicológico"
-- **URL**: `/blog/spiritual-bypass-psicologia`
+- **URL**: `/blog/spiritual-bypass-psicoterapia`
 - **Palavra-chave principal**: "spiritual bypass sinais"
 - **Estrutura**:
   - Introdução: Definição pragmática de spiritual bypass
   - Seção 1: 12 sinais de spiritual bypass
   - Seção 2: Raízes em autossabotagem e trauma
   - Seção 3: Diferença entre integração e bypass
-  - Seção 4: Psicologia clínica como ferramenta
+  - Seção 4: Psicoterapia clínica como ferramenta
   - Seção 5: Processo de integração genuína
-  - CTA: Link para página de serviço "Psicologia e Espiritualidade"
+  - CTA: Link para página de serviço "Psicoterapia e Espiritualidade"
 - **Tom**: Clínico, pragmático, não-dogmático
 - **Comprimento**: 3.000-3.500 palavras
 
-#### Página 11: "Integração Psicologia e Espiritualidade: Abordagem Pragmática"
-- **URL**: `/blog/integracao-psicologia-espiritualidade`
-- **Palavra-chave principal**: "integração psicologia espiritualidade"
+#### Página 11: "Integração Psicoterapia e Espiritualidade: Abordagem Pragmática"
+- **URL**: `/blog/integracao-psicoterapia-espiritualidade`
+- **Palavra-chave principal**: "integração psicoterapia espiritualidade"
 - **Estrutura**:
   - Introdução: Por que essa integração é necessária
-  - Seção 1: Psicologia clínica como base (Jung, trauma)
+  - Seção 1: Psicoterapia clínica como base (Jung, trauma)
   - Seção 2: Espiritualidade pragmática (não-dogmática)
   - Seção 3: Fenômenos espirituais através de lente psicológica
   - Seção 4: Autossabotagem em práticas espirituais
@@ -382,7 +382,7 @@
 - **H1**: Único, com palavra-chave principal
 - **Headings**: H2-H4 estruturados, com palavras-chave secundárias
 - **Internal links**: 3-5 links para páginas de serviço relacionadas
-- **External links**: 2-3 links para autoridades (artigos científicos, psicólogos renomados)
+- **External links**: 2-3 links para autoridades (artigos científicos, psicoterapeutas renomados)
 - **Schema.org**: Article schema com author, date, reading time
 - **Imagens**: 2-3 imagens com alt text descritivo
 - **Comprimento**: 2.500-3.800 palavras (sweet spot para ranking)
@@ -467,9 +467,9 @@ Cada página deve linkar para:
 
 Sua filosofia é profunda e única. Esses conteúdos devem refletir:
 - Profundidade clínica (não superficial)
-- Integratividade (psicologia + espiritualidade + filosofia)
+- Integratividade (psicoterapia + espiritualidade + filosofia)
 - Autenticidade (vulnerabilidade + honestidade)
 - Pragmatismo (ferramentas práticas, não apenas teoria)
 - Autoridade (baseado em experiência clínica real)
 
-Cada página deve fazer o leitor pensar: **"Esse psicólogo entende realmente o que estou vivendo e oferece uma perspectiva única que não encontro em outro lugar."**
+Cada página deve fazer o leitor pensar: **"Esse psicoterapeuta entende realmente o que estou vivendo e oferece uma perspectiva única que não encontro em outro lugar."**

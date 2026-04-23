@@ -23,7 +23,7 @@ export default function BurnoutDigital() {
   }
   
   useEffect(() => {
-    document.title = 'Burnout Digital - Psicólogo Jorge Dias';
+    document.title = 'Burnout Digital - Psicoterapeuta Jorge Dias';
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Entenda o burnout digital: como o cansaço crônico se desenvolve no contexto da hiperconexividade e como trabalhar a recuperação.');

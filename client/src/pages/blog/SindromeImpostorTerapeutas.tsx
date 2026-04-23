@@ -23,7 +23,7 @@ export default function SindromeImpostorTerapeutas() {
   }
   
   useEffect(() => {
-    document.title = 'Síndrome do Impostor em Terapeutas - Psicólogo Jorge Dias';
+    document.title = 'Síndrome do Impostor em Terapeutas - Psicoterapeuta Jorge Dias';
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Explore a síndrome do impostor em terapeutas: como profissionais da saúde mental lidam com a sensação de inadequação.');

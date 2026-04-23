@@ -15,7 +15,7 @@ import MedoDeSerFeliz from "./pages/blog/MedoDeSer Feliz";
 import BurnoutDigital from "./pages/blog/BurnoutDigital";
 import SindromeImpostorTerapeutas from "./pages/blog/SindromeImpostorTerapeutas";
 import SpiritualBypass from "./pages/blog/SpiritualBypass";
-import IntegracaoPsicologiaEspiritualidade from "./pages/blog/IntegracaoPsicologiaEspiritualidade";
+import IntegracaoPsicoterapiaEspiritualidade from "./pages/blog/IntegracaoPsicoterapiaEspiritualidade";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import BlogList from "./pages/BlogList";
@@ -71,10 +71,10 @@ import { BookingChatbot } from "./components/BookingChatbot";
 
 // Update document title and meta tags
 if (typeof document !== 'undefined') {
-  document.title = 'Jorge Dias - Psicoterapia Clínica Online';
+  document.title = 'Jorge Dias - Psicoterapeuta Clínico Online';
   const metaDescription = document.querySelector('meta[name="description"]');
   if (metaDescription) {
-    metaDescription.setAttribute('content', 'Psicoterapia clínica com Jorge Dias. Especializado em crise existencial, autossabotagem e relacionamentos. Atendimento online para Brasil e .');
+    metaDescription.setAttribute('content', 'Psicoterapia clínica com Jorge Dias. Especializado em crise existencial, autossabotagem e relacionamentos. Atendimento online para Brasil e exterior.');
   }
 }
 
@@ -114,7 +114,7 @@ function Router() {
       <Route path={"/terapia/casais/padroes-relacionamento"} component={RelationshipPatterns} />
       
       {/* Cluster 4: Autoridade */}
-      <Route path={"/autoridade/psicologia-espiritualidade"} component={PsychologySpirituality} />
+      <Route path={"/autoridade/psicoterapia-espiritualidade"} component={PsychologySpirituality} />
       <Route path={"/autoridade/filosofia-integrativa"} component={IntegrativePhilosophy} />
       
       {/* Original Blog Articles */}
@@ -136,7 +136,7 @@ function Router() {
       <Route path={"/blog/burnout-digital"} component={BurnoutDigital} />
       <Route path={"/blog/sindrome-impostor-terapeutas"} component={SindromeImpostorTerapeutas} />
       <Route path={"/blog/spiritual-bypass"} component={SpiritualBypass} />
-      <Route path={"/blog/integracao-psicologia-espiritualidade"} component={IntegracaoPsicologiaEspiritualidade} />
+      <Route path={"/blog/integracao-psicoterapia-espiritualidade"} component={IntegracaoPsicoterapiaEspiritualidade} />
       
       {/* Long-Tail SEO Articles - Autossabotagem Cluster */}
       <Route path="/sabotagem-relacionamento" component={SabotagemRelacionamento} />

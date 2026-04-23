@@ -22,9 +22,9 @@ export function useEEATSchema(props: EEATSchemaProps) {
       '@context': 'https://schema.org',
       '@type': 'Person',
       'name': 'Jorge Dias',
-      'jobTitle': 'Psychologist',
+      'jobTitle': 'Psychotherapist',
       'url': 'https://psicoterapia-site.com',
-      'credential': 'CRP 08/31462',
+      'credential': 'Psychotherapist',
       'knowsAbout': [
         'Clinical Psychology',
         'Existential Psychology',
@@ -48,12 +48,12 @@ export function useEEATSchema(props: EEATSchemaProps) {
       'author': {
         '@type': 'Person',
         'name': 'Jorge Dias',
-        'credential': 'CRP 08/31462'
+        'credential': 'Psychotherapist'
       },
       'reviewedBy': {
         '@type': 'Person',
         'name': 'Jorge Dias',
-        'credential': 'CRP 08/31462'
+        'credential': 'Psychotherapist'
       },
       'datePublished': props.datePublished || new Date().toISOString().split('T')[0],
       'dateModified': props.dateModified || new Date().toISOString().split('T')[0]
@@ -95,7 +95,7 @@ export function useLocalBusinessSchema() {
     const schema = {
       '@context': 'https://schema.org',
       '@type': 'LocalBusiness',
-      'name': 'Psicólogo Jorge Dias',
+      'name': 'Psicoterapeuta Jorge Dias',
       'image': 'https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png',
       'description': 'Psicoterapia clínica para autoconhecimento profundo. Investigação filosófica e clínica rigorosa.',
       'address': {

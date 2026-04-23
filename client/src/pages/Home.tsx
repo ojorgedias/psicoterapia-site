@@ -9,7 +9,7 @@ import { useEEATSchema, useLocalBusinessSchema } from "@/components/EEATSchema";
 export default function Home() {
   useEEATSchema({
     pageType: 'home',
-    title: 'Jorge Dias - Psicoterapia Clínica para Autoconhecimento Profundo',
+    title: 'Jorge Dias - Psicoterapeuta Clínico para Autoconhecimento Profundo',
     description: 'Investigação filosófica e clínica rigorosa para quem se sente perdido, sem propósito ou preso em ciclos repetitivos.',
     url: 'https://psicoterapia-site.com'
   });
@@ -38,7 +38,7 @@ export default function Home() {
             className="w-40 h-40 md:w-56 md:h-56 rounded-full object-cover mx-auto mb-8 shadow-xl border-4 border-background"
           />
           <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-2 leading-tight">
-            Jorge Dias - Psicoterapia Clínica
+            Jorge Dias - Psicoterapeuta Clínico
           </h1>
           <p className="text-lg text-muted-foreground mb-6 font-semibold">Abordagem Junguiana</p>
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto" style={{color: '#413e3e'}}>
@@ -111,7 +111,7 @@ export default function Home() {
               <p className="text-muted-foreground mb-4 text-sm">
                 Integração ética entre desenvolvimento psicológico e espiritual, sem bypassing ou alienação.
               </p>
-              <Link href="/autoridade/psicologia-espiritualidade" className="text-primary hover:text-accent font-semibold">Explorar →</Link>
+              <Link href="/autoridade/psicoterapia-espiritualidade" className="text-primary hover:text-accent font-semibold">Explorar →</Link>
              </div>
           </div>
         </div>
