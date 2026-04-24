@@ -15,7 +15,7 @@ import MedoDeSerFeliz from "./pages/blog/MedoDeSer Feliz";
 import BurnoutDigital from "./pages/blog/BurnoutDigital";
 import SindromeImpostorTerapeutas from "./pages/blog/SindromeImpostorTerapeutas";
 import SpiritualBypass from "./pages/blog/SpiritualBypass";
-import IntegracaoPsicoterapiaEspiritualidade from "./pages/blog/IntegracaoPsicoterapiaEspiritualidade";
+import IntegracaoPsicoterapiaEspiritualidade from "./pages/blog/IntegracaoPsicologiaEspiritualidade";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import BlogList from "./pages/BlogList";
