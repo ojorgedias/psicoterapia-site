@@ -7,7 +7,7 @@ export default function Contact() {
   const whatsappNumber = "5541985155583";
   const whatsappDisplay = "(41) 98515-5583";
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá%20Jorge,%20gostaria%20de%20agendar%20uma%20sessão%20online.`;
-  const calendlyLink = "https://calendly.com/jorgediasgama/30min";
+  const calendlyLink = "https://jorgedias.setmore.com/services/d1c084b5-bf7b-4581-97ec-96001b6459bc";
 
   return (
     <Layout>
