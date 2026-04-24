@@ -17,7 +17,7 @@ export default function Footer() {
             />
             <h3 className="font-display text-lg font-semibold mb-2">Jorge Dias | Psicoterapia Clínica</h3>
             <p className="text-xs text-sidebar-foreground/80 font-semibold mb-3">
-              {PSYCHOLOGIST.name}
+              Psicoterapeuta Clínico
             </p>
             <p className="text-sm text-sidebar-foreground/80">
               Atendimento psicoterapêutico online focado em autoconhecimento profundo, filosofia e pensamento integrativo.
