@@ -30,7 +30,7 @@ export default function Header() {
       <nav className="container max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="font-display text-2xl font-bold text-primary hover:text-accent transition-colors">
-          Psicoterapeuta Jorge Dias
+          Jorge Dias | Psicoterapia Clínica
         </Link>
 
         {/* Desktop Navigation */}

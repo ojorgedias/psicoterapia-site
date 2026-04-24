@@ -9,7 +9,7 @@ import { useEEATSchema } from "@/components/EEATSchema";
 export default function About() {
   useEEATSchema({
     pageType: 'about',
-    title: 'Minha Abordagem Clínica - Psicoterapeuta Jorge Dias',
+    title: 'Minha Abordagem Clínica - Jorge Dias',
     description: 'Investigação filosófica e clínica rigorosa. Abordagem integrativa que combina psicanálise, filosofia existencial e compreensão neurofisiológica.',
     url: 'https://psicoterapia-site.com/sobre'
   });
@@ -27,7 +27,7 @@ export default function About() {
           <div className="mb-12 -mx-4 md:mx-0">
             <img
               src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png"
-              alt="Psicoterapeuta Jorge Dias"
+              alt="Jorge Dias | Psicoterapia Clínica"
               className="w-full max-w-sm mx-auto h-auto rounded-lg shadow-lg mb-6"
             />
           </div>

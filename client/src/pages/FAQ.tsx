@@ -100,7 +100,7 @@ const faqItems: FAQItem[] = [
   {
     category: 'Questões Práticas',
     question: 'Você oferece atendimento online?',
-    answer: 'Sim, ofereço atendimento psicológico online para adultos em qualquer lugar do mundo.. O formato online é meu único formato de atendimento, e a qualidade do trabalho não é comprometida. O que importa é a qualidade da presença e da investigação, não a proximidade física.'
+    answer: 'Sim, ofereço atendimento psicoterapêutico online para adultos em qualquer lugar do mundo.. O formato online é meu único formato de atendimento, e a qualidade do trabalho não é comprometida. O que importa é a qualidade da presença e da investigação, não a proximidade física.'
   },
   {
     category: 'Questões Práticas',
@@ -121,7 +121,7 @@ export default function FAQ() {
   
   // Update page meta tags
   useEffect(() => {
-    document.title = 'FAQ - Psicoterapeuta Jorge Dias | Perguntas Frequentes';
+    document.title = 'FAQ - Jorge Dias | Psicoterapia Clínica';
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Perguntas frequentes sobre psicoterapia clínica, autossabotagem, padrões familiares, crise existencial e desenvolvimento pessoal.');

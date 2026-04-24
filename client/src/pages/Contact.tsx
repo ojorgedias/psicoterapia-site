@@ -18,7 +18,7 @@ export default function Contact() {
           <div className="mb-12 -mx-4 md:mx-0">
             <img
               src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/zXQQHgptkIhrUeMR.png"
-              alt="Atendimento Online - Psicoterapeuta Jorge Dias"
+              alt="Atendimento Online - Jorge Dias | Psicoterapia Clínica"
               className="w-full max-w-sm mx-auto h-auto rounded-lg shadow-lg mb-6"
             />
           </div>
@@ -73,7 +73,7 @@ export default function Contact() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
               <div>
                 <p className="mb-4">
-                  <strong>Psicoterapeuta:</strong> {PSYCHOLOGIST.name}
+                  <strong>Jorge Dias | Psicoterapia Clínica</strong>
                 </p>
                 
                 <p>

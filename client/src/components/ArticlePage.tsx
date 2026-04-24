@@ -36,12 +36,12 @@ export default function ArticlePage({
           <div className="flex gap-4 items-start">
             <img
               src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png"
-              alt="Psicoterapeuta Jorge Dias"
+              alt="Jorge Dias | Psicoterapia Clínica"
               className="w-16 h-16 rounded-full object-cover flex-shrink-0 shadow-md"
             />
             <div>
               <h3 className="font-display text-lg font-semibold text-foreground mb-2">
-                Psicoterapeuta Jorge Dias
+                Jorge Dias | Psicoterapia Clínica
               </h3>
               <p className="text-sm text-muted-foreground mb-3">
                 Psicoterapia Clínica Integrativa

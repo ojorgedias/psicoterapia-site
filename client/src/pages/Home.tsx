@@ -9,7 +9,7 @@ import { useEEATSchema, useLocalBusinessSchema } from "@/components/EEATSchema";
 export default function Home() {
   useEEATSchema({
     pageType: 'home',
-    title: 'Jorge Dias - Psicoterapeuta Clínico para Autoconhecimento Profundo',
+    title: 'Jorge Dias | Psicoterapia Clínica',
     description: 'Investigação filosófica e clínica rigorosa para quem se sente perdido, sem propósito ou preso em ciclos repetitivos.',
     url: 'https://psicoterapia-site.com'
   });
@@ -34,11 +34,11 @@ export default function Home() {
         <div className="container max-w-4xl mx-auto px-4 text-center relative z-10">
           <img
             src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png"
-            alt="Imagem de Jorge Dias - Psicoterapeuta Clínico Online com foco em Crise Existencial e Autossabotagem"
+            alt="Imagem de Jorge Dias | Psicoterapia Clínica"
             className="w-40 h-40 md:w-56 md:h-56 rounded-full object-cover mx-auto mb-8 shadow-xl border-4 border-background"
           />
           <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-2 leading-tight">
-            Jorge Dias - Psicoterapeuta Clínico
+            Jorge Dias | Psicoterapia Clínica
           </h1>
           <p className="text-lg text-muted-foreground mb-6 font-semibold">Abordagem Junguiana</p>
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto" style={{color: '#413e3e'}}>

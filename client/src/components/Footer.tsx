@@ -12,12 +12,12 @@ export default function Footer() {
           <div>
             <img
               src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png"
-              alt="Psicoterapeuta Jorge Dias"
+              alt="Jorge Dias | Psicoterapia Clínica"
               className="w-20 h-20 rounded-full object-cover mb-3 shadow-md"
             />
-            <h3 className="font-display text-lg font-semibold mb-2">Psicoterapeuta Jorge Dias</h3>
+            <h3 className="font-display text-lg font-semibold mb-2">Jorge Dias | Psicoterapia Clínica</h3>
             <p className="text-xs text-sidebar-foreground/80 font-semibold mb-3">
-              {PSYCHOLOGIST.name} - Psicoterapeuta Clínico
+              {PSYCHOLOGIST.name}
             </p>
             <p className="text-sm text-sidebar-foreground/80">
               Atendimento psicoterapêutico online focado em autoconhecimento profundo, filosofia e pensamento integrativo.
@@ -113,7 +113,7 @@ export default function Footer() {
             </Link>
           </div>
           <p className="text-center text-xs text-sidebar-foreground/60">
-            &copy; {currentYear} Psicoterapia Clínica - {PSYCHOLOGIST.name} . Todos os direitos
+            &copy; {currentYear} Psicoterapia Clínica - {PSYCHOLOGIST.name}. Todos os direitos
             reservados.
           </p>
         </div>
