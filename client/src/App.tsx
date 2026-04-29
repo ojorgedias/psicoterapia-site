@@ -1,10 +1,17 @@
 import { Toaster } from "@/components/ui/sonner";
+import Layout from "./components/Layout";
 import { useEffect } from "react";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
 import { Route, Switch, useLocation } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
+import HomeEn from "./pages/en/Home";
+import AboutEn from "./pages/en/About";
+import PillarArticleEn from "./pages/en/PillarArticle";
+import ClusterArticle1En from "./pages/en/ClusterArticle1";
+import ClusterArticle2En from "./pages/en/ClusterArticle2";
+import LayoutEn from "./components/LayoutEn";
 import Home from "./pages/Home";
 import FAQ from "./pages/FAQ";
 import AutossabotagemInconsciente from "./pages/blog/AutossabotagemInconsciente";
@@ -174,12 +181,20 @@ function Router() {
       
       {/* 404 Page */}
       <Route path={"/404"} component={NotFound} />
+      <Route path={"/en"} component={HomeEn} />
+      <Route path={"/en/about"} component={AboutEn} />
+      <Route path={"/en/pillar"} component={PillarArticleEn} />
+      <Route path={"/en/essays/illusion-of-the-individual"} component={ClusterArticle1En} />
+      <Route path={"/en/essays/collective-shadow"} component={ClusterArticle2En} />
       <Route component={NotFound} />
     </Switch>
   );
 }
 
 function App() {
+  const [location] = useLocation();
+  const isEnglishRoute = location.startsWith("/en");
+
   return (
     <ErrorBoundary>
       <ThemeProvider defaultTheme="light">
@@ -187,8 +202,15 @@ function App() {
           <FAQSchema />
           <BookingChatbot />
           <Toaster />
-          <Router />
-
+          {isEnglishRoute ? (
+            <LayoutEn>
+              <Router />
+            </LayoutEn>
+          ) : (
+            <Layout>
+              <Router />
+            </Layout>
+          )}
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
