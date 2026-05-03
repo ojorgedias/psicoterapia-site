@@ -90,6 +90,13 @@ const ROUTES = [
   // Legal Pages
   "/politica-privacidade",
   "/termos-uso",
+
+  // English Section (/en)
+  "/en",
+  "/en/about",
+  "/en/pillar",
+  "/en/essays/illusion-of-the-individual",
+  "/en/essays/collective-shadow",
 ];
 
 const distDir = resolve(__dirname, 'dist');
