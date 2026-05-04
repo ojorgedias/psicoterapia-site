@@ -26,7 +26,7 @@ export default function ClusterArticle2En() {
 
       <article className="prose-en">
         <header className="mb-10">
-          <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-3 block">
+          <span className="text-sm font-semibold uppercase tracking-wide text-muted-foreground mb-3 block">
             Essay · ~8 min read
           </span>
           <h1>The Collective Shadow in the Pursuit of Perfection</h1>
@@ -178,18 +178,21 @@ export default function ClusterArticle2En() {
           </div>
         </div>
 
-        {/* Support */}
+        {/* Newsletter CTA */}
         <div className="mt-5 p-5 border border-border rounded-xl text-center">
-          <p className="text-sm text-muted-foreground mb-3">
-            This research is free and independent. If it's useful to you, consider supporting it.
+          <p className="font-semibold text-foreground mb-1">
+            New essays, every few weeks.
+          </p>
+          <p className="text-muted-foreground mb-4">
+            Subscribe for free and get notified when the next piece is out — no noise, just writing.
           </p>
           <a
-            href="https://your-support-link.com"
+            href="https://your-substack-link.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-5 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity"
+            className="inline-block px-5 py-2.5 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity"
           >
-            ♥ Support this research
+            Subscribe — it's free
           </a>
         </div>
       </article>

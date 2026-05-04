@@ -20,7 +20,7 @@ export default function PillarArticleEn() {
 
       <article className="prose-en">
         <header className="mb-10">
-          <span className="text-xs font-semibold uppercase tracking-wide text-primary mb-3 block">
+          <span className="text-sm font-semibold uppercase tracking-wide text-primary mb-3 block">
             Pillar Essay · ~15 min read
           </span>
           <h1>
@@ -167,22 +167,25 @@ export default function PillarArticleEn() {
           in that space, something new becomes possible.
         </p>
 
-        {/* Paid reading offer */}
+        {/* Premium Upsell — Full Guide */}
         <div className="mt-12 pt-8 border-t border-border bg-secondary rounded-xl p-6">
-          <p className="font-semibold text-foreground mb-2 text-lg">
-            If this essay shifted something in how you see yourself —
+          <p className="font-semibold text-foreground mb-1 text-lg">
+            This essay is the entry point — not the destination.
+          </p>
+          <p className="text-muted-foreground mb-2 leading-relaxed">
+            The full research goes further: a complete genealogy of the Western self, a close
+            reading of Foucault's disciplinary power applied to modern psychology, and practical
+            frameworks for questioning the assumptions you didn't know you had.
           </p>
           <p className="text-muted-foreground mb-6 leading-relaxed">
-            I have condensed my complete research on indigenous subjectivation, the political
-            genealogy of the Western self, and practical frameworks for self-questioning into a
-            longer guide. It is available on Substack and Gumroad for those who want to go deeper.
+            Available as a long-form guide on Substack and as a standalone PDF on Gumroad.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
             <a
               href="https://your-substack-link.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block px-5 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity text-sm"
+              className="inline-block px-5 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity"
             >
               Read the full guide on Substack →
             </a>
@@ -190,25 +193,28 @@ export default function PillarArticleEn() {
               href="https://your-gumroad-link.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block px-5 py-3 rounded-lg font-semibold border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors text-sm"
+              className="inline-block px-5 py-3 rounded-lg font-semibold border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
             >
               Get the PDF on Gumroad →
             </a>
           </div>
         </div>
 
-        {/* Support */}
+        {/* Newsletter CTA */}
         <div className="mt-6 p-5 border border-border rounded-xl text-center">
-          <p className="text-sm text-muted-foreground mb-3">
-            This research is free and independent. If it's useful to you, consider supporting it.
+          <p className="font-semibold text-foreground mb-1">
+            New essays, every few weeks.
+          </p>
+          <p className="text-muted-foreground mb-4">
+            Subscribe for free and get notified when the next piece is out — no noise, just writing.
           </p>
           <a
-            href="https://your-support-link.com"
+            href="https://your-substack-link.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-5 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity"
+            className="inline-block px-5 py-2.5 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity"
           >
-            ♥ Support this research
+            Subscribe — it's free
           </a>
         </div>
 
@@ -220,10 +226,10 @@ export default function PillarArticleEn() {
               href="/en/essays/illusion-of-the-individual"
               className="block p-4 border border-border rounded-lg hover:border-primary transition-colors"
             >
-              <span className="text-xs text-muted-foreground uppercase tracking-wide block mb-1">
+              <span className="text-sm text-muted-foreground uppercase tracking-wide block mb-1">
                 Essay
               </span>
-              <span className="font-semibold text-foreground hover:text-primary transition-colors text-sm">
+              <span className="font-semibold text-foreground hover:text-primary transition-colors">
                 The Illusion of the Individual: A Foucaultian Reading →
               </span>
             </Link>
@@ -231,10 +237,10 @@ export default function PillarArticleEn() {
               href="/en/essays/collective-shadow"
               className="block p-4 border border-border rounded-lg hover:border-primary transition-colors"
             >
-              <span className="text-xs text-muted-foreground uppercase tracking-wide block mb-1">
+              <span className="text-sm text-muted-foreground uppercase tracking-wide block mb-1">
                 Essay
               </span>
-              <span className="font-semibold text-foreground hover:text-primary transition-colors text-sm">
+              <span className="font-semibold text-foreground hover:text-primary transition-colors">
                 The Collective Shadow in the Pursuit of Perfection →
               </span>
             </Link>
