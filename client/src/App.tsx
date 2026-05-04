@@ -1,5 +1,4 @@
 import { Toaster } from "@/components/ui/sonner";
-import Layout from "./components/Layout";
 import { useEffect } from "react";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
@@ -207,9 +206,7 @@ function App() {
               <Router />
             </LayoutEn>
           ) : (
-            <Layout>
-              <Router />
-            </Layout>
+            <Router />
           )}
         </TooltipProvider>
       </ThemeProvider>
