@@ -24,7 +24,7 @@ export default function ClusterArticle2En() {
         ]}
       />
 
-      <article className="prose-clinical">
+      <article className="prose-en">
         <header className="mb-10">
           <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-3 block">
             Essay · ~8 min read

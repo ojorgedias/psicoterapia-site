@@ -18,7 +18,7 @@ export default function PillarArticleEn() {
     <div className="container max-w-2xl mx-auto px-4 py-12">
       <Breadcrumbs items={[{ label: "Home", href: "/en" }, { label: "Pillar Essay" }]} />
 
-      <article className="prose-clinical">
+      <article className="prose-en">
         <header className="mb-10">
           <span className="text-xs font-semibold uppercase tracking-wide text-primary mb-3 block">
             Pillar Essay · ~15 min read

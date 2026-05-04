@@ -18,7 +18,7 @@ export default function AboutEn() {
     <div className="container max-w-2xl mx-auto px-4 py-12">
       <Breadcrumbs items={[{ label: "Home", href: "/en" }, { label: "About" }]} />
 
-      <article className="prose-clinical">
+      <article className="prose-en">
         <h1>About the Author</h1>
 
         <p>
