@@ -1,55 +1,28 @@
 import { Link } from "wouter";
-import { PSYCHOLOGIST } from "@/../../shared/const";
 
 export default function FooterEn() {
   const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-sidebar text-sidebar-foreground mt-16">
-      <div className="container max-w-6xl mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-          {/* About */}
+      <div className="container max-w-4xl mx-auto px-4 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          {/* Identity */}
           <div>
-            <h3 className="font-display text-lg font-semibold mb-2">Jorge Dias | Clinical Psychotherapy</h3>
-            <p className="text-xs text-sidebar-foreground/80 font-semibold mb-3">
-              Clinical Psychotherapist
+            <h3 className="font-display text-base font-semibold mb-2">Jorge Dias</h3>
+            <p className="text-xs text-sidebar-foreground/70 font-medium mb-3 uppercase tracking-wide">
+              Researcher &amp; Writer
             </p>
-            <p className="text-sm text-sidebar-foreground/80">
-              Online psychotherapeutic care focused on deep self-knowledge, philosophy, and integrative thinking.
+            <p className="text-sm text-sidebar-foreground/80 leading-relaxed">
+              Independent research at the intersection of psychoanalysis, critical theory, and
+              indigenous thought. Based in Brazil.
             </p>
           </div>
 
-          {/* Services */}
+          {/* Reading */}
           <div>
-            <h3 className="font-display text-lg font-semibold mb-4">Services</h3>
+            <h3 className="font-display text-base font-semibold mb-4">Reading</h3>
             <ul className="space-y-2 text-sm">
-              <li>
-                <Link href="/en/about" className="hover:text-sidebar-accent transition-colors">
-                  Individual Psychotherapy
-                </Link>
-              </li>
-              <li>
-                <Link href="/en/about" className="hover:text-sidebar-accent transition-colors">
-                  Couples Therapy
-                </Link>
-              </li>
-              <li>
-                <Link href="/en/about" className="hover:text-sidebar-accent transition-colors">
-                  Psychotherapy &amp; Spirituality
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Navigation */}
-          <div>
-            <h3 className="font-display text-lg font-semibold mb-4">Navigation</h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <Link href="/en/about" className="hover:text-sidebar-accent transition-colors">
-                  About Me
-                </Link>
-              </li>
               <li>
                 <Link href="/en/pillar" className="hover:text-sidebar-accent transition-colors">
                   Pillar Essay
@@ -57,44 +30,42 @@ export default function FooterEn() {
               </li>
               <li>
                 <Link href="/en/essays/illusion-of-the-individual" className="hover:text-sidebar-accent transition-colors">
-                  Essays
+                  The Illusion of the Individual
                 </Link>
               </li>
               <li>
-                <a
-                  href="https://your-substack-link.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-sidebar-accent transition-colors"
-                >
-                  Substack
-                </a>
+                <Link href="/en/essays/collective-shadow" className="hover:text-sidebar-accent transition-colors">
+                  The Collective Shadow
+                </Link>
+              </li>
+              <li>
+                <Link href="/en/about" className="hover:text-sidebar-accent transition-colors">
+                  About the Author
+                </Link>
               </li>
             </ul>
           </div>
 
-          {/* Contact */}
+          {/* Support */}
           <div>
-            <h3 className="font-display text-lg font-semibold mb-4">Contact</h3>
-            <ul className="space-y-3 text-sm">
-              <li>
-                <a
-                  href={`mailto:${PSYCHOLOGIST.email}`}
-                  className="text-sidebar-foreground/80 hover:text-sidebar-accent transition-colors break-all"
-                >
-                  {PSYCHOLOGIST.email}
-                </a>
-              </li>
-              <li className="text-sidebar-foreground/80 text-xs font-semibold">
-                100% Online — Brazil and Abroad
-              </li>
-            </ul>
+            <h3 className="font-display text-base font-semibold mb-4">Support</h3>
+            <p className="text-sm text-sidebar-foreground/80 mb-4 leading-relaxed">
+              If this research adds value to your thinking, consider supporting it directly.
+            </p>
+            <a
+              href="https://your-support-link.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-4 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity"
+            >
+              ♥ Support this research
+            </a>
           </div>
         </div>
 
-        <div className="border-t border-sidebar-border pt-8">
-          <p className="text-center text-xs text-sidebar-foreground/60">
-            &copy; {currentYear} Clinical Psychotherapy — {PSYCHOLOGIST.name}. All rights reserved.
+        <div className="border-t border-sidebar-border pt-6">
+          <p className="text-center text-xs text-sidebar-foreground/50">
+            &copy; {currentYear} Jorge Dias — Research &amp; Essays. All rights reserved.
           </p>
         </div>
       </div>

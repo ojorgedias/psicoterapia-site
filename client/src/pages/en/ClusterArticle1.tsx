@@ -9,7 +9,7 @@ export default function ClusterArticle1En() {
     if (metaDescription) {
       metaDescription.setAttribute(
         "content",
-        "A critical look at how the modern concept of the individual is shaped by power relations and discursive practices, drawing on Michel Foucault's work."
+        "A Foucaultian reading of how power produces the modern subject — and why the 'authentic self' may be a carefully constructed fiction."
       );
     }
   }, []);
@@ -26,7 +26,9 @@ export default function ClusterArticle1En() {
 
       <article className="prose-clinical">
         <header className="mb-10">
-          <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-3 block">Essay · ~8 min read</span>
+          <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-3 block">
+            Essay · ~8 min read
+          </span>
           <h1>The Illusion of the Individual: A Foucaultian Reading</h1>
           <p className="text-muted-foreground mt-4 text-lg leading-relaxed">
             The modern concept of the individual is often presented as self-evident and natural. But
@@ -46,11 +48,11 @@ export default function ClusterArticle1En() {
         <p>
           Foucault argued that the modern individual, as we understand it, is not a pre-existing
           reality but a historical invention — a product of specific historical conditions and
-          technologies of power. In <em>Discipline and Punish</em>, he demonstrates how institutions
-          like prisons, schools, and hospitals emerged not just to punish or cure, but to produce
-          docile and governable subjects. These institutions employed disciplinary techniques —
-          surveillance, normalization, examination — to categorize, measure, and differentiate
-          individuals, thereby creating the very notion of individuality.
+          technologies of power. In <em>Discipline and Punish</em>, he demonstrates how
+          institutions like prisons, schools, and hospitals emerged not just to punish or cure, but
+          to produce docile and governable subjects. These institutions employed disciplinary
+          techniques — surveillance, normalization, examination — to categorize, measure, and
+          differentiate individuals, thereby creating the very notion of individuality.
         </p>
         <p>
           For Foucault, power is not merely repressive; it is productive. It doesn't just forbid —
@@ -72,14 +74,14 @@ export default function ClusterArticle1En() {
           individual should be.
         </p>
         <p>
-          Consider the modern obsession with self-help, therapy, and personal development. While
-          these practices can be genuinely empowering, they also subtly reinforce the idea that
-          there is a <em>correct</em> way to be an individual — a set of prescribed behaviors,
-          thoughts, and emotions that constitute a well-adjusted self. We are encouraged to
-          constantly monitor, analyze, and optimize our inner lives, often through categories and
-          frameworks provided by experts and institutions. This internal gaze, while appearing to be
-          an act of freedom, can become another form of discipline — where we become our own
-          wardens, perpetually striving for an elusive ideal of selfhood.
+          Consider the modern obsession with self-help, journaling, and personal development. While
+          these practices can be genuinely useful, they also subtly reinforce the idea that there is
+          a <em>correct</em> way to be an individual — a set of prescribed behaviors, thoughts, and
+          emotions that constitute a well-adjusted self. We are encouraged to constantly monitor,
+          analyze, and optimize our inner lives, often through categories and frameworks provided by
+          experts and institutions. This internal gaze, while appearing to be an act of freedom, can
+          become another form of discipline — where we become our own wardens, perpetually striving
+          for an elusive ideal of selfhood.
         </p>
 
         <h2>The Deconstruction of the Subject</h2>
@@ -100,12 +102,11 @@ export default function ClusterArticle1En() {
         </p>
 
         {/* Bridge to Pillar */}
-        <div className="mt-12 pt-8 border-t border-border">
-          <p className="text-muted-foreground mb-6">
-            This exploration into the constructed nature of the individual reveals how deeply
-            societal forces shape our sense of self. To understand how these forces contribute to a
-            broader societal malaise — and how indigenous perspectives offer a powerful
-            counter-narrative — read the main essay:
+        <div className="mt-10 pt-8 border-t border-border">
+          <p className="text-muted-foreground mb-5 leading-relaxed">
+            This Foucaultian deconstruction of the individual is one thread in a larger argument.
+            To see how it connects to indigenous ontologies and the broader diagnosis of the
+            sickened self, read the main essay:
           </p>
           <Link
             href="/en/pillar"
@@ -113,6 +114,49 @@ export default function ClusterArticle1En() {
           >
             Read: How Society Sickened the 'Self' →
           </Link>
+        </div>
+
+        {/* Paid reading offer */}
+        <div className="mt-8 bg-secondary rounded-xl p-6 border border-border">
+          <p className="font-semibold text-foreground mb-2">Want to go deeper?</p>
+          <p className="text-muted-foreground mb-5 text-sm leading-relaxed">
+            My extended research — including a close reading of Foucault's <em>Discipline and
+            Punish</em> applied to digital subjectivity, and a comparative analysis with indigenous
+            ontologies — is available as a longer piece on Substack and as a PDF on Gumroad.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-3">
+            <a
+              href="https://your-substack-link.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-5 py-2 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity text-sm"
+            >
+              Read more on Substack →
+            </a>
+            <a
+              href="https://your-gumroad-link.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-5 py-2 rounded-lg font-semibold border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors text-sm"
+            >
+              Get the PDF on Gumroad →
+            </a>
+          </div>
+        </div>
+
+        {/* Support */}
+        <div className="mt-5 p-5 border border-border rounded-xl text-center">
+          <p className="text-sm text-muted-foreground mb-3">
+            This research is free and independent. If it's useful to you, consider supporting it.
+          </p>
+          <a
+            href="https://your-support-link.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-5 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity"
+          >
+            ♥ Support this research
+          </a>
         </div>
       </article>
     </div>

@@ -20,8 +20,13 @@ export default function PillarArticleEn() {
 
       <article className="prose-clinical">
         <header className="mb-10">
-          <span className="text-xs font-semibold uppercase tracking-wide text-primary mb-3 block">Pillar Essay · ~15 min read</span>
-          <h1>How Society Sickened the 'Self': The Contrast Between Western Narcissism and Indigenous Alterity</h1>
+          <span className="text-xs font-semibold uppercase tracking-wide text-primary mb-3 block">
+            Pillar Essay · ~15 min read
+          </span>
+          <h1>
+            How Society Sickened the 'Self': The Contrast Between Western Narcissism and Indigenous
+            Alterity
+          </h1>
           <p className="text-muted-foreground mt-4 text-lg leading-relaxed">
             In an age defined by hyper-individualism and relentless self-optimization, the Western
             concept of the 'self' often feels like a fragile, isolated entity — constantly battling
@@ -56,8 +61,8 @@ export default function PillarArticleEn() {
             collective well-being.
           </li>
           <li>
-            <strong>Consumerist Identity</strong>: Identity is constructed through consumption, where
-            possessions and experiences become markers of self-worth and social status.
+            <strong>Consumerist Identity</strong>: Identity is constructed through consumption,
+            where possessions and experiences become markers of self-worth and social status.
           </li>
           <li>
             <strong>Performance Anxiety</strong>: The constant pressure to perform, to be
@@ -118,7 +123,7 @@ export default function PillarArticleEn() {
         <p>
           The Western narcissistic self, in its pursuit of individual autonomy, creates a profound
           sense of separation — from others, from nature, and from deeper spiritual meaning. This
-          separation manifests in various forms of psychological distress:
+          separation manifests in various forms of psychological and social distress:
         </p>
         <ul>
           <li>
@@ -136,62 +141,74 @@ export default function PillarArticleEn() {
           </li>
         </ul>
         <p>
-          Indigenous perspectives offer a framework for healing this sickness of separation. By
-          re-embedding the self within a web of relationships, they provide a path towards greater
-          wholeness, meaning, and ecological harmony.
+          Indigenous perspectives offer a framework for understanding — and beginning to heal — this
+          sickness of separation. By re-embedding the self within a web of relationships, they
+          provide a path towards greater wholeness, meaning, and ecological harmony.
         </p>
 
-        <h2>Bridging the Divide: Towards an Integrative Self</h2>
+        <h2>Towards an Integrative Understanding</h2>
         <p>
-          While a complete return to indigenous ways of life may not be feasible for many in Western
-          societies, there is much to be learned from these alternative understandings of the self.
-          An integrative approach to psychotherapy can draw upon both Western psychological insights
-          and indigenous wisdom to foster a more relational and ecologically conscious self:
+          The point here is not nostalgia, nor a call to abandon modernity. It is a philosophical
+          provocation: what if the very category of the 'individual' — the bedrock of Western
+          liberal thought — is itself a historically contingent construction, one that produces as
+          many problems as it solves? And what if the traditions we have systematically marginalized
+          carry within them a more adequate account of what it means to be a person?
         </p>
-        <ul>
-          <li>
-            <strong>Reclaiming Community</strong>: Actively seeking and nurturing meaningful
-            relationships, recognizing that our well-being is intertwined with the well-being of
-            others.
-          </li>
-          <li>
-            <strong>Reconnecting with Nature</strong>: Cultivating a sense of awe and reverence for
-            the natural world and understanding our place within it.
-          </li>
-          <li>
-            <strong>Honoring Ancestry</strong>: Exploring our family histories and cultural
-            heritage, finding strength in our roots.
-          </li>
-          <li>
-            <strong>Cultivating Humility</strong>: Letting go of the need for constant
-            self-promotion and external validation, embracing our imperfections and
-            interdependence.
-          </li>
-        </ul>
         <p>
-          By integrating these perspectives, we can begin to heal the sickened self — moving beyond
-          the confines of narcissistic individualism towards a more expansive, relational, and
-          resilient sense of self. This journey is not about abandoning our individuality, but about
-          understanding it within a larger, interconnected whole.
+          An integrative approach can draw upon both Western psychological insights and indigenous
+          wisdom to foster a more relational and ecologically conscious understanding of the self.
+          This means reclaiming community, reconnecting with nature, honoring ancestry, and
+          cultivating the kind of humility that comes from recognizing our fundamental
+          interdependence.
+        </p>
+        <p>
+          By holding both traditions in tension — neither romanticizing indigenous thought nor
+          uncritically accepting Western individualism — we open a space for genuine dialogue. And
+          in that space, something new becomes possible.
         </p>
 
-        {/* Offer / CTA */}
-        <div className="mt-12 pt-8 border-t border-border bg-secondary rounded-lg p-6">
-          <p className="font-semibold text-foreground mb-2">
-            If this essay shifted the way you see your own relationships and sense of self —
+        {/* Paid reading offer */}
+        <div className="mt-12 pt-8 border-t border-border bg-secondary rounded-xl p-6">
+          <p className="font-semibold text-foreground mb-2 text-lg">
+            If this essay shifted something in how you see yourself —
           </p>
-          <p className="text-muted-foreground mb-6">
-            I have condensed my complete research on indigenous subjectivation and
-            self-questioning tools into a guide available on Substack. Follow along to receive new
-            essays and, when ready, access the full material.
+          <p className="text-muted-foreground mb-6 leading-relaxed">
+            I have condensed my complete research on indigenous subjectivation, the political
+            genealogy of the Western self, and practical frameworks for self-questioning into a
+            longer guide. It is available on Substack and Gumroad for those who want to go deeper.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-3">
+            <a
+              href="https://your-substack-link.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-5 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity text-sm"
+            >
+              Read the full guide on Substack →
+            </a>
+            <a
+              href="https://your-gumroad-link.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-5 py-3 rounded-lg font-semibold border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors text-sm"
+            >
+              Get the PDF on Gumroad →
+            </a>
+          </div>
+        </div>
+
+        {/* Support */}
+        <div className="mt-6 p-5 border border-border rounded-xl text-center">
+          <p className="text-sm text-muted-foreground mb-3">
+            This research is free and independent. If it's useful to you, consider supporting it.
           </p>
           <a
-            href="https://your-substack-link.com"
+            href="https://your-support-link.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity"
+            className="inline-block px-5 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity"
           >
-            Follow on Substack
+            ♥ Support this research
           </a>
         </div>
 
@@ -203,8 +220,10 @@ export default function PillarArticleEn() {
               href="/en/essays/illusion-of-the-individual"
               className="block p-4 border border-border rounded-lg hover:border-primary transition-colors"
             >
-              <span className="text-xs text-muted-foreground uppercase tracking-wide block mb-1">Essay</span>
-              <span className="font-semibold text-foreground hover:text-primary transition-colors">
+              <span className="text-xs text-muted-foreground uppercase tracking-wide block mb-1">
+                Essay
+              </span>
+              <span className="font-semibold text-foreground hover:text-primary transition-colors text-sm">
                 The Illusion of the Individual: A Foucaultian Reading →
               </span>
             </Link>
@@ -212,8 +231,10 @@ export default function PillarArticleEn() {
               href="/en/essays/collective-shadow"
               className="block p-4 border border-border rounded-lg hover:border-primary transition-colors"
             >
-              <span className="text-xs text-muted-foreground uppercase tracking-wide block mb-1">Essay</span>
-              <span className="font-semibold text-foreground hover:text-primary transition-colors">
+              <span className="text-xs text-muted-foreground uppercase tracking-wide block mb-1">
+                Essay
+              </span>
+              <span className="font-semibold text-foreground hover:text-primary transition-colors text-sm">
                 The Collective Shadow in the Pursuit of Perfection →
               </span>
             </Link>

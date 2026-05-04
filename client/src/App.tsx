@@ -199,8 +199,8 @@ function App() {
     <ErrorBoundary>
       <ThemeProvider defaultTheme="light">
         <TooltipProvider>
-          <FAQSchema />
-          <BookingChatbot />
+          {!isEnglishRoute && <FAQSchema />}
+          {!isEnglishRoute && <BookingChatbot />}
           <Toaster />
           {isEnglishRoute ? (
             <LayoutEn>

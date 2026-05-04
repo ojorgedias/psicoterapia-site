@@ -4,12 +4,12 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 
 export default function ClusterArticle2En() {
   useEffect(() => {
-    document.title = "The Collective Shadow | Jorge Dias";
+    document.title = "The Collective Shadow in the Pursuit of Perfection | Jorge Dias";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute(
         "content",
-        "An exploration of the collective shadow in contemporary society, its impact on individual and societal well-being, and how it manifests in the relentless pursuit of perfection."
+        "A Jungian lens on the unacknowledged shadow of perfectionism — how societal repression of vulnerability fuels anxiety, burnout, and collective alienation."
       );
     }
   }, []);
@@ -26,12 +26,14 @@ export default function ClusterArticle2En() {
 
       <article className="prose-clinical">
         <header className="mb-10">
-          <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-3 block">Essay · ~8 min read</span>
+          <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-3 block">
+            Essay · ~8 min read
+          </span>
           <h1>The Collective Shadow in the Pursuit of Perfection</h1>
           <p className="text-muted-foreground mt-4 text-lg leading-relaxed">
             In a world saturated with curated images of success and flawless living, the pursuit of
-            perfection has become an almost unconscious imperative — casting a long shadow that, when
-            unacknowledged, fuels widespread anxiety and inadequacy.
+            perfection has become an almost unconscious imperative — casting a long shadow that,
+            when unacknowledged, fuels widespread anxiety and inadequacy.
           </p>
         </header>
 
@@ -39,7 +41,7 @@ export default function ClusterArticle2En() {
           From social media feeds to professional aspirations, we are constantly bombarded with
           ideals that feel unattainable yet are relentlessly pursued. Drawing on Jungian concepts,
           this essay explores the nature of the <strong>collective shadow</strong> and its impact on
-          our individual and societal well-being.
+          individual and societal well-being.
         </p>
 
         <h2>The Individual Shadow: A Jungian Perspective</h2>
@@ -108,7 +110,8 @@ export default function ClusterArticle2En() {
           </li>
           <li>
             <strong>Superficiality and Inauthenticity</strong>: The constant need to present a
-            perfect facade leads to superficial relationships and a disconnect from one's true self.
+            perfect facade leads to superficial relationships and a disconnect from one's genuine
+            experience.
           </li>
           <li>
             <strong>Collective Burnout</strong>: The relentless striving for unattainable ideals
@@ -116,44 +119,28 @@ export default function ClusterArticle2En() {
           </li>
         </ul>
 
-        <h2>Integrating the Collective Shadow: A Path to Wholeness</h2>
+        <h2>Integrating the Collective Shadow</h2>
         <p>
           Integrating the collective shadow requires a willingness to confront uncomfortable truths,
           acknowledge collective failings, and embrace the messy reality of human experience. This
-          involves:
+          involves cultivating self-compassion, challenging the norms that glorify productivity over
+          being, embracing vulnerability as a source of connection rather than weakness, and
+          promoting the kind of critical self-reflection that allows communities to examine their
+          own projections.
         </p>
-        <ul>
-          <li>
-            <strong>Cultivating Self-Compassion</strong>: Recognizing that imperfection is inherent
-            to the human condition and extending kindness to ourselves and others.
-          </li>
-          <li>
-            <strong>Challenging Societal Norms</strong>: Questioning the relentless pursuit of
-            perfection and advocating for values that prioritize well-being and authentic connection
-            over superficial achievement.
-          </li>
-          <li>
-            <strong>Embracing Vulnerability</strong>: Creating spaces where vulnerability is seen as
-            a strength, fostering deeper trust and more meaningful relationships.
-          </li>
-          <li>
-            <strong>Promoting Critical Self-Reflection</strong>: Encouraging individuals and
-            communities to examine their own biases, projections, and unacknowledged aspects.
-          </li>
-        </ul>
         <p>
           By consciously engaging with the collective shadow, we can move beyond the illusion of
-          perfection towards a more integrated, compassionate, and resilient society — one that
-          acknowledges the full spectrum of human experience.
+          perfection towards a more integrated, compassionate, and resilient way of being — one that
+          acknowledges the full spectrum of human experience rather than airbrushing it out of
+          existence.
         </p>
 
         {/* Bridge to Pillar */}
-        <div className="mt-12 pt-8 border-t border-border">
-          <p className="text-muted-foreground mb-6">
-            This exploration of the collective shadow highlights how deeply societal pressures
-            influence our inner lives. To understand how these dynamics connect to a broader
-            societal malaise — and how indigenous perspectives offer a powerful counter-narrative —
-            read the main essay:
+        <div className="mt-10 pt-8 border-t border-border">
+          <p className="text-muted-foreground mb-5 leading-relaxed">
+            The collective shadow is one symptom of a deeper structural problem in how the Western
+            self was built. To understand the full diagnosis — and what indigenous thought offers as
+            an alternative — read the main essay:
           </p>
           <Link
             href="/en/pillar"
@@ -161,6 +148,49 @@ export default function ClusterArticle2En() {
           >
             Read: How Society Sickened the 'Self' →
           </Link>
+        </div>
+
+        {/* Paid reading offer */}
+        <div className="mt-8 bg-secondary rounded-xl p-6 border border-border">
+          <p className="font-semibold text-foreground mb-2">Want to go deeper?</p>
+          <p className="text-muted-foreground mb-5 text-sm leading-relaxed">
+            My extended research — including a detailed Jungian analysis of collective shadow
+            dynamics in digital culture and a practical framework for shadow integration — is
+            available as a longer piece on Substack and as a PDF on Gumroad.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-3">
+            <a
+              href="https://your-substack-link.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-5 py-2 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity text-sm"
+            >
+              Read more on Substack →
+            </a>
+            <a
+              href="https://your-gumroad-link.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-5 py-2 rounded-lg font-semibold border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors text-sm"
+            >
+              Get the PDF on Gumroad →
+            </a>
+          </div>
+        </div>
+
+        {/* Support */}
+        <div className="mt-5 p-5 border border-border rounded-xl text-center">
+          <p className="text-sm text-muted-foreground mb-3">
+            This research is free and independent. If it's useful to you, consider supporting it.
+          </p>
+          <a
+            href="https://your-support-link.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-5 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity"
+          >
+            ♥ Support this research
+          </a>
         </div>
       </article>
     </div>

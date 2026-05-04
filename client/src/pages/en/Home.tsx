@@ -3,142 +3,151 @@ import { Link } from "wouter";
 
 export default function HomeEn() {
   useEffect(() => {
-    document.title = "Jorge Dias | Clinical Psychotherapy";
+    document.title = "Jorge Dias | Research & Essays";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute(
         "content",
-        "Clinical psychotherapy online focused on philosophical inquiry, deep self-knowledge, and integral development. Online sessions for individuals worldwide."
+        "Independent research and long-form essays at the intersection of psychoanalysis, critical theory, and indigenous thought. By Jorge Dias, based in Brazil."
       );
     }
   }, []);
 
   return (
     <>
-      {/* Hero Section */}
-      <section className="relative py-16 md:py-32 overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-background/70"></div>
-        </div>
-        <div className="container max-w-4xl mx-auto px-4 text-center relative z-10">
-          <h1 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-4 leading-tight">
-            Jorge Dias | Clinical Psychotherapy
-          </h1>
-          <p className="text-lg text-muted-foreground mb-2 font-semibold">Integrative Approach</p>
-          <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto italic">
-            "Know all the theories, master all the techniques, but when you touch a human soul, be just another human soul."
+      {/* Hero */}
+      <section className="py-20 md:py-32">
+        <div className="container max-w-3xl mx-auto px-4 text-center">
+          <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">
+            Research &amp; Essays
           </p>
-          <p className="text-lg text-muted-foreground mb-10 leading-relaxed max-w-2xl mx-auto">
-            Psychotherapist and researcher in Brazil, working at the intersection of{" "}
-            <strong>psychoanalysis</strong>, <strong>critical theory</strong>, and{" "}
-            <strong>indigenous perspectives</strong>. Online sessions for individuals worldwide.
+          <h1 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
+            Jorge Dias
+          </h1>
+          <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto">
+            Independent researcher and writer exploring the intersections between{" "}
+            <strong>psychoanalysis</strong>, <strong>Foucaultian critical theory</strong>, and{" "}
+            <strong>indigenous cosmologies</strong>. Based in Brazil.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="https://your-substack-link.com"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/en/pillar"
               className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity shadow-md"
             >
-              Read on Substack
-            </a>
+              Read the Pillar Essay
+            </Link>
             <Link
               href="/en/about"
               className="inline-block px-6 py-3 rounded-lg font-semibold border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
             >
-              About My Approach
+              About the Author
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Featured Articles */}
-      <section className="py-16 md:py-24 bg-secondary">
-        <div className="container max-w-6xl mx-auto px-4">
-          <h2 className="font-display text-3xl md:text-4xl font-bold text-center mb-4">
-            Featured Essays
+      {/* Featured Essays */}
+      <section className="py-16 md:py-20 bg-secondary">
+        <div className="container max-w-4xl mx-auto px-4">
+          <h2 className="font-display text-2xl md:text-3xl font-bold text-center mb-3">
+            Essays
           </h2>
-          <p className="text-center text-muted-foreground mb-12 max-w-xl mx-auto">
-            Long-form writing on psychoanalysis, critical theory, and indigenous thought — free to read.
+          <p className="text-center text-muted-foreground mb-12 max-w-xl mx-auto text-sm">
+            Long-form writing on the construction of the modern self, power, and the wisdom of
+            non-Western thought. Free to read.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <article className="bg-card text-card-foreground rounded-lg shadow-sm p-6 border border-border hover:shadow-md transition-shadow">
-              <span className="text-xs font-semibold uppercase tracking-wide text-primary mb-2 block">Pillar Essay</span>
+
+          {/* Pillar */}
+          <div className="bg-card text-card-foreground rounded-xl border border-border p-8 mb-6 hover:shadow-md transition-shadow">
+            <span className="text-xs font-semibold uppercase tracking-wide text-primary mb-3 block">
+              Pillar Essay · ~15 min read
+            </span>
+            <h3 className="font-display text-xl font-bold mb-3">
+              <Link href="/en/pillar" className="text-foreground hover:text-primary transition-colors">
+                How Society Sickened the 'Self': The Contrast Between Western Narcissism and Indigenous Alterity
+              </Link>
+            </h3>
+            <p className="text-muted-foreground mb-4 leading-relaxed">
+              In an age defined by hyper-individualism and relentless self-optimization, the Western
+              concept of the 'self' often feels like a fragile, isolated entity. This essay explores
+              how contemporary society has inadvertently sickened the self — and what indigenous
+              understandings of personhood offer as a counter-narrative.
+            </p>
+            <Link href="/en/pillar" className="text-primary font-semibold text-sm hover:underline">
+              Read essay →
+            </Link>
+          </div>
+
+          {/* Cluster Articles */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-card text-card-foreground rounded-xl border border-border p-6 hover:shadow-md transition-shadow">
+              <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-3 block">
+                Essay · ~8 min read
+              </span>
               <h3 className="font-display text-lg font-semibold mb-3">
-                <Link href="/en/pillar" className="text-foreground hover:text-primary transition-colors">
-                  How Society Sickened the 'Self'
+                <Link
+                  href="/en/essays/illusion-of-the-individual"
+                  className="text-foreground hover:text-primary transition-colors"
+                >
+                  The Illusion of the Individual: A Foucaultian Reading
                 </Link>
               </h3>
-              <p className="text-sm text-muted-foreground mb-4">
-                The contrast between Western narcissism and indigenous alterity. ~15 min read.
+              <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
+                How power structures and disciplinary institutions produce the modern subject —
+                and why the 'authentic self' may be a carefully constructed fiction.
               </p>
-              <Link href="/en/pillar" className="text-primary font-semibold text-sm hover:underline">
+              <Link
+                href="/en/essays/illusion-of-the-individual"
+                className="text-primary font-semibold text-sm hover:underline"
+              >
                 Read essay →
               </Link>
-            </article>
+            </div>
 
-            <article className="bg-card text-card-foreground rounded-lg shadow-sm p-6 border border-border hover:shadow-md transition-shadow">
-              <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2 block">Essay</span>
+            <div className="bg-card text-card-foreground rounded-xl border border-border p-6 hover:shadow-md transition-shadow">
+              <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-3 block">
+                Essay · ~8 min read
+              </span>
               <h3 className="font-display text-lg font-semibold mb-3">
-                <Link href="/en/essays/illusion-of-the-individual" className="text-foreground hover:text-primary transition-colors">
-                  The Illusion of the Individual
-                </Link>
-              </h3>
-              <p className="text-sm text-muted-foreground mb-4">
-                A Foucaultian reading of how power produces the modern self. ~8 min read.
-              </p>
-              <Link href="/en/essays/illusion-of-the-individual" className="text-primary font-semibold text-sm hover:underline">
-                Read essay →
-              </Link>
-            </article>
-
-            <article className="bg-card text-card-foreground rounded-lg shadow-sm p-6 border border-border hover:shadow-md transition-shadow">
-              <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2 block">Essay</span>
-              <h3 className="font-display text-lg font-semibold mb-3">
-                <Link href="/en/essays/collective-shadow" className="text-foreground hover:text-primary transition-colors">
+                <Link
+                  href="/en/essays/collective-shadow"
+                  className="text-foreground hover:text-primary transition-colors"
+                >
                   The Collective Shadow in the Pursuit of Perfection
                 </Link>
               </h3>
-              <p className="text-sm text-muted-foreground mb-4">
-                A Jungian lens on societal pressure and the unacknowledged shadow. ~8 min read.
+              <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
+                A Jungian lens on the unacknowledged shadow of perfectionism — how societal
+                repression of vulnerability fuels anxiety, burnout, and collective alienation.
               </p>
-              <Link href="/en/essays/collective-shadow" className="text-primary font-semibold text-sm hover:underline">
+              <Link
+                href="/en/essays/collective-shadow"
+                className="text-primary font-semibold text-sm hover:underline"
+              >
                 Read essay →
               </Link>
-            </article>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* About Teaser */}
-      <section className="py-16 md:py-24">
-        <div className="container max-w-3xl mx-auto px-4 text-center">
-          <h2 className="font-display text-3xl font-bold mb-6">About This Work</h2>
-          <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-            I am a clinical psychotherapist and researcher based in Brazil. My practice draws on
-            psychoanalysis, Foucaultian critical theory, and indigenous cosmologies to understand
-            how the modern self is constructed — and how it can be healed.
+      {/* Support section */}
+      <section className="py-16 md:py-20">
+        <div className="container max-w-2xl mx-auto px-4 text-center">
+          <h2 className="font-display text-2xl font-bold mb-4">Support Independent Research</h2>
+          <p className="text-muted-foreground mb-8 leading-relaxed">
+            This research is produced independently, without institutional funding. If these essays
+            add value to your thinking, consider supporting the work directly — it keeps the writing
+            free and the research going.
           </p>
-          <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-            These essays are the public face of that research. If they resonate, follow my work on
-            Substack or reach out directly.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/en/about"
-              className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity"
-            >
-              Read About Me
-            </Link>
-            <a
-              href="https://your-substack-link.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block px-6 py-3 rounded-lg font-semibold border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-            >
-              Follow on Substack
-            </a>
-          </div>
+          <a
+            href="https://your-support-link.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity"
+          >
+            ♥ Support this research
+          </a>
         </div>
       </section>
     </>

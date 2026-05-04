@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import HeaderEn from "./HeaderEn";
 import FooterEn from "./FooterEn";
-import FloatingActionButton from "./FloatingActionButton";
+import FloatingActionButtonEn from "./FloatingActionButtonEn";
 
 interface LayoutEnProps {
   children: ReactNode;
@@ -13,7 +13,7 @@ export default function LayoutEn({ children }: LayoutEnProps) {
       <HeaderEn />
       <main className="flex-1">{children}</main>
       <FooterEn />
-      <FloatingActionButton />
+      <FloatingActionButtonEn />
     </div>
   );
 }
