@@ -87,7 +87,7 @@ export default function NewsletterForm({ variant = "block" }: NewsletterFormProp
 
       <form
         onSubmit={handleSubmit}
-        className={`flex gap-2 ${variant === "block" ? "max-w-sm mx-auto flex-col sm:flex-row" : "flex-col sm:flex-row"}`}
+        className={`flex flex-col gap-2 ${variant === "block" ? "max-w-sm mx-auto sm:flex-row" : ""}`}
       >
         <input
           type="email"
