@@ -1,4 +1,5 @@
 import { Link } from "wouter";
+import NewsletterForm from "./NewsletterForm";
 
 export default function FooterEn() {
   const currentYear = new Date().getFullYear();
@@ -6,6 +7,12 @@ export default function FooterEn() {
   return (
     <footer className="bg-sidebar text-sidebar-foreground mt-16">
       <div className="container max-w-4xl mx-auto px-4 py-12">
+
+        {/* Newsletter strip — full width above the columns */}
+        <div className="mb-10 pb-10 border-b border-sidebar-border">
+          <NewsletterForm variant="block" />
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Identity */}
           <div>
@@ -53,7 +60,7 @@ export default function FooterEn() {
               If this research adds value to your thinking, consider supporting it directly.
             </p>
             <a
-              href="https://your-support-link.com"
+              href="https://your-kofi-link.com"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-5 py-2.5 bg-primary text-primary-foreground rounded-lg text-base font-semibold hover:opacity-90 transition-opacity"

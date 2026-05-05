@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "wouter";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import NewsletterForm from "@/components/NewsletterForm";
 
 export default function ClusterArticle2En() {
   useEffect(() => {
@@ -179,21 +180,8 @@ export default function ClusterArticle2En() {
         </div>
 
         {/* Newsletter CTA */}
-        <div className="mt-5 p-5 border border-border rounded-xl text-center">
-          <p className="font-semibold text-foreground mb-1">
-            New essays, every few weeks.
-          </p>
-          <p className="text-muted-foreground mb-4">
-            Subscribe for free and get notified when the next piece is out — no noise, just writing.
-          </p>
-          <a
-            href="https://your-substack-link.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block px-5 py-2.5 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity"
-          >
-            Subscribe — it's free
-          </a>
+        <div className="mt-5">
+          <NewsletterForm variant="inline" />
         </div>
       </article>
     </div>
