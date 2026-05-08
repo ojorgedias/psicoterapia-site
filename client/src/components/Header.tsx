@@ -60,11 +60,6 @@ export default function Header() {
             Sobre Mim
           </Link>
 
-          {/* Blog */}
-          <Link href="/blog" className="text-foreground hover:text-primary transition-colors">
-            Blog
-          </Link>
-
           {/* CTA Button */}
           <Link href="/contato" className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity duration-200 shadow-md hover:shadow-lg">
             Agendar Sessão
@@ -127,15 +122,6 @@ export default function Header() {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Sobre Mim
-            </Link>
-
-            {/* Blog */}
-            <Link 
-              href="/blog" 
-              className="text-foreground hover:text-primary transition-colors font-semibold px-4 py-2"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Blog
             </Link>
 
             {/* CTA Button - High Contrast */}

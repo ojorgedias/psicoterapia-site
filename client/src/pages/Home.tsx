@@ -117,41 +117,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Articles */}
-      <section className="py-16 md:py-24">
-        <div className="container max-w-6xl mx-auto px-4">
-          <h2 className="font-display text-3xl md:text-4xl font-bold text-center mb-12">
-            Últimos Artigos do Blog
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-            <article className="bg-card text-card-foreground rounded-lg shadow-sm p-6 border border-border">
-              <h3 className="font-display text-xl font-semibold mb-2">
-                <Link href="/ansiedade" className="text-primary hover:underline">Ansiedade</Link> ou Intuição?
-              </h3>
-              <p className="text-sm text-muted-foreground mb-3">
-                Entendendo os sinais do corpo além do diagnóstico
-              </p>
-              <Link href="/blog/ansiedade-ou-intuicao" className="text-primary hover:text-accent font-semibold">Ler mais →</Link>
-            </article>
-
-            <article className="bg-card text-card-foreground rounded-lg shadow-sm p-6 border border-border">
-              <h3 className="font-display text-xl font-semibold mb-2">
-                A <Link href="/blog/sombra-relacionamentos" className="text-primary hover:underline">Sombra</Link> nos Relacionamentos
-              </h3>
-              <p className="text-sm text-muted-foreground mb-3">
-                O que o comportamento do outro diz sobre você
-              </p>
-              <Link href="/blog/sombra-relacionamentos" className="text-primary hover:text-accent font-semibold">Ler mais →</Link>
-            </article>
-          </div>
-          <div className="text-center">
-            <Link href="/blog" className="text-primary hover:text-accent font-semibold text-lg">
-                Ver todos os artigos →
-              </Link>
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="bg-sidebar text-sidebar-foreground py-16 md:py-24">
         <div className="container max-w-4xl mx-auto px-4 text-center">

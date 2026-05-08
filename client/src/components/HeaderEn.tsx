@@ -25,17 +25,13 @@ export default function HeaderEn() {
           <Link href="/en/pillar" className="text-base text-foreground hover:text-primary transition-colors">
             Pillar Essay
           </Link>
-          <Link href="/en/essays/illusion-of-the-individual" className="text-base text-foreground hover:text-primary transition-colors">
-            Essays
-          </Link>
-          {/* Support button — placeholder URL */}
           <a
-            href="https://your-support-link.com"
+            href="https://diasjorge.substack.com"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-5 py-2.5 bg-primary text-primary-foreground rounded-lg text-base font-semibold hover:opacity-90 transition-opacity"
           >
-            ♥ Support this research
+            Subscribe — free
           </a>
         </div>
 
@@ -74,21 +70,14 @@ export default function HeaderEn() {
             >
               Pillar Essay
             </Link>
-            <Link
-              href="/en/essays/illusion-of-the-individual"
-              className="text-foreground hover:text-primary transition-colors text-base font-medium px-2 py-2"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Essays
-            </Link>
             <a
-              href="https://your-support-link.com"
+              href="https://diasjorge.substack.com"
               target="_blank"
               rel="noopener noreferrer"
               className="block text-center px-4 py-3 bg-primary text-primary-foreground rounded-lg text-base font-semibold hover:opacity-90 transition-opacity mt-1"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              ♥ Support this research
+              Subscribe — free
             </a>
           </div>
         </div>

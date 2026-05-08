@@ -8,8 +8,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import HomeEn from "./pages/en/Home";
 import AboutEn from "./pages/en/About";
 import PillarArticleEn from "./pages/en/PillarArticle";
-import ClusterArticle1En from "./pages/en/ClusterArticle1";
-import ClusterArticle2En from "./pages/en/ClusterArticle2";
+
 import LayoutEn from "./components/LayoutEn";
 import Home from "./pages/Home";
 import FAQ from "./pages/FAQ";
@@ -183,8 +182,7 @@ function Router() {
       <Route path={"/en"} component={HomeEn} />
       <Route path={"/en/about"} component={AboutEn} />
       <Route path={"/en/pillar"} component={PillarArticleEn} />
-      <Route path={"/en/essays/illusion-of-the-individual"} component={ClusterArticle1En} />
-      <Route path={"/en/essays/collective-shadow"} component={ClusterArticle2En} />
+
       <Route component={NotFound} />
     </Switch>
   );
