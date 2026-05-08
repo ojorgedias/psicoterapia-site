@@ -360,6 +360,15 @@ export default function PillarArticleEn() {
           diluting the will and agency of the other (Egocentrism).
         </p>
 
+        {/* Image 4 repeated — as referenced in the original text */}
+        <figure className="my-8 flex flex-col items-center">
+          <img
+            src="/images/pillar/img4_en.png"
+            alt="Diagram showing excess energy (AAA+B) returning to the Ego when the comparison barrier is active"
+            className="max-w-full rounded"
+          />
+        </figure>
+
         <p>
           Let's look again at the example diagram: Red and Yellow debate the same topic.
         </p>
