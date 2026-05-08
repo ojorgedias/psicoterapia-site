@@ -68,24 +68,24 @@ export default function PillarArticleEn() {
 
         <p>With the following <strong>criteria:</strong></p>
 
-        <ul>
-          <li>Grandiose sense of self-importance;</li>
-          <li>Preoccupation with fantasies of unlimited success, power, brilliance, beauty, or ideal love;</li>
-          <li>
-            Belief of being "special" and unique, and that they can only be understood by, or associate with,
-            other special or high-status people (or institutions);
-          </li>
-          <li>Requirement of excessive admiration;</li>
-          <li>
-            Expectations of especially favorable treatment or automatic compliance with their expectations;
-          </li>
-          <li>Interpersonal exploitation, taking advantage of others to achieve their own ends;</li>
-          <li>
-            Lack of empathy: reluctant to recognize or identify with the feelings and needs of others;
-          </li>
-          <li>Frequently envies others or believes that others envy them;</li>
-          <li>Arrogant and insolent behaviors or attitudes.</li>
-        </ul>
+        <div className="my-4 space-y-2 pl-2">
+          {[
+            "Grandiose sense of self-importance;",
+            "Preoccupation with fantasies of unlimited success, power, brilliance, beauty, or ideal love;",
+            "Belief of being \"special\" and unique, and that they can only be understood by, or associate with, other special or high-status people (or institutions);",
+            "Requirement of excessive admiration;",
+            "Expectations of especially favorable treatment or automatic compliance with their expectations;",
+            "Interpersonal exploitation, taking advantage of others to achieve their own ends;",
+            "Lack of empathy: reluctant to recognize or identify with the feelings and needs of others;",
+            "Frequently envies others or believes that others envy them;",
+            "Arrogant and insolent behaviors or attitudes.",
+          ].map((item, i) => (
+            <div key={i} className="flex gap-3">
+              <span className="text-foreground shrink-0 mt-1">&bull;</span>
+              <p className="m-0">{item}</p>
+            </div>
+          ))}
+        </div>
 
         <p>When reading these definitions, we can have an interesting reflection:</p>
 
@@ -632,19 +632,30 @@ export default function PillarArticleEn() {
           constant feeling of fear of inadequacy, leaving us with few choices:
         </p>
 
-        <ul>
-          <li>
-            Cling to the narcissistic model, choose a social bubble and dominate it, placing oneself in the
-            role of Subject, objectifying all reality, ignoring and filtering any perspective that is not
-            consistent with one's own point of view;
-          </li>
-          <li>
-            Navigate between different bubbles, placing oneself in the role of Object at the mercy of the
-            situation and the various Subjects who dominate the moment, while constantly seeking to feel
-            adequate and belonging;
-          </li>
-          <li>Accept uncertainty and inconstancy, dealing with the feeling of inadequacy and social disapproval.</li>
-        </ul>
+        <div className="my-4 space-y-3">
+          <div className="flex gap-3">
+            <span className="font-bold text-foreground shrink-0">→</span>
+            <p className="m-0">
+              Cling to the narcissistic model, choose a social bubble and dominate it, placing oneself in the
+              role of Subject, objectifying all reality, ignoring and filtering any perspective that is not
+              consistent with one's own point of view;
+            </p>
+          </div>
+          <div className="flex gap-3">
+            <span className="font-bold text-foreground shrink-0">→</span>
+            <p className="m-0">
+              Navigate between different bubbles, placing oneself in the role of Object at the mercy of the
+              situation and the various Subjects who dominate the moment, while constantly seeking to feel
+              adequate and belonging;
+            </p>
+          </div>
+          <div className="flex gap-3">
+            <span className="font-bold text-foreground shrink-0">→</span>
+            <p className="m-0">
+              Accept uncertainty and inconstancy, dealing with the feeling of inadequacy and social disapproval.
+            </p>
+          </div>
+        </div>
 
         <p>
           Just as a Pathologically Narcissistic subject wins any argument through exhaustion via an excess of
