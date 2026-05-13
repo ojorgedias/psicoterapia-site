@@ -163,18 +163,20 @@ export default function Home() {
                 </p>
                 <p>
                   A <strong>resistência</strong> cria uma busca por autonomia e liberdade, que é onde geralmente surgem os conflitos, insubordinações e a rebeldia. Você passa a carregar o fardo de ser o "problemático" da relação, lidando com ansiedade e culpa crônicas. Muitas vezes naturalizando comportamentos de agressividade e explosão.
-                  </p>
+                </p>
                 <p>
                   No Final das contas, seja Aceitando ou Resistindo, o saldo para quem passa por isso é um sentimento de não conhecer a si mesmo, sentir culpa por existir e ter dificuldade de manter relações saudáveis. Esse vazio interior ocorre por que o espaço mental que deveria ser ocupad por você, foi tomado por outra pessoa. É como se boa parte da sua própria existência pertencesse a um outro que nunca quer abrir mão desse controle.
-                  </p>
+                </p>
                 <p>
                   Por vezes, caimos no erro de tentar superar através de confronto ou esclarecimentos diretos, buscando tirar satisfação ou resolver a questão colocando tudo pra fora e esperando algum sinal de culpa ou remoso da outra parte, mas não percebemos que, mesmo ao admitir um erro ou demonstrar "Se punir", o indivíduo narcisista faz isso de uma forma tão intensa que o peso da culpa se recai sobre você.
-                  </p>
+                </p>
                 <p>
                   É como se, não importa qual seja o argumento ou o motivo, ele soubesse exatamente quais botões apertar para que você carregue sozinho o peso do desconforto e ele "saia ganhando". Escapar dessa lógica não é fácil, exige um processo intenso de autoconhecimento e elaboração, para "limpar" todo espaço mental que estava sendo ocupado pelo narcisista, aprender a observar e lidar com o vazio que fica, para depois iniciar um processo de autoconhecimento e preencher-se de si mesmo.
                 </p>
               </div>
-            </section>
+            </div>
+          </div>
+        </section>
 
         {/* SECTION 4: O Profissional (Sobre Mim) */}
         <section id="profissional" className="section-padding bg-secondary/50">
@@ -196,15 +198,16 @@ export default function Home() {
                     O objetivo é compreender sua ferida narcísica, o choque entre a expectativa do outro e a realidade da falta, permitindo que você desconstrua a culpa, recupere o seu desejo autêntico e deixe de pagar uma dívida emocional que não lhe pertence.
                   </p>
                 </div>
-              </section>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* SECTION 5: Atendimento Global e Agendamento */}
         <section id="clinica" className="section-padding bg-primary text-primary-foreground">
           <div className="container text-center">
             <div className="max-w-2xl mx-auto">
               <h2 className="text-primary-foreground mb-8">Inicie seu processo de psicoterapia</h2>
-              <p className="text-xl opacity-90 mb-12">
-              </p>
               
               <div className="bg-white/5 border border-white/10 p-12 mb-12">
                 <span className="tag-value text-white/60 mb-8 block">
