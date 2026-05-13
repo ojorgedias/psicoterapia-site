@@ -2,7 +2,7 @@
 @import "tw-animate-css";
 
 /* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Inter:wght@400;500;600;700&display=swap');
 
 @custom-variant dark (&:is(.dark *));
 
@@ -37,15 +37,15 @@
 
 :root {
   /* High-Ticket Clinical Aesthetics */
-  --background: #FAFAFA; /* Off-white, like book paper */
-  --foreground: #2D2D2D; /* Charcoal, for comfortable reading */
-  --primary: #1A1A1A;    /* Pure black/charcoal for authority */
+  --background: #FAFAFA;
+  --foreground: #2D2D2D;
+  --primary: #1A1A1A;
   --primary-foreground: #FAFAFA;
-  --secondary: #F2F4F5;  /* Very subtle grey-blue */
+  --secondary: #F2F4F5;
   --secondary-foreground: #4A4A4A;
   --muted: #E5E7EB;
   --muted-foreground: #6B7280;
-  --accent: #3E4E50;     /* Dark Slate */
+  --accent: #3E4E50;
   --accent-foreground: #FAFAFA;
   --card: #FFFFFF;
   --card-foreground: #2D2D2D;
@@ -54,7 +54,7 @@
   --border: #E5E7EB;
   --input: #FFFFFF;
   --ring: #1A1A1A;
-  --radius: 0rem; /* Sharp edges for high-end look */
+  --radius: 0rem;
 }
 
 @layer base {
@@ -67,26 +67,41 @@
   body {
     @apply bg-background text-foreground font-body;
     font-size: 18px;
-    line-height: 1.6; /* Reduced from 1.7 */
-    letter-spacing: 0.01em;
+    line-height: 1.8; /* Premium Editorial Spacing */
+    letter-spacing: 0.015em;
     -webkit-font-smoothing: antialiased;
   }
+  
+  @media (max-width: 768px) {
+    body {
+      font-size: 17px;
+      line-height: 1.75;
+    }
+  }
+
   h1, h2, h3, h4, h5, h6 {
     @apply font-display font-semibold tracking-tight;
     color: var(--primary);
   }
   h1 {
-    @apply text-4xl md:text-5xl leading-[1.1] mb-6; /* Reduced size and margin */
+    @apply text-4xl md:text-5xl leading-[1.15] mb-8;
   }
   h2 {
-    @apply text-3xl md:text-4xl leading-tight mb-4 mt-8; /* Reduced margin top/bottom */
+    @apply text-3xl md:text-4xl leading-tight mb-6 mt-10;
   }
   h3 {
-    @apply text-xl md:text-2xl leading-tight mb-3 mt-6; /* Reduced size and margins */
+    @apply text-xl md:text-2xl leading-tight mb-4 mt-8;
   }
   p {
-    @apply mb-4 leading-relaxed; /* Reduced from mb-6 */
+    @apply mb-8 leading-relaxed; /* Increased bottom margin for scannability */
   }
+  
+  @media (max-width: 768px) {
+    p {
+      @apply mb-10; /* Even more margin on mobile to prevent wall-of-text */
+    }
+  }
+
   a {
     @apply transition-all duration-300;
   }
@@ -94,30 +109,39 @@
 
 @layer components {
   .container {
-    @apply max-w-5xl mx-auto px-6 md:px-12;
+    @apply max-w-5xl mx-auto px-8 md:px-12; /* Increased mobile padding to 32px (px-8) */
   }
 
   .section-padding {
-    @apply py-12 md:py-20; /* Reduced from 20/32 */
+    @apply py-16 md:py-24;
   }
 
   .btn-high-ticket {
-    @apply inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground font-semibold tracking-wide transition-all duration-300 hover:bg-accent hover:shadow-lg active:scale-[0.98] uppercase text-xs; /* Reduced padding and text size */
+    @apply inline-flex items-center justify-center px-10 py-5 bg-primary text-primary-foreground font-semibold tracking-widest transition-all duration-300 hover:bg-accent hover:shadow-lg active:scale-[0.98] uppercase text-[10px];
   }
 
   .nav-link {
-    @apply text-xs font-medium uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors relative after:content-[''] after:absolute after:w-0 after:h-[1px] after:bg-primary after:left-0 after:-bottom-1 after:transition-all hover:after:w-full;
+    @apply text-[10px] font-medium uppercase tracking-[0.2em] text-muted-foreground hover:text-primary transition-colors relative after:content-[''] after:absolute after:w-0 after:h-[1px] after:bg-primary after:left-0 after:-bottom-1 after:transition-all hover:after:w-full;
   }
 
   .manifesto-text {
-    @apply max-w-2xl mx-auto text-base md:text-lg leading-relaxed font-serif; /* Reduced text size */
+    @apply max-w-2xl mx-auto text-[17px] md:text-lg leading-relaxed font-serif text-foreground/90;
   }
 
   .quote-block {
-    @apply border-l-2 border-primary pl-6 py-2 my-8 italic text-xl md:text-2xl font-serif text-accent leading-snug; /* Reduced size and margins */
+    @apply border-l border-primary/30 pl-8 py-2 my-12 italic text-xl md:text-2xl font-serif text-accent/90 leading-relaxed bg-secondary/20 pr-6;
+  }
+
+  .clinical-list-item {
+    @apply relative pl-10 mb-8;
+  }
+  
+  .clinical-list-item::before {
+    content: '—';
+    @apply absolute left-0 top-0 text-primary/40 font-serif;
   }
 
   .tag-value {
-    @apply text-xs italic text-muted-foreground tracking-wide;
+    @apply text-[10px] uppercase tracking-[0.2em] text-muted-foreground/60;
   }
 }

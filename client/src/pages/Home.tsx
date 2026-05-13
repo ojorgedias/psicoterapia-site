@@ -85,7 +85,7 @@ export default function Home() {
 
       <main>
         {/* SECTION 2: Hero */}
-        <section className="min-h-[80vh] flex items-center pt-16 bg-background">
+        <section className="min-h-[85vh] flex items-center pt-16 bg-background">
           <div className="container grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -97,7 +97,7 @@ export default function Home() {
                 O peso invisível do <br className="hidden md:block" />
                 <span className="italic">amor familiar</span>
               </h1>
-              <p className="text-lg md:text-xl text-accent font-serif leading-relaxed mb-8 max-w-xl">
+              <p className="text-lg md:text-xl text-accent font-serif leading-relaxed mb-10 max-w-xl">
                 Muitas vezes, o excesso de proteção e o zelo podem encobrir dinâmicas que anulam a sua identidade e geram uma dívida emocional impagável.
               </p>
               <a href="#dinamica" className="btn-high-ticket">
@@ -110,7 +110,7 @@ export default function Home() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 1, delay: 0.2 }}
-              className="relative aspect-[4/5] max-w-md mx-auto lg:mx-0 bg-secondary overflow-hidden grayscale hover:grayscale-0 transition-all duration-700"
+              className="relative aspect-[4/5] max-w-md mx-auto lg:mx-0 bg-secondary overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl"
             >
               <img
                 src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png"
@@ -128,10 +128,10 @@ export default function Home() {
           <div className="section-padding">
             <div className="container">
               <div className="max-w-3xl mx-auto">
-                <span className="text-xs uppercase tracking-[0.3em] text-muted-foreground mb-2 block text-center">A dinâmica do narcisista "bonzinho"</span>
-                <h2 className="text-center mb-10">A cobrança indireta e o peso do amor</h2>
+                <span className="tag-value mb-4 block text-center">A dinâmica do narcisista "bonzinho"</span>
+                <h2 className="text-center mb-12">A cobrança indireta e o peso do amor</h2>
                 
-                <div className="manifesto-text space-y-6">
+                <div className="manifesto-text space-y-2">
                   <p>
                     Estamos acostumados a entender o <strong>narcisismo como doença</strong>, como se a pessoa patologicamente narcisista fosse alguém muito diferente do que é considerado normal.
                   </p>
@@ -145,8 +145,8 @@ export default function Home() {
                     Mães e pais excessivamente zelosos são os exemplos perfeitos para descrever o <strong>extremo altruísta</strong> do indivíduo patologicamente narcisista.
                   </p>
                   
-                  <div className="py-8 border-y border-border/50 my-12 text-center">
-                    <p className="text-2xl md:text-3xl font-display italic text-primary leading-tight mb-0">
+                  <div className="py-12 border-y border-border/40 my-16 text-center">
+                    <p className="text-2xl md:text-3xl font-display italic text-primary leading-snug mb-0 px-4">
                       "O cuidado excessivo gera um sentimento de <span className="text-accent">débito internalizado</span> que você não pediu para contrair."
                     </p>
                   </div>
@@ -166,8 +166,8 @@ export default function Home() {
           <div className="section-padding bg-secondary/30">
             <div className="container">
               <div className="max-w-3xl mx-auto">
-                <div className="manifesto-text space-y-6">
-                  <h3 className="pt-0 text-center mb-8">Como o Narcisista vê o mundo</h3>
+                <div className="manifesto-text space-y-2">
+                  <h3 className="pt-0 text-center mb-10">Como o Narcisista vê o mundo</h3>
                   <p>
                     Discutir e argumentar sobre essa culpa costuma ser inútil. O indivíduo narcisista possui um mecanismo ativo 24 horas por dia que convence a si mesmo de que a <strong>realidade é do jeito que ele quer</strong>.
                   </p>
@@ -184,7 +184,7 @@ export default function Home() {
                     As informações já chegam modificadas por um mecanismo que <strong>evita sentimentos desconfortáveis</strong> a todo custo, protegendo o Ego de qualquer frustração.
                   </p>
                   
-                  <div className="quote-block !my-8">
+                  <div className="quote-block !my-12">
                     Se você impõe um limite, a lente traduz como ofensa. Se a ajuda dele atrapalha e você aponta, a lente te traduz como ingrato.
                   </div>
 
@@ -200,26 +200,33 @@ export default function Home() {
           <div className="section-padding">
             <div className="container">
               <div className="max-w-3xl mx-auto">
-                <div className="manifesto-text space-y-6">
-                  <h3 className="pt-0 text-center mb-8">Aceitação ou Resistência</h3>
+                <div className="manifesto-text space-y-2">
+                  <h3 className="pt-0 text-center mb-10">Aceitação ou Resistência</h3>
                   <p>
-                    Crescer precisando validar essa realidade distorcida deforma a forma como nos vemos. A criança diante dessa <strong>supressão excessiva</strong> geralmente reage de duas formas.
+                    Crescer precisando validar essa realidade distorcida deforma a forma como nos vemos. A criança diante dessa <strong>supressão excessiva</strong> geralmente reage de duas formas:
                   </p>
-                  <p>
-                    A <strong>aceitação</strong> cria um indivíduo submisso e passivo. Você aprende a viver no piloto automático para não decepcionar a família, mantendo seus desejos ocultos.
-                  </p>
-                  <p>
-                    A <strong>resistência</strong> cria uma busca por autonomia que gera conflitos e rebeldia. Você passa a carregar o fardo de ser o "problemático", lidando com <strong>ansiedade crônica</strong>.
-                  </p>
-                  <p>
+                  
+                  <div className="clinical-list-item mt-10">
+                    <p>
+                      A <strong>aceitação</strong> cria um indivíduo submisso e passivo. Você aprende a viver no piloto automático para não decepcionar a família, mantendo seus desejos ocultos.
+                    </p>
+                  </div>
+
+                  <div className="clinical-list-item">
+                    <p>
+                      A <strong>resistência</strong> cria uma busca por autonomia que gera conflitos e rebeldia. Você passa a carregar o fardo de ser o "problemático", lidando com <strong>ansiedade crônica</strong>.
+                    </p>
+                  </div>
+
+                  <p className="mt-10">
                     Seja aceitando ou resistindo, o saldo é um sentimento de <strong>não conhecer a si mesmo</strong>. O espaço mental que deveria ser seu foi tomado por outra pessoa.
                   </p>
                   <p>
                     É como se boa parte da sua própria existência pertencesse a um outro que <strong>nunca quer abrir mão do controle</strong> sobre quem você é.
                   </p>
 
-                  <div className="py-8 border-y border-border/50 my-12 text-center">
-                    <p className="text-xl md:text-2xl font-display italic text-primary leading-tight mb-0">
+                  <div className="py-12 border-y border-border/40 my-16 text-center">
+                    <p className="text-xl md:text-2xl font-display italic text-primary leading-snug mb-0 px-4">
                       "Escapar dessa lógica exige um processo intenso de <span className="text-accent">limpeza do espaço mental</span> ocupado pelo outro."
                     </p>
                   </div>
@@ -237,22 +244,29 @@ export default function Home() {
         </section>
 
         {/* SECTION 4: O Profissional (Sobre Mim) */}
-        <section id="profissional" className="section-padding bg-secondary/50">
+        <section id="profissional" className="section-padding bg-secondary/40">
           <div className="container">
             <div className="max-w-4xl mx-auto">
-              <div className="quote-block">
-                "Meu nome é Jorge Dias, sou psicoterapeuta clínico. Ao longo de mais de 3.000 horas de prática, compreendi que rotular o Narcisista como 'vilão' apenas mascara a raiz do sofrimento e causa mais culpa à vítima."
-              </div>
+              <motion.div 
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="quote-block !border-l-2 !bg-white/50 !pl-10 !py-8 !my-0 shadow-sm"
+              >
+                <p className="text-xl md:text-2xl italic font-serif text-primary leading-relaxed mb-0">
+                  "Meu nome é Jorge Dias, sou psicoterapeuta clínico. Ao longo de mais de 3.000 horas de prática, compreendi que rotular o Narcisista como 'vilão' apenas mascara a raiz do sofrimento e causa mais culpa à vítima."
+                </p>
+              </motion.div>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
-                <div className="space-y-4">
-                  <h3 className="mt-0">A psicoterapia para vítimas</h3>
-                  <p className="text-base md:text-lg leading-relaxed">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16">
+                <div className="space-y-6">
+                  <h3 className="mt-0 text-accent uppercase text-xs tracking-[0.2em] font-semibold">A psicoterapia para vítimas</h3>
+                  <p className="text-lg leading-relaxed text-foreground/80">
                     Focamos em criar um espaço ético e livre de julgamentos, onde investigaremos a sua história de vida e percepções de mundo, colocando <strong>você como centro do processo</strong>.
                   </p>
                 </div>
-                <div className="space-y-4">
-                  <p className="text-base md:text-lg leading-relaxed pt-0 md:pt-10">
+                <div className="space-y-6">
+                  <p className="text-lg leading-relaxed pt-0 md:pt-10 text-foreground/80">
                     O objetivo é compreender sua <strong>ferida narcísica</strong>, permitindo que você desconstrua a culpa, recupere o seu desejo autêntico e deixe de pagar uma dívida que não lhe pertence.
                   </p>
                 </div>
@@ -265,20 +279,20 @@ export default function Home() {
         <section id="clinica" className="section-padding bg-primary text-primary-foreground">
           <div className="container text-center">
             <div className="max-w-2xl mx-auto">
-              <h2 className="text-primary-foreground mb-6">Inicie seu processo de psicoterapia</h2>
+              <h2 className="text-primary-foreground mb-10">Inicie seu processo de psicoterapia</h2>
               
-              <div className="bg-white/5 border border-white/10 p-8 md:p-12 mb-8">
-                <span className="tag-value text-white/60 mb-6 block">
+              <div className="bg-white/5 border border-white/10 p-10 md:p-16 mb-8 shadow-2xl">
+                <span className="tag-value text-white/40 mb-8 block">
                   Sessões individuais online via Google Meet
                 </span>
-                <div className="text-2xl md:text-3xl font-display mb-8 italic">
+                <div className="text-3xl md:text-4xl font-display mb-12 italic">
                   Valor da sessão: R$ 250
                 </div>
                 <a
                   href={whatsappLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn-high-ticket bg-white text-primary hover:bg-secondary"
+                  className="btn-high-ticket bg-white text-primary hover:bg-secondary px-12 py-6 text-xs"
                 >
                   Agendar Sessão via WhatsApp
                 </a>
@@ -289,12 +303,12 @@ export default function Home() {
       </main>
 
       {/* SECTION 6: Footer & Floating Button */}
-      <footer className="py-8 bg-background border-t border-border">
-        <div className="container flex flex-col md:flex-row justify-between items-center gap-6">
-          <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} Jorge Dias — Psicoterapia e Psicanálise. Todos os direitos reservados.
+      <footer className="py-12 bg-background border-t border-border">
+        <div className="container flex flex-col md:flex-row justify-between items-center gap-8">
+          <p className="text-[10px] uppercase tracking-widest text-muted-foreground">
+            &copy; {new Date().getFullYear()} Jorge Dias — Psicoterapia e Psicanálise.
           </p>
-          <div className="flex gap-6 text-[10px] uppercase tracking-widest font-semibold">
+          <div className="flex gap-8 text-[10px] uppercase tracking-[0.2em] font-semibold">
             <Link href="/politica-privacidade" className="hover:text-primary transition-colors">Privacidade</Link>
             <Link href="/termos-uso" className="hover:text-primary transition-colors">Termos</Link>
           </div>
@@ -306,11 +320,11 @@ export default function Home() {
         href={whatsappLink}
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 z-[100] bg-[#25D366] text-white p-3 rounded-full shadow-2xl hover:scale-110 transition-transform group"
+        className="fixed bottom-8 right-8 z-[100] bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform group"
         aria-label="Consultar disponibilidade"
       >
         <MessageCircle size={28} fill="currentColor" />
-        <span className="absolute right-full mr-4 top-1/2 -translate-y-1/2 bg-primary text-primary-foreground text-[10px] py-1.5 px-3 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity hidden md:block">
+        <span className="absolute right-full mr-4 top-1/2 -translate-y-1/2 bg-primary text-primary-foreground text-[10px] py-2 px-4 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity hidden md:block uppercase tracking-widest font-bold">
           Consultar disponibilidade
         </span>
       </a>
