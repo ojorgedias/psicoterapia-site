@@ -260,7 +260,7 @@ export default function Home() {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16">
                 <div className="space-y-6">
-                  <h3 className="mt-0 text-accent uppercase text-xs tracking-[0.2em] font-semibold">A psicoterapia para vítimas</h3>
+                  <h3 className="mt-0 text-accent uppercase text-xs tracking-[0.2em] font-semibold">Sobre o processo terapeutico</h3>
                   <p className="text-lg leading-relaxed text-foreground/80">
                     Focamos em criar um espaço ético e livre de julgamentos, onde investigaremos a sua história de vida e percepções de mundo, colocando <strong>você como centro do processo</strong>.
                   </p>
