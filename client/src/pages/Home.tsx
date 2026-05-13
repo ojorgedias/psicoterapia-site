@@ -162,8 +162,8 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Sub-section 2: Como o Narcisista vê o mundo (Off-white background) */}
-          <div className="section-padding bg-secondary/30">
+          {/* Sub-section 2: Como o Narcisista vê o mundo (Darker grey background for suspense) */}
+          <div className="section-padding bg-[#ECEEEF] border-y border-border/30">
             <div className="container">
               <div className="max-w-3xl mx-auto">
                 <div className="manifesto-text space-y-2">
@@ -184,7 +184,7 @@ export default function Home() {
                     As informações já chegam modificadas por um mecanismo que <strong>evita sentimentos desconfortáveis</strong> a todo custo, protegendo o Ego de qualquer frustração.
                   </p>
                   
-                  <div className="quote-block !my-12">
+                  <div className="quote-block !my-12 !bg-white/40">
                     Se você impõe um limite, a lente traduz como ofensa. Se a ajuda dele atrapalha e você aponta, a lente te traduz como ingrato.
                   </div>
 
