@@ -21,7 +21,7 @@ export default function Home() {
     { name: "O Profissional", href: "#profissional" },
   ];
 
-  const whatsappLink = "https://api.whatsapp.com/send?phone=5541985155583&text=Ol%C3%A1%2C%20Jorge.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20atendimento.";
+  const whatsappLink = "https://api.whatsapp.com/send?phone=5541985155583&text=Ol%C3%A1%2C%20Jorge.%20Gostaria%20de%20agendar%20uma%20sessao%20de%20psicoterapia.";
 
   return (
     <div className="selection:bg-accent/30 selection:text-primary">
