@@ -1,136 +1,252 @@
+import { useEffect, useState } from "react";
 import { Link } from "wouter";
-import { useEffect } from 'react';
-import Layout from "@/components/Layout";
-import CTAButton from "@/components/CTAButton";
-import Testimonials from "@/components/Testimonials";
-import { updatePageMeta } from "@/lib/seoMetadata";
-import { useEEATSchema, useLocalBusinessSchema } from "@/components/EEATSchema";
+import { Menu, X, MessageCircle } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 
 export default function Home() {
-  useEEATSchema({
-    pageType: 'home',
-    title: 'Jorge Dias | Psicoterapia Clínica',
-    description: 'Investigação filosófica e clínica rigorosa para quem se sente perdido, sem propósito ou preso em ciclos repetitivos.',
-    url: 'https://psicoterapia-site.com'
-  });
-  useLocalBusinessSchema();
-  
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   useEffect(() => {
-    updatePageMeta('home');
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-  
+
+  const navLinks = [
+    { name: "A Dinâmica", href: "#dinamica" },
+    { name: "A Clínica", href: "#clinica" },
+    { name: "O Profissional", href: "#profissional" },
+  ];
+
+  const whatsappLink = "https://api.whatsapp.com/send?phone=5541985155583&text=Ol%C3%A1%2C%20Jorge.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20atendimento.";
+
   return (
-    <Layout>
-      {/* Hero Section */}
-      <section className="relative py-16 md:py-32 overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <img
-            src="https://private-us-east-1.manuscdn.com/sessionFile/UWXOi3Z0CqaqcQpJtcE94W/sandbox/ju26zNMuXhJFKpE5iHWdtf-img-1_1771894197000_na1fn_aGVyby1iYWNrZ3JvdW5k.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvVVdYT2kzWjBDcWFxY1FwSnRjRTk0Vy9zYW5kYm94L2p1MjZ6Tk11WGhKRktwRTVpSFdkdGYtaW1nLTFfMTc3MTg5NDE5NzAwMF9uYTFmbl9hR1Z5YnkxaVlXTnJaM0p2ZFc1ay5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=AKi4EKWgIZYpC15uiiz08Sl~od5d6EK-1Ov7e3E83xSZklryXKZ6bQwOcdJtdNqvDFhtOPVzVO0Kb6ZMAynmrAY3YDrhDg-HqZx053Zu~FI~7bApwLN1x1zE24jIXZawEgPw-fYsxpcUtoeOo10Pc-emqcKOprpeb7BQPXtXoJWqSvrbXtRkCAvjUwfb~p9DPPfkHTaNY~fqxJtwioyr176NqKd-OAHOicbHjDOc~UitX6rug-lBsnQDVh250s9dEuCyz~c6BVZN2xnv994yXSNqgq5hf-wixHT7oqjXQ74nMAYojbD4yfI~DzapYDjoIUMjtqN2kJ3ix5BJsGx3YQ__"
-            alt="Fundo abstrato representando autoconhecimento e psicoterapia profunda"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-background/60"></div>
-        </div>
-        <div className="container max-w-4xl mx-auto px-4 text-center relative z-10">
-          <img
-            src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png"
-            alt="Imagem de Jorge Dias | Psicoterapia Clínica"
-            className="w-40 h-40 md:w-56 md:h-56 rounded-full object-cover mx-auto mb-8 shadow-xl border-4 border-background"
-          />
-          <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-2 leading-tight">
-            Jorge Dias | Psicoterapia Clínica
-          </h1>
-          <p className="text-lg text-muted-foreground mb-6 font-semibold">Abordagem Junguiana</p>
-          <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto" style={{color: '#413e3e'}}>
-            "Conheça todas as teorias, domine todas as técnicas, mas ao tocar uma alma humana, seja apenas outra alma humana."
-</p>
-          <p className="text-lg text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto" style={{color: '#413e3e'}}>
-            Especializado em <strong><Link href="/crise-existencial" className="text-primary hover:underline">crise existencial</Link></strong>, <strong><Link href="/autossabotagem" className="text-primary hover:underline">autossabotagem</Link></strong> e <strong><Link href="/padroes-familiares" className="text-primary hover:underline">padrões familiares</Link></strong>. Atendimento online para todo o Brasil e brasileiros no exterior.
+    <div className="selection:bg-accent/30 selection:text-primary">
+      {/* SECTION 1: Header */}
+      <header
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+          isScrolled ? "bg-background/95 backdrop-blur-md py-4 shadow-sm" : "bg-transparent py-8"
+        }`}
+      >
+        <nav className="container flex items-center justify-between">
+          <Link href="/" className="font-display text-xl md:text-2xl font-bold tracking-tighter text-primary">
+            Jorge Dias — <span className="font-normal opacity-70">Psicoterapia e Psicanálise</span>
+          </Link>
+
+          {/* Desktop Nav */}
+          <div className="hidden md:flex items-center gap-10">
+            {navLinks.map((link) => (
+              <a key={link.name} href={link.href} className="nav-link">
+                {link.name}
+              </a>
+            ))}
+          </div>
+
+          {/* Mobile Menu Toggle */}
+          <button className="md:hidden text-primary" onClick={() => setMobileMenuOpen(true)}>
+            <Menu size={28} />
+          </button>
+        </nav>
+      </header>
+
+      {/* Mobile Menu Overlay */}
+      <AnimatePresence>
+        {mobileMenuOpen && (
+          <motion.div
+            initial={{ opacity: 0, x: "100%" }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: "100%" }}
+            transition={{ type: "spring", damping: 25, stiffness: 200 }}
+            className="fixed inset-0 z-[60] bg-background flex flex-col p-8"
+          >
+            <div className="flex justify-end mb-12">
+              <button onClick={() => setMobileMenuOpen(false)}>
+                <X size={32} />
+              </button>
+            </div>
+            <div className="flex flex-col gap-8">
+              {navLinks.map((link) => (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="text-3xl font-display font-semibold text-primary"
+                >
+                  {link.name}
+                </a>
+              ))}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      <main>
+        {/* SECTION 2: Hero */}
+        <section className="min-h-screen flex items-center pt-20">
+          <div className="container grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+            >
+              <h1 className="font-display">
+                O peso invisível do <br className="hidden md:block" />
+                <span className="italic">amor familiar</span>
+              </h1>
+              <p className="text-xl md:text-2xl text-accent font-serif leading-relaxed mb-10 max-w-xl">
+                Entenda como o excesso de proteção e o zelo extremo podem encobrir dinâmicas que anulam a sua identidade e geram uma dívida emocional impagável.
+              </p>
+              <a href="#dinamica" className="btn-high-ticket">
+                Iniciar Investigação
+              </a>
+            </motion.div>
+            
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1, delay: 0.2 }}
+              className="relative aspect-[4/5] bg-secondary overflow-hidden grayscale hover:grayscale-0 transition-all duration-700"
+            >
+              <img
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png"
+                alt="Jorge Dias"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-primary/5"></div>
+            </motion.div>
+          </div>
+        </section>
+
+        {/* SECTION 3: O Manifesto (A Dinâmica) */}
+        <section id="dinamica" className="section-padding bg-white">
+          <div className="container">
+            <div className="max-w-3xl mx-auto">
+              <span className="text-sm uppercase tracking-[0.3em] text-muted-foreground mb-4 block text-center">A Dinâmica Relacional</span>
+              <h2 className="text-center mb-16">O mito do vilão e o narcisismo silencioso</h2>
+              
+              <div className="manifesto-text space-y-8">
+                <p>
+                  Estamos acostumados a entender o narcisismo como doença, como se a pessoa patologicamente narcisista fosse alguém muito diferente do que é considerado normal. Conhecemos a imagem do narcisista como alguém visivelmente manipulador, quase como um vilão caricato. Para quem observa de fora, é muito fácil reconhecer e culpabilizar um indivíduo quando ele ocupa ativamente esse papel agressivo ou dominador.
+                </p>
+                <p>
+                  No entanto, quando a pessoa ocupa o papel de quem cuida, nutre e educa a outra, essa característica fica quase imperceptível. Mães e pais excessivamente zelosos, preocupados e protetores são os exemplos perfeitos para descrever o extremo altruísta do indivíduo patologicamente narcisista. O que acontece, na intimidade das relações familiares, é que todo esse cuidado e zelo oferecido em excesso é convertido em um sentimento de débito que é internalizado pelo filho.
+                </p>
+                <p className="font-bold text-primary">
+                  O cuidado excessivo possui um valor simbólico de invalidação do outro e auto validação. Você passa a viver não pelo seu próprio desejo, mas para tentar saldar uma dívida que não pediu para contrair.
+                </p>
+
+                <h3 className="pt-8">A lente de contato fixa da realidade</h3>
+                <p>
+                  Discutir sobre esse esgotamento com a estrutura familiar costuma ser inútil. O indivíduo considerado patologicamente narcisista possui um mecanismo ativo 24 horas por dia que trabalha convencendo a si mesmo de que a realidade é do jeito que ele quer que seja.
+                </p>
+                <p>
+                  Ele não tem a opção de retirar e nem de perceber a existência desse filtro. É como se, ao invés de um óculos que pode ser tirado, ele usasse uma lente de contato fixa que faz com que toda a sua perspectiva de realidade tenha uma coloração diferente. As informações já chegam para ele modificadas por um mecanismo que evita sentimentos desconfortáveis a todo custo.
+                </p>
+                <p>
+                  Se você tenta impor um limite, a lente traduz como ofensa. Se a ajuda oferecida por ele acaba atrapalhando e você aponta isso, a lente traduz você como ingrato. Você não está lutando contra fatos, está lutando contra uma realidade que já chega filtrada e modificada para proteger o ego do outro.
+                </p>
+
+                <h3 className="pt-8">Aceitação ou Resistência: O impacto na sua identidade</h3>
+                <p>
+                  Crescer precisando validar essa realidade distorcida deforma a forma como nos vemos. Diante dessa supressão excessiva, é comum reagir de duas formas distintas: aceitação ou resistência.
+                </p>
+                <p>
+                  A <strong>aceitação</strong> cria um indivíduo que tende a ser submisso, passivo e, muitas vezes, indiferente ao próprio desejo. Você vive no piloto automático para não decepcionar a família.
+                </p>
+                <p>
+                  A <strong>resistência</strong> cria uma busca por autonomia e liberdade, que é onde geralmente surgem os conflitos, insubordinações e a rebeldia. Você passa a carregar o fardo de ser o "problemático" da relação, lidando com ansiedade e culpa crônicas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* SECTION 4: O Profissional (Sobre Mim) */}
+        <section id="profissional" className="section-padding bg-secondary/50">
+          <div className="container">
+            <div className="max-w-4xl mx-auto">
+              <div className="quote-block">
+                "Meu nome é Jorge Dias, sou psicoterapeuta e psicanalista. Ao longo de mais de 3.000 horas de prática clínica, compreendi que rotular um sujeito é objetificar uma experiência individual única, reduzindo-a a um diagnóstico estático. O rótulo apenas mascara a raiz do sofrimento."
+              </div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16">
+                <div className="space-y-6">
+                  <h3 className="mt-0">A Clínica</h3>
+                  <p className="text-lg leading-relaxed">
+                    O foco da nossa psicoterapia é o espaço ético e livre de julgamentos onde investigamos essa dinâmica relacional profunda. 
+                  </p>
+                </div>
+                <div className="space-y-6">
+                  <p className="text-lg leading-relaxed pt-0 md:pt-12">
+                    O objetivo é atuar na sua ferida narcísica — o choque brutal entre a expectativa e a realidade da falta —, permitindo que você desconstrua a culpa, recupere o seu desejo autêntico e deixe de pagar uma dívida emocional que não lhe pertence.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* SECTION 5: Atendimento Global e Agendamento */}
+        <section id="clinica" className="section-padding bg-primary text-primary-foreground">
+          <div className="container text-center">
+            <div className="max-w-2xl mx-auto">
+              <h2 className="text-primary-foreground mb-8">Atendimento global para brasileiros</h2>
+              <p className="text-xl opacity-90 mb-12">
+                A distância física e a imigração raramente apagam as dinâmicas de origem; muitas vezes, o isolamento as intensifica. Conduzo processos psicoterapêuticos online com brasileiros em diversos países, garantindo o rigor técnico e o sigilo absoluto.
+              </p>
+              
+              <div className="bg-white/5 border border-white/10 p-12 mb-12">
+                <span className="tag-value text-white/60 mb-8 block">
+                  Sessões individuais online via Google Meet ou WhatsApp
+                </span>
+                <div className="text-3xl font-display mb-10 italic">
+                  Valor da sessão: R$ 300 <span className="text-lg opacity-60">(ou equivalente cambial)</span>
+                </div>
+                <a
+                  href={whatsappLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center px-10 py-5 bg-white text-primary font-bold tracking-widest uppercase text-sm hover:bg-secondary transition-all"
+                >
+                  Agendar Sessão via WhatsApp
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      {/* SECTION 6: Footer & Floating Button */}
+      <footer className="py-12 bg-background border-t border-border">
+        <div className="container flex flex-col md:flex-row justify-between items-center gap-8">
+          <p className="text-sm text-muted-foreground">
+            &copy; {new Date().getFullYear()} Jorge Dias — Psicoterapia e Psicanálise. Todos os direitos reservados.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <CTAButton href="/contato">Agendar Sessão</CTAButton>
-            <Link href="/sobre" className="inline-block px-6 py-3 rounded-lg font-semibold border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors">
-                Minha Abordagem
-              </Link>
+          <div className="flex gap-6 text-xs uppercase tracking-widest font-semibold">
+            <Link href="/politica-privacidade" className="hover:text-primary transition-colors">Privacidade</Link>
+            <Link href="/termos-uso" className="hover:text-primary transition-colors">Termos</Link>
           </div>
         </div>
-      </section>
+      </footer>
 
-      {/* Testimonials Section */}
-      <Testimonials />
-
-      {/* Services Overview */}
-      <section className="bg-secondary py-16 md:py-24">
-        <div className="container max-w-6xl mx-auto px-4">
-          <h2 className="font-display text-3xl md:text-4xl font-bold text-center mb-12">
-            Áreas de Especialização
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Cluster 1 */}
-            <div className="bg-card text-card-foreground rounded-lg shadow-md p-6 border border-border overflow-hidden hover:shadow-lg transition-shadow">
-              <img
-                src="https://private-us-east-1.manuscdn.com/sessionFile/UWXOi3Z0CqaqcQpJtcE94W/sandbox/ju26zNMuXhJFKpE5iHWdtf-img-2_1771894191000_na1fn_YWR1bHRvcy1jbHVzdGVy.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvVVdYT2kzWjBDcWFxY1FwSnRjRTk0Vy9zYW5kYm94L2p1MjZ6Tk11WGhKRktwRTVpSFdkdGYtaW1nLTJfMTc3MTg5NDE5MTAwMF9uYTFmbl9ZV1IxYkhSdmN5MWpiSFZ6ZEdWeS5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=MRqK3UlqPK3r1R1n6GV534qDACYAnGM0GnioDSohU~YKD~ti9-nc2Qx-nt-atd4JVtYeOHZiELOTx1Do6PWajP3SODHM9O53TZHvLoQ-JdObBWY2oCAMWkoxN5ekcYfANCtvjKk2GG7ckUILwMhac87zMm0LPJcgXnY9jn~EOqeKm8qfbp16qp5cdUEA5B13plnuYVKsRax2nXS5aFu1WYUGV8oCDbsoWnsvTXkknlHuRbJWDfUx~pdc5DA99tZaeGQNznjHJPxh~yzzhvS6e5yWHoltSVIzKc21x2ZKi2ZzR0mvzQ0JNujp1ymnLdcYhlCNI0G2J-v80sWmVdGOVw__"
-                alt="Imagem de ambiente terapeutico focado no autoconhecimento"
-                className="w-full h-40 object-cover rounded mb-4"
-              />
-              <h3 className="font-display text-xl font-semibold mb-3 text-primary">
-                Terapia para Adultos
-              </h3>
-              <p className="text-muted-foreground mb-4 text-sm">
-                Investigação clínica para <Link href="/crise-existencial" className="text-primary hover:underline">crise existencial</Link>, <Link href="/autossabotagem" className="text-primary hover:underline">autossabotagem</Link>, regulação emocional e desenvolvimento de autonomia genuína.
-              </p>
-              <Link href="/terapia/adultos/crise-existencial" className="text-primary hover:text-accent font-semibold">Explorar →</Link>
-            </div>
-
-            {/* Cluster 2 */}
-            <div className="bg-card text-card-foreground rounded-lg shadow-md p-6 border border-border overflow-hidden hover:shadow-lg transition-shadow">
-              <img
-                src="https://private-us-east-1.manuscdn.com/sessionFile/UWXOi3Z0CqaqcQpJtcE94W/sandbox/ju26zNMuXhJFKpE5iHWdtf-img-3_1771894194000_na1fn_Y2FzYWlzLWNsdXN0ZXI.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvVVdYT2kzWjBDcWFxY1FwSnRjRTk0Vy9zYW5kYm94L2p1MjZ6Tk11WGhKRktwRTVpSFdkdGYtaW1nLTNfMTc3MTg5NDE5NDAwMF9uYTFmbl9ZMkZ6WVdsekxXTnNkWE4wWlhJLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=czUBFrNK9wQ32kibt4IdeRkXr-WQbGzOPu8by58OLcMcY3XjHm0l3OENFXHYtax8RJAhCAHTEgOBIn5cBw4mWRPRtbYvGqXJ5p8JyRIyKILSKDPIkQCSWmwym4h9DEGgjT4va1Sjx9hYE3LnLyYv3eCStGoTC1~BfPkZ2NxzRwZvNqUEDmUo5hWpB0AcdMbatlsG74vytR5Fq27-1jMfHkrVze5j5esCYTLabU-4hAQoevPT5I2ifw79ZRHLLsVyOzGpNgEWu-iYuiU1nqWTUHyRm2JM40JOBinypZ7SK15c63x-SqpRO0kQjiGRBz0dpNu0P2VTHDEbkbzAe62pfQ__"
-                alt="Imagens de Casais buscando terapia"
-                className="w-full h-40 object-cover rounded mb-4"
-              />
-              <h3 className="font-display text-xl font-semibold mb-3 text-primary">
-                Terapia para Casais
-              </h3>
-              <p className="text-muted-foreground mb-4 text-sm">
-                Resolução de conflitos, integração de polaridades e transformação de padrões relacionais destrutivos.
-              </p>
-              <Link href="/terapia/casais/padroes-familiares" className="text-primary hover:text-accent font-semibold">Explorar →</Link>
-            </div>
-
-            {/* Cluster 4 */}
-            <div className="bg-card text-card-foreground rounded-lg shadow-md p-6 border border-border overflow-hidden hover:shadow-lg transition-shadow">
-              <img
-                src="https://private-us-east-1.manuscdn.com/sessionFile/UWXOi3Z0CqaqcQpJtcE94W/sandbox/ju26zNMuXhJFKpE5iHWdtf-img-4_1771894200000_na1fn_ZXNwaXJpdHVhbGlkYWRlLWNsdXN0ZXI.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvVVdYT2kzWjBDcWFxY1FwSnRjRTk0Vy9zYW5kYm94L2p1MjZ6Tk11WGhKRktwRTVpSFdkdGYtaW1nLTRfMTc3MTg5NDIwMDAwMF9uYTFmbl9aWE53YVhKcGRIVmhiR2xrWVdSbExXTnNkWE4wWlhJLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=RHYBYYXqlzSU6WBAnASEVnsthaL-6f25dFyAQg7Ph4iG1BgOMkUtEyfxcrRPeU8V5zibq9e6lxKRxKtupmoRR7nug829wY3fyL-wGKCYYsPYO2YK15R65CejJB7CIyqLyqyP1XxLloAztiDJO4RJ5Ftp6jCLoXIs2tDppNFMadzYF1qiumMYB81ECrqF0Kbmnrvaq0eYb5LLv1X0LYkF8bnLcPG6xKWvjnAjiMmMYXCj90CgY2oQ~fDu0ccpZ6fKTmZqgkYR4JedHFRqizhFHTw~w-iZ~-yTsnQ9VS~g7HSZ6FLeFIFdheUDI7bbtrpcKaYuj5oN98duK6l8GeZjXQ__"
-                alt="Imagem de ambiente terapeutico focado em evolução espiritual"
-                className="w-full h-40 object-cover rounded mb-4"
-              />
-              <h3 className="font-display text-xl font-semibold mb-3 text-primary">
-                Psicoterapia e Espiritualidade
-              </h3>
-              <p className="text-muted-foreground mb-4 text-sm">
-                Integração ética entre desenvolvimento psicológico e espiritual, sem bypassing ou alienação.
-              </p>
-              <Link href="/autoridade/psicoterapia-espiritualidade" className="text-primary hover:text-accent font-semibold">Explorar →</Link>
-             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="bg-sidebar text-sidebar-foreground py-16 md:py-24">
-        <div className="container max-w-4xl mx-auto px-4 text-center">
-          <h2 className="font-display text-3xl md:text-4xl font-bold mb-6">
-            Pronto para Iniciar Sua Investigação?
-          </h2>
-          <p className="text-lg text-sidebar-foreground/80 mb-8 leading-relaxed">
-            Cada jornada de autoconhecimento começa com um primeiro passo. Agende uma consulta e vamos explorar juntos o que você está buscando.
-          </p>
-          <CTAButton href="/contato" variant="primary">
-            Agendar Primeira Sessão
-          </CTAButton>
-        </div>
-      </section>
-    </Layout>
+      {/* Floating Action Button */}
+      <a
+        href={whatsappLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-8 right-8 z-[100] bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform group"
+        aria-label="Consultar disponibilidade"
+      >
+        <MessageCircle size={32} fill="currentColor" />
+        <span className="absolute right-full mr-4 top-1/2 -translate-y-1/2 bg-primary text-primary-foreground text-xs py-2 px-4 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity hidden md:block">
+          Consultar disponibilidade
+        </span>
+      </a>
+    </div>
   );
 }
