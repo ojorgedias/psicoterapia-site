@@ -98,7 +98,7 @@ export default function Home() {
                 <span className="italic">amor familiar</span>
               </h1>
               <p className="text-xl md:text-2xl text-accent font-serif leading-relaxed mb-10 max-w-xl">
-                Entenda como o excesso de proteção e o zelo extremo podem encobrir dinâmicas que anulam a sua identidade e geram uma dívida emocional impagável.
+                Muitas vezes, o excesso de proteção e o zelo podem encobrir dinâmicas que anulam a sua identidade e geram uma dívida emocional impagável.
               </p>
               <a href="#dinamica" className="btn-high-ticket">
                 Iniciar Investigação
@@ -126,86 +126,92 @@ export default function Home() {
         <section id="dinamica" className="section-padding bg-white">
           <div className="container">
             <div className="max-w-3xl mx-auto">
-              <span className="text-sm uppercase tracking-[0.3em] text-muted-foreground mb-4 block text-center">A Dinâmica Relacional</span>
-              <h2 className="text-center mb-16">O mito do vilão e o narcisismo silencioso</h2>
+              <span className="text-sm uppercase tracking-[0.3em] text-muted-foreground mb-4 block text-center">A dinâmica do narcisista "bonzinho"</span>
+              <h2 className="text-center mb-16">A cobrança indireta e o peso do amor</h2>
               
               <div className="manifesto-text space-y-8">
                 <p>
                   Estamos acostumados a entender o narcisismo como doença, como se a pessoa patologicamente narcisista fosse alguém muito diferente do que é considerado normal. Conhecemos a imagem do narcisista como alguém visivelmente manipulador, quase como um vilão caricato. Para quem observa de fora, é muito fácil reconhecer e culpabilizar um indivíduo quando ele ocupa ativamente esse papel agressivo ou dominador.
                 </p>
                 <p>
-                  No entanto, quando a pessoa ocupa o papel de quem cuida, nutre e educa a outra, essa característica fica quase imperceptível. Mães e pais excessivamente zelosos, preocupados e protetores são os exemplos perfeitos para descrever o extremo altruísta do indivíduo patologicamente narcisista. O que acontece, na intimidade das relações familiares, é que todo esse cuidado e zelo oferecido em excesso é convertido em um sentimento de débito que é internalizado pelo filho.
+                  No entanto, quando a pessoa ocupa o papel de quem cuida, nutre e educa a outra, chama-la de Narcisista traz um peso gigante de culpa. Mães e pais excessivamente zelosos, preocupados e protetores são os exemplos perfeitos para descrever o extremo altruísta do indivíduo patologicamente narcisista. O que acontece, na intimidade das relações familiares, é que todo esse cuidado e zelo oferecido em excesso é convertido em um sentimento de débito que é internalizado pelo filho.
                 </p>
                 <p className="font-bold text-primary">
-                  O cuidado excessivo possui um valor simbólico de invalidação do outro e auto validação. Você passa a viver não pelo seu próprio desejo, mas para tentar saldar uma dívida que não pediu para contrair.
+                  O cuidado excessivo possui um valor simbólico que te invalida e gera um sentimento de "culpa por existir". Você passa a viver não pelo seu próprio desejo, mas para tentar saldar uma dívida que não pediu para contrair. 
                 </p>
 
-                <h3 className="pt-8">A lente de contato fixa da realidade</h3>
+                <h3 className="pt-8">Como o Narcisista vê o mundo</h3>
                 <p>
-                  Discutir sobre esse esgotamento com a estrutura familiar costuma ser inútil. O indivíduo considerado patologicamente narcisista possui um mecanismo ativo 24 horas por dia que trabalha convencendo a si mesmo de que a realidade é do jeito que ele quer que seja.
+                  Discutir e argumentar sobre essa culpa costuma ser inútil. Muitas vezes torna o sentimento pior ainda. O indivíduo considerado patologicamente narcisista possui um mecanismo ativo 24 horas por dia que trabalha convencendo a si mesmo de que a realidade é do jeito que ele quer que seja.
+                </p>
+                <p>
+                  Esse mecanismo faz com que toda interação social seja vista como uma comparação, onde uma das pessoas deve sair ganhando e a outra perdendo. É como se ele visse a realidade por um filtro que sempre o faz sentir que ganhou. Seja como vilão ou como vítima, o narcisista nunca carrega para si o peso da culpa, ele é especialista em despejar esse peso no outro. 
                 </p>
                 <p>
                   Ele não tem a opção de retirar e nem de perceber a existência desse filtro. É como se, ao invés de um óculos que pode ser tirado, ele usasse uma lente de contato fixa que faz com que toda a sua perspectiva de realidade tenha uma coloração diferente. As informações já chegam para ele modificadas por um mecanismo que evita sentimentos desconfortáveis a todo custo.
                 </p>
                 <p>
-                  Se você tenta impor um limite, a lente traduz como ofensa. Se a ajuda oferecida por ele acaba atrapalhando e você aponta isso, a lente traduz você como ingrato. Você não está lutando contra fatos, está lutando contra uma realidade que já chega filtrada e modificada para proteger o ego do outro.
+                  Se você tenta impor um limite, a lente traduz como ofensa. Se a ajuda oferecida por ele acaba atrapalhando e você aponta isso, a lente traduz você como ingrato. Você não está lutando contra fatos, está lutando contra uma realidade que já chega modificada para proteger o Ego do outro.
                 </p>
 
                 <h3 className="pt-8">Aceitação ou Resistência: O impacto na sua identidade</h3>
                 <p>
-                  Crescer precisando validar essa realidade distorcida deforma a forma como nos vemos. Diante dessa supressão excessiva, é comum reagir de duas formas distintas: aceitação ou resistência.
+                  Crescer precisando validar essa realidade distorcida deforma a forma como nos vemos. A criança que cresce diante dessa supressão excessiva geralmente só consegue reagir de duas formas distintas: Aceitação ou Resistência.
                 </p>
                 <p>
-                  A <strong>aceitação</strong> cria um indivíduo que tende a ser submisso, passivo e, muitas vezes, indiferente ao próprio desejo. Você vive no piloto automático para não decepcionar a família.
+                  A <strong>aceitação</strong> cria um indivíduo que tende a ser submisso, passivo e, muitas vezes, indiferente ao próprio desejo. Você aprende a viver no piloto automático para não decepcionar a família ou manter seus planos, ideias e desejos ocultos somente para sí, tendo dificuldade de compartilhar o que pensa ou sente.
                 </p>
                 <p>
-                  A <strong>resistência</strong> cria uma busca por autonomia e liberdade, que é onde geralmente surgem os conflitos, insubordinações e a rebeldia. Você passa a carregar o fardo de ser o "problemático" da relação, lidando com ansiedade e culpa crônicas.
+                  A <strong>resistência</strong> cria uma busca por autonomia e liberdade, que é onde geralmente surgem os conflitos, insubordinações e a rebeldia. Você passa a carregar o fardo de ser o "problemático" da relação, lidando com ansiedade e culpa crônicas. Muitas vezes naturalizando comportamentos de agressividade e explosão.
+                  </p>
+                <p>
+                  No Final das contas, seja Aceitando ou Resistindo, o saldo para quem passa por isso é um sentimento de não conhecer a si mesmo, sentir culpa por existir e ter dificuldade de manter relações saudáveis. Esse vazio interior ocorre por que o espaço mental que deveria ser ocupad por você, foi tomado por outra pessoa. É como se boa parte da sua própria existência pertencesse a um outro que nunca quer abrir mão desse controle.
+                  </p>
+                <p>
+                  Por vezes, caimos no erro de tentar superar através de confronto ou esclarecimentos diretos, buscando tirar satisfação ou resolver a questão colocando tudo pra fora e esperando algum sinal de culpa ou remoso da outra parte, mas não percebemos que, mesmo ao admitir um erro ou demonstrar "Se punir", o indivíduo narcisista faz isso de uma forma tão intensa que o peso da culpa se recai sobre você.
+                  </p>
+                <p>
+                  É como se, não importa qual seja o argumento ou o motivo, ele soubesse exatamente quais botões apertar para que você carregue sozinho o peso do desconforto e ele "saia ganhando". Escapar dessa lógica não é fácil, exige um processo intenso de autoconhecimento e elaboração, para "limpar" todo espaço mental que estava sendo ocupado pelo narcisista, aprender a observar e lidar com o vazio que fica, para depois iniciar um processo de autoconhecimento e preencher-se de si mesmo.
                 </p>
               </div>
-            </div>
-          </div>
-        </section>
+            </section>
 
         {/* SECTION 4: O Profissional (Sobre Mim) */}
         <section id="profissional" className="section-padding bg-secondary/50">
           <div className="container">
             <div className="max-w-4xl mx-auto">
               <div className="quote-block">
-                "Meu nome é Jorge Dias, sou psicoterapeuta e psicanalista. Ao longo de mais de 3.000 horas de prática clínica, compreendi que rotular um sujeito é objetificar uma experiência individual única, reduzindo-a a um diagnóstico estático. O rótulo apenas mascara a raiz do sofrimento."
+                "Meu nome é Jorge Dias, sou psicoterapeuta clínico, graduado em Psicologia pela Universidade Estadual de Londrina. Ao longo de mais de 3.000 horas de prática clínica, compreendi que a dinâmica dos relacionamentos narcisistas é algo muito profundo e enraizado em nossa sociedade. Rotular e tratar o Narcisista como "vilão malvado" apenas mascara a raiz do sofrimento e pode causar mais culpa a vítima."
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16">
                 <div className="space-y-6">
-                  <h3 className="mt-0">A Clínica</h3>
+                  <h3 className="mt-0">A psicoterapia para vítimas de Narcisistas</h3>
                   <p className="text-lg leading-relaxed">
-                    O foco da nossa psicoterapia é o espaço ético e livre de julgamentos onde investigamos essa dinâmica relacional profunda. 
+                    O foco da nossa psicoterapia é criar um espaço ético e livre de julgamentos, onde investigaremos a sua história de vida, seus relacionamentos, ideias e percepções de mundo. Focando em você como centro do processo.
                   </p>
                 </div>
                 <div className="space-y-6">
                   <p className="text-lg leading-relaxed pt-0 md:pt-12">
-                    O objetivo é atuar na sua ferida narcísica — o choque brutal entre a expectativa e a realidade da falta —, permitindo que você desconstrua a culpa, recupere o seu desejo autêntico e deixe de pagar uma dívida emocional que não lhe pertence.
+                    O objetivo é compreender sua ferida narcísica, o choque entre a expectativa do outro e a realidade da falta, permitindo que você desconstrua a culpa, recupere o seu desejo autêntico e deixe de pagar uma dívida emocional que não lhe pertence.
                   </p>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
+              </section>
 
         {/* SECTION 5: Atendimento Global e Agendamento */}
         <section id="clinica" className="section-padding bg-primary text-primary-foreground">
           <div className="container text-center">
             <div className="max-w-2xl mx-auto">
-              <h2 className="text-primary-foreground mb-8">Atendimento global para brasileiros</h2>
+              <h2 className="text-primary-foreground mb-8">Inicie seu processo de psicoterapia</h2>
               <p className="text-xl opacity-90 mb-12">
-                A distância física e a imigração raramente apagam as dinâmicas de origem; muitas vezes, o isolamento as intensifica. Conduzo processos psicoterapêuticos online com brasileiros em diversos países, garantindo o rigor técnico e o sigilo absoluto.
               </p>
               
               <div className="bg-white/5 border border-white/10 p-12 mb-12">
                 <span className="tag-value text-white/60 mb-8 block">
-                  Sessões individuais online via Google Meet ou WhatsApp
+                  Sessões individuais online via Google Meet
                 </span>
                 <div className="text-3xl font-display mb-10 italic">
-                  Valor da sessão: R$ 300 <span className="text-lg opacity-60">(ou equivalente cambial)</span>
+                  Valor da sessão: R$ 250 <span className="text-lg opacity-60"></span>
                 </div>
                 <a
                   href={whatsappLink}
