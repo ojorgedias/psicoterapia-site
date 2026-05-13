@@ -85,7 +85,7 @@ export default function Home() {
 
       <main>
         {/* SECTION 2: Hero */}
-        <section className="min-h-[80vh] flex items-center pt-16">
+        <section className="min-h-[80vh] flex items-center pt-16 bg-background">
           <div className="container grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -123,56 +123,114 @@ export default function Home() {
         </section>
 
         {/* SECTION 3: O Manifesto (A Dinâmica) */}
-        <section id="dinamica" className="section-padding bg-white">
-          <div className="container">
-            <div className="max-w-3xl mx-auto">
-              <span className="text-xs uppercase tracking-[0.3em] text-muted-foreground mb-2 block text-center">A dinâmica do narcisista "bonzinho"</span>
-              <h2 className="text-center mb-10">A cobrança indireta e o peso do amor</h2>
-              
-              <div className="manifesto-text space-y-6">
-                <p>
-                  Estamos acostumados a entender o narcisismo como doença, como se a pessoa patologicamente narcisista fosse alguém muito diferente do que é considerado normal. Conhecemos a imagem do narcisista como alguém visivelmente manipulador, quase como um vilão caricato. Para quem observa de fora, é muito fácil reconhecer e culpabilizar um indivíduo quando ele ocupa ativamente esse papel agressivo ou dominador.
-                </p>
-                <p>
-                  No entanto, quando a pessoa ocupa o papel de quem cuida, nutre e educa a outra, chama-la de Narcisista traz um peso gigante de culpa. Mães e pais excessivamente zelosos, preocupados e protetores são os exemplos perfeitos para descrever o extremo altruísta do indivíduo patologicamente narcisista. O que acontece, na intimidade das relações familiares, é que todo esse cuidado e zelo oferecido em excesso é convertido em um sentimento de débito que é internalizado pelo filho.
-                </p>
-                <p className="font-bold text-primary">
-                  O cuidado excessivo possui um valor simbólico que te invalida e gera um sentimento de "culpa por existir". Você passa a viver não pelo seu próprio desejo, mas para tentar saldar uma dívida que não pediu para contrair. 
-                </p>
+        <section id="dinamica" className="bg-white">
+          {/* Sub-section 1: O Narcisista Bonzinho */}
+          <div className="section-padding">
+            <div className="container">
+              <div className="max-w-3xl mx-auto">
+                <span className="text-xs uppercase tracking-[0.3em] text-muted-foreground mb-2 block text-center">A dinâmica do narcisista "bonzinho"</span>
+                <h2 className="text-center mb-10">A cobrança indireta e o peso do amor</h2>
+                
+                <div className="manifesto-text space-y-6">
+                  <p>
+                    Estamos acostumados a entender o <strong>narcisismo como doença</strong>, como se a pessoa patologicamente narcisista fosse alguém muito diferente do que é considerado normal.
+                  </p>
+                  <p>
+                    Conhecemos a imagem do narcisista como alguém visivelmente manipulador, quase como um vilão caricato. É fácil reconhecer e culpabilizar um indivíduo agressivo ou dominador.
+                  </p>
+                  <p>
+                    No entanto, quando a pessoa ocupa o papel de quem <strong>cuida, nutre e educa</strong> a outra, chamá-la de Narcisista traz um peso gigante de culpa.
+                  </p>
+                  <p>
+                    Mães e pais excessivamente zelosos são os exemplos perfeitos para descrever o <strong>extremo altruísta</strong> do indivíduo patologicamente narcisista.
+                  </p>
+                  
+                  <div className="py-8 border-y border-border/50 my-12 text-center">
+                    <p className="text-2xl md:text-3xl font-display italic text-primary leading-tight mb-0">
+                      "O cuidado excessivo gera um sentimento de <span className="text-accent">débito internalizado</span> que você não pediu para contrair."
+                    </p>
+                  </div>
 
-                <h3 className="pt-4">Como o Narcisista vê o mundo</h3>
-                <p>
-                  Discutir e argumentar sobre essa culpa costuma ser inútil. Muitas vezes torna o sentimento pior ainda. O indivíduo considerado patologicamente narcisista possui um mecanismo ativo 24 horas por dia que trabalha convencendo a si mesmo de que a realidade é do jeito que ele quer que seja.
-                </p>
-                <p>
-                  Esse mecanismo faz com que toda interação social seja vista como uma comparação, onde uma das pessoas deve sair ganhando e a outra perdendo. É como se ele visse a realidade por um filtro que sempre o faz sentir que ganhou. Seja como vilão ou como vítima, o narcisista nunca carrega para si o peso da culpa, ele é especialista em despejar esse peso no outro. 
-                </p>
-                <p>
-                  Ele não tem a opção de retirar e nem de perceber a existência desse filtro. É como se, ao invés de um óculos que pode ser tirado, ele usasse uma lente de contato fixa que faz com que toda a sua perspectiva de realidade tenha uma coloração diferente. As informações já chegam para ele modificadas por um mecanismo que evita sentimentos desconfortáveis a todo custo.
-                </p>
-                <p>
-                  Se você tenta impor um limite, a lente traduz como ofensa. Se a ajuda oferecida por ele acaba atrapalhando e você aponta isso, a lente traduz você como ingrato. Você não está lutando contra fatos, está lutando contra uma realidade que já chega modificada para proteger o Ego do outro.
-                </p>
+                  <p>
+                    Todo esse cuidado oferecido em excesso é convertido em um <strong>sentimento de débito</strong>. Você passa a viver não pelo seu próprio desejo, mas para tentar saldar essa dívida.
+                  </p>
+                  <p>
+                    Esse valor simbólico te invalida e gera uma <strong>culpa por existir</strong> crônica, transformando sua vida em uma eterna tentativa de compensação.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
 
-                <h3 className="pt-4">Aceitação ou Resistência: O impacto na sua identidade</h3>
-                <p>
-                  Crescer precisando validar essa realidade distorcida deforma a forma como nos vemos. A criança que cresce diante dessa supressão excessiva geralmente só consegue reagir de duas formas distintas: Aceitação ou Resistência.
-                </p>
-                <p>
-                  A <strong>aceitação</strong> cria um indivíduo que tende a ser submisso, passivo e, muitas vezes, indiferente ao próprio desejo. Você aprende a viver no piloto automático para não decepcionar a família ou manter seus planos, ideias e desejos ocultos somente para sí, tendo dificuldade de compartilhar o que pensa ou sente.
-                </p>
-                <p>
-                  A <strong>resistência</strong> cria uma busca por autonomia e liberdade, que é onde geralmente surgem os conflitos, insubordinações e a rebeldia. Você passa a carregar o fardo de ser o "problemático" da relação, lidando com ansiedade e culpa crônicas. Muitas vezes naturalizando comportamentos de agressividade e explosão.
-                </p>
-                <p>
-                  No Final das contas, seja Aceitando ou Resistindo, o saldo para quem passa por isso é um sentimento de não conhecer a si mesmo, sentir culpa por existir e ter dificuldade de manter relações saudáveis. Esse vazio interior ocorre por que o espaço mental que deveria ser ocupad por você, foi tomado por outra pessoa. É como se boa parte da sua própria existência pertencesse a um outro que nunca quer abrir mão desse controle.
-                </p>
-                <p>
-                  Por vezes, caimos no erro de tentar superar através de confronto ou esclarecimentos diretos, buscando tirar satisfação ou resolver a questão colocando tudo pra fora e esperando algum sinal de culpa ou remoso da outra parte, mas não percebemos que, mesmo ao admitir um erro ou demonstrar "Se punir", o indivíduo narcisista faz isso de uma forma tão intensa que o peso da culpa se recai sobre você.
-                </p>
-                <p>
-                  É como se, não importa qual seja o argumento ou o motivo, ele soubesse exatamente quais botões apertar para que você carregue sozinho o peso do desconforto e ele "saia ganhando". Escapar dessa lógica não é fácil, exige um processo intenso de autoconhecimento e elaboração, para "limpar" todo espaço mental que estava sendo ocupado pelo narcisista, aprender a observar e lidar com o vazio que fica, para depois iniciar um processo de autoconhecimento e preencher-se de si mesmo.
-                </p>
+          {/* Sub-section 2: Como o Narcisista vê o mundo (Off-white background) */}
+          <div className="section-padding bg-secondary/30">
+            <div className="container">
+              <div className="max-w-3xl mx-auto">
+                <div className="manifesto-text space-y-6">
+                  <h3 className="pt-0 text-center mb-8">Como o Narcisista vê o mundo</h3>
+                  <p>
+                    Discutir e argumentar sobre essa culpa costuma ser inútil. O indivíduo narcisista possui um mecanismo ativo 24 horas por dia que convence a si mesmo de que a <strong>realidade é do jeito que ele quer</strong>.
+                  </p>
+                  <p>
+                    Toda interação social é vista como uma <strong>comparação</strong>, onde uma das pessoas deve sair ganhando. É como se ele visse a vida por um filtro que sempre o faz sentir que venceu.
+                  </p>
+                  <p>
+                    Seja como vilão ou como vítima, o narcisista nunca carrega para si o peso da culpa. Ele é especialista em <strong>despejar esse peso no outro</strong> de forma cirúrgica.
+                  </p>
+                  <p>
+                    Ele não tem a opção de perceber esse filtro. É como uma <strong>lente de contato fixa</strong> que altera a coloração de toda a sua perspectiva de realidade.
+                  </p>
+                  <p>
+                    As informações já chegam modificadas por um mecanismo que <strong>evita sentimentos desconfortáveis</strong> a todo custo, protegendo o Ego de qualquer frustração.
+                  </p>
+                  
+                  <div className="quote-block !my-8">
+                    Se você impõe um limite, a lente traduz como ofensa. Se a ajuda dele atrapalha e você aponta, a lente te traduz como ingrato.
+                  </div>
+
+                  <p>
+                    Você não está lutando contra fatos, está lutando contra uma <strong>realidade distorcida</strong> que já chega modificada para proteger o Ego do outro.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Sub-section 3: Impacto na Identidade (White background) */}
+          <div className="section-padding">
+            <div className="container">
+              <div className="max-w-3xl mx-auto">
+                <div className="manifesto-text space-y-6">
+                  <h3 className="pt-0 text-center mb-8">Aceitação ou Resistência</h3>
+                  <p>
+                    Crescer precisando validar essa realidade distorcida deforma a forma como nos vemos. A criança diante dessa <strong>supressão excessiva</strong> geralmente reage de duas formas.
+                  </p>
+                  <p>
+                    A <strong>aceitação</strong> cria um indivíduo submisso e passivo. Você aprende a viver no piloto automático para não decepcionar a família, mantendo seus desejos ocultos.
+                  </p>
+                  <p>
+                    A <strong>resistência</strong> cria uma busca por autonomia que gera conflitos e rebeldia. Você passa a carregar o fardo de ser o "problemático", lidando com <strong>ansiedade crônica</strong>.
+                  </p>
+                  <p>
+                    Seja aceitando ou resistindo, o saldo é um sentimento de <strong>não conhecer a si mesmo</strong>. O espaço mental que deveria ser seu foi tomado por outra pessoa.
+                  </p>
+                  <p>
+                    É como se boa parte da sua própria existência pertencesse a um outro que <strong>nunca quer abrir mão do controle</strong> sobre quem você é.
+                  </p>
+
+                  <div className="py-8 border-y border-border/50 my-12 text-center">
+                    <p className="text-xl md:text-2xl font-display italic text-primary leading-tight mb-0">
+                      "Escapar dessa lógica exige um processo intenso de <span className="text-accent">limpeza do espaço mental</span> ocupado pelo outro."
+                    </p>
+                  </div>
+
+                  <p>
+                    Tentar superar através de confronto direto é um erro comum. O narcisista sabe exatamente <strong>quais botões apertar</strong> para que você carregue sozinho o peso do desconforto.
+                  </p>
+                  <p>
+                    O caminho é aprender a lidar com o vazio que fica após a saída do outro, para só então iniciar um processo de <strong>preencher-se de si mesmo</strong>.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -183,19 +241,19 @@ export default function Home() {
           <div className="container">
             <div className="max-w-4xl mx-auto">
               <div className="quote-block">
-                "Meu nome é Jorge Dias, sou psicoterapeuta clínico, graduado em Psicologia pela Universidade Estadual de Londrina. Ao longo de mais de 3.000 horas de prática clínica, compreendi que a dinâmica dos relacionamentos narcisistas é algo muito profundo e enraizado em nossa sociedade. Rotular e tratar o Narcisista como "vilão malvado" apenas mascara a raiz do sofrimento e pode causar mais culpa a vítima."
+                "Meu nome é Jorge Dias, sou psicoterapeuta clínico. Ao longo de mais de 3.000 horas de prática, compreendi que rotular o Narcisista como 'vilão' apenas mascara a raiz do sofrimento e causa mais culpa à vítima."
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
                 <div className="space-y-4">
-                  <h3 className="mt-0">A psicoterapia para vítimas de Narcisistas</h3>
+                  <h3 className="mt-0">A psicoterapia para vítimas</h3>
                   <p className="text-base md:text-lg leading-relaxed">
-                    O foco da nossa psicoterapia é criar um espaço ético e livre de julgamentos, onde investigaremos a sua história de vida, seus relacionamentos, ideias e percepções de mundo. Focando em você como centro do processo.
+                    Focamos em criar um espaço ético e livre de julgamentos, onde investigaremos a sua história de vida e percepções de mundo, colocando <strong>você como centro do processo</strong>.
                   </p>
                 </div>
                 <div className="space-y-4">
                   <p className="text-base md:text-lg leading-relaxed pt-0 md:pt-10">
-                    O objetivo é compreender sua ferida narcísica, o choque entre a expectativa do outro e a realidade da falta, permitindo que você desconstrua a culpa, recupere o seu desejo autêntico e deixe de pagar uma dívida emocional que não lhe pertence.
+                    O objetivo é compreender sua <strong>ferida narcísica</strong>, permitindo que você desconstrua a culpa, recupere o seu desejo autêntico e deixe de pagar uma dívida que não lhe pertence.
                   </p>
                 </div>
               </div>
