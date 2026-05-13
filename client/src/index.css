@@ -67,7 +67,7 @@
   body {
     @apply bg-background text-foreground font-body;
     font-size: 18px;
-    line-height: 1.7; /* Increased line height for high-ticket reading */
+    line-height: 1.6; /* Reduced from 1.7 */
     letter-spacing: 0.01em;
     -webkit-font-smoothing: antialiased;
   }
@@ -76,16 +76,16 @@
     color: var(--primary);
   }
   h1 {
-    @apply text-4xl md:text-6xl leading-[1.1] mb-8;
+    @apply text-4xl md:text-5xl leading-[1.1] mb-6; /* Reduced size and margin */
   }
   h2 {
-    @apply text-3xl md:text-4xl leading-tight mb-6 mt-12;
+    @apply text-3xl md:text-4xl leading-tight mb-4 mt-8; /* Reduced margin top/bottom */
   }
   h3 {
-    @apply text-2xl md:text-3xl leading-tight mb-4 mt-8;
+    @apply text-xl md:text-2xl leading-tight mb-3 mt-6; /* Reduced size and margins */
   }
   p {
-    @apply mb-6 leading-relaxed;
+    @apply mb-4 leading-relaxed; /* Reduced from mb-6 */
   }
   a {
     @apply transition-all duration-300;
@@ -98,26 +98,26 @@
   }
 
   .section-padding {
-    @apply py-20 md:py-32;
+    @apply py-12 md:py-20; /* Reduced from 20/32 */
   }
 
   .btn-high-ticket {
-    @apply inline-flex items-center justify-center px-10 py-5 bg-primary text-primary-foreground font-semibold tracking-wide transition-all duration-300 hover:bg-accent hover:shadow-xl active:scale-[0.98] uppercase text-sm;
+    @apply inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground font-semibold tracking-wide transition-all duration-300 hover:bg-accent hover:shadow-lg active:scale-[0.98] uppercase text-xs; /* Reduced padding and text size */
   }
 
   .nav-link {
-    @apply text-sm font-medium uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors relative after:content-[''] after:absolute after:w-0 after:h-[1px] after:bg-primary after:left-0 after:-bottom-1 after:transition-all hover:after:w-full;
+    @apply text-xs font-medium uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors relative after:content-[''] after:absolute after:w-0 after:h-[1px] after:bg-primary after:left-0 after:-bottom-1 after:transition-all hover:after:w-full;
   }
 
   .manifesto-text {
-    @apply max-w-2xl mx-auto text-lg md:text-xl leading-relaxed font-serif;
+    @apply max-w-2xl mx-auto text-base md:text-lg leading-relaxed font-serif; /* Reduced text size */
   }
 
   .quote-block {
-    @apply border-l-2 border-primary pl-8 py-4 my-12 italic text-2xl md:text-3xl font-serif text-accent leading-snug;
+    @apply border-l-2 border-primary pl-6 py-2 my-8 italic text-xl md:text-2xl font-serif text-accent leading-snug; /* Reduced size and margins */
   }
 
   .tag-value {
-    @apply text-sm italic text-muted-foreground tracking-wide;
+    @apply text-xs italic text-muted-foreground tracking-wide;
   }
 }
