@@ -286,7 +286,7 @@ export default function Home() {
                   Sessões individuais online via Google Meet
                 </span>
                 <div className="text-3xl md:text-4xl font-display mb-12 italic">
-                  Valor da sessão: R$ 250
+                  Valor da sessão: R$ 200
                 </div>
                 <a
                   href={whatsappLink}
