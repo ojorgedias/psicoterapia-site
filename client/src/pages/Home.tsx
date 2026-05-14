@@ -23,6 +23,14 @@ export default function Home() {
 
   const whatsappLink = "https://api.whatsapp.com/send?phone=5541985155583&text=Ol%C3%A1%2C%20Jorge.%20Gostaria%20de%20agendar%20uma%20sessao%20de%20psicoterapia.";
 
+  const handleContactClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    // Abre o WhatsApp em uma nova aba
+    window.open(whatsappLink, "_blank");
+    // Redireciona a página atual para a página de obrigado
+    window.location.href = "/obrigado.html";
+  };
+
   return (
     <div className="selection:bg-accent/30 selection:text-primary">
       {/* SECTION 1: Header */}
@@ -260,7 +268,7 @@ export default function Home() {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16">
                 <div className="space-y-6">
-                  <h3 className="mt-0 text-accent uppercase text-xs tracking-[0.2em] font-semibold">Sobre o processo terapeutico</h3>
+                  <h3 className="mt-0 text-accent uppercase text-xs tracking-[0.2em] font-semibold">A psicoterapia para vítimas</h3>
                   <p className="text-lg leading-relaxed text-foreground/80">
                     Focamos em criar um espaço ético e livre de julgamentos, onde investigaremos a sua história de vida e percepções de mundo, colocando <strong>você como centro do processo</strong>.
                   </p>
@@ -288,14 +296,12 @@ export default function Home() {
                 <div className="text-3xl md:text-4xl font-display mb-12 italic">
                   Valor da sessão: R$ 200
                 </div>
-                <a
-                  href={whatsappLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <button
+                  onClick={handleContactClick}
                   className="btn-high-ticket bg-white text-primary hover:bg-secondary px-12 py-6 text-xs"
                 >
                   Agendar Sessão via WhatsApp
-                </a>
+                </button>
               </div>
             </div>
           </div>
@@ -316,10 +322,8 @@ export default function Home() {
       </footer>
 
       {/* Floating Action Button */}
-      <a
-        href={whatsappLink}
-        target="_blank"
-        rel="noopener noreferrer"
+      <button
+        onClick={handleContactClick}
         className="fixed bottom-8 right-8 z-[100] bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform group"
         aria-label="Consultar disponibilidade"
       >
@@ -327,7 +331,7 @@ export default function Home() {
         <span className="absolute right-full mr-4 top-1/2 -translate-y-1/2 bg-primary text-primary-foreground text-[10px] py-2 px-4 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity hidden md:block uppercase tracking-widest font-bold">
           Consultar disponibilidade
         </span>
-      </a>
+      </button>
     </div>
   );
 }
