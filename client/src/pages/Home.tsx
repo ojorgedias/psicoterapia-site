@@ -242,51 +242,51 @@ export default function Home() {
           </div>
 
           {/* Sub-section 3: Aceitação ou Resistência */}
+          {/* Sub-section 3: O Ciclo Invisível (Aceitação ou Resistência) */}
           <div className="section-padding">
             <div className="container">
               <div className="max-w-3xl mx-auto">
                 <div className="manifesto-text space-y-6 md:space-y-8 text-base md:text-lg text-foreground/90 leading-relaxed">
-                  <h3 className="pt-0 text-center mb-10">Aceitação ou Resistência</h3>
+                  <h3 className="pt-0 text-center mb-10">Você está repetindo o padrão sem perceber?</h3>
                   <p>
-                    Crescer precisando validar essa realidade distorcida deforma a forma como nos vemos. A criança diante dessa <strong>supressão excessiva</strong> geralmente reage de duas formas:
+                    Crescer precisando validar essa realidade distorcida faz com que a dinâmica abusiva seja naturalizada. O maior perigo não é apenas o que fizeram com você no passado, mas como você passa a agir nos seus relacionamentos atuais.
+                  </p>
+                  <p>
+                    Diante da supressão de quem realmente é, a criança geralmente reage de duas formas e leva isso para a vida adulta:
                   </p>
                   
                   <div className="clinical-list-item mt-10">
                     <p>
-                      A <strong>aceitação</strong> cria um indivíduo submisso e passivo. Você aprende a viver no piloto automático para não decepcionar a família, mantendo seus desejos ocultos.
+                      <strong>A Aceitação:</strong> Você aprende a ser passivo e focado em agradar. Torna-se alguém extremamente solícito. O problema? O excesso de ajuda se transforma em uma "invasão bem-intencionada". Muitas vezes, ao tentar proteger o outro, rouba-se outro o processo natural de viver e resolver as próprias questões.
                     </p>
                   </div>
 
                   <div className="clinical-list-item">
                     <p>
-                      A <strong>resistência</strong> cria uma busca por autonomia que gera conflitos e rebeldia. Você passa a carregar o fardo de ser o "problemático", lidando com <strong>ansiedade crônica</strong>.
+                      <strong>A Resistência:</strong> A busca por ser o completo oposto da figura que o machucou. Se foi sufocado por regras, acaba criando os filhos "soltos demais", se foi muito invalidado, acaba validando excessivamente os filhos, fazendo com que tenham dificuldade em lidar com a frustração. Viver tentando ser o "oposto exato" significa que a imagem deles ainda dita as suas regras. 
                     </p>
                   </div>
 
                   <p className="mt-10">
-                    Seja aceitando ou resistindo, o saldo é um sentimento de <strong>não conhecer a si mesmo</strong>. O espaço mental que deveria ser seu foi tomado por outra pessoa.
-                  </p>
-                  <p>
-                    É como se boa parte da sua própria existência pertencesse a um outro que <strong>nunca quer abrir mão do controle</strong> sobre quem você é.
+                    Seja na aceitação submissa ou na resistência rebelde, o saldo é o mesmo: O sentimento de <strong>não conhecer a si mesmo</strong>. O espaço mental que deveria abrigar o seu desejo e sua forma de ver o mundo continua ocupado pelo outro.
                   </p>
 
                   <div className="py-12 border-y border-border/40 my-16 text-center">
                     <p className="text-xl md:text-2xl font-display italic text-primary leading-snug mb-0 px-4">
-                      "Escapar dessa lógica exige um processo intenso de <span className="text-accent">limpeza do espaço mental</span> ocupado pelo outro."
+                      "Escapar dessa lógica exige limpar o espaço mental ocupado pelo outro, protegendo suas relações atuais próprias relações atuais da repetição de ciclos."
                     </p>
                   </div>
 
                   <p>
                     Tentar superar através de confronto direto é um erro comum. O narcisista sabe exatamente <strong>quais botões apertar</strong> para que você carregue sozinho o peso do desconforto.
-                  </p>
-                  <p>
-                    O caminho é aprender a lidar com o vazio que fica após a saída do outro, para só então iniciar um processo de <strong>preencher-se de si mesmo</strong>.
+                    <p>                      
+                    </p>
+                     O caminho clínico é identificar qual mecanismo você adotou, mapear o vazio que fica após a remoção dessas defesas, e iniciar o processo autoconhecimento para preencher-se de si mesmo.
                   </p>
                 </div>
               </div>
             </div>
           </div>
-        </section>
 
         {/* SECTION 5: Atendimento Global */}
         <section id="clinica" className="section-padding bg-primary text-primary-foreground">
