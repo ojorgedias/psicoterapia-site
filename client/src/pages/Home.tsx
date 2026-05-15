@@ -241,8 +241,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Sub-section 3: Aceitação ou Resistência */}
-          {/* Sub-section 3: O Ciclo Invisível (Aceitação ou Resistência) */}
+{/* Sub-section 3: Aceitação ou Resistência */}
           <div className="section-padding">
             <div className="container">
               <div className="max-w-3xl mx-auto">
@@ -279,15 +278,14 @@ export default function Home() {
 
                   <p>
                     Tentar superar através de confronto direto é um erro comum. O narcisista sabe exatamente <strong>quais botões apertar</strong> para que você carregue sozinho o peso do desconforto.
-                    <p>                      
-                    </p>
-                     O caminho clínico é identificar qual mecanismo você adotou, mapear o vazio que fica após a remoção dessas defesas, e iniciar o processo autoconhecimento para preencher-se de si mesmo.
+                  </p>
+                  <p>
+                     O caminho clínico é identificar como você lidou com a invasão, mapear o vazio que fica após a remoção dessas defesas, e iniciar o processo autoconhecimento para preencher-se de si mesmo.
                   </p>
                 </div>
               </div>
             </div>
           </div>
-
         {/* SECTION 5: Atendimento Global */}
         <section id="clinica" className="section-padding bg-primary text-primary-foreground">
           <div className="container text-center">
