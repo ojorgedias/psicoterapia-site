@@ -245,9 +245,9 @@ export default function Home() {
             <div className="container">
               <div className="max-w-3xl mx-auto">
                 <div className="manifesto-text space-y-6 md:space-y-8 text-base md:text-lg text-foreground/90 leading-relaxed">
-                  <h3 className="pt-0 text-center mb-10">Você está repetindo o padrão sem perceber?</h3>
+                  <h3 className="pt-0 text-center mb-10">A repetição inconsciente do padrão</h3>
                   <p>
-                    Crescer precisando validar essa realidade distorcida faz com que a dinâmica abusiva seja naturalizada. O maior perigo não é apenas o que fizeram com você no passado, mas como você passa a agir nos seus relacionamentos atuais.
+                    Crescer precisando validar essa realidade distorcida faz com que a dinâmica abusiva seja naturalizada. O maior perigo não é apenas o peso do passado, mas a influência disso nos relacionamentos atuais.
                   </p>
                   <p>
                     Diante da supressão de quem realmente é, a criança geralmente reage de duas formas e leva isso para a vida adulta:
