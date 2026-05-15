@@ -134,7 +134,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* SECTION 3: O Profissional (Movido para gerar autoridade imediata) */}
+        {/* SECTION 3: O Profissional */}
         <section id="profissional" className="section-padding bg-secondary/40">
           <div className="container">
             <div className="max-w-4xl mx-auto">
@@ -175,7 +175,6 @@ export default function Home() {
                 <span className="tag-value mb-4 block text-center">A dinâmica do narcisista "bonzinho"</span>
                 <h2 className="text-center mb-12">A cobrança indireta e o peso do amor</h2>
                 
-                {/* OTIMIZAÇÃO DE UX/UI: Maior espaçamento entre parágrafos (space-y-6 md:space-y-8) */}
                 <div className="manifesto-text space-y-6 md:space-y-8 text-base md:text-lg text-foreground/90 leading-relaxed">
                   <p>
                     Estamos acostumados a entender o <strong>narcisismo como doença</strong>, como se a pessoa patologicamente narcisista fosse alguém muito diferente do que é considerado normal.
@@ -241,7 +240,7 @@ export default function Home() {
             </div>
           </div>
 
-{/* Sub-section 3: Aceitação ou Resistência */}
+          {/* Sub-section 3: Aceitação ou Resistência */}
           <div className="section-padding">
             <div className="container">
               <div className="max-w-3xl mx-auto">
@@ -256,7 +255,7 @@ export default function Home() {
                   
                   <div className="clinical-list-item mt-10">
                     <p>
-                      <strong>A Aceitação:</strong> Você aprende a ser passivo e focado em agradar. Torna-se alguém extremamente solícito. O problema? O excesso de ajuda se transforma em uma "invasão bem-intencionada". Muitas vezes, ao tentar proteger o outro, rouba-se outro o processo natural de viver e resolver as próprias questões.
+                      <strong>A Aceitação:</strong> Você aprende a ser passivo e focado em agradar. Torna-se alguém extremamente solícito. O problema? O excesso de ajuda se transforma em uma "invasão bem-intencionada". Muitas vezes, ao tentar proteger o outro, rouba-se do outro o processo natural de viver e resolver as próprias questões.
                     </p>
                   </div>
 
@@ -272,7 +271,7 @@ export default function Home() {
 
                   <div className="py-12 border-y border-border/40 my-16 text-center">
                     <p className="text-xl md:text-2xl font-display italic text-primary leading-snug mb-0 px-4">
-                      "Escapar dessa lógica exige limpar o espaço mental ocupado pelo outro, protegendo suas relações atuais próprias relações atuais da repetição de ciclos."
+                      "Escapar dessa lógica exige limpar o espaço mental ocupado pelo outro, protegendo suas próprias relações atuais da repetição de ciclos."
                     </p>
                   </div>
 
@@ -280,12 +279,14 @@ export default function Home() {
                     Tentar superar através de confronto direto é um erro comum. O narcisista sabe exatamente <strong>quais botões apertar</strong> para que você carregue sozinho o peso do desconforto.
                   </p>
                   <p>
-                     O caminho clínico é identificar como você lidou com a invasão, mapear o vazio que fica após a remoção dessas defesas, e iniciar o processo autoconhecimento para preencher-se de si mesmo.
+                     O caminho clínico é identificar como você lidou com a invasão, mapear o vazio que fica após a remoção dessas defesas, e iniciar o processo de autoconhecimento para preencher-se de si mesmo.
                   </p>
                 </div>
               </div>
             </div>
           </div>
+        </section>
+
         {/* SECTION 5: Atendimento Global */}
         <section id="clinica" className="section-padding bg-primary text-primary-foreground">
           <div className="container text-center">
