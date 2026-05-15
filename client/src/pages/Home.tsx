@@ -294,7 +294,7 @@ export default function Home() {
                 <span className="tag-value text-white/40 mb-8 block">
                   Sessões individuais online via Google Meet
                 </span>
-                <div className="text-3xl md:text-4xl font-display mb-12 italic">
+                <div className="text-2xl md:text-3xl font-display mb-12 italic">
                   Valor da sessão: R$ 200
                 </div>
                 <button
