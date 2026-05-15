@@ -16,19 +16,18 @@ export default function Home() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Menu reordenado para refletir a nova estrutura da página
   const navLinks = [
+    { name: "O Profissional", href: "#profissional" },
     { name: "A Dinâmica", href: "#dinamica" },
     { name: "A Clínica", href: "#clinica" },
-    { name: "O Profissional", href: "#profissional" },
   ];
-
-  const whatsappLink = "https://api.whatsapp.com/send?phone=5541985155583&text=Ol%C3%A1%2C%20Jorge.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20atendimento.";
 
   const handleContactClick = (e: React.MouseEvent) => {
     e.preventDefault();
-    // Abre o WhatsApp em uma nova aba
-    window.open(whatsappLink, "_blank");
-    // Redireciona para a rota interna /obrigado
+    // OTIMIZAÇÃO DE CRO: Removemos o window.open daqui.
+    // O usuário é redirecionado para a página /obrigado. 
+    // É lá que a conversão será computada com segurança antes do WhatsApp abrir.
     setLocation("/obrigado");
   };
 
@@ -102,6 +101,10 @@ export default function Home() {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
+              {/* SINTONIA ANÚNCIO-SITE: Conexão cultural imediata */}
+              <span className="text-accent uppercase text-xs md:text-sm tracking-widest font-semibold mb-4 block">
+                Atendimento Especializado para Brasileiros no Exterior
+              </span>
               <h1 className="font-display">
                 O peso invisível do <br className="hidden md:block" />
                 <span className="italic">amor familiar</span>
@@ -109,7 +112,7 @@ export default function Home() {
               <p className="text-lg md:text-xl text-accent font-serif leading-relaxed mb-10 max-w-xl">
                 Muitas vezes, o excesso de proteção e o zelo podem encobrir dinâmicas que anulam a sua identidade e geram uma dívida emocional impagável.
               </p>
-              <a href="#dinamica" className="btn-high-ticket">
+              <a href="#profissional" className="btn-high-ticket">
                 Iniciar Investigação
               </a>
             </motion.div>
@@ -131,7 +134,39 @@ export default function Home() {
           </div>
         </section>
 
-        {/* SECTION 3: O Manifesto (A Dinâmica) */}
+        {/* SECTION 3: O Profissional (Movido para gerar autoridade imediata) */}
+        <section id="profissional" className="section-padding bg-secondary/40">
+          <div className="container">
+            <div className="max-w-4xl mx-auto">
+              <motion.div 
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="quote-block !border-l-2 !bg-white/50 !pl-10 !py-8 !my-0 shadow-sm"
+              >
+                <p className="text-xl md:text-2xl italic font-serif text-primary leading-relaxed mb-0">
+                  "Meu nome é Jorge Dias, sou psicoterapeuta clínico. Ao longo de mais de 3.000 horas de prática, compreendi que rotular o Narcisista como 'vilão' apenas mascara a raiz do sofrimento e causa mais culpa à vítima."
+                </p>
+              </motion.div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16">
+                <div className="space-y-6">
+                  <h3 className="mt-0 text-accent uppercase text-xs tracking-[0.2em] font-semibold">A psicoterapia para vítimas</h3>
+                  <p className="text-lg leading-relaxed text-foreground/80">
+                    Focamos em criar um espaço ético e livre de julgamentos, onde investigaremos a sua história de vida e percepções de mundo, colocando <strong>você como centro do processo</strong>.
+                  </p>
+                </div>
+                <div className="space-y-6">
+                  <p className="text-lg leading-relaxed pt-0 md:pt-10 text-foreground/80">
+                    O objetivo é compreender sua <strong>ferida narcísica</strong>, permitindo que você desconstrua a culpa, recupere o seu desejo autêntico e deixe de pagar uma dívida que não lhe pertence.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* SECTION 4: O Manifesto (A Dinâmica) */}
         <section id="dinamica" className="bg-white">
           {/* Sub-section 1: O Narcisista Bonzinho */}
           <div className="section-padding">
@@ -140,7 +175,8 @@ export default function Home() {
                 <span className="tag-value mb-4 block text-center">A dinâmica do narcisista "bonzinho"</span>
                 <h2 className="text-center mb-12">A cobrança indireta e o peso do amor</h2>
                 
-                <div className="manifesto-text space-y-2">
+                {/* OTIMIZAÇÃO DE UX/UI: Maior espaçamento entre parágrafos (space-y-6 md:space-y-8) */}
+                <div className="manifesto-text space-y-6 md:space-y-8 text-base md:text-lg text-foreground/90 leading-relaxed">
                   <p>
                     Estamos acostumados a entender o <strong>narcisismo como doença</strong>, como se a pessoa patologicamente narcisista fosse alguém muito diferente do que é considerado normal.
                   </p>
@@ -175,7 +211,7 @@ export default function Home() {
           <div className="section-padding bg-[#ECEEEF] border-y border-border/30">
             <div className="container">
               <div className="max-w-3xl mx-auto">
-                <div className="manifesto-text space-y-2">
+                <div className="manifesto-text space-y-6 md:space-y-8 text-base md:text-lg text-foreground/90 leading-relaxed">
                   <h3 className="pt-0 text-center mb-10">Como o Narcisista vê o mundo</h3>
                   <p>
                     Discutir e argumentar sobre essa culpa costuma ser inútil. O indivíduo narcisista possui um mecanismo ativo 24 horas por dia que convence a si mesmo de que a <strong>realidade é do jeito que ele quer</strong>.
@@ -209,7 +245,7 @@ export default function Home() {
           <div className="section-padding">
             <div className="container">
               <div className="max-w-3xl mx-auto">
-                <div className="manifesto-text space-y-2">
+                <div className="manifesto-text space-y-6 md:space-y-8 text-base md:text-lg text-foreground/90 leading-relaxed">
                   <h3 className="pt-0 text-center mb-10">Aceitação ou Resistência</h3>
                   <p>
                     Crescer precisando validar essa realidade distorcida deforma a forma como nos vemos. A criança diante dessa <strong>supressão excessiva</strong> geralmente reage de duas formas:
@@ -245,38 +281,6 @@ export default function Home() {
                   </p>
                   <p>
                     O caminho é aprender a lidar com o vazio que fica após a saída do outro, para só então iniciar um processo de <strong>preencher-se de si mesmo</strong>.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* SECTION 4: O Profissional */}
-        <section id="profissional" className="section-padding bg-secondary/40">
-          <div className="container">
-            <div className="max-w-4xl mx-auto">
-              <motion.div 
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                className="quote-block !border-l-2 !bg-white/50 !pl-10 !py-8 !my-0 shadow-sm"
-              >
-                <p className="text-xl md:text-2xl italic font-serif text-primary leading-relaxed mb-0">
-                  "Meu nome é Jorge Dias, sou psicoterapeuta clínico. Ao longo de mais de 3.000 horas de prática, compreendi que rotular o Narcisista como 'vilão' apenas mascara a raiz do sofrimento e causa mais culpa à vítima."
-                </p>
-              </motion.div>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16">
-                <div className="space-y-6">
-                  <h3 className="mt-0 text-accent uppercase text-xs tracking-[0.2em] font-semibold">A psicoterapia para vítimas</h3>
-                  <p className="text-lg leading-relaxed text-foreground/80">
-                    Focamos em criar um espaço ético e livre de julgamentos, onde investigaremos a sua história de vida e percepções de mundo, colocando <strong>você como centro do processo</strong>.
-                  </p>
-                </div>
-                <div className="space-y-6">
-                  <p className="text-lg leading-relaxed pt-0 md:pt-10 text-foreground/80">
-                    O objetivo é compreender sua <strong>ferida narcísica</strong>, permitindo que você desconstrua a culpa, recupere o seu desejo autêntico e deixe de pagar uma dívida que não lhe pertence.
                   </p>
                 </div>
               </div>
@@ -322,7 +326,7 @@ export default function Home() {
         </div>
       </footer>
 
-      {/* Floating Action Button (Integrado à cor do site) */}
+      {/* Floating Action Button */}
       <button
         onClick={handleContactClick}
         className="fixed bottom-8 right-8 z-[100] bg-primary text-primary-foreground p-4 rounded-full shadow-2xl hover:scale-110 transition-transform group"
