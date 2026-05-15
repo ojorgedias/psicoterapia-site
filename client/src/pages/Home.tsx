@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
-import { Link } from "wouter";
+import { Link, useLocation } from "wouter";
 import { Menu, X, MessageCircle } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [, setLocation] = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,14 +22,14 @@ export default function Home() {
     { name: "O Profissional", href: "#profissional" },
   ];
 
-  const whatsappLink = "https://api.whatsapp.com/send?phone=5541985155583&text=Ol%C3%A1%2C%20Jorge.%20Gostaria%20de%20agendar%20uma%20sessao%20de%20psicoterapia.";
+  const whatsappLink = "https://api.whatsapp.com/send?phone=5541985155583&text=Ol%C3%A1%2C%20Jorge.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20atendimento.";
 
   const handleContactClick = (e: React.MouseEvent) => {
     e.preventDefault();
     // Abre o WhatsApp em uma nova aba
     window.open(whatsappLink, "_blank");
-    // Redireciona a página atual para a página de obrigado
-    window.location.href = "/obrigado.html";
+    // Redireciona para a rota interna /obrigado
+    setLocation("/obrigado");
   };
 
   return (
@@ -170,7 +171,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Sub-section 2: Como o Narcisista vê o mundo (Darker grey background for suspense) */}
+          {/* Sub-section 2: Como o Narcisista vê o mundo */}
           <div className="section-padding bg-[#ECEEEF] border-y border-border/30">
             <div className="container">
               <div className="max-w-3xl mx-auto">
@@ -204,7 +205,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Sub-section 3: Impacto na Identidade (White background) */}
+          {/* Sub-section 3: Aceitação ou Resistência */}
           <div className="section-padding">
             <div className="container">
               <div className="max-w-3xl mx-auto">
@@ -251,7 +252,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* SECTION 4: O Profissional (Sobre Mim) */}
+        {/* SECTION 4: O Profissional */}
         <section id="profissional" className="section-padding bg-secondary/40">
           <div className="container">
             <div className="max-w-4xl mx-auto">
@@ -283,7 +284,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* SECTION 5: Atendimento Global e Agendamento */}
+        {/* SECTION 5: Atendimento Global */}
         <section id="clinica" className="section-padding bg-primary text-primary-foreground">
           <div className="container text-center">
             <div className="max-w-2xl mx-auto">
@@ -294,7 +295,7 @@ export default function Home() {
                   Sessões individuais online via Google Meet
                 </span>
                 <div className="text-3xl md:text-4xl font-display mb-12 italic">
-                  Valor da sessão: R$ 200
+                  Valor da sessão: R$ 250
                 </div>
                 <button
                   onClick={handleContactClick}
@@ -308,7 +309,7 @@ export default function Home() {
         </section>
       </main>
 
-      {/* SECTION 6: Footer & Floating Button */}
+      {/* SECTION 6: Footer */}
       <footer className="py-12 bg-background border-t border-border">
         <div className="container flex flex-col md:flex-row justify-between items-center gap-8">
           <p className="text-[10px] uppercase tracking-widest text-muted-foreground">
