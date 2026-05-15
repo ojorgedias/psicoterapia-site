@@ -255,7 +255,7 @@ export default function Home() {
                   
                   <div className="clinical-list-item mt-10">
                     <p>
-                      <strong>A Aceitação:</strong> Você aprende a ser passivo e focado em agradar. Torna-se alguém extremamente solícito. O problema? O excesso de ajuda se transforma em uma "invasão bem-intencionada". Muitas vezes, ao tentar proteger o outro, rouba-se do outro o processo natural de viver e resolver as próprias questões.
+                      <strong>A Aceitação:</strong> Muitas vezes, o indivíduo aprende a ser passivo e focado em agradar. Torna-se alguém extremamente solícito. O problema é que o excesso de ajuda se transforma em uma "invasão bem-intencionada". Muitas vezes, ao tentar proteger o outro, rouba-se do outro o processo natural de viver e resolver as próprias questões.
                     </p>
                   </div>
 
