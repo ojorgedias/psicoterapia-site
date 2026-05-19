@@ -268,7 +268,7 @@ export default function Home() {
                     Tentar superar através do confronto direto é um erro comum. Quem reproduz o comportamento Narcisista sabe exatamente <strong>quais botões apertar</strong> para inverter a situação e fazer você carregar sozinho o desconforto e a culpa.
                   </p>
                   <p className="max-w-3xl mx-auto">
-                    O indivíduo que reproduz o Comportamento Narcisista geralmente oscila entre o extremo do Egoismo e do Altruismo. Ele pode mudar rapidamente postura de "vilão" para "bonzinho" ou vice-versa. É essa inconstância que confunde a cabeça da vítima e <strong>diminui suas defesas</strong>.
+                    O indivíduo que reproduz o Comportamento Narcisista geralmente oscila entre o extremo do Egoismo e do Altruismo. Ele pode mudar rapidamente a postura de "vilão" para "bonzinho" ou vice-versa. É essa inconstância que confunde a cabeça do outro e <strong>diminui suas defesas</strong>.
                   </p>
                   <p className="max-w-3xl mx-auto">
                     O caminho clínico é identificar como você lidou com a tentativa de invalidação, suportar e entender o <strong>vazio</strong> que fica após a retirada do conteúdo que não é seu e iniciar o processo de autoconhecimento para <strong>preencher-se de si mesmo.</strong>
