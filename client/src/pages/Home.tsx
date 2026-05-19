@@ -105,7 +105,7 @@ export default function Home() {
                 <span className="italic">amor excessivo</span>
               </h1>
               <p className="text-lg md:text-xl text-accent font-serif leading-relaxed mb-10 max-w-xl">
-                Muitas vezes, o excesso de proteção e cuidado podem encobrir dinâmicas que <strong>reprimem o "Eu"</strong>e criam uma dívida emocional.
+                Muitas vezes, o excesso de proteção e cuidado podem encobrir dinâmicas que <strong>reprimem o "Eu"</strong> e criam uma dívida emocional.
               </p>
               <a href="#profissional" className="btn-high-ticket">
                 Saber Mais
@@ -162,7 +162,7 @@ export default function Home() {
                     Estamos acostumados a entender o Narcisismo como <strong>doença</strong>, como se a pessoa patologicamente narcisista fosse alguém muito diferente do que é considerado normal.
                   </p>
                   <p>
-                    Conhecemos a imagem do narcisista como alguém visivelmente manipulador, quase como um vilão caricato. É fácil reconhecer e culpabilizar um indivíduo <strong>agressivo ou dominador.</strong>
+                    Conhecemos a imagem do narcisista como alguém visivelmente manipulador, quase como um vilão caricato. É fácil receber e culpabilizar um indivíduo <strong>agressivo ou dominador.</strong>
                   </p>
                   <p>
                     No entanto, quando a pessoa ocupa o papel de quem <strong>cuida, acompanha e ajuda</strong> a outra, chamá-la de Narcisista traz um peso gigante de culpa.
@@ -176,7 +176,7 @@ export default function Home() {
                       "O cuidado excessivo gera um sentimento de <span className="text-accent">dívida internalizada</span> que se transforma em culpa por existir."
                     </p>
                   </div>
-                 <p>
+                  <p>
                     A atenção oferecida em excesso é como uma <strong>invasão bem intencionada</strong>, que coloca o Narcisista como peça central em qualquer relação, mesmo que a intenção seja fornecer ajuda ou cuidado ao outro. 
                   </p>
                   <p>
@@ -194,14 +194,16 @@ export default function Home() {
                 <div className="manifesto-text space-y-6 md:space-y-8 text-base md:text-lg text-foreground/90 leading-relaxed">
                   <h3 className="pt-0 text-center mb-10">Como o comportamento Narcisista se mantém?</h3>
                   <p>
-                    Discutir e argumentar sobre essa culpa costuma ser inútil. Quem reproduz o comportamento narcisista possui um mecanismo ativo 24 horas por dia que convence a si mesmo de que a <strong>realidade é do jeito que ele quer que seja</strong>.
+                    Discutir e argumentar sobre essa culpa costuma ser inútil. Quem reproduz o comportamento narcisista possui um mechanism ativo 24 horas por dia que convence a si mesmo de que a <strong>realidade é do jeito que ele quer que seja</strong>.
                   </p>
                   <p>
                     Toda interação social é vista como uma <strong>comparação</strong>, onde uma das pessoas deve sair ganhando e a outra, perdendo. É como se ele visse a vida por um filtro que sempre o faz sentir que venceu.
                   </p>
-                  <p>
+                  
+                  <div className="quote-block !my-12 !bg-white/40">
                     Seja como Vilão ou como Vítima, quem reproduz comportamento narcisista nunca carrega para si o peso da culpa. Ele é especialista em <strong>despejar esse peso no outro</strong> de forma cirúrgica.
-                  </p>
+                  </div>
+
                   <p>
                     É importante ressaltar que o comportamento Narcisista pode ser reproduzido por <strong>qualquer pessoa</strong>, seja considerada Narcisista Patológico ou não.
                   </p>
@@ -246,7 +248,7 @@ export default function Home() {
                     <div className="bg-accent/5 p-8 rounded-xl border border-accent/10 shadow-sm hover:shadow-md transition-shadow">
                       <h4 className="text-xl font-display text-accent mb-4 font-semibold">A Resistência</h4>
                       <p className="text-[15px] md:text-base leading-relaxed mb-0">
-                        Quando o "Eu" não quer aceitar a culpa imposta, ele busca se tornar uma pessoa totalmente oposta ao outro. Se foi sufocado por regras, acaba criando os filhos "soltos demais", se foi muito invalidado, acaba validando excessivamente os filhos, fazendo com que tenham dificuldade em lidar com a frustração. Viver tentando ser o "oposto" significa que a imagem do outro ainda dita as suas regras.
+                        Quando o "Eu" não quer aceitar a culpa imposta, ele busca se tornou uma pessoa totalmente oposta ao outro. Se foi sufocado por regras, acaba criando os filhos "soltos demais", se foi muito invalidado, acaba validando excessivamente os filhos, fazendo com que tenham dificuldade em lidar com a frustração. Viver tentando ser o "oposto" significa que a imagem do outro ainda dita as suas regras.
                       </p>
                     </div>
                   </div>
