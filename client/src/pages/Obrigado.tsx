@@ -10,7 +10,7 @@ declare global {
 
 export default function Obrigado() {
   // Centralizamos o link para facilitar caso precise mudar a mensagem no futuro
-  const whatsappLink = "https://api.whatsapp.com/send?phone=5541985155583&text=Ol%C3%A1%2C%20Jorge.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20atendimento.";
+  const whatsappLink = "https://api.whatsapp.com/send?phone=5541985155583&text=Ol%C3%A1%20Jorge%2C%20gostaria%20de%20agendar%20uma%20sess%C3%A3o%20de%20psicoterapia.;
 
   useEffect(() => {
     // Bloqueia indexação para não sujar os dados do Google Ads no SEO
