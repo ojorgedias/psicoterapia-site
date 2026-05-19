@@ -105,7 +105,7 @@ export default function Home() {
                 <span className="italic">amor excessivo</span>
               </h1>
               <p className="text-lg md:text-xl text-accent font-serif leading-relaxed mb-10 max-w-xl">
-                Muitas vezes, o excesso de proteção e o cuidado podem encobrir dinâmicas que reprimem a sua identidade e geram uma dívida emocional impagável.
+                Muitas vezes, o excesso de proteção e cuidado podem encobrir dinâmicas que reprimem a sua identidade e geram uma dívida emocional impagável.
               </p>
               <a href="#profissional" className="btn-high-ticket">
                 Iniciar Investigação
@@ -178,7 +178,7 @@ export default function Home() {
                   </div>
 
                   <p>
-                    Toda essa atenção oferecida em excesso é convertida em um <strong>sentimento de culpa</strong>. A vontade pessoal é suprimida na tentativa de saldar essa dívida.
+                    A atenção oferecida em excesso é convertida em um <strong>sentimento de culpa</strong>. A vontade pessoal é suprimida na tentativa de saldar essa dívida.
                   </p>
                   <p>
                     Como compensação, o indivíduo sente-se "preso" ao outro, criando a <strong>Dependência Emocional</strong> e apagamento da individualidade.
@@ -198,7 +198,7 @@ export default function Home() {
                     Discutir e argumentar sobre essa culpa costuma ser inútil. Quem reproduz o comportamento narcisista possui um mecanismo ativo 24 horas por dia que convence a si mesmo de que a <strong>realidade é do jeito que ele quer que seja</strong>.
                   </p>
                   <p>
-                    Toda interação social é vista como uma <strong>comparação</strong>, onde uma das pessoas deve sair ganhando. É como se ele visse a vida por um filtro que sempre o faz sentir que venceu.
+                    Toda interação social é vista como uma <strong>comparação</strong>, onde uma das pessoas deve sair ganhando e a outra, perdendo. É como se ele visse a vida por um filtro que sempre o faz sentir que venceu.
                   </p>
                   <p>
                     Seja como Vilão ou como Vítima, quem reproduz comportamento narcisista nunca carrega para si o peso da culpa. Ele é especialista em <strong>despejar esse peso no outro</strong> de forma cirúrgica.
@@ -240,7 +240,7 @@ export default function Home() {
                     <div className="bg-primary/5 p-8 rounded-xl border border-primary/10 shadow-sm hover:shadow-md transition-shadow">
                       <h4 className="text-xl font-display text-primary mb-4 font-semibold">A Aceitação</h4>
                       <p className="text-[15px] md:text-base leading-relaxed mb-0">
-                        Muitas vezes, o indivíduo aprende a ser passivo, desprovido de vontade própria e focado em agradar o outro. Isso faz com que o próprio "Eu" se sinta suprimido e busque formas alternativas de se auto-validar, seja se diminuindo em excesso para buscar validação, seja reproduzindo sem perceber a dinâmica do cuidado excessivo que invalida o outro.
+                        Muitas vezes, o indivíduo aprende a ser passivo, desprovido de vontade própria e focado em agradar o outro. Isso faz com que o próprio "Eu" se sinta suprimido e busque formas alternativas de se proteger, seja se diminuindo em excesso para buscar validação, seja reproduzindo sem perceber o cuidado excessivo que acaba invalidando uma terceira pessoa, manténdo a repetição de padrões.
                       </p>
                     </div>
 
@@ -280,7 +280,7 @@ export default function Home() {
                   </div>
                   <div className="space-y-6">
                     <p className="text-lg leading-relaxed pt-0 md:pt-10 text-foreground/80">
-                      O objetivo é compreender sua <strong>ferida narcísica</strong>, permitindo que você desconstrua a culpa, recupere o seu desejo autêntico e deixe de pagar uma dívida que não lhe pertence.
+                      O objetivo é compreender sua <strong>ferida narcísica</strong>, permitindo que você desconstrua a culpa, recupere o seu auto-cuidado e deixe de pagar uma dívida que não lhe pertence.
                     </p>
                   </div>
                 </div>
@@ -300,8 +300,8 @@ export default function Home() {
                 <span className="tag-value text-white/40 mb-8 block">
                   Sessões individuais online via Google Meet
                 </span>
-                <div className="text-2xl md:text-3xl font-display mb-12 italic">
-                  Valor da sessão: R$ 200
+                <div className="text-1xl md:text-2xl font-display mb-12 italic">
+                  Valor da sessão: R$ 150
                 </div>
                 <button
                   onClick={handleContactClick}
