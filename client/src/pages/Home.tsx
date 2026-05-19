@@ -16,7 +16,6 @@ export default function Home() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Menu reordenado para refletir a nova estrutura da página
   const navLinks = [
     { name: "O Profissional", href: "#profissional" },
     { name: "A Dinâmica", href: "#dinamica" },
@@ -25,9 +24,6 @@ export default function Home() {
 
   const handleContactClick = (e: React.MouseEvent) => {
     e.preventDefault();
-    // OTIMIZAÇÃO DE CRO: Removemos o window.open daqui.
-    // O usuário é redirecionado para a página /obrigado. 
-    // É lá que a conversão será computada com segurança antes do WhatsApp abrir.
     setLocation("/obrigado");
   };
 
@@ -101,7 +97,6 @@ export default function Home() {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              {/* SINTONIA ANÚNCIO-SITE: Conexão cultural imediata */}
               <span className="text-accent uppercase text-xs md:text-sm tracking-widest font-semibold mb-4 block">
                 Atendimento Especializado em Relações Amorosas e Familiares
               </span>
@@ -148,11 +143,13 @@ export default function Home() {
                   "Meu nome é Jorge Dias, sou psicoterapeuta clínico formado em Psicologia pela Universidade Estadual de Londrina. Ao longo de mais de 3.000 horas de prática clínica, compreendi que Narcisismo vai muito além do Rótulo"
                 </p>
               </motion.div>
-              
-            </section>
+            </div>
+          </div>
+        </section>
 
         {/* SECTION 4: O Manifesto (A Dinâmica) */}
         <section id="dinamica" className="bg-white">
+          
           {/* Sub-section 1: O Narcisista Bonzinho */}
           <div className="section-padding">
             <div className="container">
@@ -171,7 +168,7 @@ export default function Home() {
                     No entanto, quando a pessoa ocupa o papel de quem <strong>cuida, acompanha e ajuda</strong> a outra, chamá-la de Narcisista traz um peso gigante de culpa.
                   </p>
                   <p>
-                    Relações onde uma das pessoas é colocada em evidência, seja por excesso de cuidado ou controle, mostram <strong>lado altruísta</strong> do comportamento narcisista (seja patológico ou não).
+                    Relações onde uma das pessoas é colocada em evidência, seja por excesso de cuidado ou controle, mostram o <strong>lado altruísta</strong> do comportamento narcisista (seja patológico ou não).
                   </p>
                   
                   <div className="py-12 border-y border-border/40 my-16 text-center">
@@ -228,60 +225,66 @@ export default function Home() {
           {/* Sub-section 3: Aceitação ou Resistência */}
           <div className="section-padding">
             <div className="container">
-              <div className="max-w-3xl mx-auto">
+              <div className="max-w-4xl mx-auto">
                 <div className="manifesto-text space-y-6 md:space-y-8 text-base md:text-lg text-foreground/90 leading-relaxed">
                   <h3 className="pt-0 text-center mb-10">A repetição inconsciente do padrão</h3>
-                  <p>
+                  <p className="max-w-3xl mx-auto">
                     O hábito de validar essa realidade distorcida faz com que a dinâmica tóxica seja naturalizada. O maior perigo não é apenas o peso do passado, mas a influência disso nos relacionamentos atuais.
                   </p>
-                  <p>
+                  <p className="max-w-3xl mx-auto">
                     Quando nossa vontade e autonomia são suprimidas, geralmente reagimos de duas formas:
                   </p>
                   
-                  <div className="clinical-list-item mt-10">
-                    <p>
-                      <strong>A Aceitação:</strong> Muitas vezes, o indivíduo aprende a ser passivo, desprovido de vontade própria e focado em agradar o outro. Isso faz com que o próprio "Eu" se sinta suprimido e busque formas alternativas de se auto-validar, seja se diminuindo em excesso para buscar validação, seja reproduzindo sem perceber a dinâmica do cuidado excessivo que invalida  outro.
-                    </p>
+                  {/* NOVO LAYOUT LITER E AGRADÁVEL: Grid com Cards */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-14">
+                    <div className="bg-primary/5 p-8 rounded-xl border border-primary/10 shadow-sm hover:shadow-md transition-shadow">
+                      <h4 className="text-xl font-display text-primary mb-4 font-semibold">A Aceitação</h4>
+                      <p className="text-[15px] md:text-base leading-relaxed mb-0">
+                        Muitas vezes, o indivíduo aprende a ser passivo, desprovido de vontade própria e focado em agradar o outro. Isso faz com que o próprio "Eu" se sinta suprimido e busque formas alternativas de se auto-validar, seja se diminuindo em excesso para buscar validação, seja reproduzindo sem perceber a dinâmica do cuidado excessivo que invalida o outro.
+                      </p>
+                    </div>
+
+                    <div className="bg-accent/5 p-8 rounded-xl border border-accent/10 shadow-sm hover:shadow-md transition-shadow">
+                      <h4 className="text-xl font-display text-accent mb-4 font-semibold">A Resistência</h4>
+                      <p className="text-[15px] md:text-base leading-relaxed mb-0">
+                        Quando o "Eu" não quer aceitar a culpa imposta, ele busca se tornar uma pessoa totalmente oposta ao outro. Se foi sufocado por regras, acaba criando os filhos "soltos demais", se foi muito invalidado, acaba validando excessivamente os filhos, fazendo com que tenham dificuldade em lidar com a frustração. Viver tentando ser o "oposto" significa que a imagem do outro ainda dita as suas regras.
+                      </p>
+                    </div>
                   </div>
 
-                  <div className="clinical-list-item">
-                    <p>
-                      <strong>A Resistência:</strong> Quando o "Eu" não quer aceitar a culpa imposta, ele busca se tornar uma pessoa totalmente oposta ao outro. Se foi sufocado por regras, acaba criando os filhos "soltos demais", se foi muito invalidado, acaba validando excessivamente os filhos, fazendo com que tenham dificuldade em lidar com a frustração. Viver tentando ser o "oposto" significa que a imagem do outro ainda dita as suas regras. 
-                    </p>
-                  </div>
-
-                  <p className="mt-10">
+                  <p className="mt-10 max-w-3xl mx-auto">
                     Seja na aceitação submissa ou na resistência rebelde, o saldo é o mesmo: O sentimento de vazio por <strong>não conhecer a si mesmo</strong>. O espaço mental que deveria abrigar o seu desejo e sua forma de ver o mundo continua ocupado pelo outro.
                   </p>
 
-                  <div className="py-12 border-y border-border/40 my-16 text-center">
+                  <div className="py-12 border-y border-border/40 my-16 text-center max-w-3xl mx-auto">
                     <p className="text-xl md:text-2xl font-display italic text-primary leading-snug mb-0 px-4">
                       "Escapar dessa lógica exige limpar o espaço mental ocupado pelo outro, protegendo suas próprias relações atuais da repetição de ciclos."
                     </p>
                   </div>
 
-                  <p>
+                  <p className="max-w-3xl mx-auto">
                     Tentar superar através de confronto direto é um erro comum. Quem reproduz o comportamento Narcisista sabe exatamente <strong>quais botões apertar</strong> para que você carregue sozinho o peso do desconforto.
                   </p>
-                  <p>
-                     O caminho clínico é identificar como você lidou com a tentativa de invalidação, lidar com o vazio que fica após a retirada do conteúdo que não é seu e iniciar o processo de autoconhecimento para preencher-se de si mesmo.
+                  <p className="max-w-3xl mx-auto">
+                    O caminho clínico é identificar como você lidou com a tentativa de invalidação, lidar com o vazio que fica após a retirada do conteúdo que não é seu e iniciar o processo de autoconhecimento para preencher-se de si mesmo.
                   </p>
                 </div>
-              </div>
-            </div>
-          </div>
-           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16">
-                <div className="space-y-6">
-                  <h3 className="mt-0 text-accent uppercase text-xs tracking-[0.2em] font-semibold">A psicoterapia para vítimas</h3>
-                  <p className="text-lg leading-relaxed text-foreground/80">
-                    Focamos em criar um espaço ético e livre de julgamentos, onde investigaremos a sua história de vida e percepções de mundo, colocando <strong>você como centro do processo</strong>.
-                  </p>
+
+                {/* Grid A Psicoterapia para Vítimas ajustado dentro da Section 4 */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-20 pt-10 border-t border-border/30 max-w-3xl mx-auto">
+                  <div className="space-y-6">
+                    <h3 className="mt-0 text-accent uppercase text-xs tracking-[0.2em] font-semibold">A psicoterapia para vítimas</h3>
+                    <p className="text-lg leading-relaxed text-foreground/80">
+                      Focamos em criar um espaço ético e livre de julgamentos, onde investigaremos a sua história de vida e percepções de mundo, colocando <strong>você como centro do processo</strong>.
+                    </p>
+                  </div>
+                  <div className="space-y-6">
+                    <p className="text-lg leading-relaxed pt-0 md:pt-10 text-foreground/80">
+                      O objetivo é compreender sua <strong>ferida narcísica</strong>, permitindo que você desconstrua a culpa, recupere o seu desejo autêntico e deixe de pagar uma dívida que não lhe pertence.
+                    </p>
+                  </div>
                 </div>
-                <div className="space-y-6">
-                  <p className="text-lg leading-relaxed pt-0 md:pt-10 text-foreground/80">
-                    O objetivo é compreender sua <strong>ferida narcísica</strong>, permitindo que você desconstrua a culpa, recupere o seu desejo autêntico e deixe de pagar uma dívida que não lhe pertence.
-                  </p>
-                </div>
+
               </div>
             </div>
           </div>
