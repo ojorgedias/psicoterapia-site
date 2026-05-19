@@ -162,10 +162,10 @@ export default function Home() {
                     Estamos acostumados a entender o Narcisismo como <strong>doença</strong>, como se a pessoa patologicamente narcisista fosse alguém muito diferente do que é considerado normal.
                   </p>
                   <p>
-                    Conhecemos a imagem do narcisista como alguém visivelmente manipulador, quase como um vilão caricato. É fácil receber e culpabilizar um indivíduo <strong>agressivo ou dominador.</strong>
+                    Conhecemos a imagem do narcisista como alguém visivelmente manipulador, quase como um vilão caricato. É fácil notar e culpabilizar um indivíduo <strong>agressivo ou dominador.</strong>
                   </p>
                   <p>
-                    No entanto, quando a pessoa ocupa o papel de quem <strong>cuida, acompanha e ajuda</strong> a outra, chamá-la de Narcisista traz um peso gigante de culpa.
+                    No entanto, quando a pessoa ocupa o papel de quem <strong>cuida, acompanha e ajuda</strong> a outra, chamá-la de Narcisista traz um enorme peso de culpa.
                   </p>
                   <p>
                     Relações onde uma das pessoas é colocada em evidência, seja por excesso de cuidado ou por excesso controle, mostram o <strong>lado altruísta</strong> do Comportamento Narcisista.
@@ -180,7 +180,7 @@ export default function Home() {
                     A atenção oferecida em excesso é como uma <strong>invasão bem intencionada</strong>, que coloca o Narcisista como peça central em qualquer relação, mesmo que a intenção seja fornecer ajuda ou cuidado ao outro. 
                   </p>
                   <p>
-                    Como compensação, o indivíduo que recebe o cuidado sente-se "preso" ao outro, entrando em <strong>Dependência Emocional</strong>, causando um apagamento progressivo da individualidade.
+                    Como compensação, o indivíduo que recebe o cuidado sente-se "preso" ao outro, em um estado de <strong>Dependência Emocional</strong>, que causa um apagamento progressivo da individualidade.
                   </p>
                 </div>
               </div>
@@ -194,7 +194,7 @@ export default function Home() {
                 <div className="manifesto-text space-y-6 md:space-y-8 text-base md:text-lg text-foreground/90 leading-relaxed">
                   <h3 className="pt-0 text-center mb-10">Como o comportamento Narcisista se mantém?</h3>
                   <p>
-                    Discutir e argumentar sobre essa culpa costuma ser inútil. Quem reproduz o comportamento narcisista possui um mechanism ativo 24 horas por dia que convence a si mesmo de que a <strong>realidade é do jeito que ele quer que seja</strong>.
+                    Discutir e argumentar sobre essa culpa costuma ser inútil. Quem reproduz o comportamento narcisista possui um mecanismo ativo 24 horas por dia que convence a si mesmo de que a <strong>realidade é do jeito que ele quer que seja</strong>.
                   </p>
                   <p>
                     Toda interação social é vista como uma <strong>comparação</strong>, onde uma das pessoas deve sair ganhando e a outra, perdendo. É como se ele visse a vida por um filtro que sempre o faz sentir que venceu.
@@ -212,7 +212,7 @@ export default function Home() {
                   </p>
                   
                   <div className="quote-block !my-12 !bg-white/40">
-                    Se você impõe um limite, ele vê como ofensa. Se você rejeita a ajuda dele, ele te vê como ingrato.
+                    Se você impõe um limite, ele vê como <strong>ofensa.</strong> Se você rejeita a ajuda dele, ele te vê como <strong>ingrato</strong>.
                   </div>
 
                   <p>
@@ -248,13 +248,13 @@ export default function Home() {
                     <div className="bg-accent/5 p-8 rounded-xl border border-accent/10 shadow-sm hover:shadow-md transition-shadow">
                       <h4 className="text-xl font-display text-accent mb-4 font-semibold">A Resistência</h4>
                       <p className="text-[15px] md:text-base leading-relaxed mb-0">
-                        Quando o "Eu" não quer aceitar a culpa imposta, ele busca se tornou uma pessoa totalmente oposta ao outro. Se foi sufocado por regras, acaba criando os filhos "soltos demais", se foi muito invalidado, acaba validando excessivamente os filhos, fazendo com que tenham dificuldade em lidar com a frustração. Viver tentando ser o "oposto" significa que a imagem do outro ainda dita as suas regras.
+                        Quando o "Eu" não quer aceitar a culpa imposta, ele busca se tornar uma pessoa totalmente <strong>oposta</strong>ao outro. Se foi sufocado por regras, acaba criando os filhos <strong>"soltos demais"</strong>, se foi muito invalidado, acaba validando excessivamente os filhos, fazendo com que tenham dificuldade em <strong>lidar com a frustração</strong>. Viver tentando ser o "oposto" significa que a imagem do outro <strong>ainda dita as suas regras</strong>.
                       </p>
                     </div>
                   </div>
 
                   <p className="mt-10 max-w-3xl mx-auto">
-                    Mesmo aceitando ou rejeitando a invasão do outro, o saldo acaba sendo o mesmo: O sentimento de vazio por <strong>não conhecer a si mesmo</strong>. 
+                    Mesmo aceitando ou rejeitando a invasão, o saldo acaba sendo o mesmo: O sentimento de vazio por <strong>não conhecer a si mesmo</strong>. 
                     O espaço mental que deveria abrigar o seu desejo e sua forma de ver o mundo continua sendo ocupado pelo outro.
                   </p>
 
