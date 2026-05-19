@@ -268,6 +268,9 @@ export default function Home() {
                     Tentar superar através do confronto direto é um erro comum. Quem reproduz o comportamento Narcisista sabe exatamente <strong>quais botões apertar</strong> para inverter a situação e fazer você carregar sozinho o desconforto e a culpa.
                   </p>
                   <p className="max-w-3xl mx-auto">
+                    O indivíduo que reproduz o Comportamento Narcisista geralmente oscila entre o extremo do Egoismo e do Altruismo. Ele pode mudar rapidamente postura de "vilão" para "bonzinho" ou vice-versa. É essa inconstância que confunde a cabeça da vítima e <strong>diminui suas defesas</strong>.
+                  </p>
+                  <p className="max-w-3xl mx-auto">
                     O caminho clínico é identificar como você lidou com a tentativa de invalidação, suportar e entender o <strong>vazio</strong> que fica após a retirada do conteúdo que não é seu e iniciar o processo de autoconhecimento para <strong>preencher-se de si mesmo.</strong>
                   </p>
                 </div>
@@ -275,14 +278,14 @@ export default function Home() {
                 {/* Grid A Psicoterapia para Vítimas ajustado dentro da Section 4 */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-20 pt-10 border-t border-border/30 max-w-3xl mx-auto">
                   <div className="space-y-6">
-                    <h3 className="mt-0 text-accent uppercase text-xs tracking-[0.2em] font-semibold">A psicoterapia para vítimas</h3>
+                    <h3 className="mt-0 text-accent uppercase text-xs tracking-[0.2em] font-semibold">Psicoterapia como ferramenta de mudança</h3>
                     <p className="text-lg leading-relaxed text-foreground/80">
                       Focamos em criar um espaço ético e livre de julgamentos, onde investigaremos a sua história de vida e percepções de mundo, colocando <strong>você como centro do processo</strong>.
                     </p>
                   </div>
-                  <div className="space-y-6">
+                  <div className="space-y-2">
                     <p className="text-lg leading-relaxed pt-0 md:pt-10 text-foreground/80">
-                      O objetivo é compreender sua <strong>ferida narcísica</strong>, permitindo que você desconstrua a culpa, recupere o seu auto-cuidado e deixe de pagar uma dívida que não lhe pertence.
+                      O objetivo é compreender como os <strong>traumas e inseguranças</strong> vividos em relacionamentos anteriores (amorosos ou familiares) podem estar influenciando seus <strong>relacionamentos atuais</strong>.
                     </p>
                   </div>
                 </div>
