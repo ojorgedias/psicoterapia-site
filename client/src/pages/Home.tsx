@@ -140,7 +140,7 @@ export default function Home() {
                 className="quote-block !border-l-2 !bg-white/50 !pl-10 !py-8 !my-0 shadow-sm"
               >
                 <p className="text-xl md:text-2xl italic font-serif text-primary leading-relaxed mb-0">
-                  "Meu nome é Jorge Dias, sou psicoterapeuta clínico formado em Psicologia pela Universidade Estadual de Londrina. Ao longo de mais de 3.000 horas de prática clínica, compreendi que Narcisismo vai muito além do Rótulo"
+                  "Meu nome é Jorge Dias, sou psicoterapeuta clínico formado em Psicologia pela <strong>Universidade Estadual de Londrina.</strong> Ao longo de mais de 3.000 horas de prática clínica, compreendi que <strong>o comportamento Narcisista vai muito além do Rótulo."</strong>
                 </p>
               </motion.div>
             </div>
@@ -159,7 +159,7 @@ export default function Home() {
                 
                 <div className="manifesto-text space-y-6 md:space-y-8 text-base md:text-lg text-foreground/90 leading-relaxed">
                   <p>
-                    Estamos acostumados a entender o <strong>narcisismo como doença</strong>, como se a pessoa patologicamente narcisista fosse alguém muito diferente do que é considerado normal.
+                    Estamos acostumados a entender o narcisismo como <strong>doença</strong>, como se a pessoa patologicamente narcisista fosse alguém muito diferente do que é considerado normal.
                   </p>
                   <p>
                     Conhecemos a imagem do narcisista como alguém visivelmente manipulador, quase como um vilão caricato. É fácil reconhecer e culpabilizar um indivíduo agressivo ou dominador.
