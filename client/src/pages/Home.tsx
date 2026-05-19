@@ -101,14 +101,14 @@ export default function Home() {
                 Atendimento Especializado em Relações Amorosas e Familiares
               </span>
               <h1 className="font-display">
-                O peso invisível do <br className="hidden md:block" />
+                O peso simbólico do <br className="hidden md:block" />
                 <span className="italic">amor excessivo</span>
               </h1>
               <p className="text-lg md:text-xl text-accent font-serif leading-relaxed mb-10 max-w-xl">
-                Muitas vezes, o excesso de proteção e cuidado podem encobrir dinâmicas que reprimem a sua identidade e geram uma dívida emocional impagável.
+                Muitas vezes, o excesso de proteção e cuidado podem encobrir dinâmicas que <strong>reprimem o "Eu"</strong>e criam uma dívida emocional.
               </p>
               <a href="#profissional" className="btn-high-ticket">
-                Iniciar Investigação
+                Saber Mais
               </a>
             </motion.div>
             
@@ -140,7 +140,7 @@ export default function Home() {
                 className="quote-block !border-l-2 !bg-white/50 !pl-10 !py-8 !my-0 shadow-sm"
               >
                 <p className="text-xl md:text-2xl italic font-serif text-primary leading-relaxed mb-0">
-                  "Meu nome é Jorge Dias, sou psicoterapeuta clínico formado em Psicologia pela <strong>Universidade Estadual de Londrina.</strong> Ao longo de mais de 3.000 horas de prática clínica, compreendi que <strong>o comportamento Narcisista vai muito além do Rótulo."</strong>
+                  "Meu nome é Jorge Dias, sou psicoterapeuta clínico formado em <strong>Psicologia</strong> pela <strong>Universidade Estadual de Londrina.</strong> Ao longo de mais de 3.000 horas de prática clínica, compreendi que o comportamento Narcisista vai <strong>muito além do Rótulo."</strong>
                 </p>
               </motion.div>
             </div>
@@ -159,29 +159,28 @@ export default function Home() {
                 
                 <div className="manifesto-text space-y-6 md:space-y-8 text-base md:text-lg text-foreground/90 leading-relaxed">
                   <p>
-                    Estamos acostumados a entender o narcisismo como <strong>doença</strong>, como se a pessoa patologicamente narcisista fosse alguém muito diferente do que é considerado normal.
+                    Estamos acostumados a entender o Narcisismo como <strong>doença</strong>, como se a pessoa patologicamente narcisista fosse alguém muito diferente do que é considerado normal.
                   </p>
                   <p>
-                    Conhecemos a imagem do narcisista como alguém visivelmente manipulador, quase como um vilão caricato. É fácil reconhecer e culpabilizar um indivíduo agressivo ou dominador.
+                    Conhecemos a imagem do narcisista como alguém visivelmente manipulador, quase como um vilão caricato. É fácil reconhecer e culpabilizar um indivíduo <strong>agressivo ou dominador.</strong>
                   </p>
                   <p>
                     No entanto, quando a pessoa ocupa o papel de quem <strong>cuida, acompanha e ajuda</strong> a outra, chamá-la de Narcisista traz um peso gigante de culpa.
                   </p>
                   <p>
-                    Relações onde uma das pessoas é colocada em evidência, seja por excesso de cuidado ou controle, mostram o <strong>lado altruísta</strong> do comportamento narcisista (seja patológico ou não).
+                    Relações onde uma das pessoas é colocada em evidência, seja por excesso de cuidado ou por excesso controle, mostram o <strong>lado altruísta</strong> do Comportamento Narcisista.
                   </p>
                   
                   <div className="py-12 border-y border-border/40 my-16 text-center">
                     <p className="text-2xl md:text-3xl font-display italic text-primary leading-snug mb-0 px-4">
-                      "O cuidado excessivo gera um sentimento de <span className="text-accent">dívida internalizada</span> que você não pediu para contrair."
+                      "O cuidado excessivo gera um sentimento de <span className="text-accent">dívida internalizada</span> que se transforma em culpa por existir."
                     </p>
                   </div>
-
-                  <p>
-                    A atenção oferecida em excesso é convertida em um <strong>sentimento de culpa</strong>. A vontade pessoal é suprimida na tentativa de saldar essa dívida.
+                 <p>
+                    A atenção oferecida em excesso é como uma <strong>invasão bem intencionada</strong>, que coloca o Narcisista como peça central em qualquer relação, mesmo que a intenção seja fornecer ajuda ou cuidado ao outro. 
                   </p>
                   <p>
-                    Como compensação, o indivíduo sente-se "preso" ao outro, criando a <strong>Dependência Emocional</strong> e apagamento da individualidade.
+                    Como compensação, o indivíduo que recebe o cuidado sente-se "preso" ao outro, entrando em <strong>Dependência Emocional</strong>, causando um apagamento progressivo da individualidade.
                   </p>
                 </div>
               </div>
@@ -193,7 +192,7 @@ export default function Home() {
             <div className="container">
               <div className="max-w-3xl mx-auto">
                 <div className="manifesto-text space-y-6 md:space-y-8 text-base md:text-lg text-foreground/90 leading-relaxed">
-                  <h3 className="pt-0 text-center mb-10">Como o comportamento Narcisista se mantém</h3>
+                  <h3 className="pt-0 text-center mb-10">Como o comportamento Narcisista se mantém?</h3>
                   <p>
                     Discutir e argumentar sobre essa culpa costuma ser inútil. Quem reproduz o comportamento narcisista possui um mecanismo ativo 24 horas por dia que convence a si mesmo de que a <strong>realidade é do jeito que ele quer que seja</strong>.
                   </p>
@@ -211,11 +210,11 @@ export default function Home() {
                   </p>
                   
                   <div className="quote-block !my-12 !bg-white/40">
-                    Se você impõe um limite, a pessoa vê como ofensa. Se a ajuda dele te atrapalha e você rejeita, ele te vê como ingrato.
+                    Se você impõe um limite, ele vê como ofensa. Se você rejeita a ajuda dele, ele te vê como ingrato.
                   </div>
 
                   <p>
-                    Você não está lutando contra fatos, está lutando contra uma <strong>realidade distorcida</strong> que te faz duvidar de si mesmo a todo momento.
+                    Você não está lutando contra fatos, está lutando contra uma <strong>realidade distorcida</strong> que te faz <strong>duvidar de si mesmo</strong> a todo momento.
                   </p>
                 </div>
               </div>
@@ -229,7 +228,7 @@ export default function Home() {
                 <div className="manifesto-text space-y-6 md:space-y-8 text-base md:text-lg text-foreground/90 leading-relaxed">
                   <h3 className="pt-0 text-center mb-10">A repetição inconsciente do padrão</h3>
                   <p className="max-w-3xl mx-auto">
-                    O hábito de validar essa realidade distorcida faz com que a dinâmica tóxica seja naturalizada. O maior perigo não é apenas o peso do passado, mas a influência disso nos relacionamentos atuais.
+                    O hábito de validar essa realidade distorcida faz com que a dinâmica tóxica seja <strong>naturalizada.</strong> Mesmo quando a relação termina, ela deixa traumas e padrões que podem influenciar os <strong>relacionamentos atuais.</strong>
                   </p>
                   <p className="max-w-3xl mx-auto">
                     Quando nossa vontade e autonomia são suprimidas, geralmente reagimos de duas formas:
@@ -253,7 +252,8 @@ export default function Home() {
                   </div>
 
                   <p className="mt-10 max-w-3xl mx-auto">
-                    Seja na aceitação submissa ou na resistência rebelde, o saldo é o mesmo: O sentimento de vazio por <strong>não conhecer a si mesmo</strong>. O espaço mental que deveria abrigar o seu desejo e sua forma de ver o mundo continua ocupado pelo outro.
+                    Mesmo aceitando ou rejeitando a invasão do outro, o saldo acaba sendo o mesmo: O sentimento de vazio por <strong>não conhecer a si mesmo</strong>. 
+                    O espaço mental que deveria abrigar o seu desejo e sua forma de ver o mundo continua sendo ocupado pelo outro.
                   </p>
 
                   <div className="py-12 border-y border-border/40 my-16 text-center max-w-3xl mx-auto">
@@ -263,10 +263,10 @@ export default function Home() {
                   </div>
 
                   <p className="max-w-3xl mx-auto">
-                    Tentar superar através de confronto direto é um erro comum. Quem reproduz o comportamento Narcisista sabe exatamente <strong>quais botões apertar</strong> para que você carregue sozinho o peso do desconforto.
+                    Tentar superar através do confronto direto é um erro comum. Quem reproduz o comportamento Narcisista sabe exatamente <strong>quais botões apertar</strong> para inverter a situação e fazer você carregar sozinho o desconforto e a culpa.
                   </p>
                   <p className="max-w-3xl mx-auto">
-                    O caminho clínico é identificar como você lidou com a tentativa de invalidação, lidar com o vazio que fica após a retirada do conteúdo que não é seu e iniciar o processo de autoconhecimento para preencher-se de si mesmo.
+                    O caminho clínico é identificar como você lidou com a tentativa de invalidação, suportar e entender o <strong>vazio</strong> que fica após a retirada do conteúdo que não é seu e iniciar o processo de autoconhecimento para <strong>preencher-se de si mesmo.</strong>
                   </p>
                 </div>
 
