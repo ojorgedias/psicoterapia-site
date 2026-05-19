@@ -254,7 +254,7 @@ export default function Home() {
                   </div>
 
                   <p className="mt-10 max-w-3xl mx-auto">
-                    Mesmo aceitando ou rejeitando a invasão, o saldo acaba sendo o mesmo: O sentimento de vazio por <strong>não conhecer a si mesmo</strong>. 
+                    Seja aceitando ou rejeitando a invasão, o saldo acaba sendo o mesmo: O sentimento de vazio por <strong>não conhecer a si mesmo</strong>. 
                     O espaço mental que deveria abrigar o seu desejo e sua forma de ver o mundo continua sendo ocupado pelo outro.
                   </p>
 
