@@ -283,7 +283,7 @@ export default function Home() {
                       Focamos em criar um espaço ético e livre de julgamentos, onde investigaremos a sua história de vida e percepções de mundo, colocando <strong>você como centro do processo</strong>.
                     </p>
                   </div>
-                  <div className="space-y-2">
+                  <div className="space-y-1">
                     <p className="text-lg leading-relaxed pt-0 md:pt-10 text-foreground/80">
                       O objetivo é compreender como os <strong>traumas e inseguranças</strong> vividos em relacionamentos anteriores (amorosos ou familiares) podem estar influenciando seus <strong>relacionamentos atuais</strong>.
                     </p>
