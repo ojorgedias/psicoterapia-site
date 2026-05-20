@@ -191,7 +191,7 @@ export default function Home() {
           <div className="section-padding bg-[#ECEEEF] border-y border-border/30">
             <div className="container">
               <div className="max-w-3xl mx-auto">
-                <div className="manifesto-text space-y-6 md:space-y-8 text-base md:text-lg text-foreground/90 leading-relaxed">
+                <div className="manifesto-text space-y-6 md:space-y-8 text-base md:text-xl text-foreground/90 leading-relaxed">
                   <h3 className="pt-0 text-center mb-10">Como o comportamento Narcisista se mantém?</h3>
                   <p>
                     Discutir e argumentar sobre essa culpa costuma ser inútil. Quem reproduz o comportamento narcisista possui um mecanismo ativo 24 horas por dia que convence a si mesmo de que a <strong>realidade é do jeito que ele quer que seja</strong>.
@@ -240,14 +240,14 @@ export default function Home() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-14">
                     <div className="bg-primary/5 p-8 rounded-xl border border-primary/10 shadow-sm hover:shadow-md transition-shadow">
                       <h4 className="text-xl font-display text-primary mb-4 font-semibold">A Aceitação</h4>
-                      <p className="text-[15px] md:text-base leading-relaxed mb-0">
+                      <p className="text-[15px] md:text-lg leading-relaxed mb-0">
                         Muitas vezes, o indivíduo aprende a ser passivo, desprovido de vontade própria e focado em agradar o outro. Isso faz com que o próprio "Eu" se sinta suprimido e busque formas alternativas de se proteger, seja se diminuindo em excesso para buscar validação, seja reproduzindo sem perceber o cuidado excessivo que acaba invalidando uma terceira pessoa, manténdo a repetição de padrões.
                       </p>
                     </div>
 
                     <div className="bg-accent/5 p-8 rounded-xl border border-accent/10 shadow-sm hover:shadow-md transition-shadow">
                       <h4 className="text-xl font-display text-accent mb-4 font-semibold">A Resistência</h4>
-                      <p className="text-[15px] md:text-base leading-relaxed mb-0">
+                      <p className="text-[15px] md:text-lg leading-relaxed mb-0">
                         Quando o "Eu" não quer aceitar a culpa imposta, ele busca se tornar uma pessoa totalmente <strong>oposta</strong>ao outro. Se foi sufocado por regras, acaba criando os filhos <strong>"soltos demais"</strong>, se foi muito invalidado, acaba validando excessivamente os filhos, fazendo com que tenham dificuldade em <strong>lidar com a frustração</strong>. Viver tentando ser o "oposto" significa que a imagem do outro <strong>ainda dita as suas regras</strong>.
                       </p>
                     </div>
