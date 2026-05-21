@@ -339,8 +339,8 @@ export default function Home() {
                   Entre em contato
                 </button>
                 <div>
-                   
-                    
+                   ­
+                    ­
                 </div>
                 
                 <span className="tag-value text-white/40 mb-8 block">
