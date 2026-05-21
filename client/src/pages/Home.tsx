@@ -136,7 +136,7 @@ export default function Home() {
               </h1>
               
               <p className="text-lg md:text-xl text-white/90 lg:text-accent font-serif leading-relaxed mb-10 max-w-xl">
-                O abuso nem sempre tem a face de um vilão agressivo. Muitas vezes, esconde-se por trás de um cuidado excessivo que sufoca e cria uma dívida emocional.
+                O Narcisista nem sempre tem a face de um vilão agressivo. Muitas vezes, esconde-se por trás de um cuidado excessivo que sufoca e cria uma dívida emocional.
               </p>
               
               {/* Botão adaptado: Branco no mobile para destacar no fundo escuro */}
@@ -144,7 +144,7 @@ export default function Home() {
                 href="#dinamica" 
                 className="btn-high-ticket !bg-white !text-black hover:!bg-gray-200 lg:!bg-primary lg:!text-primary-foreground lg:hover:!bg-accent lg:hover:!text-primary shadow-2xl lg:shadow-none"
               >
-                Compreender a dinâmica
+                Saber mais
               </a>
             </motion.div>
             
@@ -198,7 +198,7 @@ export default function Home() {
                   </ul>
 
                   <p>
-                    Em ambos os casos, o resultado final é o mesmo: a sua autonomia é progressivamente apagada para sustentar o mecanismo de defesa do outro.
+                    Em ambos os casos, o resultado final é o mesmo: <strong>a sua autonomia é progressivamente apagada</strong> para sustentar o mecanismo de defesa do outro.
                   </p>
                 </div>
               </div>
@@ -212,18 +212,18 @@ export default function Home() {
                 <div className="manifesto-text space-y-6 md:space-y-8 text-lg md:text-xl text-foreground/90 leading-relaxed">
                   <h3 className="pt-0 text-center mb-10">A exaustão de lutar contra uma realidade distorcida</h3>
                   <p>
-                    Discutir, argumentar ou tentar provar a sua dor torna-se inútil nestas dinâmicas. O indivíduo possui um mecanismo mental que trabalha 24 horas por dia para reconfigurar a realidade e proteger o próprio Ego de se sentir indesejado ou ignorado.
+                    Discutir, argumentar ou tentar provar a sua dor torna-se inútil nestas dinâmicas. O indivíduo possui um mecanismo mental que trabalha 24 horas por dia para <strong>manipular a realidade</strong> e proteger o próprio Ego.
                   </p>
                   <p>
-                    Qualquer sentimento desconfortável é automaticamente rejeitado por ele e manipulado para que seja sentido por você.
+                    Qualquer sentimento desconfortável é automaticamente rejeitado por ele e <strong>transferido para você</strong>.
                   </p>
                   
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
                     <div className="bg-white/60 p-6 border-l-4 border-primary shadow-sm">
-                      <p className="text-base md:text-lg italic mb-0">"Se você impõe um limite ou diz 'não', é interpretado como uma <strong>ofensa.</strong>"</p>
+                      <p className="text-base md:text-lg italic mb-0">"Se você impõe um limite ou diz 'não', é interpretado como uma <strong>ofensa</strong>. O mecanismo do <strong>medo</strong> é usado para te fazer se sentir inferior."</p>
                     </div>
                     <div className="bg-white/60 p-6 border-l-4 border-accent shadow-sm">
-                      <p className="text-base md:text-lg italic mb-0">"Se você recusa a ajuda ou o cuidado oferecido, é interpretado como um <strong>ingrato.</strong>"</p>
+                      <p className="text-base md:text-lg italic mb-0">"Se você recusa a ajuda ou o cuidado oferecido, é interpretado como <strong>ingratidão</strong>. O mecanismo da <strong>culpa</strong> é usado para te fazer se sentir inferior."</p>
                     </div>
                   </div>
 
@@ -231,7 +231,7 @@ export default function Home() {
                     Para tentar sobreviver a esse ambiente onde a realidade é constantemente manipulada, a vítima geralmente desenvolve duas respostas: a <strong>Submissão</strong> (anular-se totalmente para evitar conflitos) ou a <strong>Resistência</strong> (tentar ser o extremo oposto de quem a machucou).
                   </p>
                   <p>
-                    Nos dois cenários, a sombra do outro continua a ditar as regras da sua vida, gerando um profundo sentimento de vazio por não saber mais quem você realmente é.
+                    Nos dois cenários, a sombra do outro continua a <strong>ditar as regras da sua vida</strong>, gerando um profundo sentimento de vazio por não saber mais quem você realmente é.
                   </p>
                 </div>
               </div>
@@ -247,30 +247,25 @@ export default function Home() {
                   <h3 className="pt-0 text-center mb-12">A fronteira entre a Defesa e o Transtorno</h3>
                   
                   <p className="max-w-3xl mx-auto text-center mb-12">
-                    A melhor forma de compreender a diferença entre quem possui o transtorno enraizado e quem apenas reproduz o comportamento narcisista é olhar para um fator crucial: <strong>a capacidade de sentir a própria dor</strong>.
+                    A melhor forma de compreender a diferença entre quem possui o transtorno enraizado e quem apenas reproduz o comportamento narcisista é olhar para um fator crucial: <strong>a capacidade de validar o outro</strong>.
                   </p>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-14">
                     <div className="bg-primary/5 p-8 rounded-xl border border-primary/10 shadow-sm hover:shadow-md transition-shadow">
                       <h4 className="text-xl font-display text-primary mb-4 font-semibold">O Narcisista Patológico</h4>
                       <p className="text-base md:text-lg leading-relaxed mb-0">
-                        Faz os outros sofrerem com a sua condição, mas ele mesmo não sofre. Vive protegido por uma realidade fantasiosa impenetrável onde a culpa nunca é dele. Por ser imune a esse desconforto, raramente busca terapia para mudar genuinamente (quando procura é para usar como validação social).
+                        Faz os outros sofrerem com a sua condição, mas ele mesmo não sofre. Vive protegido por uma realidade fantasiosa impenetrável onde a culpa nunca é dele. <strong>Todas suas interações deixam a outra pessoa se sentindo cansada e invalidada</strong>.
                       </p>
                     </div>
 
                     <div className="bg-accent/5 p-8 rounded-xl border border-accent/10 shadow-sm hover:shadow-md transition-shadow">
                       <h4 className="text-xl font-display text-accent mb-4 font-semibold">A Reprodução de Traços</h4>
                       <p className="text-base md:text-lg leading-relaxed mb-0">
-                        Qualquer pessoa pode reproduzir comportamentos narcisistas. A diferença é que o mecanismo de manipular a realidade não funciona sempre. Ela causa dor aos outros, mas também sofre muito. Assiste à ruína dos seus vínculos, sente a perda, mas sente-se perdida sobre como parar ou sobre como reconhecer até onde os erros são seus ou dos outros.
+                        Qualquer pessoa pode reproduzir comportamentos narcisistas. A diferença é que o mecanismo de manipular a realidade não funciona sempre. Ela causa dor aos outros, <strong>mas também sofre muito</strong>. Assiste à ruína dos seus vínculos, sente a perda, mas sente-se <strong>perdida</strong> sobre como reconhecer quais erros são sua responsabilidade.
                       </p>
                     </div>
                   </div>
 
-                  <div className="quote-block !my-12 !bg-white/50 shadow-sm">
-                    <p className="mb-0 text-lg md:text-xl italic">
-                      "Mesmo quando a pessoa não consegue acessar o remorso de forma consciente, o inconsciente cobra o seu preço através da autossabotagem, transformando conquistas legítimas em planos constantemente frustrados."
-                    </p>
-                  </div>
                 </div>
               </div>
             </div>
@@ -286,10 +281,13 @@ export default function Home() {
                     Muitas pessoas chegam ao consultório aterrorizadas pelas definições da internet, temendo ser "o monstro" das suas relações.
                   </p>
                   <p>
-                    A premissa clínica que alivia esse temor é direta: o fato de você questionar o impacto das suas ações e buscar terapia indica que a sua empatia está ativa, o que diminui as possibilidades do diagnóstico de Narcisismo Patológico. Isso não anula o fato de que defesas narcísicas mal resolvidas podem estar atrapalhando sua vida pessoal, mas demonstra existência de um caminho para a mudança.
+                    O fato de você questionar o impacto das suas ações e buscar terapia indica que a <strong>sua empatia está ativa</strong>, o que diminui as possibilidades do diagnóstico de Narcisismo Patológico. 
+                    <p>
+                      Isso não anula o fato de que defesas narcísicas mal resolvidas podem estar <strong>atrapalhando sua vida pessoal</strong>, mas demonstra existência de um caminho para a mudança.
+                      </p>
                   </p>
                   <p>
-                    O espaço clínico oferece um pré-diagnóstico estrutural. O nosso foco não é entregar rótulos frios, mas compreender por que você construiu essas defesas (ou por que se submeteu a elas) e como desconstruir esse ciclo de autossabotagem.
+                    O nosso foco não é entregar rótulos, mas compreender <strong>por que você construiu essas defesas</strong> e como elas afetam sua vida.
                   </p>
                 </div>
               </div>
@@ -311,7 +309,7 @@ export default function Home() {
                   <div className="relative w-48 h-48 md:w-full md:h-64 rounded-full md:rounded-xl overflow-hidden shadow-lg grayscale hover:grayscale-0 transition-all duration-500 border-4 border-white">
                     {/* INSTRUÇÃO: Substitua esta imagem por uma sua com aspecto mais maduro e sóbrio */}
                     <img 
-                      src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png" 
+                      src="jorge-background.png" 
                       alt="Jorge Dias - Psicoterapeuta Clínico" 
                       className="w-full h-full object-cover"
                     />
@@ -322,13 +320,17 @@ export default function Home() {
                 <div className="md:col-span-8 space-y-6">
                   <h4 className="text-2xl font-display text-primary mb-2">Jorge Dias</h4>
                   <p className="text-lg text-foreground/80 leading-relaxed mb-6">
-                    Psicoterapeuta Clínico com foco em dinâmicas de relacionamentos, dependência emocional e traços de personalidade. Ajudo pacientes a desconstruírem padrões de autossabotagem e a recuperarem a autonomia emocional.
+                    Psicoterapeuta Clínico com foco em Relacionamentos Narcisistas, dependência emocional e autossabotagem. 
+                    <p>
+                      Ajudo pessoas a descobrirem padrões Narcisistas em seus relacionamentos e recuperar a autonomia emocional.
                   </p>
+                  </p>
+
                   
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className="flex items-center gap-3 bg-white p-3 rounded-lg border border-border/50">
                       <GraduationCap className="text-accent" size={24} />
-                      <span className="text-sm font-semibold text-foreground/90">Graduado pela UEL</span>
+                      <span className="text-sm font-semibold text-foreground/90">Graduado em <strong>Psicologia</strong> pela Universidade Estadual de Londrina</span>
                     </div>
                     <div className="flex items-center gap-3 bg-white p-3 rounded-lg border border-border/50">
                       <Award className="text-accent" size={24} />
@@ -355,19 +357,13 @@ export default function Home() {
                 
                 {/* Coluna 1: Como funciona */}
                 <div className="space-y-8">
-                  <div>
-                    <h3 className="text-primary-foreground mb-4 text-3xl font-display">Inicie o seu processo</h3>
-                    <p className="text-primary-foreground/70 text-lg leading-relaxed">
-                      O processo clínico online é desenhado para ser um espaço seguro, ético e de extrema privacidade.
-                    </p>
-                  </div>
-                  
+                                    
                   <div className="space-y-6">
                     <div className="flex gap-4 items-start">
                       <div className="w-8 h-8 rounded-full bg-accent text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-1">1</div>
                       <div>
                         <h4 className="font-display font-semibold text-white text-lg mb-1">A Primeira Sessão</h4>
-                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">Um espaço livre de julgamentos morais. O objetivo é compreender a sua história de vida, relações e perspectivas.</p>
+                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">Um espaço livre de julgamentos morais. O objetivo é compreender a sua história de vida, relações e perspectivas, colocando <strong>você no centro do processo.</strong></p>
                       </div>
                     </div>
 
