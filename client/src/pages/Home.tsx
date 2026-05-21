@@ -342,13 +342,12 @@ export default function Home() {
                    
                     
                 </div>
-                <div className="bg-white/5 border border-white/10 p-10 md:p-16 mb-8 shadow-2xl">
+                
                 <span className="tag-value text-white/40 mb-8 block">
                 Valor da sessão: R$ 150
                 </span>
                   
-                </div>
-                
+                                
               </div>
             </div>
           </div>
