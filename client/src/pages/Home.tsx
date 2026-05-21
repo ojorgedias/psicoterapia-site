@@ -144,7 +144,7 @@ export default function Home() {
                 href="#dinamica" 
                 className="btn-high-ticket !bg-white !text-black hover:!bg-gray-200 lg:!bg-primary lg:!text-primary-foreground lg:hover:!bg-accent lg:hover:!text-primary shadow-2xl lg:shadow-none"
               >
-                Saber mais
+                Entenda a dinâmica
               </a>
             </motion.div>
             
