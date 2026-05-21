@@ -24,7 +24,12 @@ export default function Home() {
 
   const handleContactClick = (e: React.MouseEvent) => {
     e.preventDefault();
-    setLocation("/obrigado");
+    
+    const numeroWhatsApp = "SEUNUMERO"; // INSIRA SEU DDD E NÚMERO AQUI (Ex: 18999999999)
+    const mensagem = "Olá Jorge, gostaria de agendar uma sessão de psicoterapia.";
+    const linkWhatsApp = `https://wa.me/55${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
+    
+    window.open(linkWhatsApp, "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -98,17 +103,17 @@ export default function Home() {
               transition={{ duration: 0.8 }}
             >
               <span className="text-accent uppercase text-xs md:text-sm tracking-widest font-semibold mb-4 block">
-                Atendimento Especializado em Relações Amorosas e Familiares
+                Atendimento Especializado em Relações Narcisistas
               </span>
               <h1 className="font-display">
-                O peso simbólico do <br className="hidden md:block" />
-                <span className="italic">amor excessivo</span>
+                O esgotamento causado por <br className="hidden md:block" />
+                <span className="italic">Relações Narcisistas</span>
               </h1>
               <p className="text-lg md:text-xl text-accent font-serif leading-relaxed mb-10 max-w-xl">
-                Muitas vezes, o excesso de proteção e cuidado podem encobrir dinâmicas que <strong>reprimem o "Eu"</strong> e criam uma dívida emocional.
+                Muitas vezes, os comportamentos narcisistas são confundidos com <strong>Narcisismo Patológico</strong>. Entenda como funciona cada um deles.
               </p>
               <a href="#profissional" className="btn-high-ticket">
-                Saber Mais
+                Saiba Mais
               </a>
             </motion.div>
             
@@ -154,65 +159,67 @@ export default function Home() {
           <div className="section-padding">
             <div className="container">
               <div className="max-w-3xl mx-auto">
-                <span className="tag-value mb-4 block text-center">A dinâmica do narcisista "bonzinho"</span>
-                <h2 className="text-center mb-12">A cobrança indireta e o peso do amor</h2>
+                <span className="tag-value mb-4 block text-center">O Narcisista sempre quer "Sair Ganhando"</span>
+                <h2 className="text-center mb-12">Como funciona a mente do Narcisista Patológico</h2>
                 
                 <div className="manifesto-text space-y-6 md:space-y-8 text-base md:text-lg text-foreground/90 leading-relaxed">
                   <p>
-                    Estamos acostumados a entender o Narcisismo como <strong>doença</strong>, como se a pessoa patologicamente narcisista fosse alguém muito diferente do que é considerado normal.
+                    Temos o senso comum de ver o Narcisismo como uma <strong>doença</strong>, que traz a percepção do Narcisista como alguém egoísta, controlador e manipulador.
                   </p>
                   <p>
-                    Conhecemos a imagem do narcisista como alguém visivelmente manipulador, quase como um vilão caricato. É fácil notar e culpabilizar um indivíduo <strong>agressivo ou dominador.</strong>
+                    Se relacionar com pessoas assim geralmente causa marcas e cicatrizes profundas, mas nem sempre o <strong>comportamento narcisista</strong> (que todos podem reproduzir), é intenso ou perceptível como o <strong>Narcisista Patológico</strong>.
                   </p>
                   <p>
-                    No entanto, quando a pessoa ocupa o papel de quem <strong>cuida, acompanha e ajuda</strong> a outra, chamá-la de Narcisista traz um enorme peso de culpa.
-                  </p>
-                  <p>
-                    Relações onde uma das pessoas é colocada em evidência, seja por excesso de cuidado ou por excesso controle, mostram o <strong>lado altruísta</strong> do Comportamento Narcisista.
+                    Quando a pessoa ocupa o papel de quem <strong>cuida, acompanha e ajuda</strong> a outra, considerá-la Narcisista traz um enorme peso de culpa, mas a verdade é que comportamentos narcisistas são mais comuns do que imaginamos.
                   </p>
                   
                   <div className="py-12 border-y border-border/40 my-16 text-center">
                     <p className="text-2xl md:text-3xl font-display italic text-primary leading-snug mb-0 px-4">
-                      "O cuidado excessivo gera um sentimento de <span className="text-accent">dívida internalizada</span> que se transforma em culpa por existir."
+                      O maior receio do Narcisista Patológico é se sentir indesejado ou ignorado, por isso ele <span className="text-accent">deposita no outro</span> todos sentimentos que considera desconfortáveis.
                     </p>
                   </div>
+
                   <p>
-                    A atenção oferecida em excesso é como uma <strong>invasão bem intencionada</strong>, que coloca o Narcisista como peça central em qualquer relação, mesmo que a intenção seja fornecer ajuda ou cuidado ao outro. 
+                    Para manter o controle de sua realidade, ele navega entre dois extremos:
                   </p>
+                  
+                  <ul className="list-disc pl-6 space-y-4 mb-8">
+                    <li>
+                      <strong>O extremo egoísta:</strong> O controle é obtido invalidando diretamente os sentimentos do outro, distorcendo fatos e causando ataques diretos que diminuem e apagam a individualidade da vítima.
+                    </li>
+                    <li>
+                      <strong>O extremo altruísta:</strong> O controle vem ocupando o papel de quem cuida e ajuda em excesso. Uma <em>invasão bem intencionada</em> que cria uma dívida emocional e um estado profundo de Dependência Emocional.
+                    </li>
+                  </ul>
+
                   <p>
-                    Como compensação, o indivíduo que recebe o cuidado sente-se "preso" ao outro, em um estado de <strong>Dependência Emocional</strong>, que causa um apagamento progressivo da individualidade.
+                    É importante deixar claro que <strong>não são dois tipos de Narcisismo</strong>. O Narcisista age dessas duas formas para atingir o mesmo objetivo: Sentir que ele está em evidência e o outro está "apagado". É como transformar o outro em um objeto.
                   </p>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Sub-section 2: Como o Narcisista vê o mundo */}
+          {/* Sub-section 2: O comportamento Narcisista */}
           <div className="section-padding bg-[#ECEEEF] border-y border-border/30">
             <div className="container">
               <div className="max-w-3xl mx-auto">
                 <div className="manifesto-text space-y-6 md:space-y-8 text-base md:text-xl text-foreground/90 leading-relaxed">
-                  <h3 className="pt-0 text-center mb-10">Como o comportamento Narcisista se mantém?</h3>
+                  <h3 className="pt-0 text-center mb-10">Como funciona o Comportamento Narcisista</h3>
                   <p>
-                    Discutir e argumentar sobre essa culpa costuma ser inútil. Quem reproduz o comportamento narcisista possui um mecanismo ativo 24 horas por dia que convence a si mesmo de que a <strong>realidade é do jeito que ele quer que seja</strong>.
+                    Discutir e argumentar com o Narcisista é inútil. Ele possui em sua mente um mecanismo ativo 24 horas por dia que transforma qualquer sentimento desconfortável em um peso a ser transferido para o outro.
                   </p>
                   <p>
-                    Toda interação social é vista como uma <strong>comparação</strong>, onde uma das pessoas deve sair ganhando e a outra, perdendo. É como se ele visse a vida por um filtro que sempre o faz sentir que venceu.
-                  </p>
-                  
-                  <div className="quote-block !my-12 !bg-white/40">
-                    Seja como Vilão ou como Vítima, quem reproduz comportamento narcisista nunca carrega para si o peso da culpa. Ele é especialista em <strong>despejar esse peso no outro</strong> de forma cirúrgica.
-                  </div>
-
-                  <p>
-                    É importante ressaltar que o comportamento Narcisista pode ser reproduzido por <strong>qualquer pessoa</strong>, seja considerada Narcisista Patológico ou não.
-                  </p>
-                  <p>
-                    A mente de todos nós tem um mecanismo para lidar com os Sentimentos Desconfortáveis, mas em alguns casos, esse mecanismo <strong>manipula a realidade</strong> para proteger o Ego de qualquer frustração.
+                    A mente de todos nós tem mecanismos para lidar com a frustração, mas em alguns casos, esse mecanismo <strong>manipula a realidade</strong> para proteger o próprio Ego a qualquer custo.
                   </p>
                   
-                  <div className="quote-block !my-12 !bg-white/40">
-                    Se você impõe um limite, ele vê como <strong>ofensa.</strong> Se você rejeita a ajuda dele, ele te vê como <strong>ingrato</strong>.
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
+                    <div className="bg-white/60 p-6 border-l-4 border-primary shadow-sm">
+                      <p className="text-base italic mb-0">"Se você impõe um limite, ele vê como <strong>ofensa.</strong>"</p>
+                    </div>
+                    <div className="bg-white/60 p-6 border-l-4 border-accent shadow-sm">
+                      <p className="text-base italic mb-0">"Se você rejeita a ajuda dele, ele te vê como <strong>ingrato.</strong>"</p>
+                    </div>
                   </div>
 
                   <p>
@@ -223,76 +230,77 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Sub-section 3: Aceitação ou Resistência */}
+          {/* Sub-section 3: Patológico vs Comportamento (NOVO LAYOUT) */}
           <div className="section-padding">
             <div className="container">
               <div className="max-w-4xl mx-auto">
                 <div className="manifesto-text space-y-6 md:space-y-8 text-base md:text-lg text-foreground/90 leading-relaxed">
-                  <h3 className="pt-0 text-center mb-10">A repetição inconsciente do padrão</h3>
-                  <p className="max-w-3xl mx-auto">
-                    O hábito de validar essa realidade distorcida faz com que a dinâmica tóxica seja <strong>naturalizada.</strong> Mesmo quando a relação termina, ela deixa traumas e padrões que podem influenciar os <strong>relacionamentos atuais.</strong>
-                  </p>
-                  <p className="max-w-3xl mx-auto">
-                    Quando nossa vontade e autonomia são suprimidas, geralmente reagimos de duas formas:
-                  </p>
+                  <span className="tag-value mb-4 block text-center">O Divisor de Águas</span>
+                  <h3 className="pt-0 text-center mb-12">A diferença entre o Transtorno e o Comportamento</h3>
                   
-                  {/* NOVO LAYOUT LITER E AGRADÁVEL: Grid com Cards */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-14">
-                    <div className="bg-primary/5 p-8 rounded-xl border border-primary/10 shadow-sm hover:shadow-md transition-shadow">
-                      <h4 className="text-xl font-display text-primary mb-4 font-semibold">A Aceitação</h4>
-                      <p className="text-[15px] md:text-lg leading-relaxed mb-0">
-                        Muitas vezes, o indivíduo aprende a ser passivo, desprovido de vontade própria e focado em agradar o outro. Isso faz com que o próprio "Eu" se sinta suprimido e busque formas alternativas de se proteger, seja se diminuindo em excesso para buscar validação, seja reproduzindo sem perceber o cuidado excessivo que acaba invalidando uma terceira pessoa, manténdo a repetição de padrões.
+                  <p className="text-center mb-12 max-w-3xl mx-auto">
+                    A melhor forma de compreender a diferença entre quem possui o transtorno e quem apenas reproduz o comportamento narcisista é olhando para um fator crucial: <strong>o sofrimento</strong>.
+                  </p>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                    {/* Card Patológico */}
+                    <div className="bg-primary/5 p-8 rounded-xl border border-primary/20 shadow-sm hover:shadow-md transition-all">
+                      <h4 className="text-xl font-display text-primary mb-4 font-semibold">O Narcisista Patológico</h4>
+                      <p className="text-[15px] md:text-base leading-relaxed mb-0">
+                        O patológico faz os outros sofrerem com a sua condição, mas <strong>ele mesmo não sofre</strong>. Ele vive protegido por uma realidade fantasiosa onde a culpa nunca é dele. Por ser imune a esse desconforto, ele raramente busca terapia genuína para mudar.
                       </p>
                     </div>
 
-                    <div className="bg-accent/5 p-8 rounded-xl border border-accent/10 shadow-sm hover:shadow-md transition-shadow">
-                      <h4 className="text-xl font-display text-accent mb-4 font-semibold">A Resistência</h4>
-                      <p className="text-[15px] md:text-lg leading-relaxed mb-0">
-                        Quando o "Eu" não quer aceitar a culpa imposta, ele busca se tornar uma pessoa totalmente <strong>oposta</strong>ao outro. Se foi sufocado por regras, acaba criando os filhos <strong>"soltos demais"</strong>, se foi muito invalidado, acaba validando excessivamente os filhos, fazendo com que tenham dificuldade em <strong>lidar com a frustração</strong>. Viver tentando ser o "oposto" significa que a imagem do outro <strong>ainda dita as suas regras</strong>.
+                    {/* Card Comportamento */}
+                    <div className="bg-accent/5 p-8 rounded-xl border border-accent/20 shadow-sm hover:shadow-md transition-all">
+                      <h4 className="text-xl font-display text-accent mb-4 font-semibold">O Comportamento Narcisista</h4>
+                      <p className="text-[15px] md:text-base leading-relaxed mb-0">
+                        Qualquer pessoa pode reproduzir traços narcisistas. A diferença é que a sua "blindagem" falha. Ela causa dor aos outros, mas <strong>também sofre muito</strong>. Ela vê seus relacionamentos ruírem, sente a perda, mas se sente perdida sobre quem culpabilizar.
                       </p>
                     </div>
                   </div>
 
-                  <p className="mt-10 max-w-3xl mx-auto">
-                    Seja aceitando ou rejeitando a invasão, o saldo acaba sendo o mesmo: O sentimento de vazio por <strong>não conhecer a si mesmo</strong>. 
-                    O espaço mental que deveria abrigar o seu desejo e sua forma de ver o mundo continua sendo ocupado pelo outro.
-                  </p>
-
-                  <div className="py-12 border-y border-border/40 my-16 text-center max-w-3xl mx-auto">
-                    <p className="text-xl md:text-2xl font-display italic text-primary leading-snug mb-0 px-4">
-                      "Escapar dessa lógica exige limpar o espaço mental ocupado pelo outro, protegendo suas próprias relações atuais da repetição de ciclos."
-                    </p>
-                  </div>
-
-                  <p className="max-w-3xl mx-auto">
-                    Tentar superar através do confronto direto é um erro comum. Quem reproduz o comportamento Narcisista sabe exatamente <strong>quais botões apertar</strong> para inverter a situação e fazer você carregar sozinho o desconforto e a culpa.
-                  </p>
-                  <p className="max-w-3xl mx-auto">
-                    O indivíduo que reproduz o Comportamento Narcisista geralmente oscila entre o extremo do Egoismo e do Altruismo. Ele pode mudar rapidamente a postura de "vilão" para "bonzinho" ou vice-versa. É essa inconstância que confunde a cabeça do outro e <strong>diminui suas defesas</strong>.
-                  </p>
-                  <p className="max-w-3xl mx-auto">
-                    O caminho clínico é identificar como você lidou com a tentativa de invalidação, suportar e entender o <strong>vazio</strong> que fica após a retirada do conteúdo que não é seu e iniciar o processo de autoconhecimento para <strong>preencher-se de si mesmo.</strong>
-                  </p>
-                </div>
-
-                {/* Grid A Psicoterapia para Vítimas ajustado dentro da Section 4 */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-20 pt-10 border-t border-border/30 max-w-3xl mx-auto">
-                  <div className="space-y-6">
-                    <h3 className="mt-0 text-accent uppercase text-xs tracking-[0.2em] font-semibold">Psicoterapia como ferramenta de mudança</h3>
-                    <p className="text-lg leading-relaxed text-foreground/80">
-                      Focamos em criar um espaço ético e livre de julgamentos, onde investigaremos a sua história de vida e percepções de mundo, colocando <strong>você como centro do processo</strong>.
-                    </p>
-                  </div>
-                  <div className="space-y-1">
-                    <p className="text-lg leading-relaxed pt-0 md:pt-10 text-foreground/80">
-                      O objetivo é compreender como os <strong>traumas e inseguranças</strong> vividos em relacionamentos anteriores (amorosos ou familiares) podem estar influenciando seus <strong>relacionamentos atuais</strong>.
+                  <div className="quote-block !my-12 !bg-secondary/30 !border-l-4 !border-primary">
+                    <p className="mb-0 text-lg">
+                      Mesmo que a pessoa não acesse a culpa ou o remorso conscientemente, o seu inconsciente a "pune". O resultado mais frequente é a <strong>autossabotagem constante e os planos frustrados</strong>.
                     </p>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
+
+          {/* Sub-section 4: A dúvida e o CTA (NOVO LAYOUT) */}
+          <div className="section-padding bg-secondary/10 border-t border-border/30">
+            <div className="container">
+              <div className="max-w-3xl mx-auto text-center">
+                <h3 className="mb-8">"Será que o Narcisista sou eu?"</h3>
+                
+                <div className="space-y-6 text-base md:text-lg text-foreground/80 leading-relaxed text-left">
+                  <p>
+                    É muito comum que as pessoas cheguem à terapia aterrorizadas com a possibilidade de serem "o monstro" da relação. 
+                  </p>
+                  <p>
+                    A premissa clínica é simples: o simples fato de você estar buscando terapia, refletindo sobre suas atitudes e se preocupando com o impacto delas no outro já indica que <strong>você não é um narcisista patológico.</strong>
+                  </p>
+                  <p>
+                    Isso não anula o fato de que características narcisistas mal resolvidas podem estar destruindo sua vida pessoal.
+                  </p>
+
+                  <div className="bg-white p-8 border border-border/50 rounded-lg shadow-sm mt-10">
+                    <h4 className="text-lg font-display text-primary mb-4">O papel da Avaliação Clínica</h4>
+                    <p className="text-sm md:text-base mb-4">
+                      O atendimento clínico oferece um <strong>pré-diagnóstico</strong> essencial sobre os seus traços narcisistas. Isso por si só já traz um imenso alívio e clareza sobre como parar de se autossabotar.
+                    </p>
+                    <p className="text-xs text-foreground/60 italic mb-0">
+                      *Nota: O diagnóstico clínico exato de Transtorno de Personalidade é um processo médico e psicológico especializado. O foco da nossa psicoterapia é acolher a sua dor, desconstruir a culpa e resgatar vínculos saudáveis.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </section>
 
         {/* SECTION 5: Atendimento Global */}
