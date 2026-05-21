@@ -102,48 +102,68 @@ export default function Home() {
       </AnimatePresence>
 
       <main>
-        {/* SECTION 2: Hero */}
-        <section className="min-h-[85vh] flex items-center pt-16 bg-background">
-          <div className="container grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        {/* SECTION 2: Hero (Layout Capa de Revista no Mobile) */}
+        <section className="relative min-h-[90svh] lg:min-h-[85vh] flex items-end lg:items-center pb-16 pt-32 lg:pt-16 lg:pb-0 bg-background overflow-hidden">
+          
+          {/* 1. IMAGEM DE FUNDO: Aparece APENAS no Mobile */}
+          <div className="absolute inset-0 z-0 lg:hidden">
+            <img
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png"
+              alt="Jorge Dias - Psicoterapeuta"
+              className="w-full h-full object-cover object-top grayscale"
+            />
+            {/* Película escura para garantir leitura perfeita do texto branco */}
+            <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black/90"></div>
+          </div>
+
+          <div className="container relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            
+            {/* 2. TEXTO E BOTÃO */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <span className="text-accent uppercase text-xs md:text-sm tracking-widest font-semibold mb-4 block">
+              {/* No mobile: texto branco/translúcido. No PC: cores originais */}
+              <span className="text-white/80 lg:text-accent uppercase text-xs md:text-sm tracking-widest font-semibold mb-4 block">
                 Atendimento Clínico Especializado em Narcisismo
               </span>
-              <h1 className="font-display">
+              
+              <h1 className="font-display text-white lg:text-foreground mb-6 lg:mb-4">
                 O esgotamento causado por <br className="hidden md:block" />
                 <span className="italic">Relações Narcisistas</span>
               </h1>
-              <p className="text-lg md:text-xl text-accent font-serif leading-relaxed mb-10 max-w-xl">
-                O Narcisista nem sempre tem a face de um vilão agressivo. Muitas vezes, esconde-se por trás de um cuidado excessivo que sufoca e cria uma dívida emocional.
+              
+              <p className="text-lg md:text-xl text-white/90 lg:text-accent font-serif leading-relaxed mb-10 max-w-xl">
+                O abuso nem sempre tem a face de um vilão agressivo. Muitas vezes, esconde-se por trás de um cuidado excessivo que sufoca e cria uma dívida emocional.
               </p>
-              <a href="#dinamica" className="btn-high-ticket">
+              
+              {/* Botão adaptado: Branco no mobile para destacar no fundo escuro */}
+              <a 
+                href="#dinamica" 
+                className="btn-high-ticket !bg-white !text-black hover:!bg-gray-200 lg:!bg-primary lg:!text-primary-foreground lg:hover:!bg-accent lg:hover:!text-primary shadow-2xl lg:shadow-none"
+              >
                 Compreender a dinâmica
               </a>
             </motion.div>
             
+            {/* 3. IMAGEM LATERAL: Aparece APENAS no Desktop */}
             <motion.div
               initial={{ opacity: 0, scale: 0.98 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 1, delay: 0.2 }}
-              /* A MÁGICA DO RESPONSIVO AQUI:
-                 Mobile: w-56 h-56 (tamanho fixo menor) + rounded-full (círculo) + mt-8 (espaço do botão)
-                 Desktop (lg): w-full aspect-[4/5] (retângulo preenchendo a coluna) + rounded-none (cantos retos)
-              */
-              className="relative w-56 h-56 md:w-64 md:h-64 lg:w-full lg:h-auto lg:aspect-[4/5] mx-auto lg:mx-0 rounded-full lg:rounded-none overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl mt-8 lg:mt-0 border-4 border-background lg:border-none"
+              className="hidden lg:block relative aspect-[4/5] max-w-md mx-auto lg:mx-0 bg-secondary overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl"
             >
               <img
                 src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png"
-                alt="Jorge Dias - Psicoterapeuta Clínico"
-                className="w-full h-full object-cover object-top"
+                alt="Jorge Dias - Psicoterapeuta"
+                className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-primary/5 rounded-full lg:rounded-none"></div>
+              <div className="absolute inset-0 bg-primary/5"></div>
             </motion.div>
+
           </div>
         </section>
 
