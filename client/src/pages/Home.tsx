@@ -338,7 +338,11 @@ export default function Home() {
                 >
                   Entre em contato
                 </button>
-                <div className="text-1lg md:text-lg font-display mb-8 italic">
+                <div>
+                   
+                    
+                </div>
+                <div className="bg-white/5 border border-white/10 p-10 md:p-16 mb-8 shadow-2xl">
                   Valor da sessão: R$ 150
                 </div>
                 
