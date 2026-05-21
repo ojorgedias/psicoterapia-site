@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "wouter";
-import { Menu, X, MessageCircle } from "lucide-react";
+import { Menu, X, MessageCircle, Award, Clock, GraduationCap } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Home() {
@@ -31,8 +31,8 @@ export default function Home() {
   }, []);
 
   const navLinks = [
-    { name: "O Profissional", href: "#profissional" },
     { name: "A Dinâmica", href: "#dinamica" },
+    { name: "O Profissional", href: "#profissional" },
     { name: "A Clínica", href: "#clinica" },
   ];
 
@@ -121,8 +121,8 @@ export default function Home() {
               <p className="text-lg md:text-xl text-accent font-serif leading-relaxed mb-10 max-w-xl">
                 O abuso nem sempre tem a face de um vilão agressivo. Muitas vezes, esconde-se por trás de um cuidado excessivo que sufoca e cria uma dívida emocional.
               </p>
-              <a href="#profissional" className="btn-high-ticket">
-                Saber Mais
+              <a href="#dinamica" className="btn-high-ticket">
+                Compreender a dinâmica
               </a>
             </motion.div>
             
@@ -143,25 +143,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* SECTION 3: O Profissional */}
-        <section id="profissional" className="section-padding bg-secondary/40">
-          <div className="container">
-            <div className="max-w-4xl mx-auto">
-              <motion.div 
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                className="quote-block !border-l-2 !bg-white/50 !pl-10 !py-8 !my-0 shadow-sm"
-              >
-                <p className="text-xl md:text-2xl italic font-serif text-primary leading-relaxed mb-0">
-                  "Meu nome é Jorge Dias, sou psicoterapeuta clínico formado em <strong>Psicologia</strong> pela <strong>Universidade Estadual de Londrina.</strong> Ao longo de mais de 3.000 horas de prática clínica, compreendi que o comportamento Narcisista vai <strong>muito além do Rótulo."</strong>
-                </p>
-              </motion.div>
-            </div>
-          </div>
-        </section>
-
-        {/* SECTION 4: O Manifesto (A Dinâmica) */}
+        {/* SECTION 3: O Manifesto (A Dinâmica) */}
         <section id="dinamica" className="bg-white">
           
           {/* Sub-section 1: As duas faces */}
@@ -280,7 +262,7 @@ export default function Home() {
                     Muitas pessoas chegam ao consultório aterrorizadas pelas definições da internet, temendo ser "o monstro" das suas relações.
                   </p>
                   <p>
-                    A premissa clínica que alivia esse temor é direta: o fato de você questionar o impacto das suas ações e buscar terapia indica que a sua empatia está ativa, o que diminui as possibilidades do diagnóstico de Narcisismo Patológico. Isso não anula o fato de que defesas narcísicas mal resolvidas podem estar atraphando sua vida pessoal, mas demonstra existência de um caminho para a mudança.
+                    A premissa clínica que alivia esse temor é direta: o fato de você questionar o impacto das suas ações e buscar terapia indica que a sua empatia está ativa, o que diminui as possibilidades do diagnóstico de Narcisismo Patológico. Isso não anula o fato de que defesas narcísicas mal resolvidas podem estar atrapalhando sua vida pessoal, mas demonstra existência de um caminho para a mudança.
                   </p>
                   <p>
                     O espaço clínico oferece um pré-diagnóstico estrutural. O nosso foco não é entregar rótulos frios, mas compreender por que você construiu essas defesas (ou por que se submeteu a elas) e como desconstruir esse ciclo de autossabotagem.
@@ -289,65 +271,114 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </section>
 
-          {/* Sub-section 5: Como funciona o atendimento (REDUÇÃO DE ANSIEDADE) */}
-          <div className="section-padding bg-white" id="clinica">
-            <div className="container">
-              <div className="max-w-3xl mx-auto">
-                <span className="tag-value mb-4 block text-center">O Primeiro Passo</span>
-                <h3 className="text-center mb-12">Como funciona o atendimento clínico?</h3>
+        {/* SECTION 4: O Profissional (NOVO CARD DE AUTORIDADE) */}
+        <section id="profissional" className="section-padding bg-white">
+          <div className="container">
+            <div className="max-w-4xl mx-auto">
+              <span className="tag-value mb-4 block text-center">Sobre o Profissional</span>
+              <h3 className="text-center mb-12">Quem conduzirá o seu processo</h3>
+              
+              <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center bg-secondary/20 p-8 md:p-12 rounded-2xl border border-border/40 shadow-sm">
                 
-                <div className="space-y-8 text-base md:text-lg text-foreground/80 leading-relaxed">
+                {/* Imagem de Autoridade */}
+                <div className="md:col-span-4 flex justify-center">
+                  <div className="relative w-48 h-48 md:w-full md:h-64 rounded-full md:rounded-xl overflow-hidden shadow-lg grayscale hover:grayscale-0 transition-all duration-500 border-4 border-white">
+                    {/* INSTRUÇÃO: Substitua esta imagem por uma sua com aspecto mais maduro e sóbrio */}
+                    <img 
+                      src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png" 
+                      alt="Jorge Dias - Psicoterapeuta Clínico" 
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+
+                {/* Credenciais e Texto */}
+                <div className="md:col-span-8 space-y-6">
+                  <h4 className="text-2xl font-display text-primary mb-2">Jorge Dias</h4>
+                  <p className="text-lg text-foreground/80 leading-relaxed mb-6">
+                    Psicoterapeuta Clínico com foco em dinâmicas de relacionamentos, dependência emocional e traços de personalidade. Ajudo pacientes a desconstruírem padrões de autossabotagem e a recuperarem a autonomia emocional.
+                  </p>
+                  
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div className="flex items-center gap-3 bg-white p-3 rounded-lg border border-border/50">
+                      <GraduationCap className="text-accent" size={24} />
+                      <span className="text-sm font-semibold text-foreground/90">Graduado pela UEL</span>
+                    </div>
+                    <div className="flex items-center gap-3 bg-white p-3 rounded-lg border border-border/50">
+                      <Award className="text-accent" size={24} />
+                      <span className="text-sm font-semibold text-foreground/90">Especialista em Narcisismo</span>
+                    </div>
+                    <div className="flex items-center gap-3 bg-white p-3 rounded-lg border border-border/50 sm:col-span-2">
+                      <Clock className="text-accent" size={24} />
+                      <span className="text-sm font-semibold text-foreground/90">+3.000 horas de atendimento clínico</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* SECTION 5: Estrutura do Atendimento e CTA Final */}
+        <section className="section-padding bg-primary text-primary-foreground" id="clinica">
+          <div className="container">
+            <div className="max-w-4xl mx-auto">
+              
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center bg-white/5 border border-white/10 p-10 md:p-14 shadow-2xl rounded-2xl">
+                
+                {/* Coluna 1: Como funciona */}
+                <div className="space-y-8">
+                  <div>
+                    <h3 className="text-primary-foreground mb-4 text-3xl font-display">Inicie o seu processo</h3>
+                    <p className="text-primary-foreground/70 text-lg leading-relaxed">
+                      O processo clínico online é desenhado para ser um espaço seguro, ético e de extrema privacidade.
+                    </p>
+                  </div>
+                  
                   <div className="space-y-6">
                     <div className="flex gap-4 items-start">
-                      <div className="w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold text-sm shrink-0 mt-1">1</div>
+                      <div className="w-8 h-8 rounded-full bg-accent text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-1">1</div>
                       <div>
-                        <h4 className="font-display font-semibold text-primary text-lg mb-1">A Primeira Sessão</h4>
-                        <p className="text-sm md:text-base text-foreground/70">Um espaço livre de julgamentos morais. O objetivo da primeira sessão é te conhecer e compreender sua história de vida e suas relações, entender suas visões de mundo, perspectivas e objetivos dentro do processo terapeutico.</p>
+                        <h4 className="font-display font-semibold text-white text-lg mb-1">A Primeira Sessão</h4>
+                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">Um espaço livre de julgamentos morais. O objetivo é compreender a sua história de vida, relações e perspectivas.</p>
                       </div>
                     </div>
 
                     <div className="flex gap-4 items-start">
-                      <div className="w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold text-sm shrink-0 mt-1">2</div>
+                      <div className="w-8 h-8 rounded-full bg-accent text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-1">2</div>
                       <div>
-                        <h4 className="font-display font-semibold text-primary text-lg mb-1">Dinâmica do tratamento</h4>
-                        <p className="text-sm md:text-base text-foreground/70">As sessões ocorrem semanalmente (50 minutos), conduzidas online via Google Meet, com total sigilo. Respeitamos o tempo do seu inconsciente para resgatar a sua autonomia.</p>
+                        <h4 className="font-display font-semibold text-white text-lg mb-1">A Dinâmica</h4>
+                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">Sessões semanais (50 minutos), conduzidas online via Google Meet, com total sigilo. Respeitando o tempo do seu inconsciente.</p>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
 
-        </section>
-
-        {/* SECTION 5: Atendimento Global */}
-        <section className="section-padding bg-primary text-primary-foreground">
-          <div className="container text-center">
-            <div className="max-w-2xl mx-auto">
-              <h2 className="text-primary-foreground mb-10">Inicie seu processo de psicoterapia</h2>
-              
-              <div className="bg-white/5 border border-white/10 p-10 md:p-16 mb-8 shadow-2xl">
-                <span className="tag-value text-white/40 mb-8 block">
-                  Gostaria de saber mais sobre o atendimento?
-                </span>
-                <button
-                  onClick={handleContactClick}
-                  className="btn-high-ticket bg-white text-primary hover:bg-secondary px-12 py-6 text-xs"
-                >
-                  Entre em contato
-                </button>
-                <div>
-                   ­
-                    ­
-                </div>
-                
-                <span className="tag-value text-white/40 mb-8 block">
-                Valor da sessão: R$ 150
-                </span>
+                {/* Coluna 2: Preço e Botão */}
+                <div className="bg-white rounded-xl p-8 text-center flex flex-col items-center justify-center h-full shadow-xl">
+                  <span className="uppercase tracking-widest text-xs font-bold text-foreground/50 mb-4 block">
+                    Atendimento Online
+                  </span>
                   
-                                
+                  <div className="text-5xl font-display text-primary mb-2 font-bold">
+                    <span className="text-2xl align-top mr-1 font-normal text-foreground/60">R$</span>150
+                  </div>
+                  <span className="text-sm text-foreground/60 mb-8 block">por sessão semanal</span>
+                  
+                  <button
+                    onClick={handleContactClick}
+                    className="w-full bg-primary text-primary-foreground hover:bg-accent hover:text-primary transition-colors duration-300 py-4 px-6 rounded-md font-semibold text-sm uppercase tracking-wider mb-4"
+                  >
+                    Consultar Disponibilidade
+                  </button>
+                  <p className="text-xs text-foreground/50 italic mb-0">
+                    Agendamento direto e seguro via WhatsApp.
+                  </p>
+                </div>
+
               </div>
             </div>
           </div>
