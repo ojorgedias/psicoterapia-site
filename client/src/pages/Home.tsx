@@ -336,9 +336,9 @@ export default function Home() {
                   onClick={handleContactClick}
                   className="btn-high-ticket bg-white text-primary hover:bg-secondary px-12 py-6 text-xs"
                 >
-                  Entre em contato para saber mais
+                  Entre em contato
                 </button>
-                <div className="text-1lg md:text-xl font-display mb-12 italic">
+                <div className="text-1lg md:text-lg font-display mb-8 italic">
                   Valor da sessão: R$ 150
                 </div>
                 
