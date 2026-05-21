@@ -330,17 +330,18 @@ export default function Home() {
               
               <div className="bg-white/5 border border-white/10 p-10 md:p-16 mb-8 shadow-2xl">
                 <span className="tag-value text-white/40 mb-8 block">
-                  Sessões individuais Online
+                  Gostaria de saber mais sobre o atendimento?
                 </span>
-                <div className="text-1xl md:text-xl font-display mb-12 italic">
-                  Valor da sessão: R$ 150
-                </div>
                 <button
                   onClick={handleContactClick}
                   className="btn-high-ticket bg-white text-primary hover:bg-secondary px-12 py-6 text-xs"
                 >
-                  Agendar Sessão via WhatsApp
+                  Entre em contato para saber mais
                 </button>
+                <div className="text-1lg md:text-xl font-display mb-12 italic">
+                  Valor da sessão: R$ 150
+                </div>
+                
               </div>
             </div>
           </div>
