@@ -108,7 +108,7 @@ export default function Home() {
           {/* 1. IMAGEM DE FUNDO: Aparece APENAS no Mobile */}
           <div className="absolute inset-0 z-0 lg:hidden">
             <img
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png"
+              src="jorge-background.png"
               alt="Jorge Dias - Psicoterapeuta"
               className="w-full h-full object-cover object-top grayscale"
             />
@@ -157,7 +157,7 @@ export default function Home() {
               className="hidden lg:block relative aspect-[4/5] max-w-md mx-auto lg:mx-0 bg-secondary overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl"
             >
               <img
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png"
+                src="jorge-background.png"
                 alt="Jorge Dias - Psicoterapeuta"
                 className="w-full h-full object-cover"
               />
