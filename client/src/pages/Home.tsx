@@ -332,7 +332,7 @@ export default function Home() {
                 <span className="tag-value text-white/40 mb-8 block">
                   Sessões individuais Online
                 </span>
-                <div className="text-1xl md:text-2xl font-display mb-12 italic">
+                <div className="text-1xl md:text-xl font-display mb-12 italic">
                   Valor da sessão: R$ 150
                 </div>
                 <button
