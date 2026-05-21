@@ -10,7 +10,7 @@ export default function Home() {
 
   useEffect(() => {
     // Atualização dinâmica de Meta Tags para otimização de CPC no Google Ads
-    document.title = "Jorge Dias — Psicólogo e Terapeuta Especialista em Narcisismo";
+    document.title = "Jorge Dias — Psicoterapeuta Especialista em Narcisismo";
     
     let metaDesc = document.querySelector('meta[name="description"]');
     if (!metaDesc) {
@@ -119,7 +119,7 @@ export default function Home() {
                 <span className="italic">Relações Narcisistas</span>
               </h1>
               <p className="text-lg md:text-xl text-accent font-serif leading-relaxed mb-10 max-w-xl">
-                O abuso nem sempre tem a face de um vilão agressivo. Muitas vezes, esconde-se por trás de um cuidado excessivo que sufoca e cria uma dívida emocional.
+                O Narcisista nem sempre tem a face de um vilão agressivo. Muitas vezes, esconde-se por trás de um cuidado excessivo que sufoca e cria uma dívida emocional.
               </p>
               <a href="#dinamica" className="btn-high-ticket">
                 Compreender a dinâmica
@@ -131,14 +131,18 @@ export default function Home() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 1, delay: 0.2 }}
-              className="relative aspect-[4/5] max-w-md mx-auto lg:mx-0 bg-secondary overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl"
+              /* A MÁGICA DO RESPONSIVO AQUI:
+                 Mobile: w-56 h-56 (tamanho fixo menor) + rounded-full (círculo) + mt-8 (espaço do botão)
+                 Desktop (lg): w-full aspect-[4/5] (retângulo preenchendo a coluna) + rounded-none (cantos retos)
+              */
+              className="relative w-56 h-56 md:w-64 md:h-64 lg:w-full lg:h-auto lg:aspect-[4/5] mx-auto lg:mx-0 rounded-full lg:rounded-none overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl mt-8 lg:mt-0 border-4 border-background lg:border-none"
             >
               <img
                 src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028909256/AGWHGezmmLvubdcQ.png"
-                alt="Jorge Dias"
-                className="w-full h-full object-cover"
+                alt="Jorge Dias - Psicoterapeuta Clínico"
+                className="w-full h-full object-cover object-top"
               />
-              <div className="absolute inset-0 bg-primary/5"></div>
+              <div className="absolute inset-0 bg-primary/5 rounded-full lg:rounded-none"></div>
             </motion.div>
           </div>
         </section>
