@@ -306,7 +306,7 @@ export default function Home() {
                 
                 {/* Imagem de Autoridade */}
                 <div className="md:col-span-4 flex justify-center">
-                  <div className="relative w-48 h-48 md:w-full md:h-64 rounded-full md:rounded-xl overflow-hidden shadow-lg grayscale hover:grayscale-0 transition-all duration-500 border-4 border-white">
+                  <div className="relative w-48 h-48 md:w-full md:h-64 rounded-full md:rounded-xl overflow-hidden shadow-lg transition-all duration-500 border-4 border-white">
                     {/* INSTRUÇÃO: Substitua esta imagem por uma sua com aspecto mais maduro e sóbrio */}
                     <img 
                       src="jorge-background.png" 
