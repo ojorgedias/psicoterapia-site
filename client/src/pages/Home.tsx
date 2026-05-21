@@ -20,7 +20,7 @@ export default function Home() {
     }
     metaDesc.setAttribute(
       'content', 
-      'Atendimento clínico com Jorge Dias, psicólogo especialista em narcisismo e terapeuta especialista em narcisismo. Tratamento focado no acolhimento de traços relacionais, dependência emocional e autossabotagem.'
+      'Atendimento clínico com Jorge Dias, psicoterapeuta especialista em narcisismo. Tratamento focado no acolhimento de traços relacionais, dependência emocional e autossabotagem.'
     );
 
     const handleScroll = () => {
@@ -330,7 +330,7 @@ export default function Home() {
               
               <div className="bg-white/5 border border-white/10 p-10 md:p-16 mb-8 shadow-2xl">
                 <span className="tag-value text-white/40 mb-8 block">
-                  Sessões individuais online via Google Meet
+                  Sessões individuais Online
                 </span>
                 <div className="text-1xl md:text-2xl font-display mb-12 italic">
                   Valor da sessão: R$ 150
