@@ -15,7 +15,7 @@ if (typeof document !== 'undefined') {
   document.title = 'Jorge Dias | Psicoterapia e Psicanálise';
   const metaDescription = document.querySelector('meta[name="description"]');
   if (metaDescription) {
-    metaDescription.setAttribute('content', 'Psicoterapia e Psicanálise de alto padrão com Jorge Dias. Atendimento online para brasileiros no exterior focado em dinâmicas familiares e autoconhecimento profundo.');
+    metaDescription.setAttribute('content', 'Psicoterapia e Psicanálise com Jorge Dias. Atendimento Online focado em dinâmicas Narcisistas e autoconhecimento profundo.');
   }
 }
 
