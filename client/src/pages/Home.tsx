@@ -108,8 +108,10 @@ export default function Home() {
           {/* 1. IMAGEM DE FUNDO: Aparece APENAS no Mobile */}
           <div className="absolute inset-0 z-0 lg:hidden">
             <img
-              src="jorge-background.png"
+              src="jorge-background.webp"
               alt="Jorge Dias - Psicoterapeuta"
+              fetchpriority="high" 
+              decoding="sync" 
               className="w-full h-full object-cover object-top grayscale"
             />
             {/* Película escura para garantir leitura perfeita do texto branco */}
@@ -157,8 +159,10 @@ export default function Home() {
               className="hidden lg:block relative aspect-[4/5] max-w-md mx-auto lg:mx-0 bg-secondary overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl"
             >
               <img
-                src="jorge-background.png"
+                src="jorge-background.webp"
                 alt="Jorge Dias - Psicoterapeuta"
+                fetchpriority="high" 
+                decoding="sync" 
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-primary/5"></div>
@@ -309,8 +313,10 @@ export default function Home() {
                   <div className="relative w-48 h-48 md:w-full md:h-64 rounded-full md:rounded-xl overflow-hidden shadow-lg transition-all duration-500 border-4 border-white">
                     {/* INSTRUÇÃO: Substitua esta imagem por uma sua com aspecto mais maduro e sóbrio */}
                     <img 
-                      src="jorge-background.png" 
-                      alt="Jorge Dias - Psicoterapeuta Clínico" 
+                      src="jorge-background.webp" 
+                      alt="Jorge Dias - Psicoterapeuta Clínico"
+                      fetchpriority="high" 
+                      decoding="sync" 
                       className="w-full h-full object-cover"
                     />
                   </div>
