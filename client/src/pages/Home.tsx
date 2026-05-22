@@ -222,6 +222,14 @@ export default function Home() {
               </div>
             </div>
           </div>
+           <div className="text-center pt-8">
+                    <a 
+                      href="#clinica" 
+                      className="inline-flex items-center text-primary hover:text-accent font-serif tracking-wide text-lg md:text-xl underline underline-offset-4 transition-colors group"
+                    >
+                      Precisa de ajuda para sair desse ciclo? Fale comigo <span className="ml-2 transition-transform group-hover:translate-x-1">➔</span>
+                    </a>
+                  </div>
 
           {/* Sub-section 2: A exaustão da realidade distorcida */}
           <div className="section-padding bg-[#ECEEEF] border-y border-border/30">
@@ -253,15 +261,7 @@ export default function Home() {
                   </p>
 
                   {/* PRIMEIRO CTA INTERMEDIÁRIO (Captura de impulso por link elegante) */}
-                  <div className="text-center pt-8">
-                    <a 
-                      href="#clinica" 
-                      className="inline-flex items-center text-primary hover:text-accent font-serif tracking-wide text-lg md:text-xl underline underline-offset-4 transition-colors group"
-                    >
-                      Precisa de ajuda para sair desse ciclo? Fale comigo <span className="ml-2 transition-transform group-hover:translate-x-1">➔</span>
-                    </a>
-                  </div>
-
+                 
                 </div>
               </div>
             </div>
@@ -298,7 +298,7 @@ export default function Home() {
                   {/* SEGUNDO CTA INTERMEDIÁRIO (Botão destacado após a quebra do Divisor) */}
                   <div className="text-center pb-6">
                     <a href="#clinica" className="btn-high-ticket inline-block">
-                      Dê o primeiro passo para resgatar sua autonomia
+                      Consultar Disponibilidade
                     </a>
                   </div>
 
