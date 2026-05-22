@@ -334,7 +334,6 @@ export default function Home() {
                       </p>
                     </div>
                   </details>
-                  
                   <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
                     <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
                       <span>"Posso estar reproduzindo comportamentos Narcisistas?"</span>
@@ -349,20 +348,30 @@ export default function Home() {
                         Não significa necessariamente apenas "não querer ficar sozinho". Na prática, dependência emocional é uma dificuldade em lidar com aspectos da vida da outra pessa que <strong>não envolvam você</strong>.
                       </p>
                       <p>
-                        Por exemplo: "Não gosto do trabalho atual do meu companheiro". Muitas vezes esse "não gostar" significa perceber que a pessoa se interessa e <strong>investe muita energia no trabalho</strong>, o que faz você se sentir ameaçado.
+                        Por exemplo: <em>"Não gosto do trabalho atual do meu companheiro"</em>. Muitas vezes esse "não gostar" significa perceber que a pessoa se interessa e <strong>investe muita energia no trabalho</strong>, o que faz você se sentir ameaçado.
                       </p>
                       <p>
-                        Nessas situações, quem reproduz comportamento Narcisista pode ter crises de ciumes, brigas, etc. Isso demonstra que a pessoa <strong>sente ativamente</strong> o desconforto causado pela <strong>dependência emocional</strong> e sofre, ao mesmo tempo que faz o outro sofrer.
+                        Nessas situações, quem reproduz comportamento Narcisista pode brigar, ter crises de ciumes, reclamar de coisas que envolvam o trabalho do companheiro, etc.
+                        </p> 
+                        <p>
+                          Isso demonstra que a pessoa <strong>sente ativamente</strong> o desconforto causado pela <strong>dependência emocional</strong> e sofre, ao mesmo tempo que faz o outro sofrer.
+                          </p>
                         <p>
                           O Narcisista Patológico, por outro lado, tem um mecanismo que evita desconforto de se sentir rejeitado, por isso reproduz comportamentos semelhantes, mas <strong>quem sofre é sempre o outro</strong>. 
                         </p>
-                      </p> 
+                      
                       <p>
                         Ele usa de artificios diretos e indiretos, criando situações que façam o outro se sentir desconfortável no trabalho, desde alimentar fofocas, intrigas, disputas, até comportamentos "altruistas" como arrumar um trabalho novo (que a pessoa não goste tanto).
                         </p> 
                         <p> 
-                          Uma das diferenças principais é que ele pode <strong>simular estar em sofrimento</strong>, mas a intenção é fazer <strong>o outro sofrer</strong>. A Dependência Emocional é a mesma nos dois casos, mas o objetivo se torna diferente. Enquanto um compartilha o sofrimento, o outro manipula a realidade para <strong>manter-se sendo o ponto central da vida do companheiro</strong>.
+                          Uma das diferenças principais é que ele pode <strong>simular estar em sofrimento</strong>, mas a intenção é fazer <strong>o outro sofrer</strong>. 
                         </p>
+                        <p>
+                          A Dependência Emocional é a mesma nos dois casos, mas o objetivo se torna diferente. Enquanto um compartilha o sofrimento, o outro manipula a realidade para <strong>manter-se sendo o ponto central da vida do companheiro</strong>.
+                        </p>
+                         <p>
+                          A reprodução de comportamentos narcisistas é muito mais comum e naturalizada do que imaginamos. Felizmente, o trabalho terapeutico nesses casos ajuda a <strong>compreender resolver</strong> esses comportamentos.
+                         </p>
                     </div>
                   </details>
 
