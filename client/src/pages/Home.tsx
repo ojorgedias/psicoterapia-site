@@ -364,7 +364,7 @@ export default function Home() {
                         Ele usa de artificios diretos e indiretos, criando situações que façam o outro se sentir desconfortável no trabalho, desde alimentar fofocas, intrigas, disputas, até comportamentos "altruistas" como arrumar um trabalho novo (que a pessoa não goste tanto).
                         </p> 
                         <p> 
-                          Uma das diferenças principais é que ele pode <strong>simular estar em sofrimento</strong>, mas a intenção é fazer <strong>o outro sofrer</strong>. 
+                          Uma das diferenças principais é que ele pode <strong>simular estar em sofrimento</strong>, mas a intenção é <strong>transferir o sentimento para o outro</strong>, fazendo o companheiro sentir-se culpado pelo sofrimento dele. 
                         </p>
                         <p>
                           A Dependência Emocional é a mesma nos dois casos, mas o objetivo se torna diferente. Enquanto um compartilha o sofrimento, o outro manipula a realidade para <strong>manter-se sendo o ponto central da vida do companheiro</strong>.
