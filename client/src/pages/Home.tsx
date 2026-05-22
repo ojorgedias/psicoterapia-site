@@ -334,19 +334,10 @@ export default function Home() {
                       </p>
                     </div>
                   </details>
-
-                </div>
-              </div>
-            </div>
-          </div>
-                    <div className="section-padding bg-secondary/10 border-y border-border/30">
-            <div className="container">
-              <div className="max-w-3xl mx-auto">
-                <div className="space-y-6">
                   
                   <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
                     <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
-                      <span>"Como entendo se estou reproduzindo comportamentos Narcisistas?"</span>
+                      <span>"Posso estar reproduzindo comportamentos Narcisistas?"</span>
                       <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
                     </summary>
                     
