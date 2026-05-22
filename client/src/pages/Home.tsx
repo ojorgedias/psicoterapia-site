@@ -186,7 +186,7 @@ export default function Home() {
                     Temos a forte tendência de rotular o narcisismo apenas como uma <strong>patologia do egoísmo</strong>: o perfil clássico de alguém agressivo, controlador e manipulador.
                   </p>
                   <p>
-                    No entanto, a prática clínica mostra que o comportamento narcisista é, na sua essência, um mechanism de defesa contra o sentimento de desamparo. Ele não possui apenas a face do "vilão". Existe um segundo perfil, muito mais comum e silencioso: <strong>o narcisista altruísta</strong>.
+                    No entanto, a prática clínica mostra que o comportamento narcisista é, na sua essência, um mecanismo de defesa contra o sentimento de desamparo. Ele não possui apenas a face do "vilão". Existe um segundo perfil, muito mais comum e silencioso: <strong>o narcisista altruísta</strong>.
                   </p>
                   <p>
                     Para não lidar com a própria frustração ou com o medo da rejeição, o indivíduo transforma a relação em um jogo onde, seja ganhando ou perdendo, quem cria as regras é ele. Para manter esse controle, ele opera em dois polos opostos:
@@ -344,7 +344,7 @@ export default function Home() {
         {/* SECTION 4: O Profissional */}
         <section id="profissional" className="section-padding bg-white">
           <div className="container">
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-1xl mx-auto">
               <span className="tag-value mb-4 block text-center">Sobre o Profissional</span>
               <h3 className="text-center mb-12">Quem conduzirá o seu processo</h3>
               
@@ -418,7 +418,7 @@ export default function Home() {
                       <div className="w-8 h-8 rounded-full bg-accent text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-1">2</div>
                       <div>
                         <h4 className="font-display font-semibold text-white text-lg mb-1">A Dinâmica</h4>
-                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">Sessões semanais (50 minutes), conduzidas online via Google Meet, com total sigilo. Respeitando o tempo do seu inconsciente.</p>
+                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">Sessões semanais (50 minutos), conduzidas online via Google Meet, com total sigilo. Respeitando o tempo do seu inconsciente.</p>
                       </div>
                     </div>
                   </div>
