@@ -470,10 +470,7 @@ export default function Home() {
                     Atendimento Online
                   </span>
                   
-                  <div className="text-5xl font-display text-primary mb-2 font-bold">
-                    <span className="text-2xl align-top mr-1 font-normal text-foreground/60">R$</span>150
-                  </div>
-                  <span className="text-sm text-foreground/60 mb-8 block">por sessão semanal</span>
+                  <span className="text-sm text-foreground/60 mb-8 block">Sessões semanais.</span>
                   
                   <button
                     onClick={handleContactClick}
