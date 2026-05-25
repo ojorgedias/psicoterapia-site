@@ -133,12 +133,12 @@ export default function Home() {
               </span>
               
               <h1 className="font-display text-white lg:text-foreground mb-6 lg:mb-4">
-                O esgotamento causado por <br className="hidden md:block" />
-                <span className="italic">Relações Narcisistas</span>
+                Volte a se ver inteiro <br className="hidden md:block" />
+                <span className="italic">e se cuidar</span>
               </h1>
               
               <p className="text-lg md:text-xl text-white/90 lg:text-accent font-serif leading-relaxed mb-10 max-w-xl">
-                O Narcisista nem sempre tem a face de um vilão agressivo. Muitas vezes, esconde-se por trás de um cuidado excessivo que sufoca e cria uma dívida emocional.
+               Quem sofre em relações Narcisistas geralmente fica com profundos sentimentos de <strong>Vazio e Falta de propósito</strong>. Isso não é acidental, é uma <strong>estratégia</strong>.
               </p>
               
               {/* Botão adaptado: Branco no mobile para destacar no fundo escuro */}
@@ -186,10 +186,10 @@ export default function Home() {
                     Temos a forte tendência de rotular o narcisismo apenas como uma <strong>patologia do egoísmo</strong>: o perfil clássico de alguém agressivo, controlador e manipulador.
                   </p>
                   <p>
-                    No entanto, a prática clínica mostra que o comportamento narcisista é, na sua essência, um mecanismo de defesa contra o sentimento de desamparo. Ele não possui apenas a face do "vilão". Existe um segundo perfil, muito mais comum e silencioso: <strong>o narcisista altruísta</strong>.
+                    No entanto, a prática clínica mostra que o comportamento narcisista é, na sua essência, um mecanismo de defesa contra o <strong>sentimento de desamparo</strong>. Ele não possui apenas a face do "vilão". Existe um segundo perfil, muito mais comum e silencioso: <strong>o narcisista altruísta</strong>.
                   </p>
                   <p>
-                    Para não lidar com a própria frustração ou com o medo da rejeição, o indivíduo transforma a relação em um jogo onde, seja ganhando ou perdendo, quem cria as regras é ele. Para manter esse controle, ele opera em dois polos opostos:
+                    Para não lidar com a própria frustração ou com o medo da rejeição, o indivíduo transforma a relação em um jogo onde, seja ganhando ou perdendo, <strong>quem cria as regras é ele</strong>. Para manter esse controle, ele opera em dois polos opostos:
                   </p>
                   
                   {/* RECURSO EXPANSÍVEL NOS DOIS POLOS */}
@@ -201,16 +201,31 @@ export default function Home() {
                       </summary>
                       <p className="text-foreground/80 mt-3 text-base md:text-lg leading-relaxed pt-3 border-t border-border/20 cursor-default" onClick={(e) => e.stopPropagation()}>
                         A pessoa distorce fatos para ter sempre razão e ataca a sua individualidade, fazendo você duvidar da própria sanidade mental.
+                        <p>
+                          Essa é a visão mais "tradicional" e conhecida do Narcisismo. Quando age dessa forma, o indivíduo mostra a "invasão" de forma clara e direta.
+                        </p>
+                        <p>
+                          Ficam evidentes os aspectos de manipulação, agressividade, controle e inferiorização. Quando o Narcisista age dessa forma, o comportamento fica mais evidente e "fácil" de reconhecer.
+                        </p>
                       </p>
                     </details>
 
                     <details className="group border border-border/40 bg-secondary/5 rounded-xl p-5 cursor-pointer transition-all">
                       <summary className="font-display font-semibold text-primary text-lg list-none flex justify-between items-center select-none">
-                        <span><strong>O Extremo Altruísta:</strong> O controle acontece pelo "cuidado".</span>
+                        <span><strong>O Extremo Altruísta:</strong> O controle acontece pelo excesso de "cuidado".</span>
                         <span className="text-accent text-xs font-sans border border-accent/20 rounded px-2 py-0.5 transition-transform group-open:bg-accent group-open:text-white">+</span>
                       </summary>
                       <p className="text-foreground/80 mt-3 text-base md:text-lg leading-relaxed pt-3 border-t border-border/20 cursor-default" onClick={(e) => e.stopPropagation()}>
-                        A pessoa invade o seu espaço com boas intenções, tornando-se uma figura essencial na sua vida e criando um sentimento de "vazio" que gera uma forte Dependência Emocional.
+                        A pessoa invade o seu espaço com boas intenções, tornando-se uma figura primária e essencial em sua vida.
+                        <p>
+                         Esse comportamento é mais difícil de ser notado. Pode demonstrar-se tanto em relacionamentos amorosos, quanto famliares.
+                         <p>
+                          Ao ocupar essa posição, o Narcisista se mostra como alguém muito preocupado com você, sempre disponível para "ajudar" e "resolver".
+                          <p>
+                            Muitas vezes o excesso de ajuda e preocupação, na verdade, se mostram como uma tentativa de controlar sua vida, minar outras relações e caminhos que fogem à espectativa dele.
+                          </p>
+                         </p>
+                        </p> 
                       </p>
                     </details>
                   </div>
@@ -254,13 +269,19 @@ export default function Home() {
                   </div>
 
                   <p>
-                    Para tentar sobreviver a esse ambiente onde a realidade é constantemente manipulada, a vítima geralmente desenvolve duas respostas: a <strong>Submissão</strong> (anular-se totalmente para evitar conflitos) ou a <strong>Resistência</strong> (tentar ser o extremo oposto de quem a machucou).
+                    Para tentar sobreviver a esse ambiente onde a realidade é constantemente manipulada, a vítima geralmente desenvolve duas respostas: 
+                    <p> 
+                      A <strong>Submissão</strong>: Seja de forma direta ou indireta, agir de acordo com a vontade da outra pessoa se torna uma saída menos dolorosa e desgastante.
+                      </p> 
+                      <p>
+                        A <strong>Resistência</strong>: Muitas vezes a vítima luta constantemente para argumentar e demonstrar a própria vontade, buscando agir sempre da forma oposta a qual o Narcisista tenta ditar. 
+                      </p>
                   </p>
                   <p>
-                    Nos dois cenários, a sombra do outro continua a <strong>ditar as regras da sua vida</strong>, gerando um profundo sentimento de vazio por não saber mais quem você realmente é.
+                    Nos dois cenários, a sombra do outro continua a <strong>ditar as regras da sua vida</strong> (direta ou indiretamente), gerando um profundo sentimento de vazio por não saber mais quem você realmente é.
                   </p>
 
-                  {/* PRIMEIRO CTA INTERMEDIÁRIO (Captura de impulso por link elegante) */}
+                  { }
                  
                 </div>
               </div>
@@ -273,7 +294,7 @@ export default function Home() {
               <div className="max-w-4xl mx-auto">
                 <div className="manifesto-text space-y-6 md:space-y-8 text-lg md:text-xl text-foreground/90 leading-relaxed">
                   <span className="tag-value mb-4 block text-center">O Divisor de Águas</span>
-                  <h3 className="pt-0 text-center mb-12">A fronteira entre a Defesa e o Transtorno</h3>
+                  <h3 className="pt-0 text-center mb-12">A diferença entre transtorno e comportamento</h3>
                   
                   <p className="max-w-3xl mx-auto text-center mb-12">
                     A melhor forma de compreender a diferença entre quem possui o transtorno enraizado e quem apenas reproduz o comportamento narcisista é olhar para um fator crucial: <strong>a capacidade de validar o outro</strong>.
@@ -294,11 +315,31 @@ export default function Home() {
                       </p>
                     </div>
                   </div>
-
+                     <p>
+                      O diagnóstico do <strong>Transtorno de Personalidade Narcisista</strong> só pode ser confirmado com a realização de uma bateria completa de <strong>Avaliações Psicológicas</strong>.
+                     </p>
+                     <p>
+                      Independente do rótulo, a reprodução desses comportamentos em longo prazo causa grandes danos psicológicos e <strong>crises de identidade</strong>.
+                     </p>
+                     <p>
+                      Quando falamos de relacionamentos narcisistas, a <strong>Dependência Emocional</strong> é o que mantém a pessoa presa.
+                     </p>
+                     <p>
+                      O caminho clínico para lidar com isso segue em<strong>Três passos</strong>:
+                     </p>
+                     <p>
+                      Compreender quais áreas da sua vida foram <strong>invadidas</strong> nessa essa relação;
+                     </p>
+                     <p>
+                      Livrar-se de todos as invasões realizadas e lidar com o vazio causado pela <strong>Dependência Emocional</strong>.
+                     </p>
+                     <p>
+                      Construir dentro de sí um caminho de <strong>autoconhecimento</strong> e cuidado pessoal, para evitar a busca inconsciente por relações semelhantes.
+                     </p>
                   {/* SEGUNDO CTA INTERMEDIÁRIO (Botão destacado após a quebra do Divisor) */}
                   <div className="text-center pb-6">
                     <a href="#clinica" className="btn-high-ticket inline-block">
-                      Consultar Disponibilidade
+                      Quero inicar meu processo
                     </a>
                   </div>
 
