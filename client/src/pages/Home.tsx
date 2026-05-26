@@ -248,16 +248,15 @@ export default function Home() {
             <div className="container">
               <div className="max-w-1xl mx-auto">
                 <div className="space-y-1">
-                  
-                  <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
                   <p>
                     <strong> F.A.Q.</strong>
                   </p>
+ 
+                  <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
                     <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
                       <span>"Eu posso ser narcisista sem saber?"</span>
                       <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
-                    </summary>
-                    
+                    </summary>                    
                     <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
                       <p>
                         Muitas pessoas chegam ao consultório aterrorizadas pelas definições da internet, temendo ser "o monstro" das suas relações.
