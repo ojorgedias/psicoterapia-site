@@ -135,8 +135,8 @@ export default function Home() {
               </span>
               
               <h1 className="font-display text-white lg:text-foreground mb-6 lg:mb-4">
-                Volte a se ver inteiro <br className="hidden md:block" />
-                <span className="italic">e se cuidar</span>
+                Retome sua autonomia <br className="hidden md:block" />
+                <span className="italic">e autocuidado</span>
               </h1>
               
               <p className="text-lg md:text-xl text-white/90 lg:text-accent font-serif leading-relaxed mb-10 max-w-xl">
@@ -245,12 +245,13 @@ export default function Home() {
           </div>
 
           <div className="section-padding bg-secondary/10 border-y border-border/30">
+             <p>
+             <strong> F.A.Q.</strong>
+             </p>
+
             <div className="container">
               <div className="max-w-1xl mx-auto">
                 <div className="space-y-1">
-                  <p>
-                    <strong> F.A.Q.</strong>
-                  </p>
  
                   <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
                     <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
