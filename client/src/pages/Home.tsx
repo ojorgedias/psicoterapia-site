@@ -239,7 +239,7 @@ export default function Home() {
           </div>
           <div className="section-padding bg-secondary/10 border-y border-border/30">
             <div className="container">
-              <div className="max-w-3xl mx-auto">
+              <div className="max-w-xl mx-auto">
                 <div className="space-y-2">
                   
                   <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
