@@ -6,6 +6,8 @@ import { motion, AnimatePresence } from "framer-motion";
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  // Novo estado para controlar a exibição do texto extra
+  const [showMoreContent, setShowMoreContent] = useState(false);
   const [, setLocation] = useLocation();
 
   useEffect(() => {
@@ -199,15 +201,17 @@ export default function Home() {
                         <span><strong>O Extremo Egoísta:</strong> O controle acontece pela invalidação.</span>
                         <span className="text-accent text-xs font-sans border border-accent/20 rounded px-2 py-0.5 transition-transform group-open:bg-accent group-open:text-white">+</span>
                       </summary>
-                      <p className="text-foreground/80 mt-3 text-base md:text-lg leading-relaxed pt-3 border-t border-border/20 cursor-default" onClick={(e) => e.stopPropagation()}>
-                        A pessoa distorce fatos para ter sempre razão e ataca a sua individualidade, fazendo você duvidar da própria sanidade mental.
-                        <p>
+                      <div className="text-foreground/80 mt-3 text-base md:text-lg leading-relaxed pt-3 border-t border-border/20 cursor-default" onClick={(e) => e.stopPropagation()}>
+                        <p className="mb-4">
+                          A pessoa distorce fatos para ter sempre razão e ataca a sua individualidade, fazendo você duvidar da própria sanidade mental.
+                        </p>
+                        <p className="mb-4">
                           Essa é a visão mais "tradicional" e conhecida do Narcisismo. Quando age dessa forma, o indivíduo mostra a "invasão" de forma clara e direta.
                         </p>
                         <p>
                           Ficam evidentes os aspectos de manipulação, agressividade, controle e inferiorização. Quando o Narcisista age dessa forma, o comportamento fica mais evidente e "fácil" de reconhecer.
                         </p>
-                      </p>
+                      </div>
                     </details>
 
                     <details className="group border border-border/40 bg-secondary/5 rounded-xl p-5 cursor-pointer transition-all">
@@ -215,18 +219,20 @@ export default function Home() {
                         <span><strong>O Extremo Altruísta:</strong> O controle acontece pelo excesso de "cuidado".</span>
                         <span className="text-accent text-xs font-sans border border-accent/20 rounded px-2 py-0.5 transition-transform group-open:bg-accent group-open:text-white">+</span>
                       </summary>
-                      <p className="text-foreground/80 mt-3 text-base md:text-lg leading-relaxed pt-3 border-t border-border/20 cursor-default" onClick={(e) => e.stopPropagation()}>
-                        A pessoa invade o seu espaço com boas intenções, tornando-se uma figura primária e essencial em sua vida.
-                        <p>
-                         Esse comportamento é mais difícil de ser notado. Pode demonstrar-se tanto em relacionamentos amorosos, quanto famliares.
-                         <p>
+                      <div className="text-foreground/80 mt-3 text-base md:text-lg leading-relaxed pt-3 border-t border-border/20 cursor-default" onClick={(e) => e.stopPropagation()}>
+                        <p className="mb-4">
+                          A pessoa invade o seu espaço com boas intenções, tornando-se uma figura primária e essencial em sua vida.
+                        </p>
+                        <p className="mb-4">
+                          Esse comportamento é mais difícil de ser notado. Pode demonstrar-se tanto em relacionamentos amorosos, quanto famliares.
+                        </p>
+                        <p className="mb-4">
                           Ao ocupar essa posição, o Narcisista se mostra como alguém muito preocupado com você, sempre disponível para "ajudar" e "resolver".
-                          <p>
-                            Muitas vezes o excesso de ajuda e preocupação, na verdade, se mostram como uma tentativa de controlar sua vida, minar outras relações e caminhos que fogem à espectativa dele.
-                          </p>
-                         </p>
-                        </p> 
-                      </p>
+                        </p>
+                        <p>
+                          Muitas vezes o excesso de ajuda e preocupação, na verdade, se mostram como uma tentativa de controlar sua vida, minar outras relações e caminhos que fogem à expectativa dele.
+                        </p>
+                      </div>
                     </details>
                   </div>
 
@@ -237,10 +243,11 @@ export default function Home() {
               </div>
             </div>
           </div>
+
           <div className="section-padding bg-secondary/10 border-y border-border/30">
             <div className="container">
-              <div className="max-w-xl mx-auto">
-                <div className="space-y-2">
+              <div className="max-w-3xl mx-auto">
+                <div className="space-y-4">
                   
                   <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
                     <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
@@ -263,6 +270,7 @@ export default function Home() {
                       </p>
                     </div>
                   </details>
+                  
                   <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
                     <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
                       <span>"Posso estar reproduzindo comportamentos Narcisistas?"</span>
@@ -274,153 +282,170 @@ export default function Home() {
                         Em geral, a reprodução de Comportamentos Narcisistas está diretamente relacionada a <strong>Dependência Emocional</strong>.
                       </p>
                       <p>
-                        Não significa necessariamente apenas "não querer ficar sozinho". Na prática, dependência emocional é uma dificuldade em lidar com aspectos da vida da outra pessa que <strong>não envolvam você</strong>.
+                        Não significa necessariamente apenas "não querer ficar sozinho". Na prática, dependência emocional é uma dificuldade em lidar com aspectos da vida da outra pessoa que <strong>não envolvam você</strong>.
                       </p>
                       <p>
                         Por exemplo: <em>"Não gosto do trabalho atual do meu companheiro"</em>. Muitas vezes esse "não gostar" significa perceber que a pessoa se interessa e <strong>investe muita energia no trabalho</strong>, o que faz você se sentir ameaçado.
                       </p>
                       <p>
                         Nessas situações, quem reproduz comportamento Narcisista pode brigar, ter crises de ciumes, reclamar de coisas que envolvam o trabalho do companheiro, etc.
-                        </p> 
-                        <p>
-                          Isso demonstra que a pessoa <strong>sente ativamente</strong> o desconforto causado pela <strong>dependência emocional</strong> e sofre, ao mesmo tempo que faz o outro sofrer.
-                          </p>
-                        <p>
-                          O Narcisista Patológico, por outro lado, tem um mecanismo que evita desconforto de se sentir rejeitado, por isso reproduz comportamentos semelhantes, mas <strong>quem sofre é sempre o outro</strong>. 
-                        </p>
-                      
+                      </p> 
                       <p>
-                        Ele usa de artificios diretos e indiretos, criando situações que façam o outro se sentir desconfortável no trabalho, desde alimentar fofocas, intrigas, disputas, até comportamentos "altruistas" como arrumar um trabalho novo (que a pessoa não goste tanto).
-                        </p> 
-                        <p> 
-                          Uma das diferenças principais é que ele pode <strong>simular estar em sofrimento</strong>, mas a intenção é <strong>transferir o sentimento para o outro</strong>, fazendo o companheiro sentir-se culpado pelo sofrimento dele. 
-                        </p>
-                        <p>
-                          A Dependência Emocional é a mesma nos dois casos, mas o objetivo se torna diferente. Enquanto um compartilha o sofrimento, o outro manipula a realidade para <strong>manter-se sendo o ponto central da vida do companheiro</strong>.
-                        </p>
-                         <p>
-                          A reprodução de comportamentos narcisistas é muito mais comum e naturalizada do que imaginamos. Felizmente, o trabalho terapeutico nesses casos ajuda a <strong>compreender resolver</strong> esses comportamentos.
-                         </p>
+                        Isso demonstra que a pessoa <strong>sente ativamente</strong> o desconforto causado pela <strong>dependência emocional</strong> e sofre, ao mesmo tempo que faz o outro sofrer.
+                      </p>
+                      <p>
+                        O Narcisista Patológico, por outro lado, tem um mecanismo que evita desconforto de se sentir rejeitado, por isso reproduz comportamentos semelhantes, mas <strong>quem sofre é sempre o outro</strong>. 
+                      </p>
+                      <p>
+                        Ele usa de artifícios diretos e indiretos, criando situações que façam o outro se sentir desconfortável no trabalho, desde alimentar fofocas, intrigas, disputas, até comportamentos "altruístas" como arrumar um trabalho novo (que a pessoa não goste tanto).
+                      </p> 
+                      <p> 
+                        Uma das diferenças principais é que ele pode <strong>simular estar em sofrimento</strong>, mas a intenção é <strong>transferir o sentimento para o outro</strong>, fazendo o companheiro sentir-se culpado pelo sofrimento dele. 
+                      </p>
+                      <p>
+                        A Dependência Emocional é a mesma nos dois casos, mas o objetivo se torna diferente. Enquanto um compartilha o sofrimento, o outro manipula a realidade para <strong>manter-se sendo o ponto central da vida do companheiro</strong>.
+                      </p>
+                      <p>
+                        A reprodução de comportamentos narcisistas é muito mais comum e naturalizada do que imaginamos. Felizmente, o trabalho terapêutico nesses casos ajuda a <strong>compreender e resolver</strong> esses comportamentos.
+                      </p>
                     </div>
                   </details>
 
                 </div>
-              </div>
-            </div>
-          </div>
-           <div className="text-center pt-8">
-                    <a 
-                      href="#clinica" 
-                      className="inline-flex items-center text-primary hover:text-accent font-serif tracking-wide text-lg md:text-xl underline underline-offset-4 transition-colors group"
+                
+                {/* BOTÕES DE DECISÃO E LER MAIS */}
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-10 pb-4">
+                  <a 
+                    href="#clinica" 
+                    className="w-full sm:w-auto bg-primary text-primary-foreground hover:bg-accent hover:text-primary transition-colors duration-300 py-4 px-8 rounded-md font-semibold text-sm uppercase tracking-wider text-center"
+                  >
+                    Agendar Avaliação
+                  </a>
+                  
+                  {!showMoreContent && (
+                    <button 
+                      onClick={() => setShowMoreContent(true)}
+                      className="w-full sm:w-auto bg-transparent border-2 border-primary text-primary hover:bg-primary/5 transition-colors duration-300 py-3.5 px-8 rounded-md font-semibold text-sm uppercase tracking-wider text-center flex items-center justify-center"
                     >
-                      Precisa de ajuda para sair desse ciclo? Fale comigo <span className="ml-2 transition-transform group-hover:translate-x-1">➔</span>
-                    </a>
-                  </div>
-
-          {/* Sub-section 2: A exaustão da realidade distorcida */}
-          <div className="section-padding bg-[#ECEEEF] border-y border-border/30">
-            <div className="container">
-              <div className="max-w-3xl mx-auto">
-                <div className="manifesto-text space-y-6 md:space-y-8 text-lg md:text-xl text-foreground/90 leading-relaxed">
-                  <h3 className="pt-0 text-center mb-10">A exaustão de lutar contra uma realidade distorcida</h3>
-                  <p>
-                    Discutir, argumentar ou tentar provar a sua dor torna-se inútil nestas dinâmicas. O indivíduo possui um mecanismo mental que trabalha 24 horas por dia para <strong>manipular a realidade</strong> e proteger o próprio Ego.
-                  </p>
-                  <p>
-                    Qualquer sentimento desconfortável é automaticamente rejeitado por ele e <strong>transferido para você</strong>.
-                  </p>
-                  
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
-                    <div className="bg-white/60 p-6 border-l-4 border-primary shadow-sm">
-                      <p className="text-base md:text-lg italic mb-0">"Se você impõe um limite ou diz 'não', é interpretado como uma <strong>ofensa</strong>. O mecanismo do <strong>medo</strong> é usado para te fazer se sentir inferior."</p>
-                    </div>
-                    <div className="bg-white/60 p-6 border-l-4 border-accent shadow-sm">
-                      <p className="text-base md:text-lg italic mb-0">"Se você recusa a ajuda ou o cuidado oferecido, é interpretado como <strong>ingratidão</strong>. O mecanismo da <strong>culpa</strong> é usado para te fazer se sentir inferior."</p>
-                    </div>
-                  </div>
-
-                  <p>
-                    Para tentar sobreviver a esse ambiente onde a realidade é constantemente manipulada, a vítima geralmente desenvolve duas respostas: 
-                    <p> 
-                      A <strong>Submissão</strong>: Seja de forma direta ou indireta, agir de acordo com a vontade da outra pessoa se torna uma saída menos dolorosa e desgastante.
-                      </p> 
-                      <p>
-                        A <strong>Resistência</strong>: Muitas vezes a vítima luta constantemente para argumentar e demonstrar a própria vontade, buscando agir sempre da forma oposta a qual o Narcisista tenta ditar. 
-                      </p>
-                  </p>
-                  <p>
-                    Nos dois cenários, a sombra do outro continua a <strong>ditar as regras da sua vida</strong> (direta ou indiretamente), gerando um profundo sentimento de vazio por não saber mais quem você realmente é.
-                  </p>
-
-                  { }
-                 
+                      Ler Mais <span className="ml-2 text-lg leading-none">↓</span>
+                    </button>
+                  )}
                 </div>
+
               </div>
             </div>
           </div>
 
-          {/* Sub-section 3: Patológico vs Comportamento */}
-          <div className="section-padding">
-            <div className="container">
-              <div className="max-w-4xl mx-auto">
-                <div className="manifesto-text space-y-6 md:space-y-8 text-lg md:text-xl text-foreground/90 leading-relaxed">
-                  <span className="tag-value mb-4 block text-center">O Divisor de Águas</span>
-                  <h3 className="pt-0 text-center mb-12">A diferença entre transtorno e comportamento</h3>
-                  
-                  <p className="max-w-3xl mx-auto text-center mb-12">
-                    A melhor forma de compreender a diferença entre quem possui o transtorno enraizado e quem apenas reproduz o comportamento narcisista é olhar para um fator crucial: <strong>a capacidade de validar o outro</strong>.
-                  </p>
+          {/* SESSÕES OCULTAS (REVELADAS AO CLICAR EM LER MAIS) */}
+          <AnimatePresence>
+            {showMoreContent && (
+              <motion.div
+                initial={{ opacity: 0, height: 0 }}
+                animate={{ opacity: 1, height: "auto" }}
+                exit={{ opacity: 0, height: 0 }}
+                transition={{ duration: 0.6, ease: "easeInOut" }}
+                className="overflow-hidden"
+              >
+                {/* Sub-section 2: A exaustão da realidade distorcida */}
+                <div className="section-padding bg-[#ECEEEF] border-y border-border/30">
+                  <div className="container">
+                    <div className="max-w-3xl mx-auto">
+                      <div className="manifesto-text space-y-6 md:space-y-8 text-lg md:text-xl text-foreground/90 leading-relaxed">
+                        <h3 className="pt-0 text-center mb-10">A exaustão de lutar contra uma realidade distorcida</h3>
+                        <p>
+                          Discutir, argumentar ou tentar provar a sua dor torna-se inútil nestas dinâmicas. O indivíduo possui um mecanismo mental que trabalha 24 horas por dia para <strong>manipular a realidade</strong> e proteger o próprio Ego.
+                        </p>
+                        <p>
+                          Qualquer sentimento desconfortável é automaticamente rejeitado por ele e <strong>transferido para você</strong>.
+                        </p>
+                        
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
+                          <div className="bg-white/60 p-6 border-l-4 border-primary shadow-sm">
+                            <p className="text-base md:text-lg italic mb-0">"Se você impõe um limite ou diz 'não', é interpretado como uma <strong>ofensa</strong>. O mecanismo do <strong>medo</strong> é usado para te fazer se sentir inferior."</p>
+                          </div>
+                          <div className="bg-white/60 p-6 border-l-4 border-accent shadow-sm">
+                            <p className="text-base md:text-lg italic mb-0">"Se você recusa a ajuda ou o cuidado oferecido, é interpretado como <strong>ingratidão</strong>. O mecanismo da <strong>culpa</strong> é usado para te fazer se sentir inferior."</p>
+                          </div>
+                        </div>
 
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-14">
-                    <div className="bg-primary/5 p-8 rounded-xl border border-primary/10 shadow-sm hover:shadow-md transition-shadow">
-                      <h4 className="text-xl font-display text-primary mb-4 font-semibold">O Narcisista Patológico</h4>
-                      <p className="text-base md:text-lg leading-relaxed mb-0">
-                        Faz os outros sofrerem com a sua condição, mas ele mesmo não sofre. Vive protegido por uma realidade fantasiosa impenetrável onde a culpa nunca é dele. <strong>Todas suas interações deixam a outra pessoa se sentindo cansada e invalidada</strong>.
-                      </p>
-                    </div>
-
-                    <div className="bg-accent/5 p-8 rounded-xl border border-accent/10 shadow-sm hover:shadow-md transition-shadow">
-                      <h4 className="text-xl font-display text-accent mb-4 font-semibold">A Reprodução de Traços</h4>
-                      <p className="text-base md:text-lg leading-relaxed mb-0">
-                        Qualquer pessoa pode reproduzir comportamentos narcisistas. A diferença é que o mecanismo de manipular a realidade não funciona sempre. Ela causa dor aos outros, <strong>mas também sofre muito</strong>. Assiste à ruína dos seus vínculos, sente a perda, mas sente-se <strong>perdida</strong> sobre como reconhecer quais erros são sua responsabilidade.
-                      </p>
+                        <p>
+                          Para tentar sobreviver a esse ambiente onde a realidade é constantemente manipulada, a vítima geralmente desenvolve duas respostas: 
+                        </p>
+                        <p> 
+                          A <strong>Submissão</strong>: Seja de forma direta ou indireta, agir de acordo com a vontade da outra pessoa se torna uma saída menos dolorosa e desgastante.
+                        </p> 
+                        <p>
+                          A <strong>Resistência</strong>: Muitas vezes a vítima luta constantemente para argumentar e demonstrar a própria vontade, buscando agir sempre da forma oposta a qual o Narcisista tenta ditar. 
+                        </p>
+                        <p>
+                          Nos dois cenários, a sombra do outro continua a <strong>ditar as regras da sua vida</strong> (direta ou indiretamente), gerando um profundo sentimento de vazio por não saber mais quem você realmente é.
+                        </p>
+                      </div>
                     </div>
                   </div>
-                     <p>
-                      O diagnóstico do <strong>Transtorno de Personalidade Narcisista</strong> só pode ser confirmado com a realização de uma bateria completa de <strong>Avaliações Psicológicas</strong>.
-                     </p>
-                     <p>
-                      Independente do rótulo, a reprodução desses comportamentos em longo prazo causa grandes danos psicológicos e <strong>crises de identidade</strong>.
-                     </p>
-                     <p>
-                      Quando falamos de relacionamentos narcisistas, a <strong>Dependência Emocional</strong> é o que mantém a pessoa presa.
-                     </p>
-                     <p>
-                      O caminho clínico para lidar com isso segue em<strong>Três passos</strong>:
-                     </p>
-                     <p>
-                      Compreender quais áreas da sua vida foram <strong>invadidas</strong> nessa essa relação;
-                     </p>
-                     <p>
-                      Livrar-se de todos as invasões realizadas e lidar com o vazio causado pela <strong>Dependência Emocional</strong>.
-                     </p>
-                     <p>
-                      Construir dentro de sí um caminho de <strong>autoconhecimento</strong> e cuidado pessoal, para evitar a busca inconsciente por relações semelhantes.
-                     </p>
-                  {/* SEGUNDO CTA INTERMEDIÁRIO (Botão destacado após a quebra do Divisor) */}
-                  <div className="text-center pb-6">
-                    <a href="#clinica" className="btn-high-ticket inline-block">
-                      Quero inicar meu processo
-                    </a>
-                  </div>
-
                 </div>
-              </div>
-            </div>
-          </div>
 
-       
-      
+                {/* Sub-section 3: Patológico vs Comportamento */}
+                <div className="section-padding">
+                  <div className="container">
+                    <div className="max-w-4xl mx-auto">
+                      <div className="manifesto-text space-y-6 md:space-y-8 text-lg md:text-xl text-foreground/90 leading-relaxed">
+                        <span className="tag-value mb-4 block text-center">O Divisor de Águas</span>
+                        <h3 className="pt-0 text-center mb-12">A diferença entre transtorno e comportamento</h3>
+                        
+                        <p className="max-w-3xl mx-auto text-center mb-12">
+                          A melhor forma de compreender a diferença entre quem possui o transtorno enraizado e quem apenas reproduz o comportamento narcisista é olhar para um fator crucial: <strong>a capacidade de validar o outro</strong>.
+                        </p>
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-14">
+                          <div className="bg-primary/5 p-8 rounded-xl border border-primary/10 shadow-sm hover:shadow-md transition-shadow">
+                            <h4 className="text-xl font-display text-primary mb-4 font-semibold">O Narcisista Patológico</h4>
+                            <p className="text-base md:text-lg leading-relaxed mb-0">
+                              Faz os outros sofrerem com a sua condição, mas ele mesmo não sofre. Vive protegido por uma realidade fantasiosa impenetrável onde a culpa nunca é dele. <strong>Todas suas interações deixam a outra pessoa se sentindo cansada e invalidada</strong>.
+                            </p>
+                          </div>
+
+                          <div className="bg-accent/5 p-8 rounded-xl border border-accent/10 shadow-sm hover:shadow-md transition-shadow">
+                            <h4 className="text-xl font-display text-accent mb-4 font-semibold">A Reprodução de Traços</h4>
+                            <p className="text-base md:text-lg leading-relaxed mb-0">
+                              Qualquer pessoa pode reproduzir comportamentos narcisistas. A diferença é que o mecanismo de manipular a realidade não funciona sempre. Ela causa dor aos outros, <strong>mas também sofre muito</strong>. Assiste à ruína dos seus vínculos, sente a perda, mas sente-se <strong>perdida</strong> sobre como reconhecer quais erros são sua responsabilidade.
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <p>
+                          O diagnóstico do <strong>Transtorno de Personalidade Narcisista</strong> só pode ser confirmado com a realização de uma bateria completa de <strong>Avaliações Psicológicas</strong>.
+                        </p>
+                        <p>
+                          Independente do rótulo, a reprodução desses comportamentos em longo prazo causa grandes danos psicológicos e <strong>crises de identidade</strong>.
+                        </p>
+                        <p>
+                          Quando falamos de relacionamentos narcisistas, a <strong>Dependência Emocional</strong> é o que mantém a pessoa presa.
+                        </p>
+                        <p>
+                          O caminho clínico para lidar com isso segue em <strong>Três passos</strong>:
+                        </p>
+                        <ul className="list-disc pl-6 space-y-3">
+                          <li>Compreender quais áreas da sua vida foram <strong>invadidas</strong> nessa relação;</li>
+                          <li>Livrar-se de todas as invasões realizadas e lidar com o vazio causado pela <strong>Dependência Emocional</strong>;</li>
+                          <li>Construir dentro de si um caminho de <strong>autoconhecimento</strong> e cuidado pessoal, para evitar a busca inconsciente por relações semelhantes.</li>
+                        </ul>
+
+                        {/* SEGUNDO CTA INTERMEDIÁRIO */}
+                        <div className="text-center pt-8 pb-6">
+                          <a href="#clinica" className="btn-high-ticket inline-block">
+                            Quero iniciar meu processo
+                          </a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
+
         </section>
 
         {/* SECTION 4: O Profissional */}
