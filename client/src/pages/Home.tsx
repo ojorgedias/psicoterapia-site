@@ -237,6 +237,77 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className="section-padding bg-secondary/10 border-y border-border/30">
+            <div className="container">
+              <div className="max-w-3xl mx-auto">
+                <div className="space-y-2">
+                  
+                  <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
+                    <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
+                      <span>"Eu posso ser narcisista sem saber?"</span>
+                      <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
+                    </summary>
+                    
+                    <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
+                      <p>
+                        Muitas pessoas chegam ao consultório aterrorizadas pelas definições da internet, temendo ser "o monstro" das suas relações.
+                      </p>
+                      <p>
+                        O fato de você questionar o impacto das suas ações e buscar terapia indica que a <strong>sua empatia está ativa</strong>, o que diminui as possibilidades do diagnóstico de Narcisismo Patológico. 
+                      </p>
+                      <p>
+                        Isso não anula o fato de que defesas narcísicas mal resolvidas podem estar <strong>atrapalhando sua vida pessoal</strong>, mas demonstra existência de um caminho para a mudança.
+                      </p>
+                      <p>
+                        O nosso foco não é entregar rótulos, mas compreender <strong>por que você construiu essas defesas</strong> e como elas afetam sua vida.
+                      </p>
+                    </div>
+                  </details>
+                  <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
+                    <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
+                      <span>"Posso estar reproduzindo comportamentos Narcisistas?"</span>
+                      <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
+                    </summary>
+                    
+                    <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
+                      <p>
+                        Em geral, a reprodução de Comportamentos Narcisistas está diretamente relacionada a <strong>Dependência Emocional</strong>.
+                      </p>
+                      <p>
+                        Não significa necessariamente apenas "não querer ficar sozinho". Na prática, dependência emocional é uma dificuldade em lidar com aspectos da vida da outra pessa que <strong>não envolvam você</strong>.
+                      </p>
+                      <p>
+                        Por exemplo: <em>"Não gosto do trabalho atual do meu companheiro"</em>. Muitas vezes esse "não gostar" significa perceber que a pessoa se interessa e <strong>investe muita energia no trabalho</strong>, o que faz você se sentir ameaçado.
+                      </p>
+                      <p>
+                        Nessas situações, quem reproduz comportamento Narcisista pode brigar, ter crises de ciumes, reclamar de coisas que envolvam o trabalho do companheiro, etc.
+                        </p> 
+                        <p>
+                          Isso demonstra que a pessoa <strong>sente ativamente</strong> o desconforto causado pela <strong>dependência emocional</strong> e sofre, ao mesmo tempo que faz o outro sofrer.
+                          </p>
+                        <p>
+                          O Narcisista Patológico, por outro lado, tem um mecanismo que evita desconforto de se sentir rejeitado, por isso reproduz comportamentos semelhantes, mas <strong>quem sofre é sempre o outro</strong>. 
+                        </p>
+                      
+                      <p>
+                        Ele usa de artificios diretos e indiretos, criando situações que façam o outro se sentir desconfortável no trabalho, desde alimentar fofocas, intrigas, disputas, até comportamentos "altruistas" como arrumar um trabalho novo (que a pessoa não goste tanto).
+                        </p> 
+                        <p> 
+                          Uma das diferenças principais é que ele pode <strong>simular estar em sofrimento</strong>, mas a intenção é <strong>transferir o sentimento para o outro</strong>, fazendo o companheiro sentir-se culpado pelo sofrimento dele. 
+                        </p>
+                        <p>
+                          A Dependência Emocional é a mesma nos dois casos, mas o objetivo se torna diferente. Enquanto um compartilha o sofrimento, o outro manipula a realidade para <strong>manter-se sendo o ponto central da vida do companheiro</strong>.
+                        </p>
+                         <p>
+                          A reprodução de comportamentos narcisistas é muito mais comum e naturalizada do que imaginamos. Felizmente, o trabalho terapeutico nesses casos ajuda a <strong>compreender resolver</strong> esses comportamentos.
+                         </p>
+                    </div>
+                  </details>
+
+                </div>
+              </div>
+            </div>
+          </div>
            <div className="text-center pt-8">
                     <a 
                       href="#clinica" 
@@ -348,78 +419,8 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Sub-section 4: Acolhimento (RESTRUTURADO COMO ACORDEÃO DE ALTA CONVERSÃO) */}
-          <div className="section-padding bg-secondary/10 border-y border-border/30">
-            <div className="container">
-              <div className="max-w-3xl mx-auto">
-                <div className="space-y-6">
-                  
-                  <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
-                    <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
-                      <span>"Eu posso ser narcisista sem saber?"</span>
-                      <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
-                    </summary>
-                    
-                    <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
-                      <p>
-                        Muitas pessoas chegam ao consultório aterrorizadas pelas definições da internet, temendo ser "o monstro" das suas relações.
-                      </p>
-                      <p>
-                        O fato de você questionar o impacto das suas ações e buscar terapia indica que a <strong>sua empatia está ativa</strong>, o que diminui as possibilidades do diagnóstico de Narcisismo Patológico. 
-                      </p>
-                      <p>
-                        Isso não anula o fato de que defesas narcísicas mal resolvidas podem estar <strong>atrapalhando sua vida pessoal</strong>, mas demonstra existência de um caminho para a mudança.
-                      </p>
-                      <p>
-                        O nosso foco não é entregar rótulos, mas compreender <strong>por que você construiu essas defesas</strong> e como elas afetam sua vida.
-                      </p>
-                    </div>
-                  </details>
-                  <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
-                    <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
-                      <span>"Posso estar reproduzindo comportamentos Narcisistas?"</span>
-                      <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
-                    </summary>
-                    
-                    <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
-                      <p>
-                        Em geral, a reprodução de Comportamentos Narcisistas está diretamente relacionada a <strong>Dependência Emocional</strong>.
-                      </p>
-                      <p>
-                        Não significa necessariamente apenas "não querer ficar sozinho". Na prática, dependência emocional é uma dificuldade em lidar com aspectos da vida da outra pessa que <strong>não envolvam você</strong>.
-                      </p>
-                      <p>
-                        Por exemplo: <em>"Não gosto do trabalho atual do meu companheiro"</em>. Muitas vezes esse "não gostar" significa perceber que a pessoa se interessa e <strong>investe muita energia no trabalho</strong>, o que faz você se sentir ameaçado.
-                      </p>
-                      <p>
-                        Nessas situações, quem reproduz comportamento Narcisista pode brigar, ter crises de ciumes, reclamar de coisas que envolvam o trabalho do companheiro, etc.
-                        </p> 
-                        <p>
-                          Isso demonstra que a pessoa <strong>sente ativamente</strong> o desconforto causado pela <strong>dependência emocional</strong> e sofre, ao mesmo tempo que faz o outro sofrer.
-                          </p>
-                        <p>
-                          O Narcisista Patológico, por outro lado, tem um mecanismo que evita desconforto de se sentir rejeitado, por isso reproduz comportamentos semelhantes, mas <strong>quem sofre é sempre o outro</strong>. 
-                        </p>
-                      
-                      <p>
-                        Ele usa de artificios diretos e indiretos, criando situações que façam o outro se sentir desconfortável no trabalho, desde alimentar fofocas, intrigas, disputas, até comportamentos "altruistas" como arrumar um trabalho novo (que a pessoa não goste tanto).
-                        </p> 
-                        <p> 
-                          Uma das diferenças principais é que ele pode <strong>simular estar em sofrimento</strong>, mas a intenção é <strong>transferir o sentimento para o outro</strong>, fazendo o companheiro sentir-se culpado pelo sofrimento dele. 
-                        </p>
-                        <p>
-                          A Dependência Emocional é a mesma nos dois casos, mas o objetivo se torna diferente. Enquanto um compartilha o sofrimento, o outro manipula a realidade para <strong>manter-se sendo o ponto central da vida do companheiro</strong>.
-                        </p>
-                         <p>
-                          A reprodução de comportamentos narcisistas é muito mais comum e naturalizada do que imaginamos. Felizmente, o trabalho terapeutico nesses casos ajuda a <strong>compreender resolver</strong> esses comportamentos.
-                         </p>
-                    </div>
-                  </details>
-
-                </div>
-              </div>
-            </div>
-          </div>
+       
+      
         </section>
 
         {/* SECTION 4: O Profissional */}
