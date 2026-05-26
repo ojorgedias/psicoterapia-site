@@ -246,7 +246,7 @@ export default function Home() {
 
           <div className="section-padding bg-secondary/10 border-y border-border/30">
              <p>
-             <strong> F.A.Q.</strong>
+             <strong>.                   F.A.Q.</strong>
              </p>
 
             <div className="container">
