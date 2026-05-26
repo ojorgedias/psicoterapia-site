@@ -247,9 +247,12 @@ export default function Home() {
           <div className="section-padding bg-secondary/10 border-y border-border/30">
             <div className="container">
               <div className="max-w-1xl mx-auto">
-                <div className="space-y-4">
+                <div className="space-y-1">
                   
                   <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
+                  <p>
+                    <strong> F.A.Q.</strong>
+                  </p>
                     <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
                       <span>"Eu posso ser narcisista sem saber?"</span>
                       <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
@@ -319,15 +322,15 @@ export default function Home() {
                     href="#clinica" 
                     className="w-full sm:w-auto bg-primary text-primary-foreground hover:bg-accent hover:text-primary transition-colors duration-300 py-4 px-8 rounded-md font-semibold text-sm uppercase tracking-wider text-center"
                   >
-                    Agendar Avaliação
+                    Agendar Sessão
                   </a>
                   
                   {!showMoreContent && (
                     <button 
                       onClick={() => setShowMoreContent(true)}
-                      className="w-full sm:w-auto bg-transparent border-2 border-primary text-primary hover:bg-primary/5 transition-colors duration-300 py-3.5 px-8 rounded-md font-semibold text-sm uppercase tracking-wider text-center flex items-center justify-center"
+                      className="w-full sm:w-auto bg-transparent text-foreground/60 hover:text-primary hover:bg-primary/5 transition-all duration-300 py-3.5 px-8 rounded-md font-medium text-base text-center flex items-center justify-center group"
                     >
-                      Ler Mais <span className="ml-2 text-lg leading-none">↓</span>
+                      Ler mais <span className="ml-2 text-lg leading-none transition-transform duration-300 group-hover:translate-y-1">↓</span>
                     </button>
                   )}
                 </div>
