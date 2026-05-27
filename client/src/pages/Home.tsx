@@ -135,12 +135,12 @@ export default function Home() {
               </span>
               
               <h1 className="font-display text-white lg:text-foreground mb-6 lg:mb-4">
-                Retome sua autonomia <br className="hidden md:block" />
-                <span className="italic">e autocuidado</span>
+                Sente que perdeu o controle<br className="hidden md:block" />
+                <span className="italic">da sua própria vida?</span>
               </h1>
               
               <p className="text-lg md:text-xl text-white/90 lg:text-accent font-serif leading-relaxed mb-10 max-w-xl">
-               Quem sofre em relações Narcisistas geralmente fica com profundos sentimentos de <strong>Vazio e Falta de propósito</strong>. Isso não é acidental, é uma <strong>estratégia</strong>.
+               Quem sofre em relações Narcisistas geralmente fica com um profundo sentimento de <strong>vazio e falta de propósito</strong>. Isso não é acidental, é uma <strong>estratégia</strong>.
               </p>
               
               {/* Botão adaptado: Branco no mobile para destacar no fundo escuro */}
@@ -148,7 +148,7 @@ export default function Home() {
                 href="#dinamica" 
                 className="btn-high-ticket !bg-white !text-black hover:!bg-gray-200 lg:!bg-primary lg:!text-primary-foreground lg:hover:!bg-accent lg:hover:!text-primary shadow-2xl lg:shadow-none"
               >
-                Entenda a dinâmica
+                Quero saber mais
               </a>
             </motion.div>
             
@@ -188,7 +188,7 @@ export default function Home() {
                     Temos a forte tendência de rotular o narcisismo apenas como uma <strong>patologia do egoísmo</strong>: o perfil clássico de alguém agressivo, controlador e manipulador.
                   </p>
                   <p>
-                    No entanto, a prática clínica mostra que o comportamento narcisista é, na sua essência, um mecanismo de defesa contra o <strong>sentimento de desamparo</strong>. Ele não possui apenas a face do "vilão". Existe um segundo perfil, muito mais comum e silencioso: <strong>o narcisista altruísta</strong>.
+                    No entanto, a prática clínica mostra que o comportamento narcisista é, na sua essência, um mecanismo de defesa contra o <strong>sentimento de desamparo</strong>. Ele não possui apenas a face do "vilão". Existe também uma segunda forma de agir, muito mais comum e silenciosa: <strong>o narcisista altruísta</strong>.
                   </p>
                   <p>
                     Para não lidar com a própria frustração ou com o medo da rejeição, o indivíduo transforma a relação em um jogo onde, seja ganhando ou perdendo, <strong>quem cria as regras é ele</strong>. Para manter esse controle, ele opera em dois polos opostos:
