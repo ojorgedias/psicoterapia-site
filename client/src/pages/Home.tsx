@@ -187,7 +187,7 @@ export default function Home() {
                     Temos a forte tendência de rotular o narcisismo apenas como <strong>egoísmo</strong>: o perfil clássico de alguém agressivo, controlador e manipulador.
                   </p>
                   <p>
-                    No entanto, a prática clínica mostra que o comportamento narcisista é, na sua essência, um mecanismo que cria no outro uma <strong>Dependência Emocional</strong>. 
+                    A prática clínica mostra que o comportamento narcisista é, na verdade, um mecanismo focado em gerar <strong>Dependência Emocional</strong>. 
                   </p>
                   <p>
                     O Narcisista não possui apenas a face do "vilão". Existe também uma segunda forma de agir, muito mais comum e silenciosa: <strong>o narcisista com "boas intenções"</strong>.
@@ -203,7 +203,7 @@ export default function Home() {
                   <div className="space-y-4 my-8">
                     <details className="group border border-border/40 bg-secondary/5 rounded-xl p-5 cursor-pointer transition-all">
                       <summary className="font-display font-semibold text-primary text-lg list-none flex justify-between items-center select-none">
-                        <span><strong>O Controlador Egoísta:</strong> O controle acontece pela invalidação.</span>
+                        <span><strong>O Controlador Egoísta:</strong> Focado na invalidação.</span>
                         <span className="text-accent text-xs font-sans border border-accent/20 rounded px-2 py-0.5 transition-transform group-open:bg-accent group-open:text-white">↓</span>
                       </summary>
                       <div className="text-foreground/80 mt-3 text-base md:text-lg leading-relaxed pt-3 border-t border-border/20 cursor-default" onClick={(e) => e.stopPropagation()}>
@@ -214,19 +214,22 @@ export default function Home() {
                           Essa é a visão mais "tradicional" e conhecida do Narcisismo. Quando age dessa forma, o indivíduo mostra a "invasão" de forma clara e direta.
                         </p>
                         <p>
-                          Ficam evidentes os aspectos de manipulação, agressividade, controle e inferiorização. Quando o Narcisista age dessa forma, o comportamento fica mais evidente e "fácil" de reconhecer.
+                          Ele usa de artificios como manipulação, agressividade, controle e inferiorização para diminuir sua autoestima e vontade pessoal.
+                        </p>
+                        <p>
+                          Esse apagamento te faz sentir que você não consegue mais <strong>viver sem ele</strong>.
                         </p>
                       </div>
                     </details>
 
                     <details className="group border border-border/40 bg-secondary/5 rounded-xl p-5 cursor-pointer transition-all">
                       <summary className="font-display font-semibold text-primary text-lg list-none flex justify-between items-center select-none">
-                        <span><strong>O Controlador "bem intencionado":</strong> O controle acontece pelo excesso de "cuidado".</span>
+                        <span><strong>O Controlador "bem intencionado":</strong> Focado no excesso de "cuidado".</span>
                         <span className="text-accent text-xs font-sans border border-accent/20 rounded px-2 py-0.5 transition-transform group-open:bg-accent group-open:text-white">↓</span>
                       </summary>
                       <div className="text-foreground/80 mt-3 text-base md:text-lg leading-relaxed pt-3 border-t border-border/20 cursor-default" onClick={(e) => e.stopPropagation()}>
                         <p className="mb-4">
-                          A pessoa invade o seu espaço com boas intenções, tornando-se uma figura primária e essencial em sua vida.
+                          A pessoa invade o seu espaço com boas intenções, tornando-se uma figura primária e <strong>essencial em sua vida</strong>.
                         </p>
                         <p className="mb-4">
                           Esse comportamento é mais difícil de ser notado. Pode demonstrar-se tanto em relacionamentos amorosos, quanto familiares.
@@ -235,11 +238,14 @@ export default function Home() {
                           Ao ocupar essa posição, o Narcisista se mostra como alguém muito preocupado com você, sempre disponível para "ajudar" e "resolver".
                         </p>
                         <p>
-                          Com o tempo, a ajuda e preocupação, se mostram como um mecanismo que busca controlar sua vida, sabotar outras relações e caminhos que vão contra a vontade do Narcisista.
+                          Com o tempo, a ajuda e preocupação, se mostram como um mecanismo que busca <strong>controlar sua vida</strong> e sabotar outras relações que vão contra a vontade do Narcisista.
                         </p>
                       </div>
                     </details>
                   </div>
+                  <p>
+                    Não são <strong>dois tipos de narcisista</strong>. É um comportamento que a mesma pessoa usa em momentos diferentes. As vezes misturando os dois comportamentos <strong>ao mesmo tempo</strong>.
+                  </p>
                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
                           <div className="bg-white/60 p-6 border-l-4 border-primary shadow-sm">
                             <p className="text-base md:text-lg italic mb-0">"Se você impõe um limite ou diz 'não', é interpretado como uma <strong>ofensa</strong>. O mecanismo do <strong>medo</strong> é usado para causar Dependência Emocional"</p>
