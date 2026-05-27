@@ -179,7 +179,7 @@ export default function Home() {
           <div className="section-padding">
             <div className="container">
               <div className="max-w-3xl mx-auto">
-                <span className="tag-value mb-4 block text-center">O Espectro do Controle</span>
+                
                 <h2 className="text-center mb-12">As duas faces do Narcisismo nas relações</h2>
                 
                 <div className="manifesto-text space-y-6 md:space-y-8 text-lg md:text-xl text-foreground/90 leading-relaxed">
@@ -405,7 +405,7 @@ export default function Home() {
                         onClick={() => setShowMoreContent(true)}
                         className="w-full sm:w-auto bg-transparent text-foreground/60 hover:text-primary hover:bg-primary/5 transition-all duration-300 py-3.5 px-8 rounded-md font-medium text-base text-center flex items-center justify-center group"
                       >
-                        Ler mais <span className="ml-2 text-lg leading-none transition-transform duration-300 group-hover:translate-y-1">+</span>
+                        Mais informações <span className="ml-2 text-lg leading-none transition-transform duration-300 group-hover:translate-y-1">...</span>
                       </button>
                     </div>
                   )}
@@ -522,8 +522,8 @@ export default function Home() {
         <section id="profissional" className="section-padding bg-white">
           <div className="container">
             <div className="max-w-1xl mx-auto">
-              <span className="tag-value mb-4 block text-center">Sobre o Profissional</span>
-              <h3 className="text-center mb-12">Quem conduzirá o seu processo</h3>
+              
+              <h2 className="text-center mb-12">Quem conduzirá o seu processo</h2>
               
               <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center bg-secondary/20 p-8 md:p-12 rounded-2xl border border-border/40 shadow-sm">
                 
