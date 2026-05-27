@@ -604,7 +604,7 @@ export default function Home() {
                 {/* Coluna 2: Preço e Botão */}
                 <div className="bg-white rounded-xl p-8 text-center flex flex-col items-center justify-center h-full shadow-xl">
                   <span className="uppercase tracking-widest text-xs font-bold text-foreground/50 mb-4 block">
-                    Atendimento remoto e individual
+                    Atendimento individual
                   </span>
                   
                   <span className="text-sm text-foreground/60 mb-8 block">Valor da sessão: R$100</span>
@@ -616,7 +616,7 @@ export default function Home() {
                     Consultar Disponibilidade
                   </button>
                   <p className="text-xs text-foreground/50 italic mb-0">
-                    Agendamento direto e seguro via WhatsApp.
+                    Agendamento direto via WhatsApp.
                   </p>
                 </div>
 
