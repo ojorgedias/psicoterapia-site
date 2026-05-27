@@ -240,9 +240,17 @@ export default function Home() {
                       </div>
                     </details>
                   </div>
+                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
+                          <div className="bg-white/60 p-6 border-l-4 border-primary shadow-sm">
+                            <p className="text-base md:text-lg italic mb-0">"Se você impõe um limite ou diz 'não', é interpretado como uma <strong>ofensa</strong>. O mecanismo do <strong>medo</strong> é usado para te fazer se sentir inferior."</p>
+                          </div>
+                          <div className="bg-white/60 p-6 border-l-4 border-accent shadow-sm">
+                            <p className="text-base md:text-lg italic mb-0">"Se você recusa a ajuda ou o cuidado oferecido, é interpretado como <strong>ingratidão</strong>. O mecanismo da <strong>culpa</strong> é usado para te fazer se sentir inferior."</p>
+                          </div>
+                        </div>
 
                   <p>
-                    Em ambos os casos, o resultado final é o mesmo: <strong>a sua autonomia é apagada de forma constante</strong> para que o narcisista se torne o foco da relação.
+                    De qualquer forma, o resultado final é o mesmo: <strong>a sua autonomia é apagada de forma constante</strong> para que o narcisista se torne o foco da relação.
                   </p>
                   <p>
                     Conforme o tempo passa, seus sentimentos e ideias passam a ser cada vez mais <strong>focados no outro</strong>, fazendo com que o centro da sua vida não seja mais você. 
@@ -386,15 +394,6 @@ export default function Home() {
                           Qualquer sentimento desconfortável é automaticamente rejeitado por ele e <strong>transferido para você</strong>.
                         </p>
                         
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
-                          <div className="bg-white/60 p-6 border-l-4 border-primary shadow-sm">
-                            <p className="text-base md:text-lg italic mb-0">"Se você impõe um limite ou diz 'não', é interpretado como uma <strong>ofensa</strong>. O mecanismo do <strong>medo</strong> é usado para te fazer se sentir inferior."</p>
-                          </div>
-                          <div className="bg-white/60 p-6 border-l-4 border-accent shadow-sm">
-                            <p className="text-base md:text-lg italic mb-0">"Se você recusa a ajuda ou o cuidado oferecido, é interpretado como <strong>ingratidão</strong>. O mecanismo da <strong>culpa</strong> é usado para te fazer se sentir inferior."</p>
-                          </div>
-                        </div>
-
                         <p>
                           Para tentar sobreviver a esse ambiente onde a realidade é constantemente manipulada, a vítima geralmente desenvolve duas respostas: 
                         </p>
