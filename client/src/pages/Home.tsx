@@ -301,6 +301,41 @@ export default function Home() {
 
                   {/* CAIXAS DE PERGUNTAS (ACORDEÕES) */}
                   <div className="space-y-4 mb-10">
+                                        <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
+                      <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
+                        <span>"Terapia não é coisa para loucos?"</span>
+                        <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
+                      </summary>                    
+                      <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
+                        <p>
+                          Existe um senso comum de que quem busca terapia é "louco" ou "ruim da cabeça".
+                        </p>
+                        <p>
+                          Diversas vezes, em nosso cotidiano, enfrentamos situações que nos trazem a sensação de estar em um "beco sem saída". 
+                        </p>
+                        <p>
+                          Sabe quando um aparelho para de funcionar e o "jeitinho na tomada" não resolve mais? 
+                        </p>
+                        <p>
+                          Nessas situações, buscamos ajuda de um <strong>especialista</strong> que tenha o conhecimento e as ferramentas certas para entender e corrigir o problema.
+                        </p>
+                        <p>
+                          A mesma coisa acontece com nossa mente. As ferramentas que temos para solucionar problemas, algumas vezes <strong>deixam de ser suficientes</strong>.
+                        </p>
+                        <p>
+                          Da mesma forma que um técnico usa seu <strong>conhecimento</strong> para compreender e resolver o problema, o terapeuta te ajuda a compreender quais ferramentas podem ser utilizadas para te tirar do "beco sem saída".
+                        </p>
+                        <p>
+                          Te chamar de "maluco" por buscar ajuda especializada pode ser um mecanismo usado pelo Narcisista para te <strong>manter preso na relação</strong>.
+                        </p>
+                        <p>
+                          O processo terapêutico é sigiloso, especializado e focado em te ajudar a <strong>conhecer a si mesmo</strong>.
+                        </p>
+                        <p>
+                          Não existe <strong>cura milagrosa</strong> ou <strong>formula mágica</strong>. O foco do processo é te ajudar a se fortalecer para tomar as próprias decisões.
+                        </p>
+                      </div>
+                    </details>
                     <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
                       <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
                         <span>"Eu posso ser narcisista sem saber?"</span>
@@ -324,7 +359,7 @@ export default function Home() {
                     
                     <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
                       <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
-                        <span>"Posso estar reproduzindo comportamentos Narcisistas?"</span>
+                        <span>"Posso reproduzir comportamentos Narcisistas?"</span>
                         <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
                       </summary>
                       
@@ -348,7 +383,7 @@ export default function Home() {
                           O Narcisista Patológico, por outro lado, tem um mecanismo que evita desconforto de se sentir rejeitado, por isso reproduz comportamentos semelhantes, mas <strong>quem sofre é sempre o outro</strong>. 
                         </p>
                         <p>
-                          Ele usa de artifícios diretos e indiretos, criando situações que façam o outro se sentir desconfortável no trabalho, desde alimentar fofocas, intrigas, disputas, até comportamentos "altruístas" como arrumar um trabalho novo (que a pessoa não goste tanto).
+                          Ele usa de artifícios diretos e indiretos, criando situações que façam o outro se sentir desconfortável no trabalho, desde alimentar fofocas, intrigas, disputas, até comportamentos "bem intencionados" como arrumar um trabalho novo (que a pessoa não goste tanto).
                         </p> 
                         <p> 
                           Uma das diferenças principais é que ele pode <strong>simular estar em sofrimento</strong>, mas a intenção é <strong>transferir o sentimento para o outro</strong>, fazendo o companheiro sentir-se culpado pelo sofrimento dele. 
