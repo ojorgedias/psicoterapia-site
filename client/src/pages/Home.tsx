@@ -587,7 +587,7 @@ export default function Home() {
                       <div className="w-8 h-8 rounded-full bg-accent text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-1">1</div>
                       <div>
                         <h4 className="font-display font-semibold text-white text-lg mb-1">A Primeira Sessão</h4>
-                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">Um espaço livre de julgamentos morais. O objetivo é compreender a sua história de vida e das suas relações, colocando <strong>você no centro do processo.</strong></p>
+                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">Um espaço livre de julgamentos morais. O objetivo é compreender a sua história de vida e suas relações, colocando <strong>você no centro do processo.</strong></p>
                       </div>
                     </div>
 
@@ -630,7 +630,7 @@ export default function Home() {
       <footer className="py-12 bg-background border-t border-border">
         <div className="container flex flex-col md:flex-row justify-between items-center gap-8">
           <p className="text-[10px] uppercase tracking-widest text-muted-foreground">
-            &copy; {new Date().getFullYear()} Jorge Dias — Psicoterapia e Psicanálise.
+            &copy; {new Date().getFullYear()} Jorge Dias — Psicoterapia Clínica.
           </p>
           <div className="flex gap-8 text-[10px] uppercase tracking-[0.2em] font-semibold">
             <Link href="/politica-privacidade" className="hover:text-primary transition-colors">Privacidade</Link>
