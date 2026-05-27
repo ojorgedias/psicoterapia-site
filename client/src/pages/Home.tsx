@@ -190,7 +190,7 @@ export default function Home() {
                     No entanto, a prática clínica mostra que o comportamento narcisista é, na sua essência, um mecanismo de defesa contra o <strong>sentimento de desamparo</strong>. Ele não possui apenas a face do "vilão". Existe também uma segunda forma de agir, muito mais comum e silenciosa: <strong>o narcisista altruísta</strong>.
                   </p>
                   <p>
-                    Para não lidar com a própria frustração ou com o medo da rejeição, o indivíduo transforma a relação em um jogo onde, seja ganhando ou perdendo, <strong>quem cria as regras é ele</strong>. Para manter esse controle, ele opera em dois polos opostos:
+                    Para não lidar com a própria frustração ou com o medo da rejeição, o Narcisista transforma a relação em um jogo onde, seja ganhando ou perdendo, <strong>quem cria as regras é ele</strong>. Para manter esse controle, ele manipula de duas formas diferentes:
                   </p>
                   
                   {/* RECURSO EXPANSÍVEL NOS DOIS POLOS */}
@@ -236,7 +236,10 @@ export default function Home() {
                   </div>
 
                   <p>
-                    Em ambos os casos, o resultado final é o mesmo: <strong>a sua autonomia é progressivamente apagada</strong> para sustentar o mecanismo de defesa do outro.
+                    Em ambos os casos, o resultado final é o mesmo: <strong>a sua autonomia é apagada de forma constante</strong> para que o <strong>narcisista</strong> se torne o foco da relação.
+                  </p>
+                  <p>
+                    Conforme o tempo passa, suas vontades e pensamentos passam a ser cada vez mais <strong>apagados</strong>. A terapia especializada tem como inteção <strong>resgatar sua liberdade pessoal.</strong>
                   </p>
 
                   {/* NOVOS PASSOS DO PROCESSO TERAPÊUTICO */}
