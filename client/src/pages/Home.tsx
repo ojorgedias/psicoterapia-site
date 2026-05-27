@@ -204,7 +204,7 @@ export default function Home() {
                     <details className="group border border-border/40 bg-secondary/5 rounded-xl p-5 cursor-pointer transition-all">
                       <summary className="font-display font-semibold text-primary text-lg list-none flex justify-between items-center select-none">
                         <span><strong>O Extremo Egoísta:</strong> O controle acontece pela invalidação.</span>
-                        <span className="text-accent text-xs font-sans border border-accent/20 rounded px-2 py-0.5 transition-transform group-open:bg-accent group-open:text-white">+</span>
+                        <span className="text-accent text-xs font-sans border border-accent/20 rounded px-2 py-0.5 transition-transform group-open:bg-accent group-open:text-white">↓</span>
                       </summary>
                       <div className="text-foreground/80 mt-3 text-base md:text-lg leading-relaxed pt-3 border-t border-border/20 cursor-default" onClick={(e) => e.stopPropagation()}>
                         <p className="mb-4">
@@ -222,7 +222,7 @@ export default function Home() {
                     <details className="group border border-border/40 bg-secondary/5 rounded-xl p-5 cursor-pointer transition-all">
                       <summary className="font-display font-semibold text-primary text-lg list-none flex justify-between items-center select-none">
                         <span><strong>O Extremo Altruísta:</strong> O controle acontece pelo excesso de "cuidado".</span>
-                        <span className="text-accent text-xs font-sans border border-accent/20 rounded px-2 py-0.5 transition-transform group-open:bg-accent group-open:text-white">+</span>
+                        <span className="text-accent text-xs font-sans border border-accent/20 rounded px-2 py-0.5 transition-transform group-open:bg-accent group-open:text-white">↓</span>
                       </summary>
                       <div className="text-foreground/80 mt-3 text-base md:text-lg leading-relaxed pt-3 border-t border-border/20 cursor-default" onClick={(e) => e.stopPropagation()}>
                         <p className="mb-4">
@@ -242,7 +242,7 @@ export default function Home() {
                   </div>
 
                   <p>
-                    Em ambos os casos, o resultado final é o mesmo: <strong>a sua autonomia é apagada de forma constante</strong> para que o <strong>narcisista</strong> se torne o foco da relação.
+                    Em ambos os casos, o resultado final é o mesmo: <strong>a sua autonomia é apagada de forma constante</strong> para que o narcisista se torne o foco da relação.
                   </p>
                   <p>
                     Conforme o tempo passa, seus sentimentos e ideias passam a ser cada vez mais <strong>focados no outro</strong>, fazendo com que o centro da sua vida não seja mais você. 
@@ -287,7 +287,7 @@ export default function Home() {
                     <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
                       <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
                         <span>"Eu posso ser narcisista sem saber?"</span>
-                        <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">↓</span>
+                        <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
                       </summary>                    
                       <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
                         <p>
@@ -308,7 +308,7 @@ export default function Home() {
                     <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
                       <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
                         <span>"Posso estar reproduzindo comportamentos Narcisistas?"</span>
-                        <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">↓</span>
+                        <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
                       </summary>
                       
                       <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
