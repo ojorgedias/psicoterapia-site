@@ -287,7 +287,7 @@ export default function Home() {
                     <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
                       <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
                         <span>"Eu posso ser narcisista sem saber?"</span>
-                        <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
+                        <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">↓</span>
                       </summary>                    
                       <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
                         <p>
@@ -308,7 +308,7 @@ export default function Home() {
                     <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
                       <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
                         <span>"Posso estar reproduzindo comportamentos Narcisistas?"</span>
-                        <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
+                        <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">↓</span>
                       </summary>
                       
                       <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
@@ -353,7 +353,7 @@ export default function Home() {
                         onClick={() => setShowMoreContent(true)}
                         className="w-full sm:w-auto bg-transparent text-foreground/60 hover:text-primary hover:bg-primary/5 transition-all duration-300 py-3.5 px-8 rounded-md font-medium text-base text-center flex items-center justify-center group"
                       >
-                        Ler mais <span className="ml-2 text-lg leading-none transition-transform duration-300 group-hover:translate-y-1">↓</span>
+                        Ler mais <span className="ml-2 text-lg leading-none transition-transform duration-300 group-hover:translate-y-1">+</span>
                       </button>
                     </div>
                   )}
