@@ -203,7 +203,7 @@ export default function Home() {
                   <div className="space-y-4 my-8">
                     <details className="group border border-border/40 bg-secondary/5 rounded-xl p-5 cursor-pointer transition-all">
                       <summary className="font-display font-semibold text-primary text-lg list-none flex justify-between items-center select-none">
-                        <span><strong>O Controlador Egoísta:</strong> Focado na invalidação.</span>
+                        <span><strong>O Controlador Egoísta:</strong> Focado na invalidação e apagamento da indivualidade.</span>
                         <span className="text-accent text-xs font-sans border border-accent/20 rounded px-2 py-0.5 transition-transform group-open:bg-accent group-open:text-white">↓</span>
                       </summary>
                       <div className="text-foreground/80 mt-3 text-base md:text-lg leading-relaxed pt-3 border-t border-border/20 cursor-default" onClick={(e) => e.stopPropagation()}>
@@ -595,7 +595,7 @@ export default function Home() {
                       <div className="w-8 h-8 rounded-full bg-accent text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-1">2</div>
                       <div>
                         <h4 className="font-display font-semibold text-white text-lg mb-1">A Dinâmica</h4>
-                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">Sessões semanais (50 minutos), conduzidas online via Google Meet, com total sigilo. Respeitando o tempo do seu inconsciente.</p>
+                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">Sessões semanais de 50 minutos, conduzidas online via Google Meet, com total sigilo. Respeitando o tempo do seu inconsciente.</p>
                       </div>
                     </div>
                   </div>
@@ -604,10 +604,10 @@ export default function Home() {
                 {/* Coluna 2: Preço e Botão */}
                 <div className="bg-white rounded-xl p-8 text-center flex flex-col items-center justify-center h-full shadow-xl">
                   <span className="uppercase tracking-widest text-xs font-bold text-foreground/50 mb-4 block">
-                    Atendimento Online
+                    Atendimento remoto e individual
                   </span>
                   
-                  <span className="text-sm text-foreground/60 mb-8 block">Sessões semanais.</span>
+                  <span className="text-sm text-foreground/60 mb-8 block">Valor da sessão: R$100</span>
                   
                   <button
                     onClick={handleContactClick}
