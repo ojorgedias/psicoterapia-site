@@ -187,10 +187,16 @@ export default function Home() {
                     Temos a forte tendência de rotular o narcisismo apenas como uma <strong>patologia do egoísmo</strong>: o perfil clássico de alguém agressivo, controlador e manipulador.
                   </p>
                   <p>
-                    No entanto, a prática clínica mostra que o comportamento narcisista é, na sua essência, um mecanismo de defesa contra o <strong>sentimento de desamparo</strong>. Ele não possui apenas a face do "vilão". Existe também uma segunda forma de agir, muito mais comum e silenciosa: <strong>o narcisista altruísta</strong>.
+                    No entanto, a prática clínica mostra que o comportamento narcisista é, na sua essência, um mecanismo de defesa contra o <strong>sentimento de desamparo</strong>. 
                   </p>
                   <p>
-                    Para não lidar com a própria frustração ou com o medo da rejeição, o Narcisista transforma a relação em um jogo onde, seja ganhando ou perdendo, <strong>quem cria as regras é ele</strong>. Para manter esse controle, ele manipula de duas formas diferentes:
+                    O Narcisista não possui apenas a face do "vilão". Existe também uma segunda forma de agir, muito mais comum e silenciosa: <strong>o narcisista altruísta</strong>.
+                  </p>
+                  <p>
+                    Para não lidar com a frustração e rejeição, o Narcisista transforma a relação em um jogo onde, seja ganhando ou perdendo, <strong>quem cria as regras é ele</strong>. 
+                  </p>
+                  <p>
+                    Para manter esse controle, ele manipula de duas formas diferentes:
                   </p>
                   
                   {/* RECURSO EXPANSÍVEL NOS DOIS POLOS */}
@@ -239,7 +245,10 @@ export default function Home() {
                     Em ambos os casos, o resultado final é o mesmo: <strong>a sua autonomia é apagada de forma constante</strong> para que o <strong>narcisista</strong> se torne o foco da relação.
                   </p>
                   <p>
-                    Conforme o tempo passa, suas vontades e pensamentos passam a ser cada vez mais <strong>apagados</strong>. A terapia especializada tem como inteção <strong>resgatar sua liberdade pessoal.</strong>
+                    Conforme o tempo passa, seus sentimentos e ideias passam a ser cada vez mais <strong>focados no outro</strong>, fazendo com que o centro da sua vida não seja mais você. 
+                  </p>
+                  <p>
+                    A terapia especializada tem como inteção <strong>resgatar sua liberdade pessoal</strong>.
                   </p>
 
                   {/* NOVOS PASSOS DO PROCESSO TERAPÊUTICO */}
