@@ -184,16 +184,16 @@ export default function Home() {
                 
                 <div className="manifesto-text space-y-6 md:space-y-8 text-lg md:text-xl text-foreground/90 leading-relaxed">
                   <p>
-                    Temos a forte tendência de rotular o narcisismo apenas como uma <strong>patologia do egoísmo</strong>: o perfil clássico de alguém agressivo, controlador e manipulador.
+                    Temos a forte tendência de rotular o narcisismo apenas como <strong>egoísmo</strong>: o perfil clássico de alguém agressivo, controlador e manipulador.
                   </p>
                   <p>
-                    No entanto, a prática clínica mostra que o comportamento narcisista é, na sua essência, um mecanismo de defesa contra o <strong>sentimento de desamparo</strong>. 
+                    No entanto, a prática clínica mostra que o comportamento narcisista é, na sua essência, um mecanismo que cria no outro uma <strong>Dependência Emocional</strong>. 
                   </p>
                   <p>
-                    O Narcisista não possui apenas a face do "vilão". Existe também uma segunda forma de agir, muito mais comum e silenciosa: <strong>o narcisista altruísta</strong>.
+                    O Narcisista não possui apenas a face do "vilão". Existe também uma segunda forma de agir, muito mais comum e silenciosa: <strong>o narcisista com "boas intenções"</strong>.
                   </p>
                   <p>
-                    Para não lidar com a frustração e rejeição, o Narcisista transforma a relação em um jogo onde, seja ganhando ou perdendo, <strong>quem cria as regras é ele</strong>. 
+                    Para provocar a dependência emocional, o Narcisista transforma a relação em um jogo onde <strong>quem cria as regras é ele</strong>. 
                   </p>
                   <p>
                     Para manter esse controle, ele manipula de duas formas diferentes:
@@ -203,7 +203,7 @@ export default function Home() {
                   <div className="space-y-4 my-8">
                     <details className="group border border-border/40 bg-secondary/5 rounded-xl p-5 cursor-pointer transition-all">
                       <summary className="font-display font-semibold text-primary text-lg list-none flex justify-between items-center select-none">
-                        <span><strong>O Extremo Egoísta:</strong> O controle acontece pela invalidação.</span>
+                        <span><strong>O Controlador Egoísta:</strong> O controle acontece pela invalidação.</span>
                         <span className="text-accent text-xs font-sans border border-accent/20 rounded px-2 py-0.5 transition-transform group-open:bg-accent group-open:text-white">↓</span>
                       </summary>
                       <div className="text-foreground/80 mt-3 text-base md:text-lg leading-relaxed pt-3 border-t border-border/20 cursor-default" onClick={(e) => e.stopPropagation()}>
@@ -221,7 +221,7 @@ export default function Home() {
 
                     <details className="group border border-border/40 bg-secondary/5 rounded-xl p-5 cursor-pointer transition-all">
                       <summary className="font-display font-semibold text-primary text-lg list-none flex justify-between items-center select-none">
-                        <span><strong>O Extremo Altruísta:</strong> O controle acontece pelo excesso de "cuidado".</span>
+                        <span><strong>O Controlador "bem intencionado":</strong> O controle acontece pelo excesso de "cuidado".</span>
                         <span className="text-accent text-xs font-sans border border-accent/20 rounded px-2 py-0.5 transition-transform group-open:bg-accent group-open:text-white">↓</span>
                       </summary>
                       <div className="text-foreground/80 mt-3 text-base md:text-lg leading-relaxed pt-3 border-t border-border/20 cursor-default" onClick={(e) => e.stopPropagation()}>
@@ -235,22 +235,22 @@ export default function Home() {
                           Ao ocupar essa posição, o Narcisista se mostra como alguém muito preocupado com você, sempre disponível para "ajudar" e "resolver".
                         </p>
                         <p>
-                          Muitas vezes o excesso de ajuda e preocupação, na verdade, se mostram como uma tentativa de controlar sua vida, minar outras relações e caminhos que fogem à expectativa dele.
+                          Com o tempo, a ajuda e preocupação, se mostram como um mecanismo que busca controlar sua vida, sabotar outras relações e caminhos que vão contra a vontade do Narcisista.
                         </p>
                       </div>
                     </details>
                   </div>
                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
                           <div className="bg-white/60 p-6 border-l-4 border-primary shadow-sm">
-                            <p className="text-base md:text-lg italic mb-0">"Se você impõe um limite ou diz 'não', é interpretado como uma <strong>ofensa</strong>. O mecanismo do <strong>medo</strong> é usado para te fazer se sentir inferior."</p>
+                            <p className="text-base md:text-lg italic mb-0">"Se você impõe um limite ou diz 'não', é interpretado como uma <strong>ofensa</strong>. O mecanismo do <strong>medo</strong> é usado para causar Dependência Emocional"</p>
                           </div>
                           <div className="bg-white/60 p-6 border-l-4 border-accent shadow-sm">
-                            <p className="text-base md:text-lg italic mb-0">"Se você recusa a sugestão ou ajuda que ele oferece, é interpretado como <strong>ingratidão</strong>. O mecanismo da <strong>culpa</strong> é usado para te fazer se sentir inferior."</p>
+                            <p className="text-base md:text-lg italic mb-0">"Se você recusa a sugestão ou ajuda que ele oferece, é interpretado como <strong>ingratidão</strong>. O mecanismo da <strong>culpa</strong> é usado para causar Dependência Emocional."</p>
                           </div>
                         </div>
 
                   <p>
-                    De qualquer forma, o resultado final é o mesmo: <strong>a sua autonomia é apagada de forma constante</strong> para que o narcisista se torne o foco da relação.
+                    De qualquer forma, o resultado final é o mesmo: <strong>a sua autonomia é apagada de forma constante</strong> para que você não consiga pensar ou viver sem ele.
                   </p>
                   <p>
                     Conforme o tempo passa, seus sentimentos e ideias passam a ser cada vez mais <strong>focados no outro</strong>, fazendo com que o centro da sua vida não seja mais você. 
@@ -271,7 +271,7 @@ export default function Home() {
                       </li>
                       <li className="flex items-start gap-4">
                         <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">2</span>
-                        <span>Livrar-se dos "pontos fracos" que te fazem se sentir apagado e <strong>lidar com o vazio</strong> causado.</span>
+                        <span>Livrar-se dos "pontos fracos" que te prendem e lidar com o <strong>sentimento de vazio</strong> causado pela Dependência Emocional.</span>
                       </li>
                       <li className="flex items-start gap-4">
                         <span className="w-8 h-8 rounded-full bg-accent/20 text-accent flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">3</span>
