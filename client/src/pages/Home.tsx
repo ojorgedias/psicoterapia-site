@@ -53,7 +53,7 @@ export default function Home() {
       >
         <nav className="container flex items-center justify-between">
           <Link href="/" className="font-display text-lg md:text-xl font-bold tracking-tighter text-primary">
-            Jorge Dias — <span className="font-normal opacity-70">Psicoterapia e Psicanálise</span>
+            Jorge Dias — <span className="font-normal opacity-70">Psicoterapia especializada em relações narcisistas</span>
           </Link>
 
           {/* Desktop Nav */}
@@ -135,8 +135,8 @@ export default function Home() {
               </span>
               
               <h1 className="font-display text-white lg:text-foreground mb-6 lg:mb-4">
-                Sente que perdeu o controle<br className="hidden md:block" />
-                <span className="italic">da sua própria vida?</span>
+                Sente que perdeu o controle <br className="hidden md:block" />
+                <span className="italic">de suas decisões?</span>
               </h1>
               
               <p className="text-lg md:text-xl text-white/90 lg:text-accent font-serif leading-relaxed mb-10 max-w-xl">
@@ -148,7 +148,7 @@ export default function Home() {
                 href="#dinamica" 
                 className="btn-high-ticket !bg-white !text-black hover:!bg-gray-200 lg:!bg-primary lg:!text-primary-foreground lg:hover:!bg-accent lg:hover:!text-primary shadow-2xl lg:shadow-none"
               >
-                Quero saber mais
+                entenda a dinâmica
               </a>
             </motion.div>
             
@@ -176,7 +176,6 @@ export default function Home() {
         {/* SECTION 3: O Manifesto (A Dinâmica) */}
         <section id="dinamica" className="bg-white">
           
-          {/* Sub-section 1: As duas faces */}
           <div className="section-padding">
             <div className="container">
               <div className="max-w-3xl mx-auto">
@@ -224,7 +223,7 @@ export default function Home() {
                           A pessoa invade o seu espaço com boas intenções, tornando-se uma figura primária e essencial em sua vida.
                         </p>
                         <p className="mb-4">
-                          Esse comportamento é mais difícil de ser notado. Pode demonstrar-se tanto em relacionamentos amorosos, quanto famliares.
+                          Esse comportamento é mais difícil de ser notado. Pode demonstrar-se tanto em relacionamentos amorosos, quanto familiares.
                         </p>
                         <p className="mb-4">
                           Ao ocupar essa posição, o Narcisista se mostra como alguém muito preocupado com você, sempre disponível para "ajudar" e "resolver".
@@ -239,103 +238,120 @@ export default function Home() {
                   <p>
                     Em ambos os casos, o resultado final é o mesmo: <strong>a sua autonomia é progressivamente apagada</strong> para sustentar o mecanismo de defesa do outro.
                   </p>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <div className="section-padding bg-secondary/10 border-y border-border/30">
-            <div className="container">
-              <div className="max-w-1xl mx-auto">
-                <div className="space-y-1">
- 
-                  <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
-                    <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
-                      <span>"Eu posso ser narcisista sem saber?"</span>
-                      <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
-                    </summary>                    
-                    <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
-                      <p>
-                        Muitas pessoas chegam ao consultório aterrorizadas pelas definições da internet, temendo ser "o monstro" das suas relações.
-                      </p>
-                      <p>
-                        O fato de você questionar o impacto das suas ações e buscar terapia indica que a <strong>sua empatia está ativa</strong>, o que diminui as possibilidades do diagnóstico de Narcisismo Patológico. 
-                      </p>
-                      <p>
-                        Isso não anula o fato de que defesas narcísicas mal resolvidas podem estar <strong>atrapalhando sua vida pessoal</strong>, mas demonstra existência de um caminho para a mudança.
-                      </p>
-                      <p>
-                        O nosso foco não é entregar rótulos, mas compreender <strong>por que você construiu essas defesas</strong> e como elas afetam sua vida.
-                      </p>
-                    </div>
-                  </details>
-                  
-                  <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
-                    <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
-                      <span>"Posso estar reproduzindo comportamentos Narcisistas?"</span>
-                      <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
-                    </summary>
-                    
-                    <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
-                      <p>
-                        Em geral, a reprodução de Comportamentos Narcisistas está diretamente relacionada a <strong>Dependência Emocional</strong>.
-                      </p>
-                      <p>
-                        Não significa necessariamente apenas "não querer ficar sozinho". Na prática, dependência emocional é uma dificuldade em lidar com aspectos da vida da outra pessoa que <strong>não envolvam você</strong>.
-                      </p>
-                      <p>
-                        Por exemplo: <em>"Não gosto do trabalho atual do meu companheiro"</em>. Muitas vezes esse "não gostar" significa perceber que a pessoa se interessa e <strong>investe muita energia no trabalho</strong>, o que faz você se sentir ameaçado.
-                      </p>
-                      <p>
-                        Nessas situações, quem reproduz comportamento Narcisista pode brigar, ter crises de ciumes, reclamar de coisas que envolvam o trabalho do companheiro, etc.
-                      </p> 
-                      <p>
-                        Isso demonstra que a pessoa <strong>sente ativamente</strong> o desconforto causado pela <strong>dependência emocional</strong> e sofre, ao mesmo tempo que faz o outro sofrer.
-                      </p>
-                      <p>
-                        O Narcisista Patológico, por outro lado, tem um mecanismo que evita desconforto de se sentir rejeitado, por isso reproduz comportamentos semelhantes, mas <strong>quem sofre é sempre o outro</strong>. 
-                      </p>
-                      <p>
-                        Ele usa de artifícios diretos e indiretos, criando situações que façam o outro se sentir desconfortável no trabalho, desde alimentar fofocas, intrigas, disputas, até comportamentos "altruístas" como arrumar um trabalho novo (que a pessoa não goste tanto).
-                      </p> 
-                      <p> 
-                        Uma das diferenças principais é que ele pode <strong>simular estar em sofrimento</strong>, mas a intenção é <strong>transferir o sentimento para o outro</strong>, fazendo o companheiro sentir-se culpado pelo sofrimento dele. 
-                      </p>
-                      <p>
-                        A Dependência Emocional é a mesma nos dois casos, mas o objetivo se torna diferente. Enquanto um compartilha o sofrimento, o outro manipula a realidade para <strong>manter-se sendo o ponto central da vida do companheiro</strong>.
-                      </p>
-                      <p>
-                        A reprodução de comportamentos narcisistas é muito mais comum e naturalizada do que imaginamos. Felizmente, o trabalho terapêutico nesses casos ajuda a <strong>compreender e resolver</strong> esses comportamentos.
-                      </p>
-                    </div>
-                  </details>
+                  {/* NOVOS PASSOS DO PROCESSO TERAPÊUTICO */}
+                  <div className="mt-12 bg-white border border-border/50 shadow-sm p-8 rounded-2xl">
+                    <h3 className="text-xl md:text-2xl font-display text-primary mb-6 font-semibold border-b border-border/40 pb-4">
+                      O processo terapêutico funciona em três etapas:
+                    </h3>
+                    <ul className="space-y-6 text-base md:text-lg text-foreground/80">
+                      <li className="flex items-start gap-4">
+                        <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">1</span>
+                        <span>Compreender a relação narcisista e as <strong>invasões</strong> que diminuíram sua autonomia.</span>
+                      </li>
+                      <li className="flex items-start gap-4">
+                        <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">2</span>
+                        <span>Livrar-se dos "pontos fracos" que te fazem se sentir apagado e <strong>lidar com o vazio</strong> causado.</span>
+                      </li>
+                      <li className="flex items-start gap-4">
+                        <span className="w-8 h-8 rounded-full bg-accent/20 text-accent flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">3</span>
+                        <span>Trabalhar seu autoconhecimento para preencher-se de si mesmo e <strong>retomar o controle</strong> da sua vida.</span>
+                      </li>
+                    </ul>
+                  </div>
 
-                </div>
-                
-                {/* BOTÕES DE DECISÃO E LER MAIS */}
-                <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-10 pb-4">
-                  <a 
-                    href="#clinica" 
-                    className="w-full sm:w-auto bg-primary text-primary-foreground hover:bg-accent hover:text-primary transition-colors duration-300 py-4 px-8 rounded-md font-semibold text-sm uppercase tracking-wider text-center"
-                  >
-                    Agendar Sessão
-                  </a>
-                  
-                  {!showMoreContent && (
-                    <button 
-                      onClick={() => setShowMoreContent(true)}
-                      className="w-full sm:w-auto bg-transparent text-foreground/60 hover:text-primary hover:bg-primary/5 transition-all duration-300 py-3.5 px-8 rounded-md font-medium text-base text-center flex items-center justify-center group"
+                  {/* BOTÃO AGENDAR SESSÃO */}
+                  <div className="flex justify-center mt-10 mb-14">
+                    <a 
+                      href="#clinica" 
+                      className="w-full sm:w-auto bg-primary text-primary-foreground hover:bg-accent hover:text-primary transition-colors duration-300 py-4 px-10 rounded-md font-semibold text-sm uppercase tracking-wider text-center shadow-lg"
                     >
-                      Ler mais <span className="ml-2 text-lg leading-none transition-transform duration-300 group-hover:translate-y-1">↓</span>
-                    </button>
-                  )}
-                </div>
+                      Agendar Sessão
+                    </a>
+                  </div>
 
+                  {/* CAIXAS DE PERGUNTAS (ACORDEÕES) */}
+                  <div className="space-y-4 mb-10">
+                    <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
+                      <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
+                        <span>"Eu posso ser narcisista sem saber?"</span>
+                        <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
+                      </summary>                    
+                      <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
+                        <p>
+                          Muitas pessoas chegam ao consultório aterrorizadas pelas definições da internet, temendo ser "o monstro" das suas relações.
+                        </p>
+                        <p>
+                          O fato de você questionar o impacto das suas ações e buscar terapia indica que a <strong>sua empatia está ativa</strong>, o que diminui as possibilidades do diagnóstico de Narcisismo Patológico. 
+                        </p>
+                        <p>
+                          Isso não anula o fato de que defesas narcísicas mal resolvidas podem estar <strong>atrapalhando sua vida pessoal</strong>, mas demonstra existência de um caminho para a mudança.
+                        </p>
+                        <p>
+                          O nosso foco não é entregar rótulos, mas compreender <strong>por que você construiu essas defesas</strong> e como elas afetam sua vida.
+                        </p>
+                      </div>
+                    </details>
+                    
+                    <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
+                      <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
+                        <span>"Posso estar reproduzindo comportamentos Narcisistas?"</span>
+                        <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
+                      </summary>
+                      
+                      <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
+                        <p>
+                          Em geral, a reprodução de Comportamentos Narcisistas está diretamente relacionada a <strong>Dependência Emocional</strong>.
+                        </p>
+                        <p>
+                          Não significa necessariamente apenas "não querer ficar sozinho". Na prática, dependência emocional é uma dificuldade em lidar com aspectos da vida da outra pessoa que <strong>não envolvam você</strong>.
+                        </p>
+                        <p>
+                          Por exemplo: <em>"Não gosto do trabalho atual do meu companheiro"</em>. Muitas vezes esse "não gostar" significa perceber que a pessoa se interessa e <strong>investe muita energia no trabalho</strong>, o que faz você se sentir ameaçado.
+                        </p>
+                        <p>
+                          Nessas situações, quem reproduz comportamento Narcisista pode brigar, ter crises de ciumes, reclamar de coisas que envolvam o trabalho do companheiro, etc.
+                        </p> 
+                        <p>
+                          Isso demonstra que a pessoa <strong>sente ativamente</strong> o desconforto causado pela <strong>dependência emocional</strong> e sofre, ao mesmo tempo que faz o outro sofrer.
+                        </p>
+                        <p>
+                          O Narcisista Patológico, por outro lado, tem um mecanismo que evita desconforto de se sentir rejeitado, por isso reproduz comportamentos semelhantes, mas <strong>quem sofre é sempre o outro</strong>. 
+                        </p>
+                        <p>
+                          Ele usa de artifícios diretos e indiretos, criando situações que façam o outro se sentir desconfortável no trabalho, desde alimentar fofocas, intrigas, disputas, até comportamentos "altruístas" como arrumar um trabalho novo (que a pessoa não goste tanto).
+                        </p> 
+                        <p> 
+                          Uma das diferenças principais é que ele pode <strong>simular estar em sofrimento</strong>, mas a intenção é <strong>transferir o sentimento para o outro</strong>, fazendo o companheiro sentir-se culpado pelo sofrimento dele. 
+                        </p>
+                        <p>
+                          A Dependência Emocional é a mesma nos dois casos, mas o objetivo se torna diferente. Enquanto um compartilha o sofrimento, o outro manipula a realidade para <strong>manter-se sendo o ponto central da vida do companheiro</strong>.
+                        </p>
+                        <p>
+                          A reprodução de comportamentos narcisistas é muito mais comum e naturalizada do que imaginamos. Felizmente, o trabalho terapêutico nesses casos ajuda a <strong>compreender e resolver</strong> esses comportamentos.
+                        </p>
+                      </div>
+                    </details>
+                  </div>
+
+                  {/* BOTÃO LER MAIS (APARECE APENAS SE O CONTEÚDO EXTRA ESTIVER OCULTO) */}
+                  {!showMoreContent && (
+                    <div className="flex justify-center pt-4 pb-8">
+                      <button 
+                        onClick={() => setShowMoreContent(true)}
+                        className="w-full sm:w-auto bg-transparent text-foreground/60 hover:text-primary hover:bg-primary/5 transition-all duration-300 py-3.5 px-8 rounded-md font-medium text-base text-center flex items-center justify-center group"
+                      >
+                        Ler mais <span className="ml-2 text-lg leading-none transition-transform duration-300 group-hover:translate-y-1">↓</span>
+                      </button>
+                    </div>
+                  )}
+
+                </div>
               </div>
             </div>
           </div>
-
-          {/* SESSÕES OCULTAS (REVELADAS AO CLICAR EM LER MAIS) */}
+          
+          {/* SESSÕES OCULTAS (REVELADAS AO CLICAR EM LER MAIS) VIRÃO AQUI ABAIXO... */}
           <AnimatePresence>
             {showMoreContent && (
               <motion.div
