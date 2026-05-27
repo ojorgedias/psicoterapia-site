@@ -208,13 +208,13 @@ export default function Home() {
                       </summary>
                       <div className="text-foreground/80 mt-3 text-base md:text-lg leading-relaxed pt-3 border-t border-border/20 cursor-default" onClick={(e) => e.stopPropagation()}>
                         <p className="mb-4">
-                          A pessoa distorce fatos para ter sempre razão e ataca a sua individualidade, fazendo você duvidar da própria sanidade mental.
+                          Ele distorce fatos para ter sempre razão e ataca a sua individualidade, fazendo você <strong>duvidar da própria sanidade mental</strong>.
                         </p>
                         <p className="mb-4">
                           Essa é a visão mais "tradicional" e conhecida do Narcisismo. Quando age dessa forma, o indivíduo mostra a "invasão" de forma clara e direta.
                         </p>
                         <p>
-                          Ele usa de artificios como manipulação, agressividade, controle e inferiorização para diminuir sua autoestima e vontade pessoal.
+                          Através do uso de artificios como manipulação, agressividade, controle e inferiorização, ele <strong>domina sua autoestima e autonomia</strong>.
                         </p>
                         <p>
                           Esse apagamento te faz sentir que você não consegue mais <strong>viver sem ele</strong>.
@@ -224,7 +224,7 @@ export default function Home() {
 
                     <details className="group border border-border/40 bg-secondary/5 rounded-xl p-5 cursor-pointer transition-all">
                       <summary className="font-display font-semibold text-primary text-lg list-none flex justify-between items-center select-none">
-                        <span><strong>O Controlador "bem intencionado":</strong> Focado no excesso de "cuidado".</span>
+                        <span><strong>O Controlador "bem intencionado":</strong> Focado no excesso de atenção (love bombing).</span>
                         <span className="text-accent text-xs font-sans border border-accent/20 rounded px-2 py-0.5 transition-transform group-open:bg-accent group-open:text-white">↓</span>
                       </summary>
                       <div className="text-foreground/80 mt-3 text-base md:text-lg leading-relaxed pt-3 border-t border-border/20 cursor-default" onClick={(e) => e.stopPropagation()}>
@@ -244,19 +244,22 @@ export default function Home() {
                     </details>
                   </div>
                   <p>
-                    Não são <strong>dois tipos de narcisista</strong>. É um comportamento que a mesma pessoa usa em momentos diferentes. As vezes misturando os dois comportamentos <strong>ao mesmo tempo</strong>.
+                    Não são <strong>dois tipos de narcisista</strong>. São duas táticas que ele usa em momentos diferentes e, as vezes, <strong>ao mesmo tempo</strong>.
                   </p>
+                   <p>
+                    Ele compreende seus pontos fracos e sabe <strong>quais botões apertar</strong> para te manter preso na relação.
+                   </p>
                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
                           <div className="bg-white/60 p-6 border-l-4 border-primary shadow-sm">
-                            <p className="text-base md:text-lg italic mb-0">"Se você impõe um limite ou diz 'não', é interpretado como uma <strong>ofensa</strong>. O mecanismo do <strong>medo</strong> é usado para causar Dependência Emocional"</p>
+                            <p className="text-base md:text-lg italic mb-0">"Se você impõe um limite ou diz 'não', é interpretado como uma <strong>ofensa</strong>. O mecanismo do <u>medo</u> é usado para causar <strong>Dependência Emocional.</strong>"</p>
                           </div>
                           <div className="bg-white/60 p-6 border-l-4 border-accent shadow-sm">
-                            <p className="text-base md:text-lg italic mb-0">"Se você recusa a sugestão ou ajuda que ele oferece, é interpretado como <strong>ingratidão</strong>. O mecanismo da <strong>culpa</strong> é usado para causar Dependência Emocional."</p>
+                            <p className="text-base md:text-lg italic mb-0">"Se você recusa a sugestão ou ajuda que ele oferece, é interpretado como <strong>ingratidão</strong>. O mecanismo da <u>culpa</u> é usado para causar <strong>Dependência Emocional.</strong>"</p>
                           </div>
                         </div>
 
                   <p>
-                    De qualquer forma, o resultado final é o mesmo: <strong>a sua autonomia é apagada de forma constante</strong> para que você não consiga pensar ou viver sem ele.
+                    De qualquer forma, o resultado final é o mesmo: <strong>a sua autonomia é apagada de forma constante</strong> para que você não consiga pensar ou agir sem ele.
                   </p>
                   <p>
                     Conforme o tempo passa, seus sentimentos e ideias passam a ser cada vez mais <strong>focados no outro</strong>, fazendo com que o centro da sua vida não seja mais você. 
