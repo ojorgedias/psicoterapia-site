@@ -545,10 +545,10 @@ export default function Home() {
                   <h4 className="text-2xl font-display text-primary mb-2">Jorge Dias</h4>
                   <div className="text-lg text-foreground/80 leading-relaxed space-y-4">
                     <p>
-                      Psicoterapeuta Clínico com foco em Relacionamentos Narcisistas, dependência emocional e autossabotagem. 
+                      Psicoterapeuta Clínico com foco em Relacionamentos Narcisistas e dependência emocional. 
                     </p>
                     <p>
-                      Ajudo pessoas a descobrirem padrões Narcisistas em seus relacionamentos e recuperar a autonomia emocional.
+                      Ajudo pessoas a descobrirem padrões Narcisistas em seus relacionamentos e recuperar a <strong>autonomia emocional</strong>.
                     </p>
                   </div>
 
@@ -587,14 +587,14 @@ export default function Home() {
                       <div className="w-8 h-8 rounded-full bg-accent text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-1">1</div>
                       <div>
                         <h4 className="font-display font-semibold text-white text-lg mb-1">A Primeira Sessão</h4>
-                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">Um espaço livre de julgamentos morais. O objetivo é compreender a sua história de vida, relações e perspectivas, colocando <strong>você no centro do processo.</strong></p>
+                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">Um espaço livre de julgamentos morais. O objetivo é compreender a sua história de vida e das suas relações, colocando <strong>você no centro do processo.</strong></p>
                       </div>
                     </div>
 
                     <div className="flex gap-4 items-start">
                       <div className="w-8 h-8 rounded-full bg-accent text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-1">2</div>
                       <div>
-                        <h4 className="font-display font-semibold text-white text-lg mb-1">A Dinâmica</h4>
+                        <h4 className="font-display font-semibold text-white text-lg mb-1">O acompanhamento</h4>
                         <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">Sessões semanais de 50 minutos, conduzidas online via Google Meet, com total sigilo. Respeitando o tempo do seu inconsciente.</p>
                       </div>
                     </div>
@@ -607,7 +607,7 @@ export default function Home() {
                     Atendimento individual
                   </span>
                   
-                  <span className="text-sm text-foreground/60 mb-8 block">Valor da sessão: R$100</span>
+                  <span className="text-sm text-foreground/60 mb-8 block">Valor da sessão: <strong>R$100</strong></span>
                   
                   <button
                     onClick={handleContactClick}
