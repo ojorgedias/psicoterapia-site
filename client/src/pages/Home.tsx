@@ -405,7 +405,7 @@ export default function Home() {
                         onClick={() => setShowMoreContent(true)}
                         className="w-full sm:w-auto bg-transparent text-foreground/60 hover:text-primary hover:bg-primary/5 transition-all duration-300 py-3.5 px-8 rounded-md font-medium text-base text-center flex items-center justify-center group"
                       >
-                        Mais informações<span className="ml-2 text-lg leading-none transition-transform duration-300 group-hover:translate-y-1">...</span>
+                        Mais informações...<span className="ml-2 text-lg leading-none transition-transform duration-300 group-hover:translate-y-1"></span>
                       </button>
                     </div>
                   )}
@@ -594,7 +594,7 @@ export default function Home() {
                     <div className="flex gap-4 items-start">
                       <div className="w-8 h-8 rounded-full bg-accent text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-1">2</div>
                       <div>
-                        <h4 className="font-display font-semibold text-white text-lg mb-1">O acompanhamento</h4>
+                        <h4 className="font-display font-semibold text-white text-lg mb-1">O Acompanhamento</h4>
                         <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">Sessões semanais de 50 minutos, conduzidas online via Google Meet, com total sigilo. Respeitando o tempo do seu inconsciente.</p>
                       </div>
                     </div>
