@@ -202,7 +202,7 @@ export default function Home() {
                   {/* RECURSO EXPANSÍVEL NOS DOIS POLOS */}
                   <div className="space-y-4 my-8">
                     <details className="group border border-border/40 bg-secondary/5 rounded-xl p-5 cursor-pointer transition-all">
-                      <summary className="font-display font-semibold text-primary text-lg list-none flex justify-between items-center select-none">
+                      <summary className="font-display font-normal text-primary text-lg list-none flex justify-between items-center select-none">
                         <span><strong>O Controlador Egoísta:</strong> Focado na invalidação e apagamento da indivualidade.</span>
                         <span className="text-accent text-xs font-sans border border-accent/20 rounded px-2 py-0.5 transition-transform group-open:bg-accent group-open:text-white">↓</span>
                       </summary>
@@ -223,7 +223,7 @@ export default function Home() {
                     </details>
 
                     <details className="group border border-border/40 bg-secondary/5 rounded-xl p-5 cursor-pointer transition-all">
-                      <summary className="font-display font-semibold text-primary text-lg list-none flex justify-between items-center select-none">
+                      <summary className="font-display font-normal text-primary text-lg list-none flex justify-between items-center select-none">
                         <span><strong>O Controlador "bem intencionado":</strong> Focado no excesso de atenção (love bombing).</span>
                         <span className="text-accent text-xs font-sans border border-accent/20 rounded px-2 py-0.5 transition-transform group-open:bg-accent group-open:text-white">↓</span>
                       </summary>
