@@ -314,7 +314,7 @@ export default function Home() {
                           Diversas vezes, em nosso cotidiano, enfrentamos situações que nos trazem a sensação de estar em um "beco sem saída". 
                         </p>
                         <p>
-                          Sabe quando um aparelho para de funcionar e o "jeitinho na tomada" não resolve mais? 
+                          Sabe quando um aparelho eletrônico para de funcionar e o "jeitinho na tomada" não resolve mais? 
                         </p>
                         <p>
                           Nessas situações, buscamos ajuda de um <strong>especialista</strong> que tenha o conhecimento e as ferramentas certas para entender e corrigir o problema.
@@ -460,7 +460,7 @@ export default function Home() {
                   <div className="container">
                     <div className="max-w-4xl mx-auto">
                       <div className="manifesto-text space-y-6 md:space-y-8 text-lg md:text-xl text-foreground/90 leading-relaxed">
-                        <span className="tag-value mb-4 block text-center">O Divisor de Águas</span>
+                        
                         <h3 className="pt-0 text-center mb-12">A diferença entre transtorno e comportamento</h3>
                         
                         <p className="max-w-3xl mx-auto text-center mb-12">
