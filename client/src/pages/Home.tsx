@@ -405,7 +405,7 @@ export default function Home() {
                         onClick={() => setShowMoreContent(true)}
                         className="w-full sm:w-auto bg-transparent text-foreground/60 hover:text-primary hover:bg-primary/5 transition-all duration-300 py-3.5 px-8 rounded-md font-medium text-base text-center flex items-center justify-center group"
                       >
-                        Mais informações <span className="ml-2 text-lg leading-none transition-transform duration-300 group-hover:translate-y-1">...</span>
+                        Mais informações<span className="ml-2 text-lg leading-none transition-transform duration-300 group-hover:translate-y-1">...</span>
                       </button>
                     </div>
                   )}
@@ -519,7 +519,7 @@ export default function Home() {
         </section>
 
         {/* SECTION 4: O Profissional */}
-        <section id="profissional" className="section-padding bg-white">
+        <section id="profissional" className="section-padding !pt-8 bg-white">
           <div className="container">
             <div className="max-w-1xl mx-auto">
               
