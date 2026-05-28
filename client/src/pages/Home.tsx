@@ -176,7 +176,7 @@ export default function Home() {
         {/* SECTION 3: O Manifesto (A Dinâmica) */}
         <section id="dinamica" className="bg-white">
           
-          <div className="section-padding">
+          <div className="section-padding !pt-8">
             <div className="container">
               <div className="max-w-3xl mx-auto">
                 
@@ -426,7 +426,7 @@ export default function Home() {
                 className="overflow-hidden"
               >
                 {/* Sub-section 2: A exaustão da realidade distorcida */}
-                <div className="section-padding bg-[#ECEEEF] border-y border-border/30">
+                <div className="section-padding !pt-8 bg-[#ECEEEF] border-y border-border/30">
                   <div className="container">
                     <div className="max-w-3xl mx-auto">
                       <div className="manifesto-text space-y-6 md:space-y-8 text-lg md:text-xl text-foreground/90 leading-relaxed">
@@ -456,7 +456,7 @@ export default function Home() {
                 </div>
 
                 {/* Sub-section 3: Patológico vs Comportamento */}
-                <div className="section-padding">
+                <div className="section-padding !pt-8">
                   <div className="container">
                     <div className="max-w-4xl mx-auto">
                       <div className="manifesto-text space-y-6 md:space-y-8 text-lg md:text-xl text-foreground/90 leading-relaxed">
