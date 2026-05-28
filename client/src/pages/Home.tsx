@@ -523,7 +523,7 @@ export default function Home() {
           <div className="container">
             <div className="max-w-1xl mx-auto">
               
-              <h2 className="text-center mb-12">Quem conduzirá o seu processo</h2>
+              <h2 className="text-center mb-12">Conheça o especialista</h2>
               
               <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center bg-secondary/20 p-8 md:p-12 rounded-2xl border border-border/40 shadow-sm">
                 
