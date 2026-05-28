@@ -176,7 +176,7 @@ export default function Home() {
         {/* SECTION 3: O Manifesto (A Dinâmica) */}
         <section id="dinamica" className="bg-white">
           
-          <div className="section-padding !pt-8">
+          <div className="pt-16 pb-2">
             <div className="container">
               <div className="max-w-3xl mx-auto">
                 
@@ -300,7 +300,7 @@ export default function Home() {
                   </div>
 
                   {/* CAIXAS DE PERGUNTAS (ACORDEÕES) */}
-                  <div className="space-y-4 mb-10">
+                  <div className="space-y-4 mb-2">
                                         <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
                       <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
                         <span>"Terapia não é coisa para loucos?"</span>
@@ -400,7 +400,7 @@ export default function Home() {
 
                   {/* BOTÃO LER MAIS (APARECE APENAS SE O CONTEÚDO EXTRA ESTIVER OCULTO) */}
                   {!showMoreContent && (
-                    <div className="flex justify-center pt-4 pb-8">
+                    <div className="flex justify-center pt-2 pb-0">
                       <button 
                         onClick={() => setShowMoreContent(true)}
                         className="w-full sm:w-auto bg-transparent text-foreground/60 hover:text-primary hover:bg-primary/5 transition-all duration-300 py-3.5 px-8 rounded-md font-medium text-base text-center flex items-center justify-center group"
@@ -519,7 +519,7 @@ export default function Home() {
         </section>
 
         {/* SECTION 4: O Profissional */}
-        <section id="profissional" className="section-padding !pt-8 bg-white">
+        <section id="profissional" className="pt-8 pb-16 bg-white">
           <div className="container">
             <div className="max-w-1xl mx-auto">
               
