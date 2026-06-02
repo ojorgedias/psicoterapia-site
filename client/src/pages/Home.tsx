@@ -531,7 +531,7 @@ export default function Home() {
                 <div className="md:col-span-4 flex justify-center">
                   <div className="relative w-48 h-48 md:w-full md:h-64 rounded-full md:rounded-xl overflow-hidden shadow-lg transition-all duration-500 border-4 border-white">
                     <img 
-                      src="jorge-background.webp" 
+                      src="JorgeDias.jpeg" 
                       alt="Jorge Dias - Psicoterapeuta Clínico"
                       fetchPriority="high" 
                       decoding="sync" 
