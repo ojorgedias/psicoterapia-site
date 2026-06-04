@@ -131,7 +131,7 @@ export default function Home() {
             >
               {/* No mobile: texto branco/translúcido. No PC: cores originais */}
               <span className="text-white/80 lg:text-accent uppercase text-xs md:text-sm tracking-widest font-semibold mb-4 block">
-                Atendimento Clínico Especializado em Narcisismo
+                Atendimento 100% online Especializado em Narcisismo
               </span>
               
               <h1 className="font-display text-white lg:text-foreground mb-6 lg:mb-4">
@@ -301,7 +301,27 @@ export default function Home() {
 
                   {/* CAIXAS DE PERGUNTAS (ACORDEÕES) */}
                   <div className="space-y-4 mb-2">
-                                        <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
+                      <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
+                      <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
+                        <span>"Estou buscando ajuda para outra pessoa"</span>
+                        <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
+                      </summary>                    
+                      <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
+                        <p>
+                          Muitas vezes observamos padrões de comportamento narcisista em nossas relações ou em pessoas próximas.
+                        </p>
+                        <p>
+                          O diagnóstico de Transtorno de Personalidade Narcisista só pode ser feito após a realização de uma bateria de avaliação psicológica.
+                        </p>
+                        <p>
+                          Porém, mesmo sem diagnóstico, é possivel que pessoas reproduzam <strong>comportamentos narcisistas</strong>. E sim, é possível ajudar quem reproduz esses comportamentos.
+                        </p>
+                        <p>
+                          O ponto mais importante para se atentar é a <strong>vontade da outra pessoa</strong> em iniciar o processo terapêutico e lidar com essas questões.
+                        </p>
+                      </div>
+                    </details>                    
+                      <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
                       <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
                         <span>"Terapia não é coisa para loucos?"</span>
                         <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
@@ -604,7 +624,7 @@ export default function Home() {
                 {/* Coluna 2: Preço e Botão */}
                 <div className="bg-white rounded-xl p-8 text-center flex flex-col items-center justify-center h-full shadow-xl">
                   <span className="uppercase tracking-widest text-xs font-bold text-foreground/50 mb-4 block">
-                    Atendimento individual
+                    Atendimento 100% online
                   </span>
                   
                   <span className="text-sm text-foreground/60 mb-8 block">Valor da sessão: <strong>R$100</strong></span>
