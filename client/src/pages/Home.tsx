@@ -11,7 +11,7 @@ export default function Home() {
   const [, setLocation] = useLocation();
 
   useEffect(() => {
-    document.title = "Jorge Dias — Psicólogo Especialista em Narcisismo";
+    document.title = "Jorge Dias — Terapêuta Especialista em Narcisismo";
 
     let metaDesc = document.querySelector('meta[name="description"]');
     if (!metaDesc) {
@@ -21,7 +21,7 @@ export default function Home() {
     }
     metaDesc.setAttribute(
       "content",
-      "Atendimento clínico com Jorge Dias, psicólogo especialista em narcisismo. Terapia online para quem sofre em relações narcisistas ou reconhece esses padrões em si mesmo."
+      "Atendimento clínico com Jorge Dias, Psicoterapeuta especialista em narcisismo. Terapia online para quem sofre em relações narcisistas ou reconhece esses padrões em si mesmo."
     );
 
     const handleScroll = () => setIsScrolled(window.scrollY > 50);
@@ -49,12 +49,12 @@ export default function Home() {
     {
       id: "apagamento",
       title: "O controle pelo apagamento",
-      body: "Críticas constantes, invalidação, manipulação e comportamentos que fazem você duvidar da própria percepção. Sua vontade é substituída pela do outro de forma tão gradual que você não percebe quando deixou de existir para si mesmo.",
+      body: "Críticas constantes, invalidação, manipulação e comportamentos que te fazem <strong>duvidar de si mesmo</strong>. Sua vontade é substituída pela do outro de forma tão gradual que você não percebe quando deixou de pensar em si.",
     },
     {
       id: "cuidado",
       title: 'O controle pelo excesso de cuidado',
-      body: 'Atenção excessiva, presença constante, "ajuda" que nunca foi pedida. Esse padrão é mais difícil de reconhecer — porque parece amor. Com o tempo, a dependência se instala e qualquer movimento de autonomia é lido como abandono ou ingratidão.',
+      body: 'Atenção excessiva, presença constante, "ajuda" que nunca foi pedida. Esse padrão é mais difícil de reconhecer — porque <strong>parece amor</strong>. Com o tempo, a dependência se instala e qualquer movimento de autonomia é lido como <strong>abandono ou ingratidão</strong>.',
     },
   ];
 
@@ -62,12 +62,12 @@ export default function Home() {
     {
       id: "outro",
       title: '"Busco ajuda para meu companheiro, não para mim"',
-      body: 'Essa é uma das formas mais comuns de chegar até aqui — e faz todo sentido. O ponto mais importante é este: o processo terapêutico só funciona quando a pessoa que vai ser atendida quer estar ali. O que é possível — e muitas vezes o caminho mais eficaz — é que você inicie o processo. Entender a dinâmica da relação muda a forma como você responde a ela. E isso, por si só, já altera o padrão.',
+      body: 'Essa é uma das formas mais comuns de chegar até aqui — e faz todo sentido. É importante ressaltar que o processo terapêutico só funciona quando a pessoa que vai ser atendida <strong>deseja iniciar o processo terapeutico</strong>. A terapia especializada ajuda a entender como surgiram os comportamentos e como eles se mantém.',
     },
     {
       id: "eu",
       title: '"Posso ser eu o narcisista sem saber?"',
-      body: "Essa pergunta, por si só, já diz muito. Quem está genuinamente preso num padrão narcisista patológico raramente se faz essa pergunta. O fato de você questionar indica que sua empatia está ativa. O objetivo não é entregar um rótulo — é entender de onde vêm esses padrões e como eles afetam suas relações.",
+      body: "Essa pergunta, por si só, já diz muito. Quem está genuinamente preso num padrão narcisista patológico raramente se faz essa pergunta. O fato de você questionar indica que <strong>sua empatia está ativa</strong>. O objetivo não é entregar um rótulo — é entender de onde vêm esses padrões e como eles afetam suas relações.",
     },
     {
       id: "crise",
@@ -371,7 +371,7 @@ export default function Home() {
                 fontStyle: "italic",
               }}
             >
-              — Psicólogo
+              — Psicoterapeuta
             </span>
           </Link>
 
@@ -517,7 +517,7 @@ export default function Home() {
                   marginBottom: 24,
                 }}
               >
-                Psicólogo especialista em narcisismo · Atendimento online
+                Terapeuta especialista em narcisismo · Atendimento online
               </span>
 
               <h1
@@ -582,9 +582,9 @@ export default function Home() {
 
             <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
               {[
-                "Sente que algo está errado na relação, mas não consegue nomear o quê.",
-                "Percebe que alguém próximo a você repete padrões que machucam, mas não sabe como ajudar.",
-                "Quer mudar comportamentos seus que prejudicam as pessoas que ama, mas não sabe por onde começar.",
+                "Sente que algo está errado na relação, mas <strong>não consegue resolver</strong>.",
+                "Percebe que alguém próximo a você repete padrões que machucam, mas <strong>não sabe como ajudar</strong>.",
+                "Quer mudar comportamentos seus que prejudicam as pessoas que ama, mas não sabe <strong>por onde começar</strong>.",
               ].map((text, i) => (
                 <motion.div
                   key={i}
@@ -673,25 +673,28 @@ export default function Home() {
             >
               <p>
                 Nas relações com padrões narcisistas, existe uma dinâmica que
-                se repete independente de quem você é nela.
+                se repete de forma constante.
               </p>
-              <p>
+                <p>
                 De um lado, quem convive com esses comportamentos vai aos poucos
-                perdendo a referência de si mesmo. As decisões passam a girar em
-                torno do outro. O medo de reagir, a culpa constante e o
+                perdendo a referência de si mesmo. <strong>As decisões passam a girar em
+                torno do outro</strong>.
+                </p> 
+                <p>
+                O medo de reagir, a culpa constante e o
                 isolamento gradual não aparecem de uma vez — chegam tão
-                devagar que parecem normais.
+                devagar que <strong>parecem normais</strong>.
               </p>
               <p>
                 Do outro lado, quem reproduz esses comportamentos também sofre
-                — mas de forma diferente. Há uma dificuldade real em tolerar a
-                autonomia do outro, em lidar com o limite, em sustentar uma
+                — mas de forma diferente. Há uma dificuldade real em <strong>tolerar a
+                 vontade do outro</strong>, em lidar com o limite, em sustentar uma
                 relação sem precisar ocupar o centro dela.
               </p>
               <p>
                 O que mantém os dois presos é a{" "}
                 <strong style={{ color: "#3C3A35", fontWeight: 500 }}>
-                  dependência emocional
+                  Dependência Emocional
                 </strong>{" "}
                 — um vínculo construído não sobre afeto, mas sobre necessidade.
               </p>
@@ -708,7 +711,7 @@ export default function Home() {
                 marginBottom: 16,
               }}
             >
-              Como esse padrão se instala
+              Como esse padrão se repete
             </h3>
 
             <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
@@ -764,8 +767,8 @@ export default function Home() {
               }}
             >
               <p>
-                Nos dois casos, o resultado é o mesmo: a relação passa a
-                funcionar em torno de uma pessoa só. E quem está fora desse
+                Nos dois casos, o resultado é o mesmo: <strong>a relação passa a
+                funcionar em torno de uma pessoa só</strong>. E quem está fora desse
                 centro perde, aos poucos, o sentido de quem é.
               </p>
               <p>
@@ -814,7 +817,7 @@ export default function Home() {
                     margin: 0,
                   }}
                 >
-                  "Se você recusa a ajuda oferecida, é ingratidão. A culpa é
+                  "Se você recusa a ajuda oferecida, é interpretado como ingratidão. A culpa é
                   usada para causar{" "}
                   <strong style={{ fontStyle: "normal" }}>
                     Dependência Emocional.
@@ -1052,12 +1055,10 @@ export default function Home() {
                 marginBottom: 20,
               }}
             >
-              Com mais de 3.000 horas de atendimento, trabalha exclusivamente
-              com as dinâmicas relacionais que esse tipo de vínculo produz —
-              tanto em quem sofre o impacto quanto em quem reproduz o padrão.
+              
               O atendimento é conduzido sem julgamento moral. O foco não é
               definir quem tem razão na relação — é entender o que está
-              acontecendo com você e construir um caminho de saída.
+              acontecendo e construir um <strong>caminho de resolução</strong>.
             </p>
 
             <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
@@ -1067,7 +1068,7 @@ export default function Home() {
                   className="font-sans"
                   style={{ fontSize: 13, color: "#3C3A35", margin: 0 }}
                 >
-                  Graduado em Psicologia — Universidade Estadual de Londrina
+                  Graduado em Psicologia — <strong>Universidade Estadual de Londrina</strong>
                 </p>
               </div>
               <div className="cred-item">
@@ -1209,7 +1210,7 @@ export default function Home() {
                     display: "block",
                   }}
                 >
-                  Atendimento 100% online
+                  Atendimento Particular 100% online
                 </span>
 
                 <p
@@ -1221,7 +1222,7 @@ export default function Home() {
                 <p
                   style={{
                     fontFamily: "'Lora', serif",
-                    fontSize: 36,
+                    fontSize: 26,
                     fontWeight: 500,
                     color: "#2E2C28",
                     marginBottom: 28,
@@ -1278,7 +1279,7 @@ export default function Home() {
             className="font-sans"
             style={{ fontSize: 11, color: "#9A9590", letterSpacing: "0.04em" }}
           >
-            © {new Date().getFullYear()} Jorge Dias — Psicologia Clínica.
+            © {new Date().getFullYear()} Jorge Dias — Psicoterapia Clínica.
           </p>
           <div style={{ display: "flex", gap: 24 }}>
             <Link
