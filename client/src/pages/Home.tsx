@@ -1,30 +1,30 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "wouter";
-import { Menu, X, MessageCircle, Award, Clock, GraduationCap, CheckCircle2 } from "lucide-react";
+import { Menu, X, MessageCircle, Award, Clock, GraduationCap, ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [openAccordion, setOpenAccordion] = useState<string | null>(null);
+  const [openFaq, setOpenFaq] = useState<string | null>(null);
   const [, setLocation] = useLocation();
 
   useEffect(() => {
-    document.title = "Jorge Dias — Psicoterapeuta Especialista em Narcisismo";
-    
+    document.title = "Jorge Dias — Psicólogo Especialista em Narcisismo";
+
     let metaDesc = document.querySelector('meta[name="description"]');
     if (!metaDesc) {
-      metaDesc = document.createElement('meta');
-      metaDesc.setAttribute('name', 'description');
+      metaDesc = document.createElement("meta");
+      metaDesc.setAttribute("name", "description");
       document.head.appendChild(metaDesc);
     }
     metaDesc.setAttribute(
-      'content', 
-      'Atendimento clínico com Jorge Dias. Tratamento focado no acolhimento de vítimas de relações narcisistas, dependência emocional e resgate da autonomia.'
+      "content",
+      "Atendimento clínico com Jorge Dias, psicólogo especialista em narcisismo. Terapia online para quem sofre em relações narcisistas ou reconhece esses padrões em si mesmo."
     );
 
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
+    const handleScroll = () => setIsScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -40,311 +40,1273 @@ export default function Home() {
     setLocation("/obrigado");
   };
 
+  const toggleAccordion = (id: string) =>
+    setOpenAccordion(openAccordion === id ? null : id);
+  const toggleFaq = (id: string) =>
+    setOpenFaq(openFaq === id ? null : id);
+
+  const accordions = [
+    {
+      id: "apagamento",
+      title: "O controle pelo apagamento",
+      body: "Críticas constantes, invalidação, manipulação e comportamentos que fazem você duvidar da própria percepção. Sua vontade é substituída pela do outro de forma tão gradual que você não percebe quando deixou de existir para si mesmo.",
+    },
+    {
+      id: "cuidado",
+      title: 'O controle pelo excesso de cuidado',
+      body: 'Atenção excessiva, presença constante, "ajuda" que nunca foi pedida. Esse padrão é mais difícil de reconhecer — porque parece amor. Com o tempo, a dependência se instala e qualquer movimento de autonomia é lido como abandono ou ingratidão.',
+    },
+  ];
+
+  const faqs = [
+    {
+      id: "outro",
+      title: '"Busco ajuda para meu companheiro, não para mim"',
+      body: 'Essa é uma das formas mais comuns de chegar até aqui — e faz todo sentido. O ponto mais importante é este: o processo terapêutico só funciona quando a pessoa que vai ser atendida quer estar ali. O que é possível — e muitas vezes o caminho mais eficaz — é que você inicie o processo. Entender a dinâmica da relação muda a forma como você responde a ela. E isso, por si só, já altera o padrão.',
+    },
+    {
+      id: "eu",
+      title: '"Posso ser eu o narcisista sem saber?"',
+      body: "Essa pergunta, por si só, já diz muito. Quem está genuinamente preso num padrão narcisista patológico raramente se faz essa pergunta. O fato de você questionar indica que sua empatia está ativa. O objetivo não é entregar um rótulo — é entender de onde vêm esses padrões e como eles afetam suas relações.",
+    },
+    {
+      id: "crise",
+      title: '"Terapia é para quem está em crise grave?"',
+      body: "Não. A terapia é para quem percebe que as ferramentas que tem não estão sendo suficientes para lidar com o que está vivendo. Você não precisa estar no fundo do poço para merecer ajuda especializada.",
+    },
+    {
+      id: "reproduzir",
+      title: '"Posso reproduzir comportamentos narcisistas?"',
+      body: "Sim — e isso é muito mais comum do que parece. A reprodução de comportamentos narcisistas está quase sempre ligada à dependência emocional. A diferença entre reproduzir um comportamento e ter o transtorno está na capacidade de reconhecer o próprio impacto. Esses casos respondem muito bem ao processo terapêutico.",
+    },
+  ];
+
   return (
-    <div className="selection:bg-stone-200 selection:text-stone-900 font-sans text-stone-800 bg-[#F9F8F6]">
-      {/* SECTION 1: Header */}
+    <div
+      style={{
+        fontFamily: "'Lora', Georgia, serif",
+        background: "#F7F5F0",
+        color: "#2E2C28",
+      }}
+    >
+      {/* Google Fonts */}
+      <style>{`
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap');
+
+        * { box-sizing: border-box; }
+
+        body { margin: 0; }
+
+        .font-sans { font-family: 'DM Sans', sans-serif; }
+
+        /* NAV LINKS */
+        .nav-link-organic {
+          font-family: 'DM Sans', sans-serif;
+          font-size: 13px;
+          font-weight: 400;
+          color: #5C5951;
+          text-decoration: none;
+          letter-spacing: 0.02em;
+          transition: color 0.2s;
+        }
+        .nav-link-organic:hover { color: #3C4A32; }
+
+        /* BUTTONS */
+        .btn-primary-organic {
+          display: inline-block;
+          background: #5B6B4E;
+          color: #F0EDE6;
+          font-family: 'DM Sans', sans-serif;
+          font-size: 12px;
+          font-weight: 500;
+          letter-spacing: 0.07em;
+          text-transform: uppercase;
+          padding: 15px 32px;
+          border-radius: 6px;
+          text-decoration: none;
+          transition: background 0.2s;
+          cursor: pointer;
+          border: none;
+        }
+        .btn-primary-organic:hover { background: #3C4A32; color: #F0EDE6; }
+
+        .btn-ghost-organic {
+          display: inline-block;
+          background: transparent;
+          color: #5B6B4E;
+          font-family: 'DM Sans', sans-serif;
+          font-size: 12px;
+          font-weight: 500;
+          letter-spacing: 0.07em;
+          text-transform: uppercase;
+          padding: 13px 32px;
+          border-radius: 6px;
+          border: 1px solid #A8B89A;
+          text-decoration: none;
+          transition: all 0.2s;
+          cursor: pointer;
+        }
+        .btn-ghost-organic:hover { background: #EEF2EA; border-color: #5B6B4E; }
+
+        /* SYMPTOM CARDS */
+        .symptom-item {
+          display: flex;
+          align-items: flex-start;
+          gap: 14px;
+          background: #FFFFFF;
+          border: 0.5px solid #E0DBD0;
+          border-radius: 10px;
+          padding: 16px 18px;
+        }
+
+        /* ACCORDION */
+        .accordion-organic {
+          background: #FFFFFF;
+          border: 0.5px solid #E0DBD0;
+          border-radius: 10px;
+          overflow: hidden;
+          transition: box-shadow 0.2s;
+        }
+        .accordion-organic:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+        .accordion-header-organic {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 18px 20px;
+          cursor: pointer;
+          user-select: none;
+          background: none;
+          border: none;
+          width: 100%;
+          text-align: left;
+          gap: 12px;
+        }
+        .accordion-title {
+          font-family: 'DM Sans', sans-serif;
+          font-size: 15px;
+          font-weight: 500;
+          color: #2E2C28;
+          margin: 0;
+          flex: 1;
+        }
+        .accordion-body-organic {
+          padding: 0 20px 18px;
+          font-family: 'DM Sans', sans-serif;
+          font-size: 14px;
+          color: #5C5951;
+          line-height: 1.75;
+          border-top: 0.5px solid #EDE9E1;
+          padding-top: 14px;
+          margin-top: 0;
+        }
+
+        /* STEPS */
+        .step-num {
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          background: #5B6B4E;
+          color: #F0EDE6;
+          font-family: 'DM Sans', sans-serif;
+          font-size: 13px;
+          font-weight: 500;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-shrink: 0;
+        }
+
+        /* CRED CARDS */
+        .cred-item {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          background: #FFFFFF;
+          border: 0.5px solid #E0DBD0;
+          border-radius: 8px;
+          padding: 12px 14px;
+        }
+
+        /* SECTION ALTERNATION */
+        .section-cream  { background: #FAF8F4; }
+        .section-sage   { background: #EEF2EA; }
+        .section-white  { background: #FFFFFF; }
+        .section-hero   { background: #EEE9DF; }
+        .section-dark   { background: #3C4A32; }
+
+        /* ANNOTATION */
+        .annotation-tag {
+          display: block;
+          font-family: 'DM Sans', sans-serif;
+          font-size: 13px;
+          color: #6B7C5E;
+          background: #EEF2EA;
+          border-left: 2px solid #8A9E7C;
+          padding: 8px 14px;
+          border-radius: 0 6px 6px 0;
+          margin-top: 16px;
+          font-style: italic;
+        }
+
+        /* MOBILE MENU */
+        .mobile-nav-link {
+          font-family: 'Lora', serif;
+          font-size: 26px;
+          font-weight: 400;
+          color: #2E2C28;
+          text-decoration: none;
+          display: block;
+          padding: 8px 0;
+        }
+        .mobile-nav-link:hover { color: #5B6B4E; }
+
+        /* QUOTE BLOCKS */
+        .quote-block {
+          border-left: 2px solid #A8B89A;
+          padding: 14px 18px;
+          border-radius: 0 8px 8px 0;
+          background: #FFFFFF;
+        }
+
+        /* FAB */
+        .fab-btn {
+          position: fixed;
+          bottom: 32px;
+          right: 32px;
+          z-index: 100;
+          background: #5B6B4E;
+          color: #F0EDE6;
+          width: 52px;
+          height: 52px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0 4px 20px rgba(91,107,78,0.35);
+          transition: transform 0.2s, background 0.2s;
+          border: none;
+          cursor: pointer;
+        }
+        .fab-btn:hover { transform: scale(1.08); background: #3C4A32; }
+
+        .fab-label {
+          position: absolute;
+          right: calc(100% + 14px);
+          top: 50%;
+          transform: translateY(-50%);
+          background: #3C4A32;
+          color: #F0EDE6;
+          font-family: 'DM Sans', sans-serif;
+          font-size: 10px;
+          font-weight: 500;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          padding: 8px 14px;
+          white-space: nowrap;
+          border-radius: 4px;
+          opacity: 0;
+          transition: opacity 0.2s;
+          pointer-events: none;
+        }
+        .fab-btn:hover .fab-label { opacity: 1; }
+
+        @media (max-width: 768px) {
+          .fab-label { display: none; }
+        }
+
+        /* SCROLL ANIMATIONS */
+        .fade-up {
+          opacity: 0;
+          transform: translateY(18px);
+          transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+        .fade-up.visible {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      `}</style>
+
+      {/* ─── HEADER ─── */}
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-          isScrolled ? "bg-[#F9F8F6]/95 backdrop-blur-md py-3 shadow-sm" : "bg-transparent py-6"
-        }`}
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          right: 0,
+          zIndex: 50,
+          transition: "all 0.4s",
+          background: isScrolled ? "rgba(247,245,240,0.96)" : "transparent",
+          backdropFilter: isScrolled ? "blur(8px)" : "none",
+          borderBottom: isScrolled ? "0.5px solid #E0DBD0" : "none",
+          padding: isScrolled ? "12px 0" : "22px 0",
+        }}
       >
-        <nav className="container mx-auto px-6 flex items-center justify-between">
-          <Link href="/" className="font-serif text-xl font-medium tracking-tight text-stone-800">
-            Jorge Dias <span className="hidden md:inline font-sans text-sm font-normal text-stone-500 ml-2">| Psicoterapia Clínica</span>
+        <div
+          style={{
+            maxWidth: 1100,
+            margin: "0 auto",
+            padding: "0 24px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+          }}
+        >
+          <Link
+            href="/"
+            style={{
+              fontFamily: "'Lora', serif",
+              fontSize: 16,
+              fontWeight: 500,
+              color: "#2E2C28",
+              textDecoration: "none",
+              letterSpacing: "0.01em",
+            }}
+          >
+            Jorge Dias{" "}
+            <span
+              style={{
+                fontWeight: 400,
+                color: "#7A7570",
+                fontSize: 14,
+                fontStyle: "italic",
+              }}
+            >
+              — Psicólogo
+            </span>
           </Link>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex items-center gap-8 text-sm font-medium text-stone-600">
+          <div
+            style={{ display: "flex", alignItems: "center", gap: 32 }}
+            className="hidden-mobile"
+          >
             {navLinks.map((link) => (
-              <a key={link.name} href={link.href} className="hover:text-stone-900 transition-colors">
+              <a key={link.name} href={link.href} className="nav-link-organic">
                 {link.name}
               </a>
             ))}
+            <a
+              href="#clinica"
+              className="btn-primary-organic"
+              style={{ padding: "10px 22px" }}
+            >
+              Agendar sessão
+            </a>
           </div>
 
-          {/* Mobile Menu Toggle */}
-          <button className="md:hidden text-stone-800" onClick={() => setMobileMenuOpen(true)}>
-            <Menu size={24} />
+          {/* Mobile toggle */}
+          <button
+            style={{
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+              color: "#2E2C28",
+              padding: 4,
+            }}
+            onClick={() => setMobileMenuOpen(true)}
+            aria-label="Abrir menu"
+          >
+            <Menu size={22} />
           </button>
-        </nav>
+        </div>
       </header>
 
-      {/* Mobile Menu Overlay */}
+      <style>{`
+        @media (min-width: 769px) {
+          button[aria-label="Abrir menu"] { display: none !important; }
+        }
+        @media (max-width: 768px) {
+          .hidden-mobile { display: none !important; }
+        }
+      `}</style>
+
+      {/* ─── MOBILE MENU ─── */}
       <AnimatePresence>
         {mobileMenuOpen && (
           <motion.div
             initial={{ opacity: 0, x: "100%" }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: "100%" }}
-            transition={{ type: "spring", damping: 25, stiffness: 200 }}
-            className="fixed inset-0 z-[60] bg-[#F9F8F6] flex flex-col p-8"
+            transition={{ type: "spring", damping: 28, stiffness: 200 }}
+            style={{
+              position: "fixed",
+              inset: 0,
+              zIndex: 60,
+              background: "#FAF8F4",
+              display: "flex",
+              flexDirection: "column",
+              padding: "32px 28px",
+            }}
           >
-            <div className="flex justify-end mb-8">
-              <button onClick={() => setMobileMenuOpen(false)} className="text-stone-800">
-                <X size={28} />
+            <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 40 }}>
+              <button
+                onClick={() => setMobileMenuOpen(false)}
+                style={{ background: "none", border: "none", cursor: "pointer", color: "#2E2C28" }}
+                aria-label="Fechar menu"
+              >
+                <X size={26} />
               </button>
             </div>
-            <div className="flex flex-col gap-6">
+            <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
               {navLinks.map((link) => (
                 <a
                   key={link.name}
                   href={link.href}
+                  className="mobile-nav-link"
                   onClick={() => setMobileMenuOpen(false)}
-                  className="text-2xl font-serif text-stone-800"
                 >
                   {link.name}
                 </a>
               ))}
+            </div>
+            <div style={{ marginTop: "auto" }}>
+              <a
+                href="#clinica"
+                className="btn-primary-organic"
+                style={{ display: "block", textAlign: "center" }}
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Agendar sessão
+              </a>
             </div>
           </motion.div>
         )}
       </AnimatePresence>
 
       <main>
-        {/* SECTION 2: Hero (Claro e Acolhedor) */}
-        <section className="pt-32 pb-16 lg:pt-48 lg:pb-32 px-6">
-          <div className="container mx-auto max-w-6xl">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-              
-              {/* Texto */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
-                className="order-2 lg:order-1"
+        {/* ─── HERO ─── */}
+        <section
+          className="section-hero"
+          style={{
+            minHeight: "90svh",
+            display: "flex",
+            alignItems: "center",
+            paddingTop: 100,
+            paddingBottom: 64,
+          }}
+        >
+          <div
+            style={{
+              maxWidth: 1100,
+              margin: "0 auto",
+              padding: "0 24px",
+              display: "grid",
+              gridTemplateColumns: "1fr",
+              gap: 48,
+              alignItems: "center",
+            }}
+          >
+            <motion.div
+              initial={{ opacity: 0, y: 22 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.9, ease: "easeOut" }}
+              style={{ maxWidth: 640 }}
+            >
+              <span
+                className="font-sans"
+                style={{
+                  display: "inline-block",
+                  fontSize: 11,
+                  fontWeight: 500,
+                  letterSpacing: "0.1em",
+                  textTransform: "uppercase",
+                  color: "#6B7C5E",
+                  background: "#D6DFD0",
+                  padding: "5px 14px",
+                  borderRadius: 20,
+                  marginBottom: 24,
+                }}
               >
-                <span className="inline-block py-1 px-3 rounded-full bg-stone-200 text-stone-700 text-xs font-semibold tracking-widest uppercase mb-6">
-                  Atendimento Clínico 100% Online
-                </span>
-                
-                <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-stone-900 leading-tight mb-6">
-                  O cansaço de tentar explicar uma dor que ninguém mais vê.
-                </h1>
-                
-                <p className="text-lg text-stone-600 leading-relaxed mb-4">
-                  Quando você tenta dialogar, a realidade é distorcida e a culpa sempre volta para você. 
-                </p>
-                <p className="text-lg text-stone-600 leading-relaxed mb-10">
-                  A sensação de confusão mental e esgotamento que você sente <strong>é real</strong> e tem nome.
-                </p>
-                
-                <a 
-                  href="#dinamica" 
-                  className="inline-block bg-stone-800 text-white hover:bg-stone-700 transition-colors duration-300 py-4 px-8 rounded-full font-medium text-sm md:text-base shadow-lg"
-                >
-                  Entender o que estou vivendo
+                Psicólogo especialista em narcisismo · Atendimento online
+              </span>
+
+              <h1
+                style={{
+                  fontFamily: "'Lora', serif",
+                  fontSize: "clamp(28px, 5vw, 48px)",
+                  fontWeight: 500,
+                  lineHeight: 1.3,
+                  color: "#2E2C28",
+                  marginBottom: 20,
+                  letterSpacing: "-0.01em",
+                }}
+              >
+                Relacionamentos narcisistas prendem as duas pessoas envolvidas —{" "}
+                <em>cada uma à sua maneira.</em>
+              </h1>
+
+              <p
+                className="font-sans"
+                style={{
+                  fontSize: 17,
+                  color: "#5C5951",
+                  lineHeight: 1.7,
+                  marginBottom: 36,
+                  maxWidth: 520,
+                }}
+              >
+                Quem sofre não consegue sair. Quem machuca não consegue parar.
+                A terapia especializada existe para quebrar esse ciclo, de
+                qualquer lado que você esteja.
+              </p>
+
+              <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
+                <a href="#clinica" className="btn-primary-organic">
+                  Agendar uma sessão
                 </a>
-              </motion.div>
-              
-              {/* Imagem (Cores naturais, bordas orgânicas) */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 1, delay: 0.2 }}
-                className="order-1 lg:order-2 flex justify-center lg:justify-end"
-              >
-                <div className="relative w-full max-w-md aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl">
-                  <img
-                    src="jorge-background.webp"
-                    alt="Jorge Dias - Psicoterapeuta"
-                    fetchPriority="high" 
-                    className="w-full h-full object-cover object-top"
+                <a href="#dinamica" className="btn-ghost-organic">
+                  Entender o que está acontecendo
+                </a>
+              </div>
+            </motion.div>
+          </div>
+        </section>
+
+        {/* ─── VALIDAÇÃO ─── */}
+        <section className="section-cream" style={{ padding: "56px 24px" }}>
+          <div style={{ maxWidth: 680, margin: "0 auto" }}>
+            <span
+              className="font-sans"
+              style={{
+                display: "block",
+                fontSize: 11,
+                fontWeight: 500,
+                letterSpacing: "0.1em",
+                textTransform: "uppercase",
+                color: "#8A9E7C",
+                marginBottom: 24,
+              }}
+            >
+              Você se reconhece nisso?
+            </span>
+
+            <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+              {[
+                "Sente que algo está errado na relação, mas não consegue nomear o quê.",
+                "Percebe que alguém próximo a você repete padrões que machucam, mas não sabe como ajudar.",
+                "Quer mudar comportamentos seus que prejudicam as pessoas que ama, mas não sabe por onde começar.",
+              ].map((text, i) => (
+                <motion.div
+                  key={i}
+                  className="symptom-item"
+                  initial={{ opacity: 0, x: -12 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: i * 0.1 }}
+                >
+                  <div
+                    style={{
+                      width: 7,
+                      height: 7,
+                      borderRadius: "50%",
+                      background: "#8A9E7C",
+                      flexShrink: 0,
+                      marginTop: 6,
+                    }}
                   />
-                  {/* Fim do filtro grayscale. A foto agora respira com cores reais */}
-                </div>
-              </motion.div>
-
+                  <p
+                    className="font-sans"
+                    style={{
+                      fontSize: 15,
+                      color: "#3C3A35",
+                      lineHeight: 1.65,
+                      margin: 0,
+                    }}
+                  >
+                    {text}
+                  </p>
+                </motion.div>
+              ))}
             </div>
+
+            <span className="annotation-tag">
+              Esse é o ponto de partida. Não precisa ter tudo claro para começar.
+            </span>
           </div>
         </section>
 
-        {/* SECTION 3: O Bloco do "Salvador" (A Virada de Chave) */}
-        <section id="dinamica" className="py-16 px-6 bg-white">
-          <div className="container mx-auto max-w-4xl">
-            <div className="bg-[#F4F1ED] rounded-3xl p-8 md:p-12 shadow-sm border border-stone-200/50">
-              <h2 className="font-serif text-2xl md:text-3xl text-stone-900 mb-6">
-                "Estou buscando ajuda para o meu parceiro(a)"
-              </h2>
-              <div className="space-y-5 text-lg text-stone-700 leading-relaxed">
-                <p>
-                  Muitas pessoas chegam aqui buscando entender como lidar ou como "curar" os traços narcisistas de quem amam.
-                </p>
-                <p>
-                  Acreditar que o seu esforço, a sua paciência ou a terapia certa vão mudar a essência do outro é o principal sintoma da <strong>Dependência Emocional</strong>.
-                </p>
-                <p>
-                  Enquanto você gasta toda a sua energia tentando decifrar o comportamento dele(a), <strong>a sua própria identidade está desaparecendo.</strong> O foco agora precisa voltar para você.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+        {/* ─── A DINÂMICA ─── */}
+        <section
+          id="dinamica"
+          className="section-white"
+          style={{ padding: "64px 24px" }}
+        >
+          <div style={{ maxWidth: 680, margin: "0 auto" }}>
+            <span
+              className="font-sans"
+              style={{
+                display: "block",
+                fontSize: 11,
+                fontWeight: 500,
+                letterSpacing: "0.1em",
+                textTransform: "uppercase",
+                color: "#8A9E7C",
+                marginBottom: 16,
+              }}
+            >
+              A dinâmica
+            </span>
 
-        {/* SECTION 4: A Dinâmica (Leitura Rápida) */}
-        <section className="py-16 md:py-24 px-6 bg-[#F9F8F6]">
-          <div className="container mx-auto max-w-4xl">
-            <h2 className="font-serif text-3xl md:text-4xl text-stone-900 text-center mb-6">
-              Como a sua autonomia é apagada
+            <h2
+              style={{
+                fontFamily: "'Lora', serif",
+                fontSize: "clamp(22px, 3.5vw, 32px)",
+                fontWeight: 500,
+                color: "#2E2C28",
+                lineHeight: 1.35,
+                marginBottom: 28,
+              }}
+            >
+              O que mantém esse ciclo funcionando
             </h2>
-            <p className="text-center text-lg text-stone-600 mb-12 max-w-2xl mx-auto">
-              O comportamento narcisista opera de duas formas para manter você preso(a) na relação:
-            </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-              {/* Card 1 */}
-              <div className="bg-white p-8 rounded-2xl shadow-sm border border-stone-100">
-                <h4 className="font-semibold text-stone-900 text-xl mb-4 border-b border-stone-100 pb-4">
-                  Pelo Medo <br/><span className="text-sm font-normal text-stone-500">(O Perfil Agressivo)</span>
-                </h4>
-                <p className="text-stone-600 leading-relaxed">
-                  Critica suas escolhas, invalida seus sentimentos e faz você duvidar da sua própria sanidade (Gaslighting). Você passa a pisar em ovos para evitar brigas.
-                </p>
-              </div>
-
-              {/* Card 2 */}
-              <div className="bg-white p-8 rounded-2xl shadow-sm border border-stone-100">
-                <h4 className="font-semibold text-stone-900 text-xl mb-4 border-b border-stone-100 pb-4">
-                  Pela Culpa <br/><span className="text-sm font-normal text-stone-500">(O Perfil "Bem-Intencionado")</span>
-                </h4>
-                <p className="text-stone-600 leading-relaxed">
-                  Ajuda em excesso e se torna indispensável. Porém, usa esse cuidado para isolar você de outras pessoas e cobrar gratidão eterna. Você sente culpa ao dizer "não".
-                </p>
-              </div>
-            </div>
-
-            <div className="text-center bg-stone-100 rounded-xl p-6">
-              <p className="text-lg text-stone-800 font-medium mb-0">
-                Em ambos os casos, o resultado é o mesmo: você perde a capacidade de tomar decisões sozinho(a).
+            <div
+              className="font-sans"
+              style={{
+                fontSize: 16,
+                color: "#5C5951",
+                lineHeight: 1.8,
+                display: "flex",
+                flexDirection: "column",
+                gap: 16,
+              }}
+            >
+              <p>
+                Nas relações com padrões narcisistas, existe uma dinâmica que
+                se repete independente de quem você é nela.
+              </p>
+              <p>
+                De um lado, quem convive com esses comportamentos vai aos poucos
+                perdendo a referência de si mesmo. As decisões passam a girar em
+                torno do outro. O medo de reagir, a culpa constante e o
+                isolamento gradual não aparecem de uma vez — chegam tão
+                devagar que parecem normais.
+              </p>
+              <p>
+                Do outro lado, quem reproduz esses comportamentos também sofre
+                — mas de forma diferente. Há uma dificuldade real em tolerar a
+                autonomia do outro, em lidar com o limite, em sustentar uma
+                relação sem precisar ocupar o centro dela.
+              </p>
+              <p>
+                O que mantém os dois presos é a{" "}
+                <strong style={{ color: "#3C3A35", fontWeight: 500 }}>
+                  dependência emocional
+                </strong>{" "}
+                — um vínculo construído não sobre afeto, mas sobre necessidade.
               </p>
             </div>
-          </div>
-        </section>
 
-        {/* SECTION 5: O Caminho Clínico (Passo a Passo) */}
-        <section className="py-16 md:py-24 px-6 bg-white">
-          <div className="container mx-auto max-w-3xl">
-            <h2 className="font-serif text-3xl md:text-4xl text-stone-900 text-center mb-16">
-              O processo para recuperar o controle
-            </h2>
+            {/* Dois tipos de controle */}
+            <h3
+              style={{
+                fontFamily: "'Lora', serif",
+                fontSize: 20,
+                fontWeight: 500,
+                color: "#2E2C28",
+                marginTop: 48,
+                marginBottom: 16,
+              }}
+            >
+              Como esse padrão se instala
+            </h3>
 
-            <div className="space-y-8">
-              <div className="flex gap-6 items-start">
-                <div className="w-10 h-10 rounded-full bg-stone-800 text-white flex items-center justify-center font-bold shrink-0">1</div>
-                <div>
-                  <h4 className="text-xl font-semibold text-stone-900 mb-2">Identificar as Invasões</h4>
-                  <p className="text-stone-600 text-lg leading-relaxed">Vamos mapear juntos onde a sua autonomia foi tirada de você sem que você percebesse.</p>
+            <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+              {accordions.map(({ id, title, body }) => (
+                <div key={id} className="accordion-organic">
+                  <button
+                    className="accordion-header-organic"
+                    onClick={() => toggleAccordion(id)}
+                    aria-expanded={openAccordion === id}
+                  >
+                    <span className="accordion-title">{title}</span>
+                    <ChevronDown
+                      size={18}
+                      style={{
+                        color: "#8A9E7C",
+                        flexShrink: 0,
+                        transition: "transform 0.3s",
+                        transform:
+                          openAccordion === id
+                            ? "rotate(180deg)"
+                            : "rotate(0deg)",
+                      }}
+                    />
+                  </button>
+                  <AnimatePresence initial={false}>
+                    {openAccordion === id && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: "auto", opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.3 }}
+                        style={{ overflow: "hidden" }}
+                      >
+                        <div className="accordion-body-organic">{body}</div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
                 </div>
+              ))}
+            </div>
+
+            {/* Fechamento */}
+            <div
+              className="font-sans"
+              style={{
+                fontSize: 16,
+                color: "#5C5951",
+                lineHeight: 1.8,
+                display: "flex",
+                flexDirection: "column",
+                gap: 16,
+                marginTop: 32,
+              }}
+            >
+              <p>
+                Nos dois casos, o resultado é o mesmo: a relação passa a
+                funcionar em torno de uma pessoa só. E quem está fora desse
+                centro perde, aos poucos, o sentido de quem é.
+              </p>
+              <p>
+                A terapia especializada não começa pelo outro. Começa por você
+                — entendendo o que aconteceu, o que ainda acontece, e o que é
+                possível mudar.
+              </p>
+            </div>
+
+            {/* Quote blocks */}
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+                gap: 14,
+                marginTop: 36,
+              }}
+            >
+              <div className="quote-block">
+                <p
+                  className="font-sans"
+                  style={{
+                    fontSize: 14,
+                    color: "#4A4843",
+                    lineHeight: 1.7,
+                    fontStyle: "italic",
+                    margin: 0,
+                  }}
+                >
+                  "Se você impõe um limite, é interpretado como ofensa. O medo
+                  é usado para causar{" "}
+                  <strong style={{ fontStyle: "normal" }}>
+                    Dependência Emocional.
+                  </strong>
+                  "
+                </p>
               </div>
-
-              <div className="flex gap-6 items-start">
-                <div className="w-10 h-10 rounded-full bg-stone-800 text-white flex items-center justify-center font-bold shrink-0">2</div>
-                <div>
-                  <h4 className="text-xl font-semibold text-stone-900 mb-2">Tratar a Dependência</h4>
-                  <p className="text-stone-600 text-lg leading-relaxed">Acolher a dor e o vazio que surgem quando você para de tentar agradar e salvar o outro.</p>
-                </div>
-              </div>
-
-              <div className="flex gap-6 items-start">
-                <div className="w-10 h-10 rounded-full bg-stone-800 text-white flex items-center justify-center font-bold shrink-0">3</div>
-                <div>
-                  <h4 className="text-xl font-semibold text-stone-900 mb-2">Resgatar sua Identidade</h4>
-                  <p className="text-stone-600 text-lg leading-relaxed">Construir ferramentas emocionais para que você volte a tomar decisões sem medo e sem culpa.</p>
-                </div>
+              <div className="quote-block">
+                <p
+                  className="font-sans"
+                  style={{
+                    fontSize: 14,
+                    color: "#4A4843",
+                    lineHeight: 1.7,
+                    fontStyle: "italic",
+                    margin: 0,
+                  }}
+                >
+                  "Se você recusa a ajuda oferecida, é ingratidão. A culpa é
+                  usada para causar{" "}
+                  <strong style={{ fontStyle: "normal" }}>
+                    Dependência Emocional.
+                  </strong>
+                  "
+                </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* SECTION 6: O Profissional */}
-        <section id="profissional" className="py-16 px-6 bg-[#F9F8F6]">
-          <div className="container mx-auto max-w-4xl">
-            <div className="flex flex-col md:flex-row gap-10 items-center md:items-start bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-stone-100">
-              
-              <div className="w-40 h-40 md:w-56 md:h-56 shrink-0 rounded-full overflow-hidden shadow-lg border-4 border-[#F9F8F6]">
-                <img 
-                  src="JorgeDias.jpeg" 
+        {/* ─── PROCESSO ─── */}
+        <section className="section-sage" style={{ padding: "64px 24px" }}>
+          <div style={{ maxWidth: 680, margin: "0 auto" }}>
+            <span
+              className="font-sans"
+              style={{
+                display: "block",
+                fontSize: 11,
+                fontWeight: 500,
+                letterSpacing: "0.1em",
+                textTransform: "uppercase",
+                color: "#6B7C5E",
+                marginBottom: 16,
+              }}
+            >
+              O processo
+            </span>
+
+            <h2
+              style={{
+                fontFamily: "'Lora', serif",
+                fontSize: "clamp(22px, 3.5vw, 32px)",
+                fontWeight: 500,
+                color: "#2E2C28",
+                lineHeight: 1.35,
+                marginBottom: 36,
+              }}
+            >
+              Como a terapia funciona
+            </h2>
+
+            <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+              {[
+                "Entender a dinâmica da relação e o que ela fez com você.",
+                "Trabalhar os padrões que te mantêm preso nesse ciclo.",
+                "Construir autonomia e critério para suas próprias decisões.",
+              ].map((text, i) => (
+                <motion.div
+                  key={i}
+                  style={{ display: "flex", gap: 16, alignItems: "flex-start" }}
+                  initial={{ opacity: 0, y: 12 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: i * 0.12 }}
+                >
+                  <div className="step-num">{i + 1}</div>
+                  <p
+                    className="font-sans"
+                    style={{
+                      fontSize: 15,
+                      color: "#3C3A35",
+                      lineHeight: 1.65,
+                      margin: 0,
+                      paddingTop: 5,
+                    }}
+                  >
+                    {text}
+                  </p>
+                </motion.div>
+              ))}
+            </div>
+
+            <div style={{ marginTop: 40, textAlign: "center" }}>
+              <a href="#clinica" className="btn-primary-organic">
+                Quero iniciar meu processo
+              </a>
+            </div>
+          </div>
+        </section>
+
+        {/* ─── DÚVIDAS ─── */}
+        <section className="section-white" style={{ padding: "64px 24px" }}>
+          <div style={{ maxWidth: 680, margin: "0 auto" }}>
+            <span
+              className="font-sans"
+              style={{
+                display: "block",
+                fontSize: 11,
+                fontWeight: 500,
+                letterSpacing: "0.1em",
+                textTransform: "uppercase",
+                color: "#8A9E7C",
+                marginBottom: 16,
+              }}
+            >
+              Dúvidas frequentes
+            </span>
+
+            <h2
+              style={{
+                fontFamily: "'Lora', serif",
+                fontSize: "clamp(22px, 3.5vw, 32px)",
+                fontWeight: 500,
+                color: "#2E2C28",
+                lineHeight: 1.35,
+                marginBottom: 28,
+              }}
+            >
+              Perguntas que chegam com frequência
+            </h2>
+
+            <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+              {faqs.map(({ id, title, body }) => (
+                <div key={id} className="accordion-organic">
+                  <button
+                    className="accordion-header-organic"
+                    onClick={() => toggleFaq(id)}
+                    aria-expanded={openFaq === id}
+                  >
+                    <span
+                      className="accordion-title"
+                      style={{ fontSize: 15, fontStyle: "italic", fontFamily: "'Lora', serif", fontWeight: 400 }}
+                    >
+                      {title}
+                    </span>
+                    <ChevronDown
+                      size={18}
+                      style={{
+                        color: "#8A9E7C",
+                        flexShrink: 0,
+                        transition: "transform 0.3s",
+                        transform:
+                          openFaq === id ? "rotate(180deg)" : "rotate(0deg)",
+                      }}
+                    />
+                  </button>
+                  <AnimatePresence initial={false}>
+                    {openFaq === id && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: "auto", opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.3 }}
+                        style={{ overflow: "hidden" }}
+                      >
+                        <div className="accordion-body-organic">{body}</div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ─── O PROFISSIONAL ─── */}
+        <section
+          id="profissional"
+          className="section-cream"
+          style={{ padding: "64px 24px" }}
+        >
+          <div style={{ maxWidth: 680, margin: "0 auto" }}>
+            <span
+              className="font-sans"
+              style={{
+                display: "block",
+                fontSize: 11,
+                fontWeight: 500,
+                letterSpacing: "0.1em",
+                textTransform: "uppercase",
+                color: "#8A9E7C",
+                marginBottom: 24,
+              }}
+            >
+              O profissional
+            </span>
+
+            <div
+              style={{
+                background: "#F0EDE6",
+                borderRadius: 14,
+                padding: "24px 24px",
+                display: "flex",
+                gap: 20,
+                alignItems: "flex-start",
+                marginBottom: 20,
+                border: "0.5px solid #E0DBD0",
+              }}
+            >
+              <div
+                style={{
+                  width: 72,
+                  height: 72,
+                  borderRadius: "50%",
+                  overflow: "hidden",
+                  flexShrink: 0,
+                  border: "2px solid #FFFFFF",
+                }}
+              >
+                <img
+                  src="JorgeDias.jpeg"
                   alt="Jorge Dias - Psicoterapeuta Clínico"
-                  className="w-full h-full object-cover"
+                  style={{ width: "100%", height: "100%", objectFit: "cover" }}
                 />
               </div>
-
-              <div className="space-y-4 text-center md:text-left">
-                <h4 className="text-3xl font-serif text-stone-900">Jorge Dias</h4>
-                <p className="text-lg text-stone-600 leading-relaxed">
-                  Psicoterapeuta Clínico dedicado ao acolhimento de vítimas de Relacionamentos Narcisistas e tratamento da dependência emocional.
+              <div>
+                <p
+                  style={{
+                    fontFamily: "'Lora', serif",
+                    fontSize: 20,
+                    fontWeight: 500,
+                    color: "#2E2C28",
+                    margin: "0 0 6px",
+                  }}
+                >
+                  Jorge Dias
                 </p>
-                <div className="pt-4 space-y-3">
-                  <div className="flex items-center justify-center md:justify-start gap-3 text-stone-700">
-                    <GraduationCap className="text-stone-400 shrink-0" size={20} />
-                    <span>Graduado em <strong>Psicologia</strong> pela UEL.</span>
-                  </div>
-                  <div className="flex items-center justify-center md:justify-start gap-3 text-stone-700">
-                    <Clock className="text-stone-400 shrink-0" size={20} />
-                    <span>Mais de 3.000 horas de atendimento clínico.</span>
-                  </div>
-                </div>
+                <p
+                  className="font-sans"
+                  style={{ fontSize: 14, color: "#6B6660", lineHeight: 1.6, margin: 0 }}
+                >
+                  Psicólogo clínico com foco em relacionamentos narcisistas e
+                  dependência emocional.
+                </p>
               </div>
+            </div>
 
+            <p
+              className="font-sans"
+              style={{
+                fontSize: 15,
+                color: "#5C5951",
+                lineHeight: 1.8,
+                marginBottom: 20,
+              }}
+            >
+              Com mais de 3.000 horas de atendimento, trabalha exclusivamente
+              com as dinâmicas relacionais que esse tipo de vínculo produz —
+              tanto em quem sofre o impacto quanto em quem reproduz o padrão.
+              O atendimento é conduzido sem julgamento moral. O foco não é
+              definir quem tem razão na relação — é entender o que está
+              acontecendo com você e construir um caminho de saída.
+            </p>
+
+            <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+              <div className="cred-item">
+                <GraduationCap size={20} style={{ color: "#8A9E7C", flexShrink: 0 }} />
+                <p
+                  className="font-sans"
+                  style={{ fontSize: 13, color: "#3C3A35", margin: 0 }}
+                >
+                  Graduado em Psicologia — Universidade Estadual de Londrina
+                </p>
+              </div>
+              <div className="cred-item">
+                <Award size={20} style={{ color: "#8A9E7C", flexShrink: 0 }} />
+                <p
+                  className="font-sans"
+                  style={{ fontSize: 13, color: "#3C3A35", margin: 0 }}
+                >
+                  Especialista em narcisismo e dependência emocional
+                </p>
+              </div>
+              <div className="cred-item">
+                <Clock size={20} style={{ color: "#8A9E7C", flexShrink: 0 }} />
+                <p
+                  className="font-sans"
+                  style={{ fontSize: 13, color: "#3C3A35", margin: 0 }}
+                >
+                  +3.000 horas de atendimento clínico
+                </p>
+              </div>
             </div>
           </div>
         </section>
 
-        {/* SECTION 7: Enquadre Clínico e Valor (A Peneira) */}
-        <section id="clinica" className="py-20 px-6 bg-[#EBE7E0]">
-          <div className="container mx-auto max-w-3xl text-center">
-            
-            <h2 className="font-serif text-3xl md:text-4xl text-stone-900 mb-8">
-              Como funciona o acompanhamento
+        {/* ─── A CLÍNICA / CTA ─── */}
+        <section
+          id="clinica"
+          className="section-dark"
+          style={{ padding: "72px 24px" }}
+        >
+          <div style={{ maxWidth: 800, margin: "0 auto" }}>
+            <span
+              className="font-sans"
+              style={{
+                display: "block",
+                fontSize: 11,
+                fontWeight: 500,
+                letterSpacing: "0.1em",
+                textTransform: "uppercase",
+                color: "#A8B89A",
+                marginBottom: 16,
+              }}
+            >
+              Atendimento online
+            </span>
+
+            <h2
+              style={{
+                fontFamily: "'Lora', serif",
+                fontSize: "clamp(24px, 4vw, 36px)",
+                fontWeight: 500,
+                color: "#F0EDE6",
+                lineHeight: 1.35,
+                marginBottom: 48,
+              }}
+            >
+              Como funciona o atendimento
             </h2>
-            
-            <div className="space-y-5 text-lg text-stone-700 leading-relaxed mb-12">
-              <p>
-                As sessões acontecem uma vez por semana, via chamada de vídeo (Google Meet), em um ambiente de total sigilo e ausência de julgamentos.
-              </p>
-              <p>
-                Para garantir a acessibilidade e a continuidade do seu processo de forma particular, o valor da sessão é <strong>R$ 100</strong>. <br/>
-                <span className="text-sm italic text-stone-500">(Não trabalhamos com convênios).</span>
-              </p>
-            </div>
 
-            <div className="bg-white p-8 md:p-10 rounded-3xl shadow-xl max-w-md mx-auto">
-              <span className="text-stone-500 text-sm font-semibold uppercase tracking-widest block mb-4">Próximo Passo</span>
-              <button
-                onClick={handleContactClick}
-                className="w-full bg-[#25D366] text-white hover:bg-[#20bd5a] transition-colors duration-300 py-4 px-6 rounded-xl font-semibold text-lg flex items-center justify-center gap-3 mb-4 shadow-md"
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+                gap: 32,
+                alignItems: "start",
+              }}
+            >
+              {/* Processo */}
+              <div style={{ display: "flex", flexDirection: "column", gap: 28 }}>
+                {[
+                  {
+                    num: "1",
+                    title: "A primeira sessão",
+                    body: "Um espaço para você contar o que está vivendo, sem pressa e sem julgamento. O objetivo é entender sua história e o que te trouxe até aqui.",
+                  },
+                  {
+                    num: "2",
+                    title: "O acompanhamento",
+                    body: "Sessões semanais de 50 minutos, online via Google Meet, com total sigilo. O ritmo respeita o seu processo — não existe fórmula pronta.",
+                  },
+                ].map(({ num, title, body }) => (
+                  <div key={num} style={{ display: "flex", gap: 16, alignItems: "flex-start" }}>
+                    <div
+                      className="step-num"
+                      style={{ background: "#8A9E7C", color: "#F0EDE6" }}
+                    >
+                      {num}
+                    </div>
+                    <div>
+                      <p
+                        className="font-sans"
+                        style={{
+                          fontSize: 15,
+                          fontWeight: 500,
+                          color: "#F0EDE6",
+                          margin: "0 0 6px",
+                        }}
+                      >
+                        {title}
+                      </p>
+                      <p
+                        className="font-sans"
+                        style={{
+                          fontSize: 14,
+                          color: "#C8D4BF",
+                          lineHeight: 1.7,
+                          margin: 0,
+                        }}
+                      >
+                        {body}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {/* Card de agendamento */}
+              <div
+                style={{
+                  background: "#FFFFFF",
+                  borderRadius: 14,
+                  padding: "32px 28px",
+                  textAlign: "center",
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  gap: 0,
+                }}
               >
-                <MessageCircle size={24} />
-                Consultar horários
-              </button>
-              <p className="text-sm text-stone-400 mb-0">
-                O agendamento é feito diretamente pelo WhatsApp.
-              </p>
-            </div>
+                <span
+                  className="font-sans"
+                  style={{
+                    fontSize: 10,
+                    fontWeight: 500,
+                    letterSpacing: "0.1em",
+                    textTransform: "uppercase",
+                    color: "#9A9590",
+                    marginBottom: 16,
+                    display: "block",
+                  }}
+                >
+                  Atendimento 100% online
+                </span>
 
+                <p
+                  className="font-sans"
+                  style={{ fontSize: 13, color: "#7A7570", marginBottom: 6 }}
+                >
+                  Valor da sessão
+                </p>
+                <p
+                  style={{
+                    fontFamily: "'Lora', serif",
+                    fontSize: 36,
+                    fontWeight: 500,
+                    color: "#2E2C28",
+                    marginBottom: 28,
+                  }}
+                >
+                  R$100
+                </p>
+
+                <button
+                  onClick={handleContactClick}
+                  className="btn-primary-organic"
+                  style={{ width: "100%", textAlign: "center", cursor: "pointer" }}
+                >
+                  Consultar disponibilidade
+                </button>
+
+                <p
+                  className="font-sans"
+                  style={{
+                    fontSize: 12,
+                    color: "#9A9590",
+                    fontStyle: "italic",
+                    marginTop: 12,
+                  }}
+                >
+                  Agendamento direto via WhatsApp
+                </p>
+              </div>
+            </div>
           </div>
         </section>
       </main>
 
-      {/* SECTION 8: Footer */}
-      <footer className="py-10 bg-white border-t border-stone-100">
-        <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
-          <p className="text-xs uppercase tracking-widest text-stone-400">
-            &copy; {new Date().getFullYear()} Jorge Dias — Psicoterapia Clínica.
+      {/* ─── FOOTER ─── */}
+      <footer
+        style={{
+          background: "#F7F5F0",
+          borderTop: "0.5px solid #E0DBD0",
+          padding: "28px 24px",
+        }}
+      >
+        <div
+          style={{
+            maxWidth: 1100,
+            margin: "0 auto",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            flexWrap: "wrap",
+            gap: 12,
+          }}
+        >
+          <p
+            className="font-sans"
+            style={{ fontSize: 11, color: "#9A9590", letterSpacing: "0.04em" }}
+          >
+            © {new Date().getFullYear()} Jorge Dias — Psicologia Clínica.
           </p>
-          <div className="flex gap-6 text-xs uppercase tracking-widest font-semibold text-stone-400">
-            <Link href="/politica-privacidade" className="hover:text-stone-800 transition-colors">Privacidade</Link>
-            <Link href="/termos-uso" className="hover:text-stone-800 transition-colors">Termos</Link>
+          <div style={{ display: "flex", gap: 24 }}>
+            <Link
+              href="/politica-privacidade"
+              className="font-sans"
+              style={{ fontSize: 11, color: "#9A9590", textDecoration: "none", letterSpacing: "0.06em", textTransform: "uppercase" }}
+            >
+              Privacidade
+            </Link>
+            <Link
+              href="/termos-uso"
+              className="font-sans"
+              style={{ fontSize: 11, color: "#9A9590", textDecoration: "none", letterSpacing: "0.06em", textTransform: "uppercase" }}
+            >
+              Termos
+            </Link>
           </div>
         </div>
       </footer>
 
-      {/* Floating Action Button */}
+      {/* ─── FAB ─── */}
       <button
+        className="fab-btn"
         onClick={handleContactClick}
-        className="fixed bottom-6 right-6 md:bottom-8 md:right-8 z-[100] bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-105 transition-transform group"
-        aria-label="Consultar disponibilidade no WhatsApp"
+        aria-label="Consultar disponibilidade"
       >
-        <MessageCircle size={28} />
+        <span className="fab-label">Consultar disponibilidade</span>
+        <MessageCircle size={24} fill="currentColor" />
       </button>
     </div>
   );
