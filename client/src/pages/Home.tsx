@@ -582,9 +582,9 @@ export default function Home() {
 
             <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
               {[
-                "Sente que algo está errado na relação, mas <strong>não consegue resolver</strong>.",
-                "Percebe que alguém próximo a você repete padrões que machucam, mas <strong>não sabe como ajudar</strong>.",
-                "Quer mudar comportamentos seus que prejudicam as pessoas que ama, mas não sabe <strong>por onde começar</strong>.",
+                "Sente que algo está errado na relação, mas não consegue resolver.",
+                "Percebe que alguém próximo a você repete padrões que machucam, mas não sabe como ajudar.",
+                "Quer mudar comportamentos seus que prejudicam as pessoas que ama, mas não sabe por onde começar.",
               ].map((text, i) => (
                 <motion.div
                   key={i}
@@ -1077,7 +1077,7 @@ export default function Home() {
                   className="font-sans"
                   style={{ fontSize: 13, color: "#3C3A35", margin: 0 }}
                 >
-                  Especialista em narcisismo e dependência emocional
+                  Especialista em <strong>Narcisismo e Dependência Emocional</strong>
                 </p>
               </div>
               <div className="cred-item">
@@ -1086,7 +1086,7 @@ export default function Home() {
                   className="font-sans"
                   style={{ fontSize: 13, color: "#3C3A35", margin: 0 }}
                 >
-                  +3.000 horas de atendimento clínico
+                  <strong>+3.000</strong> horas de atendimento clínico
                 </p>
               </div>
             </div>
@@ -1210,7 +1210,7 @@ export default function Home() {
                     display: "block",
                   }}
                 >
-                  Atendimento Particular 100% online
+                  Atendimento Particular <strong>100% online</strong>
                 </span>
 
                 <p
@@ -1222,7 +1222,7 @@ export default function Home() {
                 <p
                   style={{
                     fontFamily: "'Lora', serif",
-                    fontSize: 26,
+                    fontSize: 20,
                     fontWeight: 500,
                     color: "#2E2C28",
                     marginBottom: 28,
