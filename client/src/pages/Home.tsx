@@ -371,7 +371,7 @@ export default function Home() {
                 fontStyle: "italic",
               }}
             >
-              — Psicoterapeuta
+              — Psicoterapeuta Especialista em Narcisismo
             </span>
           </Link>
 
