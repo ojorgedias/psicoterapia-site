@@ -272,9 +272,9 @@ export default function Home() {
 
               <h1 className="font-display text-white lg:text-foreground mb-6 lg:mb-4">
 
-                Sente que perdeu o controle <br className="hidden md:block" />
+                Terapia especializada em <br className="hidden md:block" />
 
-                <span className="italic">de suas decisões?</span>
+                <span className="italic">Relações Narcisistas</span>
 
               </h1>
 
@@ -554,7 +554,7 @@ export default function Home() {
 
                         <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">1</span>
 
-                        <span>Compreender a relação narcisista e as <strong>invasões</strong> que diminuíram sua autonomia.</span>
+                        <span>Entender a dinâmica da relação e os efeitos causados em você.</span>
 
                       </li>
 
@@ -562,7 +562,7 @@ export default function Home() {
 
                         <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">2</span>
 
-                        <span>Livrar-se dos "pontos fracos" que te prendem e lidar com o <strong>sentimento de vazio</strong> causado pela Dependência Emocional.</span>
+                        <span>Elaborar e superar os padrões que <strong>te mantêm preso</strong> nesse ciclo.</span>
 
                       </li>
 
@@ -570,7 +570,7 @@ export default function Home() {
 
                         <span className="w-8 h-8 rounded-full bg-accent/20 text-accent flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">3</span>
 
-                        <span>Trabalhar seu autoconhecimento para preencher-se de si mesmo e <strong>retomar o controle</strong> da sua vida.</span>
+                        <span>Construir autonomia e critério para <strong>retomar o controle</strong> da sua vida.</span>
 
                       </li>
 
