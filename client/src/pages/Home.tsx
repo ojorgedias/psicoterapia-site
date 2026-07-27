@@ -1256,7 +1256,7 @@ export default function Home() {
 
                   
 
-                  <span className="text-sm text-foreground/60 mb-10 block">Valor da sessão: <strong>R$130</strong></span>
+                  <span className="text-sm text-foreground/70 mb-10 block">Valor da sessão: <strong>R$130</strong></span>
 
                   
 
