@@ -1320,26 +1320,19 @@ export default function Home() {
 
 
 
-      {/* Floating Action Button */}
-
+{/* Floating Action Button */}
       <button
-
-        onClick={handleContactClick}
-
+        onClick={(e) => {
+          e.preventDefault();
+          document.getElementById('clinica')?.scrollIntoView({ behavior: 'smooth' });
+        }}
         className="fixed bottom-8 right-8 z-[100] bg-primary text-primary-foreground p-4 rounded-full shadow-2xl hover:scale-110 transition-transform group"
-
-        aria-label="Consultar disponibilidade"
-
+        aria-label="Ver valor e agendar"
       >
-
         <MessageCircle size={28} fill="currentColor" />
-
         <span className="absolute right-full mr-4 top-1/2 -translate-y-1/2 bg-primary text-primary-foreground text-[10px] py-2 px-4 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity hidden md:block uppercase tracking-widest font-bold">
-
-          Consultar disponibilidade
-
+          Ver valor e agendar
         </span>
-
       </button>
 
     </div>
