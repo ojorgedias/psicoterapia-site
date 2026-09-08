@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
 Disallow: /admin
-Disallow: /*.json$
-
-Sitemap: https://www.psicoterapeutajorgedias.online/sitemap.xml
+Disallow: /*.json$ 
+Sitemap: https://www.psicologojorgedias.online/sitemap.xml
