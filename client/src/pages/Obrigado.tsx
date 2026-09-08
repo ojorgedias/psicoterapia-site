@@ -19,13 +19,16 @@ export default function Obrigado() {
     meta.content = "noindex, nofollow";
     document.head.appendChild(meta);
 
-    // 1. Dispara a conversão para o Google Ads imediatamente ao carregar a página
+    // 1. Dispara a conversão para o Google Ads
     if (typeof window.gtag === 'function') {
       window.gtag('event', 'conversion', {
         'send_to': 'AW-18119858794/atendimento_whatsapp'
       });
+    } else {
+      // Fallback via GTM: empurra evento para o dataLayer
+      (window as any).dataLayer = (window as any).dataLayer || [];
+      (window as any).dataLayer.push({ event: 'obrigado_page_view' });
     }
-
     // 2. Redireciona o usuário para o WhatsApp após 2.5 segundos
     // Esse tempo garante que o evento do Google Ads foi enviado com sucesso antes de sair da página
     const timeoutId = setTimeout(() => {
