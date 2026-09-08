@@ -10,15 +10,6 @@ import Obrigado from "./pages/Obrigado";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
 
-// Update document title and meta tags
-if (typeof document !== 'undefined') {
-  document.title = 'Jorge Dias | Psicoterapia e Psicanálise';
-  const metaDescription = document.querySelector('meta[name="description"]');
-  if (metaDescription) {
-    metaDescription.setAttribute('content', 'Psicoterapia e Psicanálise com Jorge Dias. Atendimento Online focado em dinâmicas Narcisistas e autoconhecimento profundo.');
-  }
-}
-
 function Router() {
   const [location] = useLocation();
   
