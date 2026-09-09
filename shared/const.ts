@@ -6,7 +6,6 @@ export const ONE_YEAR_MS = 1000 * 60 * 60 * 24 * 365;
  */
 export const PSYCHOLOGIST = {
   name: "Jorge Dias",
-  crp: "",
   email: "psijorgedias@gmail.com",
   whatsapp: "41985155583",
   whatsappLink: "https://wa.me/5541985155583?text=Olá%20Jorge%2C%20gostaria%20de%20agendar%20uma%20consulta.",
@@ -17,47 +16,36 @@ export const PSYCHOLOGIST = {
 };
 
 export const SITE_CONFIG = {
-  title: "Psicoterapia Clínica - Jorge Dias",
+  title: "Jorge Dias | Psicoterapeuta Especialista em Relacionamentos",
   description:
-    "Psicoterapia clínica online focada em investigação filosófica, autoconhecimento profundo e desenvolvimento integral. Atendimento para adultos, casais e questões existenciais. 100% online para Brasil e exterior.",
-  url: "https://psicoterapeutajorgedias.online",
+    "Psicoterapia para casais e atendimento individual online com Jorge Dias, especialista em relacionamentos. Conflitos, comunicação e reconstrução do vínculo.",
+  url: "https://www.psicologojorgedias.online",
   locale: "pt-BR",
   language: "pt",
 };
 
 export const SEO_KEYWORDS = {
   general: [
+    "terapia de casais online",
+    "psicoterapeuta especialista em relacionamentos",
+    "terapia para casais",
+    "psicoterapia para casais",
+    "terapia de relacionamento",
     "psicoterapia online",
-    "psicoterapeuta online",
-    "terapia para adultos",
-    "terapia de casal",
-    "psicoterapia clínica",
-    "autoconhecimento",
-    "desenvolvimento pessoal",
-    "terapia online brasil",
-    "psicoterapeuta clínico",
-  ],
-  adults: [
-    "crise existencial",
-    "autossabotagem",
-    "ansiedade",
-    "regulação emocional",
-    "identidade",
-    "autonomia",
+    "atendimento online para casais",
   ],
   couples: [
-    "terapia de casal",
-    "conflitos relacionais",
-    "padrões familiares",
+    "conflitos de casal",
+    "comunicação no relacionamento",
+    "reconstrução do vínculo",
+    "dependência emocional",
+    "padrões de relacionamento",
+  ],
+  adults: [
+    "autoconhecimento",
     "relacionamentos",
-    "comunicação de casal",
   ],
-  spirituality: [
-    "psicoterapia e espiritualidade",
-    "desenvolvimento integral",
-    "filosofia",
-    "pensamento integrativo",
-  ],
+  
 };
 
 export const SOCIAL_LINKS = {
@@ -70,20 +58,13 @@ export const SOCIAL_LINKS = {
  */
 export const EEAT_AUTHOR = {
   name: "Jorge Dias",
-  title: "Psicoterapeuta Clínico",
-  crp: "",
+  title: "Psicoterapeuta Especialista em Relacionamentos",
   education: "Universidade Estadual de Londrina (UEL)",
-  experience: "5+ anos de prática clínica",
+  experience: "5 anos de experiência em psicoterapia",
   specializations: [
-    "Psicologia Analítica (Jung)",
-    "Filosofia (Foucault)",
-    "Cosmologias Indígenas",
-    "Crise Existencial",
-    "Autossabotagem",
-    "Padrões Familiares",
+    "Terapia para relacionamentos",
   ],
   credentials: [
     "Graduado em Psicologia pela UEL",
-    "Especializado em Psicoterapia Clínica",
-  ],
+      ],
 };
