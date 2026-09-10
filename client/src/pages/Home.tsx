@@ -108,7 +108,7 @@ export default function Home() {
 
           <Link href="/" className="font-display text-lg md:text-xl font-bold tracking-tighter text-primary">
 
-            Jorge Dias — <span className="font-normal opacity-70">Terapia de Casal e Relacionamentos</span>
+            Jorge Dias — <span className="font-normal opacity-70">Terapia de Casal</span>
 
           </Link>
 
@@ -264,7 +264,7 @@ export default function Home() {
 
               <span className="text-white/80 lg:text-accent uppercase text-xs md:text-sm tracking-widest font-semibold mb-4 block">
 
-                Terapia de casal 100% online — Brasil e exterior
+                Terapia de casal 100% online 
 
               </span>
 
@@ -272,7 +272,7 @@ export default function Home() {
 
               <h1 className="font-display text-white lg:text-foreground mb-6 lg:mb-4">
 
-                Terapia direcionada para <br className="hidden md:block" />
+                Terapia para casais com<br className="hidden md:block" />
 
                 <span className="italic">dificuldades na comunicação</span>
 
@@ -504,7 +504,7 @@ export default function Home() {
 
                    <p>
 
-                    Às vezes basta um tom de voz, um suspiro ou um olhar para que a 'briga eterna' se reinicie — a mesma cena, o mesmo desgaste, sem ninguém saber como sair.
+                    Às vezes basta um tom de voz, um suspiro ou um olhar para que a 'briga eterna' se reinicie. A mesma cena, o mesmo desgaste, sem ninguém saber como sair.
 
                    </p>
 
@@ -540,7 +540,7 @@ export default function Home() {
 
                   <p>
 
-                    A terapia de casal existe para <strong>acabar com esse jogo</strong>. Não para decidir quem está certo, mas para que os dois voltem a enxergar a relação sem apagar o outro.
+                    A terapia de casal existe para <strong>acabar com esse jogo</strong>. Não para decidir quem está certo, mas para que o casal volte a se comunicar <strong>sem apagar um ao outro</strong>.
 
                   </p>
 
