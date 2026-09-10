@@ -26,7 +26,7 @@ export default function Home() {
 
     // Atualização dinâmica de Meta Tags para otimização de CPC no Google Ads
 
-    document.title = "Jorge Dias — Psicoterapeuta Especialista em Narcisismo";
+    document.title = "Jorge Dias — Psicoterapia para casais";
 
     
 
@@ -46,7 +46,7 @@ export default function Home() {
 
       'content', 
 
-      'Atendimento clínico com Jorge Dias, psicoterapeuta especialista em narcisismo. Tratamento focado no acolhimento de traços relacionais, dependência emocional e autossabotagem.'
+      'Atendimento clínico com Jorge Dias, psicoterapeuta especialista em relacionamentos.'
 
     );
 
@@ -108,7 +108,7 @@ export default function Home() {
 
           <Link href="/" className="font-display text-lg md:text-xl font-bold tracking-tighter text-primary">
 
-            Jorge Dias — <span className="font-normal opacity-70">Psicoterapia especializada em relações narcisistas</span>
+            Jorge Dias — <span className="font-normal opacity-70">Terapia de Casal e Relacionamentos</span>
 
           </Link>
 
@@ -264,7 +264,7 @@ export default function Home() {
 
               <span className="text-white/80 lg:text-accent uppercase text-xs md:text-sm tracking-widest font-semibold mb-4 block">
 
-                Atendimento 100% online Especializado em Narcisismo
+                Terapia de casal 100% online — Brasil e exterior
 
               </span>
 
@@ -272,9 +272,9 @@ export default function Home() {
 
               <h1 className="font-display text-white lg:text-foreground mb-6 lg:mb-4">
 
-                Terapia especializada em <br className="hidden md:block" />
+                Terapia para <br className="hidden md:block" />
 
-                <span className="italic">Relações Narcisistas</span>
+                <span className="italic">todos tipos de casais</span>
 
               </h1>
 
@@ -282,7 +282,7 @@ export default function Home() {
 
               <p className="text-lg md:text-xl text-white/90 lg:text-accent font-serif leading-relaxed mb-10 max-w-xl">
 
-               Quem sofre em relações Narcisistas geralmente fica com um profundo sentimento de <strong>vazio e falta de propósito</strong>. Isso não é acidental, é uma <strong>estratégia</strong>.
+               Brigas que nunca terminam, sentimento de <strong>vazio e solidão</strong>. Quando a pessoa do inicio da relação não parece a mesma de hoje. Existe uma <strong>explicação</strong> para isso.
 
               </p>
 
@@ -326,7 +326,7 @@ export default function Home() {
 
                 src="jorge-background.webp"
 
-                alt="Jorge Dias - Psicoterapeuta"
+                alt="Jorge Dias - Psicoterapeuta, terapia de casal online"
 
                 fetchPriority="high" 
 
@@ -362,7 +362,7 @@ export default function Home() {
 
                 
 
-                <h2 className="text-center mb-12">As duas faces do Narcisismo nas relações</h2>
+                <h2 className="text-center mb-12">O amor que parece uma competição sem fim</h2>
 
                 
 
@@ -370,31 +370,42 @@ export default function Home() {
 
                   <p>
 
-                    Temos a forte tendência de rotular o narcisismo apenas como <strong>egoísmo</strong>: o perfil clássico de alguém agressivo, controlador e manipulador.
+                    Um relacionamento saudável não é definido pela falta de conflito, mas sim pela forma como o <strong>conflito é resolvido</strong>.
 
                   </p>
 
                   <p>
 
-                    A prática clínica mostra que o comportamento narcisista é, na verdade, um mecanismo focado em gerar <strong>Dependência Emocional</strong>. 
+                    A prática clínica mostra um padrão: a maioria das brigas não é sobre <strong>apenas um assunto</strong>. O tema muda — dinheiro, rotina, família, celular — mas a base é sempre a mesma: <strong>a disputa por quem está certo</strong>.
 
                   </p>
 
                   <p>
 
-                    O Narcisista não possui apenas a face do "vilão". Existe também uma segunda forma de agir, muito mais comum e silenciosa: <strong>o narcisista com "boas intenções"</strong>.
+                    Cada um enxerga a relação por um ponto de vista, moldado por histórias, feridas e expectativas que o outro muitas vezes <strong>não consegue compreender</strong>. 
+                  </p>  
+  
+                    <p>
+
+                    O problema começa quando a própria versão dos fatos passa a ser tratada como a <strong>única versão possível</strong>. 
 
                   </p>
 
                   <p>
 
-                    Para provocar a dependência emocional, o Narcisista transforma a relação em um jogo onde <strong>quem cria as regras é ele</strong>. 
+                    Existe ainda outro peso, ainda mais silencioso: quando o casal se conheceu, cada um criou uma <strong>imagem idealizada</strong> do outro.
 
                   </p>
 
                   <p>
 
-                    Para manter esse controle, ele manipula de duas formas diferentes:
+                    Essa imagem congelou no tempo; a pessoa real, não. Muita cobrança de hoje é, no fundo, uma tentativa de forçar o outro a <strong>caber numa imagem que ele mesmo não escolheu</strong>.
+
+                  </p>
+
+                   <p>
+
+                    Quando a relação entra nesse modo, o casal tende a se dividir em dois movimentos característicos:
 
                   </p>
 
@@ -408,7 +419,7 @@ export default function Home() {
 
                       <summary className="font-display font-normal text-primary text-lg list-none flex justify-between items-center select-none">
 
-                        <span><strong>O Controlador Egoísta:</strong> Focado na invalidação e apagamento da indivualidade.</span>
+                        <span><strong>O movimento de quem confronta:</strong> Exigir, cobrar e insistir.</span>
 
                         <span className="text-accent text-xs font-sans border border-accent/20 rounded px-2 py-0.5 transition-transform group-open:bg-accent group-open:text-white">▼</span>
 
@@ -418,25 +429,23 @@ export default function Home() {
 
                         <p className="mb-4">
 
-                          Ele distorce fatos para ter sempre razão e ataca a sua individualidade, fazendo você <strong>duvidar da própria sanidade mental</strong>.
-
+                          Na briga, essa pessoa interrompe, aponta, lembra erros antigos e aumenta o volume. Quem está de fora enxerga agressividade; por dentro, existe outra coisa: <strong>o desespero de quem não se sente ouvido(a)</strong>.
                         </p>
 
                         <p className="mb-4">
 
-                          Essa é a visão mais "tradicional" e conhecida do Narcisismo. Quando age dessa forma, o indivíduo mostra a "invasão" de forma clara e direta.
+                          Cada tentativa frustrada de conversar vira um item guardado numa lista de mágoas. E essa lista, com o tempo, <strong>pesa mais do que qualquer assunto novo</strong>.
+                        </p>
+
+                        <p>
+
+                          A lógica é simples: se conversar não funcionou, cobrar mais alto pode funcionar. Nunca funciona — mas o cansaço emocional já <strong>não permite enxergar isso</strong>. 
 
                         </p>
 
                         <p>
 
-                          Através do uso de artificios como manipulação, agressividade, controle e inferiorização, ele <strong>domina sua autoestima e autonomia</strong>.
-
-                        </p>
-
-                        <p>
-
-                          Esse apagamento te faz sentir que você não consegue mais <strong>viver sem ele</strong>.
+                          No fundo, existe o medo de que o silêncio do outro signifique indiferença: se a relação está acabando, <strong>é melhor brigar do que não sentir nada</strong>.
 
                         </p>
 
@@ -450,7 +459,7 @@ export default function Home() {
 
                       <summary className="font-display font-normal text-primary text-lg list-none flex justify-between items-center select-none">
 
-                        <span><strong>O Controlador "bem intencionado":</strong> Focado no excesso de atenção (love bombing).</span>
+                        <span><strong>O movimento de quem se recolhe:</strong> Silenciar, evitar e se proteger.</span>
 
                         <span className="text-accent text-xs font-sans border border-accent/20 rounded px-2 py-0.5 transition-transform group-open:bg-accent group-open:text-white">▼</span>
 
@@ -460,25 +469,24 @@ export default function Home() {
 
                         <p className="mb-4">
 
-                          A pessoa invade o seu espaço com boas intenções, tornando-se uma figura primária e <strong>essencial em sua vida</strong>.
+                           Existe a ideia de que, nessas brigas, qualquer palavra vira combustível. Então <strong>o silêncio parece a única saída</strong>: se calar, mudar de assunto, se trancar no trabalho, no celular, em outro cômodo.
+                        </p>
+
+                        <p className="mb-4">
+
+                          Parece desinteresse — e é justamente assim que o outro interpreta. Mas quase sempre é <strong>autoproteção</strong>: a forma que essa pessoa encontrou de não piorar o que já está ruim.
 
                         </p>
 
                         <p className="mb-4">
 
-                          Esse comportamento é mais difícil de ser notado. Pode demonstrar-se tanto em relacionamentos amorosos, quanto familiares.
-
-                        </p>
-
-                        <p className="mb-4">
-
-                          Ao ocupar essa posição, o Narcisista se mostra como alguém muito preocupado com você, sempre disponível para "ajudar" e "resolver".
+                           Quanto mais um cobra, mais o outro se fecha. Quanto mais o outro se fecha, mais o primeiro cobra. O ciclo se retroalimenta — e nenhum dos dois percebe que está preso nele.
 
                         </p>
 
                         <p>
 
-                          Com o tempo, a ajuda e preocupação, se mostram como um mecanismo que busca <strong>controlar sua vida</strong> e sabotar outras relações que vão contra a vontade do Narcisista.
+                          No fundo, esse movimento busca evitar que tudo o que ainda resta de bom se perca de vez.
 
                         </p>
 
@@ -490,13 +498,13 @@ export default function Home() {
 
                   <p>
 
-                    Não são <strong>dois tipos de narcisista</strong>. São duas táticas usadas em momentos diferentes e, as vezes, <strong>ao mesmo tempo</strong>.
+                    Ninguém aqui é o vilão da história. Os dois movimentos são tentativas desesperadas de proteger o mesmo vínculo — um brigando, outro se calando. Os papéis inclusive podem se inverter conforme o assunto.
 
                   </p>
 
                    <p>
 
-                    Ele compreende seus pontos fracos e sabe <strong>quais botões apertar</strong> para te manter preso na relação.
+                    Às vezes basta um tom de voz, um suspiro ou um olhar para que a 'briga eterna' se reinicie — a mesma cena, o mesmo desgaste, sem ninguém saber como sair.
 
                    </p>
 
@@ -504,13 +512,13 @@ export default function Home() {
 
                           <div className="bg-white/60 p-6 border-l-4 border-primary shadow-sm">
 
-                            <p className="text-base md:text-lg italic mb-0">"Se você impõe um limite ou diz 'não', é interpretado como uma <strong>ofensa</strong>. O mecanismo do <u>medo</u> é usado para causar <strong>Dependência Emocional.</strong>"</p>
+                            <p className="text-base md:text-lg italic mb-0">'Se eu não levantar a voz, não sou ouvido(a). Às vezes sinto que preciso gritar para existir nessa relação.'</p>
 
                           </div>
 
                           <div className="bg-white/60 p-6 border-l-4 border-accent shadow-sm">
 
-                            <p className="text-base md:text-lg italic mb-0">"Se você recusa a sugestão ou ajuda que ele oferece, é interpretado como <strong>ingratidão</strong>. O mecanismo da <u>culpa</u> é usado para causar <strong>Dependência Emocional.</strong>"</p>
+                            <p className="text-base md:text-lg italic mb-0">'Se eu abrir a boca, vira briga. Aprendi que só me calando a gente consegue ter paz.'</p>
 
                           </div>
 
@@ -520,19 +528,19 @@ export default function Home() {
 
                   <p>
 
-                    De qualquer forma, o resultado final é o mesmo: <strong>a sua autonomia é apagada de forma constante</strong> para que você não consiga pensar ou agir sem ele.
+                    Os dois lados sofrem. E, enquanto a disputa segue, <strong>o que não é dito vira peso — e o que é dito vira arma</strong>.
 
                   </p>
 
                   <p>
 
-                    Conforme o tempo passa, seus sentimentos e ideias passam a ser cada vez mais <strong>focados no outro</strong>, fazendo com que o centro da sua vida não seja mais você. 
+                     Com o tempo, a relação inteira pode virar território de competição: Quem trabalha mais, quem cuida mais, quem cede mais, quem se sacrifica mais, quem tem razão. Ganhar a discussão passa a valer mais do que se entender.
 
                   </p>
 
                   <p>
 
-                    A terapia especializada tem como inteção <strong>resgatar sua liberdade pessoal</strong>.
+                    A terapia de casal existe para acabar com esse jogo. Não para decidir quem está certo, mas para que os dois voltem a enxergar a mesma relação, cada um pela própria perspectiva, sem apagar a do outro.
 
                   </p>
 
@@ -544,7 +552,7 @@ export default function Home() {
 
                     <h3 className="text-xl md:text-2xl font-display text-primary mb-6 font-semibold border-b border-border/40 pb-4">
 
-                      O processo terapêutico funciona em três etapas:
+                      O processo terapêutico acontece em três etapas:
 
                     </h3>
 
@@ -554,7 +562,7 @@ export default function Home() {
 
                         <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">1</span>
 
-                        <span>Entender a dinâmica da relação e os efeitos causados em você.</span>
+                        <span><strong>Entender a dinâmica da relação</strong>: como chegaram até aqui — sem julgamento e sem procurar culpados.</span>
 
                       </li>
 
@@ -562,7 +570,7 @@ export default function Home() {
 
                         <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">2</span>
 
-                        <span>Elaborar e superar os padrões que <strong>te mantêm preso</strong> nesse ciclo.</span>
+                        <span><strong>Desarmar o ciclo</strong>: mapear o que se repete nas brigas e compreender o que cada um protege ao brigar — e ao se calar.</span>
 
                       </li>
 
@@ -570,7 +578,7 @@ export default function Home() {
 
                         <span className="w-8 h-8 rounded-full bg-accent/20 text-accent flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">3</span>
 
-                        <span>Construir autonomia e critério para <strong>retomar o controle</strong> da sua vida.</span>
+                        <span><strong>Reconstruir a aproximação</strong>: uma conexão em que nenhum dos dois precise anular o outro para existir.</span>
 
                       </li>
 
