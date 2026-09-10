@@ -274,7 +274,7 @@ export default function Home() {
 
                 Terapia para casais com<br className="hidden md:block" />
 
-                <span className="italic">dificuldades na comunicação</span>
+                <span className="italic"> dificuldades na comunicação</span>
 
               </h1>
 
