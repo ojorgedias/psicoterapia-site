@@ -272,9 +272,9 @@ export default function Home() {
 
               <h1 className="font-display text-white lg:text-foreground mb-6 lg:mb-4">
 
-                Terapia para <br className="hidden md:block" />
+                Terapia direcionada para <br className="hidden md:block" />
 
-                <span className="italic">todos tipos de casais</span>
+                <span className="italic">dificuldades na comunicação</span>
 
               </h1>
 
@@ -376,7 +376,7 @@ export default function Home() {
 
                   <p>
 
-                    A prática clínica mostra um padrão: a maioria das brigas não é sobre <strong>apenas um assunto</strong>. O tema muda — dinheiro, rotina, família, celular — mas a base é sempre a mesma: <strong>a disputa por quem está certo</strong>.
+                    A prática clínica mostra um padrão: a maioria das brigas não é sobre <strong>apenas um assunto</strong>. O tema muda, mas a base é sempre a mesma: <strong>a disputa por quem está certo</strong>.
 
                   </p>
 
@@ -393,13 +393,13 @@ export default function Home() {
 
                   <p>
 
-                    Existe ainda outro peso, ainda mais silencioso: quando o casal se conheceu, cada um criou uma <strong>imagem idealizada</strong> do outro.
+                    Existe outro detalhe, ainda mais silencioso: Quando o casal se conheceu, cada um criou uma <strong>imagem idealizada</strong> do outro.
 
                   </p>
 
                   <p>
 
-                    Essa imagem congelou no tempo; a pessoa real, não. Muita cobrança de hoje é, no fundo, uma tentativa de forçar o outro a <strong>caber numa imagem que ele mesmo não escolheu</strong>.
+                    Essa imagem congelou no tempo, enquanto a pessoa real mudou. Muita cobrança de hoje é, no fundo, uma tentativa de forçar o outro a <strong>caber numa imagem que ele mesmo não escolheu</strong>.
 
                   </p>
 
@@ -498,7 +498,7 @@ export default function Home() {
 
                   <p>
 
-                    Ninguém aqui é o vilão da história. Os dois movimentos são tentativas desesperadas de proteger o mesmo vínculo — um brigando, outro se calando. Os papéis inclusive podem se inverter conforme o assunto.
+                    <strong>Ninguém aqui é o vilão da história</strong>. Os dois movimentos são tentativas desesperadas de proteger o mesmo vínculo. Os papéis inclusive <strong>podem se inverter</strong> conforme o assunto.
 
                   </p>
 
@@ -528,19 +528,19 @@ export default function Home() {
 
                   <p>
 
-                    Os dois lados sofrem. E, enquanto a disputa segue, <strong>o que não é dito vira peso — e o que é dito vira arma</strong>.
+                    Os dois lados sofrem. E, enquanto a disputa segue, <strong>o que não é dito vira peso, e o que é dito vira arma</strong>.
 
                   </p>
 
                   <p>
 
-                     Com o tempo, a relação inteira pode virar território de competição: Quem trabalha mais, quem cuida mais, quem cede mais, quem se sacrifica mais, quem tem razão. Ganhar a discussão passa a valer mais do que se entender.
+                     Com o tempo, a relação inteira pode virar território de competição. <strong>Ganhar a discussão passa a valer mais do que se entender</strong>.
 
                   </p>
 
                   <p>
 
-                    A terapia de casal existe para acabar com esse jogo. Não para decidir quem está certo, mas para que os dois voltem a enxergar a mesma relação, cada um pela própria perspectiva, sem apagar a do outro.
+                    A terapia de casal existe para <strong>acabar com esse jogo</strong>. Não para decidir quem está certo, mas para que os dois voltem a enxergar a relação sem apagar o outro.
 
                   </p>
 
@@ -562,7 +562,7 @@ export default function Home() {
 
                         <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">1</span>
 
-                        <span><strong>Entender a dinâmica da relação</strong>: como chegaram até aqui — sem julgamento e sem procurar culpados.</span>
+                        <span><strong>Entender a dinâmica da relação</strong>: Como chegaram até aqui, sem julgamento e sem procurar culpados.</span>
 
                       </li>
 
@@ -570,7 +570,7 @@ export default function Home() {
 
                         <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">2</span>
 
-                        <span><strong>Desarmar o ciclo</strong>: mapear o que se repete nas brigas e compreender o que cada um protege ao brigar — e ao se calar.</span>
+                        <span><strong>Desarmar o ciclo</strong>: Mapear o que se repete nas brigas e compreender o que cada um protege ao brigar e ao se calar.</span>
 
                       </li>
 
@@ -578,7 +578,7 @@ export default function Home() {
 
                         <span className="w-8 h-8 rounded-full bg-accent/20 text-accent flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">3</span>
 
-                        <span><strong>Reconstruir a aproximação</strong>: uma conexão em que nenhum dos dois precise anular o outro para existir.</span>
+                        <span><strong>Reconstruir a aproximação</strong>: Nutrir uma conexão em que nenhum dos dois precise anular o outro para existir.</span>
 
                       </li>
 
