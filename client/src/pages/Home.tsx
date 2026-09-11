@@ -651,6 +651,8 @@ export default function Home() {
 
                           O que define o resultado não é o canal, é a estrutura do processo.
                         </p>
+                      </div>
+                      </details>
 
 
                     <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
@@ -762,12 +764,12 @@ export default function Home() {
 
                         <p>
 
-                          Durante as sessões, forneço escuta, acolhimento e reconhecimento dessas questões, considerando e respeitando a vivência subjetiva de cada um. <strong>Aqui, o amor é livre!</strong>
+                         Durante as sessões, forneço escuta, acolhimento e reconhecimento dessas questões, considerando e respeitando a vivência subjetiva de cada um. <strong>Aqui, o amor é livre!</strong>
                         </p> 
 
-                          <p>
-                           O critério geral para meus atendimentos é a disposição do casal em compreender a própria dinâmica. <strong>Não existe formato de relação 'certo' para estar aqui.</strong>
-                         </p>
+                        <p>
+                          O critério geral para meus atendimentos é a disposição do casal em compreender a própria dinâmica. <strong>Não existe formato de relação 'certo' para estar aqui.</strong>
+                        </p>
 
                       </div>
 
