@@ -981,13 +981,13 @@ export default function Home() {
                     >
                      <span className="block">Consultar Disponibilidade</span>
                       <span className="block text-[10px] font-normal normal-case tracking-normal opacity-70 mt-1">
-                       via WhatsApp
+                       Via WhatsApp
                       </span>
                    </button>
 
                   <p className="text-xs text-foreground/50 italic mb-0">
 
-                    Atendimento inclusivo LGBTQIAPN+ e não-monogamia.
+                    Atendimento inclusivo LGBTQIAPN+ e Relações Não Monogâmicas.
 
                   </p>
 
