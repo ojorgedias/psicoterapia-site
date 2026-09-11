@@ -24,34 +24,7 @@ export default function Home() {
 
   useEffect(() => {
 
-    // Atualização dinâmica de Meta Tags para otimização de CPC no Google Ads
-
-    document.title = "Jorge Dias — Psicoterapia para casais";
-
     
-
-    let metaDesc = document.querySelector('meta[name="description"]');
-
-    if (!metaDesc) {
-
-      metaDesc = document.createElement('meta');
-
-      metaDesc.setAttribute('name', 'description');
-
-      document.head.appendChild(metaDesc);
-
-    }
-
-    metaDesc.setAttribute(
-
-      'content', 
-
-      'Atendimento clínico com Jorge Dias, psicoterapeuta especialista em relacionamentos.'
-
-    );
-
-
-
     const handleScroll = () => {
 
       setIsScrolled(window.scrollY > 50);
@@ -282,7 +255,7 @@ export default function Home() {
 
               <p className="text-lg md:text-xl text-white/90 lg:text-accent font-serif leading-relaxed mb-10 max-w-xl">
 
-               Brigas que nunca terminam, sentimento de <strong>vazio e solidão</strong>. Quando a pessoa do inicio da relação não parece a mesma de hoje. Existe uma <strong>explicação</strong> para isso.
+               Brigas que nunca terminam, sentimento de <strong>vazio e solidão</strong>. Quando a pessoa de hoje não parece a mesma do início. Existe uma <strong>explicação</strong> para isso.
 
               </p>
 
