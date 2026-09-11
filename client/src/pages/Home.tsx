@@ -995,7 +995,7 @@ export default function Home() {
 
                   <p className="text-xs text-foreground/50 italic mb-0">
 
-                    Casais e todas as configurações de relação LGBTQIAP+ e não monogâmicas.
+                    *Atendimento inclusivo LGBTQIAPN+ e não monogamia*.
 
                   </p>
 
