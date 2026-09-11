@@ -976,26 +976,18 @@ export default function Home() {
                   
 
                   <button
-
-                    onClick={handleContactClick}
-
+                   onClick={handleContactClick}
                     className="w-full bg-primary text-primary-foreground hover:bg-accent hover:text-primary transition-colors duration-300 py-4 px-6 rounded-md font-semibold text-sm uppercase tracking-wider mb-4"
-
-                  >
-
-                    Consultar Disponibilidade
-
-                  </button>
-
-                  <p className="text-xs text-foreground/50 italic mb-0">
-
-                    Agendamento direto via WhatsApp.
-
-                  </p>
+                    >
+                     <span className="block">Consultar Disponibilidade</span>
+                      <span className="block text-[10px] font-normal normal-case tracking-normal opacity-70 mt-1">
+                       via WhatsApp
+                      </span>
+                   </button>
 
                   <p className="text-xs text-foreground/50 italic mb-0">
 
-                    *Atendimento inclusivo LGBTQIAPN+ e não monogamia*.
+                    Atendimento inclusivo LGBTQIAPN+ e não-monogamia.
 
                   </p>
 
