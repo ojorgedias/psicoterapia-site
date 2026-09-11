@@ -730,7 +730,7 @@ export default function Home() {
 
                     </details>
 
-                                        <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
+                      <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
 
                       <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
 
