@@ -683,7 +683,7 @@ export default function Home() {
 
                         <p>
 
-                          Através da intervenção, o terapeuta trabalha, jumto ao casal, novas formas de comunicação e de resolução de conflitos que o casal não conseguiu construir sozinho.
+                          Através da intervenção, o terapeuta trabalha, junto ao casal, novas formas de comunicação e de resolução de conflitos que o casal não conseguiu construir sozinho.
                         </p>
 
                       </div>
@@ -946,8 +946,8 @@ export default function Home() {
                         <h4 className="font-display font-semibold text-white text-lg mb-1">O Acompanhamento</h4>
 
                         <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">As sessões seguintes acontecem semanalmente, com <strong>os dois juntos</strong>, por videochamada via Google Meet.</p>
-                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">A duração do processo varia conforme a demanda do casal. Questões pontuais costumam durar de 3 a 6 meses; demandas mais complexas, de 6 meses a um ano. <strong>O ritmo é definido pelo casa</strong>.</p>
-                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">Tudo o que é dito nas sessões é protegido por <strong>sigilo profissional</strong>.</p>
+                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">A duração do processo varia conforme a demanda do casal. Questões pontuais costumam durar de 3 a 6 meses; demandas mais complexas, de 6 meses a um ano. <strong>O ritmo é definido pelo casal</strong>.</p>
+                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">Tudo o que é dito nas sessões é protegido pelo <strong>sigilo profissional</strong>.</p>
 
                       </div>
 
