@@ -7,7 +7,7 @@ export default function PrivacyPolicy() {
       <header className="py-8 border-b border-border">
         <div className="container">
           <Link href="/" className="font-display text-xl font-bold text-primary">
-            Jorge Dias — <span className="font-normal opacity-70">Psicoterapia e Psicanálise</span>
+            Jorge Dias — <span className="font-normal opacity-70">Psicoterapia para casais</span>
           </Link>
         </div>
       </header>
