@@ -5,98 +5,10 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const ROUTES = [
-  // Main Pages
+  // Páginas reais do site
   "/",
-  "/servicos",
-  "/sobre",
-  "/contato",
-  "/blog",
-  "/faq",
-  "/conceitos-fundamentais",
-  
-  // Pillar Pages for Long-Tail SEO
-  "/autossabotagem",
-  "/padroes-familiares",
-  "/crise-existencial",
-  "/ansiedade",
-  "/narcisismo",
-  
-  // Cluster 1: Terapia para Adultos
-  "/terapia/adultos/crise-existencial",
-  "/terapia/adultos/autossabotagem",
-  "/terapia/adultos/regulacao-emocional",
-  "/terapia/adultos/autonomia-identidade",
-  
-  // Cluster 2: Terapia para Casais
-  "/terapia/casais/padroes-familiares",
-  "/terapia/casais/conflitos-casal",
-  "/terapia/casais/padroes-relacionamento",
-  
-  // Cluster 4: Autoridade
-  "/autoridade/psicoterapia-espiritualidade",
-  "/autoridade/filosofia-integrativa",
-  
-  // Original Blog Articles
-  "/blog/ansiedade-ou-intuicao",
-  "/blog/sombra-relacionamentos",
-  "/blog/fobia-social",
-  "/blog/narcisismo-era-digital",
-  "/blog/burnout-digital-original",
-  "/blog/guerra-sexos",
-  "/blog/despertar-espiritual",
-  "/blog/sindrome-impostor-original",
-  
-  // New SEO-Optimized Blog Articles
-  "/blog/autossabotagem-inconsciente",
-  "/blog/padroes-familiares-relacionamentos",
-  "/blog/narcisismo-encoberto",
-  "/blog/mae-narcisista-impacto-adulto",
-  "/blog/medo-de-ser-feliz",
-  "/blog/burnout-digital",
-  "/blog/sindrome-impostor-terapeutas",
-  "/blog/spiritual-bypass",
-  "/blog/integracao-psicoterapia-espiritualidade",
-  
-  // Long-Tail SEO Articles - Autossabotagem Cluster
-  "/sabotagem-relacionamento",
-  "/por-que-desisto-tudo",
-  "/sintomas-autossabotagem-trabalho",
-  "/preguica-vs-autossabotagem",
-  
-  // Long-Tail SEO Articles - Ansiedade Cluster
-  "/fobia-social",
-  "/ataque-panico",
-  "/terapia-online-ansiedade",
-  "/ansiedade-domingo-noite",
-  
-  // Long-Tail SEO Articles - Crise Existencial Cluster
-  "/crise-existencial-30-anos",
-  "/depressao-vs-crise-existencial",
-  "/vida-perde-sentido",
-  "/crise-identidade-profissional",
-  
-  // Long-Tail SEO Articles - Narcisismo Cluster
-  "/narcisismo-era-digital",
-  "/parceiro-narcisismo-oculto",
-  "/recuperar-autoestima-narcisista",
-  "/egoismo-vs-narcisismo",
-  
-  // Long-Tail SEO Articles - Padrões Familiares Cluster
-  "/quebrar-ciclos-familiares",
-  "/culpa-afastar-familia",
-  "/repeticao-padroes-familiares",
-  "/maes-imaturas",
-  
-  // Legal Pages
   "/politica-privacidade",
   "/termos-uso",
-
-  // English Section (/en)
-  "/en",
-  "/en/about",
-  "/en/pillar",
-  "/en/essays/illusion-of-the-individual",
-  "/en/essays/collective-shadow",
 ];
 
 const distDir = resolve(__dirname, 'dist');
