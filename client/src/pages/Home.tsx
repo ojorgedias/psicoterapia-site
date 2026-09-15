@@ -899,54 +899,45 @@ export default function Home() {
 
 
         {/* SECTION 5: Estrutura do Atendimento e CTA Final */}
-        <section className="section-padding bg-primary text-primary-foreground" id="clinica">
+        <section className="py-10 md:py-16 bg-primary text-primary-foreground" id="clinica">
           <div className="container">
             <div className="max-w-4xl mx-auto">
 
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 items-stretch bg-white/5 border border-white/10 p-6 md:p-10 shadow-2xl rounded-2xl">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6 items-stretch bg-white/5 border border-white/10 p-4 md:p-8 shadow-2xl rounded-2xl">
 
                 {/* Coluna 1: Como funciona */}
-                <div className="space-y-4">
-                  <div className="flex gap-4 items-start bg-white/5 border border-white/10 rounded-xl p-4">
-                    <div className="w-10 h-10 rounded-full bg-accent text-primary flex items-center justify-center shrink-0">
-                      <Video size={20} />
+                <div className="space-y-3">
+                  <div className="flex gap-3 items-center bg-white/5 border border-white/10 rounded-lg px-4 py-3">
+                    <div className="w-9 h-9 rounded-full bg-accent text-primary flex items-center justify-center shrink-0">
+                      <Video size={18} />
                     </div>
-                    <div>
-                      <h4 className="font-display font-semibold text-white text-lg mb-1">A Primeira Sessão</h4>
-                      <p className="text-sm md:text-base text-primary-foreground/80 leading-snug">
-                        <strong className="text-white">20 min com cada um + 10 min com os dois.</strong>
-                      </p>
-                      <p className="text-xs text-primary-foreground/60 leading-snug mt-1">
-                        Cada história ouvida individualmente, sem julgamento.
+                    <div className="min-w-0">
+                      <h4 className="font-display font-semibold text-white text-sm md:text-base leading-tight">Primeira Sessão</h4>
+                      <p className="text-xs md:text-sm text-primary-foreground/75 leading-snug mt-0.5">
+                        20 min com cada um + 10 min com os dois, sem julgamento.
                       </p>
                     </div>
                   </div>
 
-                  <div className="flex gap-4 items-start bg-white/5 border border-white/10 rounded-xl p-4">
-                    <div className="w-10 h-10 rounded-full bg-accent text-primary flex items-center justify-center shrink-0">
-                      <CalendarClock size={20} />
+                  <div className="flex gap-3 items-center bg-white/5 border border-white/10 rounded-lg px-4 py-3">
+                    <div className="w-9 h-9 rounded-full bg-accent text-primary flex items-center justify-center shrink-0">
+                      <CalendarClock size={18} />
                     </div>
-                    <div>
-                      <h4 className="font-display font-semibold text-white text-lg mb-1">O Acompanhamento</h4>
-                      <p className="text-sm md:text-base text-primary-foreground/80 leading-snug">
-                        <strong className="text-white">Semanal · 50 min · os dois juntos.</strong>
-                      </p>
-                      <p className="text-xs text-primary-foreground/60 leading-snug mt-1">
-                        Ritmo definido pelo casal, com sigilo profissional.
+                    <div className="min-w-0">
+                      <h4 className="font-display font-semibold text-white text-sm md:text-base leading-tight">Acompanhamento</h4>
+                      <p className="text-xs md:text-sm text-primary-foreground/75 leading-snug mt-0.5">
+                        Sessões semanais de 50 min, os dois juntos, por videochamada.
                       </p>
                     </div>
                   </div>
 
-                  <div className="flex gap-4 items-start bg-white/5 border border-white/10 rounded-xl p-4">
-                    <div className="w-10 h-10 rounded-full bg-accent text-primary flex items-center justify-center shrink-0">
-                      <ShieldCheck size={20} />
+                  <div className="flex gap-3 items-center bg-white/5 border border-white/10 rounded-lg px-4 py-3">
+                    <div className="w-9 h-9 rounded-full bg-accent text-primary flex items-center justify-center shrink-0">
+                      <ShieldCheck size={18} />
                     </div>
-                    <div>
-                      <h4 className="font-display font-semibold text-white text-lg mb-1">Sigilo Profissional</h4>
-                      <p className="text-sm md:text-base text-primary-foreground/80 leading-snug">
-                        <strong className="text-white">Tudo protegido por sigilo.</strong>
-                      </p>
-                      <p className="text-xs text-primary-foreground/60 leading-snug mt-1">
+                    <div className="min-w-0">
+                      <h4 className="font-display font-semibold text-white text-sm md:text-base leading-tight">Sigilo Profissional</h4>
+                      <p className="text-xs md:text-sm text-primary-foreground/75 leading-snug mt-0.5">
                         Um espaço seguro para colocar tudo em aberto.
                       </p>
                     </div>
@@ -954,25 +945,22 @@ export default function Home() {
                 </div>
 
                 {/* Coluna 2: Preço e Botão */}
-                <div className="bg-white rounded-xl p-6 md:p-8 text-center flex flex-col items-center justify-center shadow-xl">
-                  <span className="uppercase tracking-widest text-xs font-bold text-foreground/50 mb-4 block">
+                <div className="bg-white rounded-xl px-4 py-4 md:px-6 md:py-6 flex flex-col items-center justify-center shadow-xl">
+                  <span className="uppercase tracking-widest text-[10px] font-bold text-foreground/50 mb-2 block">
                     Atendimento 100% online
                   </span>
 
-                  <span className="text-sm text-foreground/80 mb-8 block">Valor da sessão: <strong className="text-lg">R$ 180</strong></span>
+                  <span className="text-sm text-foreground/70 mb-4 block">Valor da sessão: <strong className="text-base md:text-lg">R$ 180</strong></span>
 
                   <button
                     onClick={handleContactClick}
-                    className="w-full bg-primary text-primary-foreground hover:bg-accent hover:text-primary transition-colors duration-300 py-4 px-6 rounded-md font-semibold text-sm uppercase tracking-wider mb-4"
+                    className="w-full bg-primary text-primary-foreground hover:bg-accent hover:text-primary transition-colors duration-300 py-3.5 px-4 rounded-md font-semibold text-sm uppercase tracking-wider"
                   >
-                    <span className="block">Consultar Disponibilidade</span>
-                    <span className="block text-[10px] font-normal normal-case tracking-normal opacity-70 mt-1">
-                      Via WhatsApp
-                    </span>
+                    Consultar Disponibilidade
                   </button>
 
-                  <p className="text-xs text-foreground/50 italic mb-0">
-                    Atendimento inclusivo LGBTQIAPN+ e Relações Não Monogâmicas.
+                  <p className="text-[10px] text-foreground/50 italic mt-3 mb-0 text-center leading-snug">
+                    Via WhatsApp · Atendimento inclusivo LGBTQIAPN+ e relações não monogâmicas
                   </p>
                 </div>
 
@@ -981,7 +969,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-
 
       {/* SECTION 6: Footer */}
 
