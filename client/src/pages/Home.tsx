@@ -899,94 +899,88 @@ export default function Home() {
 
 
         {/* SECTION 5: Estrutura do Atendimento e CTA Final */}
-
         <section className="section-padding bg-primary text-primary-foreground" id="clinica">
-
           <div className="container">
-
             <div className="max-w-4xl mx-auto">
 
-              
-
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center bg-white/5 border border-white/10 p-10 md:p-14 shadow-2xl rounded-2xl">
-
-                
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 items-stretch bg-white/5 border border-white/10 p-6 md:p-10 shadow-2xl rounded-2xl">
 
                 {/* Coluna 1: Como funciona */}
-                <div className="space-y-10">
-                  <div className="flex gap-4 items-start">
-                    <div className="w-8 h-8 rounded-full bg-accent text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-1">1</div>
+                <div className="space-y-4">
+                  <div className="flex gap-4 items-start bg-white/5 border border-white/10 rounded-xl p-4">
+                    <div className="w-10 h-10 rounded-full bg-accent text-primary flex items-center justify-center shrink-0">
+                      <Video size={20} />
+                    </div>
                     <div>
-                      <h4 className="font-display font-semibold text-white text-lg mb-2">A Primeira Sessão</h4>
-                      <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">
-                        <strong className="text-white">20 minutos com cada um + 10 minutos com os dois juntos.</strong>
+                      <h4 className="font-display font-semibold text-white text-lg mb-1">A Primeira Sessão</h4>
+                      <p className="text-sm md:text-base text-primary-foreground/80 leading-snug">
+                        <strong className="text-white">20 min com cada um + 10 min com os dois.</strong>
                       </p>
-                      <p className="text-sm text-primary-foreground/60 leading-relaxed mt-1">
-                        Cada história é ouvida individualmente, sem julgamento, antes de virar a dinâmica do casal.
+                      <p className="text-xs text-primary-foreground/60 leading-snug mt-1">
+                        Cada história ouvida individualmente, sem julgamento.
                       </p>
                     </div>
                   </div>
 
-                  <div className="flex gap-4 items-start">
-                    <div className="w-8 h-8 rounded-full bg-accent text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-1">2</div>
+                  <div className="flex gap-4 items-start bg-white/5 border border-white/10 rounded-xl p-4">
+                    <div className="w-10 h-10 rounded-full bg-accent text-primary flex items-center justify-center shrink-0">
+                      <CalendarClock size={20} />
+                    </div>
                     <div>
-                      <h4 className="font-display font-semibold text-white text-lg mb-2">O Acompanhamento</h4>
-                      <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">
-                        <strong className="text-white">Sessões semanais de 50 minutos, os dois juntos, por videochamada.</strong>
+                      <h4 className="font-display font-semibold text-white text-lg mb-1">O Acompanhamento</h4>
+                      <p className="text-sm md:text-base text-primary-foreground/80 leading-snug">
+                        <strong className="text-white">Semanal · 50 min · os dois juntos.</strong>
                       </p>
-                      <p className="text-sm text-primary-foreground/60 leading-relaxed mt-1">
-                        Ritmo definido pelo casal, com sigilo profissional total.
+                      <p className="text-xs text-primary-foreground/60 leading-snug mt-1">
+                        Ritmo definido pelo casal, com sigilo profissional.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex gap-4 items-start bg-white/5 border border-white/10 rounded-xl p-4">
+                    <div className="w-10 h-10 rounded-full bg-accent text-primary flex items-center justify-center shrink-0">
+                      <ShieldCheck size={20} />
+                    </div>
+                    <div>
+                      <h4 className="font-display font-semibold text-white text-lg mb-1">Sigilo Profissional</h4>
+                      <p className="text-sm md:text-base text-primary-foreground/80 leading-snug">
+                        <strong className="text-white">Tudo protegido por sigilo.</strong>
+                      </p>
+                      <p className="text-xs text-primary-foreground/60 leading-snug mt-1">
+                        Um espaço seguro para colocar tudo em aberto.
                       </p>
                     </div>
                   </div>
                 </div>
-            
+
                 {/* Coluna 2: Preço e Botão */}
-
-                <div className="bg-white rounded-xl p-8 text-center flex flex-col items-center justify-center h-full shadow-xl">
-
+                <div className="bg-white rounded-xl p-6 md:p-8 text-center flex flex-col items-center justify-center shadow-xl">
                   <span className="uppercase tracking-widest text-xs font-bold text-foreground/50 mb-4 block">
-
                     Atendimento 100% online
-
                   </span>
 
-                  
-
-                  <span className="text-sm text-foreground/80 mb-10 block">Valor da sessão: <strong>R$180</strong></span>
-
-                  
+                  <span className="text-sm text-foreground/80 mb-8 block">Valor da sessão: <strong className="text-lg">R$ 180</strong></span>
 
                   <button
-                   onClick={handleContactClick}
+                    onClick={handleContactClick}
                     className="w-full bg-primary text-primary-foreground hover:bg-accent hover:text-primary transition-colors duration-300 py-4 px-6 rounded-md font-semibold text-sm uppercase tracking-wider mb-4"
-                    >
-                     <span className="block">Consultar Disponibilidade</span>
-                      <span className="block text-[10px] font-normal normal-case tracking-normal opacity-70 mt-1">
-                       Via WhatsApp
-                      </span>
-                   </button>
+                  >
+                    <span className="block">Consultar Disponibilidade</span>
+                    <span className="block text-[10px] font-normal normal-case tracking-normal opacity-70 mt-1">
+                      Via WhatsApp
+                    </span>
+                  </button>
 
                   <p className="text-xs text-foreground/50 italic mb-0">
-
                     Atendimento inclusivo LGBTQIAPN+ e Relações Não Monogâmicas.
-
                   </p>
-
                 </div>
 
-
-
               </div>
-
             </div>
-
           </div>
-
         </section>
-
       </main>
-
 
 
       {/* SECTION 6: Footer */}
