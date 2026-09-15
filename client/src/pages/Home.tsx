@@ -913,7 +913,7 @@ export default function Home() {
                     </div>
                     <div className="min-w-0 flex flex-col justify-center">
                       <h4 className="font-display font-semibold text-white text-sm md:text-base leading-tight">Primeira Sessão</h4>
-                      <p className="text-xs md:text-sm text-primary-foreground/75 leading-snug mt-0.5">
+                      <p className="text-xs md:text-sm text-primary-foreground/75 leading-snug mt-2">
                         20 minutos com cada um e 10 minutos finais com os dois juntos, para compreender as demandas individuais.
                       </p>
                     </div>
@@ -925,7 +925,7 @@ export default function Home() {
                     </div>
                     <div className="min-w-0 flex flex-col justify-center">
                       <h4 className="font-display font-semibold text-white text-sm md:text-base leading-tight">Acompanhamento</h4>
-                      <p className="text-xs md:text-sm text-primary-foreground/75 leading-snug mt-0.5">
+                      <p className="text-xs md:text-sm text-primary-foreground/75 leading-snug mt-2">
                         Sessões semanais de 50 minutos com os dois juntos, por videochamada via google meet.
                       </p>
                     </div>
@@ -937,7 +937,7 @@ export default function Home() {
                     </div>
                     <div className="min-w-0 flex flex-col justify-center">
                       <h4 className="font-display font-semibold text-white text-sm md:text-base leading-tight">Sigilo Profissional</h4>
-                      <p className="text-xs md:text-sm text-primary-foreground/75 leading-snug mt-0.5">
+                      <p className="text-xs md:text-sm text-primary-foreground/75 leading-snug mt-2">
                         Um espaço seguro para se abrir sem julgamento moral ou juizo de valor.
                       </p>
                     </div>
