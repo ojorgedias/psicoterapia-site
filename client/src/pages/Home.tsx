@@ -516,26 +516,44 @@ export default function Home() {
 
 
 
-                  {/* PROCESSO TERAPÊUTICO — RESUMO VISUAL */}
-                  <div className="mt-12 bg-white border border-border/50 shadow-sm p-6 md:p-8 rounded-2xl">
-                    <h3 className="text-xl md:text-2xl font-display text-primary mb-8 font-semibold text-center border-b border-border/40 pb-4">
-                      Como funciona
+                {/* NOVOS PASSOS DO PROCESSO TERAPÊUTICO */}
+
+                  <div className="mt-12 bg-white border border-border/50 shadow-sm p-8 rounded-2xl">
+
+                    <h3 className="text-xl md:text-2xl font-display text-primary mb-6 font-semibold border-b border-border/40 pb-4">
+
+                      O processo terapêutico acontece em três etapas:
+
                     </h3>
 
-                    <ul className="space-y-6 md:space-y-5 text-base md:text-lg">
-                      <li className="flex items-center gap-4">
-                        <span className="w-9 h-9 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm shrink-0">1</span>
-                        <span className="text-foreground/90"><strong className="text-primary">Entender a dinâmica</strong> de vocês</span>
+                    <ul className="space-y-6 text-base md:text-lg text-foreground/80">
+
+                      <li className="flex items-start gap-4">
+
+                        <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">1</span>
+
+                        <span><strong>Entender a dinâmica da relação</strong>: Como chegaram até aqui, sem julgamento e sem procurar culpados.</span>
+
                       </li>
-                      <li className="flex items-center gap-4">
-                        <span className="w-9 h-9 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm shrink-0">2</span>
-                        <span className="text-foreground/90"><strong className="text-primary">Desarmar o ciclo</strong> das brigas</span>
+
+                      <li className="flex items-start gap-4">
+
+                        <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">2</span>
+
+                        <span><strong>Desarmar o ciclo</strong>: Mapear o que se repete nas brigas e compreender o que cada um protege ao brigar e ao se calar.</span>
+
                       </li>
-                      <li className="flex items-center gap-4">
-                        <span className="w-9 h-9 rounded-full bg-accent/20 text-accent flex items-center justify-center font-bold text-sm shrink-0">3</span>
-                        <span className="text-foreground/90"><strong className="text-accent">Reconstruir a conexão</strong> entre vocês</span>
+
+                      <li className="flex items-start gap-4">
+
+                        <span className="w-8 h-8 rounded-full bg-accent/20 text-accent flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">3</span>
+
+                        <span><strong>Reconstruir a aproximação</strong>: Nutrir uma conexão em que nenhum dos dois precise anular o outro para existir.</span>
+
                       </li>
+
                     </ul>
+
                   </div>
 
 
@@ -895,51 +913,34 @@ export default function Home() {
                 
 
                 {/* Coluna 1: Como funciona */}
-
-                <div className="space-y-8">
-
-                  <div className="space-y-6">
-
-                    <div className="flex gap-4 items-start">
-
-                      <div className="w-8 h-8 rounded-full bg-accent text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-1">1</div>
-
-                      <div>
-
-                        <h4 className="font-display font-semibold text-white text-lg mb-1">A Primeira Sessão</h4>
-
-                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">A primeira sessão é dividida em <strong>três momentos</strong>: 20 minutos com um dos parceiros, 20 minutos com o outro e 10 minutos com os dois juntos.</p>
-                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">Esse formato permite compreender a demanda de cada um antes da dinâmica do casal. Cada pessoa fala livremente, sem os viéses que a presença do outro (ou a minha) pode introduzir.</p>
-                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">É um espaço livre de julgamento moral e juizo de valor, onde cada história importa por si mesma, antes de virar 'a versão de um dos lados'</p>
-
-                      </div>
-
+                <div className="space-y-10">
+                  <div className="flex gap-4 items-start">
+                    <div className="w-8 h-8 rounded-full bg-accent text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-1">1</div>
+                    <div>
+                      <h4 className="font-display font-semibold text-white text-lg mb-2">A Primeira Sessão</h4>
+                      <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">
+                        <strong className="text-white">20 minutos com cada um + 10 minutos com os dois juntos.</strong>
+                      </p>
+                      <p className="text-sm text-primary-foreground/60 leading-relaxed mt-1">
+                        Cada história é ouvida individualmente, sem julgamento, antes de virar a dinâmica do casal.
+                      </p>
                     </div>
-
-
-
-                    <div className="flex gap-4 items-start">
-
-                      <div className="w-8 h-8 rounded-full bg-accent text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-1">2</div>
-
-                      <div>
-
-                        <h4 className="font-display font-semibold text-white text-lg mb-1">O Acompanhamento</h4>
-
-                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">As sessões seguintes acontecem semanalmente, com <strong>os dois juntos</strong>, por videochamada via Google Meet.</p>
-                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">A duração do processo varia conforme a demanda do casal. Questões pontuais costumam durar de 3 a 6 meses; demandas mais complexas, de 6 meses a um ano. <strong>O ritmo é definido pelo casal</strong>.</p>
-                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">Tudo o que é dito nas sessões é protegido pelo <strong>sigilo profissional</strong>.</p>
-
-                      </div>
-
-                    </div>
-
                   </div>
 
+                  <div className="flex gap-4 items-start">
+                    <div className="w-8 h-8 rounded-full bg-accent text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-1">2</div>
+                    <div>
+                      <h4 className="font-display font-semibold text-white text-lg mb-2">O Acompanhamento</h4>
+                      <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">
+                        <strong className="text-white">Sessões semanais de 50 minutos, os dois juntos, por videochamada.</strong>
+                      </p>
+                      <p className="text-sm text-primary-foreground/60 leading-relaxed mt-1">
+                        Ritmo definido pelo casal, com sigilo profissional total.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-
-
-
+              </div>
                 {/* Coluna 2: Preço e Botão */}
 
                 <div className="bg-white rounded-xl p-8 text-center flex flex-col items-center justify-center h-full shadow-xl">
