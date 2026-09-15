@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import { Link, useLocation } from "wouter";
 
-import { Menu, X, MessageCircle, Award, Clock, GraduationCap } from "lucide-react";
+import { Menu, X, MessageCircle, Award, Clock, GraduationCap, Video, CalendarClock, ShieldCheck } from "lucide-react";
 
 import { motion, AnimatePresence } from "framer-motion";
 
