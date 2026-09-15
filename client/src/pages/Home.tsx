@@ -940,7 +940,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
+            
                 {/* Coluna 2: Preço e Botão */}
 
                 <div className="bg-white rounded-xl p-8 text-center flex flex-col items-center justify-center h-full shadow-xl">
