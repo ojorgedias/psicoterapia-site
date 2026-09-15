@@ -911,10 +911,10 @@ export default function Home() {
                     <div className="w-9 h-9 rounded-full bg-accent text-primary flex items-center justify-center shrink-0">
                       <Video size={18} />
                     </div>
-                    <div className="min-w-0">
+                    <div className="min-w-0 flex flex-col justify-center">
                       <h4 className="font-display font-semibold text-white text-sm md:text-base leading-tight">Primeira Sessão</h4>
                       <p className="text-xs md:text-sm text-primary-foreground/75 leading-snug mt-0.5">
-                        20 min com cada um + 10 min com os dois, sem julgamento.
+                        20 minutos com cada um e 10 minutos finais com os dois juntos, para compreender as demandas individuais.
                       </p>
                     </div>
                   </div>
@@ -923,10 +923,10 @@ export default function Home() {
                     <div className="w-9 h-9 rounded-full bg-accent text-primary flex items-center justify-center shrink-0">
                       <CalendarClock size={18} />
                     </div>
-                    <div className="min-w-0">
+                    <div className="min-w-0 flex flex-col justify-center">
                       <h4 className="font-display font-semibold text-white text-sm md:text-base leading-tight">Acompanhamento</h4>
                       <p className="text-xs md:text-sm text-primary-foreground/75 leading-snug mt-0.5">
-                        Sessões semanais de 50 min, os dois juntos, por videochamada.
+                        Sessões semanais de 50 minutos com os dois juntos, por videochamada via google meet.
                       </p>
                     </div>
                   </div>
@@ -935,10 +935,10 @@ export default function Home() {
                     <div className="w-9 h-9 rounded-full bg-accent text-primary flex items-center justify-center shrink-0">
                       <ShieldCheck size={18} />
                     </div>
-                    <div className="min-w-0">
+                    <div className="min-w-0 flex flex-col justify-center">
                       <h4 className="font-display font-semibold text-white text-sm md:text-base leading-tight">Sigilo Profissional</h4>
                       <p className="text-xs md:text-sm text-primary-foreground/75 leading-snug mt-0.5">
-                        Um espaço seguro para colocar tudo em aberto.
+                        Um espaço seguro para se abrir sem julgamento moral ou juizo de valor.
                       </p>
                     </div>
                   </div>
@@ -952,15 +952,18 @@ export default function Home() {
 
                   <span className="text-sm text-foreground/70 mb-4 block">Valor da sessão: <strong className="text-base md:text-lg">R$ 180</strong></span>
 
-                  <button
-                    onClick={handleContactClick}
-                    className="w-full bg-primary text-primary-foreground hover:bg-accent hover:text-primary transition-colors duration-300 py-3.5 px-4 rounded-md font-semibold text-sm uppercase tracking-wider"
+                 <button
+                  onClick={handleContactClick}
+                  className="w-full bg-primary text-primary-foreground hover:bg-accent hover:text-primary transition-colors duration-300 py-3.5 px-4 rounded-md font-semibold text-sm uppercase tracking-wider"
                   >
-                    Consultar Disponibilidade
-                  </button>
+                  <span className="block">Consultar Disponibilidade</span>
+                  <span className="block text-[10px] font-normal normal-case tracking-normal opacity-70 mt-1">
+                    Via WhatsApp
+                    </span>
+                    </button>
 
                   <p className="text-[10px] text-foreground/50 italic mt-3 mb-0 text-center leading-snug">
-                    Via WhatsApp · Atendimento inclusivo LGBTQIAPN+ e relações não monogâmicas
+                    Atendimento inclusivo LGBTQIAPN+ e relações não monogâmicas
                   </p>
                 </div>
 
