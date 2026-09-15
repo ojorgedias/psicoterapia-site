@@ -516,46 +516,27 @@ export default function Home() {
 
 
 
-                  {/* NOVOS PASSOS DO PROCESSO TERAPÊUTICO */}
-
-                  <div className="mt-12 bg-white border border-border/50 shadow-sm p-8 rounded-2xl">
-
-                    <h3 className="text-xl md:text-2xl font-display text-primary mb-6 font-semibold border-b border-border/40 pb-4">
-
-                      O processo terapêutico acontece em três etapas:
-
+                  {/* PROCESSO TERAPÊUTICO — RESUMO VISUAL */}
+                  <div className="mt-12 bg-white border border-border/50 shadow-sm p-6 md:p-8 rounded-2xl">
+                    <h3 className="text-xl md:text-2xl font-display text-primary mb-8 font-semibold text-center border-b border-border/40 pb-4">
+                      Como funciona
                     </h3>
 
-                    <ul className="space-y-6 text-base md:text-lg text-foreground/80">
-
-                      <li className="flex items-start gap-4">
-
-                        <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">1</span>
-
-                        <span><strong>Entender a dinâmica da relação</strong>: Como chegaram até aqui, sem julgamento e sem procurar culpados.</span>
-
+                    <ul className="space-y-6 md:space-y-5 text-base md:text-lg">
+                      <li className="flex items-center gap-4">
+                        <span className="w-9 h-9 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm shrink-0">1</span>
+                        <span className="text-foreground/90"><strong className="text-primary">Entender a dinâmica</strong> de vocês</span>
                       </li>
-
-                      <li className="flex items-start gap-4">
-
-                        <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">2</span>
-
-                        <span><strong>Desarmar o ciclo</strong>: Mapear o que se repete nas brigas e compreender o que cada um protege ao brigar e ao se calar.</span>
-
+                      <li className="flex items-center gap-4">
+                        <span className="w-9 h-9 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm shrink-0">2</span>
+                        <span className="text-foreground/90"><strong className="text-primary">Desarmar o ciclo</strong> das brigas</span>
                       </li>
-
-                      <li className="flex items-start gap-4">
-
-                        <span className="w-8 h-8 rounded-full bg-accent/20 text-accent flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">3</span>
-
-                        <span><strong>Reconstruir a aproximação</strong>: Nutrir uma conexão em que nenhum dos dois precise anular o outro para existir.</span>
-
+                      <li className="flex items-center gap-4">
+                        <span className="w-9 h-9 rounded-full bg-accent/20 text-accent flex items-center justify-center font-bold text-sm shrink-0">3</span>
+                        <span className="text-foreground/90"><strong className="text-accent">Reconstruir a conexão</strong> entre vocês</span>
                       </li>
-
                     </ul>
-
                   </div>
-
 
 
                   {/* BOTÃO AGENDAR SESSÃO */}
