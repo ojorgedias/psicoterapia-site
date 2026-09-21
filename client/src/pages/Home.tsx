@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import { Link, useLocation } from "wouter";
 
-import { Menu, X, MessageCircle, Award, Clock, GraduationCap, Video, CalendarClock, ShieldCheck } from "lucide-react";
+import { Menu, X, MessageCircle, Award, Clock, GraduationCap } from "lucide-react";
 
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -14,6 +14,9 @@ export default function Home() {
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  // Novo estado para controlar a exibição do texto extra
+
+  const [showMoreContent, setShowMoreContent] = useState(false);
 
   const [, setLocation] = useLocation();
 
@@ -21,7 +24,34 @@ export default function Home() {
 
   useEffect(() => {
 
+    // Atualização dinâmica de Meta Tags para otimização de CPC no Google Ads
+
+    document.title = "Jorge Dias — Psicoterapeuta Especialista em Narcisismo";
+
     
+
+    let metaDesc = document.querySelector('meta[name="description"]');
+
+    if (!metaDesc) {
+
+      metaDesc = document.createElement('meta');
+
+      metaDesc.setAttribute('name', 'description');
+
+      document.head.appendChild(metaDesc);
+
+    }
+
+    metaDesc.setAttribute(
+
+      'content', 
+
+      'Atendimento clínico com Jorge Dias, psicoterapeuta especialista em narcisismo. Tratamento focado no acolhimento de traços relacionais, dependência emocional e autossabotagem.'
+
+    );
+
+
+
     const handleScroll = () => {
 
       setIsScrolled(window.scrollY > 50);
@@ -78,7 +108,7 @@ export default function Home() {
 
           <Link href="/" className="font-display text-lg md:text-xl font-bold tracking-tighter text-primary">
 
-            Jorge Dias — <span className="font-normal opacity-70">Terapia de Casal</span>
+            Jorge Dias — <span className="font-normal opacity-70">Psicoterapia especializada em relações narcisistas</span>
 
           </Link>
 
@@ -234,7 +264,7 @@ export default function Home() {
 
               <span className="text-white/80 lg:text-accent uppercase text-xs md:text-sm tracking-widest font-semibold mb-4 block">
 
-                Terapia de casal 100% online 
+                Atendimento 100% online Especializado em Narcisismo
 
               </span>
 
@@ -242,9 +272,9 @@ export default function Home() {
 
               <h1 className="font-display text-white lg:text-foreground mb-6 lg:mb-4">
 
-                Terapia para casais com<br className="hidden md:block" />
+                Terapia especializada em <br className="hidden md:block" />
 
-                <span className="italic"> dificuldades na comunicação</span>
+                <span className="italic">Relações Narcisistas</span>
 
               </h1>
 
@@ -252,7 +282,7 @@ export default function Home() {
 
               <p className="text-lg md:text-xl text-white/90 lg:text-accent font-serif leading-relaxed mb-10 max-w-xl">
 
-               Brigas que nunca terminam, sentimento de <strong>vazio e solidão</strong>. Quando a pessoa de hoje não parece a mesma do início. Existe uma <strong>explicação</strong> para isso.
+               Quem sofre em relações Narcisistas geralmente fica com um profundo sentimento de <strong>vazio e falta de propósito</strong>. Isso não é acidental, é uma <strong>estratégia</strong>.
 
               </p>
 
@@ -296,7 +326,7 @@ export default function Home() {
 
                 src="jorge-background.webp"
 
-                alt="Jorge Dias - Psicoterapeuta, terapia de casal online"
+                alt="Jorge Dias - Psicoterapeuta"
 
                 fetchPriority="high" 
 
@@ -332,7 +362,7 @@ export default function Home() {
 
                 
 
-                <h2 className="text-center mb-12">O amor que parece uma competição sem fim</h2>
+                <h2 className="text-center mb-12">As duas faces do Narcisismo nas relações</h2>
 
                 
 
@@ -340,42 +370,31 @@ export default function Home() {
 
                   <p>
 
-                    Um relacionamento saudável não é definido pela falta de conflito, mas sim pela forma como o <strong>conflito é resolvido</strong>.
+                    Temos a forte tendência de rotular o narcisismo apenas como <strong>egoísmo</strong>: o perfil clássico de alguém agressivo, controlador e manipulador.
 
                   </p>
 
                   <p>
 
-                    A prática clínica mostra um padrão: a maioria das brigas não é sobre <strong>apenas um assunto</strong>. O tema muda, mas a base é sempre a mesma: <strong>a disputa por quem está certo</strong>.
+                    A prática clínica mostra que o comportamento narcisista é, na verdade, um mecanismo focado em gerar <strong>Dependência Emocional</strong>. 
 
                   </p>
 
                   <p>
 
-                    Cada um enxerga a relação por um ponto de vista, moldado por histórias, feridas e expectativas que o outro muitas vezes <strong>não consegue compreender</strong>. 
-                  </p>  
-  
-                    <p>
-
-                    O problema começa quando a própria versão dos fatos passa a ser tratada como a <strong>única versão possível</strong>. 
+                    O Narcisista não possui apenas a face do "vilão". Existe também uma segunda forma de agir, muito mais comum e silenciosa: <strong>o narcisista com "boas intenções"</strong>.
 
                   </p>
 
                   <p>
 
-                    Existe outro detalhe, ainda mais silencioso: Quando o casal se conheceu, cada um criou uma <strong>imagem idealizada</strong> do outro.
+                    Para provocar a dependência emocional, o Narcisista transforma a relação em um jogo onde <strong>quem cria as regras é ele</strong>. 
 
                   </p>
 
                   <p>
 
-                    Essa imagem congelou no tempo, enquanto a pessoa real mudou. Muita cobrança de hoje é, no fundo, uma tentativa de forçar o outro a <strong>caber numa imagem que ele mesmo não escolheu</strong>.
-
-                  </p>
-
-                   <p>
-
-                    Quando a relação entra nesse modo, o casal tende a se dividir em dois movimentos característicos:
+                    Para manter esse controle, ele manipula de duas formas diferentes:
 
                   </p>
 
@@ -389,7 +408,7 @@ export default function Home() {
 
                       <summary className="font-display font-normal text-primary text-lg list-none flex justify-between items-center select-none">
 
-                        <span><strong>O movimento de quem confronta:</strong> Exigir, cobrar e insistir.</span>
+                        <span><strong>O Controlador Egoísta:</strong> Focado na invalidação e apagamento da indivualidade.</span>
 
                         <span className="text-accent text-xs font-sans border border-accent/20 rounded px-2 py-0.5 transition-transform group-open:bg-accent group-open:text-white">▼</span>
 
@@ -399,23 +418,25 @@ export default function Home() {
 
                         <p className="mb-4">
 
-                          Na briga, essa pessoa interrompe, aponta, lembra erros antigos e aumenta o volume. Quem está de fora enxerga agressividade; por dentro, existe outra coisa: <strong>o desespero de quem não se sente ouvido(a)</strong>.
+                          Ele distorce fatos para ter sempre razão e ataca a sua individualidade, fazendo você <strong>duvidar da própria sanidade mental</strong>.
+
                         </p>
 
                         <p className="mb-4">
 
-                          Cada tentativa frustrada de conversar vira um item guardado numa lista de mágoas. E essa lista, com o tempo, <strong>pesa mais do que qualquer assunto novo</strong>.
-                        </p>
-
-                        <p>
-
-                          A lógica é simples: se conversar não funcionou, cobrar mais alto pode funcionar. Nunca funciona — mas o cansaço emocional já <strong>não permite enxergar isso</strong>. 
+                          Essa é a visão mais "tradicional" e conhecida do Narcisismo. Quando age dessa forma, o indivíduo mostra a "invasão" de forma clara e direta.
 
                         </p>
 
                         <p>
 
-                          No fundo, existe o medo de que o silêncio do outro signifique indiferença: se a relação está acabando, <strong>é melhor brigar do que não sentir nada</strong>.
+                          Através do uso de artificios como manipulação, agressividade, controle e inferiorização, ele <strong>domina sua autoestima e autonomia</strong>.
+
+                        </p>
+
+                        <p>
+
+                          Esse apagamento te faz sentir que você não consegue mais <strong>viver sem ele</strong>.
 
                         </p>
 
@@ -429,7 +450,7 @@ export default function Home() {
 
                       <summary className="font-display font-normal text-primary text-lg list-none flex justify-between items-center select-none">
 
-                        <span><strong>O movimento de quem se recolhe:</strong> Silenciar, evitar e se proteger.</span>
+                        <span><strong>O Controlador "bem intencionado":</strong> Focado no excesso de atenção (love bombing).</span>
 
                         <span className="text-accent text-xs font-sans border border-accent/20 rounded px-2 py-0.5 transition-transform group-open:bg-accent group-open:text-white">▼</span>
 
@@ -439,24 +460,25 @@ export default function Home() {
 
                         <p className="mb-4">
 
-                           Existe a ideia de que, nessas brigas, qualquer palavra vira combustível. Então <strong>o silêncio parece a única saída</strong>: se calar, mudar de assunto, se trancar no trabalho, no celular, em outro cômodo.
-                        </p>
-
-                        <p className="mb-4">
-
-                          Parece desinteresse — e é justamente assim que o outro interpreta. Mas quase sempre é <strong>autoproteção</strong>: a forma que essa pessoa encontrou de não piorar o que já está ruim.
+                          A pessoa invade o seu espaço com boas intenções, tornando-se uma figura primária e <strong>essencial em sua vida</strong>.
 
                         </p>
 
                         <p className="mb-4">
 
-                           Quanto mais um cobra, mais o outro se fecha. Quanto mais o outro se fecha, mais o primeiro cobra. O ciclo se retroalimenta — e nenhum dos dois percebe que está preso nele.
+                          Esse comportamento é mais difícil de ser notado. Pode demonstrar-se tanto em relacionamentos amorosos, quanto familiares.
+
+                        </p>
+
+                        <p className="mb-4">
+
+                          Ao ocupar essa posição, o Narcisista se mostra como alguém muito preocupado com você, sempre disponível para "ajudar" e "resolver".
 
                         </p>
 
                         <p>
 
-                          No fundo, esse movimento busca evitar que tudo o que ainda resta de bom se perca de vez.
+                          Com o tempo, a ajuda e preocupação, se mostram como um mecanismo que busca <strong>controlar sua vida</strong> e sabotar outras relações que vão contra a vontade do Narcisista.
 
                         </p>
 
@@ -468,13 +490,13 @@ export default function Home() {
 
                   <p>
 
-                    <strong>Ninguém aqui é o vilão da história</strong>. Os dois movimentos são tentativas desesperadas de proteger o mesmo vínculo. Os papéis inclusive <strong>podem se inverter</strong> conforme o assunto.
+                    Não são <strong>dois tipos de narcisista</strong>. São duas táticas usadas em momentos diferentes e, as vezes, <strong>ao mesmo tempo</strong>.
 
                   </p>
 
                    <p>
 
-                    Às vezes basta um tom de voz, um suspiro ou um olhar para que a 'briga eterna' se reinicie. A mesma cena, o mesmo desgaste, sem ninguém saber como sair.
+                    Ele compreende seus pontos fracos e sabe <strong>quais botões apertar</strong> para te manter preso na relação.
 
                    </p>
 
@@ -482,13 +504,13 @@ export default function Home() {
 
                           <div className="bg-white/60 p-6 border-l-4 border-primary shadow-sm">
 
-                            <p className="text-base md:text-lg italic mb-0">'Se eu não levantar a voz, não sou ouvido(a). Às vezes sinto que preciso gritar para existir nessa relação.'</p>
+                            <p className="text-base md:text-lg italic mb-0">"Se você impõe um limite ou diz 'não', é interpretado como uma <strong>ofensa</strong>. O mecanismo do <u>medo</u> é usado para causar <strong>Dependência Emocional.</strong>"</p>
 
                           </div>
 
                           <div className="bg-white/60 p-6 border-l-4 border-accent shadow-sm">
 
-                            <p className="text-base md:text-lg italic mb-0">'Se eu abrir a boca, vira briga. Aprendi que só me calando a gente consegue ter paz.'</p>
+                            <p className="text-base md:text-lg italic mb-0">"Se você recusa a sugestão ou ajuda que ele oferece, é interpretado como <strong>ingratidão</strong>. O mecanismo da <u>culpa</u> é usado para causar <strong>Dependência Emocional.</strong>"</p>
 
                           </div>
 
@@ -498,31 +520,31 @@ export default function Home() {
 
                   <p>
 
-                    Os dois lados sofrem. E, enquanto a disputa segue, <strong>o que não é dito vira peso, e o que é dito vira arma</strong>.
+                    De qualquer forma, o resultado final é o mesmo: <strong>a sua autonomia é apagada de forma constante</strong> para que você não consiga pensar ou agir sem ele.
 
                   </p>
 
                   <p>
 
-                     Com o tempo, a relação inteira pode virar território de competição. <strong>Ganhar a discussão passa a valer mais do que se entender</strong>.
+                    Conforme o tempo passa, seus sentimentos e ideias passam a ser cada vez mais <strong>focados no outro</strong>, fazendo com que o centro da sua vida não seja mais você. 
 
                   </p>
 
                   <p>
 
-                    A terapia de casal existe para <strong>acabar com esse jogo</strong>. Não para decidir quem está certo, mas para que o casal volte a se comunicar <strong>sem apagar um ao outro</strong>.
+                    A terapia especializada tem como inteção <strong>resgatar sua liberdade pessoal</strong>.
 
                   </p>
 
 
 
-                {/* NOVOS PASSOS DO PROCESSO TERAPÊUTICO */}
+                  {/* NOVOS PASSOS DO PROCESSO TERAPÊUTICO */}
 
                   <div className="mt-12 bg-white border border-border/50 shadow-sm p-8 rounded-2xl">
 
                     <h3 className="text-xl md:text-2xl font-display text-primary mb-6 font-semibold border-b border-border/40 pb-4">
 
-                      O processo terapêutico acontece em três etapas:
+                      O processo terapêutico funciona em três etapas:
 
                     </h3>
 
@@ -532,7 +554,7 @@ export default function Home() {
 
                         <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">1</span>
 
-                        <span><strong>Entender a dinâmica da relação</strong>: Como chegaram até aqui, sem julgamento e sem procurar culpados.</span>
+                        <span>Entender a dinâmica da relação e os efeitos causados em você.</span>
 
                       </li>
 
@@ -540,7 +562,7 @@ export default function Home() {
 
                         <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">2</span>
 
-                        <span><strong>Desarmar o ciclo</strong>: Mapear o que se repete nas brigas e compreender o que cada um protege ao brigar e ao se calar.</span>
+                        <span>Elaborar e superar os padrões que <strong>te mantêm preso</strong> nesse ciclo.</span>
 
                       </li>
 
@@ -548,13 +570,14 @@ export default function Home() {
 
                         <span className="w-8 h-8 rounded-full bg-accent/20 text-accent flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">3</span>
 
-                        <span><strong>Reconstruir a aproximação</strong>: Nutrir uma conexão em que nenhum dos dois precise anular o outro para existir.</span>
+                        <span>Construir autonomia e critério para <strong>retomar o controle</strong> da sua vida.</span>
 
                       </li>
 
                     </ul>
 
                   </div>
+
 
 
                   {/* BOTÃO AGENDAR SESSÃO */}
@@ -585,7 +608,7 @@ export default function Home() {
 
                       <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
 
-                        <span>"Posso fazer a terapia sozinho(a)?"</span>
+                        <span>"Estou buscando ajuda para outra pessoa"</span>
 
                         <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
 
@@ -595,22 +618,25 @@ export default function Home() {
 
                         <p>
 
-                          Pode, mas com um ajuste importante: Se apenas um dos dois participa, o trabalho deixa de ser terapia de casal e se torna uma <strong>terapia individual com foco em relacionamento</strong>.
+                          Muitas vezes observamos padrões de comportamento narcisista em nossas relações ou em pessoas próximas.
+
                         </p>
 
                         <p>
 
-                           Esse espaço permite compreender sua perspectiva da relação. A dinâmica de um casal não é responsabilidade de uma pessoa só, mas cada um pode começar observando próprio papel. 
+                          O diagnóstico de Transtorno de Personalidade Narcisista só pode ser feito após a realização de uma bateria de avaliação psicológica.
+
                         </p>
 
                         <p>
 
-                          Se em algum momento o outro decidir participar, a transição para o formato de casal acontece com naturalidade.
+                          Porém, mesmo sem diagnóstico, é possivel que pessoas reproduzam <strong>comportamentos narcisistas</strong>. E sim, é possível ajudar quem reproduz esses comportamentos.
+
                         </p>
 
                         <p>
 
-                          A disposição de um dos dois é importante para começar, mas os melhores resultados tendem a acontecer com a participação das duas partes.
+                          O ponto mais importante para se atentar é a <strong>vontade da outra pessoa</strong> em iniciar o processo terapêutico e lidar com essas questões.
 
                         </p>
 
@@ -622,7 +648,7 @@ export default function Home() {
 
                       <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
 
-                        <span>"Terapia de casal online funciona?"</span>
+                        <span>"Terapia não é coisa para loucos?"</span>
 
                         <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
 
@@ -632,33 +658,67 @@ export default function Home() {
 
                         <p>
 
-                          Sim. As sessões acontecem por videochamada, com os dois participando ao mesmo tempo. A dinâmica de fala, escuta e mediação é a mesma do encontro presencial.
+                          Existe um senso comum de que quem busca terapia é "louco" ou "ruim da cabeça".
 
                         </p>
 
                         <p>
 
-                          Para casais, o formato online tem uma vantagem específica: Funciona mesmo quando os dois estão em cidades diferentes ou com rotinas conflitantes. 
+                          Diversas vezes, em nosso cotidiano, enfrentamos situações que nos trazem a sensação de estar em um "beco sem saída". 
+
                         </p>
 
                         <p>
 
-                          Muitos casais relatam mais conforto em participar de casa. Sem deslocamento, sem sala de espera, num ambiente onde os dois já estão lado a lado.
+                          Sabe quando um aparelho eletrônico para de funcionar e o "jeitinho na tomada" não resolve mais? 
+
                         </p>
 
                         <p>
 
-                          O que define o resultado não é o canal, é a estrutura do processo.
+                          Nessas situações, buscamos ajuda de um <strong>especialista</strong> que tenha o conhecimento e as ferramentas certas para entender e corrigir o problema.
+
                         </p>
+
+                        <p>
+
+                          A mesma coisa acontece com nossa mente. As ferramentas que temos para solucionar problemas, algumas vezes <strong>deixam de ser suficientes</strong>.
+
+                        </p>
+
+                        <p>
+
+                          Da mesma forma que um técnico usa seu <strong>conhecimento</strong> para compreender e resolver o problema, o terapeuta te ajuda a compreender quais ferramentas podem ser utilizadas para te tirar do "beco sem saída".
+
+                        </p>
+
+                        <p>
+
+                          Te chamar de "maluco" por buscar ajuda especializada pode ser um mecanismo usado pelo Narcisista para te <strong>manter preso na relação</strong>.
+
+                        </p>
+
+                        <p>
+
+                          O processo terapêutico é sigiloso, especializado e focado em te ajudar a <strong>conhecer a si mesmo</strong>.
+
+                        </p>
+
+                        <p>
+
+                          Não existe <strong>cura milagrosa</strong> ou <strong>formula mágica</strong>. O foco do processo é te ajudar a se fortalecer para tomar as próprias decisões.
+
+                        </p>
+
                       </div>
-                      </details>
 
+                    </details>
 
                     <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
 
                       <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
 
-                        <span>"Já tentamos conversar tantas vezes. Por que agora seria diferente?"</span>
+                        <span>"Eu posso ser narcisista sem saber?"</span>
 
                         <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
 
@@ -668,21 +728,26 @@ export default function Home() {
 
                         <p>
 
-                          Porque o problema quase nunca é a <strong>falta</strong> de conversa — é o <strong>formato</strong> dela. 
-                        </p>
+                          Muitas pessoas chegam ao consultório aterrorizadas pelas definições da internet, temendo ser "o monstro" das suas relações.
 
-                        <p>
-                           Em um casal com problemas de comunicação, as conversas tendem a ser repetitivas e circulares. Conversar mais vezes, no mesmo roteiro, só <strong>aprofunda o desgaste</strong>.
-                        </p>
-
-                        <p>
-
-                          Na terapia, existe uma diferença estrutural: Alguém treinado para enxergar essas repetições e <strong>intervir</strong> no momento em que acontecem.
                         </p>
 
                         <p>
 
-                          Através da intervenção, o terapeuta trabalha, junto ao casal, novas formas de comunicação e de resolução de conflitos que o casal não conseguiu construir sozinho.
+                          O fato de você questionar o impacto das suas ações e buscar terapia indica que a <strong>sua empatia está ativa</strong>, o que diminui as possibilidades do diagnóstico de Narcisismo Patológico. 
+
+                        </p>
+
+                        <p>
+
+                          Isso não anula o fato de que defesas narcísicas mal resolvidas podem estar <strong>atrapalhando sua vida pessoal</strong>, mas demonstra existência de um caminho para a mudança.
+
+                        </p>
+
+                        <p>
+
+                          O nosso foco não é entregar rótulos, mas compreender <strong>por que você construiu essas defesas</strong> e como elas afetam sua vida.
+
                         </p>
 
                       </div>
@@ -695,7 +760,7 @@ export default function Home() {
 
                       <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
 
-                        <span>"A terapia é para salvar o relacionamento?"</span>
+                        <span>"Posso reproduzir comportamentos Narcisistas?"</span>
 
                         <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
 
@@ -707,67 +772,62 @@ export default function Home() {
 
                         <p>
 
-                          Essa resposta cabe ao próprio casal e costuma ficar mais clara durante o próprio processo.
-                        </p>
-
-                        <p>
-
-                          A terapia não existe para 'salvar' nem para 'encerrar' a relação. Ela existe para clarear a comunicação e a compreensão entre os dois.
-                        </p>
-
-                        <p>
-
-                          O que a experiência clínica mostra é que qualquer decisão, seja ficar, reestruturar ou se separar, tende a ser mais fundamentada e completa quando o casal enxerga com clareza a dinâmica do relacionamento.
-                        </p>
-
-                        <p>
-
-                          O papel do processo terapêutico é garantir que a escolha seja consciente e fundamentada e não fruto de cansaço, desgaste ou reações emocionais intensas."
-                        </p> 
-
-
-
-                      </div>
-
-                    </details>
-
-                      <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
-
-                      <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
-
-                        <span>"Quais tipos de relacionamentos você atende?"</span>
-
-                        <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
-
-                      </summary>
-
-                      
-
-                      <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
-
-                        <p>
-
-                          O trabalho é com a dinâmica da relação, não com o formato dela. O que gera sofrimento num casal atravessa qualquer configuração de vínculo.
+                          Em geral, a reprodução de Comportamentos Narcisistas está diretamente relacionada a <strong>Dependência Emocional</strong>.
 
                         </p>
 
                         <p>
 
-                          Atendo casais homoafetivos e heteroafetivos, pessoas trans, não binárias, bem como relações fora do modelo monogâmico: Poliamor, relações abertas e outras configurações consensuais.
+                          Não significa necessariamente apenas "não querer ficar sozinho". Na prática, dependência emocional é uma dificuldade em lidar com aspectos da vida da outra pessoa que <strong>não envolvam você</strong>.
+
                         </p>
 
                         <p>
 
-                          Muitas vezes a dinâmica de relacionamentos LGBTQIAPN+ é atravessada por questões sociais e familiares específicas que necessitam ser consideradas e validadas dentro do ambiente terapêutico.
+                          Por exemplo: <em>"Não gosto do trabalho atual do meu companheiro"</em>. Muitas vezes esse "não gostar" significa perceber que a pessoa se interessa e <strong>investe muita energia no trabalho</strong>, o que faz você se sentir ameaçado.
+
                         </p>
 
                         <p>
 
-                         Durante as sessões, forneço escuta, acolhimento e reconhecimento dessas questões, considerando e respeitando a vivência subjetiva de cada um. <strong>Aqui, o amor é livre!</strong>
+                          Nessas situações, quem reproduz comportamento Narcisista pode brigar, ter crises de ciumes, reclamar de coisas que envolvam o trabalho do companheiro, etc.
+
                         </p> 
 
                         <p>
-                          O critério geral para meus atendimentos é a disposição do casal em compreender a própria dinâmica. <strong>Não existe formato de relação 'certo' para estar aqui.</strong>
+
+                          Isso demonstra que a pessoa <strong>sente ativamente</strong> o desconforto causado pela <strong>dependência emocional</strong> e sofre, ao mesmo tempo que faz o outro sofrer.
+
+                        </p>
+
+                        <p>
+
+                          O Narcisista Patológico, por outro lado, tem um mecanismo que evita desconforto de se sentir rejeitado, por isso reproduz comportamentos semelhantes, mas <strong>quem sofre é sempre o outro</strong>. 
+
+                        </p>
+
+                        <p>
+
+                          Ele usa de artifícios diretos e indiretos, criando situações que façam o outro se sentir desconfortável no trabalho, desde alimentar fofocas, intrigas, disputas, até comportamentos "bem intencionados" como arrumar um trabalho novo (que a pessoa não goste tanto).
+
+                        </p> 
+
+                        <p> 
+
+                          Uma das diferenças principais é que ele pode <strong>simular estar em sofrimento</strong>, mas a intenção é <strong>transferir o sentimento para o outro</strong>, fazendo o companheiro sentir-se culpado pelo sofrimento dele. 
+
+                        </p>
+
+                        <p>
+
+                          A Dependência Emocional é a mesma nos dois casos, mas o objetivo se torna diferente. Enquanto um compartilha o sofrimento, o outro manipula a realidade para <strong>manter-se sendo o ponto central da vida do companheiro</strong>.
+
+                        </p>
+
+                        <p>
+
+                          A reprodução de comportamentos narcisistas é muito mais comum e naturalizada do que imaginamos. Felizmente, o trabalho terapêutico nesses casos ajuda a <strong>compreender e resolver</strong> esses comportamentos.
+
                         </p>
 
                       </div>
@@ -775,6 +835,32 @@ export default function Home() {
                     </details>
 
                   </div>
+
+
+
+                  {/* BOTÃO LER MAIS (APARECE APENAS SE O CONTEÚDO EXTRA ESTIVER OCULTO) */}
+
+                  {!showMoreContent && (
+
+                    <div className="flex justify-center pt-2 pb-0">
+
+                      <button 
+
+                        onClick={() => setShowMoreContent(true)}
+
+                        className="w-full sm:w-auto bg-transparent text-foreground/60 hover:text-primary hover:bg-primary/5 transition-all duration-300 py-3.5 px-8 rounded-md font-medium text-base text-center flex items-center justify-center group"
+
+                      >
+
+                        Mais informações...<span className="ml-2 text-lg leading-none transition-transform duration-300 group-hover:translate-y-1"></span>
+
+                      </button>
+
+                    </div>
+
+                  )}
+
+
 
                 </div>
 
@@ -785,6 +871,209 @@ export default function Home() {
           </div>
 
           
+
+          {/* SESSÕES OCULTAS (REVELADAS AO CLICAR EM LER MAIS) VIRÃO AQUI ABAIXO... */}
+
+          <AnimatePresence>
+
+            {showMoreContent && (
+
+              <motion.div
+
+                initial={{ opacity: 0, height: 0 }}
+
+                animate={{ opacity: 1, height: "auto" }}
+
+                exit={{ opacity: 0, height: 0 }}
+
+                transition={{ duration: 0.6, ease: "easeInOut" }}
+
+                className="overflow-hidden"
+
+              >
+
+                {/* Sub-section 2: A exaustão da realidade distorcida */}
+
+                <div className="section-padding !pt-8 bg-[#ECEEEF] border-y border-border/30">
+
+                  <div className="container">
+
+                    <div className="max-w-3xl mx-auto">
+
+                      <div className="manifesto-text space-y-6 md:space-y-8 text-lg md:text-xl text-foreground/90 leading-relaxed">
+
+                        <h3 className="pt-0 text-center mb-10">A exaustão de lutar contra uma realidade distorcida</h3>
+
+                        <p>
+
+                          Discutir, argumentar ou tentar provar a sua dor torna-se inútil nestas dinâmicas. O indivíduo possui um mecanismo mental que trabalha 24 horas por dia para <strong>manipular a realidade</strong> e proteger o próprio Ego.
+
+                        </p>
+
+                        <p>
+
+                          Qualquer sentimento desconfortável é automaticamente rejeitado por ele e <strong>transferido para você</strong>.
+
+                        </p>
+
+                        
+
+                        <p>
+
+                          Para tentar sobreviver a esse ambiente onde a realidade é constantemente manipulada, a vítima geralmente desenvolve duas respostas: 
+
+                        </p>
+
+                        <p> 
+
+                          A <strong>Submissão</strong>: Seja de forma direta ou indireta, agir de acordo com a vontade da outra pessoa se torna uma saída menos dolorosa e desgastante.
+
+                        </p> 
+
+                        <p>
+
+                          A <strong>Resistência</strong>: Muitas vezes a vítima luta constantemente para argumentar e demonstrar a própria vontade, buscando agir sempre da forma oposta a qual o Narcisista tenta ditar. 
+
+                        </p>
+
+                        <p>
+
+                          Nos dois cenários, a sombra do outro continua a <strong>ditar as regras da sua vida</strong> (direta ou indiretamente), gerando um profundo sentimento de vazio por não saber mais quem você realmente é.
+
+                        </p>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+
+                {/* Sub-section 3: Patológico vs Comportamento */}
+
+                <div className="section-padding !pt-8">
+
+                  <div className="container">
+
+                    <div className="max-w-4xl mx-auto">
+
+                      <div className="manifesto-text space-y-6 md:space-y-8 text-lg md:text-xl text-foreground/90 leading-relaxed">
+
+                        
+
+                        <h3 className="pt-0 text-center mb-12">A diferença entre transtorno e comportamento</h3>
+
+                        
+
+                        <p className="max-w-3xl mx-auto text-center mb-12">
+
+                          A melhor forma de compreender a diferença entre quem possui o transtorno enraizado e quem apenas reproduz o comportamento narcisista é olhar para um fator crucial: <strong>a capacidade de validar o outro</strong>.
+
+                        </p>
+
+
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-14">
+
+                          <div className="bg-primary/5 p-8 rounded-xl border border-primary/10 shadow-sm hover:shadow-md transition-shadow">
+
+                            <h4 className="text-xl font-display text-primary mb-4 font-semibold">O Narcisista Patológico</h4>
+
+                            <p className="text-base md:text-lg leading-relaxed mb-0">
+
+                              Faz os outros sofrerem com a sua condição, mas ele mesmo não sofre. Vive protegido por uma realidade fantasiosa impenetrável onde a culpa nunca é dele. <strong>Todas suas interações deixam a outra pessoa se sentindo cansada e invalidada</strong>.
+
+                            </p>
+
+                          </div>
+
+
+
+                          <div className="bg-accent/5 p-8 rounded-xl border border-accent/10 shadow-sm hover:shadow-md transition-shadow">
+
+                            <h4 className="text-xl font-display text-accent mb-4 font-semibold">A Reprodução de Traços</h4>
+
+                            <p className="text-base md:text-lg leading-relaxed mb-0">
+
+                              Qualquer pessoa pode reproduzir comportamentos narcisistas. A diferença é que o mecanismo de manipular a realidade não funciona sempre. Ela causa dor aos outros, <strong>mas também sofre muito</strong>. Assiste à ruína dos seus vínculos, sente a perda, mas sente-se <strong>perdida</strong> sobre como reconhecer quais erros são sua responsabilidade.
+
+                            </p>
+
+                          </div>
+
+                        </div>
+
+                        
+
+                        <p>
+
+                          O diagnóstico do <strong>Transtorno de Personalidade Narcisista</strong> só pode ser confirmado com a realização de uma bateria completa de <strong>Avaliações Psicológicas</strong>.
+
+                        </p>
+
+                        <p>
+
+                          Independente do rótulo, a reprodução desses comportamentos em longo prazo causa grandes danos psicológicos e <strong>crises de identidade</strong>.
+
+                        </p>
+
+                        <p>
+
+                          Quando falamos de relacionamentos narcisistas, a <strong>Dependência Emocional</strong> é o que mantém a pessoa presa.
+
+                        </p>
+
+                        <p>
+
+                          O caminho clínico para lidar com isso segue em <strong>Três passos</strong>:
+
+                        </p>
+
+                        <ul className="list-disc pl-6 space-y-3">
+
+                          <li>Compreender quais áreas da sua vida foram <strong>invadidas</strong> nessa relação;</li>
+
+                          <li>Livrar-se de todas as invasões realizadas e lidar com o vazio causado pela <strong>Dependência Emocional</strong>;</li>
+
+                          <li>Construir dentro de si um caminho de <strong>autoconhecimento</strong> e cuidado pessoal, para evitar a busca inconsciente por relações semelhantes.</li>
+
+                        </ul>
+
+
+
+                        {/* SEGUNDO CTA INTERMEDIÁRIO */}
+
+                        <div className="text-center pt-8 pb-6">
+
+                          <a href="#clinica" className="btn-high-ticket inline-block">
+
+                            Quero iniciar meu processo
+
+                          </a>
+
+                        </div>
+
+
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </motion.div>
+
+            )}
+
+          </AnimatePresence>
+
+
+
         </section>
 
 
@@ -843,13 +1132,14 @@ export default function Home() {
 
                     <p>
 
-                      Psicoterapeuta clínico focado em atendimento de casais com dificuldades de comunicação. 
+                      Psicoterapeuta Clínico com foco em Relacionamentos Narcisistas e dependência emocional. 
 
                     </p>
 
                     <p>
 
-                      No trabalho com casais, parto de uma premissa simples: Cada pessoa é um universo próprio, com história e percepção únicas. A terapia não busca fundir esses universos, muito menos escolher um lado. Busca uma aproximação em que nenhum dos dois precise se anular para a relação funcionar.
+                      Ajudo pessoas a descobrirem padrões Narcisistas em seus relacionamentos e recuperar a <strong>autonomia emocional</strong>.
+
                     </p>
 
                   </div>
@@ -870,7 +1160,7 @@ export default function Home() {
 
                       <Award className="text-accent" size={24} />
 
-                      <span className="text-sm font-semibold text-foreground/90">Foco clínico em relacionamentos.</span>
+                      <span className="text-sm font-semibold text-foreground/90">Especialista em Narcisismo</span>
 
                     </div>
 
@@ -899,79 +1189,110 @@ export default function Home() {
 
 
         {/* SECTION 5: Estrutura do Atendimento e CTA Final */}
-        <section className="py-10 md:py-16 bg-primary text-primary-foreground" id="clinica">
+
+        <section className="section-padding bg-primary text-primary-foreground" id="clinica">
+
           <div className="container">
+
             <div className="max-w-4xl mx-auto">
 
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6 items-stretch bg-white/5 border border-white/10 p-4 md:p-8 shadow-2xl rounded-2xl">
+              
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center bg-white/5 border border-white/10 p-10 md:p-14 shadow-2xl rounded-2xl">
+
+                
 
                 {/* Coluna 1: Como funciona */}
-                <div className="space-y-3">
-                  <div className="flex gap-3 items-center bg-white/5 border border-white/10 rounded-lg px-4 py-3">
-                    <div className="w-9 h-9 rounded-full bg-accent text-primary flex items-center justify-center shrink-0">
-                      <Video size={18} />
+
+                <div className="space-y-8">
+
+                  <div className="space-y-6">
+
+                    <div className="flex gap-4 items-start">
+
+                      <div className="w-8 h-8 rounded-full bg-accent text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-1">1</div>
+
+                      <div>
+
+                        <h4 className="font-display font-semibold text-white text-lg mb-1">A Primeira Sessão</h4>
+
+                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">Um espaço livre de julgamentos morais. O objetivo é compreender a sua história de vida e suas relações, colocando <strong>você no centro do processo.</strong></p>
+
+                      </div>
+
                     </div>
-                    <div className="min-w-0 flex flex-col justify-center">
-                      <h4 className="font-display font-semibold text-white text-sm md:text-base leading-tight">Primeira Sessão</h4>
-                      <p className="text-xs md:text-sm text-primary-foreground/75 leading-snug mt-5">
-                        20 minutos com cada um e 10 minutos finais com os dois juntos, para compreender as demandas individuais.
-                      </p>
+
+
+
+                    <div className="flex gap-4 items-start">
+
+                      <div className="w-8 h-8 rounded-full bg-accent text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-1">2</div>
+
+                      <div>
+
+                        <h4 className="font-display font-semibold text-white text-lg mb-1">O Acompanhamento</h4>
+
+                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">Sessões semanais de 50 minutos, conduzidas online via Google Meet, com total sigilo. Respeitando o tempo do seu inconsciente.</p>
+
+                      </div>
+
                     </div>
+
                   </div>
 
-                  <div className="flex gap-3 items-center bg-white/5 border border-white/10 rounded-lg px-4 py-3">
-                    <div className="w-9 h-9 rounded-full bg-accent text-primary flex items-center justify-center shrink-0">
-                      <CalendarClock size={18} />
-                    </div>
-                    <div className="min-w-0 flex flex-col justify-center">
-                      <h4 className="font-display font-semibold text-white text-sm md:text-base leading-tight">Acompanhamento</h4>
-                      <p className="text-xs md:text-sm text-primary-foreground/75 leading-snug mt-5">
-                        Sessões semanais de 50 minutos com os dois juntos, por videochamada via google meet.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex gap-3 items-center bg-white/5 border border-white/10 rounded-lg px-4 py-3">
-                    <div className="w-9 h-9 rounded-full bg-accent text-primary flex items-center justify-center shrink-0">
-                      <ShieldCheck size={18} />
-                    </div>
-                    <div className="min-w-0 flex flex-col justify-center">
-                      <h4 className="font-display font-semibold text-white text-sm md:text-base leading-tight">Sigilo Profissional</h4>
-                      <p className="text-xs md:text-sm text-primary-foreground/75 leading-snug mt-5">
-                        Um espaço seguro para se abrir sem julgamento moral ou juizo de valor.
-                      </p>
-                    </div>
-                  </div>
                 </div>
+
+
 
                 {/* Coluna 2: Preço e Botão */}
-                <div className="bg-white rounded-xl px-4 py-4 md:px-6 md:py-6 flex flex-col items-center justify-center shadow-xl">
-                  <span className="uppercase tracking-widest text-[10px] font-bold text-foreground/50 mb-2 block">
+
+                <div className="bg-white rounded-xl p-8 text-center flex flex-col items-center justify-center h-full shadow-xl">
+
+                  <span className="uppercase tracking-widest text-xs font-bold text-foreground/50 mb-4 block">
+
                     Atendimento 100% online
+
                   </span>
 
-                  <span className="text-sm text-foreground/70 mb-4 block">Valor da sessão: <strong className="text-base md:text-lg">R$ 180</strong></span>
+                  
 
-                 <button
-                  onClick={handleContactClick}
-                  className="w-full bg-primary text-primary-foreground hover:bg-accent hover:text-primary transition-colors duration-300 py-3.5 px-4 rounded-md font-semibold text-sm uppercase tracking-wider"
+                  <span className="text-sm text-foreground/80 mb-10 block">Valor da sessão: <strong>R$130</strong></span>
+
+                  
+
+                  <button
+
+                    onClick={handleContactClick}
+
+                    className="w-full bg-primary text-primary-foreground hover:bg-accent hover:text-primary transition-colors duration-300 py-4 px-6 rounded-md font-semibold text-sm uppercase tracking-wider mb-4"
+
                   >
-                  <span className="block">Consultar Disponibilidade</span>
-                  <span className="block text-[10px] font-normal normal-case tracking-normal opacity-70 mt-1">
-                    Via WhatsApp
-                    </span>
-                    </button>
 
-                  <p className="text-[10px] text-foreground/50 italic mt-3 mb-0 text-center leading-snug">
-                    Atendimento inclusivo LGBTQIAPN+ e relações não monogâmicas
+                    Consultar Disponibilidade
+
+                  </button>
+
+                  <p className="text-xs text-foreground/50 italic mb-0">
+
+                    Agendamento direto via WhatsApp.
+
                   </p>
+
                 </div>
 
+
+
               </div>
+
             </div>
+
           </div>
+
         </section>
+
       </main>
+
+
 
       {/* SECTION 6: Footer */}
 
@@ -981,7 +1302,7 @@ export default function Home() {
 
           <p className="text-[10px] uppercase tracking-widest text-muted-foreground">
 
-            &copy; {new Date().getFullYear()} Jorge Dias — Terapia de casal e relacionamentos.
+            &copy; {new Date().getFullYear()} Jorge Dias — Psicoterapia Clínica.
 
           </p>
 
