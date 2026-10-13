@@ -1160,10 +1160,11 @@ export default function Home() {
 
                       <Award className="text-accent" size={24} />
 
-                      <span className="text-sm font-semibold text-foreground/90">Especialista em Narcisismo</span>
+                      <span className="text-sm font-semibold text-foreground/90">Especialista em Transtornos de Personalidade, Neuropsicologia e Existencialismo</span>
 
                     </div>
-
+                    
+                    
                     <div className="flex items-center gap-3 bg-white p-3 rounded-lg border border-border/50 sm:col-span-2">
 
                       <Clock className="text-accent" size={24} />
