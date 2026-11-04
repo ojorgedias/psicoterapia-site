@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 
 import { Link } from "wouter";
 
@@ -19,9 +19,14 @@ declare global {
 // 1) SEU NÚMERO DE WHATSAPP no formato internacional: 55 + DDD + número (só dígitos)
 const WHATSAPP_NUMBER = "5541985155583";
 
-// 2) SEUS HORÁRIOS DISPONÍVEIS por dia da semana.
-//    0 = Domingo | 1 = Segunda | 2 = Terça | 3 = Quarta | 4 = Quinta | 5 = Sexta | 6 = Sábado
-//    Quando um horário for preenchido (agenda cheia), basta removê-lo da lista aqui.
+// 2) ESPELHO DA SUA AGENDA DO GOOGLE (Apps Script).
+//    Cole aqui a URL gerada na implantação (termina em /exec).
+//    É ela quem diz em tempo real quais horários estão livres.
+const URL_DISPONIBILIDADE = "https://script.google.com/macros/s/AKfycbwnU-ae8_f0GG3WLpwkYqccb8Xz9W_srCZUCvksYfP26X_3jrofgSNr0xCJbtLbz6vx/exec";
+
+// 3) AGENDA DE RESERVA — mesmo molde do script. Só é usada se o script
+//    estiver fora do ar (a página nunca fica sem agenda). Se seus
+//    horários fixos mudarem, edite aqui E no script.
 const AGENDA: Record<number, string[]> = {
   1: ["08:00", "09:00", "18:00", "19:00"],
   2: ["08:00", "09:00", "14:00", "15:00"],
@@ -30,13 +35,13 @@ const AGENDA: Record<number, string[]> = {
   5: ["08:00", "09:00", "14:00"],
 };
 
-// 3) Quantos dias para frente a página deve procurar horários
+// 4) Quantos dias para frente a página deve procurar horários
 const DIAS_A_FRENTE = 14;
 
-// 4) CONVERSÃO DO GOOGLE ADS — já configurada com o send_to do /obrigado original.
+// 5) CONVERSÃO DO GOOGLE ADS — já configurada com o send_to do /obrigado original.
 const CONVERSION_SEND_TO = "AW-18119858794/atendimento_whatsapp";
 
-// 5) MENSAGENS PRONTAS ENVIADAS PELO WHATSAPP
+// 6) MENSAGENS PRONTAS ENVIADAS PELO WHATSAPP
 const mensagemAgendamento = (data: string, hora: string) =>
   `Olá Jorge, gostaria de agendar uma sessão de psicoterapia no dia ${data} às ${hora}.`;
 
@@ -63,11 +68,39 @@ const formatarDataExtenso = (d: Date) => {
 const formatarDiaCurto = (d: Date) =>
   new Intl.DateTimeFormat("pt-BR", { weekday: "short", day: "2-digit", month: "short" }).format(d);
 
+// Modo de reserva: gera os dias a partir da AGENDA estática
+const gerarDiasDaReserva = () => {
+  const lista: { data: Date; horarios: string[] }[] = [];
+  const hoje = new Date();
+  for (let i = 0; i < DIAS_A_FRENTE; i++) {
+    const data = new Date(hoje);
+    data.setDate(hoje.getDate() + i);
+    const horariosBrutos = AGENDA[data.getDay()] ?? [];
+    const horarios =
+      i === 0
+        ? horariosBrutos.filter((h) => parseInt(h, 10) > hoje.getHours() + 1)
+        : horariosBrutos;
+    if (horarios.length > 0) lista.push({ data, horarios });
+  }
+  return lista.slice(0, 8); // exibe no máximo 8 dias com horários
+};
+
+// Converte a resposta do Apps Script ("2026-11-05") em Date
+const mapearDiasDaApi = (dias: { data: string; horarios: string[] }[]) =>
+  dias.map((d) => {
+    const [ano, mes, dia] = d.data.split("-").map(Number);
+    return { data: new Date(ano, mes - 1, dia), horarios: d.horarios };
+  });
+
 export default function Obrigado() {
 
   const [diaSelecionado, setDiaSelecionado] = useState(0);
 
   const [horaSelecionada, setHoraSelecionada] = useState<string | null>(null);
+
+  const [diasDisponiveis, setDiasDisponiveis] = useState<{ data: Date; horarios: string[] }[]>([]);
+
+  const [carregando, setCarregando] = useState(true);
 
   useEffect(() => {
 
@@ -105,29 +138,28 @@ export default function Obrigado() {
 
   }, []);
 
-  // Gera a lista dos próximos dias que possuem horários configurados
-  const diasDisponiveis = useMemo(() => {
+  // NOVO: busca o espelho da agenda do Google (Apps Script).
+  // Se o script falhar, usa a AGENDA estática de reserva — nunca fica sem agenda.
+  useEffect(() => {
+    let ativo = true;
 
-    const lista: { data: Date; horarios: string[] }[] = [];
-
-    const hoje = new Date();
-
-    for (let i = 0; i < DIAS_A_FRENTE; i++) {
-
-      const data = new Date(hoje);
-
-      data.setDate(hoje.getDate() + i);
-
-      const horarios = AGENDA[data.getDay()] ?? [];
-
-      if (horarios.length > 0) {
-        lista.push({ data, horarios });
+    const carregar = async () => {
+      try {
+        const resposta = await fetch(URL_DISPONIBILIDADE);
+        if (!resposta.ok) throw new Error("resposta inválida");
+        const dados = await resposta.json();
+        if (!ativo) return;
+        setDiasDisponiveis(mapearDiasDaApi(dados.dias ?? []));
+      } catch {
+        if (!ativo) return;
+        setDiasDisponiveis(gerarDiasDaReserva());
+      } finally {
+        if (ativo) setCarregando(false);
       }
+    };
 
-    }
-
-    return lista.slice(0, 8); // exibe no máximo 8 dias com horários
-
+    carregar();
+    return () => { ativo = false; };
   }, []);
 
   const diaAtual = diasDisponiveis[diaSelecionado];
@@ -202,7 +234,11 @@ export default function Obrigado() {
             pronta para o meu WhatsApp.
           </p>
 
-          {diasDisponiveis.length === 0 ? (
+          {carregando ? (
+            <div className="text-center py-6">
+              <p className="text-foreground/70">Carregando horários disponíveis…</p>
+            </div>
+          ) : diasDisponiveis.length === 0 ? (
             <div className="text-center py-6">
               <p className="text-foreground/70 mb-4">
                 Minha agenda está sendo atualizada neste momento. Fale comigo pelo WhatsApp
