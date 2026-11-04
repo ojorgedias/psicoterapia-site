@@ -167,7 +167,8 @@ export default function Obrigado() {
   }, []);
 
   // AUTO-ROLAGEM (mobile): quando os horários carregam, desce suavemente
-  // até o ponto em que o banner de plantão e o topo da agenda aparecem juntos.
+  // até a agenda encostar no alto da tela — assim ela e o bloco de
+  // atendimento imediato (que vem logo depois) aparecem juntos.
   // Acontece uma única vez por visita. No desktop, não rola (tudo já cabe).
   useEffect(() => {
     if (carregando || rolagemFeita.current) return;
@@ -179,10 +180,10 @@ export default function Obrigado() {
       if (!secao) return;
 
       const topoDaAgenda = secao.getBoundingClientRect().top + window.scrollY;
-      // 0.55 = o topo da agenda fica a ~55% da altura da tela,
-      // deixando badges + plantão visíveis acima. Ajuste fino aqui:
-      // menor (ex.: 0.45) mostra mais agenda; maior (0.65) mostra menos.
-      const alvo = Math.max(0, topoDaAgenda - window.innerHeight * 0.55);
+      // 0.15 = a agenda fica quase colada no topo da tela, revelando também
+      // o atendimento imediato logo abaixo. Ajuste fino aqui:
+      // maior (ex.: 0.3) rola menos; menor (ex.: 0.05) rola mais.
+      const alvo = Math.max(0, topoDaAgenda - window.innerHeight * 0.15);
       const suave = window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
       window.scrollTo({ top: alvo, behavior: suave });
     }, 450); // pequena pausa para as animações de entrada terminarem
@@ -224,20 +225,20 @@ export default function Obrigado() {
 
       <main className="container py-6 md:py-10 max-w-3xl">
 
-        {/* Info rápida: formato e valor (badges compactos) */}
+        {/* Info rápida: formato e valor (badges grandes e evidentes) */}
         <motion.div
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           className="flex flex-col items-center gap-2"
         >
-          <div className="flex flex-wrap items-center justify-center gap-2">
-            <span className="inline-flex items-center gap-1.5 rounded-full border border-border/60 bg-white px-3 py-1 text-[11px] font-medium text-foreground/70">
-              <Video size={12} className="text-accent" />
+          <div className="flex flex-wrap items-center justify-center gap-2.5">
+            <span className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-4 py-2 text-sm font-bold shadow-md">
+              <Video size={18} strokeWidth={2.5} className="text-accent" />
               Online · Google Meet
             </span>
-            <span className="inline-flex items-center gap-1.5 rounded-full border border-border/60 bg-white px-3 py-1 text-[11px] font-medium text-foreground/70">
-              <Wallet size={12} className="text-accent" />
+            <span className="inline-flex items-center gap-2 rounded-full bg-accent text-primary px-4 py-2 text-sm font-bold shadow-md">
+              <Wallet size={18} strokeWidth={2.5} />
               Sessão: R$ 130
             </span>
           </div>
@@ -245,53 +246,13 @@ export default function Obrigado() {
         </motion.div>
 
         {/* ================================================================ */}
-        {/* BANNER: ATENDIMENTO IMEDIATO (PLANTÃO)                           */}
-        {/* ================================================================ */}
-        <motion.section
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          className="bg-primary text-primary-foreground rounded-2xl shadow-lg p-4 md:p-6 mt-5"
-        >
-          <div className="flex items-center gap-4">
-            <div className="flex-1 min-w-0">
-              <div className="flex items-center gap-2 mb-1.5">
-                <span className="flex items-center gap-1.5 bg-accent text-primary text-[9px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full shrink-0">
-                  <Zap size={11} />
-                  Plantão agora
-                </span>
-                <span className="relative flex h-2 w-2">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-accent"></span>
-                </span>
-              </div>
-              <h2 className="font-display text-base md:text-xl font-semibold text-white leading-tight">
-                Atendimento imediato
-              </h2>
-              <p className="text-xs md:text-sm text-primary-foreground/80 leading-snug mt-1">
-                Precisa falar agora? Me chame no WhatsApp.
-              </p>
-            </div>
-            <a
-              href={waLink(mensagemImediata)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="shrink-0 flex items-center gap-1.5 bg-white text-primary hover:bg-accent hover:text-primary transition-colors duration-300 py-3 px-4 md:px-6 rounded-lg font-semibold text-xs md:text-sm uppercase tracking-wider shadow-md"
-            >
-              <MessageCircle size={16} />
-              Chamar agora
-            </a>
-          </div>
-        </motion.section>
-
-        {/* ================================================================ */}
-        {/* OPÇÃO 1: AGENDAR NA AGENDA                                       */}
+        {/* 1º BLOCO: AGENDA — ESCOLHER DIA E HORÁRIO (topo)                 */}
         {/* ================================================================ */}
         <motion.section
           ref={agendaRef}
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.15 }}
+          transition={{ duration: 0.5, delay: 0.1 }}
           className="bg-white border border-border/50 rounded-2xl shadow-sm p-4 md:p-8 mt-5"
         >
           <div className="flex items-center gap-2.5 mb-1">
@@ -392,7 +353,45 @@ export default function Obrigado() {
         </motion.section>
 
         {/* ================================================================ */}
-        {/* OPÇÃO 2: DÚVIDAS SOBRE O PROCESSO (última — só aparece se rolar) */}
+        {/* 2º BLOCO: ATENDIMENTO IMEDIATO (meio — bloco único e claro)      */}
+        {/* ================================================================ */}
+        <motion.section
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.15 }}
+          className="bg-primary/10 border border-primary/20 rounded-2xl shadow-sm p-5 md:p-6 mt-5 text-center"
+        >
+          {/* Selo + ponto pulsante centrados */}
+          <div className="flex items-center justify-center gap-2 mb-2">
+            <span className="flex items-center gap-1.5 bg-accent text-primary text-[9px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full">
+              <Zap size={11} />
+              Sessão Online
+            </span>
+            <span className="relative flex h-2 w-2">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-accent"></span>
+            </span>
+          </div>
+          <h2 className="font-display text-base md:text-xl font-semibold text-primary leading-tight">
+            Atendimento imediato
+          </h2>
+          <p className="text-xs md:text-sm text-foreground/70 leading-snug mt-1">
+            Precisa falar agora? Me chame no WhatsApp.
+          </p>
+          {/* Botão embaixo, em verde escuro sóbrio */}
+          <a
+            href={waLink(mensagemImediata)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 inline-flex w-full sm:w-auto items-center justify-center gap-2 bg-primary text-primary-foreground hover:bg-primary/85 transition-colors duration-300 py-3 px-8 rounded-lg font-semibold text-xs md:text-sm uppercase tracking-wider shadow-md"
+          >
+            <MessageCircle size={16} />
+            Chamar agora
+          </a>
+        </motion.section>
+
+        {/* ================================================================ */}
+        {/* 3º BLOCO: DÚVIDAS SOBRE O PROCESSO (final)                       */}
         {/* ================================================================ */}
         <motion.section
           initial={{ opacity: 0, y: 16 }}
