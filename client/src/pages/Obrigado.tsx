@@ -28,11 +28,11 @@ const URL_DISPONIBILIDADE = "https://script.google.com/macros/s/AKfycbwnU-ae8_f0
 //    estiver fora do ar (a página nunca fica sem agenda). Se seus
 //    horários fixos mudarem, edite aqui E no script.
 const AGENDA: Record<number, string[]> = {
-  1: ["08:00", "09:00", "18:00", "19:00"],
-  2: ["08:00", "09:00", "14:00", "15:00"],
-  3: ["08:00", "09:00", "18:00", "19:00"],
-  4: ["08:00", "09:00", "14:00", "15:00"],
-  5: ["08:00", "09:00", "14:00"],
+  1: ["08:00", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00"],
+  2: ["08:00", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00"],
+  3: ["08:00", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00"],
+  4: ["08:00", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00"],
+  5: ["08:00", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00"],
 };
 
 // 4) Quantos dias para frente a página deve procurar horários
@@ -202,15 +202,52 @@ export default function Obrigado() {
           transition={{ duration: 0.6 }}
           className="text-center"
         >
-          <h1 className="font-display text-3xl md:text-4xl text-primary mb-4">
-            Obrigado pela confiança!
-          </h1>
+
           <p className="text-lg text-foreground/70 leading-relaxed max-w-xl mx-auto">
-            Estamos a um passo de começar. Escolha abaixo <strong>como você prefere começar</strong>:
-            selecionando um horário na agenda, solicitando atendimento imediato ou conversando
-            comigo primeiro sobre o processo.
+           Sessão realizada via <strong>Google Meet</strong> após confirmação do horário.
+            Valor da sessão: <strong>R$ 150</strong>
           </p>
         </motion.div>
+
+          {/* ================================================================= */}
+        {/* OPÇÃO 2: ATENDIMENTO IMEDIATO (PLANTÃO)                           */}
+        {/* ================================================================= */}
+        <motion.section
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="bg-primary text-primary-foreground rounded-2xl shadow-xl p-6 md:p-8 mt-6"
+        >
+          <div className="flex flex-col md:flex-row md:items-center gap-6 md:gap-8">
+            <div className="flex-1">
+              <div className="flex items-center gap-3 mb-3">
+                <span className="flex items-center gap-2 bg-accent text-primary text-[10px] font-bold uppercase tracking-widest px-3 py-1.5 rounded-full">
+                  <Zap size={12} />
+                  Plantão agora
+                </span>
+                <span className="relative flex h-2.5 w-2.5">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-accent"></span>
+                </span>
+              </div>
+              <h2 className="font-display text-xl md:text-2xl font-semibold text-white mb-2">
+                Atendimento imediato
+              </h2>
+              <p className="text-sm md:text-base text-primary-foreground/80 leading-relaxed mb-0">
+                Gostaria de agendar uma sessão imediata? Me envie mensagem para solicitar atendimento.
+              </p>
+            </div>
+            <a
+              href={waLink(mensagemImediata)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="shrink-0 flex items-center justify-center gap-2 bg-white text-primary hover:bg-accent hover:text-primary transition-colors duration-300 py-4 px-8 rounded-md font-semibold text-sm uppercase tracking-wider shadow-lg"
+            >
+              <MessageCircle size={10} />
+              Chamar Agora
+            </a>
+          </div>
+        </motion.section>
 
         {/* ================================================================= */}
         {/* OPÇÃO 1: AGENDAR NA AGENDA                                        */}
@@ -298,18 +335,6 @@ export default function Obrigado() {
                 </div>
               )}
 
-              {/* Prévia da mensagem */}
-              <div className="mt-6 bg-secondary/20 border border-border/40 rounded-xl p-4">
-                <p className="text-[10px] uppercase tracking-widest font-bold text-foreground/50 mb-2">
-                  Mensagem que será enviada
-                </p>
-                <p className="text-sm italic text-foreground/80 leading-relaxed mb-0">
-                  {mensagemFinal
-                    ? mensagemFinal
-                    : "Selecione um dia e um horário acima para montar a mensagem."}
-                </p>
-              </div>
-
               {/* Botão confirmar */}
               <a
                 href={mensagemFinal ? waLink(mensagemFinal) : undefined}
@@ -331,47 +356,7 @@ export default function Obrigado() {
           )}
         </motion.section>
 
-        {/* ================================================================= */}
-        {/* OPÇÃO 2: ATENDIMENTO IMEDIATO (PLANTÃO)                           */}
-        {/* ================================================================= */}
-        <motion.section
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="bg-primary text-primary-foreground rounded-2xl shadow-xl p-6 md:p-8 mt-6"
-        >
-          <div className="flex flex-col md:flex-row md:items-center gap-6 md:gap-8">
-            <div className="flex-1">
-              <div className="flex items-center gap-3 mb-3">
-                <span className="flex items-center gap-2 bg-accent text-primary text-[10px] font-bold uppercase tracking-widest px-3 py-1.5 rounded-full">
-                  <Zap size={12} />
-                  Plantão agora
-                </span>
-                <span className="relative flex h-2.5 w-2.5">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-accent"></span>
-                </span>
-              </div>
-              <h2 className="font-display text-xl md:text-2xl font-semibold text-white mb-2">
-                Atendimento imediato
-              </h2>
-              <p className="text-sm md:text-base text-primary-foreground/80 leading-relaxed mb-0">
-                Precisa falar agora? Estou de plantão aguardando você. Clique no botão e sua
-                mensagem chega direto no meu WhatsApp — eu atendo assim que chegar.
-              </p>
-            </div>
-            <a
-              href={waLink(mensagemImediata)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="shrink-0 flex items-center justify-center gap-2 bg-white text-primary hover:bg-accent hover:text-primary transition-colors duration-300 py-4 px-8 rounded-md font-semibold text-sm uppercase tracking-wider shadow-lg"
-            >
-              <MessageCircle size={18} />
-              Chamar agora
-            </a>
-          </div>
-        </motion.section>
-
+      
         {/* ================================================================= */}
         {/* OPÇÃO 3: DÚVIDAS SOBRE O PROCESSO                                 */}
         {/* ================================================================= */}
