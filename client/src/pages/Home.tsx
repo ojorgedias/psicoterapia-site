@@ -1046,7 +1046,7 @@ export default function Home() {
 
                     <img 
 
-                      src="JorgeDias.jpeg" 
+                      src="jorge-background.webp"
 
                       alt="Jorge Dias - Psicoterapeuta Clínico"
 
@@ -1140,16 +1140,15 @@ export default function Home() {
 
         {/* SECTION 5: Estrutura do Atendimento e CTA Final */}
 
-        <section className="section-padding bg-primary text-primary-foreground" id="clinica">
-
+        <section className="py-10 md:py-16 bg-primary text-primary-foreground" id="clinica">
+          
           <div className="container">
 
             <div className="max-w-4xl mx-auto">
 
               
 
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center bg-white/5 border border-white/10 p-10 md:p-14 shadow-2xl rounded-2xl">
-
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center bg-white/5 border border-white/10 p-6 md:p-14 shadow-2xl rounded-2xl">
                 
 
                 {/* Coluna 1: Como funciona */}
@@ -1192,10 +1191,10 @@ export default function Home() {
 
                 {/* Coluna 2: Preço e Botão */}
 
-                <div className="bg-white rounded-xl p-8 text-center flex flex-col items-center justify-center h-full shadow-xl">
-
-                  <span className="uppercase tracking-widest text-xs font-bold text-foreground/50 mb-4 block">
-
+                <div id="valor-agendamento" className="bg-white rounded-xl p-6 md:p-8 text-center flex flex-col items-center justify-center h-full shadow-xl">
+                  
+                  <span className="inline-flex items-center bg-accent/15 text-accent border border-accent/25 rounded-full px-4 py-1.5 text-[10px] md:text-xs font-bold uppercase tracking-widest mb-5">
+                    
                     Atendimento 100% online
 
                   </span>
@@ -1264,8 +1263,10 @@ export default function Home() {
 
           e.preventDefault();
 
-          document.getElementById('clinica')?.scrollIntoView({ behavior: 'smooth' });
-
+          // Âncora o FIM do cartão de valor no fundo da tela:
+          // passos acima + cartão inteiro sempre visíveis no celular.
+          document.getElementById('valor-agendamento')?.scrollIntoView({ behavior: 'smooth', block: 'end' });
+          
         }}
 
         className="fixed bottom-8 right-8 z-[100] bg-primary text-primary-foreground p-4 rounded-full shadow-2xl hover:scale-110 transition-transform group"
