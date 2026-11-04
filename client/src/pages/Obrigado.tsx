@@ -365,7 +365,7 @@ export default function Obrigado() {
           <div className="flex items-center justify-center gap-2 mb-2">
             <span className="flex items-center gap-1.5 bg-green-600 text-primary text-[9px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full">
               <Zap size={11} />
-              Sessão Online
+              Online Agora
             </span>
             <span className="relative flex h-2 w-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
@@ -408,7 +408,7 @@ export default function Obrigado() {
             </h2>
           </div>
           <p className="text-xs md:text-sm text-foreground/70 leading-relaxed mb-4">
-            Ainda avaliando se é o momento certo? Me chame para conversar — sem compromisso de agendar.
+            Ainda avaliando se é o momento certo? Me chame para conversar.
           </p>
           <a
             href={waLink(mensagemDuvidas)}
