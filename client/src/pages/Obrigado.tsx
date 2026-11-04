@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import { Link } from "wouter";
 
 import { motion } from "framer-motion";
 
-import { Calendar, Clock, MessageCircle, Zap, HelpCircle, ArrowLeft, ShieldCheck } from "lucide-react";
+import { Calendar, Clock, MessageCircle, Zap, HelpCircle, ArrowLeft, ShieldCheck, Video, Wallet, ChevronDown } from "lucide-react";
 
 declare global {
   interface Window {
@@ -102,6 +102,10 @@ export default function Obrigado() {
 
   const [carregando, setCarregando] = useState(true);
 
+  // Referências para a auto-rolagem
+  const agendaRef = useRef<HTMLElement | null>(null);
+  const rolagemFeita = useRef(false);
+
   useEffect(() => {
 
     const tituloAnterior = document.title;
@@ -138,7 +142,7 @@ export default function Obrigado() {
 
   }, []);
 
-  // NOVO: busca o espelho da agenda do Google (Apps Script).
+  // Busca o espelho da agenda do Google (Apps Script).
   // Se o script falhar, usa a AGENDA estática de reserva — nunca fica sem agenda.
   useEffect(() => {
     let ativo = true;
@@ -162,6 +166,30 @@ export default function Obrigado() {
     return () => { ativo = false; };
   }, []);
 
+  // AUTO-ROLAGEM (mobile): quando os horários carregam, desce suavemente
+  // até o ponto em que o banner de plantão e o topo da agenda aparecem juntos.
+  // Acontece uma única vez por visita. No desktop, não rola (tudo já cabe).
+  useEffect(() => {
+    if (carregando || rolagemFeita.current) return;
+    rolagemFeita.current = true;
+
+    const atraso = window.setTimeout(() => {
+      if (window.innerWidth >= 768) return; // desktop: já vê tudo
+      const secao = agendaRef.current;
+      if (!secao) return;
+
+      const topoDaAgenda = secao.getBoundingClientRect().top + window.scrollY;
+      // 0.55 = o topo da agenda fica a ~55% da altura da tela,
+      // deixando badges + plantão visíveis acima. Ajuste fino aqui:
+      // menor (ex.: 0.45) mostra mais agenda; maior (0.65) mostra menos.
+      const alvo = Math.max(0, topoDaAgenda - window.innerHeight * 0.55);
+      const suave = window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
+      window.scrollTo({ top: alvo, behavior: suave });
+    }, 450); // pequena pausa para as animações de entrada terminarem
+
+    return () => window.clearTimeout(atraso);
+  }, [carregando]);
+
   const diaAtual = diasDisponiveis[diaSelecionado];
 
   const mensagemFinal =
@@ -179,7 +207,7 @@ export default function Obrigado() {
     <div className="min-h-screen bg-background selection:bg-accent/30 selection:text-primary">
 
       {/* Header simples */}
-      <header className="py-6 border-b border-border/40 bg-background/95 backdrop-blur-md">
+      <header className="py-4 border-b border-border/40 bg-background/95 backdrop-blur-md">
         <div className="container flex items-center justify-between">
           <Link href="/" className="logo">
             Jorge Dias
@@ -194,90 +222,97 @@ export default function Obrigado() {
         </div>
       </header>
 
-      <main className="container py-12 md:py-16 max-w-3xl">
+      <main className="container py-6 md:py-10 max-w-3xl">
 
+        {/* Info rápida: formato e valor (badges compactos) */}
         <motion.div
-          initial={{ opacity: 0, y: 16 }}
+          initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="text-center"
+          transition={{ duration: 0.5 }}
+          className="flex flex-col items-center gap-2"
         >
-
-          <p className="text-lg text-foreground/70 leading-relaxed max-w-xl mx-auto">
-           Sessão realizada via <strong>Google Meet</strong> após confirmação do horário.
-            Valor da sessão: <strong>R$ 150</strong>
-          </p>
+          <div className="flex flex-wrap items-center justify-center gap-2">
+            <span className="inline-flex items-center gap-1.5 rounded-full border border-border/60 bg-white px-3 py-1 text-[11px] font-medium text-foreground/70">
+              <Video size={12} className="text-accent" />
+              Online · Google Meet
+            </span>
+            <span className="inline-flex items-center gap-1.5 rounded-full border border-border/60 bg-white px-3 py-1 text-[11px] font-medium text-foreground/70">
+              <Wallet size={12} className="text-accent" />
+              Sessão: R$ 130
+            </span>
+          </div>
+          <ChevronDown size={16} className="text-foreground/30 animate-bounce" />
         </motion.div>
 
-          {/* ================================================================= */}
-        {/* OPÇÃO 2: ATENDIMENTO IMEDIATO (PLANTÃO)                           */}
-        {/* ================================================================= */}
+        {/* ================================================================ */}
+        {/* BANNER: ATENDIMENTO IMEDIATO (PLANTÃO)                           */}
+        {/* ================================================================ */}
         <motion.section
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="bg-primary text-primary-foreground rounded-2xl shadow-xl p-6 md:p-8 mt-6"
+          transition={{ duration: 0.5, delay: 0.1 }}
+          className="bg-primary text-primary-foreground rounded-2xl shadow-lg p-4 md:p-6 mt-5"
         >
-          <div className="flex flex-col md:flex-row md:items-center gap-6 md:gap-8">
-            <div className="flex-1">
-              <div className="flex items-center gap-3 mb-3">
-                <span className="flex items-center gap-2 bg-accent text-primary text-[10px] font-bold uppercase tracking-widest px-3 py-1.5 rounded-full">
-                  <Zap size={12} />
+          <div className="flex items-center gap-4">
+            <div className="flex-1 min-w-0">
+              <div className="flex items-center gap-2 mb-1.5">
+                <span className="flex items-center gap-1.5 bg-accent text-primary text-[9px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full shrink-0">
+                  <Zap size={11} />
                   Plantão agora
                 </span>
-                <span className="relative flex h-2.5 w-2.5">
+                <span className="relative flex h-2 w-2">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-accent"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-accent"></span>
                 </span>
               </div>
-              <h2 className="font-display text-xl md:text-2xl font-semibold text-white mb-2">
+              <h2 className="font-display text-base md:text-xl font-semibold text-white leading-tight">
                 Atendimento imediato
               </h2>
-              <p className="text-sm md:text-base text-primary-foreground/80 leading-relaxed mb-0">
-                Gostaria de agendar uma sessão imediata? Me envie mensagem para solicitar atendimento.
+              <p className="text-xs md:text-sm text-primary-foreground/80 leading-snug mt-1">
+                Precisa falar agora? Me chame no WhatsApp.
               </p>
             </div>
             <a
               href={waLink(mensagemImediata)}
               target="_blank"
               rel="noopener noreferrer"
-              className="shrink-0 flex items-center justify-center gap-2 bg-white text-primary hover:bg-accent hover:text-primary transition-colors duration-300 py-4 px-8 rounded-md font-semibold text-sm uppercase tracking-wider shadow-lg"
+              className="shrink-0 flex items-center gap-1.5 bg-white text-primary hover:bg-accent hover:text-primary transition-colors duration-300 py-3 px-4 md:px-6 rounded-lg font-semibold text-xs md:text-sm uppercase tracking-wider shadow-md"
             >
-              <MessageCircle size={10} />
-              Chamar Agora
+              <MessageCircle size={16} />
+              Chamar agora
             </a>
           </div>
         </motion.section>
 
-        {/* ================================================================= */}
-        {/* OPÇÃO 1: AGENDAR NA AGENDA                                        */}
-        {/* ================================================================= */}
+        {/* ================================================================ */}
+        {/* OPÇÃO 1: AGENDAR NA AGENDA                                       */}
+        {/* ================================================================ */}
         <motion.section
+          ref={agendaRef}
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.1 }}
-          className="bg-white border border-border/50 rounded-2xl shadow-sm p-6 md:p-8 mt-10"
+          transition={{ duration: 0.5, delay: 0.15 }}
+          className="bg-white border border-border/50 rounded-2xl shadow-sm p-4 md:p-8 mt-5"
         >
-          <div className="flex items-center gap-3 mb-1">
-            <span className="w-10 h-10 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0">
-              <Calendar size={20} />
+          <div className="flex items-center gap-2.5 mb-1">
+            <span className="w-9 h-9 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0">
+              <Calendar size={18} />
             </span>
-            <h2 className="font-display text-xl md:text-2xl font-semibold text-primary">
+            <h2 className="font-display text-lg md:text-2xl font-semibold text-primary">
               Escolher dia e horário
             </h2>
           </div>
-          <p className="text-sm text-foreground/60 mb-6">
-            Selecione um dia da agenda e um horário disponível. A mensagem será enviada já
-            pronta para o meu WhatsApp.
+          <p className="text-xs md:text-sm text-foreground/60 mb-4">
+            Toque no dia e no horário — a mensagem chega pronta no meu WhatsApp.
           </p>
 
           {carregando ? (
-            <div className="text-center py-6">
-              <p className="text-foreground/70">Carregando horários disponíveis…</p>
+            <div className="text-center py-5">
+              <p className="text-foreground/70 text-sm">Carregando horários disponíveis…</p>
             </div>
           ) : diasDisponiveis.length === 0 ? (
-            <div className="text-center py-6">
-              <p className="text-foreground/70 mb-4">
+            <div className="text-center py-5">
+              <p className="text-foreground/70 text-sm mb-4">
                 Minha agenda está sendo atualizada neste momento. Fale comigo pelo WhatsApp
                 e encontramos um horário juntos.
               </p>
@@ -285,7 +320,7 @@ export default function Obrigado() {
                 href={waLink("Olá Jorge! Gostaria de verificar os horários disponíveis para sessão.")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-primary text-primary-foreground hover:bg-accent hover:text-primary transition-colors duration-300 py-3 px-6 rounded-md font-semibold text-sm uppercase tracking-wider"
+                className="inline-flex items-center gap-2 bg-primary text-primary-foreground hover:bg-accent hover:text-primary transition-colors duration-300 py-3 px-6 rounded-md font-semibold text-xs uppercase tracking-wider"
               >
                 <MessageCircle size={16} />
                 Falar no WhatsApp
@@ -299,7 +334,7 @@ export default function Obrigado() {
                   <button
                     key={index}
                     onClick={() => trocarDia(index)}
-                    className={`shrink-0 py-2.5 px-4 rounded-xl border text-sm font-semibold transition-all duration-200 ${
+                    className={`shrink-0 py-2 px-3 md:px-4 rounded-lg border text-xs md:text-sm font-semibold transition-all duration-200 ${
                       index === diaSelecionado
                         ? "bg-primary text-primary-foreground border-primary shadow-md"
                         : "bg-white text-foreground/70 border-border/50 hover:border-primary/40 hover:text-primary"
@@ -312,17 +347,17 @@ export default function Obrigado() {
 
               {/* Horários */}
               {diaAtual && (
-                <div className="mt-4">
-                  <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-foreground/50 mb-3">
-                    <Clock size={14} />
+                <div className="mt-3">
+                  <div className="flex items-center gap-1.5 text-[11px] md:text-xs font-semibold uppercase tracking-widest text-foreground/50 mb-2.5">
+                    <Clock size={12} />
                     Horários para {formatarDataExtenso(diaAtual.data)}
                   </div>
-                  <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
+                  <div className="grid grid-cols-4 md:grid-cols-6 gap-1.5 sm:gap-2">
                     {diaAtual.horarios.map((hora) => (
                       <button
                         key={hora}
                         onClick={() => setHoraSelecionada(hora)}
-                        className={`py-2.5 rounded-lg border text-sm md:text-base font-semibold transition-all duration-200 ${
+                        className={`py-2 rounded-lg border text-xs md:text-sm font-semibold transition-all duration-200 ${
                           horaSelecionada === hora
                             ? "bg-accent text-primary border-accent shadow-md"
                             : "bg-white text-foreground/80 border-border/50 hover:border-accent/60 hover:text-primary"
@@ -343,49 +378,46 @@ export default function Obrigado() {
                 onClick={(e) => {
                   if (!mensagemFinal) e.preventDefault();
                 }}
-                className={`mt-6 w-full flex items-center justify-center gap-2 py-4 px-6 rounded-md font-semibold text-sm uppercase tracking-wider transition-all duration-300 ${
+                className={`mt-5 w-full flex items-center justify-center gap-2 py-3.5 px-6 rounded-md font-semibold text-xs md:text-sm uppercase tracking-wider transition-all duration-300 ${
                   mensagemFinal
                     ? "bg-primary text-primary-foreground hover:bg-accent hover:text-primary shadow-lg"
                     : "bg-foreground/10 text-foreground/40 cursor-not-allowed"
                 }`}
               >
-                <MessageCircle size={18} />
+                <MessageCircle size={16} />
                 Confirmar agendamento no WhatsApp
               </a>
             </>
           )}
         </motion.section>
 
-      
-        {/* ================================================================= */}
-        {/* OPÇÃO 3: DÚVIDAS SOBRE O PROCESSO                                 */}
-        {/* ================================================================= */}
+        {/* ================================================================ */}
+        {/* OPÇÃO 2: DÚVIDAS SOBRE O PROCESSO (última — só aparece se rolar) */}
+        {/* ================================================================ */}
         <motion.section
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          className="bg-white border border-border/50 rounded-2xl shadow-sm p-6 md:p-8 mt-6"
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="bg-white border border-border/50 rounded-2xl shadow-sm p-4 md:p-8 mt-5"
         >
-          <div className="flex items-center gap-3 mb-3">
-            <span className="w-10 h-10 rounded-full bg-accent/15 text-accent flex items-center justify-center shrink-0">
-              <HelpCircle size={20} />
+          <div className="flex items-center gap-2.5 mb-2">
+            <span className="w-9 h-9 rounded-full bg-accent/15 text-accent flex items-center justify-center shrink-0">
+              <HelpCircle size={18} />
             </span>
-            <h2 className="font-display text-xl md:text-2xl font-semibold text-primary">
-              Tenho dúvidas sobre o processo terapêutico
+            <h2 className="font-display text-lg md:text-2xl font-semibold text-primary">
+              Tenho dúvidas sobre o processo
             </h2>
           </div>
-          <p className="text-sm md:text-base text-foreground/70 leading-relaxed mb-6">
-            Totalmente normal — e até recomendado. Se você ainda está avaliando se este é o
-            momento certo, ou como o trabalho funciona, me chame para conversar. Sem
-            compromisso de agendar.
+          <p className="text-xs md:text-sm text-foreground/70 leading-relaxed mb-4">
+            Ainda avaliando se é o momento certo? Me chame para conversar — sem compromisso de agendar.
           </p>
           <a
             href={waLink(mensagemDuvidas)}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors duration-300 py-3.5 px-8 rounded-md font-semibold text-sm uppercase tracking-wider"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors duration-300 py-3 px-6 rounded-md font-semibold text-xs md:text-sm uppercase tracking-wider"
           >
-            <MessageCircle size={18} />
+            <MessageCircle size={16} />
             Conversar e tirar dúvidas
           </a>
         </motion.section>
@@ -394,11 +426,11 @@ export default function Obrigado() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          className="flex items-start justify-center gap-3 text-center mt-10"
+          transition={{ duration: 0.6, delay: 0.3 }}
+          className="flex items-start justify-center gap-2 text-center mt-8"
         >
-          <ShieldCheck size={18} className="text-accent shrink-0 mt-0.5" />
-          <p className="text-xs text-foreground/50 leading-relaxed max-w-md mb-0">
+          <ShieldCheck size={16} className="text-accent shrink-0 mt-0.5" />
+          <p className="text-[11px] text-foreground/50 leading-relaxed max-w-md mb-0">
             Toda conversa é sigilosa. Seus dados e o que você compartilhar são tratados com
             o mesmo cuidado do atendimento clínico.
           </p>
