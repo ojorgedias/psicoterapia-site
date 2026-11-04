@@ -237,7 +237,7 @@ export default function Obrigado() {
               <Video size={18} strokeWidth={2.5} className="text-accent" />
               Online · Google Meet
             </span>
-            <span className="inline-flex items-center gap-2 rounded-full bg-accent text-primary px-4 py-2 text-sm font-bold shadow-md">
+            <span className="inline-flex items-center gap-2 rounded-full bg-zinc-50 text-zinc-800 text-primary px-4 py-2 text-sm font-bold shadow-md">
               <Wallet size={18} strokeWidth={2.5} />
               Sessão: R$ 130
             </span>
@@ -363,7 +363,7 @@ export default function Obrigado() {
         >
           {/* Selo + ponto pulsante centrados */}
           <div className="flex items-center justify-center gap-2 mb-2">
-            <span className="flex items-center gap-1.5 bg-accent text-primary text-[9px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full">
+            <span className="flex items-center gap-1.5 bg-green-600 text-primary text-[9px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full">
               <Zap size={11} />
               Sessão Online
             </span>
