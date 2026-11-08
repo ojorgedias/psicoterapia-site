@@ -8,6 +8,7 @@ const ROUTES = [
   // Páginas reais do site
   "/",
   "/politica-privacidade",
+  "/obrigado",
   "/termos-uso",
 ];
 
