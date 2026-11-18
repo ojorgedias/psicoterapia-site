@@ -184,9 +184,9 @@ export default function Home() {
 
       <main>
 
-        {/* SECTION 2: Hero (Layout Capa de Revista no Mobile) */}
+        {/* SECTION 2: Hero mais baixo e objetivo */}
 
-        <section className="relative min-h-[90svh] lg:min-h-[85vh] flex items-end lg:items-center pb-16 pt-32 lg:pt-16 lg:pb-0 bg-background overflow-hidden">
+        <section className="relative min-h-[72svh] lg:min-h-[80vh] flex items-end lg:items-center pb-16 pt-28 lg:pt-16 lg:pb-0 bg-background overflow-hidden">
 
           
 
@@ -244,17 +244,25 @@ export default function Home() {
 
               <h1 className="font-display text-white lg:text-foreground mb-6 lg:mb-4">
 
-                Psicoterapia especializada em <br className="hidden md:block" />
+                Relações narcisistas <br className="hidden md:block" />
 
-                <span className="italic">Relações Narcisistas</span>
+                deixam <span className="italic">marcas profundas</span>.
 
               </h1>
 
               
 
-              <p className="text-lg md:text-xl text-white/90 lg:text-accent font-serif leading-relaxed mb-10 max-w-xl">
+              <p className="text-lg md:text-xl text-white/90 lg:text-accent font-serif leading-relaxed mb-4 max-w-xl">
 
-                Para quem viveu (ou vive) uma relação marcada pela <strong>dinâmica narcisista</strong> — e para quem percebe <strong>comportamentos narcisistas em si</strong>. Duas formas de chegar, o mesmo compromisso: sessões semanais, 100% online, com sigilo.
+                Psicoterapia online para quem viveu essa dinâmica e para quem começa a enxergar o próprio papel nela.
+
+              </p>
+
+              
+
+              <p className="text-base md:text-lg text-white/80 lg:text-foreground/60 leading-relaxed mb-10 max-w-xl">
+
+                <strong>Processo claro.</strong> Sem promessa de alívio rápido.
 
               </p>
 
@@ -264,13 +272,13 @@ export default function Home() {
 
               <a 
 
-                href="#dinamica" 
+                href="#para-quem" 
 
                 className="btn-high-ticket !bg-white !text-black hover:!bg-gray-200 lg:!bg-primary lg:!text-primary-foreground lg:hover:!bg-accent lg:hover:!text-primary shadow-2xl lg:shadow-none"
 
               >
 
-                entenda para quem é e como funciona
+                Entenda se esse trabalho é para você
 
               </a>
 
@@ -316,7 +324,7 @@ export default function Home() {
 
         </section>
 
-        {/* SECTION 3: O Trabalho — para quem é, quando buscar e os dois processos */}
+        {/* SECTION 3: O Trabalho — para quem é, autoridade, os dois processos e FAQ */}
 
         <section id="dinamica" className="bg-white">
 
@@ -342,7 +350,7 @@ export default function Home() {
 
                     <p className="text-center max-w-2xl mx-auto mb-10">
 
-                      Este atendimento é pensado, desde o primeiro dia, para dois grupos de pessoas — e saber em qual deles você se encaixa é o melhor ponto de partida.
+                      Este atendimento é pensado para dois caminhos.
 
                     </p>
 
@@ -350,15 +358,21 @@ export default function Home() {
 
                       <a href="#quem-viveu" className="group block bg-white/60 p-6 md:p-7 border-l-4 border-primary shadow-sm hover:shadow-md hover:bg-white transition-all">
 
-                        <p className="text-base md:text-lg mb-0">
+                        <p className="text-lg md:text-xl font-semibold text-primary mb-2">
 
-                          <strong>Se você viveu (ou vive) uma relação marcada pela dinâmica narcisista —</strong> uma relação assim roubou parte da sua identidade e te deixou sem certeza de quem você é. O trabalho começa pela estabilização do momento atual e segue para a reconstrução da sua autonomia.
+                          Se você viveu ou ainda vive uma relação marcada por dinâmica narcisista
+
+                        </p>
+
+                        <p className="text-base md:text-lg text-foreground/80 mb-0">
+
+                          É comum chegar confuso, cansado e tentando entender comportamentos que não fecham. O trabalho começa acolhendo essa confusão.
 
                         </p>
 
                         <span className="inline-flex items-center gap-2 mt-4 text-accent font-semibold text-xs md:text-sm uppercase tracking-wider transition-transform duration-300 group-hover:translate-y-1">
 
-                          Entenda como esse trabalho funciona <span aria-hidden="true">↓</span>
+                          Entenda esse trabalho <span aria-hidden="true">↓</span>
 
                         </span>
 
@@ -366,15 +380,21 @@ export default function Home() {
 
                       <a href="#quem-percebe" className="group block bg-white/60 p-6 md:p-7 border-l-4 border-accent shadow-sm hover:shadow-md hover:bg-white transition-all">
 
-                        <p className="text-base md:text-lg mb-0">
+                        <p className="text-lg md:text-xl font-semibold text-primary mb-2">
 
-                          <strong>Se você percebe comportamentos narcisistas em si —</strong> muitas vezes essa percepção surge por conta própria; outras vezes, porque um companheiro, uma companheira ou alguém próximo encontrou este trabalho antes de você. As duas formas de chegar valem. Uma condição, porém, não muda: a vontade de começar precisa ser sua.
+                          Se você percebe comportamentos narcisistas em si
+
+                        </p>
+
+                        <p className="text-base md:text-lg text-foreground/80 mb-0">
+
+                          Às vezes essa percepção nasce sozinha. Outras vezes chega porque alguém próximo encontrou este trabalho antes. As duas formas são válidas, desde que a decisão seja sua.
 
                         </p>
 
                         <span className="inline-flex items-center gap-2 mt-4 text-accent font-semibold text-xs md:text-sm uppercase tracking-wider transition-transform duration-300 group-hover:translate-y-1">
 
-                          Entenda como esse trabalho funciona <span aria-hidden="true">↓</span>
+                          Entenda esse trabalho <span aria-hidden="true">↓</span>
 
                         </span>
 
@@ -382,143 +402,229 @@ export default function Home() {
 
                     </div>
 
+                    <p className="text-center text-base md:text-lg text-foreground/70 mt-8 mb-0">
+
+                      Em ambos os casos, <strong>não realizo diagnóstico</strong>. O foco é trabalhar comportamentos e efeitos, com rótulo ou sem ele.
+
+                    </p>
+
                   </div>
 
                   
 
-                  {/* 3.2 QUANDO LIDAR SOZINHO DEIXA DE SER SUFICIENTE */}
+                  {/* 3.2 FAIXA DE AUTORIDADE COMPACTA */}
 
-                  <div id="quando-lidar" className="scroll-mt-28 pt-10 md:pt-14">
+                  <div id="autoridade" className="scroll-mt-28 pt-4">
 
-                    <h2 className="text-center mb-12">Quando lidar sozinho deixa de ser suficiente</h2>
+                    <div className="bg-secondary/20 border border-border/40 rounded-2xl p-5 md:p-6 shadow-sm">
 
-                    <p>
+                      <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6">
 
-                      Na maior parte das vezes, as pessoas chegam quando percebem que não estão mais conseguindo lidar sozinhas. Pode ser depois de uma crise, de uma discussão que se repetiu pela milésima vez, ou de um cansaço que o fim de semana já não resolve. Em geral, é um momento em que alguma relação está <strong>por um fio</strong> — e a busca natural é por uma solução.
+                        <div className="shrink-0 sm:w-44">
 
-                    </p>
+                          <p className="font-display text-xl md:text-2xl font-semibold text-primary mb-0">Jorge Dias</p>
 
-                    <p>
+                          <p className="text-sm text-foreground/70 mb-0">Psicoterapeuta clínico</p>
 
-                      Se é aqui que você está, uma coisa precisa ficar clara desde já: <strong>resolver esse momento é só o início do processo</strong>. Depois que a situação se estabiliza, o acompanhamento passa a um segundo momento, focado em autoconhecimento — e é ele que sustenta a mudança de verdade. Prometer menos que isso seria prometer demais.
+                        </div>
 
-                    </p>
+                        <div className="flex flex-wrap gap-3 sm:justify-end sm:ml-auto">
 
-                    <p>
+                          <div className="flex items-center gap-2 bg-white p-3 rounded-lg border border-border/50">
 
-                      Costumo usar uma analogia simples para explicar essa divisão: cada pessoa é como um prédio, com vários andares e salas. Às vezes, uma sala está em chamas, e o trabalho é focado: <strong>controlar aquele incêndio</strong> antes de qualquer coisa. Às vezes, está tudo em paz, e o momento é de outro tipo de trabalho: <strong>explorar os andares</strong>, em um processo de autoconhecimento. O acompanhamento passa pelos dois — primeiro, quando necessário, o incêndio; depois, a exploração.
+                            <GraduationCap className="text-accent shrink-0" size={20} />
 
-                    </p>
+                            <span className="text-xs md:text-sm font-semibold text-foreground/90">Graduação em <strong>Psicologia</strong> pela UEL</span>
 
-                    
+                          </div>
 
-                    {/* TRÊS ETAPAS DO ACOMPANHAMENTO */}
+                          <div className="flex items-center gap-2 bg-white p-3 rounded-lg border border-border/50">
 
-                    <div className="mt-12 bg-white border border-border/50 shadow-sm p-8 rounded-2xl">
+                            <Award className="text-accent shrink-0" size={20} />
 
-                      <h3 className="text-xl md:text-2xl font-display text-primary mb-6 font-semibold border-b border-border/40 pb-4">
+                            <span className="text-xs md:text-sm font-semibold text-foreground/90"><strong>Pós-graduações</strong> em Transtornos de Personalidade, Neuropsicologia e Existencialismo</span>
 
-                        O acompanhamento funciona em três etapas:
+                          </div>
 
-                      </h3>
+                          <div className="flex items-center gap-2 bg-white p-3 rounded-lg border border-border/50">
 
-                      <ul className="space-y-6 text-base md:text-lg text-foreground/80">
+                            <Clock className="text-accent shrink-0" size={20} />
 
-                        <li className="flex items-start gap-4">
+                            <span className="text-xs md:text-sm font-semibold text-foreground/90"><strong>+3.000 horas</strong> de atendimento clínico</span>
 
-                          <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">1</span>
+                          </div>
 
-                          <span><strong>Estabilizar o momento atual</strong> — o que está por um fio agora é a prioridade.</span>
+                        </div>
 
-                        </li>
-
-                        <li className="flex items-start gap-4">
-
-                          <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">2</span>
-
-                          <span><strong>Compreender a dinâmica</strong> — os padrões, os gatilhos, o que se repete e por quê.</span>
-
-                        </li>
-
-                        <li className="flex items-start gap-4">
-
-                          <span className="w-8 h-8 rounded-full bg-accent/20 text-accent flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">3</span>
-
-                          <span><strong>Trabalhar o fundo</strong> — autonomia, autoconhecimento e critério para que relações semelhantes não se repitam.</span>
-
-                        </li>
-
-                      </ul>
+                      </div>
 
                     </div>
 
-                    
+                  </div>
 
-                    {/* QUEM BUSCA AJUDA PARA OUTRA PESSOA */}
+                  
 
-                    <h3 className="text-xl md:text-2xl font-display text-primary mb-6 font-semibold pt-12">
+                  {/* 3.3 O QUE COSTUMA TRAZER AS PESSOAS */}
 
-                      E quem busca ajuda para outra pessoa?
+                  <div id="trazer" className="scroll-mt-28 pt-10 md:pt-14 border-t border-border/30">
 
-                    </h3>
+                    <h2 className="text-center mb-10">O que costuma trazer as pessoas</h2>
 
                     <p>
 
-                      Esse caminho é mais comum do que parece: você chegou até aqui pensando no seu companheiro, na sua companheira ou em alguém próximo — porque enxerga comportamentos narcisistas na pessoa.
+                      A maioria chega quando percebe que <strong>não está mais conseguindo lidar sozinha</strong>.
 
                     </p>
 
                     <p>
 
-                      Primeiro, uma clareza que poupa tempo e expectativa: o <strong>diagnóstico de Transtorno de Personalidade Narcisista só acontece por meio de uma bateria completa de avaliação psicológica</strong> — outro tipo de trabalho, que eu não realizo. Mas aqui está o que importa: <strong>comportamentos narcisistas não pertencem a um transtorno — qualquer pessoa pode reproduzi-los</strong>. E mesmo sem nenhum rótulo ou diagnóstico fechado, lidar com esses comportamentos <strong>produz mudanças diretas na relação</strong>: no que se repete, no que machuca e no que pode, de fato, mudar.
+                      Muitas vezes a relação está <strong>por um fio</strong>. A busca natural é por alguma forma de alívio ou clareza.
 
                     </p>
 
                     <p>
 
-                      O único ponto que não depende de você: a vontade de começar precisa ser de quem vai passar pelo processo. Terapia não se impõe — e insistir demais, por fora, costuma fortalecer exatamente as defesas que o trabalho precisaria transformar.
+                      Resolver esse momento importa. Mas costuma ser <strong>só o começo</strong>. O trabalho que sustenta mudança real costuma ir além da crise que trouxe a pessoa até aqui.
+
+                    </p>
+
+                  </div>
+
+                  
+
+                  {/* 3.4 COMO O TRABALHO ACONTECE */}
+
+                  <div id="como-acontece" className="scroll-mt-28 pt-10 md:pt-14 border-t border-border/30">
+
+                    <h2 className="text-center mb-10">Como o trabalho acontece</h2>
+
+                    <p>
+
+                      <strong>Cada pessoa funciona de um jeito.</strong> Nas primeiras sessões, o foco é entender como você se relaciona consigo e com os outros. É um momento de escuta e investigação.
+
+                    </p>
+
+                    <p>
+
+                      Depois, o trabalho se aprofunda. Olhamos padrões, efeitos e o que se repete. Com o tempo, as sessões deixam de girar apenas em torno da relação problemática e passam a incluir outras áreas da vida.
+
+                    </p>
+
+                    <p>
+
+                      <strong>Não existe roteiro engessado.</strong> A conversa conduz. Ao mesmo tempo, existe uma direção clara: sair do lugar de confusão ou justificativa e conseguir olhar com mais amplitude.
+
+                    </p>
+
+                  </div>
+
+                  
+
+                  {/* 3.5 O TRABALHO COM QUEM VIVEU A RELAÇÃO */}
+
+                  <div id="quem-viveu" className="scroll-mt-28 pt-10 md:pt-14 border-t border-border/30">
+
+                    <h2 className="text-center mb-10">O trabalho com quem viveu a relação</h2>
+
+                    <p>
+
+                      Relações assim costumam <strong>prender a pessoa no detalhe</strong>.
+
+                    </p>
+
+                    <p>
+
+                      A mente fica ocupada tentando decifrar intenções, silêncios e mudanças de comportamento. Perguntas como "por que ele fez isso?" ou "qual a intenção dela?" consomem muita energia.
 
                     </p>
 
                     <p className="mb-2">
 
-                      Para dimensionar a diferença entre os dois casos, uma distinção que ajuda:
+                      Enquanto isso, uma pergunta mais simples fica em segundo plano:
 
                     </p>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-10">
+                    <div className="bg-white/60 p-6 border-l-4 border-primary shadow-sm">
 
-                      <div className="bg-primary/5 p-8 rounded-xl border border-primary/10 shadow-sm hover:shadow-md transition-shadow">
+                      <p className="text-xl md:text-2xl font-display text-primary font-semibold text-center mb-0">
 
-                        <h4 className="text-xl font-display text-primary mb-4 font-semibold">O Narcisista Patológico</h4>
+                        Essa relação faz bem para mim?
 
-                        <p className="text-base md:text-lg leading-relaxed mb-0">
-
-                          Faz os outros sofrerem com a sua condição, mas ele mesmo não sofre. Vive protegido por uma realidade fantasiosa impenetrável, onde a culpa nunca é dele. <strong>Todas as interações deixam a outra pessoa se sentindo cansada e invalidada</strong>.
-
-                        </p>
-
-                      </div>
-
-                      <div className="bg-accent/5 p-8 rounded-xl border border-accent/10 shadow-sm hover:shadow-md transition-shadow">
-
-                        <h4 className="text-xl font-display text-accent mb-4 font-semibold">A reprodução de traços</h4>
-
-                        <p className="text-base md:text-lg leading-relaxed mb-0">
-
-                          Qualquer pessoa pode reproduzir comportamentos narcisistas — a diferença é que o mecanismo não funciona o tempo todo. Ela causa dor nos outros, <strong>mas também sofre muito</strong>: assiste à ruína dos seus vínculos, sente a perda e fica perdida sobre quais erros são, de fato, seus.
-
-                        </p>
-
-                      </div>
+                      </p>
 
                     </div>
 
-                    
+                    <p className="pt-6">
 
-                    {/* CTA */}
+                      Isso não acontece por acaso. No início, quem reproduz comportamentos narcisistas costuma validar e reforçar a outra pessoa. Com o tempo, esse reforço se torna imprevisível. Sinais que antes eram claros deixam de acontecer. A mente fica cheia de pontas soltas e insiste em tentar fechá-las.
 
-                    <div className="flex justify-center mt-10 mb-14">
+                    </p>
+
+                    <p>
+
+                      É nesse processo que a presença do outro se instala com força e a <strong>dependência emocional</strong> se forma.
+
+                    </p>
+
+                    <p>
+
+                      No trabalho, o começo é acolhedor. Sem suposições e sem pressa para interpretar. Depois, ajudamos a pessoa a sair do detalhe e olhar a relação como um todo. Também olhamos o que outras experiências da vida ensinaram sobre se colocar em segundo plano.
+
+                    </p>
+
+                  </div>
+
+                  
+
+                  {/* 3.6 O TRABALHO COM QUEM PERCEBE COMPORTAMENTOS NARCISISTAS EM SI */}
+
+                  <div id="quem-percebe" className="scroll-mt-28 pt-10 md:pt-14 border-t border-border/30">
+
+                    <h2 className="text-center mb-10">O trabalho com quem percebe comportamentos narcisistas em si</h2>
+
+                    <p>
+
+                      <strong>Aqui a postura muda.</strong> Continua havendo escuta, mas o trabalho é mais direto. O foco passa a ser como a pessoa lê o outro e como interpreta o efeito do próprio comportamento nas relações.
+
+                    </p>
+
+                    <p>
+
+                      Muitas vezes existe dificuldade real em perceber esse impacto. Também é comum aparecerem justificativas que protegem a autoimagem e dificultam o olhar mais honesto.
+
+                    </p>
+
+                    <p>
+
+                      Avançar rápido demais costuma gerar fechamento. Por isso o trabalho é feito com cuidado e constância. O objetivo <strong>não é acusar</strong>. É criar condições para que a pessoa consiga enxergar padrões que antes passavam despercebidos.
+
+                    </p>
+
+                    <div className="bg-white/60 p-6 border-l-4 border-accent shadow-sm">
+
+                      <p className="text-base md:text-lg mb-0">
+
+                        Se você está buscando ajuda para o companheiro ou a companheira, entenda: <strong>terapia não se impõe</strong>. O que é possível de fora é compreender a dinâmica. Entrar no processo é decisão de quem vai fazer o trabalho.
+
+                      </p>
+
+                    </div>
+
+                  </div>
+
+                  
+
+                  {/* 3.7 CTA INTERMEDIÁRIO */}
+
+                  <div className="pt-10 md:pt-14">
+
+                    <p className="text-center max-w-2xl mx-auto mb-8">
+
+                      Se esse trabalho faz sentido para o que você está vivendo, o próximo passo é simples.
+
+                    </p>
+
+                    <div className="flex justify-center">
 
                       <a 
 
@@ -528,7 +634,7 @@ export default function Home() {
 
                       >
 
-                        Agendar Sessão
+                        Quero agendar uma sessão
 
                       </a>
 
@@ -538,45 +644,33 @@ export default function Home() {
 
                   
 
-                  {/* 3.3 O TRABALHO COM QUEM VIVEU (OU VIVE) UMA RELAÇÃO ASSIM */}
+                  {/* 3.8 O QUE ESPERAR DO PROCESSO */}
 
-                  <div id="quem-viveu" className="scroll-mt-28 pt-10 md:pt-14 border-t border-border/30">
+                  <div id="expectativa" className="scroll-mt-28 pt-10 md:pt-14 border-t border-border/30">
 
-                    <h2 className="text-center mb-10">O trabalho com quem viveu (ou vive) uma relação assim</h2>
+                    <h2 className="text-center mb-10">O que esperar do processo</h2>
 
                     <p>
 
-                      <strong>O começo é sem suposições.</strong> Nas primeiras sessões, eu não chego com hipóteses sobre a sua relação nem com interpretações prontas sobre o que você deveria sentir. Muita gente chega depois de anos ouvindo que está "exagerando" — o primeiro movimento, então, é o contrário: ouvir, sem pressa e sem julgamento, no seu tempo.
+                      <strong>Este não é um trabalho de alívio pontual.</strong>
 
                     </p>
 
                     <p>
 
-                      <strong>A sua perspectiva vem primeiro.</strong> Conforme a confiança cresce, o trabalho passa a compreender como você enxerga o mundo e faz sentido das coisas — e essa forma sua de enxergar é respeitada antes de qualquer análise sobre ela. Você não vai precisar provar a sua dor.
+                      Quem costuma permanecer é quem entende que o processo vai além do problema inicial. Quem busca apenas uma fase de alívio, ou quem se sente acusado cedo demais, tende a sair.
 
                     </p>
 
                     <p>
 
-                      Para sobreviver a uma relação assim, muita gente desenvolve uma de duas respostas: a <strong>submissão</strong> — agir conforme a vontade do outro porque é a saída menos dolorosa — ou a <strong>resistência</strong> — lutar, argumentar, reagir sempre na direção oposta. Nos dois casos, a sombra do outro continua a ditar as regras da sua vida. Reconhecer qual é a sua é parte do trabalho.
+                      Em alguns momentos haverá desconforto. <strong>Isso faz parte.</strong> Não é sinal de que algo está errado.
 
                     </p>
 
                     <p>
 
-                      <strong>O momento atual, com pragmatismo.</strong> Se você chega em um momento em que a relação está por um fio, a prioridade imediata é o que está travando a sua vida agora — examinado de forma concreta, em conjunto, sem drama.
-
-                    </p>
-
-                    <p>
-
-                      <strong>Depois, o trabalho de fundo.</strong> Com a situação estabilizada, o acompanhamento foca em <strong>resgatar e reconstruir a sua autonomia</strong>, lidar com a dependência emocional — que costuma estar presente — e suas consequências, e construir condições reais para que relações semelhantes não se repitam.
-
-                    </p>
-
-                    <p>
-
-                      <strong>Passado e presente, juntos.</strong> Esse trabalho olha para os dois: compreender padrões, perceber detalhes que passavam despercebidos, reconhecer relações que deixaram marcas e entender como esses comportamentos afetaram você — e como ainda afetam. Não para reviver a dor, mas para que ela deixe de ditar os seus próximos passos.
+                      Com o tempo, o foco das sessões se amplia. A relação que trouxe a pessoa continua importando, mas deixa de ser o único assunto.
 
                     </p>
 
@@ -584,131 +678,7 @@ export default function Home() {
 
                   
 
-                  {/* 3.4 O TRABALHO COM QUEM PERCEBE COMPORTAMENTOS NARCISISTAS EM SI */}
-
-                  <div id="quem-percebe" className="scroll-mt-28 pt-10 md:pt-14 border-t border-border/30">
-
-                    <h2 className="text-center mb-10">O trabalho com quem percebe comportamentos narcisistas em si</h2>
-
-                    <p>
-
-                      <strong>A postura é mais crítica e direcionada.</strong> A estrutura se parece com a do trabalho anterior, mas a postura é outra: além de acolher, eu questiono. Este grupo costuma chegar com perguntas que já se fez sozinho por muito tempo — e o trabalho é levá-las a sério, uma a uma, mesmo quando a resposta incomoda.
-
-                    </p>
-
-                    <p>
-
-                      <strong>Primeiro, estabilizar.</strong> Se a relação atual está em crise, a prioridade inicial é estabilizá-la — o resto do processo depende dessa base.
-
-                    </p>
-
-                    <p>
-
-                      <strong>Empatia sob exame.</strong> O trabalho compreende a forma como você sente e interpreta empatia — o quanto dela é genuína, o quanto é fabricada — e como você enxerga e trata o outro. Não como condenação: como ponto de partida honesto.
-
-                    </p>
-
-                    <p>
-
-                      <strong>Como você lê o outro.</strong> Quem reproduz comportamentos narcisistas tende a lidar com as relações como se conhecesse o outro melhor do que ele conhece a si mesmo. Isso cria <strong>dependência emocional</strong> e dificuldade em aceitar comportamentos, ideias ou posições do outro que não coincidam com essa leitura. Os mesmos padrões se repetem de formas explícitas e implícitas — e cada relação os reproduz à sua maneira. Por isso, uma parte central do trabalho é olhar para as suas relações atuais e compreender essa dinâmica acontecendo em tempo real.
-
-                    </p>
-
-                    <p>
-
-                      <strong>Versões de si.</strong> É muito comum que as pessoas deste grupo já se façam, sozinhas, as mesmas perguntas que o trabalho faria. Parte do processo é compreender com quantas <strong>versões de si</strong> estamos lidando — e o quão enraizadas elas estão. Cada uma tem suas justificativas prontas, e cada uma vai precisar ser ouvida antes de ser questionada.
-
-                    </p>
-
-                    <p>
-
-                      <strong>Desconstrução.</strong> Entendidos os padrões, começa a parte mais delicada do processo. Sessão após sessão, por meio de perguntas e contradições colocadas na conversa, o objetivo é que você reconheça algo difícil: a imagem que você construiu do outro não é fixa — e nem corresponde, de fato, a quem a pessoa realmente é.
-
-                    </p>
-
-                    <p>
-
-                      Encarar isso costuma gerar um desconforto grande, porque a sensação de onipotência — implícita ou explícita — é o principal mecanismo de defesa de quem reproduz comportamentos narcisistas. Esse desconforto não é sinal de que algo deu errado: é sinal de que o trabalho está acontecendo. E você não vai atravessá-lo sozinho.
-
-                    </p>
-
-                    <p>
-
-                      <strong>Narrativas de autojustificação.</strong> Aos poucos, apoiado no vínculo terapêutico, o trabalho revisa as situações em que a própria mente fugiu do desconforto por meio de narrativas que mantinham tudo em ordem: "fiz isso porque era o melhor para ele", "não foi minha culpa, fui levado pela situação", "meu passado me fez ser desse jeito". O psicólogo Albert Bandura descreveu esses mecanismos como <strong>desengajamento moral</strong> — e eles aparecem com frequência nos comportamentos narcisistas. Reconhecê-los não é virar contra si mesmo: é finalmente enxergar quem está no comando das suas decisões.
-
-                    </p>
-
-                  </div>
-
-                  
-
-                  {/* 3.5 O QUE ESTE TRABALHO É E O QUE NÃO É */}
-
-                  <div id="limites" className="scroll-mt-28 pt-10 md:pt-14 border-t border-border/30">
-
-                    <h2 className="text-center mb-4">O que este trabalho é — e o que não é</h2>
-
-                    <p className="text-center max-w-2xl mx-auto mb-10">
-
-                      Expectativa alinhada desde o começo é o que faz o processo funcionar — por isso, prefiro deixar isso escrito.
-
-                    </p>
-
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
-
-                      <div className="bg-primary/5 p-8 rounded-xl border border-primary/10 shadow-sm hover:shadow-md transition-shadow">
-
-                        <h4 className="text-xl font-display text-primary mb-4 font-semibold">O que você encontra</h4>
-
-                        <ul className="list-disc pl-5 space-y-3 text-base md:text-lg leading-relaxed text-foreground/80">
-
-                          <li>Um acompanhamento semanal, conduzido pela conversa, sem estrutura rígida.</li>
-
-                          <li>Começo sem suposições: as primeiras sessões são para ouvir.</li>
-
-                          <li>Direção clínica declarada: reconstrução de autonomia para quem viveu a relação; postura mais crítica e direcionada para quem percebe os traços em si.</li>
-
-                          <li>Preço e formato transparentes: R$130 por sessão, 100% online, por Google Meet.</li>
-
-                        </ul>
-
-                      </div>
-
-                      <div className="bg-accent/5 p-8 rounded-xl border border-accent/10 shadow-sm hover:shadow-md transition-shadow">
-
-                        <h4 className="text-xl font-display text-accent mb-4 font-semibold">O que você não encontra</h4>
-
-                        <ul className="list-disc pl-5 space-y-3 text-base md:text-lg leading-relaxed text-foreground/80">
-
-                          <li>Diagnóstico ou laudo — isso exige uma bateria de avaliação psicológica, outro tipo de trabalho.</li>
-
-                          <li>Promessa de resultado, prazo ou "cura".</li>
-
-                          <li>Solução imediata para a relação por um fio — resolver o momento atual é só o início do processo.</li>
-
-                          <li>Terapia imposta: o acompanhamento só começa quando a própria pessoa quer — mesmo quando quem procura é o companheiro ou a companheira.</li>
-
-                        </ul>
-
-                      </div>
-
-                    </div>
-
-                    <div className="text-center pt-4 pb-2">
-
-                      <a href="#clinica" className="btn-high-ticket inline-block">
-
-                        Quero iniciar meu processo
-
-                      </a>
-
-                    </div>
-
-                  </div>
-
-                  
-
-                  {/* 3.6 PERGUNTAS FREQUENTES */}
+                  {/* 3.9 PERGUNTAS FREQUENTES */}
 
                   <div id="faq" className="scroll-mt-28 pt-10 md:pt-14 border-t border-border/30">
 
@@ -726,45 +696,17 @@ export default function Home() {
 
                         </summary>
 
-                        <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
+                        <div className="mt-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
 
-                          <p>
+                          <p className="mb-4">
 
-                            Não. O diagnóstico de Transtorno de Personalidade Narcisista exige uma <strong>bateria completa de avaliação psicológica</strong> — outro tipo de trabalho, que eu não realizo.
-
-                          </p>
-
-                          <p>
-
-                            Nas sessões, o foco é outro: entender comportamentos e efeitos, com rótulo ou sem ele.
+                            Não. O diagnóstico de Transtorno de Personalidade Narcisista exige uma <strong>bateria de avaliação psicológica</strong>. Eu não realizo esse tipo de trabalho.
 
                           </p>
 
-                        </div>
+                          <p className="mb-0">
 
-                      </details>
-
-                      <details className="group border border-border/40 bg-white p-6 md:p-8 rounded-2xl cursor-pointer shadow-sm transition-all select-none">
-
-                        <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
-
-                          <span>"Estou buscando ajuda para meu companheiro ou minha companheira. Por onde começamos?"</span>
-
-                          <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
-
-                        </summary>
-
-                        <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
-
-                          <p>
-
-                            Por uma informação que poupa tempo: o acompanhamento só começa quando a própria pessoa quer — <strong>terapia não se impõe</strong>.
-
-                          </p>
-
-                          <p>
-
-                            O que é possível de fora é entender a dinâmica narcisista e o que pode, e o que não pode, ser esperado de um processo. Essa conversa também acontece nas sessões.
+                            Nas sessões, o foco é compreender comportamentos, padrões e efeitos nas relações, com rótulo ou sem ele.
 
                           </p>
 
@@ -776,23 +718,23 @@ export default function Home() {
 
                         <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
 
-                          <span>"E se eu for o narcisista da história?"</span>
+                          <span>"Estou buscando ajuda para meu companheiro ou minha companheira. Faz sentido?"</span>
 
                           <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
 
                         </summary>
 
-                        <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
+                        <div className="mt-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
 
-                          <p>
+                          <p className="mb-4">
 
-                            É uma pergunta que muita gente faz antes da primeira sessão. Se ela existe em você, ela também é <strong>material de trabalho</strong>.
+                            Faz sentido <strong>entender a dinâmica</strong>. Não faz sentido tentar colocar outra pessoa em terapia contra a vontade dela. Terapia não funciona por imposição.
 
                           </p>
 
-                          <p>
+                          <p className="mb-0">
 
-                            O objetivo não é cravar rótulos: é entender por que essas defesas foram construídas — e quanto elas custam nas suas relações.
+                            Nesses casos, o que é possível é a própria pessoa compreender melhor o que está acontecendo e o que pode ser esperado de um processo terapêutico.
 
                           </p>
 
@@ -804,23 +746,23 @@ export default function Home() {
 
                         <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
 
-                          <span>"Isso vai resolver meu problema rápido?"</span>
+                          <span>"E se eu tiver comportamentos narcisistas?"</span>
 
                           <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
 
                         </summary>
 
-                        <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
+                        <div className="mt-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
 
-                          <p>
+                          <p className="mb-4">
 
-                            Se você chega com uma relação por um fio, o primeiro momento do trabalho é estabilizar isso. Mas é só o início: depois vem o processo de autoconhecimento, que é o que sustenta a mudança.
+                            Se essa pergunta existe em você, ela <strong>já é material de trabalho</strong>.
 
                           </p>
 
-                          <p>
+                          <p className="mb-0">
 
-                            Não existe <strong>fórmula mágica</strong> nem prazo garantido — existe direção.
+                            O objetivo não é cravar um rótulo. É compreender o que esses comportamentos protegem, o que eles custam nas relações e o que muda quando a pessoa começa a enxergá-los com mais honestidade.
 
                           </p>
 
@@ -832,23 +774,23 @@ export default function Home() {
 
                         <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
 
-                          <span>"Você vai me dizer o que fazer?"</span>
+                          <span>"O processo é rápido?"</span>
 
                           <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
 
                         </summary>
 
-                        <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
+                        <div className="mt-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
 
-                          <p>
+                          <p className="mb-4">
 
-                            Depende do caso. Com quem viveu uma relação narcisista, o começo é acolher, sem suposições. Com quem percebe os traços em si, a postura é mais crítica e direcionada.
+                            Se a relação está em crise, as primeiras sessões olham para isso. Estabilizar o momento atual é importante, mas costuma ser <strong>só o começo</strong>.
 
                           </p>
 
-                          <p>
+                          <p className="mb-0">
 
-                            Em ambos, o critério que fica no fim é o seu.
+                            O trabalho que sustenta mudança real tende a ser mais amplo e levar mais tempo.
 
                           </p>
 
@@ -866,11 +808,17 @@ export default function Home() {
 
                         </summary>
 
-                        <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
+                        <div className="mt-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
 
-                          <p>
+                          <p className="mb-4">
 
-                            Semanais, de 50 minutos, online por Google Meet, com sigilo. Não há roteiro fixo: a conversa conduz cada sessão.
+                            São semanais, de 50 minutos, online. <strong>Não existe protocolo rígido.</strong> A conversa conduz o que precisa ser trabalhado em cada encontro.
+
+                          </p>
+
+                          <p className="mb-0">
+
+                            Ao mesmo tempo, existe uma direção clara ao longo do processo.
 
                           </p>
 
@@ -882,17 +830,17 @@ export default function Home() {
 
                         <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
 
-                          <span>"Quanto custa?"</span>
+                          <span>"Você atende com urgência?"</span>
 
                           <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
 
                         </summary>
 
-                        <div className="mt-6 space-y-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
+                        <div className="mt-6 text-lg md:text-xl text-foreground/90 leading-relaxed border-t border-border/20 pt-6 cursor-default" onClick={(e) => e.stopPropagation()}>
 
-                          <p>
+                          <p className="mb-0">
 
-                            R$130 por sessão, com agendamento direto pelo WhatsApp.
+                            Sim. Além dos acompanhamentos semanais, realizo <strong>plantão psicológico</strong> e atendimentos com maior proximidade para quem está precisando de acolhimento mais imediato. Na conversa de agendamento damos encaminhamento conforme a necessidade e a disponibilidade.
 
                           </p>
 
@@ -1034,7 +982,7 @@ export default function Home() {
 
         </section>
 
-        {/* SECTION 5: Estrutura do Atendimento e CTA Final */}
+        {/* SECTION 5: Atendimento (reforçado, com plantão) e CTA Final */}
 
         <section className="py-10 md:py-16 bg-primary text-primary-foreground" id="clinica">
 
@@ -1046,47 +994,51 @@ export default function Home() {
 
               
 
+              <h2 className="text-center text-white mb-10 md:mb-12">O Atendimento</h2>
+
               
 
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center bg-white/5 border border-white/10 p-6 md:p-14 shadow-2xl rounded-2xl">
 
                 
 
-                {/* Coluna 1: Como funciona */}
+                {/* Coluna 1: O que está incluso + plantão */}
 
                 <div className="space-y-8">
 
-                  <div className="space-y-6">
+                  <ul className="space-y-5 text-base md:text-lg">
 
-                    <div className="flex gap-4 items-start">
+                    <li className="flex items-start gap-4">
 
-                      <div className="w-8 h-8 rounded-full bg-accent text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-1">1</div>
+                      <span className="w-7 h-7 rounded-full bg-accent text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">✓</span>
 
-                      <div>
+                      <span className="text-primary-foreground/90">Sessões semanais de 50 minutos</span>
 
-                        <h4 className="font-display font-semibold text-white text-lg mb-1">A Primeira Sessão</h4>
+                    </li>
 
-                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">Uma conversa livre de julgamentos morais. O objetivo é compreender a sua história de vida e suas relações, colocando <strong>você no centro do processo.</strong></p>
+                    <li className="flex items-start gap-4">
 
-                      </div>
+                      <span className="w-7 h-7 rounded-full bg-accent text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">✓</span>
 
-                    </div>
+                      <span className="text-primary-foreground/90">100% online, via Google Meet</span>
 
-                    <div className="flex gap-4 items-start">
+                    </li>
 
-                      <div className="w-8 h-8 rounded-full bg-accent text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-1">2</div>
+                    <li className="flex items-start gap-4">
 
-                      <div>
+                      <span className="w-7 h-7 rounded-full bg-accent text-primary flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">✓</span>
 
-                        <h4 className="font-display font-semibold text-white text-lg mb-1">O Acompanhamento</h4>
+                      <span className="text-primary-foreground/90">Valor: <strong>R$130</strong> por sessão</span>
 
-                        <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed">Sessões semanais de 50 minutos, conduzidas online via Google Meet, com total sigilo. Respeitando o tempo do seu processo.</p>
+                    </li>
 
-                      </div>
+                  </ul>
 
-                    </div>
+                  <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed mb-0">
 
-                  </div>
+                    Também realizo <strong className="text-primary-foreground">plantão psicológico</strong> e atendimentos com maior proximidade para quem precisa de acolhimento mais imediato.
+
+                  </p>
 
                 </div>
 
