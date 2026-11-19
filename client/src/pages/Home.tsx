@@ -236,7 +236,7 @@ export default function Home() {
 
               <span className="text-white/80 lg:text-accent uppercase text-xs md:text-sm tracking-widest font-semibold mb-4 block">
 
-                Atendimento 100% online | Especializado em Relações Narcisistas
+                Atendimento 100% online 
 
               </span>
 
