@@ -259,13 +259,6 @@ export default function Home() {
               </p>
 
               
-
-              <p className="text-base md:text-lg text-white/80 lg:text-foreground/60 leading-relaxed mb-10 max-w-xl">
-
-                <strong>Processo claro.</strong> Sem promessa de alívio rápido.
-
-              </p>
-
               
 
               {/* Botão adaptado: Branco no mobile para destacar no fundo escuro */}
@@ -278,7 +271,7 @@ export default function Home() {
 
               >
 
-                Entenda se esse trabalho é para você
+                Entenda sobre
 
               </a>
 
@@ -346,11 +339,11 @@ export default function Home() {
 
                   <div id="para-quem" className="scroll-mt-28">
 
-                    <h2 className="text-center mb-4">Para quem é este trabalho</h2>
+                    <h2 className="text-center mb-4">COMO FUNCIONA O PROCESSO TERAPÊUTICO?</h2>
 
                     <p className="text-center max-w-2xl mx-auto mb-10">
 
-                      Este atendimento é pensado para dois caminhos.
+                      Existem dois focos específicos:
 
                     </p>
 
@@ -372,7 +365,7 @@ export default function Home() {
 
                         <span className="inline-flex items-center gap-2 mt-4 text-accent font-semibold text-xs md:text-sm uppercase tracking-wider transition-transform duration-300 group-hover:translate-y-1">
 
-                          Entenda esse trabalho <span aria-hidden="true">↓</span>
+                          Entenda sobre <span aria-hidden="true">↓</span>
 
                         </span>
 
@@ -394,7 +387,7 @@ export default function Home() {
 
                         <span className="inline-flex items-center gap-2 mt-4 text-accent font-semibold text-xs md:text-sm uppercase tracking-wider transition-transform duration-300 group-hover:translate-y-1">
 
-                          Entenda esse trabalho <span aria-hidden="true">↓</span>
+                          Entenda sobre <span aria-hidden="true">↓</span>
 
                         </span>
 
@@ -468,7 +461,7 @@ export default function Home() {
 
                   <div id="trazer" className="scroll-mt-28 pt-10 md:pt-14 border-t border-border/30">
 
-                    <h2 className="text-center mb-10">O que costuma trazer as pessoas</h2>
+                    <h2 className="text-center mb-10">O que te trouxe aqui?</h2>
 
                     <p>
 
@@ -496,7 +489,7 @@ export default function Home() {
 
                   <div id="como-acontece" className="scroll-mt-28 pt-10 md:pt-14 border-t border-border/30">
 
-                    <h2 className="text-center mb-10">Como o trabalho acontece</h2>
+                    <h2 className="text-center mb-10">COMO FUNCIONA O PROCESSO TERAPÊUTICO?</h2>
 
                     <p>
 
@@ -512,7 +505,7 @@ export default function Home() {
 
                     <p>
 
-                      <strong>Não existe roteiro engessado.</strong> A conversa conduz. Ao mesmo tempo, existe uma direção clara: sair do lugar de confusão ou justificativa e conseguir olhar com mais amplitude.
+                      <strong>Não existe roteiro pronto.</strong> A conversa conduz. Ao mesmo tempo, existe uma direção clara: sair do lugar de confusão ou justificativa e conseguir olhar com mais amplitude.
 
                     </p>
 
@@ -524,7 +517,7 @@ export default function Home() {
 
                   <div id="quem-viveu" className="scroll-mt-28 pt-10 md:pt-14 border-t border-border/30">
 
-                    <h2 className="text-center mb-10">O trabalho com quem viveu a relação</h2>
+                    <h2 className="text-center mb-10">A terapia para quem viveu a relação</h2>
 
                     <p>
 
@@ -556,10 +549,13 @@ export default function Home() {
 
                     <p className="pt-6">
 
-                      Isso não acontece por acaso. No início, quem reproduz comportamentos narcisistas costuma validar e reforçar a outra pessoa. Com o tempo, esse reforço se torna imprevisível. Sinais que antes eram claros deixam de acontecer. A mente fica cheia de pontas soltas e insiste em tentar fechá-las.
-
+                      Isso não acontece por acaso. No início, quem reproduz comportamentos narcisistas costuma validar e reforçar a outra pessoa. 
                     </p>
+                        <p>
+                        Com o tempo, esse reforço se torna imprevisível. Sinais que antes eram claros deixam de acontecer. A mente fica cheia de pontas soltas e insiste em tentar fechá-las.
 
+                        </p>
+                     
                     <p>
 
                       É nesse processo que a presença do outro se instala com força e a <strong>dependência emocional</strong> se forma.
@@ -568,7 +564,7 @@ export default function Home() {
 
                     <p>
 
-                      No trabalho, o começo é acolhedor. Sem suposições e sem pressa para interpretar. Depois, ajudamos a pessoa a sair do detalhe e olhar a relação como um todo. Também olhamos o que outras experiências da vida ensinaram sobre se colocar em segundo plano.
+                      O início do processo terapeutico é acolhedor, sem suposições e sem pressa para interpretar. Depois, iremos observar a relação como um todo, evitando focar em detalhes específicos. Também busca-se compreender o que outras experiências da vida ensinaram sobre se colocar em segundo plano.
 
                     </p>
 
@@ -580,7 +576,7 @@ export default function Home() {
 
                   <div id="quem-percebe" className="scroll-mt-28 pt-10 md:pt-14 border-t border-border/30">
 
-                    <h2 className="text-center mb-10">O trabalho com quem percebe comportamentos narcisistas em si</h2>
+                    <h2 className="text-center mb-10">O processo terapêutico com quem percebe comportamentos narcisistas em si</h2>
 
                     <p>
 
@@ -604,7 +600,7 @@ export default function Home() {
 
                       <p className="text-base md:text-lg mb-0">
 
-                        Se você está buscando ajuda para o companheiro ou a companheira, entenda: <strong>terapia não se impõe</strong>. O que é possível de fora é compreender a dinâmica. Entrar no processo é decisão de quem vai fazer o trabalho.
+                        Se você está buscando ajuda para o companheiro ou a companheira, entenda: <strong>terapia não se impõe</strong>. Só é possível obter resultados consistentes quando existe o interesse em participar.
 
                       </p>
 
@@ -620,7 +616,7 @@ export default function Home() {
 
                     <p className="text-center max-w-2xl mx-auto mb-8">
 
-                      Se esse trabalho faz sentido para o que você está vivendo, o próximo passo é simples.
+                      Se isso faz sentido para o que você está vivendo, o próximo passo é simples.
 
                     </p>
 
@@ -648,7 +644,7 @@ export default function Home() {
 
                   <div id="expectativa" className="scroll-mt-28 pt-10 md:pt-14 border-t border-border/30">
 
-                    <h2 className="text-center mb-10">O que esperar do processo</h2>
+                    <h2 className="text-center mb-10">O QUE ESPERAR DA TERAPIA?</h2>
 
                     <p>
 
@@ -690,7 +686,7 @@ export default function Home() {
 
                         <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
 
-                          <span>"Você faz diagnóstico de narcisismo?"</span>
+                          <span>Você faz diagnóstico de narcisismo?</span>
 
                           <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
 
@@ -718,7 +714,7 @@ export default function Home() {
 
                         <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
 
-                          <span>"Estou buscando ajuda para meu companheiro ou minha companheira. Faz sentido?"</span>
+                          <span>Estou buscando ajuda para meu companheiro ou minha companheira. Faz sentido?</span>
 
                           <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
 
@@ -746,7 +742,7 @@ export default function Home() {
 
                         <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
 
-                          <span>"E se eu tiver comportamentos narcisistas?"</span>
+                          <span>E se eu tiver comportamentos narcisistas?</span>
 
                           <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
 
@@ -756,7 +752,7 @@ export default function Home() {
 
                           <p className="mb-4">
 
-                            Se essa pergunta existe em você, ela <strong>já é material de trabalho</strong>.
+                            Se essa pergunta existe em você, ela <strong>já é parted do processo terapêutico</strong>.
 
                           </p>
 
@@ -774,7 +770,7 @@ export default function Home() {
 
                         <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
 
-                          <span>"O processo é rápido?"</span>
+                          <span>O processo é rápido?</span>
 
                           <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
 
@@ -802,7 +798,7 @@ export default function Home() {
 
                         <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
 
-                          <span>"Como são as sessões?"</span>
+                          <span>Como são as sessões?</span>
 
                           <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
 
@@ -830,7 +826,7 @@ export default function Home() {
 
                         <summary className="font-display text-xl md:text-2xl font-semibold text-primary list-none flex justify-between items-center">
 
-                          <span>"Você atende com urgência?"</span>
+                          <span>Você atende com urgência?</span>
 
                           <span className="text-accent text-3xl font-light transition-transform duration-300 group-open:rotate-45 shrink-0 ml-4">+</span>
 
@@ -840,7 +836,7 @@ export default function Home() {
 
                           <p className="mb-0">
 
-                            Sim. Além dos acompanhamentos semanais, realizo <strong>plantão psicológico</strong> e atendimentos com maior proximidade para quem está precisando de acolhimento mais imediato. Na conversa de agendamento damos encaminhamento conforme a necessidade e a disponibilidade.
+                            Sim. Além dos acompanhamentos semanais, realizo <strong>plantão psicológico</strong> e atendimentos imediatos para quem está precisando de acolhimento direto. Na conversa de agendamento damos encaminhamento conforme a necessidade e a disponibilidade.
 
                           </p>
 
@@ -1036,7 +1032,7 @@ export default function Home() {
 
                   <p className="text-sm md:text-base text-primary-foreground/70 leading-relaxed mb-0">
 
-                    Também realizo <strong className="text-primary-foreground">plantão psicológico</strong> e atendimentos com maior proximidade para quem precisa de acolhimento mais imediato.
+                    Também realizo <strong className="text-primary-foreground">plantão psicológico</strong> para quem precisa de atendimento imediato.
 
                   </p>
 
